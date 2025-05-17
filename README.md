@@ -8,22 +8,7 @@ To identify and characterise repurposing opportunities by analysing the co-occur
 
 ## Project Structure
 
-├── code/
-│ ├── data_extraction.py # Downloads and filters trials from ClinicalTrials.gov API
-│ ├── build_graphs.py # Builds bipartite drug–disease and projected networks
-│ ├── visualisations/
-│ │ ├── drug_centrality_plot.py # Visualises drug centrality rankings
-│ │ ├── disease_projection_plot.py # Shows disease–disease co-occurrence via shared drugs
-│ │ └── candidate_insights.py # Highlights top repurposing candidates
-│ └── centrality_metrics.py # Calculates degree, betweenness, eigenvector centrality
-│
-├── data/ # JSON files with filtered trials per therapeutic area
-├── graph/ # GraphML files for bipartite and projected networks
-├── output/
-│ ├── centrality_summary.csv # CSV file with centrality scores
-│ └── top_candidate_trials.csv # Disease-trial mappings for top drugs
-├── plots/ # All generated figures
-└── README.md
+<pre> <code> ## Project Structure ``` ├── code/ │ ├── data_extraction.py # Downloads and filters trials from ClinicalTrials.gov API │ ├── build_graphs.py # Builds bipartite drug–disease and projected networks │ └── visualisations/ │ ├── drug_centrality_plot.py # Visualises drug centrality rankings │ ├── disease_projection_plot.py # Shows disease–disease co-occurrence via shared drugs │ └── candidate_insights.py # Highlights top repurposing candidates │ └── centrality_metrics.py # Calculates degree, betweenness, eigenvector centrality ├── data/ # JSON files with filtered trials per therapeutic area ├── graph/ # GraphML files for bipartite and projected networks ├── output/ │ ├── centrality_summary.csv # CSV file with centrality scores │ └── top_candidate_trials.csv # Disease-trial mappings for top drugs ├── plots/ # All generated figures └── README.md ``` </code> </pre>
 
 
 ## Methodology Overview
