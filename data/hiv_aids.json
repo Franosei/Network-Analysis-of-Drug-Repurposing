@@ -1,0 +1,3339 @@
+[
+  {
+    "nctId": "NCT05911360",
+    "title": "A Phase 3b, Multicenter, Single-arm, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Switching to DTG/3TC Single Tablet Regimen Administered Once Daily From a Bictegravir/Emtricitabine/Tenofovir Alafenamide Single Tablet Regimen in People Living With HIV of at Least 50 Years of Age Who Are Virologically Suppressed",
+    "briefTitle": "A Study to Evaluate Efficacy, Safety and Tolerability in Antiretroviral Therapy (ART)-Experienced Participants of at Least 50 Years of Age Living With Human Immunodeficiency Virus (HIV) With Virologic Suppression Who Switch to DTG/3TC FDC From BIC/FTC/TAF",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-07-07",
+    "completionDate": "2026-02-16",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "DTG/3TC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01074060",
+    "title": "A Phase I/Pilot Study of Intravenous PLERIXAFOR Following Cyclophosphamide Mobilization in Patients With Multiple Myeloma",
+    "briefTitle": "Plerixafor and Filgrastim Following Cyclophosphamide for Stem Cell Mobilization in Patients With Multiple Myeloma",
+    "status": "COMPLETED",
+    "startDate": "2010-04",
+    "completionDate": "2013-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "plerixafor",
+      "cyclophosphamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory Multiple Myeloma",
+      "Stage I Multiple Myeloma",
+      "Stage II Multiple Myeloma",
+      "Stage III Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT00192660",
+    "title": "Analysis of Lipodystrophy in HIV-Infected Individuals A Prospective, Non-randomised, 48 Week Study of the Effect of PI Containing and Non-PI Containing Antiretroviral Regimens on the Expression of Adipocyte Specific Genes, Protein Levels and Cellular Structure in HIV-infected Individuals, Naive to Therapy, Who Are Starting Therapy for the First Time",
+    "briefTitle": "HIV Infection And Metabolic Abnormalities Protocol 1 (HAMA001)",
+    "status": "COMPLETED",
+    "startDate": "2003-02",
+    "completionDate": "2007-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lamivudine",
+      "Stavudine",
+      "Didanosine",
+      "Zidovudine",
+      "Tenofovir",
+      "Abacavir",
+      "Efavirenz (EFV)",
+      "Nevirapine",
+      "Indinavir",
+      "Saquinavir",
+      "Amprenavir",
+      "Ritonavir",
+      "Nelfinavir",
+      "Tipranavir",
+      "enfuvirtide (T20)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-Associated Lipodystrophy Syndrome",
+      "Cardiovascular Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00303576",
+    "title": "A Phase I/II Double-Blind, Randomized Study of the Safety, Tolerability and Systemic Absorption of TMC120 Vaginal Microbicide Gel and Matching Placebo in Healthy HIV-Negative Women.",
+    "briefTitle": "A Safety and Tolerability Study of Dapivirine (TMC120) Vaginal Microbicide Gel",
+    "status": "COMPLETED",
+    "startDate": "2005-10",
+    "completionDate": "2006-07",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "dapivirine (TMC120) vaginal gel"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT05193994",
+    "title": "Randomised Double-Blind Placebo-Controlled Phase 3 Trial of Triumeq in Amyotrophic Lateral Sclerosis",
+    "briefTitle": "Triumeq in Amyotrophic Lateral Sclerosis",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-02-24",
+    "completionDate": "2025-06-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dolutegravir, Abacavir and Lamivudine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Amyotrophic Lateral Sclerosis"
+    ]
+  },
+  {
+    "nctId": "NCT02652260",
+    "title": "Phase IIb, Double-Blinded, Multicenter, Randomized Study to Assess the Effect on Central Nervous System (CNS) Toxicity of Switching From ATRIPLA\u2122 (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Subjects.",
+    "briefTitle": "Effects of Switching From ATRIPLA\u2122 (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Participants (MK-1439A-028)",
+    "status": "COMPLETED",
+    "startDate": "2016-03-04",
+    "completionDate": "2024-02-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Doravirine, Tenofovir, Lamivudine - Blinded",
+      "Doravirine, Tenofovir, Lamivudine - Open-Label",
+      "ATRIPLA^TM",
+      "Placebo to ATRIPLA\u2122",
+      "Placebo to Doravirine, Tenofovir, Lamivudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1",
+      "Central Nervous System"
+    ]
+  },
+  {
+    "nctId": "NCT00079560",
+    "title": "THC and Marijuana--Effects in Individuals With HIV/AIDS",
+    "briefTitle": "Comparing the Effects of Smoked and Oral Marijuana in Individuals With HIV/AIDS",
+    "status": "COMPLETED",
+    "startDate": "2001-12",
+    "completionDate": "2005-08",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "dronabinol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00000776",
+    "title": "Dexamethasone in Cryptococcal Meningitis",
+    "briefTitle": "Dexamethasone in Cryptococcal Meningitis",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "1996-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Flucytosine",
+      "Fluconazole",
+      "Amphotericin B",
+      "Dexamethasone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Meningitis, Cryptococcal",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00002376",
+    "title": "A Randomized Controlled Clinical Study to Determine If the Addition of HIV RNA Viral Load Is an Effective Tool in Determining Treatment Regimens for HIV-Infected Patients",
+    "briefTitle": "The Effectiveness of HIV RNA Viral Load Testing in Determining Treatment Type in HIV-Infected Patients",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Indinavir sulfate",
+      "Lamivudine",
+      "Stavudine",
+      "Zidovudine",
+      "Didanosine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01766076",
+    "title": "Use of Atorvastatin as Adjuvant Therapy Among Suboptimal Responders to Antiretroviral Therapy in an African Cohort of HAART-treated Adults: A Randomised Controlled Trial",
+    "briefTitle": "Atorvastatin for HAART Suboptimal Responders",
+    "status": "COMPLETED",
+    "startDate": "2013-01",
+    "completionDate": "2014-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Acquired Immune Deficiency Syndrome Virus"
+    ]
+  },
+  {
+    "nctId": "NCT02174276",
+    "title": "A Phase 2, Randomized, Open-Label Study to Evaluate the Safety and Efficacy of GS-4774 in Combination With Tenofovir Disoproxil Fumarate (TDF) for the Treatment of Subjects With Chronic Hepatitis B and Who Are Currently Not on Treatment",
+    "briefTitle": "Safety and Efficacy of GS-4774 in Combination With Tenofovir Disoproxil Fumarate (TDF) for the Treatment of Participants With Chronic Hepatitis B (CHB) and Who Are Currently Not on Treatment",
+    "status": "COMPLETED",
+    "startDate": "2014-07-24",
+    "completionDate": "2018-05-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tenofovir disoproxil fumarate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Hepatitis B"
+    ]
+  },
+  {
+    "nctId": "NCT02103660",
+    "title": "A Randomized Clinical Trial on the Effects of Progestin-based Contraception in the Genital Tract of HIV-infected and Uninfected Women",
+    "briefTitle": "Clinical Trial on the Effects of Progestin-based Contraception in the Genital Tract of HIV-infected and Uninfected Women",
+    "status": "COMPLETED",
+    "startDate": "2014-04-08",
+    "completionDate": "2017-03-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Depo-Medroxyprogesterone Acetate",
+      "Progestin Contraceptive (Jadelle)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "Contraception"
+    ]
+  },
+  {
+    "nctId": "NCT00070694",
+    "title": "An Investigation of the Antidepressant Efficacy of the 5-HT2A Antagonist, M100907 in Combination With Escitalopram in Treatment Resistant Depression",
+    "briefTitle": "An Investigation of the Antidepressant Efficacy of the 5-HT2A Antagonist, M100907, in Combination With Citalopram in Treatment Resistant Depression",
+    "status": "COMPLETED",
+    "startDate": "2003-09",
+    "completionDate": "2004-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MDL100.907"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Depressive Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT02154360",
+    "title": "A Phase IB, Open Label Study to Examine the Safety, Pharmacokinetic Characteristics and Anti-Inflammatory Effects of the NK-1R Antagonist, Aprepitant, In HIV-Infected Subjects Receiving Atazanavir/Ritonavir Or Darunavir/Ritonavir",
+    "briefTitle": "Pharmacokinetic Characteristics and Anti-Inflammatory Effects of Aprepitant In HIV-Infected Subjects",
+    "status": "COMPLETED",
+    "startDate": "2014-05",
+    "completionDate": "2016-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Aprepitant"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT02530060",
+    "title": "An Open-Label Study to Evaluate the Pharmacokinetics of Rilpivirine/Tenofovir/Emtricitabine After a Single-Oral Administration of a Rilpivirine/Tenofovir Disoproxil Fumarate/Emtricitabine Fixed-Dose Combination Tablet in Healthy Japanese Adult Male Subjects",
+    "briefTitle": "A Study to Evaluate the Pharmacokinetics of Rilpivirine/Tenofovir/Emtricitabine After a Single-Oral Administration in Healthy Japanese Adult Male Participants",
+    "status": "COMPLETED",
+    "startDate": "2015-08",
+    "completionDate": "2015-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Rilpivirine/Tenofovir Disoproxil Fumarate/Emtricitabine FDC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT03998176",
+    "title": "A Phase 4, Single-Arm Study of the Efficacy and Safety of Bictegravir/Emtricitabine/Tenofovir Alafenamide in HIV-1 Infected Patients With Active Illicit Substance Use",
+    "briefTitle": "Bictegravir/Emtricitabine/Tenofovir Alafenamide (B/F/TAF) in HIV-1 Infected Patients With Active Illicit Substance usE",
+    "status": "COMPLETED",
+    "startDate": "2019-10-09",
+    "completionDate": "2022-04-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bictegravir/emtricitabine/tenofovir alafenamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1-infection"
+    ]
+  },
+  {
+    "nctId": "NCT00845676",
+    "title": "Treatment of Acute Hepatitis C Virus in HIV Co-Infection",
+    "briefTitle": "Treatment of Acute Hepatitis C Virus in HIV Co-Infection",
+    "status": "COMPLETED",
+    "startDate": "2008-03",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pegylated interferon alfa-2a + Ribavirin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis C",
+      "Human Immunodeficiency Virus",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01955460",
+    "title": "A Pilot Study of Lymphodepletion Plus Adoptive Cell Transfer With TGF-Beta Resistant (DNRII) and NGFR Transduced T-Cells Followed by High Dose Interleukin-2 in Patients With Metastatic Melanoma",
+    "briefTitle": "Genetically Modified T-Cells Followed by Aldesleukin in Treating Patients With Stage III-IV Melanoma",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2014-10-15",
+    "completionDate": "2027-10-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Cyclophosphamide",
+      "Fludarabine Phosphate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Metastatic Melanoma",
+      "Stage III Cutaneous Melanoma AJCC v7",
+      "Stage IIIA Cutaneous Melanoma AJCC v7",
+      "Stage IIIB Cutaneous Melanoma AJCC v7",
+      "Stage IIIC Cutaneous Melanoma AJCC v7",
+      "Stage IV Cutaneous Melanoma AJCC v6 and v7"
+    ]
+  },
+  {
+    "nctId": "NCT03637660",
+    "title": "A Phase 4 Comparative Trial of Benzathine Penicillin G 2.4 Million Units Administered as a Single Dose Versus Three Successive Weekly Doses for Treatment of Early Syphilis in Subjects With or Without HIV Infection",
+    "briefTitle": "Phase 4 Comparative Trial of Benzathine Penicillin G for Treatment of Early Syphilis in Subjects With or Without HIV Infection",
+    "status": "COMPLETED",
+    "startDate": "2018-10-31",
+    "completionDate": "2023-03-20",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Benzathine Penicillin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Syphilis"
+    ]
+  },
+  {
+    "nctId": "NCT03141060",
+    "title": "A Phase I/II Open-Label, Single-Arm Study to Evaluate the Pharmacokinetics, Safety, and Tolerability of Delamanid in Combination With Optimized Multidrug Background Regimen (OBR) for Multidrug-Resistant Tuberculosis (MDR-TB) in Children With MDR-TB With and Without HIV",
+    "briefTitle": "Evaluating the Pharmacokinetics, Safety, and Tolerability of Delamanid in Combination With Optimized Multidrug Background Regimen (OBR) for Multidrug-Resistant Tuberculosis (MDR-TB) in HIV-Infected and HIV-Uninfected Children With MDR-TB",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-01-30",
+    "completionDate": "2026-07-20",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Delamanid",
+      "Optimized multidrug background regimen (OBR) for children with MDR-TB"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Tuberculosis",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00071760",
+    "title": "A 48 Week, Phase II, Open-label, 2-cohort, Multicenter Study to Evaluate the Pharmacokinetics, Safety, Tolerability and Antiviral Activity of GW433908 and GW433908/RTV When Administered to HIV-1 Infected Protease Inhibitor (PI) Naive and PI-experienced Pediatric Subjects Aged 4 Weeks to <2 Years.",
+    "briefTitle": "Study Of An Investigational Regimen Including FDA Approved HIV Drugs In HIV-Infected Pediatric Subjects",
+    "status": "COMPLETED",
+    "startDate": "2003-10-23",
+    "completionDate": "2022-03-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GW433908",
+      "ritonavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00312182",
+    "title": "Evaluation Of The Effect Of Nelfinavir On QT Intervals At Steady-State After Twice-Daily Administration Of Nelfinavir Tablets To Healthy Volunteers",
+    "briefTitle": "Thorough QT Study of Nelfinavir",
+    "status": "COMPLETED",
+    "startDate": "2006-03",
+    "completionDate": "2006-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Nelfinavir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Volunteers"
+    ]
+  },
+  {
+    "nctId": "NCT00885482",
+    "title": "Pilot Study for the Evaluation of the Safety and the Feasibility of Treatment Simplification to Atazanavir/Ritonavir + Lamivudine in Patients Stably Treated With Two NRTIs + Atazanavir/Ritonavir With Optimal Virologic Response.",
+    "briefTitle": "Atazanavir and Lamivudine for Treatment Simplification",
+    "status": "COMPLETED",
+    "startDate": "2009-05",
+    "completionDate": "2011-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lamiduvine (Epivir)",
+      "Atazanavir (Reyataz)",
+      "Ritonavir (Norvir)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01978782",
+    "title": "Pharmacokinetic Drug-drug Interaction Study Between RaltEgravir and CITALopram in Healthy Subjects (RECITAL).",
+    "briefTitle": "Pharmacokinetic Drug-drug Interaction Study Between RaltEgravir and CITALopram in Healthy Subjects (RECITAL).",
+    "status": "COMPLETED",
+    "startDate": "2014-01",
+    "completionDate": "2014-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "raltegravir",
+      "citalopram"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "Depression"
+    ]
+  },
+  {
+    "nctId": "NCT00784420",
+    "title": "Open-Label, Randomized, 3-Way Crossover Study To Estimate The Interaction Between Multiple Dose Raltegravir And UK-453,061 In Healthy Subjects",
+    "briefTitle": "Drug Interaction Study Between Raltegravir And UK-453,061",
+    "status": "COMPLETED",
+    "startDate": "2008-09",
+    "completionDate": "2008-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "UK-453,061",
+      "UK-453,061",
+      "Raltegravir",
+      "Raltegravir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Volunteers"
+    ]
+  },
+  {
+    "nctId": "NCT01027182",
+    "title": "Comparison of Concentration-time Course of Plasma and Intracellular Raltegravir in Healthy Volunteers.",
+    "briefTitle": "Comparison of Concentration-time Course of Plasma and Intracellular Raltegravir in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2009-12",
+    "completionDate": "2010-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Raltegravir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Human Immunodeficiency Virus"
+    ]
+  },
+  {
+    "nctId": "NCT02998320",
+    "title": "Evaluation of Compliance With Treatment by Elvitegravir/Cobicistat/FTC/Tenofovir Alafenamide (E/C/F/TAF) in HIV Post-exposure Prophylaxis (to Infected Blood or Sexual Contact)",
+    "briefTitle": "Evaluation of Compliance With Treatment by Genvoya in HIV Post-exposure Prophylaxis",
+    "status": "COMPLETED",
+    "startDate": "2017-03-10",
+    "completionDate": "2018-09-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Genvoya"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Risk"
+    ]
+  },
+  {
+    "nctId": "NCT03343431",
+    "title": "A Maternal Short Course of Tenofovir Disoproxil Fumarate and Infant Vaccine to Prevent Mother-to-child Transmission of Hepatitis B Virus",
+    "briefTitle": "Antiviral Prophylaxis and Infant Vaccination to Prevent Perinatal Hepatitis B Infection",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-08-02",
+    "completionDate": "2025-01-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Anti-HBV antiviral prophylaxis"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis B",
+      "Pregnancy"
+    ]
+  },
+  {
+    "nctId": "NCT00213031",
+    "title": "A Randomized, Placebo-controlled, Double-blind Trial to Assess Expanded Safety, Acceptability and Preliminary Effectiveness of PC-515 (Lambda Carrageenan) for Vaginal Use as a Possible Microbicide",
+    "briefTitle": "Safety, Acceptability and Preliminary Effectiveness of PC-515 for Vaginal Use as a Possible Microbicide",
+    "status": "COMPLETED",
+    "startDate": "2000-02",
+    "completionDate": "2001-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Carraguard (PC-515)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections",
+      "Chlamydia Trachomatis",
+      "Neisseria Gonorrhoeae",
+      "Trichomonas Vaginitis",
+      "Syphilis",
+      "Herpes Simplex"
+    ]
+  },
+  {
+    "nctId": "NCT01825031",
+    "title": "Reduction of Early mortALITY in HIV-infected African Adults and Children Starting Antiretroviral Therapy: a Randomised Controlled Trial",
+    "briefTitle": "Reduction of EArly mortaLITY in HIV-infected Adults and Children Starting Antiretroviral Therapy",
+    "status": "COMPLETED",
+    "startDate": "2013-06",
+    "completionDate": "2016-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Raltegravir",
+      "Fluconazole",
+      "Azithromycin",
+      "Albendazole",
+      "Isoniazid"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Human Immunodeficiency Virus"
+    ]
+  },
+  {
+    "nctId": "NCT00833482",
+    "title": "Study to Assess the Pharmacokinetic Drug - Drug Interactions Between Atazanavir Plus Ritonavir Coadministered With Voriconazole in Healthy Subjects",
+    "briefTitle": "Drug Interactions Between Voriconazole and Atazanavir Coadministered as Atazanavir/Ritonavir in Healthy Participants",
+    "status": "COMPLETED",
+    "startDate": "2009-09",
+    "completionDate": "2011-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Voriconazole",
+      "Atazanavir",
+      "Ritonavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Human Immunodeficiency Virus Type 1 (HIV-1)",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT03829020",
+    "title": "An Open-Label Phase 1 Study of Metformin and Nelfinavir in Combination With Bortezomib in Patients With Relapsed and/or Refractory Multiple Myeloma",
+    "briefTitle": "Metformin, Nelfinavir, and Bortezomib in Treating Patients With Relapsed and/or Refractory Multiple Myeloma",
+    "status": "COMPLETED",
+    "startDate": "2019-04-17",
+    "completionDate": "2023-11-24",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Bortezomib",
+      "Metformin Hydrochloride",
+      "Nelfinavir Mesylate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Recurrent Plasma Cell Myeloma",
+      "Refractory Plasma Cell Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT00460382",
+    "title": "Prospective Clinical Trial to Assess Safety and Efficacy of DRV/r(TMC 114/r), ETV(TMC 125) and MK-0518 in Addition to OBT in HIV-1 Infected Patients With Limited to No Treatment Options ANRS 139 TRIO",
+    "briefTitle": "Clinical Trial to Assess the Efficacy of Darunavir/Ritonavir (DRV/r), Etravirine (ETV) and Raltegravir (MK-0518) in HIV Patients With Resistant Viruses",
+    "status": "COMPLETED",
+    "startDate": "2007-05",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "raltegravir potassium",
+      "darunavir/ritonavir",
+      "etravirine",
+      "Optimized background regimen"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00001082",
+    "title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled Study of the Safety and Efficacy of Adefovir Dipivoxil (Bis-POM PMEA) in Prolonging Survival of HIV-Infected Individuals With a CD4+ Cell Count of <= 100/mm3 or With a CD4+ Cell Count Both > 100 and <= 200/mm3 and a Nadir CD4+ Cell Count of <= 50/mm3",
+    "briefTitle": "The Safety and Effectiveness of Adefovir Dipivoxil in the Treatment of HIV-Infected Patients",
+    "status": "COMPLETED",
+    "startDate": "1996-12",
+    "completionDate": "1999-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Levocarnitine",
+      "Adefovir dipivoxil",
+      "Adefovir dipivoxil placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cytomegalovirus Infections",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00000682",
+    "title": "A Randomized, Unblinded Trial of Zidovudine Versus ddC in the Treatment of Patients Status Post PCP Who Received Long-Term Zidovudine Therapy in Protocol ACTG 002",
+    "briefTitle": "A Randomized, Unblinded Trial of Zidovudine Versus ddC in the Treatment of Patients Status Post PCP Who Received Long-Term Zidovudine Therapy in Protocol ACTG 002",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "1992-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Zidovudine",
+      "Zalcitabine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01694420",
+    "title": "Treatment of Acute HIV Infection With the Elvitegravir, Cobicistat, Emtricitabine, and Tenofovir Disoproxil Fumarate, A Pilot Study of Response to Therapy and HIV Pathogenesis",
+    "briefTitle": "Treatment of Acute HIV Infection With Quad Fixed-dose Combination (FDC) Tablet",
+    "status": "COMPLETED",
+    "startDate": "2012-09",
+    "completionDate": "2017-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "(FDC) ELV/COBI/FTC/TDF"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV"
+    ]
+  },
+  {
+    "nctId": "NCT03279120",
+    "title": "Phase I, 90-Day Safety, Pharmacokinetic, And Pharmacodynamic Study Of Intravaginal Rings Releasing Tenofovir And Levonorgestrel",
+    "briefTitle": "Safety, PK, and PD Study of IVRs Releasing TFV and LNG",
+    "status": "COMPLETED",
+    "startDate": "2017-09-28",
+    "completionDate": "2018-12-26",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "TFV/LNG IVR",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Anti-Infective Agents",
+      "Anti-Retroviral Agents",
+      "Contraceptive Usage"
+    ]
+  },
+  {
+    "nctId": "NCT06444620",
+    "title": "Efficacy, Safety and Tolerability of Switching to DTG/3TC Single Tablet Regimen From B/F/TAF in Older Persons Living With HIV in Kenya",
+    "briefTitle": "B/F/TAF to DTG/3TC Switch Study",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-07-22",
+    "completionDate": "2026-07-22",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "DTG/3TC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1-infection"
+    ]
+  },
+  {
+    "nctId": "NCT00055120",
+    "title": "A Phase IV Study of Antiretroviral Therapy for HIV Infected Adults Presenting With Acute Opportunistic Infections: Immediate Versus Deferred Initiation of Antiretroviral Therapy",
+    "briefTitle": "When to Start Anti-HIV Drugs in Patients With Opportunistic Infections",
+    "status": "COMPLETED",
+    "startDate": "2003-03",
+    "completionDate": "2007-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Emtricitabine/tenofovir disoproxil fumarate",
+      "Lopinavir/ritonavir",
+      "Stavudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections",
+      "AIDS-Related Opportunistic Infections"
+    ]
+  },
+  {
+    "nctId": "NCT03917420",
+    "title": "Quantification of Estradiol's Impact on Nucleotides in Different Cellular Populations of the Lower Gastrointestinal Tract",
+    "briefTitle": "Quantification of Estradiol's Impact on Nucleotides in Cellular Populations of the Lower GI Tract",
+    "status": "COMPLETED",
+    "startDate": "2019-03-26",
+    "completionDate": "2019-09-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Tenofovir 300Mg Oral Tablet",
+      "Emtricitabine 200 MG"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV/AIDS"
+    ]
+  },
+  {
+    "nctId": "NCT00096382",
+    "title": "Treatment of Patients With Metastatic Melanoma Using a Transplant of Autologous Lymphocytes Reactive With Tumor Following a Myeloablative Lymphocyte Depleting Regimen of Chemotherapy, Total Body Irradiation and Reconstitution With CD34+ Cells",
+    "briefTitle": "Cyclophosphamide, Fludarabine, and Total-Body Irradiation Followed By Cellular Adoptive Immunotherapy, Autologous Stem Cell Transplantation, and Interleukin-2 in Treating Patients With Metastatic Melanoma",
+    "status": "COMPLETED",
+    "startDate": "2004-09",
+    "completionDate": "2009-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "cyclophosphamide",
+      "fludarabine phosphate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Melanoma (Skin)"
+    ]
+  },
+  {
+    "nctId": "NCT00013520",
+    "title": "Phase III, Randomized, Double-Blind Comparison of Three Protease Inhibitor-Sparing Regimens for the Initial Treatment of HIV Infection",
+    "briefTitle": "Comparison of Three Different Initial Treatments Without Protease Inhibitors for HIV Infection",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2005-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abacavir sulfate, Lamivudine and Zidovudine",
+      "Atazanavir",
+      "Lamivudine/Zidovudine",
+      "Abacavir sulfate",
+      "Efavirenz",
+      "Nevirapine",
+      "Lamivudine",
+      "Stavudine",
+      "Zidovudine",
+      "Didanosine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT05077527",
+    "title": "Axicabtagene Ciloleucel in Relapsed or Refractory HIV-Associated Aggressive B-Cell Non-Hodgkin Lymphoma",
+    "briefTitle": "Immune Cell Therapy (CAR-T) for the Treatment of Patients With HIV and B-Cell Non-Hodgkin Lymphoma",
+    "status": "RECRUITING",
+    "startDate": "2024-05-03",
+    "completionDate": "2027-01-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Cyclophosphamide",
+      "Fludarabine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "AIDS-Related Diffuse Large B-cell Lymphoma",
+      "AIDS-Related Non-Hodgkin Lymphoma",
+      "HIV Infection",
+      "Recurrent Diffuse Large B-Cell Lymphoma",
+      "Recurrent Grade 3b Follicular Lymphoma",
+      "Recurrent High Grade B-Cell Lymphoma",
+      "Recurrent Non-Hodgkin Lymphoma",
+      "Recurrent Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+      "Recurrent Transformed B-Cell Non-Hodgkin Lymphoma",
+      "Refractory Diffuse Large B-Cell Lymphoma",
+      "Refractory Grade 3b Follicular Lymphoma",
+      "Refractory High Grade B-Cell Lymphoma",
+      "Refractory Non-Hodgkin Lymphoma",
+      "Refractory Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+      "Refractory Transformed B-Cell Non-Hodgkin Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT00964327",
+    "title": "A Phase IIa Open-label, Randomized Trial to Determine the Antiviral Activity in 60 HIV Positive Subjects With Multiple PI Resistant Strains, Receiving Either Control Treatment or a Daily Dose of 800, 1600, 2400 or 3600 mg TMC114 (Darunavir) for 13 Days Followed by a Single Dose on Day 14",
+    "briefTitle": "TMC114-C201: A Study to Determine the Antiviral Activity of TMC114 in Patients With Multiple Protease Inhibitor (PI) Resistant Human Immunodeficiency Virus (HIV) Strains",
+    "status": "COMPLETED",
+    "startDate": "2001-08",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "TMC114"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01288573",
+    "title": "A Phase 1/2 Combined Dose Ranging and Randomized, Open-label, Comparative Study of the Efficacy and Safety of Plerixafor in Addition to Standard Regimens for Mobilization of Haematopoietic Stem Cells Into Peripheral Blood, and Subsequent Collection by Apheresis, Versus Standard Mobilization Regimens Alone in Pediatric Patients, Aged 1 to <18 Years, With Solid Tumours Eligible for Autologous Transplants.",
+    "briefTitle": "A Combined Study in Pediatric Cancer Patients for Dose Ranging and Efficacy/Safety of Plerixafor Plus Standard Regimens for Mobilization Versus Standard Regimens Alone",
+    "status": "COMPLETED",
+    "startDate": "2014-03-03",
+    "completionDate": "2017-05-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "plerixafor",
+      "plerixafor",
+      "plerixafor"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Ewing's Sarcoma/Soft Tissue Sarcoma",
+      "Neuroblastoma",
+      "Brain Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT02634073",
+    "title": "An Open-label Single-Center, 4-Period William's Cross-Over Design Drug Interaction Trial to Determine the Effects of Sorbitol-Containing Solutions on Lamivudine Exposure Following Administration of Lamivudine Oral Solution in Healthy Adult Subjects",
+    "briefTitle": "A Phase IV, Open Label, 4-period Cross-over Study to Investigate a Drug Interaction Between Lamivudine and Sorbitol Oral Solutions in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2016-01-01",
+    "completionDate": "2016-03-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lamivudine",
+      "Sorbitol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus"
+    ]
+  },
+  {
+    "nctId": "NCT00994773",
+    "title": "A Pilot Trial of Simvastatin Alone and Added to Tenofovir or Entecavir for the Treatment of Chronic Hepatitis B",
+    "briefTitle": "Simvastatin for the Treatment of Chronic Hepatitis B",
+    "status": "COMPLETED",
+    "startDate": "2009-12",
+    "completionDate": "2011-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Simvastatin",
+      "Tenofovir",
+      "Entecavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis B"
+    ]
+  },
+  {
+    "nctId": "NCT00348673",
+    "title": "A Randomised, Double Blind, Placebo-controlled, Multicenter Study in Asymptomatic HIV Infected Patients to Investigate Pharmacodynamics, Pharmacokinetics, Safety and Toleration of UK-453,061",
+    "briefTitle": "A Study in Asymptomatic HIV Infected Patients to Investigate Pharmacodynamics, Pharmacokinetics, Safety and Toleration of UK-453,061",
+    "status": "COMPLETED",
+    "startDate": "2006-02",
+    "completionDate": "2007-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "UK-453,061",
+      "UK-453,061"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1"
+    ]
+  },
+  {
+    "nctId": "NCT00001027",
+    "title": "A Phase I/II Trial of Parenteral Pentamidine for PCP Prophylaxis in HIV-Infected Children Who Are Intolerant to Oral Trimethoprim-Sulfamethoxazole",
+    "briefTitle": "A Study of Pentamidine in the Prevention of Pneumocystis Carinii Pneumonia (PCP) in HIV-Infected Children Who Cannot Take Trimethoprim-Sulfamethoxazole",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "1996-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Pentamidine isethionate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pneumonia, Pneumocystis Carinii",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT02159027",
+    "title": "Maraviroc and NeuroAIDS Pathogenesis",
+    "briefTitle": "Maraviroc and NeuroAIDS Pathogenesis",
+    "status": "COMPLETED",
+    "startDate": "2015-06",
+    "completionDate": "2019-02",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Maraviroc",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "AIDS Dementia Complex"
+    ]
+  },
+  {
+    "nctId": "NCT05852873",
+    "title": "PAxlovid loNg cOvid-19 pRevention triAl With recruitMent In the Community in Norway",
+    "briefTitle": "PAxlovid loNg cOvid-19 pRevention triAl With recruitMent In the Community in Norway",
+    "status": "RECRUITING",
+    "startDate": "2023-05-12",
+    "completionDate": "2026-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Nirmatrelvir/ritonavir",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Post COVID-19 Condition, Unspecified",
+      "SARS-CoV2 Infection",
+      "COVID-19"
+    ]
+  },
+  {
+    "nctId": "NCT05468073",
+    "title": "Therapeutic Evaluation of Low-dose IL-2-based Immunomodulatory Approach in Patients With Early AD",
+    "briefTitle": "Therapeutic Evaluation of Low-dose IL-2-based Immunomodulatory Approach in Patients With Early AD",
+    "status": "RECRUITING",
+    "startDate": "2022-10-11",
+    "completionDate": "2026-09-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Proleukin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00000673",
+    "title": "A Phase I/II Open-Labelled Trial of Intravitreal Ganciclovir Salvage Therapy for AIDS Patients With Active CMV Retinitis Who Are Intolerant of Systemic Therapy",
+    "briefTitle": "A Phase I/II Open-Labelled Trial of Intravitreal Ganciclovir Salvage Therapy for AIDS Patients With Active CMV Retinitis Who Are Intolerant of Systemic Therapy",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "1993-05",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ganciclovir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cytomegalovirus Retinitis",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT02202473",
+    "title": "",
+    "briefTitle": "Oxymatrine Plus Lamivudine Combination Therapy Versus Lamivudine Monotherapy for Chronic Hepatitis B Infected Subjects",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lamivudine",
+      "Lamivudine+Oxymatrine Capsules"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Hepatitis B"
+    ]
+  },
+  {
+    "nctId": "NCT01619527",
+    "title": "A Single-Dose, Open-Label, 3-Panel, Randomized, Pivotal Crossover Study to Assess the Bioequivalence of Darunavir When Co-Administrated With Cobicistat as Either a Fixed Dose Combination Tablet (G006) or as Single Agents Under Fed and Fasted Conditions in Healthy Subjects",
+    "briefTitle": "A Study to Assess the Bioequivalence of Darunavir When Co-Administrated With Cobicistat Under Fed and Fasted Conditions",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "darunavir",
+      "cobicistat"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Participants"
+    ]
+  },
+  {
+    "nctId": "NCT05435027",
+    "title": "A Phase 1 SARS-CoV-2 Vaccine Study to Assess the Safety and Tolerability of GRT-R912, GRT-R914, and GRT-R918 Administered as Prime and/or Boost in Healthy Adult Participants and People Living With HIV",
+    "briefTitle": "Study of Self-Amplifying Messenger Ribonucleic Acid (samRNA) Vaccines Against COVID-19 in Healthy Adults and People Living With Human Immunodeficiency Virus (HIV)",
+    "status": "COMPLETED",
+    "startDate": "2022-02-28",
+    "completionDate": "2024-03-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GRT-R912, samRNA-Spikebeta-TCE11",
+      "GRT-R914, samRNA-Spikebeta-TCE9",
+      "GRT-R918, samRNA-SpikeOmicron-N-TCE11"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "COVID-19",
+      "SARS-CoV-2"
+    ]
+  },
+  {
+    "nctId": "NCT00001073",
+    "title": "A Randomized Phase III Trial of Oral Isotretinoin Versus Observation for Low-Grade Squamous Intraepithelial Lesions in HIV-Infected Women",
+    "briefTitle": "Safety and Effectiveness of Giving Isotretinoin to HIV-Infected Women to Treat Cervical Tumors",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2001-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Isotretinoin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections",
+      "Cervix, Dysplasia"
+    ]
+  },
+  {
+    "nctId": "NCT00268827",
+    "title": "A Comparison of Adverse Events and Quality of Life Before and After Switching From Kaletra Soft-Gel Capsules (SGC) to Kaletra Tablets in an African American Cohort",
+    "briefTitle": "A Comparison Study of Kaletra Soft-Gel Capsules and Kaletra Tablets in an African American Cohort",
+    "status": "COMPLETED",
+    "startDate": "2005-12",
+    "completionDate": "2006-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Kaletra soft-gel capsules switched to Kaletra tablets"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1",
+      "AIDS"
+    ]
+  },
+  {
+    "nctId": "NCT02831673",
+    "title": "A Phase III, Randomised, Double Blind, Multicentre, Parallel Group, Non Inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in Human Immunodeficiency Virus 1 Infected Treatment na\u00efve Adults",
+    "briefTitle": "An Efficacy, Safety, and Tolerability Study Comparing Dolutegravir Plus Lamivudine With Dolutegravir Plus Tenofovir/Emtricitabine in Treatment na\u00efve HIV Infected Subjects (Gemini 1)",
+    "status": "COMPLETED",
+    "startDate": "2016-07-21",
+    "completionDate": "2022-08-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dolutegravir (DTG)",
+      "Lamivudine (3TC)",
+      "Tenofovir disoproxil fumarate/Emtricitabine (TDF/FTC FDC)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00014573",
+    "title": "Phase II Trial Of High Dose Cyclophosphamide, Cisplatin And Carmustine With Stem Cell Reconstitution Followed By Specific Cellular Therapy In Patients With Recurrent Or Refractory Brain Tumors",
+    "briefTitle": "Chemotherapy and Vaccine Therapy Followed by Bone Marrow or Peripheral Stem Cell Transplantation and Interleukin-2 in Treating Patients With Recurrent or Refractory Brain Cancer",
+    "status": "COMPLETED",
+    "startDate": "1998-08",
+    "completionDate": "2004-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "carmustine",
+      "cisplatin",
+      "cyclophosphamide",
+      "paclitaxel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain and Central Nervous System Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT00002227",
+    "title": "A Phase II, Open-Label, Multicenter Study to Characterize the Effectiveness and Safety of Efavirenz in Combination With Stavudine and Lamivudine in Antiretroviral Therapy-Naive HIV-Infected Patients",
+    "briefTitle": "A Study of Efavirenz in HIV-Infected Patients Who Have Never Taken Anti-HIV Drugs",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Efavirenz",
+      "Lamivudine",
+      "Stavudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT03342027",
+    "title": "Optimizing Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+    "briefTitle": "Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+    "status": "COMPLETED",
+    "startDate": "2020-08-01",
+    "completionDate": "2023-07-25",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Bupropion"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "Smoking Cessation"
+    ]
+  },
+  {
+    "nctId": "NCT00002373",
+    "title": "A Phase I/II Trial to Evaluate the Tolerability, Anti-CMV Activity and Pharmacokinetics of 1263W94 Following Multiple Oral Administration of Escalating Doses in HIV-Infected Patients With Asymptomatic CMV Shedding",
+    "briefTitle": "The Safety and Effectiveness of Different Dose Levels of 1263W94 in the Treatment of Cytomegalovirus (CMV) of the Eyes in HIV-Infected Patients",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Maribavir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cytomegalovirus Infections",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT06178627",
+    "title": "A Multi-center, Prospective, Randomized Trial of Amphotericin B in the Initial Antifungal Therapy for Non-HIV Cryptococcal Meningitis Patients",
+    "briefTitle": "Amphotericin B for Non-HIV Cryptococcal Meningitis Patients",
+    "status": "ENROLLING_BY_INVITATION",
+    "startDate": "2023-08-13",
+    "completionDate": "2026-08-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Amphotericin B 0.5 mg/kg/day i.v. combined with flucytosine four times per day orally for the first 4 weeks.",
+      "Amphotericin B 0.7 mg/kg/day i.v. combined with flucytosine four times per day orally for the first 4 weeks."
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cryptococcal Meningitis",
+      "Antifungal Agents"
+    ]
+  },
+  {
+    "nctId": "NCT04619082",
+    "title": "The Efficacy and Safety of TAF as a Prophylactic Antiviral Agent for HBsAg-positive Cancer Patients Receiving Chemotherapy",
+    "briefTitle": "TAF to Prevent HBV Reactivation in Cancer Patients",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-07-01",
+    "completionDate": "2024-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tenofovir alafenamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis B Reactivation"
+    ]
+  },
+  {
+    "nctId": "NCT05646082",
+    "title": "Preliminary Assessment of Safety and Tolerability of Dostarlimab in Combination Antiretroviral Therapy (cART) Refractory HIV Associated Kaposi Sarcoma",
+    "briefTitle": "Preliminary Assessment of Safety and Tolerability of Dostarlimab in Combination Antiretroviral Therapy (cART) Refractory HIV Associated Kaposi Sarcoma",
+    "status": "RECRUITING",
+    "startDate": "2023-05-26",
+    "completionDate": "2026-04-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Dostarlimab in Combination Antiretroviral Therapy"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory HIV Associated Kaposi Sarcoma"
+    ]
+  },
+  {
+    "nctId": "NCT01576731",
+    "title": "Open Randomized Study Comparing Two Alternatives of Antiretroviral Therapy as Post-exposure Prophylaxis to HIV-1: Tenofovir + Emtricitabine + Lopinavir/Ritonavir Versus Tenofovir + Emtricitabine + Raltegravir",
+    "briefTitle": "Study Comparing Two Alternatives of Antiretroviral Therapy as Post-exposure Prophylaxis to HIV-1: Tenofovir + Emtricitabine + Lopinavir/Ritonavir Versus Tenofovir + Emtricitabine + Raltegravir (RAL-PEP)",
+    "status": "COMPLETED",
+    "startDate": "2012-07",
+    "completionDate": "2014-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tenofovir, Emtricitabine, Lopinavir/r",
+      "Tenofovir, Emtricitabine, Raltegravir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT03112031",
+    "title": "A Randomized Trial of Tamoxifen Combined With Amphotericin B and Fluconazole for Cryptococcal Meningitis",
+    "briefTitle": "Treatment With Tamoxifen in Cryptococcal Meningitis",
+    "status": "COMPLETED",
+    "startDate": "2017-10-10",
+    "completionDate": "2018-07-17",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tamoxifen",
+      "Amphotericin B",
+      "Fluconazole"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Meningitis Streptococcal",
+      "Hiv",
+      "Meningitis",
+      "Meningoencephalitis"
+    ]
+  },
+  {
+    "nctId": "NCT00002131",
+    "title": "A Pilot Study of OPC-8212 (Vesnarinone) in Persons With AIDS-Related Kaposi's Sarcoma",
+    "briefTitle": "A Pilot Study of OPC-8212 (Vesnarinone) in Persons With AIDS-Related Kaposi's Sarcoma",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Vesnarinone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sarcoma, Kaposi",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01807182",
+    "title": "Cellular Adoptive Immunotherapy Using Autologous Tumor-Infiltrating Lymphocytes Following Lymphodepletion With Cyclophosphamide and Fludarabine for Patients With Metastatic Melanoma",
+    "briefTitle": "Tumor-Infiltrating Lymphocytes After Combination Chemotherapy in Treating Patients With Metastatic Melanoma",
+    "status": "COMPLETED",
+    "startDate": "2013-08-20",
+    "completionDate": "2021-08-26",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Cyclophosphamide",
+      "Fludarabine Phosphate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Stage III Cutaneous Melanoma AJCC v7",
+      "Stage IIIA Cutaneous Melanoma AJCC v7",
+      "Stage IIIB Cutaneous Melanoma AJCC v7",
+      "Stage IIIC Cutaneous Melanoma AJCC v7",
+      "Stage IV Cutaneous Melanoma AJCC v6 and v7",
+      "Metastatic Melanoma"
+    ]
+  },
+  {
+    "nctId": "NCT00001282",
+    "title": "A Phase I/II Study of the Combination of Azidothymidine and Interleukin-2 (IL-2) in the Treatment of HIV-Infected Patients",
+    "briefTitle": "A Phase I/II Study of the Combination of Azidothymidine and Interleukin-2 (IL-2) in the Treatment of HIV-Infected Patients",
+    "status": "COMPLETED",
+    "startDate": "1991-07",
+    "completionDate": "2002-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Zidovudine (AZT) & Interleukin-2 (IL2)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT02071082",
+    "title": "A Phase 3b Open-label Study of the Efficacy and Safety of Elvitegravir/Cobicistat/Emtricitabine/Tenofovir Alafenamide Single-Tablet Regimen in HIV-1/Hepatitis B Co-infected Adults",
+    "briefTitle": "Efficacy and Safety of E/C/F/TAF (Genvoya\u00ae) in HIV-1/Hepatitis B Co-infected Adults",
+    "status": "COMPLETED",
+    "startDate": "2014-02-25",
+    "completionDate": "2016-10-26",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "E/C/F/TAF"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "HBV"
+    ]
+  },
+  {
+    "nctId": "NCT01346982",
+    "title": "Drug Interactions Between Silimarine And Darunavir/Ritonavir",
+    "briefTitle": "Drug Interactions Between Silimarine and Darunavir/Ritonavir",
+    "status": "COMPLETED",
+    "startDate": "2011-03",
+    "completionDate": "2011-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Silimarine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV"
+    ]
+  },
+  {
+    "nctId": "NCT05357482",
+    "title": "Addition of JSP191 (C-kit Antibody) to Non-myeloablative Hematopoietic Cell Transplantation For Sickle Cell Disease and Beta-Thalassemia",
+    "briefTitle": "Addition of JSP191 (C-kit Antibody) to Nonmyeloablative Hematopoietic Cell Transplantation for Sickle Cell Disease and Beta-Thalassemia",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-05-12",
+    "completionDate": "2027-01-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Hydroxyurea",
+      "Filgrastim (G-CSF)",
+      "Sirolimus",
+      "Plerixafor"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Sickle Cell Anemia",
+      "Beta Thalassemia"
+    ]
+  },
+  {
+    "nctId": "NCT00552682",
+    "title": "Pilot, Opened, Randomized Clinical Trial to Assess the Efficacy of Duloxetine in the Treatment of Fibromialgy in Patients With Infection by HIV 1+",
+    "briefTitle": "Pilot, Opened, Randomized Clinical Trial to Assess the Efficacy of Duloxetine in the Treatment of Fibromialgy in Patients With Infection by HIV 1+",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2009-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Duloxetine 60 mg, QD"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Fibromyalgia",
+      "HIV-1 Infection"
+    ]
+  },
+  {
+    "nctId": "NCT00004582",
+    "title": "A Phase II Study of ABT-378/Ritonavir and Efavirenz in Multiple Protease Inhibitor-Experienced Subjects",
+    "briefTitle": "ABT-378/Ritonavir and Efavirenz in HIV-Infected Patients Who Have Taken More Than One Protease Inhibitor in the Past",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lopinavir/Ritonavir",
+      "Efavirenz"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT03186482",
+    "title": "The Effect of Rifampicin on the Plasma Pharmacokinetics of Emtricitabine (FTC) and Tenofovir Alafenamide Fumarate (TAF) and Intracellular Tenofovir-diphosphate (TFV-DP) and FTC-triphosphate (FTC-TP)",
+    "briefTitle": "RIFT: Effect of Rifampicin on Plasma PK of FTC, TAF and Intracellular TFV-DP & FTC-TP",
+    "status": "COMPLETED",
+    "startDate": "2017-06-01",
+    "completionDate": "2018-01-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Descovy\u00ae (TAF/FTC)",
+      "Viread\u00ae (TDF)",
+      "Rifadin\u00ae (Rifampicin)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV"
+    ]
+  },
+  {
+    "nctId": "NCT03567382",
+    "title": "Arresting Vertical Transmission of Hepatitis B Virus in the Democratic Republic of the Congo: The AVERT-HBV Study",
+    "briefTitle": "Arresting Vertical Transmission of Hepatitis B Virus",
+    "status": "COMPLETED",
+    "startDate": "2018-09-24",
+    "completionDate": "2020-08-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tenofovir Disoproxil Fumarate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis B",
+      "Vertical Transmission of Infectious Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03302182",
+    "title": "An Open-label, Randomized Bioequivalence Study of Ritonavir Versus NORVIR in Healthy Chinese Subjects",
+    "briefTitle": "Bioequivalence Study of Ritonavir Versus NORVIR in Healthy Chinese Subjects",
+    "status": "COMPLETED",
+    "startDate": "2017-09-23",
+    "completionDate": "2017-12-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ritonavir for cycle1 and NORVIR for cycle 2",
+      "NORVIR for cycle 1 and Ritonavir for cycle 2"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Volunteer"
+    ]
+  },
+  {
+    "nctId": "NCT01701882",
+    "title": "A Pilot Study to Assess the Feasibility of Switching, Individuals Receiving Atripla With Continuing Central Nervous System (CNS) Toxicity, to a Fixed Dose Combination of Tenofovir/Emtricitabine/Rilpivirine",
+    "briefTitle": "A Pilot Study to Assess the Feasibility of Switching, Individuals Receiving Atripla With Continuing Central Nervous System (CNS) Toxicity, to a Fixed Dose Combination of Tenofovir/Emtricitabine/Rilpivirine",
+    "status": "COMPLETED",
+    "startDate": "2012-09",
+    "completionDate": "2013-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "tenofovir/emtricitabine/rilpivirine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV"
+    ]
+  },
+  {
+    "nctId": "NCT06786520",
+    "title": "A Phase 1 Single Arm, Repeat Dose Study to Evaluate the Pharmacokinetics, Safety, and Tolerability of Switching to Cabotegravir Ultra Long-acting From Cabotegravir Long-acting in Healthy Adult Volunteers",
+    "briefTitle": "A Study to Evaluate the Pharmacokinetics, Safety, and Tolerability of Cabotegravir Ultra Long-acting (CAB ULA) Following Switch From Cabotegravir Long-acting (CAB LA) in Healthy Adults",
+    "status": "RECRUITING",
+    "startDate": "2025-01-17",
+    "completionDate": "2028-02-29",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CAB LA",
+      "CAB ULA"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT02938520",
+    "title": "A Phase III, Randomized, Multicenter, Parallel-group, Open-Label Study Evaluating the Efficacy, Safety, and Tolerability of Long-Acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor Single Tablet Regimen in HIV-1 Infected Antiretroviral Therapy Naive Adult Participants",
+    "briefTitle": "Study to Evaluate the Efficacy, Safety, and Tolerability of Long-acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor in HIV-1 Infected Therapy Naive Participants",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2016-10-27",
+    "completionDate": "2025-12-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Cabotegravir (CAB) tablet",
+      "Rilpivirine (RPV) tablet",
+      "Cabotegravir - Injectable Suspension (CAB LA)",
+      "Rilpivirine - Injectable Suspension (RPV LA)",
+      "ABC/DTG/3TC STR - Tablet",
+      "DTG Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00849160",
+    "title": "Non-comparative, Opened Study, Evaluating in HIV-1 Infected Patients With Undetectable Viral Load, Treated by an Antiretroviral Combination Including a Protease Inhibitor Boosted With Ritonavir and Administered by Oral Route Twice a Day, the Substitutability of the Current Protease Inhibitor Regimen by the Association Darunavir/Ritonavir 800/100 mg Once a Day to Maintain the Viral Load Under the 50 Copies/ml Limit of Detection After 24 Weeks of Treatment.",
+    "briefTitle": "Study of Protease Inhibitor Regimen Switch in HIV-1 Infected Patients With Undetectable Viral Load to Prove the Non-inferiority of Once Daily Dose Regimen Versus the Current Twice Daily Regimen to Maintain the Viral Load Under the Limit of Detection.",
+    "status": "COMPLETED",
+    "startDate": "2009-05",
+    "completionDate": "2011-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "darunavir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1 Infection",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT02500576",
+    "title": "Phase II Study of MK-3475 in Conjunction With Lymphodepletion, TIL, and High or Low Dose IL-2 in Patients With Metastatic Melanoma",
+    "briefTitle": "Pembrolizumab, Standard Chemotherapy, Tumor Infiltrating Lymphocytes, and High- or Low-Dose Aldesleukin in Treating Patients With Metastatic Melanoma",
+    "status": "COMPLETED",
+    "startDate": "2015-08-07",
+    "completionDate": "2022-10-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Cyclophosphamide",
+      "Fludarabine Phosphate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Metastatic Melanoma",
+      "Stage IIIB Cutaneous Melanoma AJCC v7",
+      "Stage IIIC Cutaneous Melanoma AJCC v7",
+      "Stage IV Cutaneous Melanoma AJCC v6 and v7"
+    ]
+  },
+  {
+    "nctId": "NCT00838760",
+    "title": "Phase I, Double-blind, Randomized, Placebo-controlled Trial to Examine the Safety, Tolerability and Plasma Pharmacokinetics of Increasing Single Oral Doses of TMC558445 With and Without Food, and Increasing Repeated Oral Doses in Combination With a Single Dose of TMC310911",
+    "briefTitle": "PEPI-TiDP23-C103: First-in-Human Study to Examine the Safety, Tolerability, and Plasma Pharmacokinetics of Increasing Single and Repeated Oral Doses of TMC558445 and of a Combined Single Day Dosing of Oral TMC558445 and Oral TMC310911 and Also Oral Darunavir",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2009-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "TMC558445; TMC310911; Darunavir; Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1"
+    ]
+  },
+  {
+    "nctId": "NCT00528060",
+    "title": "Pilot Study to Measure Exposure to Atazanavir, as a Component of Pharmacokinetic Parameters and Adherence Measured With MEMS in Naive HIV-infected Patients Treated Once Daily With Atazanavir Combined to Ritonavir and to Tenofovir/Emtricitabine. ANRS 134 Cophar 3",
+    "briefTitle": "Measure of Pharmacokinetic Parameters and Adherence With MEMS in Naive HIV Infected Patients Treated With Reyataz Once Daily Combined With Norvir and Truvada",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2008-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Atazanavir",
+      "Ritonavir",
+      "Tenofovir/emtricitabine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00046176",
+    "title": "A Phase III, 48-Week, Open-Label, Randomized, Multicenter Study of the Safety and Efficacy of the Abacavir/Lamivudine Fixed-Dose Combination Tablet Administered QD Versus Abacavir + Lamivudine Administered BID in Combination With a PI or NNRTI in Antiretroviral Experienced Patients.",
+    "briefTitle": "A HIV Study Of A Fixed-Dose Combination Tablet In Antiretroviral Experienced Patients",
+    "status": "COMPLETED",
+    "startDate": "2002-08-26",
+    "completionDate": "2004-05-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "abacavir/lamivudine",
+      "abacavir",
+      "lamivudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus I",
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT04345276",
+    "title": "An Open Clinical Trial to Evaluate Danoprevir Sodium Tablets Combined With Ritonavir in the Treatment of SARS-CoV-2 Infection",
+    "briefTitle": "Efficacy and Safety of Ganovo (Danoprevir) Combined With Ritonavir in the Treatment of SARS-CoV-2 Infection",
+    "status": "COMPLETED",
+    "startDate": "2020-03-18",
+    "completionDate": "2020-04-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Danoprevir+Ritonavir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "COVID-19"
+    ]
+  },
+  {
+    "nctId": "NCT04629976",
+    "title": "Randomized, Open-Label, Active Comparator, Multiple Oral Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Anti-Hepatitis B Virus (HBV) Activity of NCO-48 Fumarate in Treatment-Naive Adults With Chronic HBV Infection",
+    "briefTitle": "Activity of NCO-48 Fumarate in Treatment-Naive Adults With Chronic Hepatitis B",
+    "status": "COMPLETED",
+    "startDate": "2021-01-12",
+    "completionDate": "2022-12-28",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "NCO-48 Fumarate 4 mg",
+      "NCO-48 Fumarate 20 mg",
+      "Tenofovir Alafenamide 25 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Hepatitis B"
+    ]
+  },
+  {
+    "nctId": "NCT00005576",
+    "title": "A PHASE I STUDY OF CHIMERIC HUMAN/MURINE ANTI-GD2 MONOCLONAL ANTIBODY (ch14.18) WITH GM-CSF AND INTERLEUKIN-2 (IL-2) IN CHILDREN WITH NEUROBLASTOMA IMMEDIATELY POST AUTOLOGOUS BMT OR PBSC RESCUE",
+    "briefTitle": "Monoclonal Antibody Therapy With Sargramostim and Interleukin-2 in Treating Children With Neuroblastoma",
+    "status": "COMPLETED",
+    "startDate": "2001-01",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "isotretinoin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Disseminated Neuroblastoma",
+      "Recurrent Neuroblastoma",
+      "Regional Neuroblastoma"
+    ]
+  },
+  {
+    "nctId": "NCT02557594",
+    "title": "A Randomized, Open-label, Two-way Crossover Study to Assess the Safety and Pharmacokinetics of DA-2802 319mg and Viread 300mg After a Single Oral Dose in Healthy Male Volunteers",
+    "briefTitle": "Clinical Trial to Assess the Safety and Pharmacokinetics of DA-2802 319mg and Viread 300mg in Healthy Male Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2015-10-06",
+    "completionDate": "2016-03-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Viread 300mg",
+      "DA-2802 319mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT04195776",
+    "title": "A Phase 1 Open Label Study Evaluating the Distribution of a Tenofovir Douche in Combination With Tap Water Douching and Simulated Receptive Anal Intercourse (DREAM-02)",
+    "briefTitle": "Evaluating Distribution of a Tenofovir Douche With Tap Water Douching and Simulated Receptive Anal Intercourse",
+    "status": "COMPLETED",
+    "startDate": "2021-06-01",
+    "completionDate": "2022-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Tenofovir Douche"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV/AIDS",
+      "HIV Prevention"
+    ]
+  },
+  {
+    "nctId": "NCT00344760",
+    "title": "Viral Decay Kinetics During Induction Therapy With or Without the Use of Enfuvirtide in HAART-na\u00c3-ve Patients With Advanced HIV",
+    "briefTitle": "A Study to Evaluate of the Efficacy of Enfuvirtide During the Induction Phase of Therapy",
+    "status": "COMPLETED",
+    "startDate": "2005-01",
+    "completionDate": "2007-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Enfuvirtide",
+      "Efavirenz, lamivudine, and tenofovir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT05587894",
+    "title": "OPtimisation of Antiviral Therapy in Immunocompromised COVID-19 Patients: a Randomized Factorial Controlled Strategy Trial: the OPTICOV Study",
+    "briefTitle": "OPtimisation of Antiviral Therapy in Immunocompromised COVID-19 Patients: a Randomized Factorial Controlled Strategy Trial",
+    "status": "RECRUITING",
+    "startDate": "2023-04-27",
+    "completionDate": "2025-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Paxlovid 5 days",
+      "Paxlovid 10 days",
+      "Veklury"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "COVID-19",
+      "Immunodeficiency"
+    ]
+  },
+  {
+    "nctId": "NCT03696160",
+    "title": "An Open-Label, Multi-Centre, Randomised Study to Investigate Integrase Inhibitor Versus Boosted Protease Inhibitor Antiretroviral Therapy for Patients With Advanced HIV Disease",
+    "briefTitle": "The Late Presenter Treatment Optimisation Study",
+    "status": "COMPLETED",
+    "startDate": "2019-03-05",
+    "completionDate": "2024-06-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Biktarvy",
+      "Symtuza"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV/AIDS"
+    ]
+  },
+  {
+    "nctId": "NCT04483960",
+    "title": "A Multi-centre Randomised Adaptive Platform Clinical Trial to Assess Clinical, Virological and Immunological Outcomes in Patients With SARS-CoV-2 Infection (COVID-19)",
+    "briefTitle": "Australasian COVID-19 Trial (ASCOT) ADAptive Platform Trial",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2020-07-28",
+    "completionDate": "2025-12-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "(Arm Closed) Nafamostat Mesilate",
+      "(Arm Closed) Enoxaparin",
+      "(Arm Closed) Dalteparin",
+      "(Arm Closed) Tinzaparin",
+      "Nirmatrelvir-Ritonavir",
+      "Remdesivir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "SARS-CoV-2 Infection (COVID-19)"
+    ]
+  },
+  {
+    "nctId": "NCT01516060",
+    "title": "The Neurocognitive Sub Study of Encore1:A Randomised, Double-Blind, Placebo-Controlled, Clinical Trial to Compare the Safety and Efficacy of Reduced Dose Efavirenz (EFV) With Standard Dose EFV Plus 2N(t)RTI in Antiretroviral-na\u00efve HIV-Infected Individuals Over 96 Weeks A Randomised, Double-blind, Placebo-controlled, Clinical Trial to Compare the Safety and Efficacy of Reduced Dose Efavirenz (EFV) With Standard Dose EFV Plus Two Nucleotide Reverse Transcriptase Inhibitors (N(t)RTI) in Antiretroviral-na\u00efve HIV-infected Individuals Over 96 Weeks",
+    "briefTitle": "The Neurocognitive Sub-study of Encore1",
+    "status": "COMPLETED",
+    "startDate": "2012-01",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Efavirenz",
+      "Efavirenz"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV"
+    ]
+  },
+  {
+    "nctId": "NCT01185860",
+    "title": "A Multiple-Dose Study To Evaluate Safety, Tolerability, Pharmacokinetics and Antiviral Activity of Ritonavir-Boosted RO5190591 in Combination With Peginterferon Alfa-2a Plus Ribavirin in Patients With Chronic Hepatitis C Genotype 1",
+    "briefTitle": "A Study of Ritonavir-Boosted Danoprevir (RO5190591) in Combination With Pegasys and Ribavirin in Patients With Chronic Hepatitis C Genotype 1",
+    "status": "COMPLETED",
+    "startDate": "2009-08",
+    "completionDate": "2012-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "danoprevir",
+      "peginterferon alfa-2a [Pegasys]",
+      "placebo",
+      "ribavirin",
+      "ritonavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis C, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT00000760",
+    "title": "A Randomized Study of Activity, Safety, and Tolerance of Oral Ro 24-7429 (Tat Antagonist) in Patients With HIV Infection",
+    "briefTitle": "A Randomized Study of Activity, Safety, and Tolerance of Oral Ro 24-7429 (Tat Antagonist) in Patients With HIV Infection",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ro 24-7429",
+      "Zidovudine",
+      "Didanosine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT04032860",
+    "title": "The Different Effects of Nucleotide and Nucleoside Analogues on the Prognosis of Hepatitis B Virus-Related Hepatocellular Carcinoma Patients After Curative Resection\uff1aa Randomized Controlled Trial",
+    "briefTitle": "RCT of Different Effects of Nucleot(s)Ide Analogues on the Prognosis of HBV-HCC Patients After Curative Resection",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2017-07-01",
+    "completionDate": "2026-07-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tenofovir Disoproxil",
+      "Entecavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HCC",
+      "HBV Coinfection"
+    ]
+  },
+  {
+    "nctId": "NCT00002194",
+    "title": "An Open-Label Study in HIV+ Patients to Determine the Effects of Nevirapine (Viramune) on the Pharmacokinetics of Clarithromycin and Activity of Cytochrome 3A4.",
+    "briefTitle": "An Open-Label Study in HIV+ Patients to Determine the Effects of Nevirapine (Viramune) on the Pharmacokinetics of Clarithromycin and Activity of Cytochrome 3A4.",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Erythromycin",
+      "Nevirapine",
+      "Clarithromycin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01033760",
+    "title": "Optimisation of Primary HIV1 Infection Treatment (ANRS 147 OPTIPRIM)",
+    "briefTitle": "Optimisation of Primary HIV1 Infection Treatment(ANRS 147 OPTIPRIM)",
+    "status": "COMPLETED",
+    "startDate": "2010-04",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "raltegravir; maraviroc; darunavir; ritonavir; tenofovir/emtricitabine",
+      "darunavir; ritonavir; emtricitabine/tenofovir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1 Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00426660",
+    "title": "A Multicenter, Open Label, Expanded Access Trial Of Maraviroc",
+    "briefTitle": "Expanded Access Program for Maraviroc At Multiple Centers",
+    "status": "COMPLETED",
+    "startDate": "2007-02",
+    "completionDate": "2010-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "maraviroc"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00869960",
+    "title": "Impact of Menstrual Cycle on Antiretroviral Pharmacokinetics in Healthy Women",
+    "briefTitle": "Impact of Menstrual Cycle on Antiretroviral Pharmacokinetics in Healthy Women",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2010-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "tenofovir",
+      "emtricitabine",
+      "atazanavir",
+      "ritonavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00625560",
+    "title": "Randomized, Open-Labelled Study Evaluating the Antiviral Efficacy, Safety, and Tolerability of Continuing Lamivudine Therapy or Switching to Entecavir in Subjects With Chronic Hepatitis B With Detectable HBV DNA",
+    "briefTitle": "Continuing Lamivudine vs Switching to Entecavir in Patients With Detectable HBV DNA",
+    "status": "COMPLETED",
+    "startDate": "2008-02",
+    "completionDate": "2010-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Entecavir",
+      "Lamivudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis B, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT01785160",
+    "title": "Investigation of Faldaprevir Effect on Steady State Pharmacokinetics of Raltegravir in Healthy Male and Female Volunteers (an Open-label Trial With Two Periods in a Fixed Sequence)",
+    "briefTitle": "Investigation of Faldaprevir Effect on Pharmacokinetics of Raltegravir",
+    "status": "COMPLETED",
+    "startDate": "2013-02",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Raltegravir",
+      "Raltegravir",
+      "Faldaprevir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00102960",
+    "title": "A Phase III, Randomized, Open-Label Trial to Evaluate Strategies for Providing Antiretroviral Therapy to Infants Shortly After Primary Infection in a Resource Poor Setting",
+    "briefTitle": "Anti-HIV Drugs for Treating Infants Who Acquired HIV Infection at Birth",
+    "status": "COMPLETED",
+    "startDate": "2005-07",
+    "completionDate": "2013-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abacavir sulfate",
+      "Didanosine",
+      "Efavirenz",
+      "Lamivudine",
+      "Lopinavir/Ritonavir",
+      "Nevirapine",
+      "Zidovudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00035360",
+    "title": "Phase 3 Study of PEG-Intron in Heavily Treatment-experienced, HIV-infected Patients",
+    "briefTitle": "Phase III PEG-Intron in HIV-infected Patients (Study P00738)",
+    "status": "COMPLETED",
+    "startDate": "2002-03",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "PEG-Intron"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections",
+      "AIDS"
+    ]
+  },
+  {
+    "nctId": "NCT00002262",
+    "title": "A Phase I/II Study of Intralesional Recombinant Tumor Necrosis Factor in Patients With AIDS-Related Cutaneous Kaposi's Sarcoma",
+    "briefTitle": "A Phase I/II Study of Intralesional Recombinant Tumor Necrosis Factor in Patients With AIDS-Related Cutaneous Kaposi's Sarcoma",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Tumor Necrosis Factor"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sarcoma, Kaposi",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT04034862",
+    "title": "Impact of DOlutegravir+Lamivudine Simplification on TIssue and Blood Latent Replication-competent HIV-1 Reservoirs (IDOLTIB Study)",
+    "briefTitle": "Impact of DOlutegravir+Lamivudine Simplification on HIV-1 Reservoirs",
+    "status": "COMPLETED",
+    "startDate": "2019-10-01",
+    "completionDate": "2023-06-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Treatment simplification (dolutegravir lamivudine)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00215891",
+    "title": "PEG-Interferon a-2b + Ribavirin for Treatment of Chronic Hepatitis C Infection in HIV-Infected Persons Not Previously Treated With Interferon",
+    "briefTitle": "PEG-Interferon a-2b + Ribavirin for Treatment of Chronic HRN 005 Hepatitis C Infection in HIV-Infected Persons Not Previously Treated With Interferon",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "PEG-Interferon a-2b + Ribavirin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Hepatitis C Infection in HIV-Infected Persons",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00002391",
+    "title": "A Double-Blind, Randomized, Multicenter Trial to Evaluate the Safety and Efficacy of the Combination of 1592U89/Zidovudine (ZDV)/Lamivudine (3TC) Versus the Combination of Zidovudine (ZDV)/Lamivudine (3TC) in HIV-1 Therapy-Experienced Pediatric Patients.",
+    "briefTitle": "The Safety and Effectiveness of Zidovudine Plus Lamivudine, Used With and Without 1592U89, in HIV-1 Infected Children Who Have Taken Anti-HIV-1 Drugs",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abacavir sulfate",
+      "Lamivudine",
+      "Zidovudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01632891",
+    "title": "An Open-Label, Proof of Concept, Randomized Trial Comparing a LPV/r-Based to an nNRTI-Based Antiretroviral Therapy Regimen for Clearance of Plasmodium Falciparum Subclinical Parasitemia in HIV-infected Adults With CD4+ Counts >200 and <500 Cells/mm^3",
+    "briefTitle": "Comparing PI-Based to a nNRTI-based ART for Clearance of Plasmodium Falciparum Parasitemia in HIV-Infected",
+    "status": "COMPLETED",
+    "startDate": "2014-01-10",
+    "completionDate": "2016-06-19",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lopinavir/ritonavir",
+      "Emtricitabine/tenofovir disoproxil fumarate",
+      "Efavirenz",
+      "Nevirapine",
+      "Trimethoprim/sulfamethoxazole"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1 Infection",
+      "Pf Subclinical Parasitemia"
+    ]
+  },
+  {
+    "nctId": "NCT01625091",
+    "title": "Pharmacotherapy for Alcohol Consumption in HIV Infected Women: Randomized Trial",
+    "briefTitle": "Clinical Trial to Reduce Drinking in Women With HIV",
+    "status": "COMPLETED",
+    "startDate": "2012-12",
+    "completionDate": "2016-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Naltrexone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT02193191",
+    "title": "Safety and Efficacy Trial of Escalation of Plerixafor for Mobilization of CD34+ Hematopoietic Progenitor Cells and Evaluation of Globin Gene Transfer in Patients With Sickle Cell Disease",
+    "briefTitle": "Escalation of Plerixafor for Mobilization of CD34+ Hematopoietic Progenitor Cells and Evaluation of Globin Gene Transfer in Patients With Sickle Cell Disease",
+    "status": "COMPLETED",
+    "startDate": "2014-09-17",
+    "completionDate": "2025-03-27",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Plerixafor"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sickle Cell Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00033891",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Trial of Infliximab in Patients With Dermatomyositis and Polymyositis",
+    "briefTitle": "Infliximab (Remicade ) to Treat Dermatomyositis and Polymyositis",
+    "status": "COMPLETED",
+    "startDate": "2002-04-10",
+    "completionDate": "2010-05-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Infliximab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dermatomyositis",
+      "Polymyositis"
+    ]
+  },
+  {
+    "nctId": "NCT00234091",
+    "title": "An Open Label, Randomized Study to Compare Antiretroviral Therapy (ART) Initiation When CD4 is Between 15% to 24% to ART Initiation When CD4 Falls Below 15% in Children With HIV Infection and Moderate Immune Suppression",
+    "briefTitle": "When to Start Anti-HIV Drugs in Children Infected With HIV (The PREDICT Study)",
+    "status": "COMPLETED",
+    "startDate": "2006-04",
+    "completionDate": "2011-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abacavir",
+      "Efavirenz",
+      "Lamivudine",
+      "Lopinavir/Ritonavir",
+      "Nelfinavir",
+      "Nevirapine",
+      "Zidovudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT05470491",
+    "title": "A Phase I/II Trial of Allogeneic Reduced-Intensity, HLA-Haploidentical Allogeneic Hematopoietic Cell Transplantation Followed by GVHD Prophylaxis With Cyclophosphamide, Bortezomib and Maraviroc for Hematologic Malignancies in People Living With HIV (PLWH)",
+    "briefTitle": "Trial of Allogeneic Reduced-Intensity, HLA-Haploidentical Allogeneic Hematopoietic Cell Bone Marrow Transplantation Followed by Graft-versus-Host-Disease (GVHD) Prophylaxis With Cyclophosphamide, Bortezomib and Maraviroc for Hematologic Malignancies ...",
+    "status": "RECRUITING",
+    "startDate": "2023-01-26",
+    "completionDate": "2027-07-30",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "RIC",
+      "GVHD prophylaxis",
+      "Plerixafor",
+      "Maraviroc"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "Hematologic Malignancies"
+    ]
+  },
+  {
+    "nctId": "NCT00001091",
+    "title": "A Phase II Rolling Arm Master Protocol (PRAM) of Novel Antiretroviral Therapy in Stable Experienced HIV-Infected Children. PRAM-2: A Phase I/II Randomized, Multicenter Protocol Comparing Four Antiretroviral Regimens Containing Combinations of Protease Inhibitors, NRTIs and an NNRTI",
+    "briefTitle": "Safety and Effectiveness of Four Anti-HIV Drug Combinations in HIV-Infected Children and Teens",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2000-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ritonavir",
+      "Nelfinavir mesylate",
+      "Nevirapine",
+      "Lamivudine",
+      "Stavudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01628094",
+    "title": "Randomized, Open-Label, Multicenter Study of Safety, Efficacy, and Tolerability of the Combination of RO5466731, RO5190591, Ritonavir, and Copegus With or Without RO5024048 in HCV Genotype 1 Infected Patients Who Are Either Treatment Na\u00efve or Null Responders to Previous Interferon-Based Treatment",
+    "briefTitle": "ANNAPURNA: A Study of The Combination of RO5466731, RO5190591, Ritonavir and Copegus (Ribavirin) With or Without RO5024048 in Patients With Chronic Hepatitis C Who Are Either Treatment-Na\u00efve or Have Previously Experienced a Null Response to Interferon-Based Treatment",
+    "status": "COMPLETED",
+    "startDate": "2012-06",
+    "completionDate": "2013-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "RO5024048",
+      "RO5190591",
+      "RO5466731",
+      "ribavirin [Copegus]",
+      "ritonavir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis C, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT00642291",
+    "title": "An Open-Label Study of a Once Daily Dose of Emtricitabine in Combination With Other Antiretroviral Agents in HIV Infected Pediatric Subjects",
+    "briefTitle": "An Open-Label Study of Emtricitabine in Combination With Other Antiretroviral Agents in HIV Infected Pediatric Subjects",
+    "status": "COMPLETED",
+    "startDate": "2002-11",
+    "completionDate": "2004-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Emtricitabine",
+      "Emtricitabine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01386294",
+    "title": "A Phase III, Multi-Centre, Randomized Controlled Trial to Assess the Safety and Effectiveness of the Vaginal Microbicide 1% Tenofovir Gel in the Prevention of Human Immunodeficiency Virus Type 1 Infection in Women, and to Examine Effects of the Microbicide on the Incidence of Herpes Simplex Virus Type 2 Infection",
+    "briefTitle": "Safety and Effectiveness of Tenofovir Gel in the Prevention of Human Immunodeficiency Virus (HIV-1) Infection in Women and the Effects of Tenofovir Gel on the Incidence of Herpes Simplex Virus (HSV-2) Infection",
+    "status": "COMPLETED",
+    "startDate": "2011-10",
+    "completionDate": "2014-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tenofovir gel",
+      "Universal placebo gel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Prevention"
+    ]
+  },
+  {
+    "nctId": "NCT00393029",
+    "title": "Phase II Study of Metastatic Cancer That Overexpresses p53 Using Lymphodepleting Conditioning Followed by Infusion of Anti-p53 T Cell Receptor (TCR)-Gene Engineered Lymphocytes",
+    "briefTitle": "Phase II Study of Metastatic Cancer That Overexpresses P53 Using Lymphodepleting Conditioning Followed by Infusion of Anti-P53 TCR-Gene Engineered Lymphocytes",
+    "status": "COMPLETED",
+    "startDate": "2006-10",
+    "completionDate": "2008-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "cyclophosphamide",
+      "fludarabine phosphate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Anti-p53 TCR-Gene"
+    ]
+  },
+  {
+    "nctId": "NCT02775929",
+    "title": "An Open Label, Pilot Demonstration and Evaluation Project of Antiretroviral-based HIV-1 Prevention Among High-risk Serodiscordant African Couples",
+    "briefTitle": "Partners Demonstration Project of PrEP and ART",
+    "status": "COMPLETED",
+    "startDate": "2012-11",
+    "completionDate": "2016-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "FTC-TDF PrEP",
+      "ART"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT01140880",
+    "title": "Optimizing Access to Non-occupational Post Exposure Prophylaxis for HIV Using Contingency Management in Stimulant-Using Men Who Have Sex With Men",
+    "briefTitle": "Biobehavioral Interventions for HIV-negative, Stimulant Using Men Who Have Sex With Men",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Truvada"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Seroconversion",
+      "Stimulant Abuse"
+    ]
+  },
+  {
+    "nctId": "NCT04143594",
+    "title": "A Phase 2 Randomized, Open Label, Active Controlled Study Evaluating the Safety and Efficacy of Long-acting Capsid Inhibitor GS-6207 in Combination With Other Antiretroviral Agents in People Living With HIV",
+    "briefTitle": "Study to Evaluate the Safety and Efficacy of Lenacapavir (GS-6207) in Combination With Other Antiretroviral Agents in People Living With HIV",
+    "status": "COMPLETED",
+    "startDate": "2019-11-22",
+    "completionDate": "2023-09-19",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oral Lenacapavir",
+      "F/TAF",
+      "Subcutaneous Lenacapavir",
+      "TAF",
+      "BIC",
+      "B/F/TAF"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1-infection"
+    ]
+  },
+  {
+    "nctId": "NCT01552694",
+    "title": "A Double Blind, Randomized, Placebo Controlled Study to Determine the Physiological Effectiveness of Januvia for Reducing Inflammation and Increasing EPC Number in HIV Infected Men and Women With Insulin Resistance and Central Adiposity.",
+    "briefTitle": "Effectiveness of Sitagliptin for HIV Insulin Resistance and Inflammation",
+    "status": "COMPLETED",
+    "startDate": "2012-10",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Sitagliptin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Inflammation",
+      "Macrophage Infiltration",
+      "Cardiovascular Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04185220",
+    "title": "Phase 1 Study of Recombinant Human IL-15 (rhIL-15) and Mogamulizumab for Patients With Refractory or Relapsed Adult T-Cell Leukemia and Mycosis Fungoides/Sezary Syndrome",
+    "briefTitle": "Phase I Study of Recombinant Human IL-15 (rhIL-15) and Mogamulizumab for People With Refractory or Relapsed Adult T-Cell Leukemia and Mycosis Fungoides/Sezary Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2020-02-26",
+    "completionDate": "2022-05-18",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Recombinant human Interleukin-15 (rhIL-15)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Adult T-Cell Lymphoma/Leukemia",
+      "Sezary Syndrome",
+      "Mycosis Fungoides"
+    ]
+  },
+  {
+    "nctId": "NCT00002120",
+    "title": "Randomized Phase I Study of Trimetrexate Glucuronate (TMTX) With Leucovorin (LCV) Protection Plus Dapsone Versus Trimethoprim / Sulfamethoxazole (TMP/SMX) for Treatment of Moderately Severe Episodes of Pneumocystis Carinii Pneumonia",
+    "briefTitle": "Randomized Phase I Study of Trimetrexate Glucuronate (TMTX) With Leucovorin (LCV) Protection Plus Dapsone Versus Trimethoprim / Sulfamethoxazole (TMP/SMX) for Treatment of Moderately Severe Episodes of Pneumocystis Carinii Pneumonia",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Trimetrexate glucuronate",
+      "Trimethoprim",
+      "Sulfamethoxazole",
+      "Dapsone",
+      "Leucovorin calcium"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pneumonia, Pneumocystis Carinii",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00002382",
+    "title": "An Open Label International Compassionate Treatment Program for the Use of Saquinavir (R0 31-8959) Either As Monotherapy or in Combination With Other Anti-Retroviral Drugs in Patients With Proven HIV Infection",
+    "briefTitle": "A Study of Saquinavir Used Alone or in Combination With Other Anti-HIV Drugs in HIV-Infected Patients",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Saquinavir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01348282",
+    "title": "Exploratory Controlled Prospective Randomized Trial to Compare the Efficacy and Safety of Two Different Pharmacology Strategies on Neurocognitive Impairment in HIV Infection. The TRIANT-TE Study",
+    "briefTitle": "Efficacy and Safety of Two Pharmacologic Strategies on Neurocognitive Impairment in HIV Infection. The TRIANT-TE Study",
+    "status": "COMPLETED",
+    "startDate": "2011-05",
+    "completionDate": "2014-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lithium",
+      "Rivastigmine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Neurocognitive Disturbance",
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT04713982",
+    "title": "Impact of Deutetrabenazine on Functional Speech and Gait Dynamics in Huntington Disease",
+    "briefTitle": "Impact of Deutetrabenazine on Functional Speech and Gait Dynamics in Huntington Disease",
+    "status": "RECRUITING",
+    "startDate": "2021-11-19",
+    "completionDate": "2026-04-01",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Deutetrabenazine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Huntington Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00887120",
+    "title": "Pharmacokinetics and Efficacy of Low- or Standard-dose of Lopinavir/Ritonavir (Kaletra\u00ae) in PI-na\u00efve HIV-1 Infected Children",
+    "briefTitle": "Dose Reduction of Lopinavir in Children",
+    "status": "COMPLETED",
+    "startDate": "2007-04",
+    "completionDate": "2009-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lopinavir/ritonavir standard dose According to WHO simplified dosing table",
+      "Lopinavir/ritonavir low dose ( 70% of WHO recommended dosing table)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01092182",
+    "title": "Phase II Study of Dose-Adjusted EPOCH+/-Rituximab in Adults With Untreated Burkitt Lymphoma, c-MYC Positive Diffuse Large B-Cell Lymphoma and Plasmablastic Lymphoma",
+    "briefTitle": "Phase II Study of Dose-Adjusted EPOCH-Rituximab in Adults With Untreated Burkitt Lymphoma and c-MYC+ Diffuse Large B-Cell Lymphoma",
+    "status": "COMPLETED",
+    "startDate": "2010-03-25",
+    "completionDate": "2023-02-16",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "EPOCH-R",
+      "EPOCH-RR"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Burkitt Lymphoma",
+      "Diffuse Large B-cell Lymphoma, c-MYC Positive",
+      "Plasmablastic Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT00993031",
+    "title": "Protease Inhibitors to Reduce Malaria Morbidity in HIV-Infected Pregnant Women",
+    "briefTitle": "Protease Inhibitors to Reduce Malaria Morbidity in HIV-Infected Pregnant Women",
+    "status": "COMPLETED",
+    "startDate": "2009-12-15",
+    "completionDate": "2013-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lopinavir/ritonavir",
+      "Efavirenz",
+      "Zidovudine",
+      "Lamivudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Malaria",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT03020082",
+    "title": "A Multi-centered, Open Label, Phase III Study on Efficacy, Safety of Ritonavir-boosted ASC08 (Danoprevir) in Combination With Peg-IFN and RBV in Treatment-Naive Non-Cirrhotic Patients Who Have Chronic Hepatitis Genotype 1",
+    "briefTitle": "Efficacy and Safety of Danoprevir/r + PR 12week Triple Therapy in Treatment Naive Non-Cirrhotic G1 CHC China III",
+    "status": "COMPLETED",
+    "startDate": "2016-06",
+    "completionDate": "2017-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Danoprevir",
+      "Ritonavir",
+      "peginterferon alfa-2a",
+      "RBV"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Hepatitis C"
+    ]
+  },
+  {
+    "nctId": "NCT00393120",
+    "title": "A Randomized, Double-blind, Placebo-controlled Study Exploring the Safety, Tolerability, PK & Virological Effect of Once Daily Oral Dosing of INCB009471 as Monotherapy for 14 Days in ARV-na\u00efve/Limited ARV-experienced, HIV-1 Infected Pts.",
+    "briefTitle": "Safety/Effectiveness of Oral Chemokine Coreceptor 5 (CCR5) Antagonist INCB009471 in R5-tropic HIV Infected Patients",
+    "status": "COMPLETED",
+    "startDate": "2006-10",
+    "completionDate": "2007-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "INCB009471",
+      "INCB009471",
+      "Placebo comparator"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT02685020",
+    "title": "A Randomized, Parallel-group, Placebo-controlled, Double-blind Phase 1 Study in Healthy HIV-uninfected Adults to Evaluate Safety/Tolerability and Immunogenicity of Different Vaccine Schedules With Ad26.Mos.HIV and Clade C gp140",
+    "briefTitle": "Safety, Tolerability and Immunogenicity Study of Different Vaccine Schedules With Ad26.Mos.HIV and Clade C Glycoprotein (gp)140 in Healthy Human Immunodeficiency Virus (HIV)-Uninfected Adults",
+    "status": "COMPLETED",
+    "startDate": "2016-03-28",
+    "completionDate": "2019-01-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00002220",
+    "title": "Multi-Center, Open-Label Study of the Effect of Indinavir, Efavirenz, and Adefovir Dipivoxil Combination Therapy in Patients Who Have Failed Nelfinavir",
+    "briefTitle": "Indinavir Plus Efavirenz Plus Adefovir Dipivoxil in HIV-Infected Patients Who Have Not Had Success With Nelfinavir",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Indinavir sulfate",
+      "Efavirenz",
+      "Levocarnitine",
+      "Adefovir dipivoxil"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00000820",
+    "title": "A Phase II Study of Low-Dose Interleukin-2 by Subcutaneous Injection in Combination With Antiretroviral Therapy Versus Antiretroviral Therapy Alone in Patients With HIV-1 Infection and at Least 3 Months Stable Antiretroviral Therapy",
+    "briefTitle": "A Phase II Study of Low-Dose Interleukin-2 by Subcutaneous Injection in Combination With Antiretroviral Therapy Versus Antiretroviral Therapy Alone in Patients With HIV-1 Infection and at Least 3 Months Stable Antiretroviral Therapy",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2002-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Aldesleukin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00053820",
+    "title": "A Randomized Controlled Trial of Interferon-alpha, Interleukin-2 and 5-Fluorouracil vs. Interferon-alpha Alone in Patients With Advanced Renal Cell Carcinoma",
+    "briefTitle": "Interferon Alfa With or Without Interleukin-2 and Fluorouracil in Treating Patients With Advanced Metastatic Kidney Cancer",
+    "status": "COMPLETED",
+    "startDate": "2002-07",
+    "completionDate": "2006-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "fluorouracil"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Kidney Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00113282",
+    "title": "Study of the Immunological Efficacy of Adding Subcutaneous Interleukin-2 (IL-2) to an Optimized Antiretroviral Regimen in HIV-1-infected Subjects Experiencing Therapeutic Failure on an Ongoing Antiretroviral Combination With a CD4 Cell Count \u2264 200/mm3 ANRS 123 Trial",
+    "briefTitle": "Efficacy of Adding Interleukin-2 to an Optimized Antiretroviral Regimen in HIV Patients in Therapeutic Failure (ANRS123)",
+    "status": "COMPLETED",
+    "startDate": "2004-06",
+    "completionDate": "2008-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Interleukin-2 (IL-2)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infections"
+    ]
+  }
+]

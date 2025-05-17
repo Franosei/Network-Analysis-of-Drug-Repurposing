@@ -1,0 +1,2742 @@
+[
+  {
+    "nctId": "NCT01868594",
+    "title": "Multicentre Double-blind Placebo-controlled Parallel-group Randomized Clinical Trial of Efficacy and Safety of Subetta in the Combined Treatment of Patients With Type I Diabetes Mellitus",
+    "briefTitle": "Clinical Trial of Efficacy and Safety of Subetta in the Combined Treatment of Patients With Type I Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2013-05-07",
+    "completionDate": "2016-07-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Subetta",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type I Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT01088594",
+    "title": "A Methodological Study To Evaluate The Effects of Single Oral Doses Of Pioglitazone 45 mg And Rosiglitazone 8 mg On Sodium Balance In Healthy Male Volunteers",
+    "briefTitle": "A Methodological Study To Evaluate The Effects of Single Oral Doses Of Pioglitazone 45 mg And Rosiglitazone 8 mg On Sodium Balance In Healthy Male Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2010-02",
+    "completionDate": "2010-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "pioglitazone/rosiglitazone/placebo",
+      "rosiglitazone/pioglitazone/placebo",
+      "placebo/pioglitazone/rosiglitazone",
+      "pioglitazone/placebo/rosiglitazone",
+      "rosiglitazone/placebo/pioglitazone",
+      "placebo/rosiglitazone/pioglitazone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT03200860",
+    "title": "Randomized, Double Blind, Placebo Controlled, Multicenter Pilot Study on the Effects of Empagliflozin on Clinical Outcomes in Patients With Acute Decompensated Heart Failure (EMPA-RESPONSE-AHF)",
+    "briefTitle": "Effects of Empagliflozin on Clinical Outcomes in Patients With Acute Decompensated Heart Failure",
+    "status": "COMPLETED",
+    "startDate": "2017-12-18",
+    "completionDate": "2019-09-18",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Empagliflozin 10 MG",
+      "Placebo Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Heart Failure Acute",
+      "Heart Failure\uff0cCongestive",
+      "Heart Failure; With Decompensation"
+    ]
+  },
+  {
+    "nctId": "NCT03520660",
+    "title": "Long-Term Follow-Up Of Subjects With CHC Who Achieved A Sustained Virological Response Following Therapy With Direct Acting Antiviral Agents",
+    "briefTitle": "People With CHC Who Achieved a Sustained Virological Response Following Therapy With Direct Acting Antiviral Agents",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-10-19",
+    "completionDate": "2032-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Epclusa"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus",
+      "Hepatitis C, Chronic",
+      "Cardiovascular Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT00767260",
+    "title": "Autologous Bone Marrow Mononuclear Cell Infusion With Hyperbaric Oxygen Therapy in Type 2 Diabetes Mellitus",
+    "briefTitle": "Bone Marrow Mononuclear Cell and Hyperbaric Oxygen Therapy in Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2008-03",
+    "completionDate": "2015-03",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "BM-MNC+HOT",
+      "BM-MNC",
+      "SMT"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT04881760",
+    "title": "A Phase 2 Study of Once-Weekly LY3437943 Compared With Placebo in Participants Who Have Obesity or Are Overweight With Weight-Related Comorbidities",
+    "briefTitle": "A Study of LY3437943 in Participants Who Have Obesity or Are Overweight",
+    "status": "COMPLETED",
+    "startDate": "2021-05-20",
+    "completionDate": "2022-11-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LY3437943",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Overweight"
+    ]
+  },
+  {
+    "nctId": "NCT01404676",
+    "title": "The Effect of Vildagliptin Based Treatment Versus Sulfonylurea on Glycemic Variability, Oxidative Stress, GLP-1, and Endothelial Function in Patients With Type 2 Diabetes",
+    "briefTitle": "The Effect of Vildagliptin Based Treatment Versus Sulfonylurea on Glycemic Variability, Oxidative Stress, GLP-1, and Endothelial Function in Patients With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2010-06",
+    "completionDate": "2012-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Add Vildagliptin",
+      "Add Glimepiride"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT01581476",
+    "title": "Randomised, Double Blind, Placebo Controlled Trial of Angiotensin Converting Enzyme Inhibitors and Statins in the Prevention of Long Term Complications in Young People With Type 1 Diabetes",
+    "briefTitle": "Adolescent Type 1 Diabetes Cardio-Renal Intervention Trial",
+    "status": "COMPLETED",
+    "startDate": "2009-01",
+    "completionDate": "2017-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Statin",
+      "ACE inhibitor",
+      "Placebo",
+      "Combination therapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 1 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT00785460",
+    "title": "Benfotiamine Prevents Vascular Dysfunction in Healthy Smokers",
+    "briefTitle": "Benfotiamine Prevents Vascular Dysfunction in Healthy Smokers",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Benfotiamine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Subjects"
+    ]
+  },
+  {
+    "nctId": "NCT04400760",
+    "title": "The Effect of Dapagliflozin on Platelet Function testinG Profiles in Diabetic PatiEnts: The EDGE Study.",
+    "briefTitle": "The Effect of Dapagliflozin on Platelet Function testinG Profiles in Diabetic PatiEnts.",
+    "status": "COMPLETED",
+    "startDate": "2020-05-01",
+    "completionDate": "2022-06-30",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "DAPA Tx"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Platelet Dysfunction"
+    ]
+  },
+  {
+    "nctId": "NCT06115460",
+    "title": "The Impact of Sitagliptin as an Add on Therapy With Closed Loop Control in Adolescents With Type 1 Diabetes Mellitus and Diabetic Nephropathy",
+    "briefTitle": "The Impact of Sitagliptin as an Add on Therapy With Closed Loop Control in Adolescents With Diabetic Nephropathy",
+    "status": "COMPLETED",
+    "startDate": "2022-03-01",
+    "completionDate": "2023-06-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "oral sitagliptin supplementation"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 1 Diabetic Nephropathy"
+    ]
+  },
+  {
+    "nctId": "NCT01594060",
+    "title": "A Randomized, Comparative Study of Basal-bolus Insulin Versus Conventional Sliding-scale Regular Insulin Therapy in Management of Non-critically Ill Patients Hospitalized in the Medical Ward.",
+    "briefTitle": "Basal Bolus vs. Sliding Scale for Treatment of Diabetic Patients in Medical Wards",
+    "status": "COMPLETED",
+    "startDate": "2012-06",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Insulin, regular - act rapid",
+      "Insulin glulisine, Insulin glargine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00738660",
+    "title": "Efficacy of Telmisartan and the Combination of Telmisartan and Ramipril in type1 Diabetes Patients With Nephropathy",
+    "briefTitle": "Efficacy of Telmisartan and the Combination of Telmisartan and Ramipril in type1 Diabetes Patients With Nephropathy",
+    "status": "COMPLETED",
+    "startDate": "2007-02",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Telmisartan, Ramipril"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetic Nephropathy"
+    ]
+  },
+  {
+    "nctId": "NCT05636176",
+    "title": "Effects of Ziltivekimab Versus Placebo on Morbidity and Mortality in Patients With Heart Failure With Mildly Reduced or Preserved Ejection Fraction and Systemic Inflammation",
+    "briefTitle": "A Research Study to Look at How Ziltivekimab Works Compared to Placebo in People With Heart Failure and Inflammation",
+    "status": "RECRUITING",
+    "startDate": "2023-05-08",
+    "completionDate": "2027-07-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ziltivekimab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Heart Failure"
+    ]
+  },
+  {
+    "nctId": "NCT00814294",
+    "title": "An 18-Week Randomized, Double-Blind, Multicenter, Comparator Study of Two Doses of Oral HDV-Insulin and Placebo With Background Metformin Treatment in Patients With Type 2 Diabetes Mellitus",
+    "briefTitle": "Study of Two Doses of Oral HDV-Insulin and Placebo With Background Metformin Treatment in Patients With Type 2 Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "placebo",
+      "Oral Hepatic Directed Vesicles (HDV)-Insulin (U-15)",
+      "Oral Hepatic Directed Vesicles (HDV)-Insulin (U-5)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT01811160",
+    "title": "Metabolic Effects of Melatonin in Patients Treated With Second Generation Antipsychotics",
+    "briefTitle": "Metabolic Effects of Melatonin in Patients Treated With Second Generation Antipsychotics",
+    "status": "COMPLETED",
+    "startDate": "2008-10",
+    "completionDate": "2011-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Melatonin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Second Generation Antipsychotic Induced Metabolic Adverse Effects"
+    ]
+  },
+  {
+    "nctId": "NCT00829660",
+    "title": "A Long-term, Multicentre, Double-blind, Randomised Parallel-group Trial to Determine Whether Reducing Post-prandial Glycaemia Can Reduce Cardiovascular-related Morbidity and Mortality in Patients With Established Coronary Heart Disease or Acute Coronary Syndrome Who Have Impaired Glucose Tolerance",
+    "briefTitle": "Acarbose Cardiovascular Evaluation Trial",
+    "status": "COMPLETED",
+    "startDate": "2009-02-17",
+    "completionDate": "2017-04-18",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Acarbose",
+      "Matching Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Coronary Heart Disease",
+      "Acute Coronary Syndrome",
+      "Impaired Glucose Tolerance",
+      "Type 2 Diabetes Mellitus (T2DM)"
+    ]
+  },
+  {
+    "nctId": "NCT01278160",
+    "title": "An Extension Trial of BIAsp-3756, Explorative Comparison of Biphasic Insulin Aspart 30 Twice Daily With Two Different Initial Dosage Split Regimens on the Effect of Glycaemic Control in Chinese Type 2 Diabetes Patients",
+    "briefTitle": "Comparison of Biphasic Insulin Aspart 30 Twice Daily With Two Different Initial Dosage Split Regimens in Subjects With Type 2 Diabetes: An Extension to Trial BIASP-3756",
+    "status": "COMPLETED",
+    "startDate": "2011-01",
+    "completionDate": "2011-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "biphasic insulin aspart 30",
+      "biphasic insulin aspart 30",
+      "metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT04515576",
+    "title": "Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Multiple-Ascending Subcutaneous Doses of LY3493269 in Patients With Type 2 Diabetes Mellitus",
+    "briefTitle": "A Study of LY3493269 in Participants With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2020-08-25",
+    "completionDate": "2021-03-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "LY3493269",
+      "Dulaglutide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT06852976",
+    "title": "A Phase 2a Proof of Concept Open-Label, Randomized, Controlled Study to Evaluate the Safety and Efficacy of MDI-1228-mesylate Gel Compared With Standard of Care Alone in Patients With Diabetic Foot Ulcers",
+    "briefTitle": "A Phase 2a Proof of Concept Open-Label, Randomized, Controlled Study to Evaluate the Safety and Efficacy of MDI-1228-mesylate Gel Compared With Standard of Care Alone in Patients With Diabetic Foot Ulcers",
+    "status": "RECRUITING",
+    "startDate": "2025-03-12",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "0.75% MDI-1228_mesylate gel plus Standard of Care"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetic Foot Ulcer"
+    ]
+  },
+  {
+    "nctId": "NCT00849576",
+    "title": "",
+    "briefTitle": "Effect of Treatment With Insulin VIAjectTM Compared to Regular Human Insulin and Insulin Lispro on Mealtime Blood Vessel Stress in Patients With Type 2 Diabetes Mellitus.",
+    "status": "COMPLETED",
+    "startDate": "2008-04",
+    "completionDate": "2008-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Regular Human Insulin",
+      "Insulin Lispro",
+      "Insulin VIAject\u2122 (75%)",
+      "Insulin VIAject\u2122 (90%)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT06062576",
+    "title": "Clinical Efficacy Observation and Mechanism Study of Yunnan Baiyao in Different Stages of Diabetic Foot",
+    "briefTitle": "Clinical Observation and Mechanism Study of Yunnan Baiyao in Different Stages of Diabetic Foot",
+    "status": "RECRUITING",
+    "startDate": "2023-12-01",
+    "completionDate": "2025-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Yunnan Baiyao"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetic Foot",
+      "Therapeutics"
+    ]
+  },
+  {
+    "nctId": "NCT00044876",
+    "title": "Treatment of Leiomyomata With the Selective Progesterone Receptor Modulator CDB-2914",
+    "briefTitle": "Treatment of Uterine Fibroids With CDB-2914, an Experimental Selective Progesterone Receptor Antagonist",
+    "status": "COMPLETED",
+    "startDate": "2002-09-02",
+    "completionDate": "2015-10-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CDB-2914"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Leiomyoma"
+    ]
+  },
+  {
+    "nctId": "NCT06045260",
+    "title": "\"Receptor Radionuclide Therapy With 177Lu-DOTATOC (177Lu-edotreotide or 177Lu-octreotide) in SSTR Positive Patients: a Multicenter, Prospective, Phase II Trial\"",
+    "briefTitle": "\"Receptor Radionuclide Therapy With 177Lu-DOTATOC",
+    "status": "RECRUITING",
+    "startDate": "2023-09-13",
+    "completionDate": "2027-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "177Lu-DOTATOC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Neuroendocrine Tumors",
+      "Paraganglioma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "nctId": "NCT06524960",
+    "title": "A Phase 1/2 Prospective, Randomized, Double-blind, Placebo-controlled Multi-center Clinical Trial to Determine the Safety and Efficacy of Denosumab in Improving Beta Cell Function and Glycemic Control Among Patients With Type 1 Diabetes",
+    "briefTitle": "Denosumab for Type 1 Diabetes",
+    "status": "RECRUITING",
+    "startDate": "2024-09-03",
+    "completionDate": "2026-04-11",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Denosumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 1 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT01766960",
+    "title": "Altered Drug Disposition and Biomarkers for Diagnosis of Chronic Inflammatory Liver Disease.",
+    "briefTitle": "Altered Drug Disposition and Biomarkers for Diagnosis of Chronic Inflammatory Liver Disease",
+    "status": "COMPLETED",
+    "startDate": "2012-11",
+    "completionDate": "2014-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Morphine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Fatty Liver"
+    ]
+  },
+  {
+    "nctId": "NCT06354660",
+    "title": "A Phase 3, Randomized, Multicenter, Double-Blind Study to Investigate the Efficacy and Safety of Retatrutide Once Weekly Compared With Placebo in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Diet and Exercise Alone (TRANSCEND-T2D-1)",
+    "briefTitle": "Effect of Retatrutide Compared With Placebo in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Diet and Exercise Alone (TRANSCEND-T2D-1)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-04-10",
+    "completionDate": "2026-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Retatrutide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00800176",
+    "title": "A Multi-center, Double-blind, Randomized, Parallel Group, Placebo-controlled 12-week Study to Investigate Glycemic Parameters of Efficacy, Safety/ Tolerability and Pharmacokinetics of Five Dose Levels of RO4998452 in Patients With Type 2 Diabetes Mellitus",
+    "briefTitle": "A Dose-Finding Study of RO4998452 in Patients With Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2009-01-22",
+    "completionDate": "2009-10-28",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "RO4998452",
+      "RO4998452",
+      "RO4998452",
+      "RO4998452",
+      "RO4998452"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00231660",
+    "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study of the Efficacy and Safety of Topiramate in the Treatment of Obese, Type 2 Diabetic Patients Treated With Metformin",
+    "briefTitle": "A Study of the Efficacy and Safety of Topiramate in the Treatment fo Obese, Type 2 Diabetic Patients Treated With Metformin",
+    "status": "COMPLETED",
+    "startDate": "2000-10",
+    "completionDate": "2002-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Diabetes Mellitus, Type 2",
+      "Diabetes Mellitus, Adult-Onset"
+    ]
+  },
+  {
+    "nctId": "NCT01224860",
+    "title": "A Prospective, Randomized, Open Label Blinded End Point (Probe), Crossover Study to Compare the Effects of Telmisartan and Losartan on Metabolic Profile of Renal Transplant Patients",
+    "briefTitle": "Telmisartan Versus Losartan in Kidney Transplantation",
+    "status": "COMPLETED",
+    "startDate": "2009-01",
+    "completionDate": "2014-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Telmisartan",
+      "Losartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Renal Transplant"
+    ]
+  },
+  {
+    "nctId": "NCT03602560",
+    "title": "A 52-week, Placebo-controlled, Randomized, Phase 3 Study to Evaluate the Safety and Efficacy of Seladelpar in Subjects With Primary Biliary Cholangitis (PBC) and an Inadequate Response to or an Intolerance to Ursodeoxycholic Acid (UDCA)",
+    "briefTitle": "ENHANCE: Seladelpar in Subjects With Primary Biliary Cholangitis (PBC) and an Inadequate Response to or an Intolerance to Ursodeoxycholic Acid (UDCA)",
+    "status": "COMPLETED",
+    "startDate": "2018-10-01",
+    "completionDate": "2020-02-16",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "seladelpar 5-10 mg",
+      "seladelpar 10 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Biliary Cholangitis"
+    ]
+  },
+  {
+    "nctId": "NCT00372060",
+    "title": "MK0431 (Sitagliptin) Phase III Clinical Study -Pioglitazone add-on Study for Patients With Type 2 Diabetes Mellitus",
+    "briefTitle": "MK0431 (Sitagliptin) Pioglitazone Add-on Study for Patients With Type 2 Diabetes Mellitus (0431-055)(COMPLETED)",
+    "status": "COMPLETED",
+    "startDate": "2006-08-21",
+    "completionDate": "2008-02-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "sitagliptin phosphate",
+      "Comparator: sitagliptin phosphate (MK0431)",
+      "Comparator: pioglitazone",
+      "Comparator: placebo (unspecified)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT04783376",
+    "title": "Effect of Splitting Mealtime Insulin Doses Used for Mixed Meals High in Fat and Protein on Postprandial Blood Glucose Levels in Children and Adolescents With Type 1 Diabetes Mellitus Using Multiple Daily Injection Regimen",
+    "briefTitle": "Effect of Splitting Mealtime Insulin Doses After Mixed Meals High in Fat and Protein",
+    "status": "COMPLETED",
+    "startDate": "2021-04-12",
+    "completionDate": "2022-03-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      ": Insulin, lispro and regular insulin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 1 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT00482976",
+    "title": "The Effects of a Protein Kinase C Beta Inhibitor, LY333531, on Vascular and Neural Functions in Type 2 Diabetes Mellitus - Study B7A-MC-MBDM",
+    "briefTitle": "Effect of LY333531 on Vascular and Neural Functions",
+    "status": "COMPLETED",
+    "startDate": "2003-12",
+    "completionDate": "2005-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Ruboxistaurin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT05565976",
+    "title": "Dapagliflozin Effect in Cognitive Impairment in Stroke Trial",
+    "briefTitle": "Dapagliflozin Effect in Cognitive Impairment in Stroke Trial",
+    "status": "RECRUITING",
+    "startDate": "2020-08-01",
+    "completionDate": "2025-07-01",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dapagliflozin 10mg Tab",
+      "Statins (Cardiovascular Agents)",
+      "Platelet Antiaggregant",
+      "Antidiabetic"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Stroke, Ischemic",
+      "Mild Cognitive Impairment",
+      "Dementia, Vascular",
+      "Metabolic Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT00134160",
+    "title": "The Study Comparing the Incidence of Cardiovascular Events Between High-dose ARB Monotherapy and Combination Therapy With ARB and Calcium Channel Blocker in Japanese Elderly Hypertensive Patients at High Cardiovascular Risk",
+    "briefTitle": "OlmeSartan and Calcium Antagonists Randomized (OSCAR) Study",
+    "status": "COMPLETED",
+    "startDate": "2005-08",
+    "completionDate": "2010-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Olmesartan medoxomil",
+      "Calcium channel blockers (amlodipine, azelnidipine)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Cardiovascular Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT03961360",
+    "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
+    "briefTitle": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida",
+    "status": "COMPLETED",
+    "startDate": "2019-05-06",
+    "completionDate": "2023-04-10",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Aspirin 81 mg",
+      "Aspirin 162 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pre-Eclampsia",
+      "Hypertension in Pregnancy",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT03693560",
+    "title": "The Effect of Adding Vildagliptin Versus Glimepiride to Metformin on Markers of Inflammation, Thrombosis, and Atherosclerosis in Diabetic Patients With Symptomatic Coronary Artery Diseases",
+    "briefTitle": "Effect of Adding Vildagliptin vs Glimepiride to Metformin on Inflammation's Markers in Type-2 Diabetic Patients With CAD",
+    "status": "COMPLETED",
+    "startDate": "2018-10-08",
+    "completionDate": "2019-10-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Vildagliptin 50 mg Oral Tablet",
+      "Metformin 1000 mg Oral Tablet",
+      "Glimepiride upto 4 mg Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Coronary Artery Disease",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT04556760",
+    "title": "A Phase 2a Randomised, Double Blind, Multi-centre Study to Assess the Effect on Glucose Homeostasis of Two Dose Levels of AZD9567, Compared to Prednisolone, in Adults With Type 2 Diabetes",
+    "briefTitle": "Study to Assess the Effect on Glucose Homeostasis of Two Dose Levels of AZD9567, Compared to Prednisolone, in Adults With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2020-11-26",
+    "completionDate": "2021-06-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "AZD9567",
+      "Prednisolone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00957060",
+    "title": "A Multicenter, Open, Randomized, 24 Weeks Study to Evaluate the Superiority of Glimepiride Over Sitagliptin for the Treatment of na\u00efve Patients With Type 2 Diabetes Mellitus",
+    "briefTitle": "Superiority of Glimepiride Over Sitagliptin in Naive Type 2 Diabetes Patients",
+    "status": "COMPLETED",
+    "startDate": "2009-07",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "GLIMEPIRIDE (HOE490)",
+      "SITAGLIPTIN"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT03324776",
+    "title": "Initiating Mealtime Ultra-Rapid Acting Insulin (Afrezza) in Uncontrolled Type 2 Diabetes Patients",
+    "briefTitle": "Initiating Mealtime Ultra-Rapid Acting Insulin (Afrezza) in Uncontrolled Type 2 Diabetes Patients",
+    "status": "COMPLETED",
+    "startDate": "2017-10-16",
+    "completionDate": "2020-06-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Afrezza Inhalant Product"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT00663260",
+    "title": "A Multicenter, Double-Blind, Placebo-Controlled, Parallel Group, Randomized, Phase 2/3 Trial to Evaluate the Glycemic Efficacy, Renal Safety, Pharmacokinetics, and Pharmacodynamics of Dapagliflozin in Subjects With Type 2 Diabetes Mellitus and Moderate Renal Impairment Who Have Inadequate Glycemic Control",
+    "briefTitle": "Glycemic Efficacy and Renal Safety Study of Dapagliflozin in Subjects With Type 2 Diabetes Mellitus and Moderate Renal Impairment",
+    "status": "COMPLETED",
+    "startDate": "2008-06",
+    "completionDate": "2011-06",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dapagliflozin",
+      "Dapagliflozin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT01591460",
+    "title": "An International, Multicenter, Open-Label Study Evaluating Sustained Virological Response and Safety With Boceprevir in Triple Combination Therapy With Peginterferon Alfa-2a (40KD) and Ribavirin in Treatment-Na\u00efve Patients With Genotype 1 Chronic Hepatitis C",
+    "briefTitle": "A Triple Combination Therapy Study of Boceprevir, Pegasys and Copegus in Previously Untreated Patients With Genotype 1 Chronic Hepatitis C",
+    "status": "COMPLETED",
+    "startDate": "2012-08",
+    "completionDate": "2014-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "boceprevir",
+      "peginterferon alfa-2a [Pegasys]",
+      "peginterferon alfa-2a [Pegasys]",
+      "ribavirin (Copegus]",
+      "ribavirin (Copegus]"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis C, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT02817360",
+    "title": "NT-proBNP Selected PreventiOn of Cardiac eveNts in a populaTion of dIabetic Patients Without A History of Cardiac Disease: a Prospective Randomized Trial",
+    "briefTitle": "NT-proBNP Selected Prevention of Cardiac Events in Diabetic Patients",
+    "status": "RECRUITING",
+    "startDate": "2016-02",
+    "completionDate": "2026-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "RAS-antagonist and beta-blocker up-to maximal dosages"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Heart Diseases",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT04810676",
+    "title": "A Randomized, Open-label, Single-dose, Two-way Crossover Clinical Trial to Investigate the Pharmacokinetics and Safety After Oral Administration of CKD-383 and Co-administration of CKD-501, D745, D150 Under Fed Condition in Healthy Adults.",
+    "briefTitle": "A Clinical Trial to Evaluate the Pharmacokinetic Profiles and Safety of CKD-383.",
+    "status": "COMPLETED",
+    "startDate": "2021-04-16",
+    "completionDate": "2021-05-26",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CKD-501, D745, D150",
+      "CKD-383"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT06753994",
+    "title": "Continuous Ketone Monitoring in Participants With Type 1 Diabetes (T1D) Using SGLT2 Inhibitors as Adjunctive Therapy",
+    "briefTitle": "Continuous Ketone Monitoring in People With Type 1 Diabetes Using SGLT2 Inhibitors",
+    "status": "RECRUITING",
+    "startDate": "2024-12-05",
+    "completionDate": "2027-01-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SGLT-2 inhibitor"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Type1diabetes",
+      "T1D"
+    ]
+  },
+  {
+    "nctId": "NCT00790660",
+    "title": "A Phase 2a, Randomized, Double-Blind, Placebo Controlled, Multiple Dose Study to Assess the Safety and Tolerability of ASP1941 in Adult Subjects With Type 2 Diabetes Mellitus",
+    "briefTitle": "A Study to Assess the Safety and Tolerability of ASP1941 in Adults With Type 2 Diabetes Mellitus.",
+    "status": "COMPLETED",
+    "startDate": "2008-10-23",
+    "completionDate": "2009-03-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ASP1941",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00282360",
+    "title": "Effect of Metabolic Therapy in Patients With Chronic Ischemic Heart Disease",
+    "briefTitle": "Effect of Metabolic Therapy in Patients With Chronic Ischemic Heart Disease",
+    "status": "COMPLETED",
+    "startDate": "1999-02",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Trimetazidine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Coronary Artery Disease",
+      "Type II Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT02681094",
+    "title": "A Multi-Center, Randomized, Double-Blind, Active-Controlled , Parallel Group, Phase III Trial to Evaluate the Safety and Efficacy of Saxagliptin 5mg Co-administered With Dapagliflozin 5mg Compared to Saxagliptin 5mg or Dapagliflozin 5mg All Given as Add-on Therapy to Metformin inPatients With Type 2 Diabetes Who Have Inadequate Glycaemic Control on Metformin Alone",
+    "briefTitle": "A Multi-Center, Randomized, Double-Blind, Phase III Trial to Evaluate the Safety and Efficacy of Saxagliptin Co-administered With Dapagliflozin Compared to Saxagliptin or Dapagliflozin All Given as add-on Therapy to Metformin in Subject With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2016-02-26",
+    "completionDate": "2017-07-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dapagliflozin",
+      "Placebo for Dapagliflozin",
+      "Saxagliptin",
+      "Placebo for Saxagliptin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus",
+      "Inadequate Glycaemic Control"
+    ]
+  },
+  {
+    "nctId": "NCT00768560",
+    "title": "Evaluation of the Efficacy, Safety, and Pharmacokinetics/Pharmacodynamics of BAY A1040 CR Tablet on High Dose Administration in Patients With Essential Hypertension.",
+    "briefTitle": "Nifedipine (Adalat CR, BAY A1040) High Dose PK/PD Study",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Nifedipine (Adalat CR, BAYA1040) 80mg OD",
+      "Nifedipine (Adalat CR, BAYA1040) 40mg BID",
+      "Nifedipine (Adalat CR, BAYA1040) 40mg OD"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03476460",
+    "title": "Efficacy of Oral Sodium Chloride vs iv Sodium Chloride in the Prevention of Contrast Nephropathy in Outpatients",
+    "briefTitle": "Sodium Chloride and Contrast Nephropathy",
+    "status": "COMPLETED",
+    "startDate": "2014-04-01",
+    "completionDate": "2019-11-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oral sodium chloride",
+      "Intravenous sodium chloride"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Kidney Failure, Chronic",
+      "Kidney Failure, Acute",
+      "Heart Failure",
+      "Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT04691960",
+    "title": "A Pilot Study of Ketogenic Diet and Metformin in Glioblastoma: Feasibility and Metabolic Imaging",
+    "briefTitle": "A Pilot Study of Ketogenic Diet and Metformin in Glioblastoma: Feasibility and Metabolic Imaging",
+    "status": "RECRUITING",
+    "startDate": "2016-08",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glioblastoma"
+    ]
+  },
+  {
+    "nctId": "NCT02325960",
+    "title": "A Comparison of Exenatide and Insulin Glargine on Glycemic Variability in T2DM Patients Inadequately Controlled With Metformin Monotherapy",
+    "briefTitle": "A Comparison of Exenatide and Insulin Glargine",
+    "status": "COMPLETED",
+    "startDate": "2015-01",
+    "completionDate": "2016-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "exenatide",
+      "Insulin glargine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT02744976",
+    "title": "Coronary Artery Disease Progression by iMap Intravascular Ultrasound Analysis in Patients With Prediabetes",
+    "briefTitle": "Coronary Artery Disease Progression in Patients With Prediabetes",
+    "status": "COMPLETED",
+    "startDate": "2016-02",
+    "completionDate": "2021-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Coronary Artery Disease",
+      "Atherosclerosis",
+      "Prediabetic State"
+    ]
+  },
+  {
+    "nctId": "NCT03320694",
+    "title": "Comparison of Metformin and Insulin for Management of Gestational Diabetes Mellitus",
+    "briefTitle": "Comparison of Metformin and Insulin for Management of Gestational Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2016-02-01",
+    "completionDate": "2017-06-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Metformin",
+      "Insulin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gestational Diabetes Mellitus in Pregnancy"
+    ]
+  },
+  {
+    "nctId": "NCT00569582",
+    "title": "An Open-label Study of the Efficacy and Safety of CORLUX (Mifepristone) in the Treatment of the Signs and Symptoms of Endogenous Cushing's Syndrome",
+    "briefTitle": "A Study of the Efficacy and Safety of CORLUX in the Treatment of Endogenous Cushing's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2007-12",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "mifepristone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cushing's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT04775082",
+    "title": "Effect and Safety of Liraglutide 3.0 mg on Weight Management in Children With Obesity Aged 6 to Below 12 Years: 56-week, Double-blind, Randomised, Placebo-controlled Trial",
+    "briefTitle": "SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-03-04",
+    "completionDate": "2027-01-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Liraglutide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT06289920",
+    "title": "An Open Label, Randomized, Fasting, Single Dose, 2-sequence, 2-period, Crossover Study to Compare the Pharmacokinetics and the Safety Between a Fixed-dose Combination Administration of \"BR3005\" and Co-administration of \"BR3005-1\" and \"BR3005-2\" in Healthy Adult Volunteers",
+    "briefTitle": "A Study to Compare the Pharmacokinetics and the Safety Between a Fixed-dose Combination Administration of \"BR3005\" and Co-administration of \"BR3005-1\" and \"BR3005-2\" Under Fasting Conditions in Healthy Adult Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2024-03-02",
+    "completionDate": "2024-03-28",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BR3005",
+      "BR3005-1",
+      "BR3005-2"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT01712620",
+    "title": "A Pilot Study of the Effect of Spironolactone Therapy on Exercise Capacity and Endothelial Dysfunction in Pulmonary Arterial Hypertension",
+    "briefTitle": "Spironolactone for Pulmonary Arterial Hypertension",
+    "status": "RECRUITING",
+    "startDate": "2014-01-10",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Spironolactone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01676220",
+    "title": "6-Month, Multicenter, Randomized, Open-label, Parallel-group Study Comparing the Efficacy and Safety of a New Formulation of Insulin Glargine and Lantus\u00ae in Insulin-Na\u00efve Patients With Type 2 Diabetes Mellitus Not Adequately Controlled With Non-Insulin Antihyperglycemic Drugs With a 6-month Safety Extension Period",
+    "briefTitle": "Comparison of a New Formulation of Insulin Glargine With Lantus in Patients With Type 2 Diabetes on Non-insulin Antidiabetic Therapy",
+    "status": "COMPLETED",
+    "startDate": "2012-08",
+    "completionDate": "2014-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "HOE901-U300 (new formulation of insulin glargine)",
+      "Lantus (insulin glargine)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT01037582",
+    "title": "Investigation on Safety, Tolerability and Bioavailability of Oral NN9924 in Healthy Male Subjects",
+    "briefTitle": "A Two Part Trial Investigating the Safety of NN9924 in Healthy Male Subjects",
+    "status": "COMPLETED",
+    "startDate": "2009-12-17",
+    "completionDate": "2010-05-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "NN9924 (oral)",
+      "placebo",
+      "NN9924 (oral)",
+      "placebo",
+      "NN9924 (s.c.)",
+      "NN9924 (i.v.)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2",
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00104182",
+    "title": "Efficacy and Safety Comparison of Insulin Detemir Morning, Insulin Detemir Evening and NPH Insulin Evening as Add-on to Oral Antidiabetic Drug(s) in Patients With Type 2 Diabetes",
+    "briefTitle": "Comparison of Insulin Detemir Morning, Insulin Detemir Evening and NPH Insulin Evening in Patients With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2005-02",
+    "completionDate": "2006-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "insulin detemir",
+      "insulin NPH"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00620282",
+    "title": "The Effect of Liraglutide on Endothelial Function in Subjects With Type 2 Diabetes Mellitus: A 12-week Randomized, Double-blind, Placebo-controlled, Parallel-group, Single-center Trial With an Open-label Glimepiride Arm",
+    "briefTitle": "The Effect of Liraglutide on Endothelial Function in Subjects With Type 2 Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2008-02",
+    "completionDate": "2010-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "liraglutide",
+      "placebo",
+      "glimepiride"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00085982",
+    "title": "Phase II Trial of Effect of Metreleptin Therapy in Severe Insulin Resistance",
+    "briefTitle": "Effect of Metreleptin Therapy in the Treatment of Severe Insulin Resistance",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2003-08-21",
+    "completionDate": "2030-01-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Metreleptin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Severe Insulin Resistance"
+    ]
+  },
+  {
+    "nctId": "NCT00395382",
+    "title": "Randomised Controlled Trial of the Effect of Alendronate on Vascular Calcification and Arterial Stiffness in Chronic Kidney Disease: A Pilot Study",
+    "briefTitle": "Study of the Effect of Alendronate on Vascular Calcification and Arterial Stiffness in Chronic Kidney Disease",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Alendronate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Vascular Calcification",
+      "Arteriosclerosis"
+    ]
+  },
+  {
+    "nctId": "NCT01035320",
+    "title": "Platelet Function in Diabetic Patients With and Without Renal Impairment, and the Effects of Lipid Lowering Treatment",
+    "briefTitle": "Platelet Function in Diabetic Patients With and Without Renal Impairment, and the Effects of Lipid Lowering Treatment",
+    "status": "COMPLETED",
+    "startDate": "2006-01",
+    "completionDate": "2012-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Ezetimibe"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus",
+      "Impaired Renal Function"
+    ]
+  },
+  {
+    "nctId": "NCT01574820",
+    "title": "Role of Rosiglitazone Treatment and Secondary Prevention of Cardiovascular Events in Patients With Pre-Diabetes Mellitus and Coronary Artery Disease",
+    "briefTitle": "Role of Rosiglitazone on Pre-Diabetes Mellitus and Coronary Artery Disease",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2011-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "placebo tablet",
+      "rosiglitazone (4 mg)/day"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Prediabetes",
+      "Coronary Artery Disease",
+      "Insulin Resistance",
+      "Glucose Intolerance"
+    ]
+  },
+  {
+    "nctId": "NCT04043520",
+    "title": "Bioenergetic and Metabolic Consequences of the Loss of Ovarian Function in Women - 2018",
+    "briefTitle": "Bioenergetic Effects of Aging and Menopause (BEAM)",
+    "status": "RECRUITING",
+    "startDate": "2019-09-24",
+    "completionDate": "2024-08-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "GnRH antagonist",
+      "Estrogen Product",
+      "Placebo estradiol",
+      "Placebo GnRH antagonist"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Menopause",
+      "Obesity, Abdominal",
+      "Aging",
+      "Weight Gain"
+    ]
+  },
+  {
+    "nctId": "NCT03970720",
+    "title": "Restoration of Hypoglycemia Awareness With Metoclopramide",
+    "briefTitle": "Restoration of Hypoglycemia Awareness With Metoclopramide",
+    "status": "RECRUITING",
+    "startDate": "2019-05-28",
+    "completionDate": "2026-03-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Metoclopramide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypoglycemia Unawareness"
+    ]
+  },
+  {
+    "nctId": "NCT00005782",
+    "title": "Leukapheresis of Volunteers With Sickle Cell Trait to Evaluate Mobilization of Stem Cells With Granulocyte Colony-Stimulating Factor and Stem Cell Collection and Storage for Allogeneic Transplantation",
+    "briefTitle": "Mobilization and Handling of Stem Cells for Transplant From Healthy Volunteers With Sickle Cell Trait",
+    "status": "COMPLETED",
+    "startDate": "2000-01",
+    "completionDate": "2002-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Granulocyte colony-stimulating factor"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sickle Cell Trait"
+    ]
+  },
+  {
+    "nctId": "NCT05035082",
+    "title": "REALYSE - Comparative Effectiveness of Once-daily Oral Semaglutide Versus Any Other Oral Glucose-lowering Medication in a Real-world Adult Population With Type 2 Diabetes on Metformin Monotherapy in US Based Health Care Systems - a Pragmatic Randomized Trial",
+    "briefTitle": "A Research Study Comparing RYBELSUS\u00ae to Other Blood Sugar Lowering Tablets in People Living in America With Type 2 Diabetes (REALYSE)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-09-01",
+    "completionDate": "2025-06-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "semaglutide",
+      "oral glucose-lowering medications (commercially available)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT04345120",
+    "title": "A Phase Ib Placebo-controlled Study to Assess Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of SY-008 After Multiple Ascending Doses in Patients With Type 2 Diabetes Mellitus",
+    "briefTitle": "Multiple Ascending Doses of SY-008 in Type 2 Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2020-06-15",
+    "completionDate": "2021-12-15",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SY-008",
+      "SY-008 matching placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT01464320",
+    "title": "A Phase 1b, Double-Blind, Randomized, Placebo-Controlled Study to Evaluate the Safety, Tolerability and Pharmacokinetics of a Single-Dose of ABT-614 and the Effect of ABT-614 on Glomerular Filtration Rate in Subjects With Type 2 Diabetes and Chronic Kidney Disease With Albuminuria",
+    "briefTitle": "A Study to Evaluate the Safety and Tolerability of ABT-614 and Its Effect on Kidney Function in Subjects With Type 2 Diabetes and Chronic Kidney Disease With Protein in Their Urine.",
+    "status": "COMPLETED",
+    "startDate": "2011-11",
+    "completionDate": "2012-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "ABT-614",
+      "Placebo Comparator"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetics, Chronic Kidney Disease, Protein in Urine"
+    ]
+  },
+  {
+    "nctId": "NCT00701831",
+    "title": "Assessment of Forced Titration to Reach the Effective Dose for Good Glycemic Control in Lantus Treated Type 2 Patients",
+    "briefTitle": "Assessment of Insulin Glargine in Type 2 Patients for Good Glycemic Control",
+    "status": "COMPLETED",
+    "startDate": "2008-05",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Insulin glargine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT01106131",
+    "title": "Efficacy and Safety of CKD-501 or Pioglitazone Added to Ongoing Metformin Therapy in Patients With Type 2 Diabetes Inadequately Controlled With Metformin Alone: Multi Center, Randomized, Double Blind, Therapeutic Confirmatory Study",
+    "briefTitle": "Efficacy and Safety of CKD-501 Versus Pioglitazone When Added to Metformin",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "2012-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "CKD-501 0.5mg",
+      "Pioglitazone 15mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT00994682",
+    "title": "Long-term Role of Pioglitazone in Non-Alcoholic Fatty Liver Disease (NAFLD) in Type 2 Diabetes Mellitus (T2DM).",
+    "briefTitle": "University of Texas H.S.C. San Antonio Pioglitazone in Non-Alcoholic Steatohepatitis Trial (UTHSCSA NASH Trial)",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pioglitazone study drug",
+      "Placebo",
+      "Pioglitazone Open Label"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Nonalcoholic Steatohepatitis",
+      "Nonalcoholic Fatty Liver Disease",
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT00588120",
+    "title": "Investigations Into the Genotype and Phenotype of Unclassified Hyperoxaluria: Enteric Oxalate Absorption Study",
+    "briefTitle": "Enteric Oxalate Absorption Study in Unclassified Hyperoxaluria",
+    "status": "COMPLETED",
+    "startDate": "1998-12",
+    "completionDate": "2020-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "C-13 labeled oxalate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Enteric Hyperoxaluria",
+      "Hyperoxaluria"
+    ]
+  },
+  {
+    "nctId": "NCT05729282",
+    "title": "Role of Hyperinsulinemia in Non-Alcoholic Fatty Liver Disease (NAFLD) Pathogenesis: Diazoxide Pilot & Feasibility Study",
+    "briefTitle": "Glycemic Effect of Diazoxide in NAFLD",
+    "status": "RECRUITING",
+    "startDate": "2023-08-01",
+    "completionDate": "2025-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Diazoxide oral suspension, 1 mg per kg per dose",
+      "Diazoxide oral suspension, 2 mg per kg per dose",
+      "Placebo",
+      "Deuterated water (2H2O/D2O)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hyperinsulinemia",
+      "Insulin Resistance",
+      "Non-Alcoholic Fatty Liver Disease",
+      "Prediabetic State"
+    ]
+  },
+  {
+    "nctId": "NCT04551482",
+    "title": "Oxytocin as a Neuroendocrine Therapy for Obesity in Youth",
+    "briefTitle": "Oxytocin for Weight Loss in Adolescents",
+    "status": "RECRUITING",
+    "startDate": "2021-07-28",
+    "completionDate": "2027-03-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oxytocin nasal spray",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity, Adolescent",
+      "Oxytocin"
+    ]
+  },
+  {
+    "nctId": "NCT02357420",
+    "title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety and Efficacy of RM-131 Administered to Patients With Vomiting Symptoms and Moderate to Severe Diabetic Gastroparesis",
+    "briefTitle": "Safety and Efficacy of Relamorelin Administered to Participants With Vomiting Symptoms and Moderate to Severe Diabetic Gastroparesis",
+    "status": "COMPLETED",
+    "startDate": "2015-01-29",
+    "completionDate": "2016-06-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Relamorelin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus",
+      "Diabetes Mellitus Complications",
+      "Gastroparesis"
+    ]
+  },
+  {
+    "nctId": "NCT01739582",
+    "title": "An Open Label, 6 Month Phase III Extension Study of Enclomiphene Citrate in the Treatment of Men With Secondary Hypogonadism",
+    "briefTitle": "An Extension Study of Enclomiphene Citrate in the Treatment of Men With Secondary Hypogonadism",
+    "status": "COMPLETED",
+    "startDate": "2012-11",
+    "completionDate": "2014-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Androxal"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Secondary Hypogonadism"
+    ]
+  },
+  {
+    "nctId": "NCT02386982",
+    "title": "A Single-centre, Randomized, Open-label, 2-arm, 4-week Treatment Study to Investigate the Beta Cell Function and Related Pharmacodynamics in Type 2 Diabetes Mellitus (T2DM) Patients",
+    "briefTitle": "Beta Cell Function and Related Pharmacodynamics of HMS5552 in T2DM Patients",
+    "status": "COMPLETED",
+    "startDate": "2015-03",
+    "completionDate": "2015-05",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "HMS5552"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT00845182",
+    "title": "Effect of Pioglitazone With and Without Exenatide on Body Weight, Fat Topography, Beta Cell Function, and Glycemic Control in Type 2 Diabetic Patients",
+    "briefTitle": "Effect of Pioglitazone and Exenatide on Body Weight and Beta Cell Function",
+    "status": "COMPLETED",
+    "startDate": "2007-06",
+    "completionDate": "2010-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pioglitazone",
+      "Exenatide",
+      "Pioglitazone and Exenatide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes",
+      "Healthy",
+      "Impaired Glucose Tolerance"
+    ]
+  },
+  {
+    "nctId": "NCT00832182",
+    "title": "An Open-labelled, Non-randomized, Multi-centre, Multinational Extension Trial Assessing the Safety of Insulin Aspart in Patients With Type I Diabetes Treated With a Basal-bolus Regimen",
+    "briefTitle": "Examining the Long-term Safety of Insulin Aspart When Used as a Part of the Treatment for Type 1 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "1999-12-22",
+    "completionDate": "2002-11-25",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "insulin aspart",
+      "insulin NPH"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 1"
+    ]
+  },
+  {
+    "nctId": "NCT06169982",
+    "title": "A Phase 1, Open-Label, Multiple-Dose Study to Investigate Steady-State Pharmacokinetics and Pharmacodynamics During a Euglycemic Clamp of LY3209590 in Participants With Type 2 Diabetes Mellitus",
+    "briefTitle": "A Multiple Dose Study of LY3209590 in Participants With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2023-12-07",
+    "completionDate": "2024-07-18",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "LY3209590"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00387582",
+    "title": "Lucentis in the Treatment of Macular Edema - A Phase II, Single Center, Randomized Study to Evaluate the Efficacy of Ranibizumab Versus Focal Laser Treatment in Subjects With Diabetic Macular Edema",
+    "briefTitle": "Efficacy Study of Lucentis in the Treatment of Diabetic Macular Edema",
+    "status": "COMPLETED",
+    "startDate": "2006-07",
+    "completionDate": "2009-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Ranibizumab (Lucentis)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetic Retinopathy",
+      "Diabetic Macular Edema"
+    ]
+  },
+  {
+    "nctId": "NCT00488527",
+    "title": "Multicentric, Open Label Clinical Trial. Use of Optimal Method to Initiate and Maintain Lantus Therapy (Insulin Glargine) in Combination With Hypoglycemic Agents, Assessing the Resulting Metabolic Control and the Safety in T2 Diabetes Mellitus Patients.",
+    "briefTitle": "DOMME Dose Optimization Multicentric Mexican Evaluation",
+    "status": "COMPLETED",
+    "startDate": "2007-04",
+    "completionDate": "2008-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Insulin glargine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00101673",
+    "title": "Efficacy and Safety of Vildagliptin in Patients With Type 2 Diabetes With HbA1c 9-11%",
+    "briefTitle": "Efficacy and Safety of Vildagliptin in Patients With Type 2 Diabetes With HbA1c 9-11%",
+    "status": "COMPLETED",
+    "startDate": "2004-03",
+    "completionDate": "2005-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "vildagliptin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00115973",
+    "title": "An Open-Label, Stepwise Basal Insulin Dose Titration Study Using Continuous Subcutaneous Insulin Infusion (CSII) in Oral Antidiabetic Drug-Treated Type 2 Diabetes Mellitus Subjects Followed by a 10-Week Out-Patient Maintenance Phase",
+    "briefTitle": "A Study of the Treatment of Type 2 Diabetes With an Insulin Infusion Pump",
+    "status": "COMPLETED",
+    "startDate": "2005-06",
+    "completionDate": "2006-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "insulin aspart"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2",
+      "Delivery Systems"
+    ]
+  },
+  {
+    "nctId": "NCT00264927",
+    "title": "A Randomized, Double-Blind, Placebo-Group, Multicenter Study Evaluating the Efficacy and Safety of SR121463B in Patients With Syndrome of Inappropriate Antidiuretic Hormone Secretion",
+    "briefTitle": "Efficacy and Safety of SR121463B in Patients With Syndrome of Inappropriate Antidiuretic Hormone Secretion",
+    "status": "COMPLETED",
+    "startDate": "2004-05",
+    "completionDate": "2007-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "SR121463B"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Inappropriate ADH Syndrome",
+      "Hyponatremia"
+    ]
+  },
+  {
+    "nctId": "NCT01217073",
+    "title": "A Phase IIb, Randomized, Placebo-Controlled, Dose-Range Finding Clinical Trial to Study the Safety and Efficacy of MK-3102 in Patients With Type 2 Diabetes Mellitus and Inadequate Glycemic Control",
+    "briefTitle": "A Dose-Range Finding Study in Participants With Type 2 Diabetes (MK-3102-006)",
+    "status": "COMPLETED",
+    "startDate": "2010-10-08",
+    "completionDate": "2013-04-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Omarigliptin",
+      "Placebo to omarigliptin",
+      "Pioglitazone",
+      "Metformin",
+      "Placebo to metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT00504673",
+    "title": "Comparison of the Effect of Insulin Detemir Versus Insulin NPH Both With Insulin Aspart on Weight Change in Overweight and Obese Subjects With Type 2 Diabetes",
+    "briefTitle": "Comparison of Insulin Detemir Versus Insulin NPH on Weight Change in Overweight and Obese With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2006-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "insulin detemir",
+      "insulin NPH",
+      "insulin aspart"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT02562573",
+    "title": "A Phase 2, Single-Arm, Open-Label Study to Evaluate the Safety and Tolerability of PBI-4050 in Type 2 Diabetes Patients With Metabolic Syndrome",
+    "briefTitle": "Study to Evaluate the Safety and Tolerability of PBI-4050 in Type 2 Diabetes Patients With Metabolic Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2015-05",
+    "completionDate": "2016-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "PBI4050"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes",
+      "Metabolic Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT04768673",
+    "title": "A Randomized, Open-label, Single-dose, Two-way Crossover Clinical Trial to Investigate the Pharmacokinetics and Safety After Oral Administration of CKD-393 and Co-administration of CKD-501, D759 and H053 Under Fed Condition in Healthy Adults",
+    "briefTitle": "A Study to Investigate the PK and Safety of CKD-393",
+    "status": "COMPLETED",
+    "startDate": "2021-03-26",
+    "completionDate": "2021-04-27",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CKD-393 formulation I",
+      "CKD-393 formulation II",
+      "D501, D759, H053"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type II Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT02627027",
+    "title": "A Randomized, Open-label, Single Dose, 2-way Crossover Study to Compare the Pharmacokinetic Characteristics of CKD-395 0.25/750 mg in Healthy Male Volunteers",
+    "briefTitle": "A Clinical Study to Compare the Pharmacokinetic Characteristics of CKD-395 0.25/750 mg in Healthy Male Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2015-08",
+    "completionDate": "2015-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Duvie Tab. 0.5mg, Glucodaun OR Tab. 750mg",
+      "CKD-395 0.25/750mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type II"
+    ]
+  },
+  {
+    "nctId": "NCT00518427",
+    "title": "A Multicenter Clinical Trial to Evaluate Quality of Life in Patients With Type 2 Diabetes Before and After Changing Therapy to a Combination of Insulin Glargine and Oral Antidiabetic Drugs in a Real Life Situation",
+    "briefTitle": "Evaluate Quality of Life in Type 2 Diabetes, Before and After Change to Insuline Glargine",
+    "status": "COMPLETED",
+    "startDate": "2005-10",
+    "completionDate": "2008-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Insulin Glargine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00591227",
+    "title": "Management of Hyperglycemia in the Emergency Room: A Randomized Clinical Trial of a Subcutaneous Insulin Aspart Protocol Coupled With Rapid Initiation of Basal Bolus Insulin Prior to Hospital Admission Versus Usual Care",
+    "briefTitle": "Management of Diabetes in the Emergency Room: a Randomized Trial of an Insulin Protocol.",
+    "status": "COMPLETED",
+    "startDate": "2008-05",
+    "completionDate": "2009-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "insulin aspart",
+      "insulin detemir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT00725127",
+    "title": "Chronotherapy with Low-dose Aspirin for Primary Prevention of Cardiovascular Events in Subjects with Impaired Fasting Glucose or Diabetes (CARING Study).",
+    "briefTitle": "Chronotherapy with Low-dose Aspirin for Primary Prevention",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2008-10",
+    "completionDate": "2026-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "aspirin",
+      "aspirin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT02485327",
+    "title": "An Open-label, 2 Replicate Single Dose Euglycemic Glucose-Clamp Trial to Characterize PK and PD Within-Subject Variability of a Single Dose of Afrezza Inhaled Technosphere Insulin in Patients With Diabetes Mellitus Type 1 (T1DM)",
+    "briefTitle": "PK and PD Within-Subject Variability of a Single Dose of Afrezza Inhaled Technosphere Insulin in Patients With Diabetes Mellitus Type 1 (T1DM)",
+    "status": "COMPLETED",
+    "startDate": "2015-07",
+    "completionDate": "2015-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Technosphere Insulin SAR439065 Afrezza\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 1 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT05787873",
+    "title": "A Clinical Trial to Compare and Evaluate the Safety and Bioequivalence of After Concomitant Administration of \"SIPS-2209-2\" and \"SIPS-2209-3\" and Single Administration of \"SIPS-2209-1\" in Healthy Adult Volunteers in Fasting Conditions.",
+    "briefTitle": "A Clinical Trial to Evaluate the Pharmacokinetics and Safety of SIPS-2209-1 in Healthy Korean Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2022-08-30",
+    "completionDate": "2022-09-21",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SIPS-2209-1",
+      "SIPS-2209-2, SIPS-2209-3"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT06649773",
+    "title": "A Study to Evaluate the Efficacy and Safety of Noiiglutide Injection in Type 2 Diabetes Patients Who Received Metformin in Combination With or Without Another Oral Hypoglycemic Drug for Poor Blood Glucose Control -- a Phase III Clinical Trial of Multicenter, Randomized, Double-blind, Placebo Parallel Control",
+    "briefTitle": "The Experiment of Noiiglutide Injection in Type 2 Diabetes Patients",
+    "status": "RECRUITING",
+    "startDate": "2024-10-25",
+    "completionDate": "2025-09-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Noiiglutide Injection",
+      "Noiiglutide Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT00552227",
+    "title": "The Effect of Protein Kinase C (PKC) \u03b2 Specific Inhibitor on Oxidant Stress in Patient With Type 2 Diabetes Mellitus",
+    "briefTitle": "Isoprostane/FMD Study The Effect of Protein Kinase C (PKC) \u03b2 Specific Inhibitor LY333531 on Oxidant Stress in Patients With Type 2 Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2002-09",
+    "completionDate": "2005-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "ruboxistaurin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT04166773",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study Comparing the Efficacy and Safety of Tirzepatide Versus Placebo in Patients With Nonalcoholic Steatohepatitis (NASH)",
+    "briefTitle": "A Study of Tirzepatide (LY3298176) in Participants With Nonalcoholic Steatohepatitis (NASH)",
+    "status": "COMPLETED",
+    "startDate": "2019-11-19",
+    "completionDate": "2024-01-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tirzepatide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Nonalcoholic Steatohepatitis"
+    ]
+  },
+  {
+    "nctId": "NCT04990427",
+    "title": "A Phase 1 Open-Label, Proof-of-Concept Study to Evaluate the Safety and Efficacy of CLBS201 Autologous Peripheral Blood-Derived CD34+ Cells in Subjects with Chronic Kidney Disease and Type 2 Diabetes Mellitus",
+    "briefTitle": "CLBS201 in Patients with Chronic Kidney Disease (CKD) and Type 2 Diabetes Mellitus (T2DM)",
+    "status": "COMPLETED",
+    "startDate": "2022-01-10",
+    "completionDate": "2023-01-26",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CLBS201"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Kidney Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT00924573",
+    "title": "Double-blinded Comparative Study to Investigate the Efficacy and Safety of HOE490 O (Glimepiride and Metformin) Compared With Placebo on Top of Glimepiride in Patients With T2DM Inadequately Treated With Constant Dose of Glimepiride",
+    "briefTitle": "Comparative Study of HOE490 O (Glimepiride and Metformin) Compared With Placebo on Top of Glimepiride",
+    "status": "COMPLETED",
+    "startDate": "2009-05",
+    "completionDate": "2010-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Metformin",
+      "placebo",
+      "Glimepiride (HOE490)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT02288273",
+    "title": "A Randomized Double-blind, Parallel-group Study to Evaluate the Effect of BYDUREON Compared With Placebo on 24-hour Glucose Control in Metformin-treated Patients With Type 2 Diabetes",
+    "briefTitle": "Study to Evaluate the Effect of BYDUREON on 24-hour Glucose Control in Metformin Treated Patients With Type 2 Diabetes.",
+    "status": "COMPLETED",
+    "startDate": "2014-12",
+    "completionDate": "2015-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bydureon",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT01135927",
+    "title": "A Trial Investigating the Pharmacodynamic Properties of NN1250 in Japanese Subjects With Type 1 Diabetes",
+    "briefTitle": "A Trial Investigating the Effect of NN1250 in Japanese Subjects With Type 1 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2010-06",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "insulin degludec",
+      "insulin detemir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 1"
+    ]
+  },
+  {
+    "nctId": "NCT00305227",
+    "title": "Intravaginal LACTIN-V for Prevention of Recurrent Urinary Tract Infections",
+    "briefTitle": "Intravaginal LACTIN-V for Prevention of Recurrent Urinary Tract Infection",
+    "status": "COMPLETED",
+    "startDate": "2006-03",
+    "completionDate": "2012-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lactin-V",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Urinary Tract Infection"
+    ]
+  },
+  {
+    "nctId": "NCT03973827",
+    "title": "An Open Label, Parallel Single Centre Trial of Wharton's Jelly Derived Allogeneic Mesenchymal Stromal Cells Repeated Treatment to Preserve Endogenous Insulin Production in Adult Patients Diagnosed with Type 1 Diabetes",
+    "briefTitle": "Wharton\u00b4s Jelly Derived Mesenchymal Stromal Cell Repeated Treatment of Adult Patients Diagnosed with Type I Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2019-05-17",
+    "completionDate": "2024-11-20",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "ProTrans"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type1diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT04980027",
+    "title": "Multicentre Phase IV Single Arm Clinical Trial to evaluAte the saFety and Efficacy of Gla-300 in insUlin-na\u00efve Patients With Type 2 DiAbetes uncontRolled on Oral Antihyperglycemic Drugs",
+    "briefTitle": "Evaluation of the Safety and Efficacy of Insulin Glargine 300 U/ml (Gla-300) in Insulin-na\u00efve Patients With Type 2 Diabetes Mellitus Uncontrolled on Oral Antihyperglycemic Drugs",
+    "status": "COMPLETED",
+    "startDate": "2021-06-07",
+    "completionDate": "2022-12-23",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Insulin glargine (U300)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT05327127",
+    "title": "Study to Evaluate the Efficacy and Safety of Combination Therapy of K-877-ER and CSG452 in Participants With Noncirrhotic Nonalcoholic Steatohepatitis (NASH) With Liver Fibrosis",
+    "briefTitle": "Study to Evaluate the Efficacy and Safety of K-877-ER and CSG452 in Participants With NASH With Liver Fibrosis",
+    "status": "RECRUITING",
+    "startDate": "2022-11-14",
+    "completionDate": "2026-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "K-877-ER",
+      "CSG452",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "NASH"
+    ]
+  },
+  {
+    "nctId": "NCT02831673",
+    "title": "A Phase III, Randomised, Double Blind, Multicentre, Parallel Group, Non Inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in Human Immunodeficiency Virus 1 Infected Treatment na\u00efve Adults",
+    "briefTitle": "An Efficacy, Safety, and Tolerability Study Comparing Dolutegravir Plus Lamivudine With Dolutegravir Plus Tenofovir/Emtricitabine in Treatment na\u00efve HIV Infected Subjects (Gemini 1)",
+    "status": "COMPLETED",
+    "startDate": "2016-07-21",
+    "completionDate": "2022-08-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dolutegravir (DTG)",
+      "Lamivudine (3TC)",
+      "Tenofovir disoproxil fumarate/Emtricitabine (TDF/FTC FDC)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00149227",
+    "title": "Add-on Effects of Valsartan on Morbi- Mortality in High Risk Hypertension",
+    "briefTitle": "Add-on Effects of Valsartan on Morbi- Mortality (KYOTO HEART Study)",
+    "status": "COMPLETED",
+    "startDate": "2004-01",
+    "completionDate": "2009-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Valsartan",
+      "Non-ARB"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Ischemic Heart Disease",
+      "Congestive Heart Failure",
+      "Stroke"
+    ]
+  },
+  {
+    "nctId": "NCT00021827",
+    "title": "Pathophysiology of PTH-related Protein in Humans.",
+    "briefTitle": "PTHrP and Osteoporosis",
+    "status": "COMPLETED",
+    "startDate": "1999-06",
+    "completionDate": "2001-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Parathyroid hormone-related protein or ''PTHrP''"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Osteoporosis"
+    ]
+  },
+  {
+    "nctId": "NCT05409027",
+    "title": "A Study to Assess 11 Beta-hydroxysteroid Dehydrogenase Type 1 Inhibition in Adipose Tissue by SPI-62",
+    "briefTitle": "A Study to Assess 11 Beta-hydroxysteroid Dehydrogenase Type 1 Inhibition in Adipose Tissue by SPI-62",
+    "status": "COMPLETED",
+    "startDate": "2021-07-23",
+    "completionDate": "2024-02-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SPI-62",
+      "Cortisone-d8"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus in Obese",
+      "Obesity",
+      "Type2Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT00456027",
+    "title": "A Placebo-Controlled Study to Investigate the Impact of Diamyd\u00ae on the Diabetes Status of Patients With LADA (Latent Autoimmune Diabetes in Adult)",
+    "briefTitle": "Safety of Diamyd\u00ae in Patients With LADA (Latent Autoimmune Diabetes in Adult)",
+    "status": "COMPLETED",
+    "startDate": "2004-12",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "rhGAD65 formulated in Alhydrogel\u00ae (Diamyd\u00ae)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Latent Autoimmune Diabetes in Adult (LADA)"
+    ]
+  },
+  {
+    "nctId": "NCT02836873",
+    "title": "A Double Blind Placebo Controlled Study to Evaluate the Effect of Bexagliflozin Tablets on Hemoglobin A1c in Patients With Type 2 Diabetes Mellitus and Moderate Renal Impairment",
+    "briefTitle": "Safety and Efficacy of Bexagliflozin in Type 2 Diabetes Mellitus Patients With Moderate Renal Impairment",
+    "status": "COMPLETED",
+    "startDate": "2016-09-23",
+    "completionDate": "2018-01-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Bexagliflozin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT02706873",
+    "title": "A Phase 3, Randomized, Double-Blind Study Comparing Upadacitinib (ABT-494) Once Daily Monotherapy to Methotrexate (MTX) Monotherapy in MTX-Na\u00efve Subjects With Moderately to Severely Active Rheumatoid Arthritis",
+    "briefTitle": "A Study to Compare Upadacitinib (ABT-494) Monotherapy to Methotrexate (MTX) Monotherapy in Adults With Rheumatoid Arthritis (RA) Who Have Not Previously Taken Methotrexate",
+    "status": "COMPLETED",
+    "startDate": "2016-02-23",
+    "completionDate": "2022-11-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo to Upadacitinib",
+      "Methotrexate",
+      "Placebo to Methotrexate",
+      "Upadacitinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00839527",
+    "title": "A Randomized, Double-blind, Placebo and Active-Controlled, Parallel-group, Multicenter Study to Determine the Efficacy and Safety of Albiglutide Administered in Combination With Metformin and Glimepiride Compared With Metformin Plus Glimepiride and Placebo and With Metformin Plus Glimepiride and Pioglitazone in Subjects With Type 2 Diabetes Mellitus",
+    "briefTitle": "A Study to Determine the Safety and Efficacy of Albiglutide in Subjects With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2013-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "placebo to match albiglutide",
+      "metformin",
+      "glimepiride",
+      "pioglitazone",
+      "placebo to match pioglitazone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT03087773",
+    "title": "Impact of EMpagliflozin on Cardiac Function and Biomarkers of Heart Failure in Patients With Acute MYocardial Infarction",
+    "briefTitle": "Impact of EMpagliflozin on Cardiac Function and Biomarkers of Heart Failure in Patients With Acute MYocardial Infarction",
+    "status": "COMPLETED",
+    "startDate": "2017-05-11",
+    "completionDate": "2022-05-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Empagliflozin 10 mg",
+      "Placebo Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Myocardial Infarction"
+    ]
+  }
+]
