@@ -2,11 +2,11 @@
 
 This project leverages clinical trial data from [ClinicalTrials.gov](https://clinicaltrials.gov/) to identify potential drug repurposing opportunities across therapeutic areas using **network science techniques**. The analysis focuses exclusively on active pharmaceutical interventions (excluding devices and procedures), and considers trials in Phase I–IV with valid recruitment statuses.
 
-## 🧠 Objective
+## Objective
 
 To identify and characterise repurposing opportunities by analysing the co-occurrence of drug interventions across multiple disease categories, using centrality and community detection in a drug–disease network constructed from real-world clinical trials.
 
-## 📁 Project Structure
+## Project Structure
 
 ├── code/
 │ ├── data_extraction.py # Downloads and filters trials from ClinicalTrials.gov API
@@ -26,7 +26,7 @@ To identify and characterise repurposing opportunities by analysing the co-occur
 └── README.md
 
 
-## 🧪 Methodology Overview
+## Methodology Overview
 
 1. **Trial Filtering**  
    - Only **drug-based** interventional trials  
@@ -49,19 +49,19 @@ To identify and characterise repurposing opportunities by analysing the co-occur
    - Network edge labels denote shared entity counts  
    - Disease networks filtered by shared drug threshold
 
-## 🔍 Key Findings
+## Key Findings
 
 - **Dexamethasone**, **Rituximab**, and **Prednisone** rank highly across all centrality metrics, suggesting strong repurposing potential.
 - Disease clusters linked by common drugs reveal biological and therapeutic overlaps, e.g., inflammation, oncology, and autoimmunity.
 
-## 📊 Plots Included
+## Plots Included
 
 - Bipartite Drug–Disease Network
 - Drug Centrality Highlights (Degree, Betweenness, Eigenvector)
 - Disease–Disease Network (based on shared drugs)
 - Centrality Summary Table (CSV)
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.8+
 - `networkx`, `matplotlib`, `requests`, `pandas`
