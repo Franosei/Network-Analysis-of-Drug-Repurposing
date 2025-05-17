@@ -1,0 +1,4006 @@
+[
+  {
+    "nctId": "NCT03668860",
+    "title": "A Phase 1, Open-Label, Randomized Study to Compare the Pharmacokinetics and Pharmacodynamics of Single Dose Dexamethasone and Betamethasone Administered Orally and Intramuscularly in Healthy Female Subjects",
+    "briefTitle": "India Dexamethasone and Betamethasone",
+    "status": "COMPLETED",
+    "startDate": "2018-09-20",
+    "completionDate": "2019-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Dexamethasone 4 mg/ml",
+      "Betamethasone 4 mg/ml",
+      "Celestone Soluspan 6Mg/Ml Suspension for Injection",
+      "Dexamethasone Oral Tablet",
+      "Betamethasone Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Preterm Birth",
+      "Antenatal Corticosteroids"
+    ]
+  },
+  {
+    "nctId": "NCT03796676",
+    "title": "A PHASE 3, RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED, MULTI-CENTER STUDY INVESTIGATING THE EFFICACY AND SAFETY OF PF-04965842 CO-ADMINISTERED WITH BACKGROUND MEDICATED TOPICAL THERAPY IN ADOLESCENT PARTICIPANTS 12 TO <18 YEARS OF AGE WITH MODERATE-TO-SEVERE ATOPIC DERMATITIS",
+    "briefTitle": "JAK1 Inhibitor With Medicated Topical Therapy in Adolescents With Atopic Dermatitis",
+    "status": "COMPLETED",
+    "startDate": "2019-02-18",
+    "completionDate": "2020-04-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "PF-04965842",
+      "PF04965842"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Atopic Dermatitis"
+    ]
+  },
+  {
+    "nctId": "NCT00365560",
+    "title": "A Randomised, Double-Blind, Placebo-Controlled, Crossover Efficacy and Safety Evaluation of 8-Week Treatment Periods of Two Doses [5 Mcg (2 Actuations of 2.5 Mcg) and 10 Mcg (2 Actuations of 5 Mcg)] of Tiotropium Inhalation Solution Delivered by the Respimat Inhaler\u00ae as Add-on Therapy in Patients With Severe Persistent Asthma",
+    "briefTitle": "An Efficacy and Safety Evaluation of Tiotropium add-on Therapy in Patients With Severe Persistent Asthma",
+    "status": "COMPLETED",
+    "startDate": "2006-08",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "tiotropium",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02630160",
+    "title": "The Influence of Local Infiltration Analgesia by Catheter in Postoperative Control Pain After Total Hip Replacement",
+    "briefTitle": "The Influence of Local Infiltration Analgesia by Catheter in Postoperative Control Pain After Total Hip Replacement",
+    "status": "COMPLETED",
+    "startDate": "2013-03",
+    "completionDate": "2014-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bupivacaine hydrochloride"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Musculoskeletal Pain",
+      "Hip Injuries"
+    ]
+  },
+  {
+    "nctId": "NCT02897076",
+    "title": "Dose Reduction of Antenatal Betamethasone Given to Prevent the Neonatal Complications Associated With Very Preterm Birth: a Randomized, Multicentre, Double Blind Placebo-controlled Non Inferiority Trial",
+    "briefTitle": "Dose Reduction of Antenatal Betamethasone Given to Prevent the Neonatal Complications Associated With Very Preterm Birth",
+    "status": "COMPLETED",
+    "startDate": "2017-01",
+    "completionDate": "2020-01-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "betamethasone 24 mg",
+      "12mg betamethasone +placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Neonatal Complications"
+    ]
+  },
+  {
+    "nctId": "NCT02400476",
+    "title": "An Open-Label Study to Characterize the Incidence and Severity of Diarrhea in Patients With Early-Stage HER2+ Breast Cancer Treated With Neratinib and Loperamide",
+    "briefTitle": "An Open-Label Study to Characterize the Incidence and Severity of Diarrhea in Patients With Early-Stage HER2+ Breast Cancer Treated With Neratinib and Loperamide",
+    "status": "COMPLETED",
+    "startDate": "2015-02",
+    "completionDate": "2021-04-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Neratinib",
+      "Loperamide",
+      "Colestipol",
+      "Budesonide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Early Stage HER2+ Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03679676",
+    "title": "Phase 2 Randomized Controlled Trial Using Biologics to Improve Multi OIT Outcomes",
+    "briefTitle": "Clinical Study Using Biologics to Improve Multi OIT Outcomes (COMBINE)",
+    "status": "COMPLETED",
+    "startDate": "2020-02-05",
+    "completionDate": "2025-05-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Omalizumab",
+      "Dupilumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypersensitivity",
+      "Food Allergy",
+      "Hypersensitivity, Food",
+      "Peanut Hypersensitivity",
+      "Peanut Allergy"
+    ]
+  },
+  {
+    "nctId": "NCT02220660",
+    "title": "A Single-blind, Randomised, Two-way Crossover Phase I Study to Assess Safety, Tolerability and Pharmacokinetics of the Fixed Dose Combination of BI 1744 CL Plus BI 54903 XX Via Respimat\u00ae B Versus the Free Combination of BI 1744 CL Via Respimat\u00ae A and BI 54903 XX Via Respimat\u00ae B in Healthy Male and Female Volunteers",
+    "briefTitle": "Safety, Tolerability and Pharmacokinetics of the Fixed Dose Combination of BI 1744 CL Plus BI 54903 XX Via Respimat\u00ae B Versus the Free Combination of BI 1744 CL Via Respimat\u00ae A and BI 54903 XX Via Respimat\u00ae B in Healthy Male and Female Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BI 1744 CL",
+      "BI 54903 XX",
+      "BI 1744 CL + BI 54903 XX FDC",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT06834360",
+    "title": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, 52-week Phase 3 Trial to Investigate the Efficacy, Safety, and Tolerability of Itepekimab in Adult Participants With Inadequately-controlled Chronic Rhinosinusitis With Nasal Polyps",
+    "briefTitle": "A Phase 3 Study to Assess the Efficacy, Safety, and Tolerability of Itepekimab (Anti-IL-33 mAb) in Participants With Inadequately-controlled Chronic Rhinosinusitis With Nasal Polyps",
+    "status": "RECRUITING",
+    "startDate": "2025-02-06",
+    "completionDate": "2027-12-13",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Itepekimab (SAR440340)",
+      "Placebo",
+      "Mometasone furoate nasal spray (MFNS)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Rhinosinusitis With Nasal Polyps"
+    ]
+  },
+  {
+    "nctId": "NCT02676076",
+    "title": "A 52 WEEK, RANDOMIZED, DOUBLE BLIND, MULTINATIONAL, MULTICENTRE, ACTIVE CONTROLLED, 2-ARM PARALLEL GROUP TRIAL COMPARING CHF 5993 100/6/12.5 \u00b5g pMDI (FIXED COMBINATION OF EXTRAFINE BECLOMETASONE DIPROPIONATE PLUS FORMOTEROL FUMARATE PLUS GLYCOPYRRONIUM BROMIDE) TO CHF 1535 100/6 \u00b5g pMDI (FIXED COMBINATION OF EXTRAFINE BECLOMETHASONE DIPROPIONATE PLUS FORMOTEROL FUMARATE) IN PATIENTS WITH ASTHMA UNCONTROLLED ON MEDIUM DOSES OF INHALED CORTICOSTEROIDS IN COMBINATION WITH LONG ACTING \u00df2 AGONISTS",
+    "briefTitle": "TRIple in asthMA With uncontRolled pAtient on Medium streNgth of ICS + LABA",
+    "status": "COMPLETED",
+    "startDate": "2016-02-17",
+    "completionDate": "2018-05-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "CHF 5993 100/6/12.5 \u00b5g",
+      "CHF 1535 100/6 \u00b5g"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01329276",
+    "title": "A Randomized, Double-blind, Placebo-controlled, Two Way Cross-over Study to Assess the Particle Deposition and Acute Effects of Formoterol and Budesonide Combination Therapy (Symbicort\u00ae Forte Turbohaler\u00ae) on the Upper Airway Dimensions in COPD Patients.",
+    "briefTitle": "Assess Particle Deposition and Acute Effects of Symbicort\u00ae Forte Turbohaler\u00ae) in COPD Patients.",
+    "status": "COMPLETED",
+    "startDate": "2010-06",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Symbicort\u00ae forte Turbohaler\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01019694",
+    "title": "Patient Acceptability of Ipratropium Bromide/Albuteroll Delivered by the Respimat\u00ae Inhaler in Adults With Chronic Obstructive Pulmonary Disease",
+    "briefTitle": "Combivent Respimat 1-year Safety Study in Patients With Chronic Obstructive Pulmonary Disease",
+    "status": "COMPLETED",
+    "startDate": "2009-11",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Combivent CFC-MDI",
+      "Combivent Respimat 20/100 mcg",
+      "Atrovent HFA 42 mcg + Albuterol HFA 200 mcg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT01062360",
+    "title": "A Pivotal, Placebo Controlled, Phase III Study to Compare Efficacy and Tolerability of a Fixed Combination, Containing 500 mg ASA and 30 mg Pseudoephedrine, in Comparison to Its Single Components in Patients With Sore Throat and Nasal Congestion",
+    "briefTitle": "Placebo and Active Controlled Study to Assess Efficacy and Tolerability of Aspirin Plus Pseudoephedrine",
+    "status": "COMPLETED",
+    "startDate": "2005-12-23",
+    "completionDate": "2007-05-14",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Acetylsalicylic Acid (Aspirin Complex, BAYE4465) + Pseudoephedrine",
+      "Acetylsalicylic Acid (Aspirin, BAYE4465)",
+      "Pseudoephedrine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Common Cold",
+      "Pharyngitis"
+    ]
+  },
+  {
+    "nctId": "NCT03683576",
+    "title": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Dose-ranging, Multi-center Study to Evaluate the Efficacy and Safety of GB001 as Maintenance Therapy in Adult Subjects With Moderate to Severe Asthma",
+    "briefTitle": "GB001 in Adult Subjects With Moderate to Severe Asthma",
+    "status": "COMPLETED",
+    "startDate": "2018-10-22",
+    "completionDate": "2020-08-18",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GB001",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00274560",
+    "title": "A Multiple Dose Comparison of Tiotropium Inhalation Capsules and Salmeterol Inhalation Aerosol in a 12 Week, Randomized, Double-Blind, Double-Dummy Parallel Group Study in Patients With Chronic Obstructive Pulmonary Disease (COPD).",
+    "briefTitle": "A Multiple Dose Comparison of Tiotropium Inhalation Capsules and Salmeterol Inhalation Aerosol.",
+    "status": "COMPLETED",
+    "startDate": "2002-05-01",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tiotropium",
+      "Salmeterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00400660",
+    "title": "First Time in Human, Single Dose and Repeat Dose Study to Assess the Safety, Tolerability and Pharmacokinetics of GSK615915",
+    "briefTitle": "A First Time In Human Study To Assess The Compound GSK615915",
+    "status": "COMPLETED",
+    "startDate": "2005-11-23",
+    "completionDate": "2006-07-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GSK615915A",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Bronchospasm"
+    ]
+  },
+  {
+    "nctId": "NCT02098460",
+    "title": "",
+    "briefTitle": "To Compare the Effect of Concomitant Administration of Probucol and Cilostazol With Probucol Single Treatment on the Atherosclerosis Related Markers (Including the Thickness of the Achilles Tendon) and Evaluate Safety (Based on Atorvastatin Treatment) in Severe Hypercholesterolemia Subject",
+    "status": "COMPLETED",
+    "startDate": "2013-10",
+    "completionDate": "2016-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Atorvastatin, Probucol, Cilostazol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Severe Hypercholesterolemia"
+    ]
+  },
+  {
+    "nctId": "NCT03865160",
+    "title": "Low-dose Atropine for Myopia Control in Children, a Prospective, Double-blind, Placebo-controlled, Multicentric, Randomized Clinical Trial",
+    "briefTitle": "Low-dose Atropine for Myopia Control in Children",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-10-19",
+    "completionDate": "2027-11",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Atropine eye drops, 0.01%",
+      "Atropine eye drops, 0.02%",
+      "Placebo (NaCl 0.9%) eye drops"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Myopia, Progressive"
+    ]
+  },
+  {
+    "nctId": "NCT00485576",
+    "title": "A Randomized, Double Blind, Placebo-Controlled, Crossover Study to Evaluate the Safety and Efficacy of Eculizumab in Subjects With Mild Allergic Asthma.",
+    "briefTitle": "Safety and Efficacy Study of Eculizumab in Patients With Mild Allergic Asthma",
+    "status": "COMPLETED",
+    "startDate": "2007-09",
+    "completionDate": "2008-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "eculizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Allergic Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01769820",
+    "title": "Developmental Clinical Studies - Reversing Endometrial Glucocorticoid Deficiency in Heavy Menstrual Bleeding",
+    "briefTitle": "Dexamethasone for Excessive Menstruation",
+    "status": "COMPLETED",
+    "startDate": "2013-01",
+    "completionDate": "2018-04-18",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dexamethasone",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Heavy Menstrual Bleeding"
+    ]
+  },
+  {
+    "nctId": "NCT02340520",
+    "title": "Enhancement of Corticosteroid Efficacy in COPD",
+    "briefTitle": "Enhancement of Corticosteroid Efficacy in COPD",
+    "status": "COMPLETED",
+    "startDate": "2014-12",
+    "completionDate": "2016-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Theophylline",
+      "Roflumilast"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "COPD"
+    ]
+  },
+  {
+    "nctId": "NCT05993182",
+    "title": "Comparative Study Among Different Doses of Ephedrine During Elective Cesarean Section Under Subarachnoid Block - Time to Event Analysis.",
+    "briefTitle": "Comparative Study Among Different Doses of Ephedrine During Elective Cesarean Section Under Subarachnoid Block.",
+    "status": "COMPLETED",
+    "startDate": "2023-08-20",
+    "completionDate": "2024-01-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Ephedrine 5mg",
+      "Ephedrine 10mg",
+      "Ephedrine 15mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Anesthesia",
+      "Cesarean Section Complications",
+      "Subarachnoid Block"
+    ]
+  },
+  {
+    "nctId": "NCT06603220",
+    "title": "An Open Label Study Evaluating the Safety, Tolerability, and Efficacy of EVO756 in Adults With Chronic Inducible Urticaria",
+    "briefTitle": "A Study Evaluating the Safety, Tolerability, and Efficacy of EVO756 in Adults With Chronic Inducible Urticaria",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-08-14",
+    "completionDate": "2025-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oral EVO756"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Inducible Urticaria"
+    ]
+  },
+  {
+    "nctId": "NCT00712920",
+    "title": "Randomized, Double-Blind, Placebo-Controlled Trial of the Safety and Efficacy of MP03-36 and MP03-33 in Patients With Perennial Allergic Rhinitis",
+    "briefTitle": "A Study to Evaluate the Safety and Effectiveness of a Nasal Spray to Treat Perennial Allergies",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "0.15% azelastine hydrochloride",
+      "0.1% azelastine hydrochloride",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Perennial Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT00425620",
+    "title": "A Prospective, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Parallel-Group Study of Intranasal Amphotericin B Suspension in Patients With Refractory, Postsurgical Chronic Sinusitis (CS)",
+    "briefTitle": "Amphotericin B Suspension in Refractory Chronic Sinusitis",
+    "status": "COMPLETED",
+    "startDate": "2006-12",
+    "completionDate": "2007-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "SinuNase"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Sinusitis"
+    ]
+  },
+  {
+    "nctId": "NCT01469182",
+    "title": "A 28-Day Study Evaluating the Safety of Ragweed (Ambrosia Artemisiifolia) Allergy Immunotherapy Tablet (SCH 39641/MK-3641) Treatment in Ragweed Allergic Adults (Phase 3, Protocol No.P05751)",
+    "briefTitle": "A Study of Ragweed (Ambrosia Artemisiifolia) Allergy Immunotherapy Tablet in Adults With Ragweed Allergies (P05751)",
+    "status": "COMPLETED",
+    "startDate": "2011-11",
+    "completionDate": "2012-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo for SCH 39641"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Allergy"
+    ]
+  },
+  {
+    "nctId": "NCT05688020",
+    "title": "Comparison Between Epinephrine Versus Tranexamic Acid Usage During Upper Gastrointestinal Tract Endoscopic Resection Procedures for the Reduction of Intraprocedural and Postprocedural Bleeding",
+    "briefTitle": "Tranexamic Acid During Upper GI Endoscopic Resection Procedures",
+    "status": "RECRUITING",
+    "startDate": "2023-02-01",
+    "completionDate": "2026-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tranexamic acid",
+      "Epinephrine injection"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gastric Polyp",
+      "Gastric Neoplasm",
+      "Duodenal Neoplasms",
+      "Esophageal Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT06626620",
+    "title": "Randomized Controlled Trial of Intravenous Magnesium Sulfate Versus Terbutaline for Children in the Management of Acute Exacerbation of Asthma",
+    "briefTitle": "Randomized Controlled Trial of Intravenous Magnesium Sulfate Versus Terbutaline for Children in the Management of Acute Exacerbation of Asthma",
+    "status": "COMPLETED",
+    "startDate": "2024-01-01",
+    "completionDate": "2024-09-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Magnesium Sulphate infusion",
+      "Terbutaline Infusion"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Exacerbation of Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02208973",
+    "title": "Randomized, Double Blind, Placebo Controlled, Parallel Groups Study to Assess the Safety, Tolerability and Pharmacokinetic Profile of PBF-680 \"After Multiple Oral Doses\" in Healthy Volunteers.",
+    "briefTitle": "Study to Assess the Safety, Tolerability and Pharmacokinetic Profile of PBF-680 After Multiple Oral Doses\"",
+    "status": "COMPLETED",
+    "startDate": "2014-05",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "PBF-680",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00092131",
+    "title": "A Double-Blind, Randomized, Placebo-Controlled, Multicenter, 2-Period, Crossover Study to Evaluate the Effects of a Single Dose of Montelukast on Exercise-Induced Bronchospasm",
+    "briefTitle": "Montelukast in Exercise-Induced Bronchospasm - 2003 (0476-270)",
+    "status": "COMPLETED",
+    "startDate": "2003-06",
+    "completionDate": "2003-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Comparator: Montelukast",
+      "Comparator: Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma, Exercise-Induced"
+    ]
+  },
+  {
+    "nctId": "NCT05970731",
+    "title": "Directed Topical Drug Delivery for Treatment for PASC Hyposmia",
+    "briefTitle": "Directed Topical Drug Delivery for Treatment for PASC Hyposmia",
+    "status": "COMPLETED",
+    "startDate": "2023-09-05",
+    "completionDate": "2024-10-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Beclomethasone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Post Acute Sequelae Covid-19 Hyposmia"
+    ]
+  },
+  {
+    "nctId": "NCT02233231",
+    "title": "Smoking Young Asthmatics: Change of Inflammation During Tobacco Cessation and Steroid Treatment",
+    "briefTitle": "Smoking Young Asthmatics: Change of Inflammation During Tobacco Cessation and Steroid Treatment",
+    "status": "COMPLETED",
+    "startDate": "2011-08",
+    "completionDate": "2013-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Varenicline",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00868231",
+    "title": "",
+    "briefTitle": "Efficacy of Aclidinium Bromide Administered in Chronic Obstructive Pulmonary Disease (COPD) Patients",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2009-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Aclidinium bromide 400 \u03bcg bid",
+      "Tiotropium 18 \u03bcg once-daily",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease (COPD)"
+    ]
+  },
+  {
+    "nctId": "NCT06732882",
+    "title": "A Phase Ib, Multicentre, Randomised, Single-blind, Parallel-group, Placebo-controlled, Study to Characterise the Pharmacokinetics and Pharmacodynamics of AZD4604 Administered Via the Turbuhaler\u00ae Device in Adults With Mild Asthma",
+    "briefTitle": "Study to Evaluate the Pharmacokinetics and Pharmacodynamics of AZD4604 Given Via the Turbuhaler\u00ae Device in Adults With Mild Asthma.",
+    "status": "RECRUITING",
+    "startDate": "2025-02-27",
+    "completionDate": "2025-09-17",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "AZD4604"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT04708782",
+    "title": "A Randomized, Double-blind, Placebo-controlled, Phase 3 Study of the Efficacy and Safety of Inhaled Treprostinil in Subjects With Idiopathic Pulmonary Fibrosis",
+    "briefTitle": "Study of Efficacy and Safety of Inhaled Treprostinil in Subjects With Idiopathic Pulmonary Fibrosis",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-06-01",
+    "completionDate": "2025-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "Inhaled Treprostinil"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Idiopathic Pulmonary Fibrosis",
+      "Interstitial Lung Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00546520",
+    "title": "A 3-period Double-blind, Cross-over Study on the Onset of Action of Inhaled Ciclesonide (7 Days of 400 mcg Sid Versus 800 mcg Bid Versus Placebo) on Airway Responsiveness to Adenosine Monophosphate (AMP), Sputum Eosinophiles and Exhaled Breath Nitric Oxide (NO) in Patients With Asthma",
+    "briefTitle": "Effect of Inhaled Ciclesonide in Adult Patients With Asthma (BY9010/M1-125)",
+    "status": "COMPLETED",
+    "startDate": "2002-04",
+    "completionDate": "2002-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ciclesonide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT04092582",
+    "title": "A Phase IIa, Multicenter, Randomized, Placebo-Controlled, Double-Blind Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of MTPS9579A in Patients With Asthma Requiring Inhaled Corticosteroids and a Second Controller",
+    "briefTitle": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of MTPS9579A in Patients With Asthma Requiring Inhaled Corticosteroids and a Second Controller",
+    "status": "COMPLETED",
+    "startDate": "2019-10-31",
+    "completionDate": "2022-05-19",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MTPS9579A",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT05601882",
+    "title": "A Phase 3b/4 Randomized, Open-label, Efficacy Assessor Blinded Study, Comparing the Safety and Assessor Blinded Efficacy of Upadacitinib to Dupilumab in Subjects With Moderate to Severe Atopic Dermatitis (Level-Up)",
+    "briefTitle": "A Study to Evaluate Adverse Events and Change in Disease Activity Comparing Oral Upadacitinib to Subcutaneous Dupilumab in Adolescent and Adult Participants With Moderate to Severe Atopic Dermatitis",
+    "status": "COMPLETED",
+    "startDate": "2022-11-28",
+    "completionDate": "2024-08-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dupilumab",
+      "Upadacitinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Atopic Dermatitis"
+    ]
+  },
+  {
+    "nctId": "NCT03783182",
+    "title": "Betamethasone (Betapred\u00ae) as Premedication for Reducing Postoperative Vomiting and Pain After Tonsillectomy - a Randomized, Double-blind, Placebo-controlled Trial",
+    "briefTitle": "Betamethasone (Betapred\u00ae) as Premedication for Reducing Postoperative Vomiting and Pain After Tonsillectomy",
+    "status": "RECRUITING",
+    "startDate": "2019-09-10",
+    "completionDate": "2025-12-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Betamethason Sodium Phosphate",
+      "10% glucose solution"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Tonsillectomy",
+      "Pain",
+      "PONV",
+      "Bleeding"
+    ]
+  },
+  {
+    "nctId": "NCT00443482",
+    "title": "A Randomized, Multi-centre, Double-blind, Double Dummy Placebo Controlled Single-dose Cross-over Study to Demonstrate That 12 and 24 \u00b5g of Formoterol Delivered by Concept1 Has a Bronchodilator Efficacy Which is Equivalent to the Same Dose of Formoterol Delivered by Aerolizer in Adult Patients With Persistent Asthma",
+    "briefTitle": "Study to Demonstrate Equivalence of Formoterol 12 and 24 \u00b5g Delivered Via Two Types of Single Dose Dry Powder Inhalers (Concept1 and Aerolizer)",
+    "status": "COMPLETED",
+    "startDate": "2007-02",
+    "completionDate": "2007-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "formoterol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01698320",
+    "title": "A Multi-Center 52-Week Study to Assess the Safety of Albuterol Spiromax\u00ae in Subjects With Asthma",
+    "briefTitle": "Safety Study of Albuterol Spiromax\u00ae in Subjects With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2012-10",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo MDPI",
+      "Albuterol MDPI"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02236182",
+    "title": "A Double-blind, Placebo Controlled Trial to Assess the Safety of Two-week Administration of 80 mcg q.i.d. and 160 mcg q.i.d. of Ipratropium Bromide, as Delivered by the RESPIMAT\u00ae Device, in Patients With Chronic Obstructive Pulmonary Disease",
+    "briefTitle": "Study to Assess the Safety of Ipratropium Bromide, in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "status": "COMPLETED",
+    "startDate": "1998-07",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Ipratropium Bromide low dose",
+      "Placebo",
+      "Ipratropium Bromide high dose"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT01754220",
+    "title": "The Effects of Alvokast (Montelukast) in Patients With Chronic Cough",
+    "briefTitle": "Open-label Study of the Effects of Montelukast in Patients With Chronic Cough",
+    "status": "COMPLETED",
+    "startDate": "2012-03",
+    "completionDate": "2012-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Montelukast"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Coughing"
+    ]
+  },
+  {
+    "nctId": "NCT00991627",
+    "title": "Pharmacological or Non-Pharmacological Management of Maternal Hypotension During Elective Cesarean Section Under Subarachnoid Anesthesia: a Randomized, Controlled Trial",
+    "briefTitle": "Different Approaches to Maternal Hypotension During Cesarean Section",
+    "status": "COMPLETED",
+    "startDate": "2009-09",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bupivacaine",
+      "Morphine",
+      "Lactated Ringer's solution",
+      "Ephedrine, continuous infusion",
+      "Ephedrine, bolus",
+      "Atropine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pregnancy",
+      "Cesarean Section",
+      "Anesthesia,Spinal",
+      "Hypotension"
+    ]
+  },
+  {
+    "nctId": "NCT00216827",
+    "title": "Calcipotriol Plus Betamethasone Dipropionate Gel Compared to Betamethasone Dipropionate in the Gel Vehicle, Calcipotriol in the Gel Vehicle, and the Gel Vehicle Alone in Scalp Psoriasis",
+    "briefTitle": "Efficacy and Safety of Calcipotriol Plus Betamethasone Gel in the Treatment of Scalp Psoriasis",
+    "status": "COMPLETED",
+    "startDate": "2004-11",
+    "completionDate": "2005-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Calcipotriol plus betamethasone dipropionate (LEO80185 gel)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriasis of Scalp"
+    ]
+  },
+  {
+    "nctId": "NCT00685373",
+    "title": "An Open-label, Long-term Safety and Efficacy Study of ACZ885 (Anti-interleukin-1\u03b2 Monoclonal Antibody) Administered for at Least 6 Months in Patients With the Following Cryopyrin-associated Periodic Syndromes: Familial Cold Autoinflammatory Syndrome, Muckle-Wells Syndrome, or Neonatal Onset Multisystem Inflammatory Disease",
+    "briefTitle": "Efficacy and Safety of ACZ885 in Patients With the Following Cryopyrin-associated Periodic Syndromes: Familial Cold Autoinflammatory Syndrome, Muckle-Wells Syndrome, or Neonatal Onset Multisystem Inflammatory Disease",
+    "status": "COMPLETED",
+    "startDate": "2008-05",
+    "completionDate": "2010-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Canakinumab (ACZ885)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cryopyrin-Associated Periodic Syndromes",
+      "Familial Cold Autoinflammatory Syndrome",
+      "Muckle Wells Syndrome",
+      "Neonatal Onset Multisystem Inflammatory Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00562627",
+    "title": "Efficacy of Multimodal Peri- and Intraarticular Drug Injections in Total Knee Arthroplasty",
+    "briefTitle": "Efficacy of Multimodal Peri- and Intraarticular Drug Injections in Total Knee Arthroplasty",
+    "status": "COMPLETED",
+    "startDate": "2007-11",
+    "completionDate": "2009-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "ropivacaine",
+      "adrenaline",
+      "ketorolac",
+      "morphine",
+      "fentanyl",
+      "bupivacaine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Osteoarthritis of the Knee"
+    ]
+  },
+  {
+    "nctId": "NCT01627327",
+    "title": "A 12-Week Study to Evaluate the 24-Hour Pulmonary Function Profile of Fluticasone Furoate /Vilanterol (FF/VI) Inhalation Powder 100/25mcg Once-Daily Via a Novel Dry Powder Inhaler Compared With Tiotropium Bromide Inhalation Powder 18mcg Delivered Once-Daily Via the HandiHaler in Subjects With Chronic Obstructive Pulmonary Disease (COPD) Who Have or Are at Risk for Co-morbid Cardiovascular Disease",
+    "briefTitle": "Study to Evaluate the 24-Hour Pulmonary Function Profile of Fluticasone Furoate/Vilanterol (FF/VI) Inhalation Powder 100/25mcg Once Daily Compared With Tiotropium Bromide Inhalation Powder 18mcg Once Daily in Subjects With COPD Who Have or Are At Risk for Co-morbid Cardiovascular Disease",
+    "status": "COMPLETED",
+    "startDate": "2012-04-01",
+    "completionDate": "2012-12-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "fluticasone furoate/vilanterol 100/25mcg",
+      "tiotropium bromide 18mcg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00791973",
+    "title": "Effect of Veramyst on the Nasal and Ocular Symptoms of the Early Reaction to Nasal Challenge With Allergen",
+    "briefTitle": "Effect of Veramyst on the Nasal and Ocular Symptoms of the Early Reaction to Nasal Challenge With Allergen",
+    "status": "COMPLETED",
+    "startDate": "2008-11",
+    "completionDate": "2010-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "fluticasone furoate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT02905227",
+    "title": "A Phase 1 Study of the Pulmonary Safety and Pharmacokinetics of Zolmitriptan Inhalation Powder in Chronic Smokers and People With Mild or Moderate Asthma Compared to Healthy Volunteers",
+    "briefTitle": "A Study of the Pulmonary Safety and Pharmacokinetics of Zolmitriptan Inhalation Powder",
+    "status": "COMPLETED",
+    "startDate": "2016-09",
+    "completionDate": "2016-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CVT-427 (zolmitriptan inhalation powder)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Migraine"
+    ]
+  },
+  {
+    "nctId": "NCT02377427",
+    "title": "An Open-label Study to Characterize the Pharmacokinetics and Pharmacodynamics of Mepolizumab Administered Subcutaneously in Children From 6 to 11 Years of Age With Severe Eosinophilic Asthma",
+    "briefTitle": "Pharmacokinetics and Pharmacodynamics of Mepolizumab Administered Subcutaneously in Children",
+    "status": "COMPLETED",
+    "startDate": "2015-08-25",
+    "completionDate": "2018-01-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Mepolizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02005627",
+    "title": "Randomised Placebo-controlled Study of Grass Pollen Allergen Immunotherapy Tablet (AIT) for Seasonal Rhinitis: Time Course of Nasal, Cutaneous and Immunological Outcomes",
+    "briefTitle": "Grass Pollen Allergen Immunotherapy Tablet (AIT) Time Course Study",
+    "status": "COMPLETED",
+    "startDate": "2013-09-01",
+    "completionDate": "2017-03-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Grazax",
+      "Grazax Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT00407927",
+    "title": "A Randomized, Multi-Center, Double-Blind, Placebo-Controlled, Parallel-Group, Dose-Ranging Safety, Efficacy, and Tolerability Study of Two Doses of Epinastine Nasal Spray (0.05% and 0.1%) vs. Placebo in Subjects With Seasonal Allergic Rhinitis",
+    "briefTitle": "A Study of Epinastine Nasal Spray in Subjects With Seasonal Allergic Rhinitis",
+    "status": "COMPLETED",
+    "startDate": "2006-12",
+    "completionDate": "2007-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Epinastine Nasal Spray"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Seasonal Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT02261727",
+    "title": "The Effect of Low-dose Corticosteroids and Theophylline on the Risk of Acute Exacerbations of COPD: the TASCS Randomised Clinical Trial",
+    "briefTitle": "Theophylline and Steroids in Chronic Obstructive Pulmonary Disease (COPD) Study",
+    "status": "COMPLETED",
+    "startDate": "2014-06",
+    "completionDate": "2018-05-14",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Theophylline",
+      "Prednisone",
+      "Placebo (for prednisone)",
+      "Placebo (for Theophylline)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03282227",
+    "title": "A Long-Term, Open-Label Study to Evaluate the Safety of M207 (Zolmitriptan Intracutaneous Microneedle System) in the Acute Treatment of Migraine",
+    "briefTitle": "A Study to Evaluate the Long-Term Safety of M207 in the Acute Treatment of Migraine",
+    "status": "COMPLETED",
+    "startDate": "2017-11-07",
+    "completionDate": "2019-05-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "M207 Microneedle System"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Migraine"
+    ]
+  },
+  {
+    "nctId": "NCT01057927",
+    "title": "Parallel Group, Randomised, Placebo Controlled, Double Blind Oral Assessment of OC000459 Dosed Twice Daily for 28 Days in Asthmatic Subjects",
+    "briefTitle": "Safety and Efficacy Study of OC000459 Dosed Twice Daily for 28 Days in Asthmatic Subjects",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2007-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "OC000459",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00972673",
+    "title": "Phase I Study of GW685698X-A Randomized, Double Blind, Placebo Controlled, Parallel-group, Repeat Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Inhaled Dose From a Novel Dry Powder Device in Healthy Japanese Male Subjects.",
+    "briefTitle": "A Study of GW685698X in Healthy Japanese Male Subjects",
+    "status": "COMPLETED",
+    "startDate": "2008-09-24",
+    "completionDate": "2008-12-19",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Placebo",
+      "GW685698X"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT04216927",
+    "title": "Efficacy of Nitric Oxide Administration During Cardiopulmonary Bypass in Neonates at Reducing the Risk of Acute Kidney Injury",
+    "briefTitle": "NO During CPB in Neonates to Reduce Risk of AKI",
+    "status": "RECRUITING",
+    "startDate": "2023-01-10",
+    "completionDate": "2025-06-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Nitric Oxide",
+      "Oxygen"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "AKI",
+      "CHD - Congenital Heart Disease",
+      "Surgery"
+    ]
+  },
+  {
+    "nctId": "NCT00353873",
+    "title": "A Multicentre, Randomised, Double-blind, Double Dummy, Parallel Group Study to Compare the Salmeterol/Fluticasone Propionate Combination (SeretideTM) at a Dose of 50/100\u00b5g Twice Daily and Fluticasone Propionate (FlixotideTM) at a Dose of 200\u00b5g Twice Daily, Both Delivered Via a Dry Powder Inhaler (DiskusTM) for 12 Weeks in Asthma in Children Aged 4-11 Years Not Controlled by Inhaled Corticosteroids Alone at Medium Dose",
+    "briefTitle": "Seretide Versus Flixotide In Asthmatic Children Not Controlled By Inhaled Corticosteroids",
+    "status": "COMPLETED",
+    "startDate": "2005-11-18",
+    "completionDate": "2006-10-26",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fluticasone propionate",
+      "Fluticasone propionate/salmeterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT03164473",
+    "title": "MAINtenance of Remission with RITuximab Versus Azathioprine for Patients with Newly-diagnosed or Relapsing Eosinophilic Granulomatosis with Polyangiitis. a Prospective, Randomized, Controlled, Double-blind Study: the MAINRITSEG Trial",
+    "briefTitle": "Maintenance of Remission with Rituximab Versus Azathioprine for Newly-diagnosed or Relapsing Eosinophilic Granulomatosis with Polyangiitis.",
+    "status": "COMPLETED",
+    "startDate": "2018-03-07",
+    "completionDate": "2024-09-23",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Rituximab",
+      "Azathioprine",
+      "Placebo-rituximab",
+      "Placebo-azathioprine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Eosinophilic Granulomatosis with Polyangiitis"
+    ]
+  },
+  {
+    "nctId": "NCT02432027",
+    "title": "A Single-Center, Randomized, Observer Blind, Vehicle- and Comparator-controlled Trial to Evaluate the Antipsoriatic Efficacy and Safety of Topical Formulations of C-82 in a Psoriasis Plaque Test",
+    "briefTitle": "Trial to Evaluate Topical C-82 in a Psoriasis Plaque Test",
+    "status": "COMPLETED",
+    "startDate": "2015-06",
+    "completionDate": "2015-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "C-82 Topical Gel, Placebo",
+      "C-82 Topical Gel, 1%",
+      "Daivonex cream",
+      "Diprosis gel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriasis"
+    ]
+  },
+  {
+    "nctId": "NCT00691873",
+    "title": "A26-wk,Randomized,Dble-Blinded,Parallel-Grp,Placebo-Controlled,Multi-Centered Study to Eval.the Effect of Xolair(Omalizumab) on Improving the Tolerability of Spec.Immunotherapy in Patients With at Least Mod. Persistent Allergic Asthma Inadequately Controlled w/Inhaled Corticosteroids",
+    "briefTitle": "Study to Evaluate the Effect of Xolair(Omalizumab) on Improving the Tolerability of Specific Immunotherapy in Patients With at Least Moderate Persistent Allergic Asthma Inadequately Controlled With Inhaled Corticosteroids",
+    "status": "COMPLETED",
+    "startDate": "2006-05",
+    "completionDate": "2007-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Placebo",
+      "Xolair"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02192827",
+    "title": "Single Dose Dexamethasone is as Effective as Two Doses in Mild to Moderate Pediatric Asthma Exacerbations in the Emergency Department",
+    "briefTitle": "Use of Dexamethasone in Pediatric Asthma Exacerbations",
+    "status": "COMPLETED",
+    "startDate": "2015-04",
+    "completionDate": "2018-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dexamethasone Sodium Phosphate Injection"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02388373",
+    "title": "A Guideline Approach to Therapy Step-down Utilising Flutiform Change and Step-down",
+    "briefTitle": "A Guideline Approach to Therapy Step-down Utilising Flutiform Change and Step-down",
+    "status": "COMPLETED",
+    "startDate": "2014-07",
+    "completionDate": "2016-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fluticasone 250/formoterol 10",
+      "Fluticasone 250/salmeterol 25",
+      "Fluticasone 125/formoterol 5"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02242227",
+    "title": "A Single Dose, Placebo-controlled, Randomized, Double-blind, Double-dummy, Crossover Efficacy, Pharmacokinetics and Safety Comparison of Salmeterol Inhalation Powder (25 \u03bcg Salmeterol), Administered as the Xinafoate Salt From a Hard Polyethylene Capsule Via the HandiHaler\u00ae 2, and Serevent\u00ae Diskus\u00ae (50 \u03bcg Salmeterol) in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "briefTitle": "Efficacy, Pharmacokinetics and Safety Comparison of Salmeterol Inhalation Powder Administered Via the HandiHaler\u00ae 2 and Serevent\u00ae Diskus\u00ae in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "status": "COMPLETED",
+    "startDate": "2005-09",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Salmeterol xinafoate",
+      "Serevent\u00ae Diskus\u00ae",
+      "Placebo (HandiHaler\u00ae)",
+      "Placebo (Diskus\u00ae)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00073827",
+    "title": "An Efficacy and Safety Study of Levalbuterol, Racemic Albuterol and Placebo in Subjects Twelve Years of Age and Older With Asthma",
+    "briefTitle": "Study of Levalbuterol, Racemic Albuterol and Placebo in Subjects Twelve Years of Age and Older With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2002-05",
+    "completionDate": "2003-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "levalbuterol tartrate MDI",
+      "racemic albuterol MDI",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT06212973",
+    "title": "A Phase 3, Multicenter, Randomized, Double-masked, Active Controlled Study to Evaluate the Efficacy and Safety of Epinastine Hydrochloride Eye Drops 0.05% in the Treatment of Chinese Seasonal Allergic Conjunctivitis Patients",
+    "briefTitle": "A Study to Evaluate the Efficacy and Safety of Epinastine Hydrochloride Eye Drops in the Treatment of Chinese Seasonal Allergic Conjunctivitis Patients",
+    "status": "COMPLETED",
+    "startDate": "2023-03-13",
+    "completionDate": "2023-11-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Epinastine Hcl Oph Soln+Simulating Azelastine Hcl Oph Soln",
+      "Azelastine Hcl Oph Sol+Simulating Epinastine Hcl Oph Soln"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Seasonal Allergic Conjunctivitis"
+    ]
+  },
+  {
+    "nctId": "NCT02227173",
+    "title": "Effect of BMS-986020 on the Pharmacokinetics of Montelukast, Flurbiprofen, and Digoxin as Probe Substrates for CYP2C8, CYP2C9, and P-gp",
+    "briefTitle": "A Phase 1 Drug-drug Interaction Study in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2014-09",
+    "completionDate": "2014-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BMS-986020",
+      "Montelukast",
+      "Flurbiprofen",
+      "Digoxin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Drug-drug Interaction Study"
+    ]
+  },
+  {
+    "nctId": "NCT00291382",
+    "title": "A Multicentre, Stratified, Randomised, Double Blind, Parallel Group Trial to Evaluate Whether a Treatment Strategy Based on Aiming for Total Control Results in Better AHR Than a Treatment Strategy Based on Maintaining Well Control",
+    "briefTitle": "Airway Hyper-responsiveness Study In Asthma Using Salmeterol/Fluticasone Propionate Combination Product",
+    "status": "COMPLETED",
+    "startDate": "2005-11",
+    "completionDate": "2007-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Salmeterol/fluticasone propionate combination"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00720382",
+    "title": "Active Controlled Trial of the Safety and Tolerability of MP 03-036 (Astepro 0.15%) in Patients With Perennial Allergic Rhinitis",
+    "briefTitle": "A Study to Evaluate the Safety and Tolerability of a Nasal Spray to Treat Perennial Allergic Rhinitis",
+    "status": "COMPLETED",
+    "startDate": "2007-03",
+    "completionDate": "2008-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "0.15% azelastine hydrochloride",
+      "Mometasone furoate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Perennial Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT02215382",
+    "title": "",
+    "briefTitle": "Intraocular Pressure Changes Associated With Tracheal Extubation: Comparison of Sugammadex With Conventional Reversal of Neuromuscular Blockade",
+    "status": "COMPLETED",
+    "startDate": "2014-08",
+    "completionDate": "2014-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "sugammadex",
+      "neostigmine+atropine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Intraocular Pressure Changes During Tracheal Extubation"
+    ]
+  },
+  {
+    "nctId": "NCT00388882",
+    "title": "A Randomized, Double-blind, Double-dummy, Parallel Group Trial Comparing 12 Weeks Treatment With Tiotropium Inhalation Capsules 18 mcg Via the HandiHaler\u00ae Once Daily to Combivent\u00ae Inhalation Aerosol CFC MDI 2 Actuations q.i.d. in COPD Patients Currently Prescribed Combivent\u00ae Inhalation Aerosol CFC MDI",
+    "briefTitle": "Trial Comparing Treatment With Tiotropium Inhalation Capsules to Combivent\u00ae Inhalation Aerosol in COPD Patients.",
+    "status": "COMPLETED",
+    "startDate": "2006-10-04",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "tiotropium",
+      "ipratropium bromide / albuterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00725582",
+    "title": "The Effects of IMA-026 on Allergen-Induced Airway Responses and Airway Inflammation in Subjects With Mild Atopic Asthma",
+    "briefTitle": "Study Evaluating the Effect of IMA-026 on Allergen-Induced Late Asthma Response in Mild Asthma",
+    "status": "COMPLETED",
+    "startDate": "2008-09",
+    "completionDate": "2009-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "IMA-026"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00900731",
+    "title": "A 12-week Treatment, Multicenter, Randomized, Parallel-group, Blinded, Double-dummy Study to Compare the Efficacy and Safety of Indacaterol (150 \u00b5g Once Daily [od]) Delivered Via a Single Dose Dry Powder Inhaler (SDDPI) With Tiotropium (18 \u00b5g od) Delivered Via a HandiHaler\u00ae, in Patients With Moderate-to-severe COPD",
+    "briefTitle": "A Study to Compare the Lung Effect of Indacaterol and Tiotropium in Chronic Obstructive Pulmonary Disease (COPD)",
+    "status": "COMPLETED",
+    "startDate": "2009-06",
+    "completionDate": "2010-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Indacaterol 150 \u03bcg",
+      "Tiotropium 18 \u03bcg",
+      "Placebo to indacaterol",
+      "Placebo to tiotropium"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05038982",
+    "title": "Efficacy, Safety, and Tolerability of Abrocitinib for Reducing Pruritus in Adults With Prurigo Nodularis and Chronic Pruritus of Unknown Origin",
+    "briefTitle": "Efficacy of Abrocitinib for Reducing Pruritus in Adults With Prurigo Nodularis and Chronic Pruritus of Unknown Origin",
+    "status": "COMPLETED",
+    "startDate": "2021-09-09",
+    "completionDate": "2022-07-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Abrocitinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Prurigo Nodularis",
+      "Pruritus",
+      "Chronic Pruritus",
+      "Chronic Prurigo",
+      "Skin Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT01577082",
+    "title": "A 12-week, Multinational, Multicentre, Randomised, Double-blind, Double-dummy, 2-arm Parallel Group Study Comparing the Efficacy and Safety of CHF 1535 200/6\u00b5g Versus Beclomethasone Dipropionate in Adult Asthmatic Patients Not Adequately Controlled on High Dose of Inhaled Corticosteroids or on Medium Dose of Inhaled Corticosteroids Plus Long-acting \u03b22 Agonists",
+    "briefTitle": "Efficacy and Safety of CHF 1535 200/6\u00b5g in Not Adequately Controlled Asthmatic Patients",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2012-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "CHF1535 200/6 \u00b5g",
+      "BDP 100 \u00b5g"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00102882",
+    "title": "Randomized, Double-Blind Comparison of Advair 100/50 BID vs Salmeterol BID vs Albuterol QID in Subjects With ARG/ARG Genotype 12 Years of Age and Older With Presistent Asthma on Short-Acting Beta2-Agonists Alone",
+    "briefTitle": "Study Of Asthma And Genetics In Patients To Be Treated With Fluticasone Propionate/Salmeterol Or Salmeterol Xinafoate",
+    "status": "COMPLETED",
+    "startDate": "2004-10",
+    "completionDate": "2007-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "fluticasone propionate/salmeterol",
+      "salmeterol xinafoate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01136382",
+    "title": "Phase 2, Double-blind, Randomized, Parallel-group, Placebo-controlled, Multicenter Study, Comparing Budesonide pMDI 160 ug Bid With Placebo: a 6-week Efficacy and Safety Study in Children Aged 6 to <12 Years With Asthma",
+    "briefTitle": "A 6-week Study in Asthmatic Children Aged 6 to <12 Yrs Comparing Budesonide pMDI 160ug Twice Daily With Placebo",
+    "status": "COMPLETED",
+    "startDate": "2010-07",
+    "completionDate": "2013-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "budesonide",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01622231",
+    "title": "Study FFR116365, an Open-label Study of GW685698X in Paediatric Subjects With Perennial Allergic Rhinitis",
+    "briefTitle": "Study FFR116365, an Open-label Study of GW685698X in Paediatric Subjects With Perennial Allergic Rhinitis",
+    "status": "COMPLETED",
+    "startDate": "2012-06",
+    "completionDate": "2012-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Fluticasone furoate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT00871182",
+    "title": "A Randomized, Double-blind, Single Dose, Four-period, Six-treatment, Placebo-controlled, Balanced, Incomplete Block, Cross-over, Study of Four Doses of Inhaled PT001 in Patients With Mild to Moderate COPD, Compared to Open Label Tiotropium",
+    "briefTitle": "Study to Evaluate the Safety and Efficacy of Inhaled PT001 in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Inhaled PT001",
+      "Inhaled Placebo",
+      "Tiotropium Handihaler"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02173782",
+    "title": "A Randomized, Placebo-controlled, Within-device, Double-blind Tri-national Study to Compare the Safety and Efficacy of Berodual\u00ae Administered Via the Respimat\u00ae Device (50 \u00b5g Fenoterol Hydrobromide/20 \u00b5g Ipratropium Bromide and 25 \u00b5g Fenoterol Hydrobromide/10 \u00b5g Ipratropium Bromide, 1 Puff q.i.d) With That Administered Via the MDI (50 \u00b5g Fenoterol Hydrobromide/21 \u00b5g Ipratropium Bromide, 2 Puffs q.i.d) in COPD Patients Over a 12-week Period",
+    "briefTitle": "Comparison of Safety and Efficacy of Berodual\u00ae Administered Via the Respimat\u00ae Device With That Administered Via the Metered Dose Inhaler (MDI) in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "status": "COMPLETED",
+    "startDate": "1998-02",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Berodual\u00ae Respimat \u00ae high dose",
+      "Berodual\u00ae Respimat \u00ae low dose",
+      "Berodual\u00ae MDI",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00635882",
+    "title": "A 2-Week Double-Blind, Placebo-Controlled, Parallel Group Study Comparing the Anti-Inflammatory Effects of Low, Medium, and High Dose Mometasone Furoate/Formoterol Fumarate MDI Formulation and Medium Dose Mometasone Furoate DPI and MDI Formulations in Adults and Adolescents With Persistent Allergic Asthma",
+    "briefTitle": "Asthma Study Comparing Anti-Inflammatory Effects of 3 Doses of Mometasone Furoate/Formoterol Fumarate and Medium Dose Mometasone Furoate (Study P05122 AM1)(COMPLETED)",
+    "status": "COMPLETED",
+    "startDate": "2008-02",
+    "completionDate": "2009-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "mometasone furoate/formoterol 100/10 mcg",
+      "mometasone furoate/formoterol 200/10 mcg",
+      "mometasone furoate/formoterol 400/10 mcg",
+      "MF DPI 200 mcg",
+      "MF MDI 200 mcg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma",
+      "Airway Inflammation"
+    ]
+  },
+  {
+    "nctId": "NCT00824382",
+    "title": "Randomised, Double-blind, Placebo-controlled, Parallel Group Study to Assess the Efficacy and Safety of 4 Weeks of Once Daily Treatment of Orally Inhaled BI 1744 CL Delivered by the Respimat Inhaler in Japanese Patients With COPD",
+    "briefTitle": "Efficacy and Safety of 4 Weeks Treatment With Inhaled BI 1744 CL in Japanese Patients With COPD",
+    "status": "COMPLETED",
+    "startDate": "2009-01",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "BI 1744 CL 2 \u00c2\u00b5g",
+      "BI 1744 CL 5 \u00c2\u00b5g",
+      "BI 1744 CL 10 \u00c2\u00b5g",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00612820",
+    "title": "An 8 Day, Randomised, Double Blind, 3-way Crossover Trial of Repeat Doses of Intranasal GSK256066 and Fluticasone Propionate in the Vienna Challenge Chamber in Subjects With Seasonal Allergic Rhinitis (SAR)",
+    "briefTitle": "A Phase II Study Evaluating Intranasal GSK256066 and Fluticasone Propionate in Subjects With Seasonal Allergic Rhinitis (SAR)",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GSK256066",
+      "fluticasone propionate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rhinitis, Allergic, Seasonal"
+    ]
+  },
+  {
+    "nctId": "NCT00117182",
+    "title": "A Phase II Study to Investigate Mannitol Challenge as a Tool to Predict Treatment Response to Inhaled Corticosteroids in COPD",
+    "briefTitle": "Aridol Challenge as a Tool to Predict Treatment Response to Inhaled Corticosteroids in COPD",
+    "status": "COMPLETED",
+    "startDate": "2005-07",
+    "completionDate": "2006-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dry powder mannitol",
+      "Budesonide 400mcg administered via turbuhaler",
+      "Ipratropium bromide 80mcg",
+      "Salbutamol 400mcg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Lung Diseases, Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT01986582",
+    "title": "Stage 2, Double-blind, Randomized, Parallel Groups, One Centre Study in Patients With Allergic Rhinitis Treated With Nasal Oxymetazoline in Combination With Nasal Hydroxyl-propyl-methyl Cellulose (HPMC) or Placebo",
+    "briefTitle": "NoAL (HPMC) in Combination With Oxymetazoline in Patients With Allergic Rhinitis",
+    "status": "COMPLETED",
+    "startDate": "2013-10",
+    "completionDate": "2014-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oxymetazoline"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT00997620",
+    "title": "A Double Blind, Placebo Controlled Randomized Trial Evaluating the Effects of Fluticasone Nasal Spray in Subjects With Seasonal Allergic Rhinitis and a History of Sleep Disturbance on Cognitive Performance and Daytime Sleepiness",
+    "briefTitle": "Fluticasone Furoate Treatment of Daytime Somnolence and Cognitive Performance in Seasonal Allergic Rhinitis",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fluticasone furoate Nasal Spray 110 mcg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Seasonal Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT00549120",
+    "title": "A Study to Optimise the Propranolol Block Model for Assessment of the Pharmacological Activity of Bronchodilators in Healthy Volunteers.",
+    "briefTitle": "Optimising the Propranolol Block Model",
+    "status": "COMPLETED",
+    "startDate": "2007-08-15",
+    "completionDate": "2007-10-26",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Propranolol",
+      "Salbutamol",
+      "Ipratropium",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT03086460",
+    "title": "A Randomized, Double-blind, Placebo and Active-controlled, Incomplete Block Cross-over, Dose Ranging Study to Evaluate the Efficacy and Safety of 4 Doses of CHF 1531 pMDI (Formoterol Fumarate) in Asthmatic Subjects",
+    "briefTitle": "A Dose Ranging Study With CHF 1531 in Subjects With Asthma (FLASH)",
+    "status": "COMPLETED",
+    "startDate": "2017-09-08",
+    "completionDate": "2018-07-28",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CHF 1531 pMDI",
+      "Formoterol Inhalation Solution",
+      "Placebo pMDI"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01725360",
+    "title": "Change of Airway Hyperresponsiveness to Mannitol and Methacholine During Intensified Anti-inflammatory Treatment in Patients With Asthma.",
+    "briefTitle": "Change of Airway Hyperresponsiveness to Mannitol and Methacholine in Patients With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2012-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "montelukast"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT05831176",
+    "title": "A Phase 2, 2-Part, Open-Label, Single-Arm Study to Investigate the Efficacy and Safety of Dupilumab in Adult and Adolescent Patients With Eosinophilic Gastritis With or Without Eosinophilic Duodenitis",
+    "briefTitle": "A Study to Learn How Well Dupilumab Works in Adult and Adolescent Participants With Eosinophilic Gastritis With or Without Eosinophilic Duodenitis and the Side Effects it May Have",
+    "status": "RECRUITING",
+    "startDate": "2023-05-03",
+    "completionDate": "2027-03-24",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dupilumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Eosinophilic Gastritis (EoG)",
+      "Eosinophilic Duodenitis (EoD)",
+      "Eosinophilic Gastrointestinal Disease (EGID)",
+      "Eosinophilic Gastroenteritis"
+    ]
+  },
+  {
+    "nctId": "NCT06504160",
+    "title": "Safety and Efficacy of Topical Bacteriotherapy for Atopic Dermatitis Using Staphylococcus Hominis A9",
+    "briefTitle": "Targeted Investigation of Microbiome 2 Treat Atopic Dermatitis (TIME-2)",
+    "status": "RECRUITING",
+    "startDate": "2025-04-10",
+    "completionDate": "2026-11-02",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "ShA9 Topical Gel",
+      "Hydrocortisone Ointment",
+      "Clobetasol Ointment",
+      "Fluocinonide Ointment",
+      "Placebo (Vehicle) Topical Gel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Atopic Dermatitis"
+    ]
+  },
+  {
+    "nctId": "NCT03513276",
+    "title": "Effect of Local Infiltration Anesthesia in a Hip Arthroplasty Fast Track Program.",
+    "briefTitle": "Effect of Local Infiltration Anesthesia in a Hip Arthroplasty Fast Track Program.",
+    "status": "COMPLETED",
+    "startDate": "2016-02",
+    "completionDate": "2018-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "100cc of 2% ropivacaine",
+      "Saline Solution",
+      "Adrenaline 10mcg/ml"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hip Osteoarthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02494076",
+    "title": "Positive Expiratory Pressure for the Treatment of Acute Asthma Exacerbations in Children: A Randomized Controlled Trial",
+    "briefTitle": "Positive Expiratory Pressure for the Treatment of Acute Asthma in Children",
+    "status": "COMPLETED",
+    "startDate": "2014-10",
+    "completionDate": "2017-04-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "EzPAP"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT03941860",
+    "title": "Optimizing Prolonged Treatment In Myeloma Using MRD Assessment (OPTIMUM)",
+    "briefTitle": "Testing the Addition of Ixazomib/Placebo to Lenalidomide in Patients With Evidence of Residual Multiple Myeloma, OPTIMUM Trial",
+    "status": "COMPLETED",
+    "startDate": "2022-02-16",
+    "completionDate": "2025-01-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ixazomib Citrate",
+      "Lenalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT01636076",
+    "title": "A Randomized, Double-blind, 12-week Treatment, Parallel-group Study to Evaluate the Efficacy and Safety of QMF149 (150 \u00b5g/160 \u00b5g o.d.) Compared With Salmeterol Xinafoate/Fluticasone Propionate (50 \u00b5g/500 \u00b5g b.i.d.) in Patients With Chronic Obstructive Pulmonary Disease",
+    "briefTitle": "Efficacy and Safety of QMF149 vs. Salmeterol Xinafoate/Fluticasone Propionate in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "status": "COMPLETED",
+    "startDate": "2012-11",
+    "completionDate": "2013-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "QMF149",
+      "Salmeterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "COPD"
+    ]
+  },
+  {
+    "nctId": "NCT00180076",
+    "title": "Efficacy and Safety of Budesonide in Maintenance Treatment of Collagenous Colitis",
+    "briefTitle": "Budesonide for Maintenance Treatment of Collagenous Colitis",
+    "status": "COMPLETED",
+    "startDate": "2004-07",
+    "completionDate": "2008-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Budesonide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Collagenous Colitis"
+    ]
+  },
+  {
+    "nctId": "NCT01313676",
+    "title": "A Clinical Outcomes Study to Compare the Effect of Fluticasone Furoate/Vilanterol Inhalation Powder 100/25mcg With Placebo on Survival in Subjects With Moderate Chronic Obstructive Pulmonary Disease (COPD) and a History of or at Increased Risk for Cardiovascular Disease",
+    "briefTitle": "Study to Evaluate the Effect of Fluticasone Furoate/Vilanterol on Survival in Subjects With Chronic Obstructive Pulmonary Disease",
+    "status": "COMPLETED",
+    "startDate": "2011-01-25",
+    "completionDate": "2015-07-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "fluticasone furoate/vilanterol",
+      "fluticasone furoate",
+      "vilanterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00000576",
+    "title": "",
+    "briefTitle": "Inhaled Beclomethasone to Prevent Chronic Lung Disease",
+    "status": "COMPLETED",
+    "startDate": "1993-06",
+    "completionDate": "1999-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "beclomethasone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Bronchopulmonary Dysplasia",
+      "Hyaline Membrane Disease",
+      "Lung Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT01513460",
+    "title": "A Multicenter, Randomized, Blinded, Active-controlled, Parallel-group Study to Compare the Efficacy, Tolerability and Safety of NVA237 Compared to Tiotropium Added on to Fluticasone/Salmeterol in Patients With Chronic Obstructive Pulmonary Disease",
+    "briefTitle": "Efficacy, Tolerability and Safety of NVA237 in Patients With Chronic Obstructive Pulmonary Disease",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "NVA237 50\u00b5g once daily",
+      "Tiotropium 18\u00b5g once daily",
+      "Flu/Sal",
+      "NVA237 placebo + Tiotropium placebo."
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00239460",
+    "title": "Efficacy and Safety (Including 24-hour Holter Monitoring) of Tiotropium Inhalation Capsules in Patients With Chronic Obstructive Pulmonary Disease (a 12-week, Parallel Group, Randomized, Placebo-cotrolled, Double-blind Study).",
+    "briefTitle": "Efficacy and Safety (Including 24-hour Holter Monitoring) of Tiotropium Inhalation Capsules in Patients With COPD",
+    "status": "COMPLETED",
+    "startDate": "2003-07",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tiotropium"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT05297760",
+    "title": "Documentation of Efficacy for Intralymphatic Allergen Immunotherapy in a Phase III Randomized, Parallel Group, Double Blind Placebo-controlled Multisite Field Trial",
+    "briefTitle": "Intralymphatic Immunotherapy With Polvac Grass & Rye Allergen Extract",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-02-10",
+    "completionDate": "2025-06-30",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Saline 0.9%"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rhinitis, Allergic, Seasonal",
+      "Rhinitis; Allergic, With Asthma",
+      "Allergic Rhinitis",
+      "Allergic Rhinitis Due to Grass Pollen",
+      "Allergic Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00847860",
+    "title": "Cilostazol Verse Asprin for Vascular Dementia in Poststroke Patients With White",
+    "briefTitle": "Cilostazol Verse Asprin for Vascular Dementia in Poststroke Patients With White Matter Lesions",
+    "status": "COMPLETED",
+    "startDate": "2008-03",
+    "completionDate": "2011-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Cilostazol",
+      "Aspirin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Vascular Dementia",
+      "Stroke"
+    ]
+  },
+  {
+    "nctId": "NCT00950794",
+    "title": "Study of Salmeterol (SN408D) for Adult Asthma - Clinical Study of Salmeterol Compared With Hokunalin (Tulobuterol) Tape -",
+    "briefTitle": "Study of Salmeterol (SN408D) for Adult Asthma",
+    "status": "COMPLETED",
+    "startDate": "2003-09",
+    "completionDate": "2005-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Salmeterol(SN408D)",
+      "Hokunalin (tulobuterol) tape"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma",
+      "Bronchial Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02155660",
+    "title": "A Randomised, Double-blind, Double Dummy, 56 Week Placebo-controlled, Multicentre, Parallel Group, Phase 3 Study Evaluating Efficacy/Safety of 3 Benralizumab Doses in Patients With Moderate to Very Severe COPD With Previous Exacerbations.",
+    "briefTitle": "Efficacy and Safety of Benralizumab in Moderate to Very Severe Chronic Obstructive Pulmonary Disease (COPD) With Exacerbation History",
+    "status": "COMPLETED",
+    "startDate": "2014-06-25",
+    "completionDate": "2018-04-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Benralizumab Arm A",
+      "Benralizumab Arm B",
+      "Benralizumab Arm C",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Moderate to Very Severe Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00854360",
+    "title": "Double-Blind, Randomized, Placebo-Controlled, Parallel-Group, Multi-Center, Dose-Range-Finding Study to Assess the Efficacy and Safety of BDP HFA Nasal Aerosol in Adult and Adolescent Patients (12 Years and Older) With Seasonal Allergic Rhinitis (SAR)",
+    "briefTitle": "Study to Assess the Efficacy and Safety of BDP HFA Nasal Aerosol in Patients 12 Years and Older With SAR",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2009-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Beclomethasone dipropionate HFA Nasal Aerosol",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Seasonal Allergic Rhinitis",
+      "Hayfever"
+    ]
+  },
+  {
+    "nctId": "NCT02513160",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, 6-Week Clinical Study to Assess the Efficacy and Safety of Beclomethasone Dipropionate Delivered Via Breath-Actuated Inhaler (BAI) at 320 or 640 mcg/Day in Adolescent and Adult Patients 12 Years of Age and Older With Persistent Asthma",
+    "briefTitle": "Study to Assess the Efficacy and Safety of Beclomethasone Dipropionate in Adolescent and Adult Patients 12 Years of Age and Older With Persistent Asthma",
+    "status": "COMPLETED",
+    "startDate": "2015-09-30",
+    "completionDate": "2016-03-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Beclomethasone Dipropionate 640",
+      "Placebo",
+      "Beclomethasone dipropionate via 320 mcg BAI",
+      "albuterol/salbutamol",
+      "Beclomethasone dipropionate via 320 mcg MDI"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Persistent Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00394160",
+    "title": "A Randomized, 3-Period, Multiple-Dose, Multicenter Study to Evaluate the Safety, Tolerability, and Plasma Concentration Profile of Montelukast Administered Once Daily as Oral Granules in Children Aged 1 to 3 Months",
+    "briefTitle": "Safety and Pk Study in 1- to 3- Month-Old Children With Bronchiolitis (0476-297)",
+    "status": "COMPLETED",
+    "startDate": "2004-12",
+    "completionDate": "2005-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MK0476, Montelukast Sodium /Duration of Treatment : 14 Days"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Bronchiolitis"
+    ]
+  },
+  {
+    "nctId": "NCT02361060",
+    "title": "Effects of Neuromuscular Block Reversal With Sugammadex vs Neostigmine on Postoperative Respiratory Outcomes After Major Abdominal Surgery - A Randomized Controlled Trial",
+    "briefTitle": "Effects of Neuromuscular Block Reversal With Sugammadex vs Neostigmine on Postoperative Respiratory Outcomes After Major Abdominal Surgery",
+    "status": "COMPLETED",
+    "startDate": "2015-02",
+    "completionDate": "2016-07-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Neostigmine",
+      "Sugammadex",
+      "Atropine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Abdominal Surgery"
+    ]
+  },
+  {
+    "nctId": "NCT02227394",
+    "title": "A Double Blind, Double Dummy, Randomized, Two Way Cross-over Study to Compare the Effects of Z7200 and Symbicort\u00ae Turbohaler on Functional Respiratory Imaging Parameters in Asthmatic Patients.",
+    "briefTitle": "Study to Compare the Effects of Z7200 And Symbicort\u00ae Turbohaler on Respiratory Imaging Parameters in Asthmatic Patients",
+    "status": "COMPLETED",
+    "startDate": "2014-08",
+    "completionDate": "2014-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Z7200",
+      "Symbicort\u00ae Turbohaler\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma",
+      "Asthma Chronic",
+      "Asthma Bronchial",
+      "Asthmatic"
+    ]
+  },
+  {
+    "nctId": "NCT05513560",
+    "title": "REcovering From COVID-19 Lingering Symptoms Adaptive Integrative Medicine (RECLAIM)",
+    "briefTitle": "RECLAIM: Recovering From COVID-19 Lingering Symptoms Adaptive Integrative Medicine",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-05-31",
+    "completionDate": "2025-03-31",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ibudilast",
+      "Pentoxifylline"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Long COVID",
+      "Post COVID Condition",
+      "Post Acute Sequelae of COVID-19"
+    ]
+  },
+  {
+    "nctId": "NCT01049360",
+    "title": "Efficacy and Safety Study of Two Fixed-Dose Combinations of Aclidinium Bromide With Formoterol Fumarate Compared With Aclidinium Bromide, Formoterol Fumarate, and Placebo All Administered Twice Daily (BID) to Patients With Stable, Moderate to Severe Chronic Obstructive Pulmonary Disease (COPD)",
+    "briefTitle": "Efficacy and Safety Study of Two Fixed-dose Combinations of Aclidinium Bromide With Formoterol Fumarate Compared With Aclidinium Bromide, Formoterol Fumarate and Placebo",
+    "status": "COMPLETED",
+    "startDate": "2009-12",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Aclidinium 400 \u03bcg / Formoterol 12 \u03bcg",
+      "Aclidinium 400 \u03bcg / Formoterol 6 \u03bcg",
+      "Aclidinium 400 \u03bcg",
+      "Formoterol 12 \u03bcg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00940160",
+    "title": "A Randomized, Double Blind, Placebo Controlled, Study To Compare The Safety, Tolerability, Pharmacokinetics And Pharmacodynamics Of Multiple Doses Of Intravenous Administration Of QAX576 In Controlled Or Partially Controlled Asthma Patients",
+    "briefTitle": "Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of QAX576 in Asthma Patients",
+    "status": "COMPLETED",
+    "startDate": "2009-07",
+    "completionDate": "",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "QAX576",
+      "QAX576",
+      "QAX576",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT05439460",
+    "title": "Management of Acute Pulmonary Hypertensive Crisis in Children With Known Pulmonary Arterial Hypertension",
+    "briefTitle": "Management of Acute Pulmonary Hypertensive Crisis in Children With Known Pulmonary Arterial Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2012-01",
+    "completionDate": "2014-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Phenylephrine",
+      "Epinephrine",
+      "Arginine Vasopressin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT05405660",
+    "title": ": A Phase 2 Randomized, Double-Blind, Placebo-Controlled, Dose-ranging Study to Assess the Efficacy and Safety of CDX-0159 in Patients With Chronic Inducible Urticaria",
+    "briefTitle": "A Study of CDX-0159 in Patients With Chronic Inducible Urticaria",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-06-28",
+    "completionDate": "2025-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Matching Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Inducible Urticaria"
+    ]
+  },
+  {
+    "nctId": "NCT02727660",
+    "title": "A Randomized, Double-Blind, Parallel Group, Multi-Center Study to Assess the Efficacy and Safety of PT009 Compared to PT005 on COPD Exacerbations Over a 52-Week Treatment Period in Subjects With Moderate to Very Severe COPD",
+    "briefTitle": "A Study to Assess the Efficacy and Safety of PT009 Compared to PT005 on COPD Exacerbations Over a 52-Week Period in Subjects With Moderate to Very Severe COPD (Sophos)",
+    "status": "COMPLETED",
+    "startDate": "2016-04-29",
+    "completionDate": "2018-04-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "BFF MDI (PT009) 320/9.6 \u03bcg",
+      "BFF MDI (PT009) 160/9.6 \u03bcg",
+      "FF MDI (PT005) 9.6 \u03bcg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT01313494",
+    "title": "A 6-month, Double-blind, Randomised, Multicenter, Multinational Trial to Investigate the Effect of 500 \u00b5g Roflumilast Tablets Once Daily Versus Placebo on Pulmonary Function in Patients With COPD. The ACROSS Trial",
+    "briefTitle": "A Chronic Obstructive Pulmonary Disease (COPD) Trial Investigating Roflumilast on Safety and Effectiveness in China, Hong Kong and Singapore:",
+    "status": "COMPLETED",
+    "startDate": "2011-03",
+    "completionDate": "2012-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Roflumilast",
+      "Placebo",
+      "Salbutamol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "COPD"
+    ]
+  },
+  {
+    "nctId": "NCT01568762",
+    "title": "A Randomized, Double-blind, Placebo Controlled Study to Compare the Safety, Tolerability, and Pharmacokinetics of QBX258 (Sequential Administration of a Fixed Dose of VAK694 and Single Ascending Doses of QAX576) in Patients With Well-controlled Mild to Moderate Asthma",
+    "briefTitle": "To Compare the Safety, Tolerability, and Pharmacokinetics of QBX258 in Patients With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2010-10",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "VAK694",
+      "VAK694 placebo",
+      "QAX576",
+      "QAX576 placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00223691",
+    "title": "Evaluation and Treatment of Autonomic Failure.",
+    "briefTitle": "Treatment of Orthostatic Hypotension in Autonomic Failure",
+    "status": "COMPLETED",
+    "startDate": "2002-03",
+    "completionDate": "2017-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Atomoxetine",
+      "Acarbose",
+      "Pyridostigmine Bromide",
+      "Yohimbine",
+      "Midodrine HCl",
+      "placebo",
+      "Modafinil",
+      "Octreotide",
+      "Diphenhydramine Hydrochloride",
+      "Ranitidine HCL",
+      "Tranylcypromine",
+      "Ergotamine/ Caffeine",
+      "Celecoxib",
+      "Pseudoephedrine",
+      "Methylphenidate",
+      "Indomethacin",
+      "Ibuprofen",
+      "Oxymetazoline 0.05% nasal solution",
+      "Acetazolamide",
+      "Rivastigmine tartrate",
+      "Carbidopa/levodopa"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Autonomic Failure",
+      "Orthostatic Hypotension"
+    ]
+  },
+  {
+    "nctId": "NCT00605891",
+    "title": "A Randomized, Controlled,14-Treatment Day, Multicenter Study to Determine the Optimal Efficacious and Safe Dose of CHF 4226 in a Metered Dose Inhaler in Treating Patients With Chronic Obstructive Pulmonary Disease",
+    "briefTitle": "Dose Finding Study of CHF 4226 for Treating Patients With COPD",
+    "status": "COMPLETED",
+    "startDate": "2006-10",
+    "completionDate": "2007-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "carmoterol (CHF 4226)",
+      "carmoterol (CHF 4226)",
+      "carmoterol (CHF 4226)",
+      "salmeterol",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05850494",
+    "title": "Randomized, DB, Crossover Study to Assess Bronchospasm Potentially Induced by HFO MDI vs. HFA MDI Propellant in Participants With Asthma Well/Partially Controlled on SABA With or Without Low-Dose ICS",
+    "briefTitle": "Study to Assess Bronchospasm Potentially Induced by HFO vs HFA MDI in Participants With Well/Partially Controlled Asthma",
+    "status": "COMPLETED",
+    "startDate": "2023-05-02",
+    "completionDate": "2023-08-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "HFA MDI",
+      "HFO MDI"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT03451591",
+    "title": "LACunar Intervention (LACI-2) Trial-2: Assessment of Safety and Efficacy of Cilostazol and Isosorbide Mononitrate to Prevent Recurrent Lacunar Stroke and Progression of Cerebral Small Vessel Disease.",
+    "briefTitle": "LACunar Intervention (LACI-2) Trial-2",
+    "status": "COMPLETED",
+    "startDate": "2018-01-08",
+    "completionDate": "2022-08-11",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Isosorbide Mononitrate XL (ISMN)",
+      "Cilostazol",
+      "ISMN XL and Cilostazol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cerebral Small Vessel Diseases",
+      "Stroke, Lacunar"
+    ]
+  },
+  {
+    "nctId": "NCT02946294",
+    "title": "A Comparative Study for Evaluation of the Analgesic Profile of Ultrasound-Guided Modified Pectoral Nerves Block Versus Serratus Plane Block in Major Breast Cancer Surgery",
+    "briefTitle": "Modified Pectoral Nerves Block Versus Serratus Plane Block in Major Breast Cancer Surgery",
+    "status": "COMPLETED",
+    "startDate": "2016-10",
+    "completionDate": "2017-12-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Bupivacaine 0.25% with epinephrine",
+      "Bupivacaine 0.25% with epinephrine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Postoperative Pain"
+    ]
+  },
+  {
+    "nctId": "NCT00407394",
+    "title": "Randomized Double Blind Placebo Controlled Trial of Amoxycillin in the Treatment of Non-Severe Pneumonia With Wheeze in Children Aged 2- 59 Months of Age: A Multi-Centric Study",
+    "briefTitle": "Indiaclen Short Course Amoxycillin Therapy for Pneumonia With Wheeze",
+    "status": "COMPLETED",
+    "startDate": "2004-04",
+    "completionDate": "2006-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Amoxycillin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-Severe Pneumonia With Wheeze"
+    ]
+  },
+  {
+    "nctId": "NCT00279162",
+    "title": "Calcipotriene Plus Betamethasone Dipropionate Gel Compared to the Gel Vehicle in Scalp Psoriasis, in Patients Receiving Calcipotriene Plus Betamethasone Dipropionate Ointment for Psoriasis Vulgaris of Trunk/Limbs",
+    "briefTitle": "Efficacy and Safety of Calcipotriene/Betamethasone Gel/Ointment in Psoriasis",
+    "status": "COMPLETED",
+    "startDate": "2005-12",
+    "completionDate": "2007-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Calcipotriene/betamethasone gel and ointment"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriasis"
+    ]
+  },
+  {
+    "nctId": "NCT06921291",
+    "title": "Role of Salbutamol in the Management of Transient Tachypnea of the New Born",
+    "briefTitle": "Role of Salbutamol in the Management of Transient Tachypnea of the New Born",
+    "status": "COMPLETED",
+    "startDate": "2024-08-01",
+    "completionDate": "2024-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Salbutamol (Ventolin\u00ae)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "TTN"
+    ]
+  },
+  {
+    "nctId": "NCT01536262",
+    "title": "A Randomised, Double-blind, Parallel-group Study to Assess the Safety and Efficacy of 52 Weeks of Once Daily Treatment of Orally Inhaled Tiotropium + Olodaterol Fixed-dose Combination (2.5\u00b5g / 5\u00b5g, 5\u00b5g / 5\u00b5g ) and Olodaterol (5 \u00b5g) Delivered by the RESPIMAT Inhaler in Japanese Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+    "briefTitle": "Japan Long-term Safety for Tiotropium Plus Olodaterol",
+    "status": "COMPLETED",
+    "startDate": "2012-02",
+    "completionDate": "2013-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tiotropium + Olodaterol",
+      "Tiotropium + Olodaterol",
+      "Olodaterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00273962",
+    "title": "A Comparison of Combivent\u00ae UDV (Ipratropium 500mcg and Salbutamol 2.5mg) and Salbutamol UDV Alone (2.5mg) in a Double-Blind Efficacy and Safety Study in Asthmatic Children With Severe Acute Exacerbation",
+    "briefTitle": "A Comparison of Combivent UDV (Ipratropium 500mcg and Salbutamol 2.5mg) and Salbutamol UDV Alone (2.5mg)",
+    "status": "COMPLETED",
+    "startDate": "2002-05",
+    "completionDate": "2003-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "ipratropium plus salbutamol UDV",
+      "salbutamol UDV"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01419262",
+    "title": "DO IT Trial: Vitamin D Outcomes and Interventions In Toddlers",
+    "briefTitle": "DO IT Trial: Vitamin D Outcomes and Interventions In Toddlers",
+    "status": "COMPLETED",
+    "startDate": "2011-09",
+    "completionDate": "2015-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Vitamin D - Cholecalciferol 400 IU",
+      "Vitamin D3 - Cholecalciferol 2000 IU"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Respiratory Tract Infections",
+      "Asthma",
+      "Avitaminosis"
+    ]
+  },
+  {
+    "nctId": "NCT04480762",
+    "title": "A Randomised, Double Blind, Placebo Controlled, Single Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of SHR-1703 Injection Administered Subcutaneously in Healthy Subjects",
+    "briefTitle": "A Trial of SHR-1703 in Healthy Adults",
+    "status": "COMPLETED",
+    "startDate": "2020-08-04",
+    "completionDate": "2021-09-21",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SHR-1703",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00660829",
+    "title": "Randomized, Double-Blind, Placebo-Controlled Trial of the Safety and Efficacy of MP03-36 in Subjects With Seasonal Allergic Rhinitis",
+    "briefTitle": "A Study to Evaluate the Safety and Effectiveness of a Nasal Spray to Treat Seasonal Allergies",
+    "status": "COMPLETED",
+    "startDate": "2007-12",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "0.15% Azelastine Hydrochloride"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Seasonal Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT01455129",
+    "title": "Early Intervention With Tiotropium \uff08Spiriva\uff09 in Chinese Patients With Chronic Obstructive Pulmonary Disease (COPD): a Randomized, Double-blind, Placebo-controlled, Parallel, Multicentre Trial",
+    "briefTitle": "Tiotropium In Early Chronic Obstructive Pulmonary Disease Patients in China",
+    "status": "COMPLETED",
+    "startDate": "2011-11",
+    "completionDate": "2016-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tiotropium",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03894280",
+    "title": "A Randomized, Single-dose, Open Label, Two-treatment, Two-sequence, Two-period, Crossover Study to Examine the Bioequivalence Between Fluticasone Propionate 250 mcg and Salmeterol Xinafoate 50 mcg Inhalation Powder/Respirent Pharmaceuticals vs. SERETIDE DISKUS\u00ae 250/50 Inhalation Powder/GSK in Healthy Volunteers Under Fasting Conditions With Charcoal Blockade",
+    "briefTitle": "A Bioequivalence Study Between Fluticasone Salmeterol Xinafoate vs. SERETIDE DISKUS\u00ae in Healthy Volunteers With Charcoal Blockade (BREATH-PK250-CC)",
+    "status": "COMPLETED",
+    "startDate": "2019-03-12",
+    "completionDate": "2019-05-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Fluticasone propionate 250 mcg and salmeterol xinafoate 50 mcg inhalation powder/Respirent Pharmaceuticals",
+      "SERETIDE DISKUS\u00ae 250/50 inhalation powder/GSK"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Bioequivalence"
+    ]
+  },
+  {
+    "nctId": "NCT01122680",
+    "title": "A Phase II Randomised, Double-blind, Placebo-controlled, Incomplete Crossover Trial With 4-week Treatment Periods to Evaluate Efficacy and Safety of Tiotropium Inhalation Solution (Doses of 1.25 \u00b5g, 2.5 \u00b5g and 5 \u00b5g) Delivered Via Respimat\u00ae Inhaler Once Daily in the Evening in Adolescents (12 to 17 Yrs Old) With Moderate Persistent Asthma",
+    "briefTitle": "Efficacy and Safety of 3 Doses of Tiotropium Compared to Placebo in Adolescents (12 to 17 Yrs) With Moderate Asthma",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tiotropium bromide",
+      "tiotropium bromide",
+      "tiotropium bromide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01946620",
+    "title": "A Randomised, Double-blind, Double Dummy, Parallel Group Study Comparing Fluticasone Propionate / Formoterol Fumarate (Flutiform\u00ae) 250/10 \u00b5g (2 Puffs BID) and Flutiform\u00ae 125/5 \u00b5g (2 Puffs BID) Versus Formoterol Fumarate Dihydrate (Atimos\u00ae) 12 \u00b5g (1 Puff BID) in Subjects With Chronic Obstructive Pulmonary Disease (COPD).",
+    "briefTitle": "A Study to Show That Flutiform is Well Tolerated and Effective in the Treatment of COPD",
+    "status": "COMPLETED",
+    "startDate": "2013-10",
+    "completionDate": "2016-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Flutiform",
+      "Formoterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03238482",
+    "title": "Pharmacokinetic Study Comparing Salmeterol/Fluticasone Easyhaler 50/250 \u00b5g/Dose Products and Seretide Diskus 50/250 \u00b5g/Dose in Healthy Subjects",
+    "briefTitle": "Comparing Salmeterol/Fluticasone Easyhaler and Seretide Diskus (SAIMI)",
+    "status": "COMPLETED",
+    "startDate": "2017-08-16",
+    "completionDate": "2017-12-19",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "salmeterol-fluticasone",
+      "salmeterol-fluticasone",
+      "salmeterol-fluticasone",
+      "salmeterol-fluticasone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00777920",
+    "title": "ABS-LT: A Phase 3, Long-Term, Open Label, Multicenter Safety Study of Ambrisentan in Subjects With Pulmonary Hypertension",
+    "briefTitle": "Study of Ambrisentan in Participants With Pulmonary Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2008-11-17",
+    "completionDate": "2019-09-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ambrisentan"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT06869382",
+    "title": "Comparative Analysis of ICS Combined with LABA Versus Addition of Omalizumab on Transcriptomic Expression Profiles in Patients with Allergic Asthma",
+    "briefTitle": "ICS+LABA Vs. ICS+LABA+Omalizumab: Impact on Asthma Control and Gene Expression",
+    "status": "COMPLETED",
+    "startDate": "2023-01-01",
+    "completionDate": "2024-03-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Foster BDP/Formoterol",
+      "Omalizimab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma Patients"
+    ]
+  },
+  {
+    "nctId": "NCT04129931",
+    "title": "PrecISE (Precision Interventions for Severe and/or Exacerbation-Prone Asthma) Network Study",
+    "briefTitle": "PrecISE (Precision Interventions for Severe and/or Exacerbation-Prone Asthma) Network Study",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-12-19",
+    "completionDate": "2024-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MCT",
+      "Clazakizumab",
+      "Broncho-Vaxom",
+      "Imatinib Mesylate",
+      "Cavosonstat"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00875082",
+    "title": "Effect of Montelukast on Metalloproteinase (MMP)-9, MMP-12, Tissue Inhibitor Metalloproteinase-1 (TIMP-1), Procollagen Type I C-terminal Peptide (PICP) and TGF-beta1 Levels in Sputum From Mild Intermittent Asthmatic Children: a Pilot Study",
+    "briefTitle": "Effect of Montelukast on Remodelling Markers in Asthmatic Children",
+    "status": "COMPLETED",
+    "startDate": "2010-02",
+    "completionDate": "2013-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Montelukast",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT03412682",
+    "title": "A Phase 3, Multi-centre, Randomised, Double-blind, Active-controlled, Parallel-group Trial Investigating the Efficacy and Safety of FE 999315 Following 8 Weeks of Treatment for Mild to Moderate Active Ulcerative Colitis in Japanese Subjects",
+    "briefTitle": "To Evaluate the Efficacy and Safety of FE 999315 in Japanese Subjects With Mild to Moderate Active Ulcerative Colitis",
+    "status": "COMPLETED",
+    "startDate": "2018-03-02",
+    "completionDate": "2020-05-26",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Budesonide (6 mg)",
+      "Budesonide (9 mg)",
+      "Mesalazine (3,600 mg)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Colitis, Ulcerative"
+    ]
+  },
+  {
+    "nctId": "NCT00646620",
+    "title": "A Randomized, Multicenter, Placebo and Active-Controlled, Single-Dose, 4-Period, Crossover Study to Evaluate the Bronchodilating Effect of SYMBICORT pMDI Versus Advair Diskus and Ventolin HFA.",
+    "briefTitle": "Symbicort Onset of Action 1",
+    "status": "COMPLETED",
+    "startDate": "2003-04",
+    "completionDate": "2003-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "budesonide/formoterol (Symbicort)",
+      "fluticasone/salmeterol (Advair Diskus)",
+      "albuterol (Ventolin)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT03025282",
+    "title": "Exploratory Study to Evaluate the Safety and Efficacy of CD10367 in Subjects With Psoriasis",
+    "briefTitle": "Safety and Efficacy of CD10367 in Psoriasis Vulgaris",
+    "status": "COMPLETED",
+    "startDate": "2016-11-03",
+    "completionDate": "2017-03-24",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CD10367 3% Solution - Non-desquamated zone",
+      "CD10367 1% Solution - Non-desquamated zone",
+      "CD10367 solution placebo - Non-desquamated zone",
+      "Betneval ointment - Non-desquamated zone",
+      "CD10367 3% Solution - Desquamated zone",
+      "CD10367 solution placebo - Desquamated zone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriasis Vulgaris"
+    ]
+  },
+  {
+    "nctId": "NCT01989520",
+    "title": "An Open-label, Single Centre Relative Bioavailability Study With an Adaptive Design Comparing up to 5 Solid Oral AZD5069 Formulations After Single Dose Administration to Healthy Volunteers",
+    "briefTitle": "Study to Investigate Relative Bioavailability of up to Five Different Formulations of AZD5069",
+    "status": "COMPLETED",
+    "startDate": "2014-01",
+    "completionDate": "2014-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Phase IIb formulation",
+      "Putative phase III formulation",
+      "Slow dissolution variant 1",
+      "Slow dissolution variant 2",
+      "Test treatment E"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Uncontrolled and Persistent Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02148120",
+    "title": "A Phase II, Multicentre, Double-blind, Randomised, 5-way Crossover Study to Test the Non-inferiority of the Acute Bronchodilator Effect of CHF 1535 200/6 \u00b5g NEXThaler Versus CHF 1535 100/6 \u00b5g NEXThaler in Partially Controlled and Uncontrolled Adult Asthmatic Patients.",
+    "briefTitle": "A Study to Evaluate the Acute Bronchodilator Effect of CHF1535 NEXThaler",
+    "status": "COMPLETED",
+    "startDate": "2014-04",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Beclometasone Dipropionate 100 \u00b5g + Formoterol Fumarate 6 \u00b5g",
+      "Beclometasone Dipropionate 200 \u00b5g + Formoterol Fumarate 6 \u00b5g",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00174720",
+    "title": "A Multinational,Multicenter,Randomized,Double-Blind,Placebo-Controlled,Parallel-Group Study to Assess the Efficacy of Ciclesonide Metered-Dose Inhaler at a Daily Dose of 160 \u03bcg Administered Either in a Once-Daily in the Morning Regimen (160 \u03bcg qd AM) for 16 Weeks or in a 160 \u03bcg qd AM Regimen for 12 Weeks Preceded by a Twice-Daily Regimen (80 \u03bcg Bid) for 4 Weeks,or in an 80 \u03bcg Bid Regimen for 16 Weeks,in Adults and Adolescents With Mild to Moderate Persistent Asthma Not Treated With Steroids",
+    "briefTitle": "Efficacy of Ciclesonide vs Placebo Administered as Once Daily or Twice Daily in Patients Not Treated With Inhaled Corticosteroid.",
+    "status": "COMPLETED",
+    "startDate": "2005-09",
+    "completionDate": "2007-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ciclesonide (XRP1526)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00104520",
+    "title": "A Phase 3, Double-Blind, Multicenter, Randomized, Placebo-Controlled Trial With Aztreonam Lysinate for Inhalation in Cystic Fibrosis Patients With Pulmonary P. Aeruginosa Requiring Frequent Antibiotics (AIR-CF2)",
+    "briefTitle": "Safety and Efficacy Study of Aztreonam for Inhalation Solution (AZLI) in Cystic Fibrosis Patients With P. Aeruginosa",
+    "status": "COMPLETED",
+    "startDate": "2005-02",
+    "completionDate": "2006-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "AZLI 75 mg two times a day (BID)/three times a day (TID)",
+      "Placebo two times a day (BID)/three times a day (TID)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cystic Fibrosis"
+    ]
+  },
+  {
+    "nctId": "NCT01086527",
+    "title": "Genotype Stratified Pharmacokinetic Study of Montelukast",
+    "briefTitle": "Genotype Stratified Pharmacokinetic Study of Montelukast",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "10 mg tablet of montelukast (Singulair)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02114073",
+    "title": "Comparison of Effect of Cyclosporine Ophthalmic Emulsion 2% and Betamethasone Eye Drop on Intraocular Pressure, Conjunctival Hyperemia and Subjective Dry Eye Symptoms Following Trabeculectomy in Open Angle Glaucoma Patients",
+    "briefTitle": "Comparison of Effect of Postoperative Cyclosporine A 2% Ophthalmic Emulsion and Betamethasone Eye Drop on Surgical Success of Trabeculectomy Procedure",
+    "status": "COMPLETED",
+    "startDate": "2014-04",
+    "completionDate": "2015-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Cyclosporine",
+      "Betamethasone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma, Open Angle"
+    ]
+  },
+  {
+    "nctId": "NCT00599027",
+    "title": "An Exploratory Study of Mometasone Furoate Nasal Spray in Patients With Moderate-severe Persistent Allergic Rhinitis and Intermittent Asthma: Effects on the Quality of Life Evaluated With the Rhinasthma Questionnaire",
+    "briefTitle": "An Exploratory Study of Nasonex in Patients With Moderate to Severe Persistent Allergic Rhinitis and Intermittent Asthma",
+    "status": "COMPLETED",
+    "startDate": "2008-05",
+    "completionDate": "2009-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Mometasone furoate nasal spray (MFNS)",
+      "Placebo nasal spray"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Allergic Rhinitis",
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT01566773",
+    "title": "A Randomized, Double Blind (Test Products and Placebo), Chronic Dosing (14 Days), Four Period, Eight Treatment, Placebo-Controlled, Incomplete Block, Cross Over, Multi Center Study to Assess Efficacy and Safety of Six Doses of PT001 in Patients With Moderate to Severe COPD, Compared With Spiriva\u00ae Handihaler\u00ae (Tiotropium Bromide, Open Label) as An Active Control",
+    "briefTitle": "PT001 MDI Versus Spiriva\u00ae in Patients With Moderate to Severe COPD",
+    "status": "COMPLETED",
+    "startDate": "2012-03",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "PT001 MDI",
+      "Tiotropium Bromide",
+      "PT001 Placebo MDI"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04173273",
+    "title": "A Multicenter, Randomized, Double-Blind, Parallel-Group Study to Assess the Efficacy and Safety of Oral Etrasimod as Induction and Maintenance Therapy for Moderately to Severely Active Crohn's Disease",
+    "briefTitle": "A Study Evaluating the Efficacy and Safety of Oral Etrasimod in the Treatment of Adult Participants With Moderately to Severely Active Crohn's Disease",
+    "status": "RECRUITING",
+    "startDate": "2020-01-06",
+    "completionDate": "2029-08-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Etrasimod",
+      "Etrasimod",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Crohn's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03544827",
+    "title": "The Effects of Low Dose Atropine on Choroidal Thickness",
+    "briefTitle": "The Effects of Low Dose Atropine on Choroidal Thickness",
+    "status": "COMPLETED",
+    "startDate": "2018-05-21",
+    "completionDate": "2019-02-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Atropine",
+      "Atropine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Myopia"
+    ]
+  },
+  {
+    "nctId": "NCT03108027",
+    "title": "A Randomized, Double-blind, Repeat Dose Cross-over Study to Assess the Bronchodilator Effects of Once Daily QVM149 Following Morning or Evening Dosing for 14 Days Compared to Placebo in Patients With Asthma",
+    "briefTitle": "Assess Bronchodilator Effect QVM149 Dosed Either in the Morning or Evening Compared to Placebo in Patients With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2017-06-26",
+    "completionDate": "2018-02-24",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Treatment A: Matching placebo (morning dose) and QVM149 150/50/80 \u03bcg (evening dose)",
+      "Treatment B: QVM149 150/50/80 \u03bcg (morning dose) and matching placebo (evening dose)",
+      "Treatment C: Placebo (morning dose) and placebo (evening dose)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT04466176",
+    "title": "A Pivotal, Randomized, Single-dose, Open Label, Two-treatment, Two-sequence, Two-period, Crossover Study Under Fasting Conditions to Examine the Bioequivalence Between Fluticasone Propionate 250 mcg and Salmeterol Xinafoate 50 mcg Inhalation Powder/Respirent Pharmaceuticals vs. ADVAIR DISKUS\u00ae 250/50 Inhalation Powder/GSK in Healthy Volunteers",
+    "briefTitle": "A Pivotal Bioequivalence Study Between Fluticasone Propionate 250 mcg and Salmeterol Xinafoate 50 mcg Inhalation Powder/Respirent Pharmaceuticals vs. ADVAIR DISKUS\u00ae 250/50 Inhalation Powder/GSK in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2020-07-01",
+    "completionDate": "2020-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Test Product",
+      "Reference Product"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Bioequivalence"
+    ]
+  },
+  {
+    "nctId": "NCT03096327",
+    "title": "TEAM (Trial on Efficacy and Quality of Life Among Asthmatic Patient With Montelukast)",
+    "briefTitle": "TEAM (Trial on Efficacy and Quality of Life Among Asthmatic Patient With Montelukast)",
+    "status": "COMPLETED",
+    "startDate": "2017-05-01",
+    "completionDate": "2018-05-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Montelukast",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00589927",
+    "title": "Comparison of Triple Versus Dual Antiplatelet Therapy After ABT578-Eluting Stent Implantation For Long Coronary Lesions",
+    "briefTitle": "Triple Versus Dual Antiplatelet Therapy After ABT578-Eluting Stent",
+    "status": "COMPLETED",
+    "startDate": "2007-12",
+    "completionDate": "2010-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "cilostazol",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Coronary Artery Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01587027",
+    "title": "The Safety Evaluation of Aminophylline and Methazolamide When Administered Orally Alone and in Combination to Healthy Volunteers",
+    "briefTitle": "Safety Evaluation of Aminophylline and Methazolamide",
+    "status": "COMPLETED",
+    "startDate": "2011-12",
+    "completionDate": "2012-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Aminophylline",
+      "Methazolamide",
+      "Aminophylline and Methazolamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mountain Sickness"
+    ]
+  },
+  {
+    "nctId": "NCT04307173",
+    "title": "A Phase I Randomised Double-Blind Placebo-Controlled Study of Multiple Ascending Dose of KBL693 in Healthy Participants",
+    "briefTitle": "Study of Multiple Ascending Dose of KBL693 in Healthy Participants",
+    "status": "COMPLETED",
+    "startDate": "2020-08-14",
+    "completionDate": "2020-11-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "KBL693",
+      "KBL693"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Moderate to Severe Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00648973",
+    "title": "Evaluation of Nasal Congestion Clinical Efficacy for Diphenhydramine 25 mg and Diphenhydramine 50 mg in Seasonal Allergic Rhinitis: a Randomized, Double-blind, Placebo and Pseudoephedrine Controlled Study",
+    "briefTitle": "To Determine if Diphenhydramine Works for Nasal Congestion at Two Different Doses",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2007-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Diphenhydramine 50 mg",
+      "Diphenhydramine 25 mg",
+      "Pseudoephedrine 120 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Nasal Congestion"
+    ]
+  },
+  {
+    "nctId": "NCT00556673",
+    "title": "An Exploratory, Multi-centre, Double-blind, Placebocontrolled Crossover Study, to Investigate the Bronchodilatory Efficacy of a Single Dose of Indacaterol in Fixed Combination With Mometasone Furoate Delivered Via a MDDPI (Twisthaler\u00ae) in Adult Patients With Persistent Asthma Using Open Label Seretide\u00ae Accuhaler\u00ae (50/250 Mcg b.i.d.) as an Active Control",
+    "briefTitle": "Bronchodilatory Efficacy of a Single Dose QMF149 (Indacaterol Maleate/Mometasone Furoate) Via the Twisthaler\u00ae Device in Adult Patients With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2007-10",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "indacaterol maleate/mometasone furoate",
+      "placebo to indacaterol maleate/mometasone furoate",
+      "fluticasone proprionate / salmeterol xinafoate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT02182531",
+    "title": "Study of the Pharmacokinetic Interactions and Relative Bioavailability of Epinastine and Pseudoephedrine in Healthy Volunteers, Comparing Tablets Containing the Fixed Combination of the Two Substances With Tablets Containing Each of the Two Substances Separately",
+    "briefTitle": "Epinastine and Pseudoephedrine Fixed Combination Compared to Separate Administration in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "1999-08",
+    "completionDate": "",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Epinastine",
+      "Pseudoephedrine",
+      "Epinastine + Pseudoephedrine combination"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00881231",
+    "title": "Comparative, Randomized, Single-Dose, 2-way Crossover Bioavailability Study of Eon and Otsuka (Pletal) 50 mg Cilostazol Tablets In Healthy Adults Volunteers Under Fasting Conditions",
+    "briefTitle": "To Demonstrate the Relative Bioavailability of Cilostazol 50 mg Tablets Under Fasting Conditions",
+    "status": "COMPLETED",
+    "startDate": "2004-01",
+    "completionDate": "2004-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Cilostazol 50 mg Tablets (Eon Pharma, LLC, USA)",
+      "Pletal (Cilostazol) 50 mg Tablets (Otsuka Pharma Co, Ltd., USA)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pain"
+    ]
+  },
+  {
+    "nctId": "NCT00848731",
+    "title": "Phase I Trial of Inhaled Nitric Oxide to Treat Acute Pulmonary Embolism",
+    "briefTitle": "Phase I Trial of Inhaled Nitric Oxide to Treat Acute Pulmonary Embolism",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2011-05",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "nitric oxide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Embolism"
+    ]
+  },
+  {
+    "nctId": "NCT05659927",
+    "title": "Safety, Tolerability, and Pharmacokinetics of MG-ZG122 in a Single Subcutaneous Injection in Chinese Healthy Adult Subjects: a Single-center, Randomized, Double-blind, Placebo-controlled, Dose-increasing Phase I Clinical Trial",
+    "briefTitle": "Single Dose Clinical Trial of MG-ZG122 in Chinese Healthy Adult Subjects",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-02-09",
+    "completionDate": "2024-03-23",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "MG-ZG122 Humanized Monoclonal Antibody Injection",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT03273127",
+    "title": "A Phase 1, Randomized, Single-Blind, Placebo Controlled Study to Assess Pharmacokinetics, Safety and Tolerability of Abediterol Administered Once Daily for 9 Days, in Patients With Asthma on Inhaled Corticosteroids",
+    "briefTitle": "To Assess the Pharmacokinetics, Safety and Tolerability of Abediterol Administered Once Daily for 9 Days, in Patients With Asthma on Inhaled Corticosteroids",
+    "status": "COMPLETED",
+    "startDate": "2017-09-21",
+    "completionDate": "2017-11-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Abediterol",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00903227",
+    "title": "A Proof Of Concept Study To Assess The Steroid Sparing Effect Of Combined Nasal And Inhaled Corticosteroid In Patients With Asthma And Persistent Rhinitis",
+    "briefTitle": "Steroid Sparing Effect of Nasal Corticosteroid In Asthma And Rhinitis",
+    "status": "COMPLETED",
+    "startDate": "2006-12",
+    "completionDate": "2008-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fluticasone Evohaler pMDI",
+      "Placebo",
+      "Fluticasone Evohaler",
+      "Placebo intranasal spray",
+      "fluticasone propionate (Flixonase\u00ae)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma",
+      "Allergic Rhinitis"
+    ]
+  },
+  {
+    "nctId": "NCT00463827",
+    "title": "Effect of Statins on Asthma Control and Airway Inflammation in Smokers With Asthma: a Randomised Controlled Double-blind Parallel Group Study",
+    "briefTitle": "Effect of Statins on Asthma Control in Smokers With Asthma",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2009-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Atorvastatin",
+      "atorvastatin",
+      "matched placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma",
+      "COPD",
+      "Smoking"
+    ]
+  },
+  {
+    "nctId": "NCT00627731",
+    "title": "Phase 4, Randomized Study of Oral Glucocorticosteroid Administration in the Treatment of Acute Severe Asthma Exacerbation in Hospitalized Patients",
+    "briefTitle": "Oral Glucocorticosteroid in the Treatment of Severe Asthma Exacerbation in Hospitalized Patients",
+    "status": "COMPLETED",
+    "startDate": "2007-06",
+    "completionDate": "2009-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "methylprednisolone sodium succinate (mPSL)",
+      "prednisolone (PSL)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Asthma"
+    ]
+  },
+  {
+    "nctId": "NCT00364273",
+    "title": "A Randomised, Double Blind, Placebo Controlled Study to Examine the Safety, Tolerability, Pharmacodynamics and Pharmacokinetic Profile of Single Inhaled Dry Powder Doses of GSK159802 in Healthy Male Subjects",
+    "briefTitle": "GSK159802 In Healthy Male Subjects And Asthmatics",
+    "status": "COMPLETED",
+    "startDate": "2005-08-24",
+    "completionDate": "2006-07-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GSK159802",
+      "Placebo",
+      "Salmeterol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Disease, Chronic Obstructive"
+    ]
+  },
+  {
+    "nctId": "NCT00536731",
+    "title": "A 6-week, Phase III, Double-blind, Randomized, Multi-centre, Parallel-group Study Evaluating the Efficacy and Safety of 2 Actuations Symbicort\u00aepMDI\u00ae 40/2.25 \u03bcg Twice Daily Compared With 1 Inhalation Symbicort Turbuhaler\u00ae 80/4.5 \u03bcg Twice Daily and 1 Inhalation Pulmicort\u00aeTurbuhaler\u00ae 100 \u03bcg Twice Daily",
+    "briefTitle": "Symbicort Rapihaler Therapeutic Equivalence Study",
+    "status": "COMPLETED",
+    "startDate": "2007-09",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Symbicort Turbuhaler",
+      "Symbicort pMDI",
+      "Pulmicort Turbuhaler"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Bronchial Asthma"
+    ]
+  }
+]

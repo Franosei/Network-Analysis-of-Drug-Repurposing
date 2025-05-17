@@ -1,0 +1,2621 @@
+[
+  {
+    "nctId": "NCT03428360",
+    "title": "An Open-Label, Safety and Tolerability Study of Chronic Intermittent Use of Diazepam Buccal Film (DBF) in Pediatric, Adolescent and Adult Subjects With Epilepsy",
+    "briefTitle": "Safety and Tolerability Study of Diazepam Buccal Film (DBF) in Subjects With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2018-01-23",
+    "completionDate": "2020-06-25",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Diazepam Buccal Soluble Film 5, 7.5,10, 12.5,15 or 17.5 mg with individual dose determined according to age and weight category"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01162460",
+    "title": "Efficacy and Safety of Eslicarbazepine Acetate (BIA 2-093) as Monotherapy for Patients With Newly Diagnosed Partial-onset Seizures:a Double-blind, Randomized, Active-controlled, Parallel-group, Multicenter Clinical Study",
+    "briefTitle": "Efficacy and Safety of Eslicarbazepine Acetate as Monotherapy for Patients With Newly Diagnosed Partial-onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "2010-12",
+    "completionDate": "2016-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Eslicarbazepine acetate (BIA 2-093)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT04958460",
+    "title": "Effect of Bifidobacterium Bifidum (Bf-688) on Clinical Characteristics and Gut Microbiota in Attention-deficit/Hyperactivity Disorder: a Double-blind Randomized-control Trial",
+    "briefTitle": "Effect of Probiotics on ADHD",
+    "status": "COMPLETED",
+    "startDate": "2020-05-14",
+    "completionDate": "2023-02-28",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "ADHD",
+      "Probiotics",
+      "Gut Microbiota",
+      "Psychiatry",
+      "Clinical Trial"
+    ]
+  },
+  {
+    "nctId": "NCT00236860",
+    "title": "Double-Blind Parallel Comparison of Topiramate 400 mg Twice Daily to Placebo in Patients With Refractory Partial Epilepsy",
+    "briefTitle": "A Study of the Efficacy and Safety of Topiramate as add-on Therapy in the Treatment of Epilepsy Patients With Difficult to Treat, Partial-onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "1989-05",
+    "completionDate": "1992-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Epilepsies, Partial",
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT03478982",
+    "title": "A Double-Blind, Placebo-Controlled, Inpatient, Dose-Ranging Efficacy Study of Staccato Alprazolam (STAP-001) in Subjects With Epilepsy With a Predictable Seizure Pattern",
+    "briefTitle": "Inpatient, Dose-Ranging Study of Staccato Alprazolam in Epilepsy With Predictable Seizure Pattern",
+    "status": "COMPLETED",
+    "startDate": "2018-03-16",
+    "completionDate": "2020-01-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Staccato Alprazolam",
+      "Placebos"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00425282",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel Group, Multicenter Study to Evaluate the Efficacy, Safety, and Tolerability of RWJ-333369 as Adjunctive Therapy in Subjects With Partial Onset Seizures Followed by an Open-Label Extension Study.",
+    "briefTitle": "A Study of the Efficacy and Safety of RWJ-333369 as add-on Therapy in the Treatment of Partial Onset Seizures.",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2007-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "RWJ-333369"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Epilepsy, Focal",
+      "Seizure Disorder",
+      "Complex Partial Seizures",
+      "Epilepsy, Complex Partial"
+    ]
+  },
+  {
+    "nctId": "NCT00426673",
+    "title": "A Multi-Center, Open-Label, Unilateral Interaction Study of Ucb 34714 on Stable Phenytoin Monotherapy During a 45 Day b.i.d. Administration Period in 15 Adult Subjects Suffering From Epilepsy",
+    "briefTitle": "An Open-Label Interaction Study to Look at the Effects of Brivaracetam on Phenytoin When Taken Together in 15 Adult Patients With Epilepsy.",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2006-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Brivaracetam (ucb34714)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00856973",
+    "title": "A Randomized, Placebo Controlled, Double Blind, Fixed Dose Study of the Efficacy and Safety of Eszopiclone in Children (6 to 11 Years) and Adolescents (12 to 17 Years) With Attention Deficit/Hyperactivity Disorder Associated Insomnia",
+    "briefTitle": "Safety & Efficacy Study of Study Drug (Eszopiclone) in Children and Adolescents With Attention-deficit/Hyperactivity Disorder - Associated Insomnia",
+    "status": "COMPLETED",
+    "startDate": "2009-05",
+    "completionDate": "2011-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "eszopiclone",
+      "eszopiclone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Insomnia",
+      "Attention Deficit Hyperactivity Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT05059327",
+    "title": "A Phase 2B, Multicenter, 30-week, Prospective, Cross-over, Double-blind, Randomized, Placebo-controlled Study Followed by a 52-Week Open-label Extension Study to Evaluate the Efficacy and Safety of Basimglurant Adjunctive to Ongoing Anticonvulsive Therapy in Children, Adolescents, and Young Adults With Uncontrolled Seizures Associated With Tuberous Sclerosis Complex",
+    "briefTitle": "Basimglurant (NOE-101) in Children, Adolescents, and Young Adults With TSC",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-03-03",
+    "completionDate": "2026-01-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Basimglurant with crossover to Placebo",
+      "Placebo with crossover to Basimglurant"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Tuberous Sclerosis Complex"
+    ]
+  },
+  {
+    "nctId": "NCT02348073",
+    "title": "Efficacy of Phosphatidylserine Enriched With Polyunsaturated n-3 Fatty Acid Supplementation on Attention Deficit Disorders in Children With Epilepsy. A Randomized Double-blind Placebo-controlled Trial",
+    "briefTitle": "Efficacy of Phosphatidylserine Enriched With n-3 PUFA Supplementation on ADHD in Children With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2015-03",
+    "completionDate": "2018-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Vayarin\u00ae, supplementation of n-3 PUFA",
+      "PLACEBO"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Attention Deficit Disorder With Hyperactivity",
+      "ADHD Inattention or Mixed Type",
+      "Epilepsy",
+      "Child"
+    ]
+  },
+  {
+    "nctId": "NCT02362373",
+    "title": "Women With Epilepsy: a Pilot Study of Pharmacokinetic and Pharmacodynamic Anti-epileptic Drug Effects in Levonorgestrel Intrauterine System Users",
+    "briefTitle": "Women With Epilepsy: a Pilot Study of PK and PD Anti-epileptic Drug Effects in Levonorgestrel Intrauterine System Users",
+    "status": "COMPLETED",
+    "startDate": "2011-08",
+    "completionDate": "2014-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "levonorgestrel IUS"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Contraception"
+    ]
+  },
+  {
+    "nctId": "NCT01607073",
+    "title": "Verapamil as Adjunctive Seizure Therapy for Children and Young Adults With Dravet Syndrome",
+    "briefTitle": "Verapamil as Therapy for Children and Young Adults With Dravet Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2015-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Verapamil"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dravet Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT00214682",
+    "title": "Beyond Ageing Project: A RCT to Assess the Benefit of Improving Mental Health Literacy as Well as the Effect of Folate and B12, and Physical Activity, in Preventing Major Depression and Cognitive Decline Among Older Australians",
+    "briefTitle": "Beyond Ageing Project: A Study for the Prevention of Depression",
+    "status": "COMPLETED",
+    "startDate": "2005-10",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Folate (400mcg) and Vitamin B12 (100 mcg)",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Depression",
+      "Depressive Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT00509431",
+    "title": "A Phase I/II, Dual-Center, Open-Label Trial of the Safety and Efficacy of Tarceva\u2122 (Erlotinib Hydrochloride) Plus Sirolimus in Patients With Recurrent Malignant Glioma Not on P450-Inducing Anti-Epileptics",
+    "briefTitle": "Erlotinib and Sirolimus in Treating Patients With Recurrent Malignant Glioma",
+    "status": "COMPLETED",
+    "startDate": "2006-08",
+    "completionDate": "2012-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Erlotinib + Sirolimus"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain and Central Nervous System Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT02308982",
+    "title": "A Phase III Multi-centre Randomised, Double Blind, Placebo Controlled Trial to Assess the Role of Intravenous Immunoglobulin in the Management of Children With Encephalitis",
+    "briefTitle": "Investigating the Role of Early Intravenous Immunoglobulin Treatment for Children With Encephalitis",
+    "status": "COMPLETED",
+    "startDate": "2016-01",
+    "completionDate": "2022-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Immunoglobulins, Intravenous (Privigen)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Encephalitis"
+    ]
+  },
+  {
+    "nctId": "NCT00699582",
+    "title": "A Double-Blind, Placebo-Controlled, Dose-Escalation, Parallel-Group Study to Evaluate the Efficacy and Safety of E2007 (Perampanel) Given as Adjunctive Therapy in Subjects With Refractory Partial Seizures",
+    "briefTitle": "To Evaluate The Efficacy and Safety of E2007 (Perampanel) Given as Adjunctive Therapy in Subjects With Refractory Partial Seizures",
+    "status": "COMPLETED",
+    "startDate": "2008-05",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "E2007 (perampanel)",
+      "E2007 (perampanel)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory Partial Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT03754582",
+    "title": "A Multicenter, Uncontrolled, Open-label Study to Evaluate the Safety and Tolerability of Intravenous Perampanel as Substitute for Oral Tablet in Subjects With Partial Onset Seizures (Including Secondarily Generalized Seizures) or Primary Generalized Tonic-clonic Seizures",
+    "briefTitle": "A Study of Intravenous Perampanel in Japanese Participants With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2018-11-27",
+    "completionDate": "2019-12-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Perampanel",
+      "Perampanel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT04520360",
+    "title": "A Single-Center, Open-Label,Randomized, Crossover Study to Evaluate the Relative Bioavailability and Food Effect of a New Oral Suspension and Tablet Formulation of Carisbamate (YKP509) in Healthy Adult Subjects",
+    "briefTitle": "Bioavailability and Food Effect Study of 3 Types of Carisbamate",
+    "status": "COMPLETED",
+    "startDate": "2020-08-27",
+    "completionDate": "2021-10-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Carisbamate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Subjects"
+    ]
+  },
+  {
+    "nctId": "NCT00057460",
+    "title": "Effects of AMPA Receptor Blockade on Human Cortical Excitability - A Pilot Study",
+    "briefTitle": "Effect of Talampanel (an AMPA Receptor Blocker) on Brain Activity",
+    "status": "COMPLETED",
+    "startDate": "2003-04",
+    "completionDate": "2006-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Talampanel"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT02224560",
+    "title": "A Randomized, Double-blind, Placebo-controlled Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P; CBD) as Adjunctive Treatment for Seizures Associated With Lennox-Gastaut Syndrome in Children and Adults.",
+    "briefTitle": "Efficacy and Safety of GWP42003-P for Seizures Associated With Lennox-Gastaut Syndrome in Children and Adults",
+    "status": "COMPLETED",
+    "startDate": "2015-06-08",
+    "completionDate": "2016-05-19",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "GWP42003-P",
+      "Placebo control"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Lennox Gastaut Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT05958160",
+    "title": "Modified Atkins Diet Versus Topiramate In Children With Epileptic Spasms Refractory To Hormonal Treatment: A Randomized Open-Label Study",
+    "briefTitle": "Modified Atkins Diet Versus Topiramate In Children With Epileptic Spasms Refractory To Hormonal Treatment: A Randomized Open-Label Study",
+    "status": "RECRUITING",
+    "startDate": "2023-07-20",
+    "completionDate": "2024-10-31",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epileptic Spasms, Failed Hormonal Therapy"
+    ]
+  },
+  {
+    "nctId": "NCT04740476",
+    "title": "An Open-Label Extension Study for Patients With Dravet Syndrome Who Previously Participated in Studies of STK-001",
+    "briefTitle": "An Open-Label Extension Study of STK-001 for Patients With Dravet Syndrome",
+    "status": "ENROLLING_BY_INVITATION",
+    "startDate": "2021-01-21",
+    "completionDate": "2027-03-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "STK-001"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dravet Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01678976",
+    "title": "Tolerability and Pharmacokinetics of a Single 900 mg Oral Dose of BIA 2-093 and Oxcarbazepine in Healthy Volunteers",
+    "briefTitle": "Tolerability and Pharmacokinetics of a Single 900 mg Oral Dose of BIA 2-093 and Oxcarbazepine in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2002-03",
+    "completionDate": "2002-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIA 2-093",
+      "Oxcarbazepine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00154076",
+    "title": "",
+    "briefTitle": "A Multicenter Comparative Trial of Zonisamide and Topiramate as Initial Monotherapy in Untreated Epilepsies",
+    "status": "COMPLETED",
+    "startDate": "2005-09",
+    "completionDate": "2008-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Zonisamide",
+      "Topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00056576",
+    "title": "A Double-Blind, Randomized, Multicenter, Parallel Group Study to Establish Dose-Response, Safety, and Efficacy of Zonegran (Zonisamide) as Monotherapy in Patients With Newly Diagnosed Epilepsy",
+    "briefTitle": "Dose Response Study of Zonegran in Patients With Newly Diagnosed Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2002-02",
+    "completionDate": "2004-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Zonisamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy, Complex Partial"
+    ]
+  },
+  {
+    "nctId": "NCT00004776",
+    "title": "",
+    "briefTitle": "Phase III Randomized, Double-Blind, Placebo-Controlled Study of Oral Topiramate for Lennox-Gastaut Syndrome",
+    "status": "COMPLETED",
+    "startDate": "1993-11",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Lennox-Gastaut Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01964560",
+    "title": "A Multicenter, Open-label, Long-term Extension Study to Investigate the Efficacy and Safety of Lacosamide as Adjunctive Therapy in Pediatric Subjects With Epilepsy With Partial-Onset Seizures",
+    "briefTitle": "A Clinical Study to Investigate the Efficacy and Safety of Lacosamide as an Add on Therapy in Children With Epilepsy With Partial-onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "2014-08-13",
+    "completionDate": "2022-04-13",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lacosamide",
+      "Lacosamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00099060",
+    "title": "A Phase I/II Study of GW572016 in Patients With Recurrent Malignant Glioma",
+    "briefTitle": "Lapatinib in Treating Patients With Recurrent Glioblastoma Multiforme",
+    "status": "COMPLETED",
+    "startDate": "2004-12",
+    "completionDate": "2007-11",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "lapatinib ditosylate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain and Central Nervous System Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT00898560",
+    "title": "Effect of Repeated Administration of Eslicarbazepine Acetate (BIA 2-093) 800mg Once-daily on the Pharmacokinetics of a Combined Oral Contraceptive in Healthy Female Subjects",
+    "briefTitle": "Effect of Repeat Administration of Eslicarbazepine Acetate on the Pharmacokinetics of a Combined Oral Contraceptive",
+    "status": "COMPLETED",
+    "startDate": "2008-09",
+    "completionDate": "2008-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "eslicarbazepine acetate and Microginon\u00ae",
+      "Microginon\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Partial Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT02535091",
+    "title": "An Open Label, Multicenter, Safety and Pharmacokinetic Study of YKP3089 as Adjunctive Therapy in Subjects With Partial Onset Seizures",
+    "briefTitle": "Safety and Pharmacokinetic Study of YKP3089 as Adjunctive Therapy in Subjects With Partial Onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "2016-08-03",
+    "completionDate": "2022-02-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "YKP3089"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Partial Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT06262594",
+    "title": "Lemborexant Treatment of Insomnia Linked to Epilepsy",
+    "briefTitle": "Lemborexant Treatment of Insomnia Linked to Epilepsy",
+    "status": "RECRUITING",
+    "startDate": "2024-10-29",
+    "completionDate": "2027-04-18",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lemborexant",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Sleep"
+    ]
+  },
+  {
+    "nctId": "NCT00266591",
+    "title": "Single Center TOPAMAX\ufffd (Topiramate) Monotherapy Trial in Subjects With Refractory Partial Onset Seizures",
+    "briefTitle": "A Study of the Efficacy and Safety of Topiramate Treatment in Patients With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "1992-10",
+    "completionDate": "1997-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT03179891",
+    "title": "A Multicenter, Open Label, Crossover Study to Assess the Pharmacokinetics and Safety of Diazepam Buccal Soluble Film (DBSF) in Adult Subjects With Epilepsy",
+    "briefTitle": "Study of Diazepam Buccal Film Administered in the Interictal and in the Ictal-Periictal States to Adults With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2017-05-25",
+    "completionDate": "2018-12-21",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Diazepam Buccal Film 12.5 mg"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01837862",
+    "title": "A Phase I Study of Mebendazole for the Treatment of Pediatric Gliomas",
+    "briefTitle": "A Phase I Study of Mebendazole for the Treatment of Pediatric Gliomas",
+    "status": "COMPLETED",
+    "startDate": "2013-10-22",
+    "completionDate": "2024-04",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Mebendazole",
+      "Vincristine",
+      "Carboplatin",
+      "Temozolomide",
+      "Bevacizumab",
+      "Irinotecan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pilomyxoid Astrocytoma",
+      "Pilocytic Astrocytoma",
+      "Glioma, Astrocytic",
+      "Optic Nerve Glioma",
+      "Pleomorphic Xanthoastrocytoma",
+      "Glioblastoma Multiforme",
+      "Anaplastic Astrocytoma",
+      "Gliosarcoma",
+      "Diffuse Intrinsic Pontine Glioma",
+      "DIPG",
+      "Low-grade Glioma",
+      "Brainstem Glioma"
+    ]
+  },
+  {
+    "nctId": "NCT02530580",
+    "title": "A Phase I Single Site, Single Dose, Randomized, Double-blind, Placebo Controlled, 2-way Cross-over Biomarker Study Investigating the Effect of the GABA Modulator AZD7325 on Cutaneous Sensation in Healthy Volunteers",
+    "briefTitle": "Effects of GABA Modulator AZD7325 on Cutaneous Sensation",
+    "status": "COMPLETED",
+    "startDate": "2016-02",
+    "completionDate": "2016-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "20 mg AZD7325",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00210782",
+    "title": "A Double-blind Trial Comparing the Efficacy, Tolerability and Safety of Monotherapy Topiramate Versus Phenytoin in Subjects With Seizures Indicative of New Onset Epilepsy",
+    "briefTitle": "A Comparison of the Effectiveness and Safety of Topiramate and Phenytoin in Patients With New Onset Epilepsy Requiring Rapid Initiation of Antiepileptic Drug Treatment",
+    "status": "COMPLETED",
+    "startDate": "2004-06",
+    "completionDate": "2007-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "topiramate, phenytoin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01422720",
+    "title": "Safety and Efficacy of Eslicarbazepine Acetate (ESL) as Adjunctive Therapy for Partial Seizures in Elderly Patients",
+    "briefTitle": "Safety and Efficacy of Eslicarbazepine Acetate as Adjunctive Therapy for Partial Seizures in Elderly Patients",
+    "status": "COMPLETED",
+    "startDate": "2010-04",
+    "completionDate": "2013-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Eslicarbazepine Acetate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01506882",
+    "title": "An Open-label, Randomized, Multicenter Study to Evaluate the Efficacy and Safety of Levetiracetam Used as Monotherapy in Newly or Recently Diagnosed Epilepsy Patients Aged Older Than or Equal to 16 Years With Partial Seizures",
+    "briefTitle": "An Open Label Study of Levetiracetam Monotherapy in Patients With Newly Diagnosed Focal Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2011-12",
+    "completionDate": "2015-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Levetiracetam (LEV)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Partial Onset Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT02324673",
+    "title": "A Phase 1/2 Study to Assess the Pharmacokinetics and Safety of Multiple Doses of Pharmaceutical Cannabidiol Oral Solution in Pediatric Participants With Treatment-Resistant Seizure Disorders",
+    "briefTitle": "Cannabidiol Oral Solution in Pediatric Participants With Treatment-resistant Seizure Disorders",
+    "status": "COMPLETED",
+    "startDate": "2015-04-13",
+    "completionDate": "2016-05-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Cannabidiol Oral Solution"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT00979173",
+    "title": "A Pharmacokinetic Study of AC480 Administered Twice Daily in Surgically Resectable Malignant Glioma Patients Not on Enzyme-Inducing Anticonvulsants",
+    "briefTitle": "Pharmacokinetics (PK) Study of AC480 for Recurrent Glioma",
+    "status": "COMPLETED",
+    "startDate": "2009-11",
+    "completionDate": "2012-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "AC480"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glioma"
+    ]
+  },
+  {
+    "nctId": "NCT04643327",
+    "title": "Double-blind Randomised-controlled Within-subject Crossover Trial to Determine Levetiracetam Efficacy for Memory Impairment in Parkinson's Disease: A Proof-of-concept Study",
+    "briefTitle": "Uncovering a Novel Therapeutic Target to Reduce Dementia Risk in Parkinson's Disease",
+    "status": "RECRUITING",
+    "startDate": "2021-02-09",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Levetiracetam",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Parkinson Disease",
+      "Mild Cognitive Impairment",
+      "Memory Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT02283827",
+    "title": "Phase I, Open-label Drug Interaction Study Between Eslicarbazepine Acetate 1200mg and Phenytoin 300 mg Following Multiple Dose Administrations in Healthy Male Volunteers",
+    "briefTitle": "Open-label Drug Interaction Study Between Eslicarbazepine Acetate and Phenytoin.",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2007-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIA 2-093",
+      "Phenytoin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00835627",
+    "title": "Medication and Psychotherapy Treatment Trial for Psychogenic Nonepileptic Seizures",
+    "briefTitle": "Treatment Trial for Psychogenic Nonepileptic Seizures",
+    "status": "COMPLETED",
+    "startDate": "2008-09",
+    "completionDate": "2013-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "sertraline"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Convulsion, Non-Epileptic",
+      "Conversion Disorder",
+      "Depression",
+      "Stress Disorders, Post-Traumatic",
+      "Dissociative Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT02889627",
+    "title": "Efficacy and Safety of Fecal Microbiota Transplantation for Epilepsy",
+    "briefTitle": "Fecal Microbiota Transplantation for Epilepsy",
+    "status": "RECRUITING",
+    "startDate": "2016-11",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Fecal microbiota suspension"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00236873",
+    "title": "Double-Blind Parallel Comparison of Topiramate 200 mg Twice Daily to Placebo in Patients With Refractory Partial Epilepsy",
+    "briefTitle": "A Study of the Efficacy and Safety of Topiramate as add-on Therapy in the Treatment of Epilepsy Patients With Difficult to Treat, Partial-onset Seizures.",
+    "status": "COMPLETED",
+    "startDate": "1989-10",
+    "completionDate": "1993-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Epilepsies, Partial",
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT01278173",
+    "title": "A Prospective, Open-label Study of the Structure and Function of the Retina in Adult Patients With Refractory Complex Partial Seizures Treated With Vigabatrin (Sabril\u00ae)",
+    "briefTitle": "A Study of the Structure and Function of the Retina in Adult Patients With Refractory Complex Partial Seizures Treated With Vigabatrin (Sabril\u00ae)",
+    "status": "COMPLETED",
+    "startDate": "2010-12",
+    "completionDate": "2015-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Sabril"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Adult Refractory Complex Partial Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT06466473",
+    "title": "A PHASE 1, OPEN-LABEL, RANDOMIZED, SINGLE-DOSE, 2-WAY CROSSOVER, PIVOTAL BIOEQUIVALENCE STUDY COMPARING 50-MG CHEWABLE DILANTIN\u00ae INFATABS\u00ae MANUFACTURED AT VEGA BAJA (PUERTO RICO) AND ASCOLI (ITALY) IN HEALTHY ADULT PARTICIPANTS UNDER FASTING CONDITIONS",
+    "briefTitle": "A Study to Learn How Different Forms of The Study Medicine Called Phenytoin Are Taken up Into the Blood in Healthy Adults",
+    "status": "COMPLETED",
+    "startDate": "2024-07-03",
+    "completionDate": "2024-10-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Phenytoin (Ascoli)",
+      "Phenytoin (Vega Baja)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT03635073",
+    "title": "A Phase 2, Prospective, Interventional, Open-Label, Multi-Site, Extension Study to Assess the Long-Term Safety and Tolerability of Soticlestat (TAK-935) as Adjunctive Therapy in Subjects With Developmental Epileptic Encephalopathies Including Dravet Syndrome, Lennox Gastaut Syndrome, CDKL5 Deficiency Disorder, and Chromosome 15 Duplication Syndrome (ENDYMION 1)",
+    "briefTitle": "A Study of Soticlestat in Adults and Children With Rare Epilepsies",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-07-19",
+    "completionDate": "2026-05-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Soticlestat"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Dravet Syndrome (DS)",
+      "Lennox-Gastaut Syndrome (LGS)"
+    ]
+  },
+  {
+    "nctId": "NCT03852303",
+    "title": "OAETREAT Extra Ivermectin Treatment of Persons With Onchocerciasis-associated Epilepsy: a",
+    "briefTitle": "Ivermectin Treatment of Persons With Onchocerciasis-associated Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2017-10-01",
+    "completionDate": "2019-07-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "ivermectin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT02224690",
+    "title": "A Randomized, Double-blind, Placebo-controlled Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P; CBD) as Adjunctive Treatment for Seizures Associated With Lennox-Gastaut Syndrome in Children and Adults.",
+    "briefTitle": "A Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P; CBD) as Adjunctive Treatment for Seizures Associated With Lennox-Gastaut Syndrome in Children and Adults",
+    "status": "COMPLETED",
+    "startDate": "2015-04-28",
+    "completionDate": "2016-03-18",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "GWP42003-P 20 mg/kg/day Dose",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Lennox-Gastaut Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT06314490",
+    "title": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+    "briefTitle": "Personalized Antisense Oligonucleotide Therapy for Rare Pediatric Genetic Disease: SCN2A",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-02-16",
+    "completionDate": "2026-02-16",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "nL-SCN2A-002"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Genetic Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05125302",
+    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, Single-attack Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacokinetics of Oral Ubrogepant in the Acute Treatment of Migraine With or Without Aura in Children and Adolescents (Ages 6-17)",
+    "briefTitle": "Study to Assess Adverse Events and Disease Activity of Oral Ubrogepant Tablets for the Acute Treatment of Migraine in Children and Adolescents (Ages 6-17)",
+    "status": "RECRUITING",
+    "startDate": "2022-01-13",
+    "completionDate": "2026-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ubrogepant",
+      "Placebo-Matching Ubrogepant"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Migraine"
+    ]
+  },
+  {
+    "nctId": "NCT02224703",
+    "title": "A Randomized, Double-blind, Placebo-controlled Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P) in Children and Young Adults With Dravet Syndrome.",
+    "briefTitle": "GWPCARE2 A Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P) in Children and Young Adults With Dravet Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2015-04-13",
+    "completionDate": "2018-04-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "GWP42003-P",
+      "Placebo Control"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Dravet Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT06660394",
+    "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Investigate the Efficacy, Safety, and Tolerability of LP352 in the Treatment of Seizures in Children and Adults With Dravet Syndrome",
+    "briefTitle": "A Phase 3, Placebo-Controlled Study to Investigate LP352 in Children and Adults With Dravet Syndrome (DS)",
+    "status": "RECRUITING",
+    "startDate": "2024-10-02",
+    "completionDate": "2026-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "LP352",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dravet Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01627860",
+    "title": "Topiramate in the Treatment of Epilepsy: 1st Add-on vs. Mono-therapy Study in Neuro-Surgical Patients",
+    "briefTitle": "First Add-on vs. Mono-therapy Study of Topiramate in Neuro-Surgical Patients",
+    "status": "COMPLETED",
+    "startDate": "2010-02",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Topiramate add-on therapy",
+      "Topiramate monotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01733394",
+    "title": "Equivalence Among Antiepileptic Drug Generic and Brand Products in People With Epilepsy: Single-Dose 6-Period Replicate Design (EQUIGEN Single-Dose Study)",
+    "briefTitle": "Equivalence Among Antiepileptic Drug Generic and Brand Products in People With Epilepsy: Single-Dose 6-Period Replicate Design (EQUIGEN Single-Dose Study)",
+    "status": "COMPLETED",
+    "startDate": "2012-12-12",
+    "completionDate": "2016-09-26",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lamotrigine Generic \"A\" Lamotrigine Generic \"B\" Lamotrigine \"Brand\"",
+      "lamotrigine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00419094",
+    "title": "A Multi-center, Double-blind, Historical Control, Randomized Conversion to Monotherapy Study With Keppra XR for Treatment of Partial Onset Seizures",
+    "briefTitle": "Conversion to Monotherapy Study With Keppra XR for Partial Seizures",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Keppra XR",
+      "Keppra XR"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT02682927",
+    "title": "A Multicenter, Randomized, Double-blind, Parallel Group, Placebo-controlled Trial of Two Fixed Doses of ZX008 (Fenfluramine Hydrochloride) Oral Solution as an Adjunctive Therapy in Children and Young Adults With Dravet Syndrome",
+    "briefTitle": "A Trial of Two Fixed Doses of ZX008 (Fenfluramine HCl) in Children and Young Adults With Dravet Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2016-01-15",
+    "completionDate": "2020-07-29",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "ZX008 (Fenfluramine Hydrochloride)",
+      "Matching Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dravet Syndrome",
+      "Seizure Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT01431976",
+    "title": "A Multi-center, Uncontrolled, Open-label, Evaluation of Lamotrigine Monotherapy on Newly Diagnosed Typical Absence Seizures in Children and Adolescents",
+    "briefTitle": "Clinical Study of Lamotrigine to Treat Newly Diagnosed Typical Absence Seizure in Children and Adolescents",
+    "status": "COMPLETED",
+    "startDate": "2011-09",
+    "completionDate": "2015-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lamictal"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT05439876",
+    "title": "Getting SMART for Pediatric Epilepsy (Sleep, Melatonin, and Research Trial, SMART)",
+    "briefTitle": "Getting SMART for Pediatric Epilepsy",
+    "status": "RECRUITING",
+    "startDate": "2022-07-18",
+    "completionDate": "2024-07-30",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Melatonin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy in Children"
+    ]
+  },
+  {
+    "nctId": "NCT03043560",
+    "title": "Developing Neuronal KCNQ Channel Modulators for Mood Disorders",
+    "briefTitle": "Study to Treat Major Depressive Disorder With a New Medication",
+    "status": "COMPLETED",
+    "startDate": "2017-09-25",
+    "completionDate": "2019-08-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Ezogabine",
+      "Placebos"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Depressive Disorder",
+      "Anhedonia"
+    ]
+  },
+  {
+    "nctId": "NCT00152373",
+    "title": "A Double-blind, Placebo-controlled, Randomized Study: 16-week Evaluation of the Efficacy and Safety of Levetiracetam (LEV) as add-on Therapy in Adults and Adolescents Older Than 16 Years Suffering From Partial Seizures.",
+    "briefTitle": "Double-blind, Placebo-controlled Study of Levetiracetam in Adults With POS",
+    "status": "COMPLETED",
+    "startDate": "2004-07",
+    "completionDate": "2005-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Levetiracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy, Partial"
+    ]
+  },
+  {
+    "nctId": "NCT00830531",
+    "title": "Pilot Study of Bumetanide for Newborn Seizures: A Phase I Study of Pharmacokinetics and Safety of Bumetanide for Neonatal Seizures",
+    "briefTitle": "Pilot Study of Bumetanide for Newborn Seizures",
+    "status": "COMPLETED",
+    "startDate": "2010-01",
+    "completionDate": "2019-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Bumetanide",
+      "Normal Saline as Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT00736931",
+    "title": "Randomized, Comparative, Double-blind, Placebo-controlled, Triple-dummy, Four-way Cross-over Study to Investigate Neurocognitive Effects of Brivaracetam in Healthy Subjects",
+    "briefTitle": "Clinical Study in Healthy Volunteers to Investigate the Neurocognitive Effects of a New Antiepileptic Drug: Brivaracetam",
+    "status": "COMPLETED",
+    "startDate": "2008-07",
+    "completionDate": "2008-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Brivaracetam",
+      "levetiracetam",
+      "lorazepam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT06579573",
+    "title": "ONO-2017 Phase III Study A Multicenter, Open-label Study in Japanese Patients With Primary Generalized Tonic Clonic Seizures.",
+    "briefTitle": "ONO-2017 Study Japanese Patients With Primary Generalized Tonic Clonic Seizures.",
+    "status": "RECRUITING",
+    "startDate": "2022-07-12",
+    "completionDate": "2027-01-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Cenobamate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy, Generalized"
+    ]
+  },
+  {
+    "nctId": "NCT02224573",
+    "title": "An Open Label Extension Study to Investigate the Safety of Cannabidiol (GWP42003-P; CBD) in Children and Adults With Inadequately Controlled Dravet or Lennox-Gastaut Syndromes.",
+    "briefTitle": "An Open Label Extension Study of Cannabidiol (GWP42003-P) in Children and Adults With Dravet or Lennox-Gastaut Syndromes",
+    "status": "COMPLETED",
+    "startDate": "2015-06-11",
+    "completionDate": "2020-09-24",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "GWP42003-P"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Dravet Syndrome",
+      "Lennox-Gastaut Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT00175929",
+    "title": "A Multicenter, Double-blind, Randomized, Placebo-controlled, 3 Parallel Groups, Dose-ranging Trial Evaluating the Efficacy and Safety of Ucb 34714 Used as Adjunctive Treatment at Doses of 50 and 150 mg/Day in b.i.d. Administration (Oral Capsules of 25 mg) for a Maximum of 12 Weeks in Subjects From 16 to 65 Years With Refractory Epilepsy Suffering From Partial Onset Seizures Whether or Not Secondarily Generalized",
+    "briefTitle": "A Study of Brivaracetam in Subjects With Partial Onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "2005-05",
+    "completionDate": "2006-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Brivaracetam",
+      "Brivaracetam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy, Focal"
+    ]
+  },
+  {
+    "nctId": "NCT02531880",
+    "title": "Investigation of Blood-Brain-Barrier Breakdown Using Manganese Magnetic Resonance Imaging in Drug-Resistant Epilepsy",
+    "briefTitle": "Investigation of Blood-Brain-Barrier Breakdown Using Manganese Magnetic Resonance Imaging in Drug-Resistant Epilepsy",
+    "status": "RECRUITING",
+    "startDate": "2025-05-10",
+    "completionDate": "2025-07-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Mangafodipir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00156689",
+    "title": "A Pilot Study in a Double Blind, Randomized, Placebo-Controlled, Parallel-Group, 16 Week, Trial Design Evaluating the Efficacy and Safety of Levetiracetam 500 mg Tablets in Bid Administration (Daily Dose Ranging From 1000 mg to 3000 mg), in Adults (>18 Years of Ages) Suffering From Chronic Idiopathic Axonal Polyneuropathy",
+    "briefTitle": "A Study to Determine if Levetiracetam Will Assist Those Suffering From Chronic Idiopathic Axonal Polyneuropathy.",
+    "status": "COMPLETED",
+    "startDate": "2005-08",
+    "completionDate": "2007-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "levetiracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Idiopathic Axonal Polyneuropathy"
+    ]
+  },
+  {
+    "nctId": "NCT00236691",
+    "title": "Double-Blind, Parallel Comparison of Three Doses of Topiramate and Placebo in Refractory Partial Epilepsy",
+    "briefTitle": "A Study of the Efficacy and Safety of Topiramate as add-on Therapy in the Treatment of Epilepsy Patients With Difficult to Treat, Partial-onset Seizures.",
+    "status": "COMPLETED",
+    "startDate": "1988-07",
+    "completionDate": "1990-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Epilepsies, Partial",
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT02607891",
+    "title": "A Phase 2, Double-blind, Randomized, Placebo-controlled Pharmacokinetic Trial in 2 Parallel Groups to Investigate Possible Drug-drug Interactions Between Stiripentol or Valproate and GWP42003-P in Patients With Epilepsy",
+    "briefTitle": "A Study of Possible Drug-drug Interactions Between Stiripentol or Valproate and Cannabidiol in Patients With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2016-11-09",
+    "completionDate": "2018-10-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GWP42003-P",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01653262",
+    "title": "An Open-label, Multicenter, Single-arm Study to Evaluate the Reduction in Nonpsychotic Behavioral Side Effects in Subjects With Epilepsy Switching From Levetiracetam to Brivaracetam Due to Nonpsychotic Behavioral Side Effects Phase 3b",
+    "briefTitle": "Effect of Brivaracetam (BRV) on Nonpsychotic Behavioral Side Effects in Subjects Treated Previously With Levetiracetam (LEV)",
+    "status": "COMPLETED",
+    "startDate": "2012-07",
+    "completionDate": "2013-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Brivaracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT06309966",
+    "title": "A Phase 2/3 Multicenter, Randomization, Double-Blind, Placebo-Controlled, Study to Evaluate the Efficacy, Safety and Tolerability of BHV-7000 in Subjects With Refractory Focal Onset Epilepsy",
+    "briefTitle": "Study to Determine if BHV-7000 is Effective and Safe in Adults With Refractory Focal Onset Epilepsy",
+    "status": "RECRUITING",
+    "startDate": "2024-05-13",
+    "completionDate": "2025-09",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "BHV-7000",
+      "BHV-7000",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Focal Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00159965",
+    "title": "Treatment for Psychogenic Nonepileptic Seizures: A Pilot, 12 Week, Prospective, Randomized, Placebo-controlled, Double-blind, Clinical Trial of Sertraline in the Treatment of Comorbid Psychiatric Disorders in NES",
+    "briefTitle": "Treatments for Psychogenic Nonepileptic Seizures (NES)",
+    "status": "COMPLETED",
+    "startDate": "2003-12",
+    "completionDate": "2009-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "sertraline",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Convulsion, Non-Epileptic",
+      "Conversion Disorder",
+      "Depression",
+      "Stress Disorders, Post-Traumatic"
+    ]
+  },
+  {
+    "nctId": "NCT02707965",
+    "title": "Characterization of Epilepsy Patients At-risk for Adverse Outcomes Related to Switching Antiepileptic Drug Products: BEEP 2b Study",
+    "briefTitle": "Characterization of Epilepsy Patients BEEP 2b",
+    "status": "COMPLETED",
+    "startDate": "2017-06-08",
+    "completionDate": "2018-09-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Oxcarbazepine (brand name vs generic drugs)",
+      "Divalproex Sodium (brand name vs generic drugs)",
+      "Carbamazepine (brand name vs generic drugs)",
+      "Lamotrigine (brand name vs generic drugs)",
+      "levetiracetam (brand name vs generic drugs)",
+      "Topiramate (brand name vs generic drugs)",
+      "Zonisamide (brand name vs generic drugs)",
+      "Phenytoin sodium (brand name vs generic drugs)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT04342065",
+    "title": "Efficacy of Pre-emptive Different Doses of Oral Pregabalin Versus Celecoxib on Sevoflurane and Analgesic Consumption in Patients Subjected for Elective Lumbar Spine Fixation Surgery: a Randomized Controlled Trial",
+    "briefTitle": "Pregabalin Versus Celecoxib on Sevoflurane and Analgesic Consumption in Spine Fixation Surgery",
+    "status": "COMPLETED",
+    "startDate": "2019-01-01",
+    "completionDate": "2020-02-01",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Celecoxib capsules",
+      "Pregabalin 150mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Post-Operative Pain"
+    ]
+  },
+  {
+    "nctId": "NCT00113165",
+    "title": "A Multicenter, Double-Blind, Randomized, Parallel-group Evaluation of LAMICTAL Extended-release Adjunctive Therapy in Subjects With Partial Seizures",
+    "briefTitle": "Study Evaluating LAMICTAL Extended-Release Therapy Added To Current Seizure Treatments In Patients With Partial Seizures",
+    "status": "COMPLETED",
+    "startDate": "2004-10",
+    "completionDate": "2007-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "LAMICTAL extended-release"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Epilepsy, Partial"
+    ]
+  },
+  {
+    "nctId": "NCT03953820",
+    "title": "Randomized, Open-Label, 2-Way Crossover, 3-Period Study to Evaluate Single Doses of Diazepam Buccal Film Compared With Diazepam Rectal Gel in Adult Males and Females on Concomitant Antiepileptic Drugs for the Treatment of Epilepsy",
+    "briefTitle": "Diazepam Buccal Film (DBF) - Diastat Rectal Gel (DRG) Crossover Study",
+    "status": "COMPLETED",
+    "startDate": "2019-04-13",
+    "completionDate": "2019-07-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Diazepam Buccal Film",
+      "Diastat\u00ae Rectal Gel (Valeant Pharmaceuticals USA)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT05615220",
+    "title": "A Multicenter, Double-Blind, Placebo-Controlled, Randomized Withdrawal Study to Evaluate the Safety and Maintenance of Efficacy of Ecopipam in Children, Adolescents and Adults With Tourette's Disorder",
+    "briefTitle": "Ecopipam Tablets to Study Tourette's Disorder in Children, Adolescents and Adults",
+    "status": "COMPLETED",
+    "startDate": "2023-01-31",
+    "completionDate": "2025-02-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ecopipam Hydrochloride"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Tourette Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT01691274",
+    "title": "A Double Blind (3rd Party Open) Randomized, Placebo Controlled, Parallel Group Dose Escalation Study To Investigate The Safety, Toleration And Pharmacokinetics Of Multiple Oral Doses Of Pf-04895162 In Healthy Subjects",
+    "briefTitle": "A Study In Healthy People To Evaluate Safety, Toleration And Time Course Of Plasma Concentration Of Multiple Oral Doses Of PF-04895162",
+    "status": "COMPLETED",
+    "startDate": "2012-10",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "PF-04895162",
+      "PF-04895162",
+      "PF-04895162",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT00913874",
+    "title": "A Single-Dose Comparative Bioavailability Study of Two Formulations of Divalproex Sodium 500 mg Delayed Release Tablets Under Fasting Conditions",
+    "briefTitle": "To Demonstrate the Relative Bioavailability of Divalproex Sodium 500 mg Delayed Release Tablets Under Fasting Conditions",
+    "status": "COMPLETED",
+    "startDate": "2005-10",
+    "completionDate": "2005-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Divalproex Sodium 500 mg DR Tablets (Sandoz Inc., USA)",
+      "Depakote 500 mg DR Tablets (Abbott Laboratories, USA)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Bipolar Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT02726074",
+    "title": "Multicenter, Open-label Trial Evaluating the Efficacy and Safety of Perampanel Added to Monotherapy in Patients With Partial Onset Seizures With or Without Secondary Generalization",
+    "briefTitle": "Trial Evaluating the Efficacy and Safety of Perampanel Added to Monotherapy in Participants With Partial Onset Seizures With or Without Secondary Generalization",
+    "status": "COMPLETED",
+    "startDate": "2016-05-03",
+    "completionDate": "2018-04-26",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Perampanel"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01127165",
+    "title": "A Multi-center Comparative Trial of Low and High Dose Zonisamide in Children as Monotherapy",
+    "briefTitle": "Low and High Dose Zonisamide in Children as Monotherapy",
+    "status": "COMPLETED",
+    "startDate": "2006-03",
+    "completionDate": "2009-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "zonisamide low dose group",
+      "zonisamide high dose group"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT02064465",
+    "title": "A Single-Dose, Open-Label, Randomized, Parallel-Group Study to Demonstrate the Bioequivalence of Lamotrigine Dispersible/Chewable Tablet (100mg) and Lamotrigine Compressed Tablet (100mg) in Healthy Chinese Male Subjects",
+    "briefTitle": "The Bioequivalence Study of Lamotrigine Dispersible/Chewable Tablets 100mg Compared With Compressed Tablet 100 mg",
+    "status": "COMPLETED",
+    "startDate": "2014-03-15",
+    "completionDate": "2014-07-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Lamotrigine Dispersible/Chewable tablet",
+      "Lamotrigine Compressed tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT05674565",
+    "title": "The Neuroprotective Impact of Magnesium Sulphate Therapy for Preterm Deliveries. Loading Dose Alone Strategy Versus Loading Plus Maintenance Dose Strategy.",
+    "briefTitle": "Magnesium Sulphate Neuroprotective Strategies for Preterm Deliveries",
+    "status": "RECRUITING",
+    "startDate": "2023-01-20",
+    "completionDate": "2024-07-15",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Magnesium sulfate loading with maintenance dose",
+      "Magnesium sulfate loading dose only"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Premature Birth",
+      "NEUROPROTECTION",
+      "MAGNESIUM SULPHATE",
+      "Cerebral Palsy",
+      "Neonatal Death"
+    ]
+  },
+  {
+    "nctId": "NCT04241965",
+    "title": "A Phase 1b, Single-blind, Placebo-controlled, Adaptive Design, Outpatient Trial to Assess the Effects of Single Oral Tablet Doses of OPC-214870 on Photic-induced Paroxysmal Electroencephalogram Responses in Subjects Who Have Demonstrated Photoepileptiform Discharges on Electroencephalogram With or Without Seizures",
+    "briefTitle": "A Single-blind, Placebo-controlled, Outpatient Trial to Assess the Effects of Single Oral Tablet Dose of OPC-214870",
+    "status": "COMPLETED",
+    "startDate": "2020-02-18",
+    "completionDate": "2021-10-28",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "OPC-214870"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00596466",
+    "title": "An Open-Label Multicenter Extension Study To Determine Long Term Safety And Efficacy Of Pregabalin (Lyrica) As Monotherapy In Patients With Partial Seizures",
+    "briefTitle": "Extension Study Of Long-Term Safety And Efficacy Of Pregabalin As Monotherapy (Lyrica) In Patients With Partial Seizures",
+    "status": "COMPLETED",
+    "startDate": "2008-04",
+    "completionDate": "2011-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "pregabalin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT06448780",
+    "title": "Dose Optimization of Caffeine in Neonates With Hypoxic-Ischemic Encephalopathy",
+    "briefTitle": "Dose Optimization of Caffeine for HIE",
+    "status": "RECRUITING",
+    "startDate": "2024-07-26",
+    "completionDate": "2028-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Caffeine citrate 20 mg/kg",
+      "Caffeine citrate 30 mg/kg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypoxic-Ischemic Encephalopathy"
+    ]
+  },
+  {
+    "nctId": "NCT01118962",
+    "title": "An Open-Label Extension Study to Assess the Safety and Seizure Frequency Associated With Long-Term Oral Lacosamide for Uncontrolled Primary Generalized Tonic-Clonic Seizures in Subjects With Idiopathic Generalized Epilepsy",
+    "briefTitle": "Open-Label Extension Study to Assess the Safety and Seizure Frequency Associated With Lacosamide for Primary Generalized Tonic-Clonic Seizures in Subjects With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2010-08",
+    "completionDate": "2012-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lacosamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00535392",
+    "title": "Open-label, Single-arm, Multi-center, Pharmacokinetic, Safety and Tolerability Study of Levetiracetam Intravenous Infusion in Children (4 - 16 Years Old) With Epilepsy.",
+    "briefTitle": "Open-label Study of Levetiracetam Intravenous Infusion in Children (4-16 Years Old) With Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2007-09",
+    "completionDate": "2010-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Levetiracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT02100644",
+    "title": "Valproate Dose Reduction and Its Clinical Evaluation by Introducing Lamotrigine in Japanese Women With Epilepsy - Single Arm, Multicenter, and Open-label Study -",
+    "briefTitle": "Valproate Dose Reduction and Its Clinical Evaluation by Introducing Lamotrigine in Japanese Women With Epilepsy - Single Arm, Multicenter, and Open-label Study",
+    "status": "COMPLETED",
+    "startDate": "2014-04-12",
+    "completionDate": "2015-05-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lamotrigine tablets 25/100 mg"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT02564029",
+    "title": "A Double Blind, Randomized, Cross- Over Study Examining Efficacy Of Pf-06372865 In A Photosensitivity Epilepsy Study Using Lorazepam As A Positive Control",
+    "briefTitle": "PF-06372865 in Subjects With Photosensitive Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2015-12-16",
+    "completionDate": "2017-02-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "PF-06372865",
+      "Placebo",
+      "Lorazepam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Reflex Epilepsy, Photosensitive"
+    ]
+  },
+  {
+    "nctId": "NCT04007991",
+    "title": "Multicenter, Placebo-Controlled, Double-Blind, Randomized, Parallel-Group, Phase 2b Study to Evaluate the Efficacy and Safety of Ecopipam in Children and Adolescents With Tourette's Syndrome",
+    "briefTitle": "Ecopipam Tablets to Study Tourette's Syndrome in Children and Adolescents",
+    "status": "COMPLETED",
+    "startDate": "2019-06-28",
+    "completionDate": "2021-09-23",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Ecopipam",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Tourette Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT02281591",
+    "title": "Disposition of Eslicarbazepine Acetate and Its Metabolites S-licarbazepine and R-licarbazepine Following Oral Administration in Healthy Volunteers",
+    "briefTitle": "Disposition of Eslicarbazepine Acetate and Its Metabolites S-licarbazepine and R-licarbazepine",
+    "status": "COMPLETED",
+    "startDate": "2006-06",
+    "completionDate": "2006-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIA 2-093",
+      "S-licarbazepine",
+      "R-licarbazepine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01150331",
+    "title": "Efficiency of Levetiracetam Intravenous in Association With Clonazepam Versus Clonazepam Alone in Prehospital Care of Generalised Tonicoclonic Status Epilepticus",
+    "briefTitle": "Study of Antiepileptic Drug in Generalised Convulsive Status Epilepticus",
+    "status": "COMPLETED",
+    "startDate": "2009-07",
+    "completionDate": "2013-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Levetiracetam/Clonazepam",
+      "Clonazepam/Placebo levetiracetam IV"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Status; Epilepticus, Tonic-clonic"
+    ]
+  },
+  {
+    "nctId": "NCT00938431",
+    "title": "A Multicenter, Open-Label Study To Investigate The Safety, Tolerability, And Pharmacokinetics Of Lacosamide (LCM) Oral Solution (Syrup) As Adjunctive Therapy In Children With Partial-Onset Seizures",
+    "briefTitle": "A Multicenter, Open-Label Study To Investigate The Safety And Pharmacokinetics Of Lacosamide In Children With Partial Seizures",
+    "status": "COMPLETED",
+    "startDate": "2009-11",
+    "completionDate": "2014-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lacosamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00422422",
+    "title": "Open-Label, Single-Arm, Multicenter, Pharmacokinetic, Safety, and Efficacy Study of Adjunctive Administration of Brivaracetam in Subjects From \u22651 Month to <16 Years Old With Epilepsy",
+    "briefTitle": "Open-label, Pharmacokinetic, Safety and Efficacy Study of Adjunctive Brivaracetam in Children With Epilepsy.",
+    "status": "COMPLETED",
+    "startDate": "2011-07",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Brivaracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00869622",
+    "title": "Antiepileptic Drugs and Osteoporotic Prevention Trial",
+    "briefTitle": "Antiepileptic Drugs and Osteoporotic Prevention Trial",
+    "status": "COMPLETED",
+    "startDate": "2006-06",
+    "completionDate": "2013-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Risedronate",
+      "Placebo + Calcium and Vitamin D"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Bone Loss",
+      "Osteoporosis",
+      "Fractures"
+    ]
+  },
+  {
+    "nctId": "NCT01498822",
+    "title": "A Multi-Center, Open-label, Randomized Study to Evaluate the Long Term Effectiveness of Levetiracetam as Monotherapy in Comparison With Oxcarbazepine in Subjects With Newly or Recently Diagnosed Partial Epilepsy",
+    "briefTitle": "Levetiracetam Versus Oxcarbazepine as Monotherapy to Evaluate Efficacy and Safety in Subjects With Newly or Recently Diagnosed Partial Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2011-06",
+    "completionDate": "2014-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Levetiracetam",
+      "Oxcarbazepine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01521130",
+    "title": "Imaging the Effect of Centrotemporal Spikes and Seizures on Language in Children",
+    "briefTitle": "Imaging the Effect of Centrotemporal Spikes and Seizures on Language in Children",
+    "status": "COMPLETED",
+    "startDate": "2012-01",
+    "completionDate": "2017-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Levetiracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Benign Childhood Epilepsy With Centro-Temporal Spikes"
+    ]
+  },
+  {
+    "nctId": "NCT00713622",
+    "title": "A Multicentre, Randomised, Active Comparator, Parallel Group Study To Compare The Effect On Cognition Of Adjunctive Therapy With Zonisamide Versus Sodium Valproate",
+    "briefTitle": "Comparing The Effect On Cognition Of Adjunctive Therapy With Zonisamide Versus Sodium Valproate",
+    "status": "COMPLETED",
+    "startDate": "2008-06",
+    "completionDate": "2009-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Zonisamide",
+      "Sodium valproate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT04967326",
+    "title": "Role of Clinical Pharmacists in Epilepsy Management at a General Hospital in Vietnam: A Before-and-after Study",
+    "briefTitle": "Role of Clinical Pharmacists in Epilepsy Management",
+    "status": "COMPLETED",
+    "startDate": "2016-01-01",
+    "completionDate": "2018-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Optimizing therapy with antiepileptic drugs (carbamazepine, phenytoin, valproic acid)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT03940326",
+    "title": "Comparison Study of Efficacy and Safety of Levetiracetam Versus Valproate in Treatment of Idiopathic Generalized Tonic-clonic Seizures",
+    "briefTitle": "Levetiracetam Versus Valproate in Idiopathic Generalized Tonic-clonic Seizures",
+    "status": "COMPLETED",
+    "startDate": "2018-04-01",
+    "completionDate": "2019-12-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Levetiracetam",
+      "Valproate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy, Idiopathic Generalized"
+    ]
+  },
+  {
+    "nctId": "NCT03513757",
+    "title": "An Observer-blinded Randomized Study of Propofol Infusion vs Bolus Dexmedetomidine and Propofol Sedation for Pediatric Magnetic Resonance Imaging",
+    "briefTitle": "Dexmedetomidine and Propofol for Pediatric MRI Sedation",
+    "status": "COMPLETED",
+    "startDate": "2018-03-04",
+    "completionDate": "2018-10-21",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "propofol",
+      "Dexmedetomidine",
+      "Glycopyrrolate",
+      "Lidocaine 1% Injectable Solution",
+      "Nitrous Oxide",
+      "Sevoflurane"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Headache",
+      "Tumor",
+      "Seizure Disorder",
+      "Neurofibromatoses",
+      "Hydrocephalus",
+      "Abdominal Neoplasm",
+      "Spine Deformity"
+    ]
+  },
+  {
+    "nctId": "NCT00616148",
+    "title": "Pharmacodynamic Evaluation of YKP3089 in Epilepsy Patients With a Photo-induced Paroxysmal EEG-Response: Proof of Principle",
+    "briefTitle": "Efficacy of YKP3089 in Patients With Photosensitive Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2010-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "YKP3089",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00401648",
+    "title": "A Placebo-controlled, Single-blind, Multi-center Study to Explore the Photoparoxysmal Response in Photosensitive Epileptic Subjects After One Single Oral Dose of Brivaracetam in Capsules.",
+    "briefTitle": "Effect of Brivaracetam in Photosensitive Epileptic Subjects",
+    "status": "COMPLETED",
+    "startDate": "2002-09",
+    "completionDate": "2003-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Brivaracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00955357",
+    "title": "An Open-Label, Multicenter, Multinational Study of Lacosamide as First Add-On Anti-epileptic Drug (AED) Treatment in Subjects With Partial-Onset Seizures",
+    "briefTitle": "Trial to Assess Lacosamide as the First add-on Anti-epileptic Drug Treatment in Patients With Partial-onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "2009-08",
+    "completionDate": "2013-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lacosamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Partial Epilepsies"
+    ]
+  },
+  {
+    "nctId": "NCT02758626",
+    "title": "A Phase 2 Randomized, Double-Masked Placebo-Controlled Crossover Safety and Tolerability Study of Ataluren for Drug Resistant Epilepsy in Patients With Nonsense Mutation CDKL5 or Dravet Syndrome",
+    "briefTitle": "Ataluren for Nonsense Mutation in CDKL5 and Dravet Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2016-11",
+    "completionDate": "2021-02-27",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ataluren",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT00991757",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Multicenter Study to Evaluate the Efficacy, Safety, and Tolerability of RWJ 333369 as Adjunctive Therapy in Subjects With Partial Onset Seizures Followed by an Open-Label Extension Study: Open-Label Extension Period",
+    "briefTitle": "An Open-Label Extension Study to Evaluate the Safety and Tolerability of RWJ 333369 as Adjunctive Therapy in Patients 16 Years and Older With Partial Onset Seizures.",
+    "status": "COMPLETED",
+    "startDate": "2007-02",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "carisbamate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Complex Partial Seizures",
+      "Epilepsy, Complex Partial",
+      "Epilepsies, Partial"
+    ]
+  },
+  {
+    "nctId": "NCT06908226",
+    "title": "A Phase 3, Open-Label Study to Investigate the Long-Term Safety and Efficacy of LP352 in the Treatment of Seizures in Children and Adults With Developmental and Epileptic Encephalopathy",
+    "briefTitle": "A Study to Investigate LP352 in Children and Adults With Developmental and Epileptic Encephalopathy (DEE)",
+    "status": "RECRUITING",
+    "startDate": "2025-02-12",
+    "completionDate": "2027-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "LP352"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Developmental and Epileptic Encephalopathy"
+    ]
+  },
+  {
+    "nctId": "NCT02281526",
+    "title": "An Open-label, Multiple-dose, Single-centre Study, Investigating the Pharmacokinetics of BIA 2-093 in Subjects With Moderate Hepatic Impairment.",
+    "briefTitle": "An Open-label, Multiple-dose, Single-centre Study, Investigating the Pharmacokinetics of BIA 2-093",
+    "status": "COMPLETED",
+    "startDate": "2005-05",
+    "completionDate": "2006-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIA 2-093"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT01710657",
+    "title": "A Multicenter, Double-blind, Randomized, Placebo-controlled, Parallel-group Study to Evaluate the Efficacy and Safety of Lacosamide as Adjunctive Therapy in Japanese and Chinese Adults With Uncontrolled Partial-Onset Seizures With or Without Secondary Generalization",
+    "briefTitle": "A Trial to Evaluate the Efficacy and Safety of Adjunctive Therapy With Lacosamide in Adults With Partial-Onset Seizures",
+    "status": "COMPLETED",
+    "startDate": "2012-09",
+    "completionDate": "2014-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lacosamide 50 mg",
+      "Lacosamide 100 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Partial Onset Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT01995825",
+    "title": "Evaluation of Bioequivalence of Lamotrigine Tablets in Epileptic Patients",
+    "briefTitle": "Lamotrigine Bioequivalence",
+    "status": "COMPLETED",
+    "startDate": "2012-05",
+    "completionDate": "2013-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Brand lamotrigine",
+      "Generic lamotrigine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT06741930",
+    "title": "Potential Pro-Convulsive Properties of Ketamine and Its Effects on EEG During Procedural Sedation: a Comparative Evaluation with Midazolam and Propofol",
+    "briefTitle": "Pro-Epileptic Effects of IV Ketamine",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-12-01",
+    "completionDate": "2025-08-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Ketamine",
+      "Midazolam",
+      "Propofol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy",
+      "Seizure"
+    ]
+  },
+  {
+    "nctId": "NCT03185130",
+    "title": "Intravenous Fluids in Benign Headaches Trial: A Randomized Single Blind Clinical Trial",
+    "briefTitle": "Intravenous Fluids in Benign Headaches Trial",
+    "status": "COMPLETED",
+    "startDate": "2017-05-16",
+    "completionDate": "2019-05-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Normal Saline 5mL",
+      "Normal Saline 20mL/kg",
+      "Prochlorperazine 0.15 mg/kg up to 10 mg IV",
+      "Diphenhydramine 1 mg/kg up to 50 mg IV"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Headache"
+    ]
+  },
+  {
+    "nctId": "NCT05232630",
+    "title": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+    "briefTitle": "Fenfluramine for the Treatment of Different Types of Developmental and Epileptic Encephalopathies: a Pilot Trial Exploring Epileptic and Non-epileptic Outcomes",
+    "status": "RECRUITING",
+    "startDate": "2022-10-20",
+    "completionDate": "2025-06-20",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fenfluramine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory Epilepsy",
+      "SYNGAP1 Encephalopathy",
+      "STXBP1 Encephalopathy With Epilepsy",
+      "Inv Dup(15) Encephalopathy",
+      "Multifocal or Bilateral Malformations of Cortical Development",
+      "Continuous Spike and Waves During Slow Sleep"
+    ]
+  },
+  {
+    "nctId": "NCT00630630",
+    "title": "A Multicenter, Double-blind, Placebo-controlled, Parallel Group Study of the Safety and Efficacy of Levetiracetam in the Adjunctive Treatment of Adult Female Subjects (18 to 40 Years of Age) With C1 Catamenial Epilepsy",
+    "briefTitle": "Study on Safety and Efficacy of Levetiracetam in the Adjunctive Treatment of Female Subjects With C1 Catamenial Epilepsy",
+    "status": "COMPLETED",
+    "startDate": "2002-11",
+    "completionDate": "2003-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Levetiracetam"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Epilepsy"
+    ]
+  },
+  {
+    "nctId": "NCT06913725",
+    "title": "An Exploratory Study to Evaluate the Efficacy and Safety of FCN-159 in Patients With Brain Arteriovenous Malformations",
+    "briefTitle": "An Exploratory Study to Evaluate the Efficacy and Safety of FCN-159 in Patients With Brain Arteriovenous Malformations",
+    "status": "RECRUITING",
+    "startDate": "2025-02-24",
+    "completionDate": "2026-09-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "FCN-159"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain Arteriovenous Malformations"
+    ]
+  }
+]

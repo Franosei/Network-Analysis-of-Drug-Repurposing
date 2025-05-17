@@ -1,0 +1,1453 @@
+[
+  {
+    "nctId": "NCT01736176",
+    "title": "An Open-Label, Two Part, Multicenter Study to Assess the Safety and Efficacy of Levodopa-Carbidopa Intestinal Gel (LCIG) for the Treatment of Non-Motor Symptoms in Subjects With Advanced Parkinson's Disease",
+    "briefTitle": "A Study to Assess the Safety and Efficacy of Levodopa-carbidopa Intestinal Gel (LCIG) for the Treatment of Non-motor Symptoms in Patients With Advanced Parkinson's Disease",
+    "status": "COMPLETED",
+    "startDate": "2013-03",
+    "completionDate": "2015-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Levodopa-Carbidopa Intestinal Gel",
+      "Levodopa-carbidopa Immediate Release (LC-IR) Tablets"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Parkinson's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01390376",
+    "title": "DAAOI-1 Treatment for Treatment-resistant Schizophrenia",
+    "briefTitle": "DAAOI-1 Treatment for Treatment-resistant Schizophrenia",
+    "status": "COMPLETED",
+    "startDate": "2010-09",
+    "completionDate": "2014-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "DAAOI-1",
+      "DAAOI-1",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Schizophrenia"
+    ]
+  },
+  {
+    "nctId": "NCT03796676",
+    "title": "A PHASE 3, RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED, MULTI-CENTER STUDY INVESTIGATING THE EFFICACY AND SAFETY OF PF-04965842 CO-ADMINISTERED WITH BACKGROUND MEDICATED TOPICAL THERAPY IN ADOLESCENT PARTICIPANTS 12 TO <18 YEARS OF AGE WITH MODERATE-TO-SEVERE ATOPIC DERMATITIS",
+    "briefTitle": "JAK1 Inhibitor With Medicated Topical Therapy in Adolescents With Atopic Dermatitis",
+    "status": "COMPLETED",
+    "startDate": "2019-02-18",
+    "completionDate": "2020-04-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "PF-04965842",
+      "PF04965842"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Atopic Dermatitis"
+    ]
+  },
+  {
+    "nctId": "NCT04540094",
+    "title": "Feasibility of 5% Albumin Compared With Balanced Crystalloid, as Intravenous Fluid Resuscitation in Adult Patients With Sepsis, Presenting as an Emergency to Hospital: ABC Sepsis Trial",
+    "briefTitle": "Feasibility of 5% Albumin Compared With Balanced Crystalloid, as Intravenous Fluid Resuscitation in Adult Patients With Sepsis, Presenting as an Emergency to Hospital",
+    "status": "COMPLETED",
+    "startDate": "2021-06-01",
+    "completionDate": "2023-04-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Human albumin",
+      "Balanced crystalloid solution"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Sepsis"
+    ]
+  },
+  {
+    "nctId": "NCT04580394",
+    "title": "Phase 2 Randomized Double-Blind Placebo-Controlled 4-Period Single-Dose Crossover Factorial Study to Evaluate the Contribution of the Individual Drug Components to the Efficacy of AD109 in Obstructive Sleep Apnea",
+    "briefTitle": "Crossover Trial of AD109 in Obstructive Sleep Apnea",
+    "status": "COMPLETED",
+    "startDate": "2020-10-27",
+    "completionDate": "2021-05-28",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "AD109",
+      "Atomoxetine",
+      "R-oxybutynin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obstructive Sleep Apnea"
+    ]
+  },
+  {
+    "nctId": "NCT03171194",
+    "title": "A Phase I Safety Trial of Allogeneic Mesenchymal Stem Cells for Systemic Lupus Erythematosus",
+    "briefTitle": "Pilot Trial of Mesenchymal Stem Cells for Systemic Lupus Erythematosus",
+    "status": "COMPLETED",
+    "startDate": "2017-04-27",
+    "completionDate": "2018-10-25",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Low Dose Mesenchymal Stem Cells (MSCs)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "System; Lupus Erythematosus"
+    ]
+  },
+  {
+    "nctId": "NCT05885360",
+    "title": "Istradefylline Effect on Parkinson's Disease Tremor, Motor Symptoms and Non-motor Symptoms",
+    "briefTitle": "Istradefylline Effect Protocol on Parkinson's Disease Tremor",
+    "status": "COMPLETED",
+    "startDate": "2023-01-20",
+    "completionDate": "2025-02-21",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Istradefylline Pill"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Parkinson Disease",
+      "Tremor"
+    ]
+  },
+  {
+    "nctId": "NCT02652260",
+    "title": "Phase IIb, Double-Blinded, Multicenter, Randomized Study to Assess the Effect on Central Nervous System (CNS) Toxicity of Switching From ATRIPLA\u2122 (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Subjects.",
+    "briefTitle": "Effects of Switching From ATRIPLA\u2122 (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Participants (MK-1439A-028)",
+    "status": "COMPLETED",
+    "startDate": "2016-03-04",
+    "completionDate": "2024-02-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Doravirine, Tenofovir, Lamivudine - Blinded",
+      "Doravirine, Tenofovir, Lamivudine - Open-Label",
+      "ATRIPLA^TM",
+      "Placebo to ATRIPLA\u2122",
+      "Placebo to Doravirine, Tenofovir, Lamivudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1",
+      "Central Nervous System"
+    ]
+  },
+  {
+    "nctId": "NCT03479476",
+    "title": "A Double-Blind, Placebo-Controlled Trial of Metformin in Individuals With Fragile X Syndrome",
+    "briefTitle": "A Trial of Metformin in Individuals With Fragile X Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2018-04-30",
+    "completionDate": "2024-05-22",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo Medication",
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Fragile X Syndrome",
+      "Fragile X Mental Retardation Syndrome",
+      "Mental Retardation, X Linked",
+      "Genetic Diseases, X-Linked",
+      "Trinucleotide Repeat Expansion",
+      "Fra(X) Syndrome",
+      "Intellectual Disability",
+      "FXS",
+      "Neurobehavioral Manifestations",
+      "Sex Chromosome Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT04332276",
+    "title": "A New Concept of Continuous Dopaminergic Stimulation by Cerebroventricular Administration of A-dopamine (dopamine Stored in Anaerobia) for Severe Motor Fluctuations in Parkinson's Disease?",
+    "briefTitle": "Dopaminergic RestauratIon by IntraVEntriculaire Administration",
+    "status": "COMPLETED",
+    "startDate": "2020-09-18",
+    "completionDate": "2024-05-06",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "A-dopamine",
+      "optimized oral treatment"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Parkinson Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03173560",
+    "title": "A Randomized, Open-Label (Formerly Double-Blind), Phase 2 Trial to Assess Safety and Efficacy of Lenvatinib at Two Different Starting Doses (18 mg vs. 14 mg QD) in Combination With Everolimus (5 mg QD) in Renal Cell Carcinoma Following One Prior VEGF-Targeted Treatment",
+    "briefTitle": "Trial to Assess Safety and Efficacy of Lenvatinib (18 mg vs. 14 mg) in Combination With Everolimus in Participants With Renal Cell Carcinoma",
+    "status": "COMPLETED",
+    "startDate": "2017-08-17",
+    "completionDate": "2024-06-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "lenvatinib",
+      "everolimus"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Renal Cell Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT02865460",
+    "title": "A Randomized, Double-blind Placebo-controlled Phase III Trial of Coenzyme Q10 in Gulf War Illness",
+    "briefTitle": "Coenzyme Q10 Phase III Trial in Gulf War Illness",
+    "status": "COMPLETED",
+    "startDate": "2017-07-24",
+    "completionDate": "2020-12-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ubiquinol",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gulf War Illness",
+      "Chronic Fatigue",
+      "Ubiquinol",
+      "Coenzyme Q10"
+    ]
+  },
+  {
+    "nctId": "NCT00620776",
+    "title": "Combined Treatment for Generalized Anxiety Disorder (GAD)",
+    "briefTitle": "Combined Treatment for Generalized Anxiety Disorder (GAD)",
+    "status": "COMPLETED",
+    "startDate": "2006-10",
+    "completionDate": "2008-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Venlafaxine XR"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Generalized Anxiety Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT00130676",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Study of Safety and Efficacy of CORLUX\u2122 (Mifepristone) in the Treatment of Psychotic Symptoms in Patients With Major Depressive Disorder With Psychotic Features",
+    "briefTitle": "A United States Study of Corlux for Psychotic Symptoms in Psychotic Major Depression",
+    "status": "COMPLETED",
+    "startDate": "2004-09",
+    "completionDate": "2006-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Mifepristone",
+      "matching placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Depressive Disorder",
+      "Psychotic Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT03249376",
+    "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Multi-Center Study to Assess the Efficacy and Safety of Lumateperone Monotherapy in the Treatment of Patients With Major Depressive Episodes Associated With Bipolar I or Bipolar II Disorder (Bipolar Depression) Conducted Globally",
+    "briefTitle": "Lumateperone Monotherapy for the Treatment of Bipolar Depression Conducted Globally",
+    "status": "COMPLETED",
+    "startDate": "2017-11-27",
+    "completionDate": "2019-03-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lumateperone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Bipolar Depression"
+    ]
+  },
+  {
+    "nctId": "NCT05104476",
+    "title": "Interventional, Randomized, Double-blind, Parallel-group, Placebo-controlled, Multi-centre Study to Assess the Efficacy, Safety and Tolerability of Lu AF82422 in Patients With Multiple System Atrophy",
+    "briefTitle": "A Study of Lu AF82422 in Participants With Multiple System Atrophy",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-11-16",
+    "completionDate": "2026-05-14",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lu AF82422",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple System Atrophy"
+    ]
+  },
+  {
+    "nctId": "NCT00510276",
+    "title": "A Double-Blind Study of Atomoxetine Hydrochloride Versus Placebo for the Treatment of ADHD in Young Adults With an Assessment of Associated Functional Outcomes",
+    "briefTitle": "Treatment of Attention-Deficit/Hyperactivity Disorder (ADHD) With Atomoxetine in Young Adults and Its Effects on Functional Outcomes",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2009-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Atomoxetine hydrochloride",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Attention Deficit Hyperactivity Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT00070694",
+    "title": "An Investigation of the Antidepressant Efficacy of the 5-HT2A Antagonist, M100907 in Combination With Escitalopram in Treatment Resistant Depression",
+    "briefTitle": "An Investigation of the Antidepressant Efficacy of the 5-HT2A Antagonist, M100907, in Combination With Citalopram in Treatment Resistant Depression",
+    "status": "COMPLETED",
+    "startDate": "2003-09",
+    "completionDate": "2004-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MDL100.907"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Depressive Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT00587860",
+    "title": "A Placebo-Controlled Trial of St. John's Wort for Irritable Bowel Syndrome",
+    "briefTitle": "A Placebo-Controlled Trial of St. John's Wort for Irritable Bowel Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2006-02",
+    "completionDate": "2008-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "St. John's wort",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Irritable Bowel Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT04468776",
+    "title": "Comparative Effectiveness of Zolpidem/Trazodone and Cognitive Behavioral Therapy for Insomnia in Rural Adults",
+    "briefTitle": "CBT-I or Zolpidem/Trazodone for Insomnia",
+    "status": "COMPLETED",
+    "startDate": "2022-02-25",
+    "completionDate": "2024-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Zolpidem",
+      "Trazodone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Insomnia"
+    ]
+  },
+  {
+    "nctId": "NCT02154360",
+    "title": "A Phase IB, Open Label Study to Examine the Safety, Pharmacokinetic Characteristics and Anti-Inflammatory Effects of the NK-1R Antagonist, Aprepitant, In HIV-Infected Subjects Receiving Atazanavir/Ritonavir Or Darunavir/Ritonavir",
+    "briefTitle": "Pharmacokinetic Characteristics and Anti-Inflammatory Effects of Aprepitant In HIV-Infected Subjects",
+    "status": "COMPLETED",
+    "startDate": "2014-05",
+    "completionDate": "2016-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Aprepitant"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV Infection"
+    ]
+  },
+  {
+    "nctId": "NCT04958460",
+    "title": "Effect of Bifidobacterium Bifidum (Bf-688) on Clinical Characteristics and Gut Microbiota in Attention-deficit/Hyperactivity Disorder: a Double-blind Randomized-control Trial",
+    "briefTitle": "Effect of Probiotics on ADHD",
+    "status": "COMPLETED",
+    "startDate": "2020-05-14",
+    "completionDate": "2023-02-28",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "ADHD",
+      "Probiotics",
+      "Gut Microbiota",
+      "Psychiatry",
+      "Clinical Trial"
+    ]
+  },
+  {
+    "nctId": "NCT03915860",
+    "title": "A Multi-Center Study to Evaluate Subject Reported Outcomes With Use of Trifarotene 50 \u03bcg/g Cream in the Treatment of Moderate Facial and Truncal Acne Vulgaris",
+    "briefTitle": "Participant Reported Outcomes With Use of Trifarotene 50 \u03bcg/g Cream in the Treatment of Moderate Facial and Truncal Acne Vulgaris",
+    "status": "COMPLETED",
+    "startDate": "2019-03-27",
+    "completionDate": "2019-12-23",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Trifarotene"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Acne Vulgaris"
+    ]
+  },
+  {
+    "nctId": "NCT02830360",
+    "title": "Ventricular Tachycardia Antiarrhythmics or AblatioN In Structural Heart Disease 2",
+    "briefTitle": "Antiarrhythmics or Ablation for Ventricular Tachycardia 2",
+    "status": "COMPLETED",
+    "startDate": "2016-10",
+    "completionDate": "2024-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Antiarrythmic Drug Therapy"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Ventricular Tachycardia (VT)"
+    ]
+  },
+  {
+    "nctId": "NCT06516094",
+    "title": "Efficacy and Safety Study of Celecoxib / Pregabalin / Vitamin B Fixed Dose Combination Versus Celecoxib + Vitamin B Versus Pregabalin + Vitamin B in the Management of Chronic Low Back Pain Mixed Component",
+    "briefTitle": "Efficacy and Safety in the Combination of Celecoxib / Pregabalin / Vitamin B for Low Back Chronic Pain",
+    "status": "COMPLETED",
+    "startDate": "2024-04-11",
+    "completionDate": "2025-01-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Celecoxib+Pregabalin+Vitamin B fixed dose",
+      "Celecoxib + Vitamin B fixed dose",
+      "Pregabalin + Vitamin B fixed dose"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Low-back Pain"
+    ]
+  },
+  {
+    "nctId": "NCT03349060",
+    "title": "A PHASE 3 RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED, PARALLEL GROUP, MULTI-CENTER STUDY TO EVALUATE THE EFFICACY AND SAFETY OF PF-04965842 MONOTHERAPY IN SUBJECTS AGED 12 YEARS AND OLDER, WITH MODERATE TO SEVERE ATOPIC DERMATITIS",
+    "briefTitle": "Study to Evaluate Efficacy and Safety of PF-04965842 in Subjects Aged 12 Years And Older With Moderate to Severe Atopic Dermatitis",
+    "status": "COMPLETED",
+    "startDate": "2017-12-07",
+    "completionDate": "2019-03-26",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "PF-04965842 100 mg",
+      "PF-04965842 200 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dermatitis, Atopic"
+    ]
+  },
+  {
+    "nctId": "NCT02266160",
+    "title": "EMLA 5% as a Treatment for Tinnitus and Its Accompanied Symptoms",
+    "briefTitle": "Treating Tinnitus Using Eutectic Mixture of Local Anesthetics (EMLA) 5% Cream",
+    "status": "COMPLETED",
+    "startDate": "2014-11",
+    "completionDate": "2015-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "EMLA cream 5%"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Tinnitus"
+    ]
+  },
+  {
+    "nctId": "NCT03775876",
+    "title": "Dexmedetomidine Versus Propofol in Conjunction With Regional Block for Shoulder Arthroscopy: a Randomized Controlled Double Blind Trial",
+    "briefTitle": "Dexmedetomidine Versus Propofol in Conjunction With Regional Block for Shoulder Arthroscopy",
+    "status": "COMPLETED",
+    "startDate": "2017-03-01",
+    "completionDate": "2018-09-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Propofol",
+      "Dexmedetomidine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hemodynamic",
+      "Sedation",
+      "Satisfaction, Personal"
+    ]
+  },
+  {
+    "nctId": "NCT05682482",
+    "title": "A National Randomized Placebo-controlled Double-blind Multicenter Trial of LT4/LT3 Combination Therapy in Patients with Autoimmune Hypothyroidism: the T3-4-Hypo Trial.",
+    "briefTitle": "LT4/LT3 Combination Therapy Versus LT4 Monotherapy in Patients with Autoimmune Hypothyroidism.",
+    "status": "RECRUITING",
+    "startDate": "2022-10-07",
+    "completionDate": "2028-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "LT3 (liothyronine)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Autoimmune Hypothyroidism"
+    ]
+  },
+  {
+    "nctId": "NCT04251182",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Multi-Center Study to Evaluate the Safety and Efficacy of Three Dose Strengths of T3D-959 in Subjects With Mild-to-Moderate Alzheimer's Disease",
+    "briefTitle": "Clinical Study Evaluating Efficacy and Safety of T3D-959 in Mild-to-moderate AD Subjects",
+    "status": "COMPLETED",
+    "startDate": "2021-03-01",
+    "completionDate": "2023-02-17",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "15mg T3D-959",
+      "30 mg T3D-959",
+      "45 mg T3D-959",
+      "Placebos"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00001482",
+    "title": "Evaluation of Lamotrigine (Lamictal\u00ae (Registered Trademark)) Monotherapy and Gabapentin (Neurontin\u00ae (Registered Trademark)) Monotherapy in the Treatment of Mood Disorders",
+    "briefTitle": "New Drugs in the Treatment of Mood Disorders",
+    "status": "COMPLETED",
+    "startDate": "1995-05",
+    "completionDate": "2001-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lamotrigine (Lamictal\u00ae (Registered Trademark)",
+      "Gabapentin (Neurontin\u00ae (Registered Trademark))"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Anxiety Disorder",
+      "Mood Disorder",
+      "Psychotic Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT01999920",
+    "title": "Vilazodone for Separation Anxiety Disorder",
+    "briefTitle": "Vilazodone for Separation Anxiety Disorder",
+    "status": "COMPLETED",
+    "startDate": "2013-12",
+    "completionDate": "2017-12-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Vilazodone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Separation Anxiety Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT02849782",
+    "title": "Short and Long Term Fampridine Treatment in Persons With Multiple Sclerosis: Cognitive and Motor Performances",
+    "briefTitle": "Short and Long Term Multiple Outcomes in Persons With Multiple Sclerosis Treated by Fampridine.",
+    "status": "COMPLETED",
+    "startDate": "2014-02-04",
+    "completionDate": "2019-03-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fampridine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Sclerosis"
+    ]
+  },
+  {
+    "nctId": "NCT00579982",
+    "title": "An Open-Label Trial Measuring Satisfaction and Convenience of Two Formulations of Lamotrigine in Subjects With a Mood Disorder",
+    "briefTitle": "An Open-Label Trial Measuring Satisfaction And Convenience Of Two Formulations Of Lamotrigine In Subjects With A Mood Disorder",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2008-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lamotrigine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mood Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT01978782",
+    "title": "Pharmacokinetic Drug-drug Interaction Study Between RaltEgravir and CITALopram in Healthy Subjects (RECITAL).",
+    "briefTitle": "Pharmacokinetic Drug-drug Interaction Study Between RaltEgravir and CITALopram in Healthy Subjects (RECITAL).",
+    "status": "COMPLETED",
+    "startDate": "2014-01",
+    "completionDate": "2014-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "raltegravir",
+      "citalopram"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV",
+      "Depression"
+    ]
+  },
+  {
+    "nctId": "NCT06496282",
+    "title": "The Efficacy of Lemborexant Versus Placebo on Improving Sleep Quality Among Hospital Rotating Shift Workers: A Randomized, Double-Blind, Placebo-Controlled Trial",
+    "briefTitle": "Lemborexant on Improving Sleep Quality Among Hospital Rotating Shift Workers",
+    "status": "RECRUITING",
+    "startDate": "2024-08",
+    "completionDate": "2026-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lemborexant",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Sleep"
+    ]
+  },
+  {
+    "nctId": "NCT02477020",
+    "title": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel-group, 6-Week Study to Evaluate the Efficacy and Safety of TAK-063 in Subjects With an Acute Exacerbation of Schizophrenia",
+    "briefTitle": "A Phase 2 Efficacy and Safety Study of TAK-063 in Participants With an Acute Exacerbation of Schizophrenia",
+    "status": "COMPLETED",
+    "startDate": "2015-07-01",
+    "completionDate": "2016-07-27",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "TAK-063 20 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Schizophrenia"
+    ]
+  },
+  {
+    "nctId": "NCT06204120",
+    "title": "A Multicenter, Randomized, Double-blind, Placebo, Positive Drug Parallel Controlled Phase II Clinical Trial to Evaluate the Efficacy and Safety of LPM3480392 Injection for Moderate to Severe Pain After Abdominal Surgery",
+    "briefTitle": "Phase II Clinical Trial to Evaluate the Efficacy and Safety of LPM3480392 Injection for Moderate to Severe Pain After Abdominal Surgery",
+    "status": "COMPLETED",
+    "startDate": "2022-11-25",
+    "completionDate": "2023-07-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LPM3480392 Injection",
+      "Placebo",
+      "morphine hydrochloride injection"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pain, Postoperative"
+    ]
+  },
+  {
+    "nctId": "NCT01580020",
+    "title": "An Open-label, Multi-center, 6-month Extension Study Comparing the Long-term Efficacy and Safety of Lucentis (Ranibizumab) Intravitreal Injections Versus Ozurdex (Dexamethasone) Intravitreal Implant in Patients With Visual Impairment Due to Macular Edema Following Branch Retinal Vein Occlusion (BRVO) or Central Retinal Vein Occlusion (CRVO) Who Have Completed the Respective Core Study (CRFB002EDE17 or CRFB002EDE18)",
+    "briefTitle": "Extension Study to Compare Long-term Efficacy and Safety of Ranibizumab Intravitreal Injections Versus Dexamethasone Intravitreal Implant in Patients With RVO",
+    "status": "COMPLETED",
+    "startDate": "2012-05",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Dexamethasone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Retinal Vein Occlusion"
+    ]
+  },
+  {
+    "nctId": "NCT03301220",
+    "title": "A Phase 3 Randomized, Multicenter Study of Subcutaneous Daratumumab Versus Active Monitoring in Subjects With High-Risk Smoldering Multiple Myeloma",
+    "briefTitle": "A Study of Subcutaneous Daratumumab Versus Active Monitoring in Participants With High-Risk Smoldering Multiple Myeloma",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2017-11-07",
+    "completionDate": "2025-12-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Daratumumab SC: daratumumab + rHuPH20"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Smoldering Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT05506982",
+    "title": "The Safety, Feasibility, and Acceptability of Psilocybin Combined With Multidisciplinary Palliative Care in Demoralized Cancer Survivors With Chronic Pain (P-PC)",
+    "briefTitle": "Psilocybin Combined With Multidisciplinary Palliative Care in Demoralized Cancer Survivors With Chronic Pain",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-11-01",
+    "completionDate": "2025-04-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Psilocybin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hematopoietic and Lymphoid Cell Neoplasm",
+      "Malignant Solid Neoplasm"
+    ]
+  },
+  {
+    "nctId": "NCT00198120",
+    "title": "A Randomized Controlled Trial of D-Cycloserine in Autism",
+    "briefTitle": "Safety and Effectiveness of D-Cycloserine in Children With Autism",
+    "status": "COMPLETED",
+    "startDate": "2004-02",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "D-cycloserine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Autistic Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT01477931",
+    "title": "An Open-Label, 8-week Trial of Bupropion Hydrochloride Extended Release (Wellbutrin XL\u00ae) In Patients With Major Depressive Disorder (MDD) With Atypical Features.",
+    "briefTitle": "Interventional Study of Wellbutrin XL in Major Depressive Disorder With Atypical Features",
+    "status": "COMPLETED",
+    "startDate": "2010-11",
+    "completionDate": "2011-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bupropion extended release"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Depressive Disorder, Major"
+    ]
+  },
+  {
+    "nctId": "NCT01134731",
+    "title": "Paliperidone and Lithium in the Treatment of Suicidality - Treatment Indication and Epigenetic Regulation",
+    "briefTitle": "Paliperidone and Lithium in the Treatment of Suicidality - Treatment Indication and Epigenetic Regulation",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "2014-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "paliperidone",
+      "lithium",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Depressive Disorder",
+      "Suicidal Ideation"
+    ]
+  },
+  {
+    "nctId": "NCT02675231",
+    "title": "monarcHER: A Phase 2, Randomized, Multicenter, 3-Arm, Open-Label Study to Compare the Efficacy of Abemaciclib Plus Trastuzumab With or Without Fulvestrant to Standard-of-Care Chemotherapy of Physician's Choice Plus Trastuzumab in Women With HR+, HER2+ Locally Advanced or Metastatic Breast Cancer",
+    "briefTitle": "A Study of Abemaciclib (LY2835219) in Women With HR+, HER2+ Locally Advanced or Metastatic Breast Cancer",
+    "status": "COMPLETED",
+    "startDate": "2016-05-23",
+    "completionDate": "2023-11-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Abemaciclib",
+      "Trastuzumab",
+      "Fulvestrant",
+      "Standard of Care Single Agent Chemotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hormone Receptor Positive Breast Cancer",
+      "HER-2 Positive Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00772031",
+    "title": "NINDS Clinical Research Collaboration Chronic Migraine Treatment Trial",
+    "briefTitle": "NINDS CRC Chronic Migraine Treatment Trial",
+    "status": "COMPLETED",
+    "startDate": "2008-10",
+    "completionDate": "2010-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "propranolol LA",
+      "topiramate",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Migraine"
+    ]
+  },
+  {
+    "nctId": "NCT04578782",
+    "title": "Pilot Study for the Evaluation of the Efficacy of OnabotulinumtoxinA in High Frequency Migraine",
+    "briefTitle": "Efficacy of OnabotulinumtoxinA in Migraine",
+    "status": "COMPLETED",
+    "startDate": "2018-03-13",
+    "completionDate": "2020-05-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "OnabotulinumtoxinA"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Migraine"
+    ]
+  },
+  {
+    "nctId": "NCT00222820",
+    "title": "Depression: The Search for Treatment-Relevant Phenotypes",
+    "briefTitle": "Depression: The Search for Treatment-Relevant Phenotypes-Pilot Study",
+    "status": "COMPLETED",
+    "startDate": "2002-04",
+    "completionDate": "2004-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "escitalopram"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Depression"
+    ]
+  },
+  {
+    "nctId": "NCT00644982",
+    "title": "A Multicenter Randomized, Double-Blind, Parallel-Group Study of Sertraline Versus Venlafaxine XR in the Acute Treatment of Outpatients With Major Depressive Disorder",
+    "briefTitle": "A Comparison of Sertraline Versus Venlafaxine XR in the Treatment of Major Depression",
+    "status": "COMPLETED",
+    "startDate": "2002-10",
+    "completionDate": "2003-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "sertraline",
+      "venlafaxine XR"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Depressive Disorder, Major"
+    ]
+  },
+  {
+    "nctId": "NCT02035982",
+    "title": "A Discontinuation of Cholinesterase Inhibitors for the Treatment of Severe Alzheimer's Disease in Long Term Care Setting",
+    "briefTitle": "Discontinuation of Cholinesterase Inhibitors for the Treatment of Severe Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-07",
+    "completionDate": "2015-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Cholinesterase Inhibitor",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT01725282",
+    "title": "Phase 2 Study of FK949E - Double-blind, Placebo-controlled, Comparative Study in Major Depressive Disorder Patients With Inadequate Response to Existing Antidepressants",
+    "briefTitle": "Study to Evaluate the Effect and Safety of Quetiapine Extended Release (XR) (FK949E) in Major Depressive Disorder",
+    "status": "COMPLETED",
+    "startDate": "2011-12-14",
+    "completionDate": "2013-08-24",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "quetiapine extended release (XR)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Depressive Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT04597320",
+    "title": "The Effects of Esketamine Sedation Compared With Fentanyl Sedation in Pediatric Dental Patients: A Double Blind, Randomized Controlled Trial",
+    "briefTitle": "Esketamine Sedation and Fentanyl Sedation in Pediatric Dental Patients",
+    "status": "COMPLETED",
+    "startDate": "2022-01-01",
+    "completionDate": "2022-03-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fentanyl",
+      "Esketamine",
+      "Midazolam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Ketamine",
+      "Fentanyl",
+      "Sedation Complication"
+    ]
+  },
+  {
+    "nctId": "NCT02448420",
+    "title": "A Phase II Trial of Palbociclib in Combination With Trastuzumab and Endocrine Therapy in Patients With Previously-treated Locally Advanced or Metastatic HER2-positive Breast Cancer (PATRICIA II)",
+    "briefTitle": "Study of Palbociclib and Trastuzumab With Endocrine Therapy in HER2-positive Metastatic Breast Cancer",
+    "status": "COMPLETED",
+    "startDate": "2015-07",
+    "completionDate": "2023-11-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Palbociclib",
+      "Trastuzumab",
+      "Endocrine therapy",
+      "Chemotherapy",
+      "Antibody-Drug Conjugates"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Metastatic Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01096082",
+    "title": "Randomized Clinical Trial to Assess the Safety and Efficacy of Lithium Carbonate in Patients With Spinocerebellar Ataxia Type 3",
+    "briefTitle": "Safety and Efficacy of Lithium Carbonate in Patients With Spinocerebellar Ataxia Type 3",
+    "status": "COMPLETED",
+    "startDate": "2011-05",
+    "completionDate": "2013-01",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lithium Carbonate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Spinocerebellar Ataxia Type 3",
+      "Machado Joseph Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01824082",
+    "title": "Treating Intractable Post-Amputation Phantom Limb Pain With Ambulatory Continuous Peripheral Nerve Blocks",
+    "briefTitle": "Treating Phantom Limb Pain Using Continuous Peripheral Nerve Blocks: A Department of Defense Funded Multicenter Study",
+    "status": "COMPLETED",
+    "startDate": "2013-12-01",
+    "completionDate": "2020-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Perineural infusion [continuous peripheral nerve block(s)]"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Phantom Limb Pain"
+    ]
+  },
+  {
+    "nctId": "NCT03828227",
+    "title": "Phase III Study to Evaluate the Quality of Life in Elderly Patients With Metastatic Colorectal Cancer Receiving First-line Therapy Based on Simplified Geriatric Parameters.",
+    "briefTitle": "QoL in mCRC Elderly Patients Receiving First-line Therapy Based on Simplified Geriatric Parameters.",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-06-14",
+    "completionDate": "2024-09-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "OPTIMOX-bevacizumab",
+      "Capecitabine plus bevacizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Elderly Patients",
+      "Metastatic Colorectal Cancer",
+      "Quality of Life"
+    ]
+  },
+  {
+    "nctId": "NCT03408873",
+    "title": "Enhancing Adherence and Outcomes in Bipolar Disorder With Abilify Maintena + a Targeted Behavioral Approach to Promote Sustained Adherence and Behavioral Change",
+    "briefTitle": "CAE Plus LAI in Individuals With Bipolar Disorder at Risk for Treatment Non-adherence (BD-CAEL)",
+    "status": "COMPLETED",
+    "startDate": "2018-04-01",
+    "completionDate": "2020-05-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Abilify Maintena"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Bipolar Disorder",
+      "Medication Adherence",
+      "Medication Non Adherence"
+    ]
+  },
+  {
+    "nctId": "NCT05269173",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter Phase II Clinical Trial to Evaluate the Efficacy and Safety of Flos Gossypii Flavonoids Tablet in the Treatment of Mild and Moderate Alzheimer's Disease",
+    "briefTitle": "Efficacy and Safety of Flos Gossypii Flavonoids Tablet in the Treatment of Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2020-10-29",
+    "completionDate": "2024-11-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Flos gossypii flavonoids tablet"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02719327",
+    "title": "Impact of Icosapent Ethyl on Alzheimers Disease Biomarkers in Preclinical Adults",
+    "briefTitle": "Brain Amyloid and Vascular Effects of Eicosapentaenoic Acid",
+    "status": "COMPLETED",
+    "startDate": "2017-06-08",
+    "completionDate": "2023-09-29",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "icosapent ethyl (IPE)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00735527",
+    "title": "Intra-Nasal vs. Intra-Venous Lorazepam for Control of Acute Seizures in Children: Prospective Open Labeled Randomized Equivalence Trial",
+    "briefTitle": "Nasal Versus Venous Lorazepam for Control of Acute Seizures in Children",
+    "status": "COMPLETED",
+    "startDate": "2008-05",
+    "completionDate": "2009-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lorazepam",
+      "Lorazepam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Status Epilepticus",
+      "Seizures"
+    ]
+  },
+  {
+    "nctId": "NCT03052673",
+    "title": "Per-operative Low-Dose Ketamine For Postoperative Pain Relief In Patients Undergoing Bariatric Surgery: A Randomised Study",
+    "briefTitle": "Ketamine for Pain Relief in Bariatric Surgery",
+    "status": "COMPLETED",
+    "startDate": "2017-02-20",
+    "completionDate": "2018-07-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fentanyl",
+      "ketamine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Postoperative Pain"
+    ]
+  },
+  {
+    "nctId": "NCT05206773",
+    "title": "A Randomized, Double-blind, Placebo-controlled, 12-month Phase 3 Study to Evaluate the Effect of Venglustat on Neuropathic and Abdominal Pain in Male and Female Participants \u226516 Years of Age With Fabry Disease Who Are Treatment-na\u00efve or Untreated for at Least 6 Months",
+    "briefTitle": "A Study to Evaluate the Effect of Venglustat Tablets on Neuropathic and Abdominal Pain in Male and Female Participants \u226516 Years of Age With Fabry Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-03-11",
+    "completionDate": "2026-12-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Venglustat (GZ402671)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Fabry Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05181527",
+    "title": "Repurposing of Dextromethorphan as an Adjunct Therapy in Patients With Major Depressive Disorder: A Randomized, Group Sequential, Adaptive Design, Controlled Clinical Trial",
+    "briefTitle": "Repurposing of Dextromethorphan as an Adjunct Therapy in Patients With Major Depressive Disorder",
+    "status": "COMPLETED",
+    "startDate": "2022-02-10",
+    "completionDate": "2023-11-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Selective Serotonin Reuptake Inhibitors",
+      "Dextromethorphan",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Depressive Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT00401973",
+    "title": "The Assessment of the Safety, Efficacy, and Practicality of an Algorithm Including Amantadine, Metformin and Zonisamide for the Prevention of Olanzapine-Associated Weight Gain in Outpatients With Schizophrenia",
+    "briefTitle": "Assessment of Safety and Efficacy of Therapy for the Prevention of Weight Gain Associated With Olanzapine",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2008-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "olanzapine",
+      "amantadine",
+      "metformin",
+      "zonisamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Schizophrenia",
+      "Schizoaffective Disorders"
+    ]
+  }
+]

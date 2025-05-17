@@ -1,0 +1,1351 @@
+[
+  {
+    "nctId": "NCT04881760",
+    "title": "A Phase 2 Study of Once-Weekly LY3437943 Compared With Placebo in Participants Who Have Obesity or Are Overweight With Weight-Related Comorbidities",
+    "briefTitle": "A Study of LY3437943 in Participants Who Have Obesity or Are Overweight",
+    "status": "COMPLETED",
+    "startDate": "2021-05-20",
+    "completionDate": "2022-11-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LY3437943",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Overweight"
+    ]
+  },
+  {
+    "nctId": "NCT05829460",
+    "title": "Primary Prevention and Uterine Preservation in Premenopausal Women With Obesity and Endometrial Hyperplasia",
+    "briefTitle": "Primary Prevention and Uterine Preservation in Premenopausal Women With Obesity and Endometrial Hyperplasia",
+    "status": "RECRUITING",
+    "startDate": "2025-04-30",
+    "completionDate": "2032-04-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Semaglutide",
+      "Placebo",
+      "LNG-IUD (Progestin)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Endometrial Hyperplasia"
+    ]
+  },
+  {
+    "nctId": "NCT02404376",
+    "title": "COMBinAtion Therapy in Myocardial Infarction: The COMBAT-MI Trial",
+    "briefTitle": "COMBinAtion Therapy in Myocardial Infarction: The COMBAT-MI Trial",
+    "status": "COMPLETED",
+    "startDate": "2016-03",
+    "completionDate": "2020-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Exenatide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "ST Elevation Acute Myocardial Infarction"
+    ]
+  },
+  {
+    "nctId": "NCT01161394",
+    "title": "Effect of Pioglitazone on Oxidative Load, Inflammatory End-Points and Vascular Reactivity in Obese Non-Diabetic Patients: A Dose Ranging Study",
+    "briefTitle": "Effect of Pioglitazone on Oxidative Load, Inflammatory End-Points and Vascular Reactivity in Obese Non-Diabetic Patients: A Dose Ranging Study",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pioglitazone 15mg",
+      "pioglitazone 30mg",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Inflammation"
+    ]
+  },
+  {
+    "nctId": "NCT03479476",
+    "title": "A Double-Blind, Placebo-Controlled Trial of Metformin in Individuals With Fragile X Syndrome",
+    "briefTitle": "A Trial of Metformin in Individuals With Fragile X Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2018-04-30",
+    "completionDate": "2024-05-22",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo Medication",
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Fragile X Syndrome",
+      "Fragile X Mental Retardation Syndrome",
+      "Mental Retardation, X Linked",
+      "Genetic Diseases, X-Linked",
+      "Trinucleotide Repeat Expansion",
+      "Fra(X) Syndrome",
+      "Intellectual Disability",
+      "FXS",
+      "Neurobehavioral Manifestations",
+      "Sex Chromosome Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT05636176",
+    "title": "Effects of Ziltivekimab Versus Placebo on Morbidity and Mortality in Patients With Heart Failure With Mildly Reduced or Preserved Ejection Fraction and Systemic Inflammation",
+    "briefTitle": "A Research Study to Look at How Ziltivekimab Works Compared to Placebo in People With Heart Failure and Inflammation",
+    "status": "RECRUITING",
+    "startDate": "2023-05-08",
+    "completionDate": "2027-07-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ziltivekimab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Heart Failure"
+    ]
+  },
+  {
+    "nctId": "NCT03287960",
+    "title": "An Open Label, 1-Year Trial, Including a Double-Blind Placebo-Controlled Withdrawal Period, of Setmelanotide (RM-493), a Melanocortin 4 Receptor (MC4R) Agonist, in Leptin Receptor (LEPR) Deficiency Obesity Due to Bi-Allelic Loss-of-Function LEPR Genetic Mutation",
+    "briefTitle": "Setmelanotide for the Treatment of Leptin Receptor (LEPR) Deficiency Obesity",
+    "status": "COMPLETED",
+    "startDate": "2018-01-30",
+    "completionDate": "2020-09-25",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Setmelanotide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Leptin Receptor Deficiency Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT01811160",
+    "title": "Metabolic Effects of Melatonin in Patients Treated With Second Generation Antipsychotics",
+    "briefTitle": "Metabolic Effects of Melatonin in Patients Treated With Second Generation Antipsychotics",
+    "status": "COMPLETED",
+    "startDate": "2008-10",
+    "completionDate": "2011-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Melatonin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Second Generation Antipsychotic Induced Metabolic Adverse Effects"
+    ]
+  },
+  {
+    "nctId": "NCT06863376",
+    "title": "Evaluating the Safety and Efficacy of Carbocisteine in the Treatment of Nonalcoholic Fatty Liver Disease Patients",
+    "briefTitle": "Evaluating the Safety and Efficacy of Carbocisteine in the Treatment of Nonalcoholic Fatty Liver Disease Patients",
+    "status": "RECRUITING",
+    "startDate": "2025-03-01",
+    "completionDate": "2026-04-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Carbocysteine 375 MG"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-Alcoholic Fatty Liver Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01766960",
+    "title": "Altered Drug Disposition and Biomarkers for Diagnosis of Chronic Inflammatory Liver Disease.",
+    "briefTitle": "Altered Drug Disposition and Biomarkers for Diagnosis of Chronic Inflammatory Liver Disease",
+    "status": "COMPLETED",
+    "startDate": "2012-11",
+    "completionDate": "2014-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Morphine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Fatty Liver"
+    ]
+  },
+  {
+    "nctId": "NCT03378960",
+    "title": "Bioavailability Study of Omeprazole (20 mg) at Steady State (Multiple Dose) in Patients Who Have Undergone Bariatric Surgery",
+    "briefTitle": "Study to Compare the Bioavailability of Omeprazole 20 mg Before and After Undergoing Surgery for Morbid Obesity",
+    "status": "COMPLETED",
+    "startDate": "2014-10-31",
+    "completionDate": "2016-02-29",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Omeprazole 20mg"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Bariatric Surgery Candidate"
+    ]
+  },
+  {
+    "nctId": "NCT00231660",
+    "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study of the Efficacy and Safety of Topiramate in the Treatment of Obese, Type 2 Diabetic Patients Treated With Metformin",
+    "briefTitle": "A Study of the Efficacy and Safety of Topiramate in the Treatment fo Obese, Type 2 Diabetic Patients Treated With Metformin",
+    "status": "COMPLETED",
+    "startDate": "2000-10",
+    "completionDate": "2002-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "topiramate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Diabetes Mellitus, Type 2",
+      "Diabetes Mellitus, Adult-Onset"
+    ]
+  },
+  {
+    "nctId": "NCT03961360",
+    "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
+    "briefTitle": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida",
+    "status": "COMPLETED",
+    "startDate": "2019-05-06",
+    "completionDate": "2023-04-10",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Aspirin 81 mg",
+      "Aspirin 162 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pre-Eclampsia",
+      "Hypertension in Pregnancy",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT00806260",
+    "title": "A Phase 2, Randomized, Double-blind, Placebo-controlled, Cross-over Study to Evaluate the Psychomotor Effect of VI-0521 in Healthy Overweight and Obese Subjects.",
+    "briefTitle": "A Study to Evaluate How VI-0521 Affect Psychomotor Performance in Healthy Overweight and Obese Subjects.",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2009-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "VI-0521",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Overweight",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT02621060",
+    "title": "Effect of the Administration of Chlorogenic Acid on Glucemic Control, Insulin Secretion and Insulin Sensitivity in Patients With Impaired Glucose Tolerance",
+    "briefTitle": "Effect of Chlorogenic Acid on Patients With Impaired Glucose Tolerance",
+    "status": "COMPLETED",
+    "startDate": "2015-09",
+    "completionDate": "2016-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "Chlorogenic acid"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Impaired Glucose Tolerance"
+    ]
+  },
+  {
+    "nctId": "NCT00152360",
+    "title": "The Effect of Xenical on Weight, Risk Factors and Burden of Medication",
+    "briefTitle": "The Effect of Xenical on Weight and Risk Factors",
+    "status": "COMPLETED",
+    "startDate": "2005-06",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Orlistat"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Heart Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT02325960",
+    "title": "A Comparison of Exenatide and Insulin Glargine on Glycemic Variability in T2DM Patients Inadequately Controlled With Metformin Monotherapy",
+    "briefTitle": "A Comparison of Exenatide and Insulin Glargine",
+    "status": "COMPLETED",
+    "startDate": "2015-01",
+    "completionDate": "2016-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "exenatide",
+      "Insulin glargine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT04775082",
+    "title": "Effect and Safety of Liraglutide 3.0 mg on Weight Management in Children With Obesity Aged 6 to Below 12 Years: 56-week, Double-blind, Randomised, Placebo-controlled Trial",
+    "briefTitle": "SCALE KIDS: Research Study to Look at How Well a New Medicine is at Lowering Weight in Children With Obesity",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-03-04",
+    "completionDate": "2027-01-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Liraglutide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT00585182",
+    "title": "Venous Thromboembolism Prevention in the Morbidly Obese Medically Ill Patient: A Pharmacological Analysis of the Predictability of Prophylactic Weight-Based Enoxaparin Dosing.",
+    "briefTitle": "Study to Evaluate Weight-based Enoxaparin Dosing in Obese Medical Patients at Risk for DVT",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Enoxaparin 0.5 mg/kg once daily"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Venous Thrombosis",
+      "Anticoagulants"
+    ]
+  },
+  {
+    "nctId": "NCT01270620",
+    "title": "Desflurane or Propofol Anesthesia in Elderly Obese Patients Undergoing Total Knee Replacement: A Pilot Assessment of Short-term and Long-term Differences in Outcome",
+    "briefTitle": "Desflurane or Propofol Anesthesia in Elderly Obese Patients Undergoing Total Knee Replacement",
+    "status": "COMPLETED",
+    "startDate": "2010-12",
+    "completionDate": "2015-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "propofol",
+      "Desflurane"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT04043520",
+    "title": "Bioenergetic and Metabolic Consequences of the Loss of Ovarian Function in Women - 2018",
+    "briefTitle": "Bioenergetic Effects of Aging and Menopause (BEAM)",
+    "status": "RECRUITING",
+    "startDate": "2019-09-24",
+    "completionDate": "2024-08-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "GnRH antagonist",
+      "Estrogen Product",
+      "Placebo estradiol",
+      "Placebo GnRH antagonist"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Menopause",
+      "Obesity, Abdominal",
+      "Aging",
+      "Weight Gain"
+    ]
+  },
+  {
+    "nctId": "NCT01911520",
+    "title": "Dose Finding Study for Effective Reversal of a Deep Rocuronium-induced Neuromuscular Block With Sugammadex in Morbidly Obese Patients.",
+    "briefTitle": "Dose Finding Study for Effective Reversal of a Deep Rocuronium-induced Neuromuscular Block With Sugammadex in Morbidly Obese Patients",
+    "status": "COMPLETED",
+    "startDate": "2011-01",
+    "completionDate": "2012-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Sugammadex 2 mg/kg",
+      "Sugammadex. 4 mg/kg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Morbidly Obese Patients"
+    ]
+  },
+  {
+    "nctId": "NCT02452320",
+    "title": "Prospective, Double Blind, Placebo Control, Study of Acetaminophen iv on Hospital Length of Stay in Morbidly Obese Individuals Undergoing Elective Laparoscopic Sleeve Gastrectomy",
+    "briefTitle": "Prospective, Double Blind, Placebo Control, Bariatric IV Ace",
+    "status": "COMPLETED",
+    "startDate": "2016-02",
+    "completionDate": "2017-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "intravenous acetaminophen",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT01921582",
+    "title": "A Randomized Comparison of Osmotic Release Oral System Methylphenidate and Cognitive Behavioural Therapy for the Treatment of Obese Patients With Binge Eating Disorder",
+    "briefTitle": "A Comparison of Methylphenidate and Cognitive Behavioural Therapy for the Treatment of Binge Eating Disorder",
+    "status": "COMPLETED",
+    "startDate": "2013-08",
+    "completionDate": "2015-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Methylphenidate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Binge-Eating Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT00994682",
+    "title": "Long-term Role of Pioglitazone in Non-Alcoholic Fatty Liver Disease (NAFLD) in Type 2 Diabetes Mellitus (T2DM).",
+    "briefTitle": "University of Texas H.S.C. San Antonio Pioglitazone in Non-Alcoholic Steatohepatitis Trial (UTHSCSA NASH Trial)",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pioglitazone study drug",
+      "Placebo",
+      "Pioglitazone Open Label"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Nonalcoholic Steatohepatitis",
+      "Nonalcoholic Fatty Liver Disease",
+      "Type 2 Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT05729282",
+    "title": "Role of Hyperinsulinemia in Non-Alcoholic Fatty Liver Disease (NAFLD) Pathogenesis: Diazoxide Pilot & Feasibility Study",
+    "briefTitle": "Glycemic Effect of Diazoxide in NAFLD",
+    "status": "RECRUITING",
+    "startDate": "2023-08-01",
+    "completionDate": "2025-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Diazoxide oral suspension, 1 mg per kg per dose",
+      "Diazoxide oral suspension, 2 mg per kg per dose",
+      "Placebo",
+      "Deuterated water (2H2O/D2O)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hyperinsulinemia",
+      "Insulin Resistance",
+      "Non-Alcoholic Fatty Liver Disease",
+      "Prediabetic State"
+    ]
+  },
+  {
+    "nctId": "NCT04551482",
+    "title": "Oxytocin as a Neuroendocrine Therapy for Obesity in Youth",
+    "briefTitle": "Oxytocin for Weight Loss in Adolescents",
+    "status": "RECRUITING",
+    "startDate": "2021-07-28",
+    "completionDate": "2027-03-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oxytocin nasal spray",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity, Adolescent",
+      "Oxytocin"
+    ]
+  },
+  {
+    "nctId": "NCT01920282",
+    "title": "Effect of Nebivolol and Lifestyle Modification on Large Artery Stiffness in Middle-Aged and Older Hypertensive Adults",
+    "briefTitle": "Nebivolol, Lifestyle Modification and Arterial Stiffness",
+    "status": "COMPLETED",
+    "startDate": "2010-01",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Nebivolol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00845182",
+    "title": "Effect of Pioglitazone With and Without Exenatide on Body Weight, Fat Topography, Beta Cell Function, and Glycemic Control in Type 2 Diabetic Patients",
+    "briefTitle": "Effect of Pioglitazone and Exenatide on Body Weight and Beta Cell Function",
+    "status": "COMPLETED",
+    "startDate": "2007-06",
+    "completionDate": "2010-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pioglitazone",
+      "Exenatide",
+      "Pioglitazone and Exenatide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes",
+      "Healthy",
+      "Impaired Glucose Tolerance"
+    ]
+  },
+  {
+    "nctId": "NCT06264882",
+    "title": "Cardiometabolic Consequences of the Loss of Ovarian Function",
+    "briefTitle": "Cardiometabolic Consequences of the Loss of Ovarian Function",
+    "status": "RECRUITING",
+    "startDate": "2024-06-01",
+    "completionDate": "2028-08-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Degarelix",
+      "Transdermal Estradiol Patch",
+      "Transdermal Placebo Patch"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Menopause",
+      "Estrogen Deficiency",
+      "Aging",
+      "Adiposity"
+    ]
+  },
+  {
+    "nctId": "NCT06534320",
+    "title": "A Phase I Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Effects of Food in Single/Multiple Oral Administration of DA-302168S Tablets",
+    "briefTitle": "Safety, Tolerability and Pharmacokinetic Characteristics Evaluation of DA-302168S Tablets",
+    "status": "COMPLETED",
+    "startDate": "2024-04-18",
+    "completionDate": "2024-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "DA-302168S",
+      "Placebo of DA-302168S",
+      "DA-302168S",
+      "Placebo of DA-302168S"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Overweight and Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT03642873",
+    "title": "A Study Designed to Examine the Potential for a Drug-drug Interaction Between Guaifenesin and Hydrocodone Bitartrate in Normal Healthy Volunteers",
+    "briefTitle": "Study to Evaluate Drug-drug Interactions of Guaifenesin and Hydrocodone Bitartrate",
+    "status": "COMPLETED",
+    "startDate": "2007-05-05",
+    "completionDate": "2007-05-21",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Humibid\u00ae",
+      "Hydrocodone Bitartrate",
+      "Humibid\u00ae and Hydrocodone Bitartrate tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Subjects"
+    ]
+  },
+  {
+    "nctId": "NCT00504673",
+    "title": "Comparison of the Effect of Insulin Detemir Versus Insulin NPH Both With Insulin Aspart on Weight Change in Overweight and Obese Subjects With Type 2 Diabetes",
+    "briefTitle": "Comparison of Insulin Detemir Versus Insulin NPH on Weight Change in Overweight and Obese With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2006-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "insulin detemir",
+      "insulin NPH",
+      "insulin aspart"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes",
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT06739473",
+    "title": "Total-body Glucose Utilization in Obesity",
+    "briefTitle": "Total-body Glucose Utilization in Obesity",
+    "status": "RECRUITING",
+    "startDate": "2023-01-25",
+    "completionDate": "2024-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Hyperinsulinemic euglycemic clamp",
+      "CEUS or Contrast enhanced Ultrasound"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity and Overweight"
+    ]
+  },
+  {
+    "nctId": "NCT03052673",
+    "title": "Per-operative Low-Dose Ketamine For Postoperative Pain Relief In Patients Undergoing Bariatric Surgery: A Randomised Study",
+    "briefTitle": "Ketamine for Pain Relief in Bariatric Surgery",
+    "status": "COMPLETED",
+    "startDate": "2017-02-20",
+    "completionDate": "2018-07-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fentanyl",
+      "ketamine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Postoperative Pain"
+    ]
+  },
+  {
+    "nctId": "NCT05737927",
+    "title": "Pharmacodynamics and Pharmacokinetics of Different Coated and Uncoated Formulations of Glucose Beads After Single and Multiple Dose Administration Under Fasting Conditions in Obese Healthy Subjects",
+    "briefTitle": "Pharmacodynamics and Pharmacokinetics of Different Glucose Bead Formulations in Obese Healthy Subjects",
+    "status": "COMPLETED",
+    "startDate": "2020-09-16",
+    "completionDate": "2020-11-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Glucose 8 g coated beads (47% w/w)",
+      "Glucose 12 g coated beads (47% w/w)",
+      "Glucose 16 g coated beads (47% w/w)",
+      "Glucose 12 g uncoated beads",
+      "Glucose 12 g coated beads (60% w/w)",
+      "Glucose 12 g coated beads (47% w/w)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obese"
+    ]
+  },
+  {
+    "nctId": "NCT04166773",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study Comparing the Efficacy and Safety of Tirzepatide Versus Placebo in Patients With Nonalcoholic Steatohepatitis (NASH)",
+    "briefTitle": "A Study of Tirzepatide (LY3298176) in Participants With Nonalcoholic Steatohepatitis (NASH)",
+    "status": "COMPLETED",
+    "startDate": "2019-11-19",
+    "completionDate": "2024-01-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tirzepatide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Nonalcoholic Steatohepatitis"
+    ]
+  },
+  {
+    "nctId": "NCT02804373",
+    "title": "Effects of Intranasal Administration of Oxytocin in Adults With Prader-Willi Syndrome",
+    "briefTitle": "Effects of Intranasal Administration of Oxytocin in Adults With Prader-Willi Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2014-06",
+    "completionDate": "2019-06-18",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Oxytocin (OXT) continuous",
+      "Placebo",
+      "Placebo continuous",
+      "Oxytocin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Prader-Willi Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT02288273",
+    "title": "A Randomized Double-blind, Parallel-group Study to Evaluate the Effect of BYDUREON Compared With Placebo on 24-hour Glucose Control in Metformin-treated Patients With Type 2 Diabetes",
+    "briefTitle": "Study to Evaluate the Effect of BYDUREON on 24-hour Glucose Control in Metformin Treated Patients With Type 2 Diabetes.",
+    "status": "COMPLETED",
+    "startDate": "2014-12",
+    "completionDate": "2015-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bydureon",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT05409027",
+    "title": "A Study to Assess 11 Beta-hydroxysteroid Dehydrogenase Type 1 Inhibition in Adipose Tissue by SPI-62",
+    "briefTitle": "A Study to Assess 11 Beta-hydroxysteroid Dehydrogenase Type 1 Inhibition in Adipose Tissue by SPI-62",
+    "status": "COMPLETED",
+    "startDate": "2021-07-23",
+    "completionDate": "2024-02-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SPI-62",
+      "Cortisone-d8"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus in Obese",
+      "Obesity",
+      "Type2Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT02629627",
+    "title": "Effect of the Administration of Conjugated Linoleic Acid / Leucine Plus Metformin on Visceral Fat in Patients With Metabolic Syndrome",
+    "briefTitle": "Conjugated Linoleic Acid / Leucine Versus Metformin on Visceral Fat in Metabolic Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2016-03",
+    "completionDate": "2017-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Metabolic Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT03714373",
+    "title": "An Open-Label, Long-Term Safety and Efficacy Evaluation of Diazoxide Choline Extended-Release Tablets in Participants With Prader-Willi Syndrome With a Double-Blind, Placebo-Controlled, Randomized Withdrawal Period",
+    "briefTitle": "Open-Label Extension Study of DCCR in PWS Followed by Double-Blind, Placebo-Controlled, Randomized Withdrawal Period",
+    "status": "COMPLETED",
+    "startDate": "2018-10-01",
+    "completionDate": "2023-08-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "DCCR",
+      "DCCR",
+      "Placebo for DCCR"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Prader-Willi Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT05264727",
+    "title": "Glucagon Suppression by Hyperglycemia in the Presence and Absence of Amino Acid Infusion",
+    "briefTitle": "Glucagon Suppression by Hyperglycemia in the Presence and Absence of Amino Acid Infusion",
+    "status": "RECRUITING",
+    "startDate": "2023-05-30",
+    "completionDate": "2025-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Dextrose",
+      "Clinisol 15%"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy",
+      "Type 2 Diabetes",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT05042973",
+    "title": "Empagliflozin to Elderly and Obese Patients With Cardiovascular Disease (Empire Prevent: Metabolic): A Randomized Controlled Trial",
+    "briefTitle": "The Metabolic Effects of Empagliflozin in Patients With High Risk of Heart Failure",
+    "status": "COMPLETED",
+    "startDate": "2021-09-02",
+    "completionDate": "2025-01-23",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Empagliflozin 10 MG",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Heart Failure"
+    ]
+  },
+  {
+    "nctId": "NCT00892073",
+    "title": "Combined Diazoxide and Metformin Therapy in Children With Hypothalamic Obesity Secondary to Craniopharyngioma: A Pilot Study",
+    "briefTitle": "Hypothalamic Obesity Following Craniopharyngioma Surgery: A Pilot Trial of Combined Metformin and Diazoxide Therapy",
+    "status": "COMPLETED",
+    "startDate": "2006-05",
+    "completionDate": "2008-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Diazoxide",
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypothalamic Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT00707031",
+    "title": "A Randomized, Open-label, Active-controlled, 2-arm Parallel-group, Multicenter 24-week Study Followed by an Extension Assessing the Efficacy and Safety of AVE0010 Versus Exenatide on Top of Metformin in Patients With Type 2 Diabetes Not Adequately Controlled With Metformin",
+    "briefTitle": "GLP-1 Receptor Agonist Lixisenatide Versus Exenatide in Patients With Type 2 Diabetes for Glycemic Control and Safety Evaluation, on Top of Metformin",
+    "status": "COMPLETED",
+    "startDate": "2008-06",
+    "completionDate": "2010-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lixisenatide (AVE0010)",
+      "Exenatide",
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT06568731",
+    "title": "A PHASE 1, OPEN- LABEL STUDY TO EVALUATE THE MULTIPLE DOSE PHARMACOKINETICS OF DANUGLIPRON FOLLOWING ORAL ADMINISTRATION IN OTHERWISE HEALTHY ADULT PARTICIPANTS WITH OVERWEIGHT OR OBESITY",
+    "briefTitle": "A Study to Learn How Different Amounts of the Study Medicine Danuglipron Are Taken up Into the Blood in Otherwise Healthy Adults With Overweight or Obesity",
+    "status": "COMPLETED",
+    "startDate": "2024-08-23",
+    "completionDate": "2024-12-18",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Danuglipron"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT01931982",
+    "title": "Effect of GLP-1 on Microvascular Myocardial Function in Patients With Type 2",
+    "briefTitle": "Effect of Glucagon-like Peptide 1 (GLP-1) on Microvascular Myocardial Function in Patients With Type 2 Diabetes.",
+    "status": "COMPLETED",
+    "startDate": "2013-05",
+    "completionDate": "2014-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Victoza"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes",
+      "Microvascular Dysfunction"
+    ]
+  },
+  {
+    "nctId": "NCT00148382",
+    "title": "Randomized, Double Blind, Parallel Group, Repeat Dose Pharmacokinetic and Pharmacodynamic Study of Four Doses of ATL-962 (40mg, 80mg, 120mg 240mg) in Otherwise-Healthy Obese Volunteers",
+    "briefTitle": "Study of the Blood Levels and Effects of ATL-962 on Fat Excretion in Obese Subjects",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2005-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "ATL-962"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT01298882",
+    "title": "Effect of Diacerein on Insulin Secretion in Patients With Type 2 Diabetes Mellitus and Overweight or Obesity",
+    "briefTitle": "Diacerein on Insulin Secretion in Diabetes",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Diacerein"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus",
+      "Overweight",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT02432976",
+    "title": "Impact of Intravenous Exenatide Versus Insulin on Quality of Life in Cardiac Surgery Patients: an Ancillary Study of the ExSTRESS Phase II/III Clinical Trial",
+    "briefTitle": "Impact of Perioperative Exenatide Infusion on Quality of Life in Cardiac Surgery Patients",
+    "status": "COMPLETED",
+    "startDate": "2015-05",
+    "completionDate": "2017-01",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Exenatide",
+      "Insulin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Quality of Life"
+    ]
+  },
+  {
+    "nctId": "NCT03361176",
+    "title": "A Randomized, Double-blind, Dose-ranging Trial of Subcutaneous Sodium Deoxycholate Injections With or Without Low Dose Triamcinolone and Low Dose Lidocaine for Reduction of Submental Fat With Reduction of Pain and Swelling",
+    "briefTitle": "Kybella With Triamcinolone",
+    "status": "COMPLETED",
+    "startDate": "2018-03-26",
+    "completionDate": "2018-12-18",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Injectable sodium deoxycholate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Adiposity"
+    ]
+  },
+  {
+    "nctId": "NCT02431676",
+    "title": "Trial of Behavioral Weight Loss and Metformin Treatment to Lower Insulin Growth Factor in Cancer Survivors",
+    "briefTitle": "Survivorship Promotion In Reducing IGF-1 Trial",
+    "status": "COMPLETED",
+    "startDate": "2015-05",
+    "completionDate": "2018-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer",
+      "Prostate Cancer",
+      "Lung Cancer",
+      "Colon Cancer",
+      "Melanoma of Skin",
+      "Endometrial Cancer",
+      "Liver Cancer",
+      "Pancreatic Cancer",
+      "Rectal Cancer",
+      "Kidney Cancer",
+      "Other Solid Malignant Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT05890976",
+    "title": "Efficacy and Safety of Oral Semaglutide 50 mg Once Daily in Chinese Adults With Overweight or Obesity (OASIS 3)",
+    "briefTitle": "Research Study Looking at How Well Semaglutide Tablets Taken Once Daily Work in Chinese Adults Who Are Above a Healthy Weight Range (OASIS 3)",
+    "status": "COMPLETED",
+    "startDate": "2023-05-30",
+    "completionDate": "2025-01-16",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Semaglutide",
+      "Semaglutide Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Overweight",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT02455076",
+    "title": "Exenatide Inpatient Trial: A Randomized Controlled Pilot Trial on the Safety and Efficacy of Exenatide (Byetta\u00ae) Therapy for the Inpatient Management of General Medicine and Surgery Patients With Type 2 Diabetes",
+    "briefTitle": "Exenatide Inpatient Trial: A Randomized Controlled Pilot Trial on the Safety and Efficacy of Exenatide (Byetta\u00ae) Therapy for the Inpatient Management of Patients With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2015-09",
+    "completionDate": "2018-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Exenatide",
+      "Glargine",
+      "Rapid-acting insulin analogs"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT02300376",
+    "title": "Designing a Bayesian Model of the Plasma Clearance of Calcium Edetate de Sodium, With a Limited Sampling Strategy for the Calculation of Glomerular Filtration Rate (GFR) and Validity Assessment Compared to the Renal Clearance of Inulin : DFGBay",
+    "briefTitle": "Designing a Bayesian Model of the Plasma Clearance of Calcium Edetate de Sodium for the Calculation of GFR and Validity Compared to the Renal Clearance of Inulin",
+    "status": "COMPLETED",
+    "startDate": "2014-12",
+    "completionDate": "2017-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dosage of Calcium edetate de sodium"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Kidney Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03141476",
+    "title": "Perioperative Cefuroxime in Obese Patients: Dosage According to the BMI",
+    "briefTitle": "Adequacy of Perioperative Cefuroxime Dosage According to the BMI",
+    "status": "COMPLETED",
+    "startDate": "2017-03-01",
+    "completionDate": "2017-12-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Cefuroxime 1,5g",
+      "Cefuroxime 3g",
+      "Cefuroxime 4,5g"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity; Drug"
+    ]
+  },
+  {
+    "nctId": "NCT02302976",
+    "title": "GLP-1 Agonism for Blocking Cocaine Euphoria and Self-Administration",
+    "briefTitle": "GLP-1 Agonism for Blocking Cocaine Euphoria and Self-Administration",
+    "status": "COMPLETED",
+    "startDate": "2014-11",
+    "completionDate": "2018-08-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "cocaine hydrochloride",
+      "exenatide",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cocaine Dependence"
+    ]
+  }
+]

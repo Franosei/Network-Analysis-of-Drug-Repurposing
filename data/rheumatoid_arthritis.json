@@ -1,0 +1,3066 @@
+[
+  {
+    "nctId": "NCT03148860",
+    "title": "Impact of Concomitant Methotrexate on Efficacy, Safety and Adherence of Ustekinumab-treatment in Patients With Active Psoriasis Arthritis",
+    "briefTitle": "Impact of Concomitant MTX on Efficacy, Safety and Adherence of Ustekinumab-treatment in Patients With Active PsA",
+    "status": "COMPLETED",
+    "startDate": "2016-12-15",
+    "completionDate": "2021-10-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Methotrexate",
+      "Ustekinumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriatic Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT03606876",
+    "title": "A Randomized, Double-blinded, Single-dose, 3-arm Parallel, Comparative Study to Evaluate the Pharmacokinetics and Safety of BAT1806 Injection vs Actemra\u00ae in Healthy Chinese Male Subjects",
+    "briefTitle": "Comparative Study to Evaluate the Pharmacokinetics of BAT1806 vs Actemra\u00ae in Healthy Subjects",
+    "status": "COMPLETED",
+    "startDate": "2018-06-13",
+    "completionDate": "2019-07-17",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BAT1806 injection"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01052194",
+    "title": "A 12-week, Double-blind, Randomized, Parallel-group, Placebo-controlled Study of 4 Doses of VX-509 in Subjects With Active Rheumatoid Arthritis",
+    "briefTitle": "A 12-week Study of 4 Doses of VX-509 in Subjects With Active Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2010-02",
+    "completionDate": "2011-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "VX-509",
+      "VX-509",
+      "VX-509",
+      "VX-509"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02731560",
+    "title": "Efficacy and Safety of Rituximab in Pakistani Patients With Rheumatoid Arthritis (RA)",
+    "briefTitle": "Rituximab (RTX) for Disease Modifying Anti Rheumatic Drug (DMARD) Non-responders in Pakistan: The Pakistan Rituximab Study (PARIS)",
+    "status": "COMPLETED",
+    "startDate": "2010-01",
+    "completionDate": "2012-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Rituximab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01202760",
+    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety and Efficacy of LY2127399 in Patients With Rheumatoid Arthritis (RA) With or Without Background Disease-Modifying Anti-rheumatic Drug (DMARD) Therapy (FLEX O)",
+    "briefTitle": "A Rheumatoid Arthritis Study in Participants",
+    "status": "COMPLETED",
+    "startDate": "2011-01",
+    "completionDate": "2013-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "LY2127399",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00122382",
+    "title": "A Phase IIIB Multi-center, Randomized, Double-Blind Study to Evaluate Remission and Joint Damage Progression in Methotrexate Naive Early Erosive RA Subjects Treated With Abatacept Plus Methotrexate Compared With Methotrexate",
+    "briefTitle": "Remission and Joint Damage Progression in Early Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2005-07",
+    "completionDate": "2009-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abatacept",
+      "placebo",
+      "methotrexate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01769820",
+    "title": "Developmental Clinical Studies - Reversing Endometrial Glucocorticoid Deficiency in Heavy Menstrual Bleeding",
+    "briefTitle": "Dexamethasone for Excessive Menstruation",
+    "status": "COMPLETED",
+    "startDate": "2013-01",
+    "completionDate": "2018-04-18",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dexamethasone",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Heavy Menstrual Bleeding"
+    ]
+  },
+  {
+    "nctId": "NCT00399282",
+    "title": "Comparison of the Effects of Simultaneous Administration of Vitamin E and Omega-3 Fatty Acids in Patients With Rheumatoid Arthritis",
+    "briefTitle": "Omega-3 and Vitamin E Supplementation in Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2006-10",
+    "completionDate": "2007-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Omega-3 and Vitamin E supplementation"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00176982",
+    "title": "Open Label Study of Hydroxychloroquine for Alopecia Areata, Alopecia Totalis",
+    "briefTitle": "Plaquenil for Alopecia Areata, Alopecia Totalis",
+    "status": "COMPLETED",
+    "startDate": "2002-04",
+    "completionDate": "2008-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Hydroxychloroquine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alopecia Areata"
+    ]
+  },
+  {
+    "nctId": "NCT05889182",
+    "title": "A Phase 3, Randomized, Placebo-Controlled, Double-Blind Study to Evaluate Efficacy and Safety of Upadacitinib in Adult and Adolescent Subjects With Moderate to Severe Hidradenitis Suppurativa Who Have Failed Anti-TNF Therapy",
+    "briefTitle": "A Study to Assess Change in Disease Activity and Adverse Events of Oral Upadacitinib in Adult and Adolescent Participants With Moderate to Severe Hidradenitis Suppurativa Who Have Failed Anti-TNF Therapy",
+    "status": "RECRUITING",
+    "startDate": "2023-06-21",
+    "completionDate": "2027-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Upadacitinib",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hidradenitis Suppurativa"
+    ]
+  },
+  {
+    "nctId": "NCT01313520",
+    "title": "A Randomized Clinical Trial to Study the Effects of Infliximab on Clinical Efficacy and Hand and Wrist Magnetic Resonance Imaging (MRI) in Patients With Active Rheumatoid Arthritis (RA)(Protocol No. P08136)",
+    "briefTitle": "A Study to Evaluate the Effectiveness of Infliximab and Changes in Hand and Wrist Magnetic Resonance Imaging (MRI) in Participants With Active Rheumatoid Arthritis (RA) (P08136)",
+    "status": "COMPLETED",
+    "startDate": "2011-03-01",
+    "completionDate": "2012-03-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Infliximab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT04222920",
+    "title": "Adalimumab Dose Reduction Aiming Low Serum Concentration With Control of Disease Activity: a Single Blind, Non-inferiority, Randomised Clinical Trial",
+    "briefTitle": "Adalimumab Dose Reduction Aiming Low Serum Concentration With Control of Disease Activity",
+    "status": "COMPLETED",
+    "startDate": "2020-03-01",
+    "completionDate": "2023-09-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Adalimumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00678782",
+    "title": "Evaluation of The Efficacy And Safety of Intra-Articular Etanercept in Patients With Refractory Knee Joint Synovitis: a Placebo Controlled, Single-Blind, Crossover-Trial, With Randomisation of Treatment Sequence",
+    "briefTitle": "Evaluation of The Efficacy And Safety of Intra-Articular Etanercept in Patients With Refractory Knee Joint Synovitis",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2007-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "etanercept",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Persistent Knee Joint Synovitis"
+    ]
+  },
+  {
+    "nctId": "NCT02874573",
+    "title": "A Randomized Controlled Trial of Adjunctive Tocilizumab in Schizophrenia",
+    "briefTitle": "Tocilizumab in Schizophrenia",
+    "status": "RECRUITING",
+    "startDate": "2016-09",
+    "completionDate": "2023-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Tocilizumab",
+      "Normal saline"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Schizophrenia",
+      "Psychotic Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT06103773",
+    "title": "A Phase I, Randomized, Double-Blind, Placebo-Controlled, Dose-Escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single and Multiple Oral Doses and to Evaluate the Food Effect of TollB-001",
+    "briefTitle": "A Study of Single and Multiple Oral Doses of TollB-001",
+    "status": "RECRUITING",
+    "startDate": "2023-09-28",
+    "completionDate": "2024-06-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "TollB-001 tablets",
+      "TollB-001 placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT06565273",
+    "title": "Phase IIa Proof-of-Concept Study, With Dose-Titration Based on Treat-to-Target Strategy, to Investigate the Efficacy, Safety, and Tolerability of Subcutaneous Injection of Folate-based Liposomes Encapsulating Methotrexate (FBL-MTX) in Disease-modifying Antirheumatic Drugs (DMARD)-na\u00efve Patients With Moderate-to-Severe Active Rheumatoid Arthritis and in Patients With an Inadequate Response or Intolerance to Oral MTX.",
+    "briefTitle": "Study to Investigate the Efficacy, Safety, and Tolerability of FBL-MTX in Patients With Rheumatoid Arthritis",
+    "status": "RECRUITING",
+    "startDate": "2024-07-24",
+    "completionDate": "2025-07-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "FBL-MTX"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02983227",
+    "title": "A Phase II Open-Label Extension Study of Patients Previously Enrolled in Study GA29350 to Evaluate the Long-Term Safety and Efficacy of GDC-0853 in Patients With Moderate to Severe Rheumatoid Arthritis",
+    "briefTitle": "A Study to Evaluate the Long-Term Safety and Efficacy of GDC-0853 in Participants With Moderate to Severe Rheumatoid Arthritis Enrolled in Study GA29350",
+    "status": "COMPLETED",
+    "startDate": "2016-11-30",
+    "completionDate": "2019-07-17",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GDC-0853"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01909427",
+    "title": "A Randomized, Placebo-controlled Double-blind, Multicenter, Phase 2 Dose Ranging Study To Assess The Efficacy And Safety of CNTO 6785 In Subjects With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+    "briefTitle": "An Efficacy And Safety Study of CNTO 6785 In Participants With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+    "status": "COMPLETED",
+    "startDate": "2013-06",
+    "completionDate": "2015-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "CNTO 6785 200 mg",
+      "CNTO 6785 200 mg",
+      "CNTO 6785 100 mg",
+      "CNTO 6785 50 mg",
+      "CNTO 6785 15 mg",
+      "Methotrexate (MTX)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00356473",
+    "title": "Effects of Atorvastatin on Disease Activity and HDL Cholesterol Anti-inflammatory Properties in Patients With Rheumatoid Arthritis",
+    "briefTitle": "Effects of Atorvastatin on Disease Activity and HDL Cholesterol Function in Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2003-03",
+    "completionDate": "2005-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Atorvastatin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02706873",
+    "title": "A Phase 3, Randomized, Double-Blind Study Comparing Upadacitinib (ABT-494) Once Daily Monotherapy to Methotrexate (MTX) Monotherapy in MTX-Na\u00efve Subjects With Moderately to Severely Active Rheumatoid Arthritis",
+    "briefTitle": "A Study to Compare Upadacitinib (ABT-494) Monotherapy to Methotrexate (MTX) Monotherapy in Adults With Rheumatoid Arthritis (RA) Who Have Not Previously Taken Methotrexate",
+    "status": "COMPLETED",
+    "startDate": "2016-02-23",
+    "completionDate": "2022-11-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo to Upadacitinib",
+      "Methotrexate",
+      "Placebo to Methotrexate",
+      "Upadacitinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT04194827",
+    "title": "Adalimumab Drug Optimisation in Rheumatoid Arthritis Using Therapeutic Drug Monitoring (ADDORA): Multi-centre Open Label Randomised Controlled Trail",
+    "briefTitle": "Adalimumab Drug Optimisation in Rheumatoid Arthritis Using Therapeutic Drug Monitoring",
+    "status": "RECRUITING",
+    "startDate": "2020-03-01",
+    "completionDate": "2024-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Adalimumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05814627",
+    "title": "A Phase 3b/4 Randomized, Double-Blind, Double Dummy, Active Comparator-Controlled Study, Comparing the Efficacy and Safety of Upadacitinib Versus Adalimumab in Subjects With Moderate to Severe Rheumatoid Arthritis on a Stable Background of MTX and Who Had an Inadequate Response or Intolerance to a Single TNF Inhibitor (SELECT- SWITCH)",
+    "briefTitle": "Study to Assess Change in Disease Activity and Adverse Events of Oral Upadacitinib Compared to Subcutaneous Adalimumab in Adult Participants With Moderate to Severe Rheumatoid Arthritis",
+    "status": "RECRUITING",
+    "startDate": "2023-06-15",
+    "completionDate": "2026-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Upadacitinib",
+      "Adalimumab",
+      "Upadacitinib Matching Placebo",
+      "Adalimumab Matching Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05004727",
+    "title": "Preventing Arthritis in a Multi-Center Psoriasis At-Risk Cohort",
+    "briefTitle": "Multi-Center PAMPA Study",
+    "status": "RECRUITING",
+    "startDate": "2022-02-16",
+    "completionDate": "2028-07-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Guselkumab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriasis"
+    ]
+  },
+  {
+    "nctId": "NCT00001731",
+    "title": "A Double-Masked, Randomized, Vehicle-Controlled Pilot Study of the Treatment of Keratoconjunctivitis Sicca With Topical Cyclosporin A 0.1% Emulsion",
+    "briefTitle": "Treatment of Dry Eye Syndrome With Cyclosporin A Eye Drops",
+    "status": "COMPLETED",
+    "startDate": "1997-11",
+    "completionDate": "2000-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Cyclosporin A"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Keratoconjunctivitis Sicca",
+      "Sjogren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01254331",
+    "title": "Open Label, Multicenter, Trial to Evaluate Safety, Tolerability and Efficacy of Tocilizumab in Monotherapy or in Combination With MTX in Patients With Active Rheumatoid Arthritis Who Have an Inadequate Response to Current Non Biologic DMARDs",
+    "briefTitle": "An Open-label Study With Tocilizumab in Patients With Rheumatoid Arthritis in a Local Environment",
+    "status": "COMPLETED",
+    "startDate": "2011-02",
+    "completionDate": "2013-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "tocilizumab [RoActemra]"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05104931",
+    "title": "A Phase 1, Single-Centre, Part-Crossover, OpenLabel, Partially-Randomised Study Designed to Evaluate the PK Profile of Piroxicam Following Administration of Nanoformed Oral IR Piroxicam Tablet and an IR Reference Product in Healthy Subjects",
+    "briefTitle": "PK Evaluation of a Nanoformed Oral IR Piroxicam Tablet in Healthy Subjects",
+    "status": "COMPLETED",
+    "startDate": "2020-12-02",
+    "completionDate": "2021-02-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Nanoformed Piroxicam IR Tablet",
+      "Felden (piroxicam) Tablets",
+      "Brexidol (piroxicam) Tablets"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pain"
+    ]
+  },
+  {
+    "nctId": "NCT00241982",
+    "title": "Long-Circulating Liposomal Prednisolone Versus Pulse Intramuscular Methylprednisolone in Patients With Active Rheumatoid Arthritis",
+    "briefTitle": "Long-Circulating Liposomal Prednisolone Versus Pulse Intramuscular Methylprednisolone in Patients With Active Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2005-10",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "long-circulating liposomal prednisolone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00239382",
+    "title": "A Randomized, Open-labelled Study to Compare the Efficacy and Safety of Meloxicam 15 mg IM Ampoules Once Daily and Meloxicam 15 mg Tablets Administered Orally Once Daily Over a Period of 7 Days in Patients With RA.",
+    "briefTitle": "A Study to Compare Meloxicam IM Once Daily Versus Meloxicam Orally Once Daily in Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2004-07-01",
+    "completionDate": "2004-12-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Meloxicam ampoule",
+      "Meloxicam tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT06947460",
+    "title": "CD19-BCMA CART Cell Therapy for Refractory Systemic Lupus Erythematosus Nephritis (SLE-LN), Systemic Sclerosis (SSc), and Primary Sjogren Syndrome Combined With Pulmonary Artery Hypertension (pSS-PAH): a Single-center, Open, Non-randomized, Single-arm Clinical Study",
+    "briefTitle": "CD19-BCMA CART Cell Therapy for Refractory SLE-LN, SSc, and pSS-PAH",
+    "status": "RECRUITING",
+    "startDate": "2025-04-18",
+    "completionDate": "2026-07-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "CD19-BCMA CAR-T cells infusion"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory Lupus Nephritis",
+      "Systemic Sclerosis",
+      "Primary Sjogren&#39;s Syndrome Combined With Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01751776",
+    "title": "A Randomised, Double-blind, Placebo-controlled Trial for Establishing Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Clinical Efficacy of Multiple Subcutaneous Doses of BI 655064 in Healthy Volunteers and in Rheumatoid Arthritis Patients With Prior Inadequate Response to Methotrexate Therapy",
+    "briefTitle": "Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Clinical Effects of Multiple Rising Subcutaneous Doses of BI 655064 in Healthy Volunteers and in Rheumatoid Arthritis Patients With Prior Inadequate Response to Methotrexate Therapy",
+    "status": "COMPLETED",
+    "startDate": "2012-12-18",
+    "completionDate": "2015-04-27",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Placebo matching BI 655064",
+      "BI 655064"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid",
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT03274076",
+    "title": "Evaluation of Tofacitinib in Early Diffuse Cutaneous Systemic Sclerosis (dcSSc): A Phase I/II Two Center Safety and Tolerability Study",
+    "briefTitle": "Evaluation of Tofacitinib in Early Diffuse Cutaneous Systemic Sclerosis (dcSSc)",
+    "status": "COMPLETED",
+    "startDate": "2017-09-25",
+    "completionDate": "2019-11-15",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tofacitinib",
+      "Placebo Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Systemic Sclerosis",
+      "Scleroderma"
+    ]
+  },
+  {
+    "nctId": "NCT00279760",
+    "title": "A Pilot, Multi-Center, Randomized, Double-Blind, Placebo Controlled Study to Evaluate the Safety, Preliminary Clinical Activity and Immunogenicity of Multiple Doses of LEA29Y and CTLA4Ig Administered Intravenously to Subjects With Rheumatoid Arthritis",
+    "briefTitle": "Phase I/II Multiple-Dose LEA29Y vs CTLAG4Ig vs Placebo in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Belatacept",
+      "Abatacept"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT06716476",
+    "title": "Impact of Vitamin D in Modulating Disease Activity and Inflammatory Mediators in Rheumatoid Arthritis",
+    "briefTitle": "Impact of Vitamin D in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2022-03-01",
+    "completionDate": "2024-01-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Vitamin D"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatic Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00413660",
+    "title": "A Phase 2B, Randomized, Double Blind, Placebo-Controlled, Multicenter Study To Compare 6 Dose Regimens Of CP-690,550 Vs. Placebo, Each Combined With Methotrexate, Administered For 6 Months In The Treatment Of Subjects With Active Rheumatoid Arthritis Who Have Had An Inadequate Response To Methotrexate Alone",
+    "briefTitle": "Comparison Of 6 CP-690,550 Doses Vs.Placebo, Each Combined With Methotrexate, For The Treatment Of Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2008-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CP-690,550",
+      "CP-690,550",
+      "CP-690,550",
+      "CP-690,550",
+      "CP-690,550",
+      "CP-690,550"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00524160",
+    "title": "Open-Label Study To Assess The Effect On Pain Control Of Durogesic (Fentanyl Transdermic Therapeutic System) Treatment In Subjects With Rheumatoid Arthritis Or Osteoarthritis Of The Knee Or Hip.",
+    "briefTitle": "A Study of the Effect on Pain Control of Treatment With Fentanyl, Administered Through the Skin, in Patients With Rheumatoid Arthritis or Osteoarthritis",
+    "status": "COMPLETED",
+    "startDate": "2001-07",
+    "completionDate": "2002-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fentanyl transdermal patch"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis",
+      "Osteoarthritis",
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT04387760",
+    "title": "Treatment of Covid-19 With Favipiravir Versus Hydroxychloroquine: a Randomized Comparator Trial",
+    "briefTitle": "Favipiravir vs Hydroxychloroquine vs Control in COVID -19",
+    "status": "COMPLETED",
+    "startDate": "2020-08-11",
+    "completionDate": "2021-04-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Hydroxychloroquine",
+      "Favipiravir"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "SARS-CoV 2",
+      "COVID-19"
+    ]
+  },
+  {
+    "nctId": "NCT04496960",
+    "title": "Safety of Tofacitinib, an Oral Janus Kinase Inhibitor, in Primary Sjogren's Syndrome; a Phase Ib-IIa Placebo-controlled Clinical Trial and Associated Mechanistic Studies",
+    "briefTitle": "Safety of Tofacitinib, an Oral Janus Kinase Inhibitor, in Primary Sjogren's Syndrome",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-05-18",
+    "completionDate": "2026-09-22",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "tofacitinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sjogren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT06859294",
+    "title": "A Phase 2a, Single-Arm Study to Investigate the Efficacy and Safety of LY3541860 in Adult Participants With Moderately to Severely Active Rheumatoid Arthritis",
+    "briefTitle": "A Study of LY3541860 in Adult Participants With Moderately to Severely Active Rheumatoid Arthritis",
+    "status": "RECRUITING",
+    "startDate": "2025-03-19",
+    "completionDate": "2026-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LY3541860"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00303394",
+    "title": "Phase 2 Study of IL-1Ra in Patients With Type 2 Diabetes",
+    "briefTitle": "Treatment of Patients With Type 2 Diabetes With an Interleukin-1 Antagonist",
+    "status": "COMPLETED",
+    "startDate": "2004-04",
+    "completionDate": "2006-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "IL-1Ra"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT02770794",
+    "title": "Multicenter Prospective Trial to Investigate Accuracy of Ultrasound to Predict Relapse After Discontinuation of Infliximab and Efficacy/Safety of Readministration of Infliximab in Patients With Rheumatoid Arthritis in Low Disease Activity",
+    "briefTitle": "Optimization of Infliximab Withdrawal Strategy for Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2016-04-01",
+    "completionDate": "2020-08-14",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Infliximab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00094562",
+    "title": "AAFA\u2122 Fish Oil Nutritional Supplementation to Maintain Body Weight in Patients With Disease-Related Weight Loss",
+    "briefTitle": "A Fish Oil Supplement to Maintain Body Weight in Patients With Disease-Related Weight Loss",
+    "status": "COMPLETED",
+    "startDate": "2004-06",
+    "completionDate": "2007-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Fish oil supplement"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cancer",
+      "Cancer Cachexia",
+      "Chronic Obstructive Pulmonary Disease",
+      "Chronic Heart Failure",
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01875991",
+    "title": "An Open-label, Randomized, Crossover Study to Assess the Preference for Autoinjector A Versus Autoinjector B in Rheumatoid Arthritis and Plaque Psoriasis Subjects Treated With Etanercept",
+    "briefTitle": "Preference Between Two Autoinjectors in Patients With Rheumatoid Arthritis and Plaque Psoriasis Treated With Etanercept",
+    "status": "COMPLETED",
+    "startDate": "2013-06-05",
+    "completionDate": "2014-03-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Etanercept via Autoinjector A",
+      "Etanercept via Autoinjector B"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis",
+      "Plaque Psoriasis"
+    ]
+  },
+  {
+    "nctId": "NCT01329991",
+    "title": "A Phase 1b Study to Assess Safety, Pharmacokinetics, Pharmacodynamics, and Drug-Drug Interaction of PLX5622 in Patients With Rheumatoid Arthritis Who Are Receiving Methotrexate",
+    "briefTitle": "Phase 1b Study of PLX5622 in Rheumatoid Arthritis Patients Who Are Receiving Methotrexate",
+    "status": "COMPLETED",
+    "startDate": "2011-05",
+    "completionDate": "2011-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "PLX5622",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01696929",
+    "title": "An Open-Label Trial of Tocilizumab in Schizophrenia",
+    "briefTitle": "An Open-Label Trial of Tocilizumab in Schizophrenia",
+    "status": "COMPLETED",
+    "startDate": "2012-09",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Tocilizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Schizophrenia"
+    ]
+  },
+  {
+    "nctId": "NCT00124982",
+    "title": "A Phase III, Multi-Center, Open Label Study to Evaluate the Efficacy, Tolerability and Safety of Abatacept (BMS-188667) in Subjects With Active Rheumatoid Arthritis on Background Non-Biologic DMARDs Who Have an Inadequate Response to Anti-TNF Therapy and Have Limited Therapeutic Options",
+    "briefTitle": "Study of Abatacept (BMS-188667) in Subjects With Active Rheumatoid Arthritis on Background Non-biologic DMARDS (Disease Modifying Antirheumatic Drugs) Who Have an Inadequate Response to Anti-TNF Therapy",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2009-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abatacept",
+      "Non-biologic Disease Modifying Anti-Rheumatic Drug (DMARD)",
+      "Anti-Tumor Necrosing Factor (TNF) Therapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00848120",
+    "title": "An Open Label Study to Evaluate the Safety and Reduction in Signs and Symptoms During Treatment With Tocilizumab in Patients With Moderate to Severe Active Rheumatoid Arthritis",
+    "briefTitle": "A Study to Assess the Effect of Tocilizumab on Signs and Symptoms in Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2008-12-31",
+    "completionDate": "2010-02-13",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "tocilizumab [RoActemra/Actemra]"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02149420",
+    "title": "A Single Dose, Double-blind, Placebo-controlled, Parallel Study to Assess the Pharmacodynamics, Pharmacokinetics and Safety and Tolerability of VAY736 in Patients With Primary Sj\u00f6gren's Syndrome",
+    "briefTitle": "PD of VAY736 in Patients With Primary Sj\u00f6gren's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2014-05-23",
+    "completionDate": "2018-02-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "VAY736",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Sj\u00f6gren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT00308282",
+    "title": "Phase II Study of Safety and Efficacy of Intravenous LY2127399 in Patients With Rheumatoid Arthritis Treated With Methotrexate",
+    "briefTitle": "A Multi-Site Study to Evaluate the Safety and Effect of Study Drug on Participants With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2006-03-28",
+    "completionDate": "2007-10-18",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LY2127399",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT05392127",
+    "title": "A Single-center, Open-label, Single-arm, Fixed-sequence Study to Evaluate the Pharmacokinetic Effects of SHR0302 Tablets on Substrates of CYP3A4, CYP2C8, CYP2C9, CYP2C19 in Healthy Volunteers",
+    "briefTitle": "A Pharmacokinetic Study to Evaluate the Drug Interaction Between SHR0302 and CYP Substrates in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2022-07-15",
+    "completionDate": "2022-08-18",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SHR0302 Tablets",
+      "Midazolam Maleate Tablets",
+      "Warfarin Sodium Tablets",
+      "Omeprazole Enteric Capsules",
+      "Vitamin K1 Tablets",
+      "Repaglinide Tablets"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05792527",
+    "title": "The Use of L-carnitine in Modulating Pain and Inflammation in Rheumatoid Arthritis Patients",
+    "briefTitle": "L-carnitine in Modulating Pain and Inflammation in Rheumatoid Arthritis",
+    "status": "RECRUITING",
+    "startDate": "2023-03-05",
+    "completionDate": "2026-03-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "L-carnitine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01116427",
+    "title": "A Phase II, Randomized, Double-blind, Parallel-group, Placebo-controlled, Multicenter Study to Evaluate the Safety and Efficacy of Abatacept in Adults With Relapsing-remitting Multiple Sclerosis",
+    "briefTitle": "A Cooperative Clinical Study of Abatacept in Multiple Sclerosis",
+    "status": "COMPLETED",
+    "startDate": "2010-09",
+    "completionDate": "2015-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Sclerosis, Relapsing-Remitting"
+    ]
+  },
+  {
+    "nctId": "NCT00095173",
+    "title": "A Phase III, Multi-Center, Multi-National, Randomized Withdrawal Study to Evaluate the Safety and Efficacy of BMS-188667 in Children and Adolescents With Active Polyarticular Juvenile Rheumatoid Arthritis (JRA)",
+    "briefTitle": "BMS-188667 in Children and Adolescents With Juvenile Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2003-12",
+    "completionDate": "2011-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Abatacept",
+      "Placebo",
+      "Abatacept"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Juvenile Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT06887127",
+    "title": "An Open-label, Long-term Extension Clinical Study to Evaluate the Safety, Tolerability, and Efficacy of TLL-018 in Patients With Rheumatoid Arthritis",
+    "briefTitle": "A Long-term Extension Clinical Study of TLL-018 in Patients With Rheumatoid Arthritis",
+    "status": "RECRUITING",
+    "startDate": "2025-03-10",
+    "completionDate": "2027-12-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "TLL-018"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01626573",
+    "title": "A Double- Blind, Placebo Controlled Study Exploring the Safety, Tolerability, and Efficacy of a 28 Day Course Followed by an Additional 56 Day Course of Itacitinib in Subjects With Active Rheumatoid Arthritis",
+    "briefTitle": "A Study Exploring the Safety, Tolerability, and Efficacy of a 28 Day Course Followed by an Additional 56 Day Course of Itacitinib in Subjects With Active Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2012-03",
+    "completionDate": "2013-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Itacitinib",
+      "Itacitinib Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00422227",
+    "title": "A Randomized, Open-Label Study in the Asia-Pacific Region Comparing the Safety and Efficacy of Etanercept With Usual DMARD Therapy in Subjects With Rheumatoid Arthritis",
+    "briefTitle": "Study Comparing Etanercept With Usual DMARD Therapy in Subjects With Rheumatoid Arthritis in the Asia Pacific Region",
+    "status": "COMPLETED",
+    "startDate": "2007-06",
+    "completionDate": "2009-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Etanercept , Methotrexate",
+      "Methotrexate; sulfasalazine; hydroxychloroquine;leflunomide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01955603",
+    "title": "A Randomised, Placebo-controlled, Double-blind Within Cohort, Dose Escalation, Multiple-dose Trial to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of NNC0215-0384 Administered Subcutaneously to Subjects With Moderate to Severe Rheumatoid Arthritis",
+    "briefTitle": "A Trial to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of NNC0215-0384 Administered to Subjects With Moderate to Severe Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2013-09",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "NNC0215-0384",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Inflammation",
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02046603",
+    "title": "Open-Label, Phase IIIb Study to Evaluate the Efficacy and Safety of Subcutaneous (SC) Tocilizumab Monotherapy or Combination Therapy With Methotrexate (MTX) or Other Non-Biologic Disease Modifying Anti-Rheumatic Drugs (DMARDs) in Patients With Active Rheumatoid Arthritis (RA) Who Have an Inadequate Response to Current Non-Biologic DMARD Therapy or the First Anti-Tumour Necrosis Factor (Anti-TNF) Biologic Agent",
+    "briefTitle": "A Study of Tocilizumab (RoActemra/Actemra) in Monotherapy or in Combination With Methotrexate or Other Non-Biologic DMARDs in Participants With Active Rheumatoid Arthritis and an Inadequate Response to Current Non-Biologic DMARD Therapy or the First Anti-TNF Biologic Agent",
+    "status": "COMPLETED",
+    "startDate": "2014-03-04",
+    "completionDate": "2016-08-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tocilizumab",
+      "DMARDs",
+      "Oral Corticosteroids",
+      "Methotrexate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00379990",
+    "title": "A Randomised, Double-blind, Placebo-controlled, Parallel Group Study to Investigate the Safety, Tolerability, Pharmacokinetics and Effect on Synovial Thickness and Vascularity of 28 Days Repeat Dosing of GW274150 or 7.5mg Prednisolone in RA Subjects.",
+    "briefTitle": "A Study To Investigate GW274150 Or Prednisolone In Rheumatoid Arthritis Taken Repeatedly For 28 Days.",
+    "status": "COMPLETED",
+    "startDate": "2006-01",
+    "completionDate": "2007-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GW274150",
+      "Prednisolone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00688103",
+    "title": "Efficacy and Safety of Etanercept in Active Rheumatoid Arthritis Despite Methotrexate Therapy in Japan",
+    "briefTitle": "Efficacy and Safety of Etanercept in Active RA Despite Methotrexate Therapy in Japan",
+    "status": "COMPLETED",
+    "startDate": "2005-06",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "ETN Alone",
+      "ETN+MTX"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02056184",
+    "title": "Targeted Ultrasound in Rheumatoid Arthritis",
+    "briefTitle": "Targeted Ultrasound in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2013-12",
+    "completionDate": "2019-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Adalimumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis",
+      "Targeted Ultrasound"
+    ]
+  },
+  {
+    "nctId": "NCT04261790",
+    "title": "Evaluating the Effects of Ocrelizumab on B-cell Tolerance Defect in Relapsing Multiple Sclerosis",
+    "briefTitle": "Effects of Ocrelizumab on B-cell Tolerance Defect in Relapsing Multiple Sclerosis",
+    "status": "COMPLETED",
+    "startDate": "2020-08-01",
+    "completionDate": "2024-11-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Ocrelizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Sclerosis, Relapsing-Remitting"
+    ]
+  },
+  {
+    "nctId": "NCT00996203",
+    "title": "Local Open-label Multicenter Study to Evaluate the Quality of Life in Patients With Moderate to Severe Active Rheumatoid Arthritis and an Inadequate Response to DMARDs When Adding Tocilizumab (TCZ)",
+    "briefTitle": "A Study of Tocilizumab Added to DMARDs in Patients With Moderate to Severe Rheumatoid Arthritis and an Inadequate Response to DMARDs.",
+    "status": "COMPLETED",
+    "startDate": "2009-10-31",
+    "completionDate": "2011-02-14",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "tocilizumab [RoActemra/Actemra]",
+      "DMARDs (disease-modifying antirheumatic drugs)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT03008590",
+    "title": "Low Dose Naltrexone for Chronic Pain in Osteoarthritis and Inflammatory Arthritis",
+    "briefTitle": "Low Dose Naltrexone for Chronic Pain From Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2018-05-01",
+    "completionDate": "2019-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Naltrexone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Osteoarthritis",
+      "Arthritis, Rheumatoid",
+      "Arthritis, Psoriatic"
+    ]
+  },
+  {
+    "nctId": "NCT05214690",
+    "title": "A Phase 1 Clinical Trial to Compare and Evaluate the Safety and Pharmacokinetic Characteristics After Administration of DW1809-T2 and DW1809-1 in Healthy Adult Volunteers",
+    "briefTitle": "A Phase 1 Clinical Trial to Evaluate the Safety and Pharmacokinetic Characteristics of DW1809-T2",
+    "status": "COMPLETED",
+    "startDate": "2020-08-13",
+    "completionDate": "2020-09-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "DW1809-T2",
+      "DW1809-1"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Osteoarthritis",
+      "Rheumatoid Arthritis",
+      "Back Pain",
+      "Acute Upper Respiratory Tract Infection"
+    ]
+  },
+  {
+    "nctId": "NCT01451203",
+    "title": "A Multicenter, Double-blind, Randomized, Placebo-controlled, Parallel-group Study to Assess the Efficacy and Safety of CDP870 in Patients With Early-stage Rheumatoid Arthritis Who Are Na\u00efve to Methotrexate and Have Poor Prognostic Factors",
+    "briefTitle": "Efficacy Confirmation Study of CDP870 in Early Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2011-10-11",
+    "completionDate": "2014-10-20",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "CZP",
+      "methotrexate (MTX)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01332994",
+    "title": "Efficacy and Safety Study of a Sequential Therapy of Tocilizumab (TCZ) and, if Initially Inadequately Responded to Tocilizumab (TCZ), Followed by Rituximab (RTX) in DMARD-IR Patients With Rheumatoid Arthritis (MIRAI)",
+    "briefTitle": "A Study of RoActemra/Actemra and, if Initially Inadequately Responded to RoActemra/Actemra, Followed by MabThera/Rituxan in Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2011-03",
+    "completionDate": "2014-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "rituximab [MabThera/Rituxan]",
+      "tocilizumab [RoActemra/Actemra]",
+      "tocilizumab [RoActemra/Actemra]"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00105976",
+    "title": "A Phase 2, Double-Blind, Parallel, Placebo-Controlled, Randomized Study to Evaluate the Efficacy and Safety of 3 Different Dose Levels (2.5, 7.5 and 20 mg) of MM-093 in Patients With Active Rheumatoid Arthritis on Stable Doses of Methotrexate",
+    "briefTitle": "Efficacy Study of MM-093 in Rheumatoid Arthritis Patients on Methotrexate (MTX)",
+    "status": "COMPLETED",
+    "startDate": "2005-02",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MM-093"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02379091",
+    "title": "A 24-Week Randomized, Double-Blind, Placebo-Controlled, Phase 2 Dose Finding Study to Evaluate the Efficacy and Safety of 3 Doses of Namilumab (20 mg, 80 mg and 150 mg) in Combination With Methotrexate (MTX) in Subjects With Moderate to Severe Rheumatoid Arthritis (RA)",
+    "briefTitle": "Dose Finding Study of Namilumab in Combination With Methotrexate in Participants With Moderate to Severe Rheumatoid Arthritis (RA)",
+    "status": "COMPLETED",
+    "startDate": "2014-12-17",
+    "completionDate": "2016-12-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Namilumab",
+      "Placebo",
+      "Methotrexate",
+      "Folic/folinic acid"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT06857227",
+    "title": "A Randomized Controlled Phase l Clinical Study to Evaluate the Efficacy, Safety, Tolerability and Pharmacokinetics/Pharmacodynamics of GNC-038 Tetra-specific Antibody Injection in Rheumatoid Arthritis",
+    "briefTitle": "A Study of GNC-038 Tetra-specific Antibody Injection in Patients With Rheumatoid Arthritis",
+    "status": "RECRUITING",
+    "startDate": "2025-03-17",
+    "completionDate": "2027-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GNC-038",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00539760",
+    "title": "A Phase I, Randomized, Observer- and Subject-Blind, Placebo-Controlled, Single Ascending Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of GSK1827771 in Healthy Volunteers",
+    "briefTitle": "A Phase I Rheumatoid Arthritis Study in Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2007-09-05",
+    "completionDate": "2008-04-05",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GSK1827771",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00034060",
+    "title": "Suppression of the Growth Hormone/ Insulin-Like Growth Factor-1 (GH/IGF-1) Axis in Women With Rheumatoid Arthritis",
+    "briefTitle": "The Role of Cytokines on Growth Hormone Suppression in Premenopausal Women With Rheumatoid Arthritis and the Effect of Treatment With Etanercept",
+    "status": "COMPLETED",
+    "startDate": "2002-04",
+    "completionDate": "2005-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Etanercept"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis",
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT05800327",
+    "title": "A Two-Stage Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics and Immunogenicity of Various Doses of Levilimab When Administered Intravenously and Subcutaneously to Healthy Subjects and Subjects With Active Rheumatoid Arthritis",
+    "briefTitle": "A Two-Stage Study of the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics and Immunogenicity of Various Doses of Levilimab When Administered Intravenously and Subcutaneously to Healthy Subjects and Subjects With Active Rheumatoid Arthritis",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-12-07",
+    "completionDate": "2027-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Levilimab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT04911127",
+    "title": "Randomized, Double Blind, Placebo-Controlled Trial to Evaluate the Safety and Tolerability of Cannabidiol (CBD) in Moderate to Severe Rheumatoid Arthritis",
+    "briefTitle": "Therapeutic Response of Cannabidiol in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2021-10-05",
+    "completionDate": "2023-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "200mg Cannabidiol by capsules twice daily",
+      "400mg Cannabidiol by capsules twice daily",
+      "Placebo capsules"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis",
+      "Cannabis"
+    ]
+  },
+  {
+    "nctId": "NCT01362673",
+    "title": "A Phase 1, Randomized, Subject- And Investigator Blind, Sponsor Open, Placebo Controlled, Single- And Multiple-Dose Escalation Study Of PF-04171327 In Healthy Adult Japanese And Western Subjects In Fasting And Fed Conditions",
+    "briefTitle": "PK And Safety Study Of PF-04171327 In Healthy Japanese And Western Subjects In Fasting And Fed Conditions",
+    "status": "COMPLETED",
+    "startDate": "2011-05",
+    "completionDate": "2011-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "PF-04171327",
+      "PF-04171327",
+      "PF-04171327",
+      "Placebo",
+      "PF-04171327",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy"
+    ]
+  },
+  {
+    "nctId": "NCT03277573",
+    "title": "A Phase 1b, 12-Month, Randomized, Double-Blind, Placebo-Controlled Study of the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of Salsalate in Patients With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "Salsalate in Patients Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2017-07-21",
+    "completionDate": "2023-04-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Salsalate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06528431",
+    "title": "Design and Evaluation of an Individualized Biodrug Tapering Strategy Based on Biodrug Dosage: the MONITORA Study",
+    "briefTitle": "Design and Evaluation of an Individualized Biodrug Tapering Strategy Based on Biodrug Dosage: the MONITORA Study",
+    "status": "RECRUITING",
+    "startDate": "2024-12-19",
+    "completionDate": "2026-12-19",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Clinical tapering strategy",
+      "Step Wedge trial"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00266227",
+    "title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study of Retreatment With Rituximab in Subjects With Rheumatoid Arthritis Receiving Background Methotrexate",
+    "briefTitle": "A Study of Retreatment With Rituximab in Patients With Rheumatoid Arthritis Receiving Background Methotrexate",
+    "status": "COMPLETED",
+    "startDate": "2006-01",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "placebo",
+      "rituximab",
+      "methotrexate",
+      "folate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT04177173",
+    "title": "Comparison of Combination of Methotrexate and Statins With Methotrexate Alone as an Anti-inflammatory Agent in the Treatment of Rheumatoid Arthritis.",
+    "briefTitle": "Methotrexate and Statins With Methotrexate Alone in the Treatment of Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2017-09-01",
+    "completionDate": "2018-12-14",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Simvastatin 20 mg",
+      "Methotrexate 10 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT01715831",
+    "title": "A Multicenter, Open-Label, Single-Arm Extension Study to Describe the Safety of Tocilizumab Treatment In Brazilian Patients With DMARDs Refractory Rheumatoid Arthritis Which Completed Studies ML21530 and MA21488 and Presenting an Indication of Maintaining the Tocilizumab Treatment",
+    "briefTitle": "A Long-term Safety Extension Study of Tocilizumab in Brazilian Participants With Rheumatoid Arthritis (RA) Who Completed the Studies ML21530 and MA21488",
+    "status": "COMPLETED",
+    "startDate": "2013-01-15",
+    "completionDate": "2016-06-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "DMARDs",
+      "Tocilizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT04093531",
+    "title": "Pilot Trial of Ustekinumab for Primary Sj\u00f6gren's Syndrome",
+    "briefTitle": "Pilot Trial of Ustekinumab for Primary Sj\u00f6gren's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2020-01-15",
+    "completionDate": "2022-05-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ustekinumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Sj\u00f6gren Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01890473",
+    "title": "Phase Ib, Multicenter, Randomized, Open-Label, Parallel-Group Study to Characterize the Pharmacokinetics of a Single Dose of Abatacept 125 mg Administered Subcutaneously Using the BD Physioject\u2122 Autoinjector or the UltraSafe Passive Needle Guard Prefilled Syringe",
+    "briefTitle": "Study to Characterize the Pharmacokinetics of a Single Dose of SC Abatacept 125 mg Using the BD Autoinjector or the Prefilled Syringe",
+    "status": "COMPLETED",
+    "startDate": "2013-07",
+    "completionDate": "2014-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Abatacept"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT03131973",
+    "title": "Effects of Concomitant Administration of BMS-986195 on the Single-dose Pharmacokinetics of Methotrexate and Probe Substrates for Cytochrome P450 1A2, 2C8, 2C9, 2C19, 3A4, Organic Anion Transporter Polypeptide 1B1 and P-glycoprotein in Healthy Participants",
+    "briefTitle": "Effects of Concomitant Administration of BMS-986195 on Methotrexate, Caffeine, Montelukast, Flurbiprofen, Omeprazole, Midazolam, Digoxin, and Pravastatin",
+    "status": "COMPLETED",
+    "startDate": "2017-05-13",
+    "completionDate": "2017-11-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BMS-986195",
+      "Methotrexate",
+      "Leucovorin",
+      "Caffeine",
+      "Montelukast",
+      "Flurbiprofen",
+      "Omeprazole",
+      "Midazolam",
+      "Digoxin",
+      "Pravastatin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01724931",
+    "title": "A Phase 2 Double-Blind, Placebo-Controlled, Randomized Dose Finding Study For The Efficacy And Safety Of Aminopterin In Methotrexate-Naive Rheumatoid Arthritis",
+    "briefTitle": "Aminopterin Dose Finding Treatment for Methotrexate-Na\u00efve Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2013-02",
+    "completionDate": "2015-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LD-aminopterin",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00420927",
+    "title": "A Multicenter, Randomized, Double-Period, Double - Blind Study to Determine the Optimal Protocol for Treatment Initiation With Methotrexate and Adalimumab Combination Therapy in Patients With Early Rheumatoid Arthritis (OPTIMA)",
+    "briefTitle": "Study of the Optimal Protocol for Methotrexate and Adalimumab Combination Therapy in Early Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2006-12",
+    "completionDate": "2010-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "methotrexate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02705989",
+    "title": "A Randomized, Placebo-Controlled, Single and Multiple Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics(PK) and Pharmacodynamics(PD), and Non-Randomized, Bioavailability(BA) Study of BMS-986195 in Healthy Subjects",
+    "briefTitle": "Safety, Tolerability and Relative Bioavailability Study of BMS-986195 in Healthy Subjects",
+    "status": "COMPLETED",
+    "startDate": "2016-08-18",
+    "completionDate": "2017-08-16",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BMS-986195"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02291029",
+    "title": "A Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel Group Study to Assess the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of CFZ533 in Patients With Primary Sj\u00f6gren's Syndrome",
+    "briefTitle": "Safety, Pharmacokinetics and Preliminary Efficacy Study of CFZ533 in Patients With Primary Sj\u00f6gren's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2014-10-22",
+    "completionDate": "2018-06-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CFZ533 active - Cohort 1",
+      "CFZ533 placebo- Cohort 1",
+      "CFZ533 active - Cohort 2",
+      "CFZ533 placebo - Cohort 2",
+      "CFZ533 active -Cohort 3",
+      "CFZ533 active - Cohort 3"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Sj\u00f6gren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT05353829",
+    "title": "Efficacy, Tolerability and Preferences of Per Oral or Subcutaneous Methotrexate in Patients with Early Rheumatoid Arthritis - a Randomised Register Based Multicentre Study",
+    "briefTitle": "Methotrexate in Patients with Early Rheumatoid Arthritis",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-04-28",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Methotrexate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00147329",
+    "title": "A Phase 2, Double-Blind, Placebo-Controlled, Randomized Study To Evaluate the Tolerability, Pharmacokinetics, Pharmacodynamics, and Biologic Activity of MM-093 in Patients With Moderate to Severe Chronic Plaque Psoriasis",
+    "briefTitle": "Safety and Efficacy Study of MM-093 in Patients With Chronic Plaque Psoriasis",
+    "status": "COMPLETED",
+    "startDate": "2005-09",
+    "completionDate": "2006-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MM-093"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriasis"
+    ]
+  },
+  {
+    "nctId": "NCT02832180",
+    "title": "The Effect of BMS-986142 on the Pharmacokinetics of a Combined Oral Contraceptive Containing Ethinyl Estradiol and Norethindrone Acetate in Healthy Female Subjects",
+    "briefTitle": "The Effect of BMS-986142 on the Pharmacokinetics of a Combined Oral Contraceptive (OC) Containing Ethinyl Estradiol (EE) and Norethindrone Acetate (NET) in Healthy Female Subjects",
+    "status": "COMPLETED",
+    "startDate": "2016-05",
+    "completionDate": "2016-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "OC containing EE and NET",
+      "BMS-986142"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00580229",
+    "title": "A Safety Analysis of Oral Prednisone as a Pre-Treatment for Rituximab in Rheumatoid Arthritis.",
+    "briefTitle": "A Safety Analysis of Oral Prednisone as a Pre-Treatment for Rituximab in Rheumatoid Arthritis.",
+    "status": "COMPLETED",
+    "startDate": "2007-12",
+    "completionDate": "2011-12",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "prednisone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00542789",
+    "title": "A Phase III, Multicentre, Randomised, Double-blind, Parallel-group, Comparative Efficacy and Safety Study of Esomeprazole(20 mg Once Daily) Versus Placebo for the Prevention of Gastric and/or Duodenal Ulcers Associated With Daily Nonsteroidal Anti-inflammatory Drug (NSAID) Use",
+    "briefTitle": "Comparative Efficacy & Safety Study of Esomeprazole Versus Placebo for the Prevention of Gastric and Duodenal Ulcers With NSAID",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2009-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Esomeprazole",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gastric Ulcer",
+      "Duodenal Ulcer",
+      "Rheumatoid Arthritis",
+      "Osteoarthritis",
+      "Lumbago"
+    ]
+  },
+  {
+    "nctId": "NCT05721989",
+    "title": "A Comparative Bioavailability Study of a Single Dose of Ziltivekimab Formulation B in a Manual Syringe, Formulation D in a Manual Syringe and Formulation C in a Pen-injector",
+    "briefTitle": "A Research Study Looking Into Blood Levels of Three Different Formulations of the Study Medicine Ziltivekimab",
+    "status": "COMPLETED",
+    "startDate": "2023-02-03",
+    "completionDate": "2024-01-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ziltivekimab B",
+      "Ziltivekimab D",
+      "Ziltivekimab C"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Participants"
+    ]
+  },
+  {
+    "nctId": "NCT01855789",
+    "title": "A Randomized, Double-Blind Trial Assessing the Impact of Methotrexate Discontinuation on the Efficacy of Subcutaneous Tocilizumab With Methotrexate Therapy",
+    "briefTitle": "A Study of the Impact of Methotrexate (MTX) Discontinuation on the Efficacy of Subcutaneous (SC) Tocilizumab (TCZ) With MTX",
+    "status": "COMPLETED",
+    "startDate": "2013-11-07",
+    "completionDate": "2016-10-14",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tocilizumab (TCZ)",
+      "Methotrexate (MTX)",
+      "Placebo (PBO)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02746380",
+    "title": "Multi-center (in Korea and Japan), Double-blind, Randomized, Parallel-group Study to Evaluate the Similarity of Efficacy and Safety of LBAL 40mg Subcutaneous Biweekly Injection to Humira\u00ae 40mg Subcutaneous Biweekly Injection, as Adjunctive Therapy to Methotrexate (MTX), in Patients With Active Rheumatoid Arthritis Who Had an Inadequate Response to MTX",
+    "briefTitle": "A Study Comparing LBAL to Humira\u00ae in Subjects With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+    "status": "COMPLETED",
+    "startDate": "2016-04-13",
+    "completionDate": "2018-02-23",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "LBAL",
+      "Humira\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT01645280",
+    "title": "A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-group, Study Evaluating the Efficacy and Safety of Ustekinumab (STELARA\u00ae) and CNTO 1959 Administered Subcutaneously in Subjects With Active Rheumatoid Arthritis Despite Concomitant Methotrexate Therapy",
+    "briefTitle": "A Study of the Effectiveness and Safety of Ustekinumab (STELARA) and CNTO 1959 Administered Under the Skin of Patients With Active Rheumatoid Arthritis, Despite Existing Methotrexate Therapy",
+    "status": "COMPLETED",
+    "startDate": "2012-08",
+    "completionDate": "2014-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo + methotrexate (MTX) (Group 1)",
+      "Ustekinumab + MTX (Group 2)",
+      "Ustekinumab + MTX (Group 3)",
+      "CNTO 1959 + MTX (Group 4)",
+      "CNTO 1959 + MTX (Group 5)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00195494",
+    "title": "A 24-Month,Randomized,Double-Blind,Two-Period Study to Evaluate the Efficacy and Safety of the Combination of Etanercept and Methotrexate and Methotrexate Alone in Subjects With Early Rheumatoid Arthritis",
+    "briefTitle": "Study Comparing Etanercept and Methotrexate vs. Methotrexate Alone in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2004-11",
+    "completionDate": "2008-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Etanercept",
+      "Methotrexate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT02260791",
+    "title": "A Randomised, Blinded, Active-Controlled Study to Compare FKB327 Efficacy and Safety With the Comparator Humira\u00ae in Rheumatoid Arthritis Patients Inadequately Controlled on Methotrexate",
+    "briefTitle": "A Study to Compare FKB327 Efficacy and Safety With Humira\u00ae in Rheumatoid Arthritis Patients",
+    "status": "COMPLETED",
+    "startDate": "2014-12",
+    "completionDate": "2016-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "FKB327",
+      "Humira\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT01326962",
+    "title": "Tocilizumab Efficacy and Safety in RA Patients After Inadequate Response to DMARDs or Anti-TNF",
+    "briefTitle": "A Study of RoActemra/Actemra (Tocilizumab) in Patients With Rheumatoid Arthritis Who Have an Inadequate Response to DMARDs or Anti-TNF",
+    "status": "COMPLETED",
+    "startDate": "2011-11-30",
+    "completionDate": "2013-05-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "tocilizumab [RoActemra/Actemra]"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01253291",
+    "title": "An Open-Label Extension Study of Multiple Subcutaneous Doses of LY2127399 in Japanese Patients With Rheumatoid Arthritis Treated With Methotrexate",
+    "briefTitle": "A Study of Japanese Rheumatoid Arthritis Participants",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "2014-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "LY2127399"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01610791",
+    "title": "A Single Arm, Open Label Study to Assess the Safety, Tolerability and Efficacy of Tocilizumab in Active Rheumatoid Arthritis Patients With Inadequate Response to the DMARDs (REMISSION Study)",
+    "briefTitle": "A Study of RoActemra/Actemra (Tocilizumab) in Patients With Active Rheumatoid Arthritis Who Have an Inadequate Response to DMARDs (REMISSION)",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2011-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "tocilizumab [RoActemra/Actemra]"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00062465",
+    "title": "A 24-Week, Double Blind, Randomized Study to Determine the Effects of 24 Weeks of Dosing With Tripterygium Wilfordii Hook F (TwHF) or Sulfasalazine, in Subjects With Active Rheumatoid Arthritis",
+    "briefTitle": "Treating Rheumatoid Arthritis With Tripterygium Wilfordi Hook F or Sulfasalazine",
+    "status": "COMPLETED",
+    "startDate": "2003-06",
+    "completionDate": "2006-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "TwHF"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05605665",
+    "title": "Therapeutic Effect of Low Dose IL-2 Combined With Rapamycin in on sj\u00f6gren's Syndrome",
+    "briefTitle": "Low-dose Interleukin-2 and Rapamycin on sj\u00f6gren's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2022-12-05",
+    "completionDate": "2024-03-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "low-dose interleukin-2",
+      "rapamycin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Sj\u00f6gren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT03254966",
+    "title": "Randomized, Double-blind, Placebo-controlled, Multicenter, Phase II Study to Assess the Safety and Efficacy of SHR0302 in Patients With Moderate to Severe Active Rheumatoid Arthritis",
+    "briefTitle": "Study of SHR0302 Tablets (SHR0302) as Monotherapy in Active Rheumatoid Arthritis (RA) Patients",
+    "status": "COMPLETED",
+    "startDate": "2017-11-24",
+    "completionDate": "2019-10-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "SHR0302",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT06753565",
+    "title": "Effect of L-carnitine Supplementation on Disease Activity in Rheumatoid Arthritis Patients",
+    "briefTitle": "L-carnitine Supplementation in Rheumatoid Arthritis Patients",
+    "status": "RECRUITING",
+    "startDate": "2024-12-31",
+    "completionDate": "2025-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Carnitine",
+      "Disease-modifying anti-rheumatic drugs"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis (RA)"
+    ]
+  },
+  {
+    "nctId": "NCT00106574",
+    "title": "A Randomized, Double-blind Study of the Effect of Tocilizumab on Reduction in Signs and Symptoms in Patients With Moderate to Severe Active Rheumatoid Arthritis and Inadequate Response to DMARD Therapy",
+    "briefTitle": "A Study to Assess the Effect of Tocilizumab + DMARD Therapy on Signs and Symptoms in Patients With Moderate to Severe Active Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2007-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "tocilizumab [RoActemra/Actemra]"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01197066",
+    "title": "A Phase \u2162 Multicenter, Open-label, Follow-up Study, to Assess the Safety and Efficacy of Certolizumab Pegol as Additional Medication to Methotrexate, in Patients With Active Rheumatoid Arthritis Who Participated in Study 101-KOA-0801i",
+    "briefTitle": "Open-label, Extension Study of CDP870 in Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2016-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Certolizumab Pegol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01775865",
+    "title": "Targeting Inflammation to Treat Cardiovascular Aging in Humans (TIVA Study)",
+    "briefTitle": "Targeting Inflammation to Treat Cardiovascular Aging",
+    "status": "COMPLETED",
+    "startDate": "2012-09",
+    "completionDate": "2016-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Salsalate",
+      "Placebo (for salsalate)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Vascular Stiffness",
+      "Endothelial Dysfunction",
+      "Diastolic Dysfunction"
+    ]
+  },
+  {
+    "nctId": "NCT01223365",
+    "title": "A 12-Month, Open-Label Study to Evaluate the Long-Term Safety of Hydrocodone Bitartrate Extended-Release Tablets (CEP-33237) at 15 to 90 mg Every 12 Hours in Patients Who Require Opioid Treatment for an Extended Period of Time",
+    "briefTitle": "Study to Evaluate the Long-Term Safety of Hydrocodone Bitartrate Extended-Release Tablets (CEP-33237) in Patients Who Require Opioid Treatment for an Extended Period of Time",
+    "status": "COMPLETED",
+    "startDate": "2010-10",
+    "completionDate": "2012-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Hydrocodone ER"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Pain"
+    ]
+  },
+  {
+    "nctId": "NCT05447520",
+    "title": "Clinical Study Evaluating the Efficacy and Safety of Adjunctive Use of Montelukast in Rheumatoid Arthritis Patients",
+    "briefTitle": "Montelukast Use in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2021-12-15",
+    "completionDate": "2022-12-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Montelukast",
+      "Placebo",
+      "Conventional DMARDs"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01765374",
+    "title": "Study of Sonographic Efficacy of Rituximab in Rheumatoid Arthritis",
+    "briefTitle": "Study of Sonographic Efficacy of Rituximab in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2011-02",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Rituximab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05053165",
+    "title": "A Phase 1, Randomised, Double-Blind, Placebo-Controlled Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Multiple Ascending Doses of LB-P6 or LB-P8 in Healthy Participants",
+    "briefTitle": "A Study to Assess the Safety and Tolerability of LB-P6 and LB-P8 in Healthy Participants",
+    "status": "COMPLETED",
+    "startDate": "2022-01-04",
+    "completionDate": "2022-06-29",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "LB-P6",
+      "LB-P8",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis",
+      "Non-Alcoholic Steatohepatitis"
+    ]
+  },
+  {
+    "nctId": "NCT00367965",
+    "title": "The Effect of Eszopiclone 3 mg Compared to Placebo on Daytime Function in Subjects With Insomnia Related to Rheumatoid Arthritis",
+    "briefTitle": "Study of Eszopiclone Compared to Placebo on Daytime Function in Subjects With Insomnia Related to Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2004-02",
+    "completionDate": "2004-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Eszopiclone",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Insomnia",
+      "Arthritis, Rheumatoid"
+    ]
+  },
+  {
+    "nctId": "NCT00711074",
+    "title": "An Open-Label, Phase I Study to Assess the Excretion of Radioactivity, Metabolic Profiles and Pharmacokinetics Following a Single Oral Dose of [14C]AZD5672 in Healthy Male Volunteers",
+    "briefTitle": "Mass Balance and Metabolic Profiling of [14C]AZD5672 in Healthy Male Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2008-06",
+    "completionDate": "2008-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "AZD5672"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01253265",
+    "title": "Multiple-Dose, Dose Escalation Study to Evaluate Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of LY2439821 in Japanese Patients With Rheumatoid Arthritis on Concomitant Methotrexate Treatment",
+    "briefTitle": "A Study in Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "2011-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "LY2439821",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01303874",
+    "title": "A Multicentre Randomised Trial Of Etanercept And Methotrexate To Induce Remission In Early Inflammatory Arthritis",
+    "briefTitle": "Etanercept and Methotrexate in Patients to Induce Remission in Early Arthritis (EMPIRE)",
+    "status": "COMPLETED",
+    "startDate": "2006-09",
+    "completionDate": "2010-11-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Etanercept (ETN)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis",
+      "Inflammatory Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05545020",
+    "title": "Trivalent Chromium as a Treatment for Rheumatoid Arthritis Patients",
+    "briefTitle": "Trivalent Chromium Treatment for Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2022-12-25",
+    "completionDate": "2024-01-13",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Trivalent chromium versus synthetic and/ or biological DMARDs"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01942174",
+    "title": "Lead Time of the Methotrexate Establishment and Vaccinal Protection Against the Pneumococcal Agent in Patients Affected With Rheumatoid Polyarthritis",
+    "briefTitle": "VACcination In Methotrexate Treated Rheumatoid Arthritis Patients",
+    "status": "COMPLETED",
+    "startDate": "2013-09-27",
+    "completionDate": "2019-07-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Methotrexate - Immediate",
+      "Methotrexate - Delay"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01038674",
+    "title": "A Randomised, Double Blind, Placebo-controlled, Multiple Dose, Dose-escalation, Phase 1 Trial of Anti-IL-20 in Subjects With Rheumatoid Arthritis",
+    "briefTitle": "Safety and Tolerability of Anti-IL-20 in Subjects With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2010-02",
+    "completionDate": "2010-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "anti-IL-20",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Inflammation",
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00632866",
+    "title": "Randomized, Double-blind, Placebo-controlled Trial of Hydroxychloroquine in Primary Sj\u00f6gren's Syndrome",
+    "briefTitle": "Hydroxychloroquine Versus Placebo in Primary Sj\u00f6gren's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2008-03",
+    "completionDate": "2012-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Hydroxychloroquine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Sj\u00f6gren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01517074",
+    "title": "A Phase I/II Study to Investigate Subconjunctival Sirolimus for the Treatment of Active Autoimmune Non-Necrotizing Anterior Scleritis",
+    "briefTitle": "Sirolimus Injections for Autoimmune Scleritis",
+    "status": "COMPLETED",
+    "startDate": "2012-01",
+    "completionDate": "2014-04",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Sirolimus"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Scleritis"
+    ]
+  },
+  {
+    "nctId": "NCT01557374",
+    "title": "Tapering Abatacept or Tocilizumab in Rheumatoid Arthritis in Remission. An Evaluation of Disease Activity, Relapse Risk, Structural Progression and the Economic Impact of a Tapering Strategy",
+    "briefTitle": "TOward the Lowest Effective DOse of Abatacept or Tocilizumab",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2019-11-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tocilizumab, Abatacept",
+      "Decrease Tocilizumab, Abatacept"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00036374",
+    "title": "A Randomized, Double-Blind Trial of Anti-TNF Chimeric Monoclonal Antibody (Infliximab) in Combination With Methotrexate for the Treatment of Patients With Polyarticular Juvenile Rheumatoid Arthritis",
+    "briefTitle": "A Study of the Safety and Effectiveness of Infliximab (Remicade) in Patients With Juvenile Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2001-10",
+    "completionDate": "2006-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Infliximab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis, Juvenile"
+    ]
+  },
+  {
+    "nctId": "NCT01120366",
+    "title": "Success of Tocilizumab in RA Patients With Remission Induction and Sustained Efficacy After Discontinuation",
+    "briefTitle": "Success of Tocilizumab in RA Patients With Remission Induction and Sustained Efficacy After Discontinuation",
+    "status": "COMPLETED",
+    "startDate": "2009-10",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tocilizumab plus methotrexate",
+      "Tocilizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00838565",
+    "title": "Phase 1, Randomized, Patient And Investigator-blind, Placebo-controlled Study To Investigate The Safety, Tolerability, Pharmacokinetics And Pharmacodynamics Of Multiple Intravenously Administered Doses Of Pf-04236921 In Patients With Rheumatoid Arthritis Receiving Methotrexate",
+    "briefTitle": "Phase I Study Of The Safety, Tolerability, Pharmacokinetics And Pharmacodynamics Of Multiple Intravenously Administered Doses Of PF-04236921 In Patients With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2009-05-20",
+    "completionDate": "2012-02-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Placebo",
+      "dose level 1",
+      "dose level 2",
+      "dose level 3",
+      "dose level 4"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT01160666",
+    "title": "A Phase 2, Proof of Concept, 52-Week Open Study to Evaluate the Efficacy and Safety of Belimumab (HGS1006, LymphoStat-B\u2122), a Fully Human Monoclonal Anti-BLyS (BAFF) Antibody, in Subjects With Primary Sj\u00f6gren's Syndrome",
+    "briefTitle": "Efficacy and Safety of Belimumab in Subjects With Primary Sj\u00f6gren's Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2012-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Belimumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sj\u00f6gren's Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01590966",
+    "title": "Scintigraphic Detection of the Biodistribution of Tumor Necrosis Factor With a Radiolabeled Anti-TNF\u03b1 in Patients With Active Rheumatoid Arthritis and Active Axial and Peripheral Spondyloarthritis",
+    "briefTitle": "Scintigraphic Detection of the Biodistribution of Tumor Necrosis Factor With a Radiolabeled Anti-TNF\u03b1 in Patients With Active Rheumatoid Arthritis and Active Axial and Peripheral Spondyloarthritis",
+    "status": "COMPLETED",
+    "startDate": "2012-10-18",
+    "completionDate": "2019-08-20",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "administration of Cimzia\u00ae",
+      "Immunoscintigraphy with radiolabeled Cimzia\u00ae."
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Axial and Peripheral Spondyloarthritis",
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00162266",
+    "title": "A Phase IIB, Multi-Center, Randomized, Double-Blind, Placebo Controlled Study to Evaluate the Safety and Clinical Efficacy of Two Different Doses of BMS-188667 Administered Intravenously to Subjects With Active Rheumatoid Arthritis While Receiving Methotrexate",
+    "briefTitle": "Abatacept With Methotrexate- Phase IIB",
+    "status": "COMPLETED",
+    "startDate": "2000-10",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Abatacept (BMS-188667)",
+      "Abatacept (BMS-188667)",
+      "Abatacept (BMS-188667)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT05507580",
+    "title": "A Phase 3b/4 Randomized, Blinded, Treat-to-Target and Dose-Flexibility Study of Upadacitinib in Adult Subjects With Moderate to Severe Atopic Dermatitis",
+    "briefTitle": "A Study to Assess Treat-to-Target and Dosing Flexibility of Oral Upadacitinib Tablets in Adult Participants With Moderate to Severe Atopic Dermatitis",
+    "status": "COMPLETED",
+    "startDate": "2023-05-12",
+    "completionDate": "2024-08-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Upadacitinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Atopic Dermatitis"
+    ]
+  },
+  {
+    "nctId": "NCT01248780",
+    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Golimumab in the Treatment of Chinese Subjects With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+    "briefTitle": "Study of Subcutaneous Golimumab in Chinese Patients With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+    "status": "COMPLETED",
+    "startDate": "2010-09",
+    "completionDate": "2012-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Golimumab",
+      "Placebo",
+      "Methotrexate (MTX)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT03667131",
+    "title": "Effect of Prophylactic Treatment With Enalapril Maleate on Arterial Stiffness in Rheumatoid Arthritis Patients.",
+    "briefTitle": "Enalapril Maleate on Arterial Stiffness in Rheumatoid Arthritis.",
+    "status": "COMPLETED",
+    "startDate": "2017-02-13",
+    "completionDate": "2018-02-19",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Enalapril Maleate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00535782",
+    "title": "A Mechanism of Action Study to Evaluate the Effects of IL-6 Receptor Blockade With Tocilizumab (TCZ) on Lipids, Arterial Stiffness, and Markers of Atherogenic Risk in Patients With Moderate to Severe Active Rheumatoid Arthritis (RA).",
+    "briefTitle": "A Study of the Effect of Tocilizumab on Markers of Atherogenic Risk in Patients With Moderate to Severe Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2007-10-31",
+    "completionDate": "2011-01-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tocilizumab",
+      "Placebo",
+      "Methotrexate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT03983876",
+    "title": "Multi-center, Randomized, Open-Label, 2-Arm Parallel Study to Compare the Pharmacokinetics, Safety and Tolerability of AVT02 Administered Subcutaneously Via Prefilled Syringe or Autoinjector in Healthy Adult Volunteers (ALVOPAD PEN)",
+    "briefTitle": "PK, Safety and Tolerability Study of AVT02 (Adalimumab) Pre-filled Syringe (PFS) vs, AVT02 Autoinjector (AI)",
+    "status": "COMPLETED",
+    "startDate": "2019-07-01",
+    "completionDate": "2019-12-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Adalimumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Phase 1"
+    ]
+  },
+  {
+    "nctId": "NCT02176876",
+    "title": "A Phase 1b, Double-Blind, Randomized, Placebo-Controlled, Multicenter Study Evaluating the Safety, Tolerability, and Pharmacokinetics of GS-5745 in Subjects With Rheumatoid Arthritis",
+    "briefTitle": "Safety, Tolerability, and Pharmacokinetics of GS-5745 in Subjects With Rheumatoid Arthritis",
+    "status": "COMPLETED",
+    "startDate": "2014-08",
+    "completionDate": "2015-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GS-5745",
+      "Placebo to match GS-5745"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00565331",
+    "title": "A Prospective Randomized Study on the Efficacy and Safety of the Prophylactic Use of Rituximab, Added to Standard Immunosuppressive Treatment in Comparison With Standard Immunosuppressive Treatment Alone in Renal Transplantation",
+    "briefTitle": "Rituximab for Prevention of Rejection After Renal Transplantation",
+    "status": "COMPLETED",
+    "startDate": "2007-12",
+    "completionDate": "2015-06",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Rituximab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Kidney Transplantation"
+    ]
+  },
+  {
+    "nctId": "NCT01737944",
+    "title": "Exposure, Safety and Local Tolerance Study Comparing 3 Routes of Methotrexate (MTX) Administration: Vibex-MTX Device, Subcutaneous (SC)and Intramuscular (IM) in Adult Subjects With Rheumatoid Arthritis",
+    "briefTitle": "Exposure Study Comparing 3 Routes of Methotrexate (MTX) Administration",
+    "status": "COMPLETED",
+    "startDate": "2011-01",
+    "completionDate": "2011-06",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Methotrexate (MTX)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Rheumatoid Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT00856544",
+    "title": "Phase 3, Randomized, Double Blind, Placebo Controlled Study Of The Safety And Efficacy Of 2 Doses Of CP 690,550 In Patients With Active Rheumatoid Arthritis On Background DMARDS",
+    "briefTitle": "A Study Comparing 2 Doses Of CP-690,550 Vs. Placebo For The Treatment Of Rheumatoid Arthritis In Patients On Other Background Arthritis Medications",
+    "status": "COMPLETED",
+    "startDate": "2009-05",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "CP-690,550",
+      "CP-690,550",
+      "Placebo",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Arthritis, Rheumatoid"
+    ]
+  }
+]

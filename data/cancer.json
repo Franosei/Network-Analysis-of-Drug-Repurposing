@@ -1,0 +1,3862 @@
+[
+  {
+    "nctId": "NCT03805594",
+    "title": "Immunogenic Priming With PSMA-Targeted Radioligand Therapy in Advanced Prostate Cancer: A Phase 1b Study of 177Lu-PSMA-617 in Combination With Pembrolizumab",
+    "briefTitle": "177Lu-PSMA-617 and Pembrolizumab in Treating Patients With Metastatic Castration-Resistant Prostate Cancer",
+    "status": "COMPLETED",
+    "startDate": "2019-05-10",
+    "completionDate": "2024-01-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Lutetium Lu 177-PSMA-617"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Castration Levels of Testosterone",
+      "Castration-Resistant Prostate Carcinoma",
+      "Metastatic Prostate Carcinoma",
+      "Prostate Adenocarcinoma",
+      "Stage IV Prostate Cancer",
+      "Stage IVA Prostate Cancer",
+      "Stage IVB Prostate Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00021294",
+    "title": "Phase IIB Randomized, Double-Blinded, Placebo Controlled Study to Evaluate the Safety and Efficacy of Topical Difluoromethylornithine (DFMO) With and Without a Topical Corticosteroid Cream (Triamcinolone 0.1%) in the Therapy of Actinic Keratoses (AK) on the Forearms",
+    "briefTitle": "Eflornithine With or Without Triamcinolone in Preventing Nonmelanoma Skin Cancer in Patients With Actinic Keratosis",
+    "status": "COMPLETED",
+    "startDate": "2001-05",
+    "completionDate": "2002-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "eflornithine",
+      "triamcinolone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-melanomatous Skin Cancer",
+      "Precancerous/Nonmalignant Condition"
+    ]
+  },
+  {
+    "nctId": "NCT06341894",
+    "title": "Efficacy and Safety of Dalpiciclib With Endocrine Therapy as Adjuvant Treatment in Patients With Hormone Receptor-positive, HER2-negative Early Breast Cancer",
+    "briefTitle": "Efficacy and Safety of Dalpiciclib With Endocrine Therapy as Adjuvant Treatment in HR+/ HER2- Early Breast Cancer",
+    "status": "RECRUITING",
+    "startDate": "2023-11-17",
+    "completionDate": "2029-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dalpiciclib",
+      "Endocrine therapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Early Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01074060",
+    "title": "A Phase I/Pilot Study of Intravenous PLERIXAFOR Following Cyclophosphamide Mobilization in Patients With Multiple Myeloma",
+    "briefTitle": "Plerixafor and Filgrastim Following Cyclophosphamide for Stem Cell Mobilization in Patients With Multiple Myeloma",
+    "status": "COMPLETED",
+    "startDate": "2010-04",
+    "completionDate": "2013-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "plerixafor",
+      "cyclophosphamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory Multiple Myeloma",
+      "Stage I Multiple Myeloma",
+      "Stage II Multiple Myeloma",
+      "Stage III Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT06510660",
+    "title": "Adebrelimab with or Without Induction Chemotherapy Followed by Concurrent Chemoradiotherapy for Unresectable Locally Advanced Esophageal Squamous Cell Carcinoma: a Prospective, Phase 2 Trial",
+    "briefTitle": "Adebrelimab \u00b1Induction Chemotherapy Followed by Concurrent Chemoradiotherapy for Unresectable Locally Advanced ESCC",
+    "status": "RECRUITING",
+    "startDate": "2024-04-11",
+    "completionDate": "2028-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "adebrelimab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Esophageal Squamous Cell Carcinoma",
+      "Immunotherapy",
+      "Biomarkers"
+    ]
+  },
+  {
+    "nctId": "NCT03520660",
+    "title": "Long-Term Follow-Up Of Subjects With CHC Who Achieved A Sustained Virological Response Following Therapy With Direct Acting Antiviral Agents",
+    "briefTitle": "People With CHC Who Achieved a Sustained Virological Response Following Therapy With Direct Acting Antiviral Agents",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-10-19",
+    "completionDate": "2032-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Epclusa"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus",
+      "Hepatitis C, Chronic",
+      "Cardiovascular Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT00179660",
+    "title": "A Phase II, Multicenter, Single-Arm, Open-Label Study To Evaluate The Safety And Efficacy Of Single-Agent Lenalidomide (Revlimid\u00ae, CC-5013) In Subjects With Relapsed Or Refractory Aggressive Non-Hodgkin's Lymphoma",
+    "briefTitle": "Safety And Efficacy Of Lenalidomide In Patients With Relapsed Or Refractory Aggressive Non-Hodgkin's Lymphoma (NHL)",
+    "status": "COMPLETED",
+    "startDate": "2005-08",
+    "completionDate": "2008-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lenalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-Hodgkins Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT03731260",
+    "title": "A 3-Part, Randomized, Double-Blind, Placebo-Controlled Phase 2 Study to Evaluate Safety and Efficacy of Avapritinib (BLU-285), a Selective KIT Mutation-Targeted Tyrosine Kinase Inhibitor, in Indolent and Smoldering Systemic Mastocytosis With Symptoms Inadequately Controlled With Standard Therapy",
+    "briefTitle": "(PIONEER) Study to Evaluate Efficacy and Safety of Avapritinib (BLU-285), A Selective KIT Mutation-targeted Tyrosine Kinase Inhibitor, Versus Placebo in Patients With Indolent Systemic Mastocytosis",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-04-16",
+    "completionDate": "2028-01-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Avapritinib",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Indolent Systemic Mastocytosis"
+    ]
+  },
+  {
+    "nctId": "NCT04586660",
+    "title": "An Open-label, Multi-center, Phase 4 Study of XGEVA\u00ae (Denosumab) in Chinese Adults and Skeletally Mature Adolescents With Giant Cell Tumor of the Bone",
+    "briefTitle": "Study of XGEVA\u00ae (Denosumab) in Chinese Adults and Skeletally Mature Adolescents With Giant Cell Tumor of the Bone",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-08-17",
+    "completionDate": "2028-03-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "XGEVA\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Giant Cell Tumor of Bone"
+    ]
+  },
+  {
+    "nctId": "NCT01523860",
+    "title": "Brief Induction Chemoimmunotherapy With Rituximab + Bendamustine + Mitoxantrone Followed by Rituximab in Elderly Patients With Advanced Stage Previously Untreated Follicular Lymphoma",
+    "briefTitle": "Brief Chemoimmunotherapy With R+B+M Followed by R in Elderly Patients Advanced Stage Untreated Follicular Lymphoma",
+    "status": "COMPLETED",
+    "startDate": "2009-06",
+    "completionDate": "2015-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Rituximab, Mitoxantrone, Bendamustine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Follicular Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT03463460",
+    "title": "A Multicenter, Phase II Trial of Pembrolizumab and Sunitinib in Refractory Advanced Thymic Carcinoma",
+    "briefTitle": "Pembrolizumab and Sunitinib Malate in Treating Participants With Refractory Metastatic or Unresectable Thymic Cancer",
+    "status": "RECRUITING",
+    "startDate": "2018-06-19",
+    "completionDate": "2025-04-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Sunitinib Malate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Thymic Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT00521560",
+    "title": "Phase I/II Study Concomitant High-Dose Radio-Immuno- and Chemotherapy With Simultaneous Application of Zevalin and BEAM Followed by Autologous Peripheral Stem Cell Transplantation in Relapsed and Refractory CD 20+ Non-Hodgkin's Lymphoma",
+    "briefTitle": "A Study of Zevalin and Simultaneous Application of BEAM High-dose Chemotherapy Followed by Autologous Stem Cell Transplantation in Refractory and Relapsed Aggressive Non-Hodgkin Lymphomas",
+    "status": "COMPLETED",
+    "startDate": "2006-03",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Zevalin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Non-Hodgkin-Lymphoma",
+      "Refractory Non-Hodgkin-Lymphoma",
+      "CD20+ Aggressive Non-Hodgkin's Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT04402060",
+    "title": "A Randomized, Double-Blinded, Vehicle-Controlled, Multicenter, Parallel-Group Study of APL-9 in Mild to Moderate Acute Respiratory Distress Syndrome Due to COVID-19",
+    "briefTitle": "A Study of APL-9 in Adults With Mild to Moderate ARDS Due to COVID-19",
+    "status": "COMPLETED",
+    "startDate": "2020-05-28",
+    "completionDate": "2021-02-13",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "APL-9"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "COVID",
+      "Covid-19",
+      "Coronavirus",
+      "Coronavirus Infection",
+      "Severe Acute Respiratory Syndrome",
+      "Severe Acute Respiratory Syndrome Coronavirus 2",
+      "Sars-CoV2",
+      "Ards",
+      "Acute Respiratory Distress Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT03495960",
+    "title": "Randomized Phase II Trial on Fitness- and Comorbidity- Tailored Treatment in Elderly Patients With Newly Diagnosed Primary CNS Lymphoma (FIORELLA Trial)",
+    "briefTitle": "Study on Tailored Treatment in Elderly Patients With Newly Diagnosed Primary Lymphoma of Central Nervous System",
+    "status": "COMPLETED",
+    "startDate": "2019-06-15",
+    "completionDate": "2024-12-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Rituximab",
+      "Methotrexate",
+      "Procarbazine",
+      "Lenalidomide",
+      "Temozolomide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Central Nervous System Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT05829460",
+    "title": "Primary Prevention and Uterine Preservation in Premenopausal Women With Obesity and Endometrial Hyperplasia",
+    "briefTitle": "Primary Prevention and Uterine Preservation in Premenopausal Women With Obesity and Endometrial Hyperplasia",
+    "status": "RECRUITING",
+    "startDate": "2025-04-30",
+    "completionDate": "2032-04-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Semaglutide",
+      "Placebo",
+      "LNG-IUD (Progestin)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Endometrial Hyperplasia"
+    ]
+  },
+  {
+    "nctId": "NCT05946460",
+    "title": "Neoadjuvant Aumolertinib in Patients With AI-diagnosed EGFR-mutant High-risk Pulmonary Ground-glass Opacity: A Single-arm, Phase II Trial",
+    "briefTitle": "Neoadjuvant Aumolertinib in Patients With AI-diagnosed EGFR-mutant High-risk Pulmonary Ground-glass Opacity.",
+    "status": "RECRUITING",
+    "startDate": "2023-08-15",
+    "completionDate": "2025-07-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Aumolertinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT04209660",
+    "title": "A Phase II Study of Lenvatinib Plus Pembrolizumab in Patients with Progressive, Recurrent/Metastatic Adenoid Cystic Carcinoma and Other Salivary Gland Cancers",
+    "briefTitle": "Lenvatinib and Pembrolizumab in People with Advanced Adenoid Cystic Carcinoma and Other Salivary Gland Cancers",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2020-06-02",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lenvatinib",
+      "Pembrolizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Adenoid Cystic Carcinoma",
+      "Salivary Gland Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT02920476",
+    "title": "A Phase II Trial of TAS-102 in Previously Treated Unresectable or Metastatic Squamous Cell Carcinoma of the Lung",
+    "briefTitle": "TAS-102 in Previously Treated Unresectable or Metastatic Squamous Cell Lung Carcinoma (UF-STO-LUNG-003)",
+    "status": "COMPLETED",
+    "startDate": "2017-07-19",
+    "completionDate": "2021-08-14",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "TAS-102"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Squamous Cell Lung Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT00038376",
+    "title": "Phase II Study of Interferon Alpha and Isotretinoin in Patients With T-Cell Malignancies",
+    "briefTitle": "Phase II Study Of Roferon and Accutane For Patients With T-Cell Malignancies",
+    "status": "COMPLETED",
+    "startDate": "1990-05-08",
+    "completionDate": "2005-06-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Isotretinoin (Accutane)",
+      "Interferon Alpha"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Lymphoma, T-Cell",
+      "Mycosis Fungoides",
+      "Hematologic Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT05727176",
+    "title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients With Advanced Cholangiocarcinoma With FGFR2 Fusions or Rearrangements",
+    "briefTitle": "Study of Futibatinib in Patients With Advanced Cholangiocarcinoma With FGFR2 Fusion or Rearrangement",
+    "status": "RECRUITING",
+    "startDate": "2023-07-05",
+    "completionDate": "2026-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "TAS-120"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Cholangiocarcinoma",
+      "FGFR2 Fusions",
+      "Gene Rearrangement"
+    ]
+  },
+  {
+    "nctId": "NCT03532776",
+    "title": "A Multicenter, Randomized, Double-Blind, Parallel Group, Placebo- Controlled, Study of Hyloris Developments' Podofilox Topical Gel 0.5% Compared to Allergan's Condylox\u00ae Gel 0.5% in Male and Female Patients With External Anogenital Warts.",
+    "briefTitle": "Comparison Between Podofilox Topical Gel 0.5% and Allergan's Condylox\u00ae Gel 0.5% for External Anogenital Warts",
+    "status": "COMPLETED",
+    "startDate": "2018-04-20",
+    "completionDate": "2020-01-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Podofilox Gel 0.5%",
+      "Condylox Topical Gel 0.5%",
+      "Placebo Gel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "External Anogenital Warts"
+    ]
+  },
+  {
+    "nctId": "NCT04134676",
+    "title": "Therapeutic Potential of Stem Cell Conditioned Medium on Chronic Ulcer Wounds : Pilot Study in Human",
+    "briefTitle": "Therapeutic Potential of Stem Cell Conditioned Medium on Chronic Ulcer Wounds",
+    "status": "COMPLETED",
+    "startDate": "2019-06-01",
+    "completionDate": "2020-06-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Conditioned Media"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Ulcer"
+    ]
+  },
+  {
+    "nctId": "NCT04483076",
+    "title": "A Prospective, Multicenter, Randomized, Controlled Phase III Study Evaluating Different Cycles of Oxaliplatin Combined With S-1 (SOX) as Neoadjuvant Chemotherapy for Patients With Locally Advanced Gastric Cancer: RESONANCE-II Trial",
+    "briefTitle": "Oxaliplatin Combined With S-1(SOX) Neoadjuvant Chemotherapy for Different Cycles in Patients With Gastric Cancer",
+    "status": "RECRUITING",
+    "startDate": "2021-01-13",
+    "completionDate": "2028-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Chemotherapy drug"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Gastric Cancer",
+      "Chemotherapy Effect"
+    ]
+  },
+  {
+    "nctId": "NCT01195376",
+    "title": "A Phase I Study of BEZ235, Administered Orally in Adult Japanese Patients With Advanced Solid Tumors",
+    "briefTitle": "A Study of BEZ235 in Adult Japanese Patients With Advanced Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2010-10",
+    "completionDate": "2013-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BEZ235"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Solid Tumor"
+    ]
+  },
+  {
+    "nctId": "NCT05157776",
+    "title": "Neoadjuvant Sintilimab and Platinum-based Chemotherapy for Resectable Locally Advanced NSCLC Harboring no Driver Mutations: A Prospective, Randomized, Multicenter Phase III Trial",
+    "briefTitle": "A Phase III Trial of Neoadjuvant Sintilimab and Chemotherapy for NSCLC Harboring No Driver Mutations",
+    "status": "RECRUITING",
+    "startDate": "2021-10-28",
+    "completionDate": "2025-10-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "PD-1 and chemotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "NSCLC, Stage IIIA",
+      "EGF-R Negative Non-Small Cell Lung Cancer",
+      "ALK Negative NSCLC"
+    ]
+  },
+  {
+    "nctId": "NCT00910676",
+    "title": "Phase II Multicentric Study About Preventive Treatment of Folliculitis Induced by the EGF-R Inhibitors in Patients With Metastatic Colorectal Cancer and Treated by Cetuximab or With Non-small-cell Lung Carcinoma Treated by Erlotinib",
+    "briefTitle": "Study About Preventive Treatment of Folliculitis Induced by Epidermal Growth Factor Receptor Inhibitors",
+    "status": "COMPLETED",
+    "startDate": "2007-10",
+    "completionDate": "2009-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Diprosone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Metastatic Colorectal Cancer",
+      "Non-Small-Cell Lung Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT02575794",
+    "title": "Phase 1 Dose Escalation and Drug Distribution Study of Oral Terameprocol in Patients With Recurrent High Grade Glioma",
+    "briefTitle": "Terameprocol in Treating Patients With Recurrent High Grade Glioma",
+    "status": "COMPLETED",
+    "startDate": "2018-05-03",
+    "completionDate": "2023-10-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Terameprocol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "High Grade Glioma (III or IV)"
+    ]
+  },
+  {
+    "nctId": "NCT00002894",
+    "title": "A RANDOMISED TRIAL OF PACLITAXEL (TAXOL) IN COMBINATION WITH PLATINUM CHEMOTHERAPY VS. CONVENTIONAL PLATINUM-BASED CHEMOTHERAPY IN THE TREATMENT OF WOMEN WITH RELAPSED OVARIAN CANCER",
+    "briefTitle": "Platinum-based Chemotherapy With or Without Paclitaxel in Treating Patients With Relapsed Ovarian Cancer",
+    "status": "COMPLETED",
+    "startDate": "1996-03",
+    "completionDate": "2003-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "carboplatin",
+      "cisplatin",
+      "paclitaxel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Ovarian Cancer",
+      "Primary Peritoneal Cavity Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00047294",
+    "title": "Phase II Study Of Temozolomide, Thalidomide And Celecoxib In Patients With Newly Diagnosed Glioblastoma Multiforme In The Post-Radiation Setting",
+    "briefTitle": "Temozolomide, Thalidomide, and Celecoxib Following Radiation Therapy in Treating Patients With Newly Diagnosed Glioblastoma Multiforme",
+    "status": "COMPLETED",
+    "startDate": "2001-04",
+    "completionDate": "2007-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "celecoxib",
+      "temozolomide",
+      "thalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain and Central Nervous System Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT00338494",
+    "title": "Dose Escalation Study of Clofarabine in Patients With Relapsed or Refractory Low Grade or Intermed.Grade B-Cell/T-Cell Lymphoma",
+    "briefTitle": "Dose Escalation Study of Clofarabine in Patients With Relapsed or Refractory Low Grade or Intermediate-Grade B-Cell Lymphoma",
+    "status": "COMPLETED",
+    "startDate": "2005-10",
+    "completionDate": "2011-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Clofarabine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "B-Cell Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT01161394",
+    "title": "Effect of Pioglitazone on Oxidative Load, Inflammatory End-Points and Vascular Reactivity in Obese Non-Diabetic Patients: A Dose Ranging Study",
+    "briefTitle": "Effect of Pioglitazone on Oxidative Load, Inflammatory End-Points and Vascular Reactivity in Obese Non-Diabetic Patients: A Dose Ranging Study",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Pioglitazone 15mg",
+      "pioglitazone 30mg",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Inflammation"
+    ]
+  },
+  {
+    "nctId": "NCT06462794",
+    "title": "An Investigational Study of CX-801 as Monotherapy and in Combination With PD1 Inhibition in Participants With Solid Tumors",
+    "briefTitle": "First In Human Study of CX-801 in Advanced Solid Tumors",
+    "status": "RECRUITING",
+    "startDate": "2024-08-28",
+    "completionDate": "2029-06-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CX-801",
+      "pembrolizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Tumor, Adult"
+    ]
+  },
+  {
+    "nctId": "NCT02391194",
+    "title": "A Phase 1 Trial of AVB-620 in Women With Primary, Non-Recurrent Breast Cancer Undergoing Surgery",
+    "briefTitle": "Trial of AVB-620 in Women With Primary, Non-Recurrent Breast Cancer Undergoing Surgery",
+    "status": "COMPLETED",
+    "startDate": "2015-04",
+    "completionDate": "2017-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "AVB-620"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03148860",
+    "title": "Impact of Concomitant Methotrexate on Efficacy, Safety and Adherence of Ustekinumab-treatment in Patients With Active Psoriasis Arthritis",
+    "briefTitle": "Impact of Concomitant MTX on Efficacy, Safety and Adherence of Ustekinumab-treatment in Patients With Active PsA",
+    "status": "COMPLETED",
+    "startDate": "2016-12-15",
+    "completionDate": "2021-10-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Methotrexate",
+      "Ustekinumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Psoriatic Arthritis"
+    ]
+  },
+  {
+    "nctId": "NCT04493060",
+    "title": "Phase II Study of Niraparib and TSR-042 in Patients with Germline or Somatic BRCA1/2 and PALB2-Related Pancreatic Cancer",
+    "briefTitle": "Niraparib and Dostarlimab for the Treatment of Germline or Somatic BRCA1/2 and PALB2 Mutated Metastatic Pancreatic Cancer",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2020-12-28",
+    "completionDate": "2025-06-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Niraparib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Metastatic Pancreatic Ductal Adenocarcinoma",
+      "Stage IV Pancreatic Cancer AJCC V8"
+    ]
+  },
+  {
+    "nctId": "NCT00199160",
+    "title": "",
+    "briefTitle": "Efficacy and Activity of BAY 43-9006 in Patients With Recurrent and/or Metastatic Head and Neck Cancer",
+    "status": "COMPLETED",
+    "startDate": "2005-04",
+    "completionDate": "2010-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "BAY 43-9006"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Head and Neck Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT00863460",
+    "title": "Prospective , Multicentric, Randomized Phase II Study, Evaluating the Role of Cranial Radiotherapy or Intensive Chemotherapy With Hematopoietic Stem Cell Rescue After Conventional Chemotherapy for Primary Central Nervous System in Young Patients (< 60 y)",
+    "briefTitle": "Cranial Radiotherapy or Intensive Chemotherapy With Hematopoietic Stem Cell Rescue for Primary Central Nervous System Lymphoma in Young Patients",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2008-10-03",
+    "completionDate": "2026-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "intensive chemotherapy and hematopoietic stem cell rescue",
+      "MTX based chemotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Central Nervous System Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT02203760",
+    "title": "Pazopanib Vs. Pazopanib Plus Gemcitabine in Patients with Relapsed or Metastatic Uterine Leiomyosarcomas or Uterine Carcinosarcomas: a Multi-center, Randomized Phase-II Clinical Trial of the NOGGO and AGO - PazoDoble -",
+    "briefTitle": "Pazopanib Vs. Pazopanib Plus Gemcitabine",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-10-16",
+    "completionDate": "2024-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Pazopanib plus Gemcitabine",
+      "Pazopanib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Leiomyosarcoma or Carcinosarcoma"
+    ]
+  },
+  {
+    "nctId": "NCT02652260",
+    "title": "Phase IIb, Double-Blinded, Multicenter, Randomized Study to Assess the Effect on Central Nervous System (CNS) Toxicity of Switching From ATRIPLA\u2122 (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Subjects.",
+    "briefTitle": "Effects of Switching From ATRIPLA\u2122 (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Participants (MK-1439A-028)",
+    "status": "COMPLETED",
+    "startDate": "2016-03-04",
+    "completionDate": "2024-02-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Doravirine, Tenofovir, Lamivudine - Blinded",
+      "Doravirine, Tenofovir, Lamivudine - Open-Label",
+      "ATRIPLA^TM",
+      "Placebo to ATRIPLA\u2122",
+      "Placebo to Doravirine, Tenofovir, Lamivudine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV-1",
+      "Central Nervous System"
+    ]
+  },
+  {
+    "nctId": "NCT00331760",
+    "title": "A Phase II Study of Intensity Modulated Radiation Therapy (IMRT) to the Pelvis \u00b1 Chemotherapy for Post-Operative Patients With Either Endometrial or Cervical Carcinoma",
+    "briefTitle": "Intensity-Modulated Radiation Therapy to the Pelvis With or Without Chemotherapy in Treating Patients With Endometrial Cancer or Cervical Cancer That Has Been Removed By Surgery",
+    "status": "COMPLETED",
+    "startDate": "2006-03",
+    "completionDate": "2016-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "cisplatin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cervical Cancer",
+      "Endometrial Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00391560",
+    "title": "Phase II Study of Perifosine in Patients With Refractory and Relapsed Leukemia",
+    "briefTitle": "Phase II Study of Perifosine in Patients With Refractory and Relapsed Leukemia",
+    "status": "COMPLETED",
+    "startDate": "2006-10",
+    "completionDate": "2011-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "perifosine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT01466660",
+    "title": "LUX-Lung 7: A Randomised, Open-label Phase IIb Trial of Afatinib Versus Gefitinib as First-line Treatment of Patients With EGFR Mutation Positive Advanced Adenocarcinoma of the Lung",
+    "briefTitle": "LUX-Lung 7: A Phase IIb Trial of Afatinib(BIBW2992) Versus Gefitinib for the Treatment of 1st Line EGFR Mutation Positive Adenocarcinoma of the Lung",
+    "status": "COMPLETED",
+    "startDate": "2011-12-13",
+    "completionDate": "2019-04-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Afatinib",
+      "gefitinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Lung Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT00820560",
+    "title": "A Phase I, Open-Label, Dose-Escalation Study to Assess the Safety, Tolerability, and Pharmacokinetics of INCB007839 Following Multiple Oral Doses in Patients With Solid Tumors",
+    "briefTitle": "Open-Label Study to Assess the Safety/Tolerability in Patients With Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2005-01",
+    "completionDate": "2009-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "INCB007839"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Tumors and Hematologic Malignancy"
+    ]
+  },
+  {
+    "nctId": "NCT06588660",
+    "title": "Phase 1b Study of ST-067 (Decoy-Resistant IL-18) With Teclistamab in Multiple Myeloma",
+    "briefTitle": "ST-067 and Teclistamab for the Treatment of Relapsed or Refractory Multiple Myeloma",
+    "status": "RECRUITING",
+    "startDate": "2024-12-18",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Teclistamab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Recurrent Multiple Myeloma",
+      "Refractory Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT02106260",
+    "title": "A Phase I/IIa Open-label First-in-Human Study to Assess Safety and Pharmacokinetics and Explore Biomarker Effects of Topical Ionic Contra-viral Therapy (ICVT) Comprised of CLS003 in Subjects With Cutaneous Warts",
+    "briefTitle": "First-in-Human Study of CLS003 ICVT in Subjects With Cutaneous Warts",
+    "status": "COMPLETED",
+    "startDate": "2014-03",
+    "completionDate": "",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "CLS003"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cutaneous Warts"
+    ]
+  },
+  {
+    "nctId": "NCT04294576",
+    "title": "First-in-human (FIH), Open-Label, Phase 1a (Dose Escalation)/Phase 1b (Expansion Cohort) Trial of BJ-001 as a Single Agent and in Combination With Pembrolizumab in Patients With Locally Advanced/Metastatic Solid Tumors",
+    "briefTitle": "Safety Study of BJ-001, an IL-15 Fusion Protein, for Locally Advanced/Metastatic Solid Tumors",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-12-04",
+    "completionDate": "2024-10-22",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BJ-001",
+      "Pembrolizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Locally Advanced/Metastatic Solid Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT04462276",
+    "title": "Thoracic RadiothErapy With Atezolizumab in Small Cell lUng canceR Extensive Disease: a Randomized, Open-label, Multicenter Phase II Study",
+    "briefTitle": "Thoracic RadiothErapy With Atezolizumab in Small Cell lUng canceR Extensive Disease",
+    "status": "COMPLETED",
+    "startDate": "2020-07-28",
+    "completionDate": "2024-09-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Atezolizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Small Cell Lung Cancer Extensive Stage",
+      "Thoracic Radiotherapy"
+    ]
+  },
+  {
+    "nctId": "NCT00116376",
+    "title": "A Phase I/II, Two-arm, Multicenter, Dose Escalation Study of Oral AEE788 Administered on a Continuous Once Daily Dosing Schedule in Adult Patients With Recurrent or Relapsing Glioblastoma Multiforme",
+    "briefTitle": "Study of AEE788 in Patients With Recurrent/Relapse Glioblastoma Multiforme (GBM)",
+    "status": "COMPLETED",
+    "startDate": "2004-01",
+    "completionDate": "2005-11",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "AEE788"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glioblastoma Multiforme"
+    ]
+  },
+  {
+    "nctId": "NCT04649476",
+    "title": "A Randomized Phase II Study of Neoadjuvant PD-1 Blockade Alone or Plus TPF Induction Chemotherapy for Resectable Local Advanced Oral Squamous Cell Carcinoma",
+    "briefTitle": "Neoadjuvant PD-1 Blockade in Resectable Oral Squamous Cell Carcinoma",
+    "status": "COMPLETED",
+    "startDate": "2021-03-22",
+    "completionDate": "2024-08-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Camrelizumab",
+      "Camrelizumanb plus TPF"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Oral Squamous Cell Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT00706576",
+    "title": "Treatment of Unresectable Hepatocellular Cancer With Opioid Growth Factor: a Phase I Study",
+    "briefTitle": "Treatment of Unresectable Hepatocellular Cancer With Opioid Growth Factor",
+    "status": "COMPLETED",
+    "startDate": "2008-06",
+    "completionDate": "2013-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Infusion of opioid growth factor"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatocellular Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT06362694",
+    "title": "Study of the Rechallenge Concept in Patients With BRAF-positive Anaplastic Thyroid Cancer After Progression on Anti-BRAF Therapy",
+    "briefTitle": "Study of the Rechallenge Concept in Patients With BRAF-positive Anaplastic Thyroid Cancer After Progression on Anti-BRAF Therapy",
+    "status": "RECRUITING",
+    "startDate": "2024-03-25",
+    "completionDate": "2026-06-25",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dabrafenib + Trametinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Anaplastic Thyroid Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03639194",
+    "title": "A Phase I Study of ABBV-011 as a Single-Agent and in Combination With Budigalimab (ABBV-181) in Subjects With Relapsed or Refractory Small Cell Lung Cancer",
+    "briefTitle": "A Study of ABBV-011 Alone and in Combination With Budigalimab (ABBV-181) in Participants With Relapsed or Refractory Small Cell Lung Cancer",
+    "status": "COMPLETED",
+    "startDate": "2018-10-24",
+    "completionDate": "2024-01-25",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "ABBV-011",
+      "Budigalimab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Small Cell Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00031694",
+    "title": "A Phase II Study of Sequential Paclitaxel and Bryostatin-1 for Patients With Advanced Pancreatic Cancer",
+    "briefTitle": "Paclitaxel and Bryostatin 1 in Treating Patients With Advanced Pancreatic Cancer",
+    "status": "COMPLETED",
+    "startDate": "2002-03",
+    "completionDate": "2010-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "paclitaxel",
+      "bryostatin 1"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Acinar Cell Adenocarcinoma of the Pancreas",
+      "Duct Cell Adenocarcinoma of the Pancreas",
+      "Recurrent Pancreatic Cancer",
+      "Stage III Pancreatic Cancer",
+      "Stage IV Pancreatic Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT05075460",
+    "title": "A Prospective, Multicenter, Phase III, Non-randomized Study of Tucidinostat, Azacitidine Combined With CHOP Versus CHOP in Patients With Untreated Peripheral T-cell Lymphoma",
+    "briefTitle": "Tucidinostat, Azacitidine Combined With CHOP Versus CHOP in Patients With Untreated Peripheral T-cell Lymphoma",
+    "status": "RECRUITING",
+    "startDate": "2021-10-01",
+    "completionDate": "2024-10-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tucidinostat, Azacitidine combined with CHOP"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "T-cell Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT03844360",
+    "title": "Dose Individualization of Antineoplastic Drugs and Anti-Infective Drug in Children With Hematoplastic Disease",
+    "briefTitle": "Dose Individualization of Antineoplastic Drugs and Anti-Infective Drug in Children With Hematoplastic Disease",
+    "status": "RECRUITING",
+    "startDate": "2016-01-31",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Bortezomib",
+      "Eltrombopag",
+      "Imatinib",
+      "dasatinib",
+      "Pegaspargase",
+      "Anti-Infective Drugs",
+      "PEGylated Recombinant Human Granulocyte Colony-Stimulating Factor"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hematological Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT03359460",
+    "title": "Phase I Trial of the Combination of Ibrutinib and Lenalidomide for the Treatment of Patients With MDS Who Have Failed or Refuse Standard Therapy",
+    "briefTitle": "Ibrutinib and Lenalidomide in Treating Patients With Myelodysplastic Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2017-12-01",
+    "completionDate": "2019-11-17",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ibrutinib",
+      "Lenalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Myelodysplastic Syndrome",
+      "Previously Treated Myelodysplastic Syndrome",
+      "Refractory High Risk Myelodysplastic Syndrome",
+      "Secondary Myelodysplastic Syndrome",
+      "Therapy-Related Myelodysplastic Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT03467360",
+    "title": "Phase I Trial of CArbonic Anhydrase Inhibition in Combination with Radiochemotherapy or Radioimmunotherapy in Small Cell Lung Carcinoma",
+    "briefTitle": "Phase I Trial of CArbonic Anhydrase Inhibition in Combination with Radiochemotherapy or Radioimmunotherapy in Small Cell Lung Carcinoma",
+    "status": "RECRUITING",
+    "startDate": "2019-08-02",
+    "completionDate": "2027-04-27",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "acetazolamide in combination with platinum and etoposide-based radiochemotherapy",
+      "acetazolamide in combination with radioimmunotherapy in patients with extensive SCLC"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Small Cell Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT04134260",
+    "title": "Randomized Phase III Trial Incorporating Apalutamide and Advanced Imaging Into Salvage Treatment for Patients With Node-Positive Prostate Cancer After Radical Prostatectomy (INNOVATE*) *INtensifying Treatment for NOde Positive Prostate Cancer by VArying the Hormonal ThErapy",
+    "briefTitle": "Testing the Addition of the Drug Apalutamide to the Usual Hormone Therapy and Radiation Therapy After Surgery for Prostate Cancer, INNOVATE Trial",
+    "status": "RECRUITING",
+    "startDate": "2020-04-16",
+    "completionDate": "2026-11-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Apalutamide",
+      "Hormone Therapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Prostate Adenocarcinoma",
+      "Stage I Prostate Cancer AJCC v8",
+      "Stage II Prostate Cancer AJCC v8",
+      "Stage III Prostate Cancer AJCC v8",
+      "Stage IVA Prostate Cancer AJCC v8"
+    ]
+  },
+  {
+    "nctId": "NCT02598960",
+    "title": "A Phase 1/2a Dose Escalation and Cohort Expansion Study for Safety, Tolerability, and Efficacy of BMS-986156 Administered Alone and in Combination With Nivolumab (BMS-936558, Anti PD-1 Monoclonal Antibody) in Advanced Solid Tumors",
+    "briefTitle": "An Investigational Immuno-therapy Study of Experimental Medication BMS-986156, Given by Itself or in Combination With Nivolumab in Patients With Solid Cancers or Cancers That Have Spread.",
+    "status": "COMPLETED",
+    "startDate": "2015-10-14",
+    "completionDate": "2019-12-16",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "BMS-986156",
+      "Nivolumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT02903160",
+    "title": "Clinical Trial of a Rapidly Cycling, Non-Cross Reactive Regimen of Approved Therapeutic Agents to Treat Prostate Cancer",
+    "briefTitle": "Prostate Cancer Intensive, Non-Cross Reactive Therapy (PRINT) for Castration Resistant Prostate Cancer (CRPC)",
+    "status": "COMPLETED",
+    "startDate": "2017-01-13",
+    "completionDate": "2021-11-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Abiraterone acetate",
+      "Prednisone",
+      "Radium-223 dichloride",
+      "cabazitaxel",
+      "Carboplatin",
+      "Enzalutamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Prostate Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00905060",
+    "title": "PHASE 2, Multi-center, Single Arm Investigation of HSPPC-96 Vaccine With Temozolomide in Patients With Newly Diagnosed Glioblastoma Multiforme",
+    "briefTitle": "HSPPC-96 Vaccine With Temozolomide in Patients With Newly Diagnosed GBM",
+    "status": "COMPLETED",
+    "startDate": "2009-06-29",
+    "completionDate": "2014-06-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Temozolomide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain and Central Nervous System Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT02734160",
+    "title": "A Phase 1b Dose-Escalation and Cohort-Expansion Study of the Safety, Tolerability, and Efficacy of a Novel Transforming Growth Factor-\u03b2 Receptor I Kinase Inhibitor (Galunisertib) Administered in Combination With the Anti-PD-L1 Antibody Durvalumab (MEDI4736) in Recurrent or Refractory Metastatic Pancreatic Cancer",
+    "briefTitle": "A Study of Galunisertib (LY2157299) and Durvalumab (MEDI4736) in Participants With Metastatic Pancreatic Cancer",
+    "status": "COMPLETED",
+    "startDate": "2016-06-15",
+    "completionDate": "2019-04-17",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Galunisertib",
+      "Durvalumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Metastatic Pancreatic Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT06359860",
+    "title": "A Phase Ib/II Study to Evaluate the Efficacy and Safety of ST-1898 in Subjects With Unresectable or Metastatic Melanoma",
+    "briefTitle": "A Study of ST-1898 for Unresectable or Metastatic Melanoma",
+    "status": "RECRUITING",
+    "startDate": "2023-11-07",
+    "completionDate": "2025-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "ST-1898 tablets"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Unresectable or Metastatic Melanoma"
+    ]
+  },
+  {
+    "nctId": "NCT03173560",
+    "title": "A Randomized, Open-Label (Formerly Double-Blind), Phase 2 Trial to Assess Safety and Efficacy of Lenvatinib at Two Different Starting Doses (18 mg vs. 14 mg QD) in Combination With Everolimus (5 mg QD) in Renal Cell Carcinoma Following One Prior VEGF-Targeted Treatment",
+    "briefTitle": "Trial to Assess Safety and Efficacy of Lenvatinib (18 mg vs. 14 mg) in Combination With Everolimus in Participants With Renal Cell Carcinoma",
+    "status": "COMPLETED",
+    "startDate": "2017-08-17",
+    "completionDate": "2024-06-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "lenvatinib",
+      "everolimus"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Renal Cell Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT00015860",
+    "title": "A Phase I/II Trial of STI-571 and Chemotherapy in Lymphoid Blast Crisis of Chronic Myeloid Leukemia and Philadelphia Chromosome-Positive Acute Lymphoid Leukemia",
+    "briefTitle": "STI571 Plus Combination Chemotherapy in Treating Patients With Chronic Myelogenous Leukemia or Acute Lymphocytic Leukemia",
+    "status": "COMPLETED",
+    "startDate": "2001-05",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "daunorubicin hydrochloride",
+      "imatinib mesylate",
+      "prednisone",
+      "vincristine sulfate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT01222260",
+    "title": "Phase II Study of the Combination of Bendamustine and Dexamethasone in Patients With Relapsed AL Amyloidosis",
+    "briefTitle": "Bendamustine and Dexamethasone in Patients With Relapsed AL Amyloidosis",
+    "status": "COMPLETED",
+    "startDate": "2013-01",
+    "completionDate": "2019-07-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Bendamustine",
+      "Dexamethasone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "AL Amyloidosis"
+    ]
+  },
+  {
+    "nctId": "NCT06384560",
+    "title": "Neoadjuvant Triple Treatment with FOLFIRINOX Plus Pembrolizumab and SABR in Patients with Borderline Resectable Pancreatic Cancer (PREOPANC-5): a Multicenter Single Arm Phase I/II Trial of the Dutch Pancreatic Cancer Group",
+    "briefTitle": "Neoadjuvant Triple Treatment for Borderline Resectable Pancreatic Cancer (PREOPANC-5)",
+    "status": "RECRUITING",
+    "startDate": "2024-09-23",
+    "completionDate": "2028-03",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Pembrolizumab",
+      "Folfirinox"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Borderline Resectable Pancreatic Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00101660",
+    "title": "A Phase II Study to Determine the Activity of BMS-354825 in Subjects With Chronic Phase Philadelphia Chromosome-Positive Chronic Myeloid Leukemia Who Have Disease That is Resistant to High Dose Imatinib Mesylate (Gleevec) or Who Are Intolerant of Imatinib",
+    "briefTitle": "Study of BMS-354825 (Dasatinib) in Patients With Chronic Myeloid Leukemia Who Are Either Resistant or Intolerant to Imatinib",
+    "status": "COMPLETED",
+    "startDate": "2005-02",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dasatinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Myeloid Leukemia",
+      "Philadelphia-Positive Myeloid Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT06836960",
+    "title": "The Clinical Efficacy of Gegen Qinlian Tang Combined with Bifidobacterium Triple Viable Capsules in the Prevention and Treatment of Radiation Enteritis",
+    "briefTitle": "Gegen Qinlian Tang and Probiotics for Radiation Enteritis",
+    "status": "ENROLLING_BY_INVITATION",
+    "startDate": "2025-06-01",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Probiotic Therapy With Gegen Qinlian Tang"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Radiation Enteritis"
+    ]
+  },
+  {
+    "nctId": "NCT02400476",
+    "title": "An Open-Label Study to Characterize the Incidence and Severity of Diarrhea in Patients With Early-Stage HER2+ Breast Cancer Treated With Neratinib and Loperamide",
+    "briefTitle": "An Open-Label Study to Characterize the Incidence and Severity of Diarrhea in Patients With Early-Stage HER2+ Breast Cancer Treated With Neratinib and Loperamide",
+    "status": "COMPLETED",
+    "startDate": "2015-02",
+    "completionDate": "2021-04-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Neratinib",
+      "Loperamide",
+      "Colestipol",
+      "Budesonide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Early Stage HER2+ Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00884676",
+    "title": "A Phase I Trial of Weekly and Every Three Weeks Ixabepilone and Sunitinib in Solid Tumor Patients",
+    "briefTitle": "Ixabepilone and Sunitinib Malate in Treating Patients With Progressive Advanced Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2008-11",
+    "completionDate": "2015-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ixabepilone",
+      "Sunitinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Unspecified Adult Solid Tumor, Protocol Specific"
+    ]
+  },
+  {
+    "nctId": "NCT02924376",
+    "title": "A Phase 2, Open-Label, Single-Arm, Multicenter Study to Evaluate the Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Including FGFR2 Translocations Who Failed Previous Therapy - (FIGHT-202)",
+    "briefTitle": "Efficacy and Safety of Pemigatinib in Subjects With Advanced/Metastatic or Surgically Unresectable Cholangiocarcinoma Who Failed Previous Therapy - (FIGHT-202)",
+    "status": "COMPLETED",
+    "startDate": "2017-01-16",
+    "completionDate": "2022-02-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Pemigatinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cholangiocarcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT01125176",
+    "title": "A Phase II Study of Daily Alternating Thalidomide and Lenalidomide Therapy Plus Rituximab (ThRiL) as Initial Treatment for Patients With CLL",
+    "briefTitle": "Alternating Thalidomide and Lenalidomide Therapy Plus Rituximab (ThRiL) as Initial Treatment for Patients With CLL",
+    "status": "COMPLETED",
+    "startDate": "2012-03-30",
+    "completionDate": "2020-12-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "thalidomide",
+      "lenalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Lymphocytic Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT02044276",
+    "title": "A Randomized, Phase IIIB, Open-label, Two-arm, Multicenter, comparatiVe Study on Efficacy and Safety of Lipegfilgrastim (Lonquex, TEVA) in Comparison to Pegfilgrastim (Neulasta(R), Amgen) in Elderly Patients With Aggressive B Cell Non-HOdgkin Lymphomas at hIgh Risk for R-CHOP-21-inDuced Neutropenia - AVOID Neutropenia",
+    "briefTitle": "A comparatiVe Study on Efficacy and Safety of Lipegfilgrastim in Comparison to Pegfilgrastim in Elderly Patients With Aggressive B Cell Non-HOdgkin Lymphomas at hIgh Risk for R-CHOP-21-inDuced Neutropenia",
+    "status": "COMPLETED",
+    "startDate": "2014-03-31",
+    "completionDate": "2018-04-24",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "lipegfilgrastim",
+      "pegfilgrastim"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Aggressive B Cell Non-Hodgkin Lymphomas at High Risk for R-CHOP-21-induced Neutropenia"
+    ]
+  },
+  {
+    "nctId": "NCT05104476",
+    "title": "Interventional, Randomized, Double-blind, Parallel-group, Placebo-controlled, Multi-centre Study to Assess the Efficacy, Safety and Tolerability of Lu AF82422 in Patients With Multiple System Atrophy",
+    "briefTitle": "A Study of Lu AF82422 in Participants With Multiple System Atrophy",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-11-16",
+    "completionDate": "2026-05-14",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lu AF82422",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple System Atrophy"
+    ]
+  },
+  {
+    "nctId": "NCT01164176",
+    "title": "An Open Label Multi-Center Phase II Study of RAD001 in Advanced Thyroid Cancer",
+    "briefTitle": "Everolimus in Treating Patients With Locally Advanced or Metastatic Thyroid Cancer",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "everolimus"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Head and Neck Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00020176",
+    "title": "Allogeneic Breast Protocol 1: T-Cell Depleted Allogeneic Blood Stem Cell Transplantation Using an Immunoablative Conditioning Regimen in Metastatic Breast Cancer",
+    "briefTitle": "Allogeneic Peripheral Stem Cell Transplantation in Treating Patients With Stage IV Breast Cancer",
+    "status": "COMPLETED",
+    "startDate": "2000-06",
+    "completionDate": "2007-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "cyclophosphamide",
+      "cyclosporine",
+      "fludarabine phosphate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00044876",
+    "title": "Treatment of Leiomyomata With the Selective Progesterone Receptor Modulator CDB-2914",
+    "briefTitle": "Treatment of Uterine Fibroids With CDB-2914, an Experimental Selective Progesterone Receptor Antagonist",
+    "status": "COMPLETED",
+    "startDate": "2002-09-02",
+    "completionDate": "2015-10-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CDB-2914"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Leiomyoma"
+    ]
+  },
+  {
+    "nctId": "NCT02852694",
+    "title": "Risk-stratified Randomized Controlled Trial in Paediatric Crohn Disease:Methotrexate Vs Azathioprine or Adalimumab for Maintaining Remission in Patients At Low or High Risk for Aggressive Disease Course, Respectively-a Treatment Strategy",
+    "briefTitle": "Reduce Risk for Crohn's Disease Patients",
+    "status": "COMPLETED",
+    "startDate": "2017-02-28",
+    "completionDate": "2021-06-14",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Methotrexate",
+      "Adalimumab",
+      "Azathioprine / 6 Mercaptopurine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Crohn's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03650894",
+    "title": "A Phase II Study of Nivolumab Combined With Bicalutamide and Ipilimumab in Metastatic HER2-negative Breast Cancer",
+    "briefTitle": "Nivolumab, Ipilimumab, and Bicalutamide in Human Epidermal Growth Factor (HER) 2 Negative Breast Cancer Patients",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-04-03",
+    "completionDate": "2026-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Nivolumab",
+      "Ipilimumab",
+      "Bicalutamide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Neoplasm Female",
+      "Breast Cancer",
+      "Breast Carcinoma",
+      "Breast Tumor"
+    ]
+  },
+  {
+    "nctId": "NCT05600894",
+    "title": "Venetoclax In Combination With ASTX727, an All-ORal TherapY for Chronic Myelomonocytic Leukemia and Other MDS/MPN With Excess Blasts (VICTORY-MDS/MPN): a Randomized, Phase 2 Trial",
+    "briefTitle": "Venetoclax in Combination With ASTX727 for the Treatment of Chronic Myelomonocytic Leukemia and Other Myelodysplastic Syndrome/Myeloproliferative Neoplasm",
+    "status": "RECRUITING",
+    "startDate": "2023-06-27",
+    "completionDate": "2025-08-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Decitabine and Cedazuridine",
+      "Venetoclax"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Myelomonocytic Leukemia",
+      "Myelodysplastic Syndrome",
+      "Myelodysplastic Syndrome With Excess Blasts",
+      "Myelodysplastic/Myeloproliferative Neoplasm",
+      "Myeloproliferative Neoplasm"
+    ]
+  },
+  {
+    "nctId": "NCT01240460",
+    "title": "An Exploratory Pharmacodynamic Study of XL765 and XL147 Administered as Single Agents to Subjects With Recurrent Glioblastoma Who Are Candidates for Surgical Resection",
+    "briefTitle": "Exploratory Study of XL765 (SAR245409) or XL147 (SAR245408) in Subjects With Recurrent Glioblastoma Who Are Candidates for Surgical Resection",
+    "status": "COMPLETED",
+    "startDate": "2011-01",
+    "completionDate": "2012-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "XL765 (SAR245409)",
+      "XL147 (SAR245408)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glioblastoma",
+      "Astrocytoma, Grade IV"
+    ]
+  },
+  {
+    "nctId": "NCT06045260",
+    "title": "\"Receptor Radionuclide Therapy With 177Lu-DOTATOC (177Lu-edotreotide or 177Lu-octreotide) in SSTR Positive Patients: a Multicenter, Prospective, Phase II Trial\"",
+    "briefTitle": "\"Receptor Radionuclide Therapy With 177Lu-DOTATOC",
+    "status": "RECRUITING",
+    "startDate": "2023-09-13",
+    "completionDate": "2027-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "177Lu-DOTATOC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Neuroendocrine Tumors",
+      "Paraganglioma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "nctId": "NCT05171660",
+    "title": "A Randomized, Open, Multicenter Phase III Clinical Trial of Combination of Sintilimab Injection (IBI308) and XELOX+Bevacizumab Compared With XELOX+Bevacizumab as 1st Line Therapy of RAS-Mutant Metastatic Colorectal Cancer",
+    "briefTitle": "Combination With Sintilimab and XELOX+Bevacizumab as 1st Line Therapy in RAS-mutant Metastatic Colorectal Cancer",
+    "status": "RECRUITING",
+    "startDate": "2022-02-08",
+    "completionDate": "2025-06-30",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Sintilimab Injection",
+      "Control Test"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Colorectal Cancer Stage IV"
+    ]
+  },
+  {
+    "nctId": "NCT05319860",
+    "title": "Effects of Aromatherapy on Chemotherapy-Induced Nausea and Vomiting: A Control Trial",
+    "briefTitle": "Aromatherapy for Chemotherapy-induced Nausea and Vomiting (CINV)",
+    "status": "COMPLETED",
+    "startDate": "2022-08-01",
+    "completionDate": "2024-04-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Standard of Care Treatment for Chemotherapy Induced Nausea and Vomiting (CINV)",
+      "Aromatherapy Care"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chemotherapy-induced Nausea and Vomiting"
+    ]
+  },
+  {
+    "nctId": "NCT02052960",
+    "title": "Randomized, Controlled, Open Label, Multicenter, Phase II Study to Evaluate the Efficacy and Safety of CetuGEX\u2122 Plus CT in Comparison to Cetuximab Plus CT in Patients With Stage III/IV Recurrent and/or Metastatic SCCHN",
+    "briefTitle": "CetuGEX\u2122 in Comparison to Cetuximab for the Treatment of Patients With Head and Neck Cancer",
+    "status": "COMPLETED",
+    "startDate": "2014-02",
+    "completionDate": "2017-10-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CetuGEX\u2122",
+      "Cetuximab",
+      "Chemotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Carcinoma, Squamous Cell of Head and Neck"
+    ]
+  },
+  {
+    "nctId": "NCT00569660",
+    "title": "Phase II Study of Azacitidine in Myelofibrosis",
+    "briefTitle": "Ph II Study of Azacitidine in Myelofibrosis",
+    "status": "COMPLETED",
+    "startDate": "2005-06",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Azacitidine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Myelofibrosis"
+    ]
+  },
+  {
+    "nctId": "NCT05737160",
+    "title": "A Multi-center, Randomized, Double-blind, Placebo-controlled, Phase III Study of Telitacicept in Patients With Generalized Myasthenia Gravis",
+    "briefTitle": "Study of Telitacicept in Generalized Myasthenia Gravis",
+    "status": "RECRUITING",
+    "startDate": "2023-03-28",
+    "completionDate": "2027-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Myasthenia Gravis, Generalized"
+    ]
+  },
+  {
+    "nctId": "NCT06524960",
+    "title": "A Phase 1/2 Prospective, Randomized, Double-blind, Placebo-controlled Multi-center Clinical Trial to Determine the Safety and Efficacy of Denosumab in Improving Beta Cell Function and Glycemic Control Among Patients With Type 1 Diabetes",
+    "briefTitle": "Denosumab for Type 1 Diabetes",
+    "status": "RECRUITING",
+    "startDate": "2024-09-03",
+    "completionDate": "2026-04-11",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Denosumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 1 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT06492460",
+    "title": "A Multicenter, Randomized Controlled, Non-inferior Phase 3 Clinical Trial of 2 Courses of Concurrent Cisplatin Chemoradiotherapy Versus 3 Courses After Surgery for High-risk Head and Neck Squamous Cell Carcinoma",
+    "briefTitle": "2 Courses of Concurrent Cisplatin Chemoradiotherapy After Surgery for High-risk Head and Neck Squamous Cell Carcinoma",
+    "status": "RECRUITING",
+    "startDate": "2024-09-20",
+    "completionDate": "2033-07-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Drug\uff1aCisplatin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Squamous Cell Carcinoma of Head and Neck"
+    ]
+  },
+  {
+    "nctId": "NCT00980460",
+    "title": "Treatment of Children With All Stages of Hepatoblastoma With Temsirolimus (NSC#683864) Added to High Risk Stratum Treatment",
+    "briefTitle": "Risk-Based Therapy in Treating Younger Patients With Newly Diagnosed Liver Cancer",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2009-09-14",
+    "completionDate": "2026-03-19",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Cisplatin",
+      "Dexrazoxane",
+      "Doxorubicin Hydrochloride",
+      "Fluorouracil",
+      "Irinotecan Hydrochloride",
+      "Temsirolimus",
+      "Vincristine Sulfate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "PRETEXT I Hepatoblastoma",
+      "PRETEXT II Hepatoblastoma",
+      "PRETEXT III Hepatoblastoma",
+      "PRETEXT IV Hepatoblastoma"
+    ]
+  },
+  {
+    "nctId": "NCT00165360",
+    "title": "A Phase II Study of Prolonged Daily Temozolomide for Low-Grade Glioma",
+    "briefTitle": "Prolonged Daily Temozolomide for Low-Grade Glioma",
+    "status": "COMPLETED",
+    "startDate": "2001-09",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Temozolomide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glioma",
+      "Astrocytoma",
+      "Oligodendroglioma"
+    ]
+  },
+  {
+    "nctId": "NCT00996060",
+    "title": "A Phase 1 Protocol of Hydralazine and Valproic Acid in Advanced Solid Tumor Malignancies",
+    "briefTitle": "Use of Hydralazine and Valproic Acid in Advanced Solid Tumor Malignancies",
+    "status": "COMPLETED",
+    "startDate": "2008-07",
+    "completionDate": "2013-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Hydralazine and Valproic Acid: Cohort -1",
+      "Hydralazine and Valproic Acid: Cohort 0",
+      "Hydralazine and Valproic Acid: Cohort 1",
+      "Hydralazine and Valproic Acid: Cohort 2",
+      "Hydralazine and Valproic Acid: Cohort 3",
+      "Hydralazine and Valproic Acid: Cohort 4",
+      "Hydralazine and Valproic Acid: Cohort 5"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03324360",
+    "title": "The Feasibility and Role of Hyperpolarized 13C-Pyruvate MR Spectroscopy in Monitoring Patients With Intracranial Metastasis Treated With Stereotactic Radiosurgery (SRS)",
+    "briefTitle": "Role of Hyperpolarized 13C-Pyruvate MR Spectroscopy in Patients With Intracranial Metastasis Treated With (SRS)",
+    "status": "RECRUITING",
+    "startDate": "2017-12-06",
+    "completionDate": "2025-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Hyperpolarized 13C-Pyruvate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Brain Metastases"
+    ]
+  },
+  {
+    "nctId": "NCT05092360",
+    "title": "A Phase 3, Multicenter, Open-Label, Randomized Study of Nemvaleukin Alfa in Combination With Pembrolizumab Versus Investigator's Choice Chemotherapy in Patients With Platinum-Resistant Epithelial Ovarian, Fallopian Tube, or Primary Peritoneal Cancer (ARTISTRY-7)",
+    "briefTitle": "Phase 3 Study of Nemvaleukin Alfa in Combination With Pembrolizumab in Patients With Platinum-Resistant Epithelial Ovarian Cancer (ARTISTRY-7)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-01-10",
+    "completionDate": "2027-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Pegylated Liposomal Doxorubicin (PLD)",
+      "Paclitaxel",
+      "Topotecan",
+      "Gemcitabine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Platinum-resistant Ovarian Cancer",
+      "Fallopian Tube Cancer",
+      "Primary Peritoneal Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00003460",
+    "title": "Phase II Study of Antineoplastons A10 and AS2-1 In Children With Primitive Neuroectodermal Tumors",
+    "briefTitle": "Antineoplaston Therapy in Treating Children With Primitive Neuroectodermal Tumors",
+    "status": "COMPLETED",
+    "startDate": "1996-04",
+    "completionDate": "2005-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Antineoplaston therapy (Atengenal + Astugenal)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Childhood CNS Primitive Neuroectodermal Tumor"
+    ]
+  },
+  {
+    "nctId": "NCT03770260",
+    "title": "MLN9708 (Ixazomib) and MLN4924 (Pevonedistat) in Relapsed/Refractory Multiple Myeloma Patients: A Phase 1b Trial",
+    "briefTitle": "Ixazomib and Pevonedistat in Treating Patients With Multiple Myeloma That Has Come Back or Does Not Respond to Treatment",
+    "status": "COMPLETED",
+    "startDate": "2020-02-10",
+    "completionDate": "2023-07-06",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ixazomib Citrate",
+      "Pevonedistat"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Recurrent Multiple Myeloma",
+      "Refractory Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT01679860",
+    "title": "Intensive Chemo-immunotherapy as First-line Treatment in Adult Patients With Peripheral T-cell Lymphoma (PTCL)",
+    "briefTitle": "Intensive Chemo-immunotherapy as First Line Treatment in Adult Patients With Peripheral T- Cell Lymphoma",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Clin B (CHOP- CAMPATH) Chemo-immunotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Lymphoma, T-Cell, Peripheral"
+    ]
+  },
+  {
+    "nctId": "NCT05237960",
+    "title": "M4OC-Prevent 2.0: Phase IIb Trial of Metformin for Oral Cancer Prevention",
+    "briefTitle": "Metformin for the Prevention of Oral Cancer in Patients with Oral Leukoplakia or Erythroplakia",
+    "status": "RECRUITING",
+    "startDate": "2023-01-12",
+    "completionDate": "2028-08-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Extended Release Metformin Hydrochloride",
+      "Placebo Administration"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Erythroplakia",
+      "Oral Leukoplakia"
+    ]
+  },
+  {
+    "nctId": "NCT00292760",
+    "title": "A Single-arm Phase II Study of Alemtuzumab in Combination With High-dose Methylprednisolone in CLL Patients With p53 Deletion",
+    "briefTitle": "A Single-arm Phase II Study of Alemtuzumab in Combination With High-dose Methylprednisolone in CLL Patients With p53 Deletion",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Alemtuzumab",
+      "Methyprednisolone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Lymphocytic Leukaemia"
+    ]
+  },
+  {
+    "nctId": "NCT04908176",
+    "title": "A Drug-drug Interaction Study to Investigate the Effect of Avapritinib on the Pharmacokinetics of Midazolam in Patients With Unresectable or Metastatic Gastrointestinal Stromal Tumors (GIST) and Other Advanced Solid Tumors",
+    "briefTitle": "A Drug-drug Interaction Study of Avapritinib and Midazolam",
+    "status": "COMPLETED",
+    "startDate": "2022-08-24",
+    "completionDate": "2024-05-10",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Avapritinib",
+      "midazolam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gastrointestinal Stromal Tumors",
+      "GIST",
+      "Non-resectable Advanced Solid Tumors",
+      "Recurrent or Unresectable Central Nervous System (CNS) Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT03444376",
+    "title": "A Multi-Center, Open-label Phase Ib-II Trial of the Combination of GX-188E Vaccination and Pembrolizumab in Patients With Advanced, Non-Resectable HPV Type 16 and/or 18 Positive Cervical Cancer",
+    "briefTitle": "The Combination of GX-188E Vaccination and Pembrolizumab in Patients With HPV 16 and/or 18+ Advanced Cervical Cancer",
+    "status": "COMPLETED",
+    "startDate": "2018-06-19",
+    "completionDate": "2023-12-21",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "GX-188E",
+      "KEYTRUDA\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cervical Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00053976",
+    "title": "Treatment of Acute Graft vs. Host Disease With Steroids Plus Daclizumab (Zenapax) or Placebo",
+    "briefTitle": "Methylprednisolone With or Without Daclizumab in Treating Patients With Acute Graft-Versus-Host Disease",
+    "status": "COMPLETED",
+    "startDate": "2001-01",
+    "completionDate": "2004-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "methylprednisolone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Graft Versus Host Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00320476",
+    "title": "Velcade\u00ae, Thalidomide, Dexamethasone (VTD) Induction Therapy Followed By Melphalan, Prednisone, Thalidomide (MPT) Maintenance As a First Line Treatment For The Patients With Multiple Myeloma Who Are Non-Transplant Candidates",
+    "briefTitle": "VTD Followed By MPT Maintenance As a First Line Treatment For The Patients With MM Who Are Non-Transplant Candidates",
+    "status": "COMPLETED",
+    "startDate": "2006-04",
+    "completionDate": "2008-02",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Velcade"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT01515176",
+    "title": "Phase 1b/2 Study of Dinaciclib (SCH 727965) and Ofatumumab in Relapsed and Refractory CLL/SLL/B-PLL",
+    "briefTitle": "Ofatumumab and Dinaciclib in Treating Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, or B-Cell Prolymphocytic Leukemia",
+    "status": "COMPLETED",
+    "startDate": "2012-01",
+    "completionDate": "2016-07-19",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dinaciclib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Lymphocytic Leukemia",
+      "Prolymphocytic Leukemia",
+      "Recurrent Small Lymphocytic Lymphoma",
+      "Refractory Chronic Lymphocytic Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT05707676",
+    "title": "A Phase I\uff0cDose Escalation and Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Immunogenicity of LB4330 in Patients With Advanced Solid Tumors\uff08MEETCD8-001\uff09",
+    "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Immunogenicity of LB4330 in Patients With Advanced Solid Tumors\uff08MEETCD8-001\uff09",
+    "status": "RECRUITING",
+    "startDate": "2022-11-30",
+    "completionDate": "2026-09",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "LB4330"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Tumor"
+    ]
+  },
+  {
+    "nctId": "NCT04911894",
+    "title": "A Phase Ia/Ib, Open-Label, Multi-Center, Study of the Safety, Tolerability and Primary Efficacy of IBI321 in Patients With Advanced Solid Tumors",
+    "briefTitle": "A Study of Dose Escalation of IBI321 in Patients With Advanced Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2021-06-21",
+    "completionDate": "2023-02-17",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "IBI321"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Solid Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT04293094",
+    "title": "A Phase 1, Multicenter, Open-label, Dose-Exploration and Dose-Expansion Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of AMG 650 in Subjects With Advanced Solid Tumors",
+    "briefTitle": "Study of AMG 650 in Adult Participants With Advanced Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2020-03-11",
+    "completionDate": "2023-02-15",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "AMG 650"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Solid Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT04637594",
+    "title": "Duration of Immune Checkpoint Therapy in Locally Advanced or Metastatic Urothelial Carcinoma: a Randomized Phase 3 Non-Inferiority Trial (IMAGINE)",
+    "briefTitle": "Trying to Find the Correct Length of Treatment with Immune Checkpoint Therapy",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-05-27",
+    "completionDate": "2030-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Pembrolizumab",
+      "Nivolumab",
+      "Atezolizumab",
+      "Durvalumab",
+      "Avelumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Locally Advanced Bladder Urothelial Carcinoma",
+      "Locally Advanced Renal Pelvis Urothelial Carcinoma",
+      "Locally Advanced Ureter Urothelial Carcinoma",
+      "Locally Advanced Urethral Urothelial Carcinoma",
+      "Locally Advanced Urothelial Carcinoma",
+      "Metastatic Bladder Urothelial Carcinoma",
+      "Metastatic Renal Pelvis Urothelial Carcinoma",
+      "Metastatic Ureter Urothelial Carcinoma",
+      "Metastatic Urethral Urothelial Carcinoma",
+      "Metastatic Urothelial Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT05455294",
+    "title": "A Phase 1 Study of Triplet Therapy with Navitoclax, Venetoclax, and Decitabine for High-risk Myeloid Malignancies",
+    "briefTitle": "Combination Navitoclax, Venetoclax and Decitabine for Advanced Myeloid Neoplasms",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-07-18",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Navitoclax",
+      "Venetoclax",
+      "Decitabine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Myeloid Malignancy",
+      "Myelodysplastic Syndromes",
+      "Myelofibrosis",
+      "Acute Myeloid Leukemia",
+      "Myeloproliferative Neoplasm"
+    ]
+  },
+  {
+    "nctId": "NCT04181060",
+    "title": "Randomized Phase III Study of Combination Osimertinib (AZD9291) and Bevacizumab Versus Osimertinib (AZD9291) Alone as First-Line Treatment for Patients With Metastatic EGFR-Mutant Non-Small Cell Lung Cancer (NSCLC)",
+    "briefTitle": "Osimertinib With or Without Bevacizumab as Initial Treatment for Patients With EGFR-Mutant Lung Cancer",
+    "status": "RECRUITING",
+    "startDate": "2020-12-28",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Osimertinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Lung Non-Squamous Non-Small Cell Carcinoma",
+      "Metastatic Lung Non-Squamous Non-Small Cell Carcinoma",
+      "Recurrent Lung Non-Squamous Non-Small Cell Carcinoma",
+      "Stage IIIB Lung Cancer AJCC v8",
+      "Stage IV Lung Cancer AJCC v8"
+    ]
+  },
+  {
+    "nctId": "NCT02085460",
+    "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-group Phase 2 Trial of Rebamipide Liquid to Determine the Effective Dose for Prevention of Chemoradiotherapy-induced Oral Mucositis in Patients With Head and Neck Cancer",
+    "briefTitle": "A Phase 2 Trial of Rebamipide Liquid to Determine the Effective Dose for Prevention of Chemoradiotherapy-induced Oral Mucositis in Patients With Head and Neck Cancer",
+    "status": "COMPLETED",
+    "startDate": "2014-03",
+    "completionDate": "2015-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "2% Rebamipide liquid",
+      "4% Rebamipide liquid"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Head and Neck Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01090960",
+    "title": "An Open-Label, Phase I, Dose-Escalation Study Evaluating the Safety and Tolerability of GDC-0068 in Patients With Refractory Solid Tumors",
+    "briefTitle": "A Study Evaluating the Safety and Tolerability of GDC-0068 in Patients With Refractory Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2015-02",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "GDC-0068"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Cancers"
+    ]
+  },
+  {
+    "nctId": "NCT00531960",
+    "title": "A Randomized, Open-label Study Comparing the Anti-tumor Effect of Treatment With Tarceva Plus Avastin Versus Chemotherapy Plus Avastin in Patients With Advanced Non-small Cell Lung Cancer",
+    "briefTitle": "A Study of Tarceva (Erlotinib) in Combination With Avastin (Bevacizumab) in Patients With Advanced Non-Small Cell Lung Cancer.",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2010-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Erlotinib",
+      "Bevacizumab",
+      "Standard platinum-based chemotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-Small Cell Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT06281860",
+    "title": "Phase I Clinical Trial Testing the Dose Escalation and Expansion of Pressurized IntraThoracic Hyperthermic Aerosol Cisplatin Administration for the Management of Pleural Carcinosis",
+    "briefTitle": "Treatment Pleural Carcinosis of Pressurized IntraThoracic Hyperthermic Aerosol Cisplatin Administration",
+    "status": "RECRUITING",
+    "startDate": "2023-11-24",
+    "completionDate": "2026-02-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Cisplatine Teva\u00ae"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mesothelioma, Malignant",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Carcinoma Breast Stage IV",
+      "Ovarian Cancer",
+      "Esophageal Cancer",
+      "Gastric Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00504660",
+    "title": "Combination of 6-Thioguanine, Capecitabine, Celecoxib and Temozolomide or CCNU for Recurrent Anaplastic Glioma and Glioblastoma Multiforme",
+    "briefTitle": "6-TG, Capecitabine and Celecoxib Plus TMZ or CCNU for Anaplastic Glioma Patients",
+    "status": "COMPLETED",
+    "startDate": "2003-09",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Capecitabine",
+      "Celecoxib (Celebrex)",
+      "Temozolomide",
+      "Lomustine",
+      "6-Thioguanine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Anaplastic Glioma of Brain",
+      "Glioblastoma Multiforme",
+      "Brain Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01575860",
+    "title": "Maintenance Lenalidomide Therapy After Autologous Stem Cell Transplant in Patients With High Risk Relapsed/Refractory Lymphomas",
+    "briefTitle": "Maintenance Lenalidomide in Lymphoma",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2022-10-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lenalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT00440960",
+    "title": "",
+    "briefTitle": "Anesthesia in Flexible Bronchoscopy for Lung Cancer Diagnostic",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "propofol",
+      "midazolam",
+      "alfentanil",
+      "lidocaine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT04811560",
+    "title": "A Phase 1/2, First-in-Human Study of the Menin-KMT2A (MLL1) Inhibitor Bleximenib in Participants With Acute Leukemia",
+    "briefTitle": "A Phase 1/2 Study of Bleximenib in Participants With Acute Leukemia",
+    "status": "RECRUITING",
+    "startDate": "2021-05-19",
+    "completionDate": "2027-10-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Bleximenib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Leukemias",
+      "Acute Myeloid Leukemia",
+      "Acute Lymphoblastic Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT01415960",
+    "title": "Efficacy and Safety of a New Leuprolide Acetate 22.5 mg Depot Formulation in the Treatment of Prostate Cancer",
+    "briefTitle": "Efficacy and Safety of Leuprolide Acetate 22.5 mg Depot in Treatment of Prostate Cancer",
+    "status": "COMPLETED",
+    "startDate": "2011-09",
+    "completionDate": "2013-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Leuprolide acetate 22.5 mg depot, GP-Pharm SA"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Prostate Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT06333860",
+    "title": "A Phase 4 Multicenter, Randomized, Open-label, Efficacy Assessor Blinded Study of Risankizumab Compared to Deucravacitinib for the Treatment of Adult Subjects With Moderate Plaque Psoriasis Who Are Candidates for Systemic Therapy",
+    "briefTitle": "A Study to Learn How Safe and Effective Risankizumab is When Compared to Deucravacitinib to Treat Participants With Moderate Plaque Psoriasis and Who Need to Try Systemic Treatment (Works Throughout the Whole Body)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-05-10",
+    "completionDate": "2026-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Risankizumab",
+      "Deucravacitinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Moderate Plaque Psoriasis"
+    ]
+  },
+  {
+    "nctId": "NCT02171260",
+    "title": "A Phase 1 Study of Eribulin Mesylate, a Novel Microtubule Targeting Chemotherapeutic Agent in Children With Refractory or Recurrent Solid Tumors (Excluding CNS), Including Lymphomas",
+    "briefTitle": "This is a Phase 1 Study of Eribulin Mesylate in Pediatric Participants With Recurrent or Refractory Solid Tumors (Excluding [Central Nervous System] CNS), Including Lymphomas",
+    "status": "COMPLETED",
+    "startDate": "2014-07-31",
+    "completionDate": "2016-01-28",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Eribulin Mesylate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pediatrics",
+      "Solid Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT00876460",
+    "title": "A Phase I Study of Continuous, Concomitant Oral Treatment With BIBF 1120 and Docetaxel - a Phase I, Open-label, Dose-escalation Study in Japanese Patients With Stage IIIB/IV or Recurrent Non-small-cell Lung Cancer After Failure of Chemotherapy",
+    "briefTitle": "BIBF 1120 + Docetaxel (Japan) in Patients With Advanced Non-small-cell Lung Cancer, Phase I",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2015-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIBF 1120 M + docetaxel M",
+      "BIBF 1120 M + docetaxel H",
+      "BIBF 1120 H + docetaxel H",
+      "BIBF 1120 L + docetaxel M",
+      "BIBF 1120 H + docetaxel M"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Carcinoma, Non-Small-Cell Lung"
+    ]
+  },
+  {
+    "nctId": "NCT05200260",
+    "title": "A Prospective, Multicenter, Randomized Phase II Trial on Optimal Timing of Surgery Combined With Maintenance Targeted Therapy in the Treatment of Advanced Ovarian Cancer",
+    "briefTitle": "Surgery Combined With Maintenance Targeted Therapy in the Treatment of Advanced Ovarian Cancer",
+    "status": "RECRUITING",
+    "startDate": "2022-07-13",
+    "completionDate": "2027-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "PARP inhibitor",
+      "Bevacizumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Ovarian Cancer",
+      "Fallopian Tube Cancer",
+      "Primary Peritoneal Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT06764160",
+    "title": "An Open-label, Single-arm, Multi-center Study to Evaluate the Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of Eculizumab in Chinese Participants With Refractory Generalized Myasthenia Gravis (gMG)",
+    "briefTitle": "Efficacy, Safety, Pharmacokinetics, Pharmacodynamics, and Immunogenicity of Eculizumab in Chinese Adults With gMG",
+    "status": "RECRUITING",
+    "startDate": "2025-01-06",
+    "completionDate": "2026-12-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Eculizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Generalized Myasthenia Gravis (gMG)",
+      "Refractory gMG"
+    ]
+  },
+  {
+    "nctId": "NCT00372476",
+    "title": "Open-label Trial of Imatinib in Combination With Vinorelbine for Patients With Advanced Breast Carcinoma: ICON",
+    "briefTitle": "Efficacy and Safety of Imatinib and Vinorelbine in Patients With Advanced Breast Cancer",
+    "status": "COMPLETED",
+    "startDate": "2006-06",
+    "completionDate": "2012-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Imatinib and Vinorelbine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00083876",
+    "title": "UARK 98-035, A Phase III Study of D.T. PACE Versus High Dose Melphalan and Autologous Transplant in Patients With Previously Treated Multiple Myeloma",
+    "briefTitle": "D.T. PACE Versus High Dose Melphalan and Autologous Transplant in Patients With Previously Treated Multiple Myeloma",
+    "status": "COMPLETED",
+    "startDate": "1998-09",
+    "completionDate": "2007-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Thalidomide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Myeloma"
+    ]
+  },
+  {
+    "nctId": "NCT01442376",
+    "title": "A Multicenter, Randomized, Double-blind, Parallel Group Study to Evaluate the Efficacy and Safety of Two Different Doses of Palonosetron Compared to Ondansetron in the Prevention of CINV in Pediatric Patients Undergoing Single and Repeated Cycles of MEC or HEC",
+    "briefTitle": "Efficacy and Safety of Palonosetron Intravenous in Prevention of Chemotherapy Induced Nausea and Vomiting in Pediatric Patients",
+    "status": "COMPLETED",
+    "startDate": "2011-09",
+    "completionDate": "2012-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Palonosetron",
+      "Palonosetron",
+      "Ondansetron",
+      "Placebo to Ondansetron",
+      "Placebo to Ondansetron",
+      "Placebo to Palonosetron"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chemotherapy-Induced Nausea and Vomiting"
+    ]
+  },
+  {
+    "nctId": "NCT00002676",
+    "title": "PHASE II TRIAL OF CHEMOTHERAPY PLUS RADIOTHERAPY FOR MANAGEMENT OF PRIMARY CENTRAL NERVOUS SYSTEM NON-HODGKIN'S LYMPHOMA (PCNSL)",
+    "briefTitle": "Chemotherapy and Whole-Brain Radiation Therapy in Treating Patients With Primary Central Nervous System Non- Hodgkin's Lymphoma",
+    "status": "COMPLETED",
+    "startDate": "1995-07",
+    "completionDate": "2006-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "carmustine",
+      "cyclophosphamide",
+      "cytarabine",
+      "dexamethasone",
+      "doxorubicin hydrochloride",
+      "methotrexate",
+      "vincristine sulfate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT03480776",
+    "title": "A Randomized Phase II Double-Blind Placebo-Controlled Trial of Acetylsalicylic Acid (ASA) in Prevention of Ovarian Cancer in Women With BRCA 1/2 Mutations (STICs and STONEs)",
+    "briefTitle": "ASA in Prevention of Ovarian Cancer (STICs and STONEs)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-07-24",
+    "completionDate": "2026-09-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Acetylsalicylic acid"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Ovarian Cancer Prevention"
+    ]
+  },
+  {
+    "nctId": "NCT00064376",
+    "title": "A Phase II Trial Of Paricalcitol In Myelodysplastic Syndromes",
+    "briefTitle": "Paricalcitol in Treating Patients With Myelodysplastic Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2003-05",
+    "completionDate": "2005-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "paricalcitol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Leukemia",
+      "Myelodysplastic Syndromes"
+    ]
+  },
+  {
+    "nctId": "NCT01915576",
+    "title": "A Phase I, Multi-center, Non-randomized, Open-label, Dose Escalation Design Study to Characterize Safety, Tolerability, Pharmacokinetics and Maximum Tolerated Dose of BAY 1125976 in Subjects With Advanced Solid Tumors",
+    "briefTitle": "Phase I Dose Escalation Study With an Allosteric AKT 1/2 Inhibitor in Patients",
+    "status": "COMPLETED",
+    "startDate": "2013-09",
+    "completionDate": "2016-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BAY1125976",
+      "BAY1125976",
+      "BAY1125976"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT04016376",
+    "title": "Cluster-Randomized, Prospective Assessment of Postoperative Pain Management in Patients Undergoing Bilateral Mastectomy With Immediate Reconstruction With Tissue Expander (BMWRw/TE) Using Preoperative Paravertebral (PVB), Serratus+PECS-1, or PVB+PECS-1 Nerve Blocks",
+    "briefTitle": "Study of Nerve Block Pain Management in Patients Undergoing a Double Mastectomy With Immediate Reconstruction",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-07-05",
+    "completionDate": "2025-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "PVB Protocol",
+      "PECS-1",
+      "Serratus"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer",
+      "Breast Cancer Female"
+    ]
+  },
+  {
+    "nctId": "NCT00002494",
+    "title": "HIGH INTENSITY, BRIEF DURATION CHEMOTHERAPY FOR DIFFUSE SMALL NONCLEAVED CELL LYMPHOMA AND THE L-3 SUBTYPE OF ALL: A PILOT STUDY OF A MULTIDRUG REGIMEN",
+    "briefTitle": "Combination Chemotherapy in Treating Patients With Non-Hodgkin's Lymphoma or Acute Lymphocytic Leukemia",
+    "status": "COMPLETED",
+    "startDate": "1992-05",
+    "completionDate": "2006-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "cyclophosphamide",
+      "cytarabine",
+      "dexamethasone",
+      "doxorubicin hydrochloride",
+      "etoposide",
+      "ifosfamide",
+      "leucovorin calcium",
+      "mesna",
+      "methotrexate",
+      "prednisone",
+      "therapeutic hydrocortisone",
+      "vincristine sulfate"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Leukemia",
+      "Lymphoma"
+    ]
+  },
+  {
+    "nctId": "NCT01434394",
+    "title": "Neoadjuvant Erbitux Based Chemotherapy for Locally Advanced Oral/Oropharyngeal Cancer",
+    "briefTitle": "Neoadjuvant Erbitux Based Chemotherapy for Locally Advanced Oral/Oropharyngeal Cancer",
+    "status": "COMPLETED",
+    "startDate": "2011-08",
+    "completionDate": "2017-02",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Neo-adjuvant Erbitux-based chemotherapy"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Locally Advanced Malignant Neoplasm",
+      "Oral Cancer",
+      "Oropharyngeal Carcinoma",
+      "Effects of Chemotherapy"
+    ]
+  },
+  {
+    "nctId": "NCT05058560",
+    "title": "Tislelizumab in Addition to Bronchial Arterial Chemoembolization in Patients with Non-Small-Cell Lung Cancer -- a Single-arm Phase II Trial",
+    "briefTitle": "Tislelizumab in Addition to BACE in Patients with NSCLC",
+    "status": "COMPLETED",
+    "startDate": "2021-12-01",
+    "completionDate": "2025-02-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tislelizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "NSCLC"
+    ]
+  },
+  {
+    "nctId": "NCT00047060",
+    "title": "A Phase I/II Study of HLA-matched Mobilized Peripheral Blood Hematopoietic Stem Cell Transplantation for Advanced Mycosis Fungoides/Sezary Syndrome Using Nonmyeloablative Conditioning With Campath-1H",
+    "briefTitle": "Stem Cell Transplant Therapy With Campath-1H for Treating Advanced Mycosis Fungoides and Sezary Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2002-07-30",
+    "completionDate": "2019-01-24",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "cyclosporine",
+      "fludarabine",
+      "Campath"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mycosis Fungoides",
+      "Sezary Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT03362060",
+    "title": "A Phase 1b Study of Safety and Immune Response to PVX-410 Vaccine Alone and in Combination with Pembrolizumab in HLA-A2+ Patients with Metastatic Triple Negative Breast Cancer (TNBC)",
+    "briefTitle": "PVX-410 Vaccine Plus Pembrolizumab in HLA-A2+ Metastatic Triple Negative Breast Cancer",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2017-12-12",
+    "completionDate": "2026-06-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Pembrolizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Triple Negative Breast Cancer",
+      "Metastatic Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03356860",
+    "title": "A Phase IB/II Study of Durvalumab (MEDI4736) Combined With Dose-dense EC in a Neoadjuvant Setting for Patients With Locally Advanced Luminal B HER2(-) or Triple Negative Breast Cancers.",
+    "briefTitle": "Safety and Efficacy of Durvalumab Combined to Neoadjuvant Chemotherapy in Localized Luminal B HER2(-) and Triple Negative Breast Cancer.",
+    "status": "COMPLETED",
+    "startDate": "2017-04-13",
+    "completionDate": "2023-12-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Paclitaxel",
+      "Epirubicin",
+      "Cyclophosphamide",
+      "Durvalumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer",
+      "Triple Negative Breast Cancer",
+      "Luminal B"
+    ]
+  },
+  {
+    "nctId": "NCT00195260",
+    "title": "Phase I Dose-Escalation Study Of Oral SKI-606 In Subjects With Advanced Malignant Solid Tumors",
+    "briefTitle": "Study Evaluating SKI-606 (Bosutinib) In Advanced Malignant Solid Tumors",
+    "status": "COMPLETED",
+    "startDate": "2004-10",
+    "completionDate": "2007-11",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "bosutinib",
+      "bosutinib",
+      "bosutinib",
+      "bosutinib"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT06179160",
+    "title": "A Phase 1, Open-Label, Multicenter Study of INCB161734 in Participants With Advanced or Metastatic Solid Tumors With KRAS G12D Mutation",
+    "briefTitle": "A Study to Evaluate INCB161734 in Participants With Advanced or Metastatic Solid Tumors With KRAS G12D Mutation",
+    "status": "RECRUITING",
+    "startDate": "2024-01-04",
+    "completionDate": "2027-01-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "INCB161734",
+      "Cetuximab",
+      "Retifanlimab",
+      "GEMNabP",
+      "mFOLFIRINOX"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT00258960",
+    "title": "Phase IV/II Trial With the Combination of Pegylated Liposomal Doxorubicin (Caelyx), Cyclophosphamide and Trastuzumab in Patients With Metastatic Breast Cancer With Overexpression of Human Epidermal Growth Factor Receptor 2 (HER2)/Neu",
+    "briefTitle": "Caelyx, Cyclophosphamide and Herceptin in Patients With Metastatic Breast Cancer",
+    "status": "COMPLETED",
+    "startDate": "2006-02-15",
+    "completionDate": "2009-07-14",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Liposomal Doxorubicin",
+      "Cyclophosphamide",
+      "Trastuzumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT04556760",
+    "title": "A Phase 2a Randomised, Double Blind, Multi-centre Study to Assess the Effect on Glucose Homeostasis of Two Dose Levels of AZD9567, Compared to Prednisolone, in Adults With Type 2 Diabetes",
+    "briefTitle": "Study to Assess the Effect on Glucose Homeostasis of Two Dose Levels of AZD9567, Compared to Prednisolone, in Adults With Type 2 Diabetes",
+    "status": "COMPLETED",
+    "startDate": "2020-11-26",
+    "completionDate": "2021-06-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "AZD9567",
+      "Prednisolone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus, Type 2"
+    ]
+  },
+  {
+    "nctId": "NCT00004060",
+    "title": "A Phase II Study of Intravenous DX-8951f Administered Daily for Five Days Every Three Weeks to Patients With Advanced Ovarian, Tubal, or Peritoneal Cancer Refractory to Platinum, Taxane and Topotecan",
+    "briefTitle": "Chemotherapy in Treating Patients With Recurrent, Metastatic, or Unresectable Ovarian, Fallopian Tube, or Peritoneal Cancer",
+    "status": "COMPLETED",
+    "startDate": "1999-07",
+    "completionDate": "2000-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "exatecan mesylate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Fallopian Tube Cancer",
+      "Ovarian Cancer",
+      "Primary Peritoneal Cavity Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00208260",
+    "title": "Randomized Phase II Trial Followed by Phase III Trial With Molecular Biology Study, Comparing a Standard Bi-therapy vs 3 Arms of Intensified Chemotherapy in Patients With Unresectable or Not Optimally Resectable Colorectal Cancer Liver Metastases.",
+    "briefTitle": "Intensified Chemotherapy in CRC After Resection of Liver Metastases",
+    "status": "COMPLETED",
+    "startDate": "2004-04",
+    "completionDate": "2007-08",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "FOLFIRI",
+      "FOLFOX-4",
+      "FOLFIRI-HD",
+      "FOLFOX-7",
+      "FOLFIRINOX"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Colorectal Cancer",
+      "Liver Metastases",
+      "Chemotherapy"
+    ]
+  },
+  {
+    "nctId": "NCT01126060",
+    "title": "Efficacy of Fibrin Sealant to Reduce the Amount of Postoperative Drain in Patients With Harmonic Scalpel-assisted Total Thyroidectomy With Anterior Compartment Neck Dissections",
+    "briefTitle": "Efficacy of Fibrin Sealant to Reduce the Amount of Post-thyroidectomy Drain",
+    "status": "COMPLETED",
+    "startDate": "2010-02",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Usage of Fibrin sealant"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Thyroid Carcinoma",
+      "Thyroidectomy"
+    ]
+  },
+  {
+    "nctId": "NCT00151060",
+    "title": "Phase II Evaluation of Early Oral Estramustine, Oral Etoposide and Intravenous Paclitaxel in Patients With Hormonally Responsive Adenocarcinoma of the Prostate",
+    "briefTitle": "Estramustine, Etoposide and Paclitaxel Treatment for Hormonally Responsive Adenocarcinoma of the Prostate",
+    "status": "COMPLETED",
+    "startDate": "1998-12",
+    "completionDate": "2006-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Estramustine",
+      "Etoposide",
+      "Paclitaxel"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Prostate Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT05560360",
+    "title": "Study of the Pharmacokinetic Effects of Efavirenz on the Pharmacokinetics of SHR1459 in Healthy Subjects",
+    "briefTitle": "A Trial of DDI Between SHR1459 and Efavirenz With Healthy Subjects",
+    "status": "COMPLETED",
+    "startDate": "2022-11-04",
+    "completionDate": "2023-01-27",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "SHR1459 tablet",
+      "Efavirenz tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "B-cell Tumors"
+    ]
+  },
+  {
+    "nctId": "NCT04996160",
+    "title": "A Phase1 Study at Stanford of Palbociclib in Combination With Chemotherapy in Pediatric Patients With Relapsed or Refractory Acute Lymphoblastic Leukemia (RELPALL2)",
+    "briefTitle": "Palbociclib in Combination With Chemotherapy in Pediatric Patients With Relapsed or Refractory Acute Lymphoblastic Leukemia (RELPALL2)",
+    "status": "RECRUITING",
+    "startDate": "2021-07-09",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Palbociclib",
+      "Dexamethasone",
+      "Bortezomib",
+      "Doxorubicin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Lymphoblastic Leukemia, Pediatric",
+      "Relapsed Acute Lymphoblastic Leukemia",
+      "Refractory Acute Lymphoblastic Leukemia"
+    ]
+  },
+  {
+    "nctId": "NCT01685060",
+    "title": "A Phase II, Multicenter, Single-arm Study of Oral LDK378 in Adult Patients With ALK-activated Non-small Cell Lung Cancer Previously Treated With Chemotherapy and Crizotinib",
+    "briefTitle": "LDK378 in Adult Patients With ALK-activated NSCLC Previously Treated With Chemotherapy and Crizotinib",
+    "status": "COMPLETED",
+    "startDate": "2012-11-26",
+    "completionDate": "2016-03-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LDK378"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-Small Cell Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01404260",
+    "title": "Intercalating and Maintenance Use of Iressa vs. Chemotherapy in Selected Advanced NSCLC: a Randomised Study",
+    "briefTitle": "Intercalating and Maintenance Use of Iressa Versus Chemotherapy in Selected Advanced Non Small Cell Lung Cancer",
+    "status": "COMPLETED",
+    "startDate": "2011-06",
+    "completionDate": "2015-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Gefitinib",
+      "Gemcitabine +Carboplatin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Non-small Cell Lung Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT06047860",
+    "title": "A Clinical Study of Recombinant Human Vascular Endothelial Inhibitor (Endo) in Combination With Bragg Treatment for Advanced Refractory Non-small Cell Lung Cancer",
+    "briefTitle": "A Clinical Study of Recombinant Human Vascular Endothelial Inhibitor in Combination With PRaG for Advanced Refractory Non-small Cell Lung Cancer",
+    "status": "RECRUITING",
+    "startDate": "2023-06-16",
+    "completionDate": "2024-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "PD-1/PD-L1 inhibitor",
+      "Granulocyte-macrophage colony-stimulating factor subcutaneous injection",
+      "Interleukin 2 subcutaneous injection",
+      "Endostatin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Advanced Solid Tumor",
+      "Refractory Tumor"
+    ]
+  },
+  {
+    "nctId": "NCT00559676",
+    "title": "Phase 4 Study to Characterize and Evaluate Markers of Chemoresistance in Patients With Metastatic Colorectal Cancer",
+    "briefTitle": "Study of Biomarkers in Patients Undergoing Chemotherapy for Metastatic Colorectal Cancer",
+    "status": "COMPLETED",
+    "startDate": "2005-03",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "capecitabine",
+      "fluorouracil",
+      "irinotecan hydrochloride",
+      "leucovorin calcium",
+      "oxaliplatin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Colorectal Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01220076",
+    "title": "Phase II Study Evaluating According to the Polymorphism of CYP2D6, the Rate of Biological Response to Treatment With Tamoxifen (TAM) Administered in Pre-operative Situation in Patients With Breast Cancer Non Metastatic HR+",
+    "briefTitle": "Biological Response to Tamoxifen (TAM) in Patients With Breast Cancer Non Metastatic RH+",
+    "status": "COMPLETED",
+    "startDate": "2009-09",
+    "completionDate": "2016-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "tamoxifen"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Non Metastatic Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT05289076",
+    "title": "Protocol for Evaluation of Oncological Treatment in Patients With CRLM Using Zebra Fish Avatars-may This Model Improve Resection Rates and Survival in Patients With Upfront Non-resectable Metastatic Disease?",
+    "briefTitle": "Evaluation of Tumour Growth and Oncological Treatment in Patients With CRLM Using Zebra Fish Embryo Model",
+    "status": "RECRUITING",
+    "startDate": "2022-05-17",
+    "completionDate": "2025-03-14",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Chemotherapy drug"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Colorectal Cancer Metastatic",
+      "Tumour Metastasis",
+      "Chemotherapy Effect",
+      "Tumor Growth"
+    ]
+  },
+  {
+    "nctId": "NCT06212076",
+    "title": "A Phase I/II, Open-label, Dose-escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetic, Pharmacodynamic Characteristics and Initial Anti-tumor Activity of IPG1094 in Patients With Advanced Solid Tumors",
+    "briefTitle": "Phase I/II Study of IPG1094 in Advanced Solid Tumors Patients",
+    "status": "RECRUITING",
+    "startDate": "2024-07-11",
+    "completionDate": "2027-07-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "IPG1094"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Solid Tumor"
+    ]
+  },
+  {
+    "nctId": "NCT01019876",
+    "title": "Risk-Adapted Allogeneic Stem Cell Transplantation For Mixed Donor Chimerism In Patients With Selected Non-Malignant Diseases",
+    "briefTitle": "Risk-Adapted Allogeneic Stem Cell Transplantation For Mixed Donor Chimerism In Patients With Non-Malignant Diseases",
+    "status": "COMPLETED",
+    "startDate": "2002-09",
+    "completionDate": "2021-09-07",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Fludarabine",
+      "Cyclophosphamide",
+      "Busulfan",
+      "Alemtuzumab",
+      "Rabbit Anti-thymocyte Globulin",
+      "Horse Anti-thymocyte Globulin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Bone Marrow Failure",
+      "Osteopetrosis",
+      "Fanconi Anemia",
+      "Severe Combined Immunodeficiency"
+    ]
+  },
+  {
+    "nctId": "NCT06436976",
+    "title": "The Effect of Probiotics ATG-F4 in Cancer Patients",
+    "briefTitle": "The Effect of Probiotics ATG-F4 in Cancer Patients",
+    "status": "RECRUITING",
+    "startDate": "2024-03-01",
+    "completionDate": "2025-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LT-002 (Lactobacillus reuteri ATG-F4"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pancreatic Cancer",
+      "Colon Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03801876",
+    "title": "Phase III Randomized Trial of Proton Beam Therapy (PBT) Versus Intensity Modulated Photon Radiotherapy (IMRT) for the Treatment of Esophageal Cancer",
+    "briefTitle": "Comparing Proton Therapy to Photon Radiation Therapy for Esophageal Cancer",
+    "status": "RECRUITING",
+    "startDate": "2019-03-15",
+    "completionDate": "2031-12-21",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Carboplatin",
+      "Paclitaxel",
+      "FOLFOX regimen",
+      "CAPOX regimen",
+      "Docetaxel",
+      "5FU"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Clinical Stage I Esophageal Adenocarcinoma AJCC v8",
+      "Clinical Stage I Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Clinical Stage I Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Clinical Stage II Esophageal Adenocarcinoma AJCC v8",
+      "Clinical Stage II Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Clinical Stage II Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Clinical Stage IIA Esophageal Adenocarcinoma AJCC v8",
+      "Clinical Stage IIA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Clinical Stage IIB Esophageal Adenocarcinoma AJCC v8",
+      "Clinical Stage IIB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Clinical Stage III Esophageal Adenocarcinoma AJCC v8",
+      "Clinical Stage III Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Clinical Stage III Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Clinical Stage IVA Esophageal Adenocarcinoma AJCC v8",
+      "Clinical Stage IVA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Clinical Stage IVA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage I Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage I Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage I Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IA Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IB Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IB Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IC Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IC Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage II Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage II Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage II Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIA Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IIA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIB Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIB Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IIB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage III Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage III Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage III Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIIA Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIIA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IIIA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIIB Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IIIB Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IIIB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Pathologic Stage IVA Esophageal Adenocarcinoma AJCC v8",
+      "Pathologic Stage IVA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Pathologic Stage IVA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage I Esophageal Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage I Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage I Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage II Esophageal Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage II Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage II Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage III Esophageal Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage III Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage III Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IIIA Esophageal Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IIIA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IIIA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IIIB Esophageal Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IIIB Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IIIB Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IVA Esophageal Adenocarcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IVA Esophageal Squamous Cell Carcinoma AJCC v8",
+      "Postneoadjuvant Therapy Stage IVA Gastroesophageal Junction Adenocarcinoma AJCC v8",
+      "Thoracic Esophagus Squamous Cell Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT00375076",
+    "title": "Prevention of Venous Thrombosis in Cancer Patients: A Prospective, Randomized, Double-blind Study Comparing Two Different Dosages of Low-molecular Weight Heparin",
+    "briefTitle": "Comparison of Two Different Dosages of Low-molecular Weight Heparin in Cancer Patients",
+    "status": "COMPLETED",
+    "startDate": "2006-06",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "enoxaparin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT00772876",
+    "title": "An Open Label, Multicenter Phase I Study Of Selective Cyclin Dependent Kinase Inhibitor P1446A-05 In Subjects With Advanced Refractory Malignancies",
+    "briefTitle": "A Multicenter Phase I Clinical Study of a New Compound P1446A-05 in Patients With Advanced Refractory Malignancies",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2012-05",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "P1446A-05"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT03219476",
+    "title": "Neoadjuvant Endocrine Therapy in Hormone Receptor-Positive HER2-Negative Node-Negative Breast Cancer Patients to Assess Responses and Mechanisms of Endocrine Resistance",
+    "briefTitle": "Neoadjuvant Endocrine Therapy in Hormone Receptor-Positive, Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Node-Negative Breast Cancer",
+    "status": "COMPLETED",
+    "startDate": "2017-02-05",
+    "completionDate": "2025-03-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Anastrozole",
+      "Letrozole",
+      "Exemestane",
+      "Tamoxifen"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer",
+      "Invasive Breast Cancer"
+    ]
+  },
+  {
+    "nctId": "NCT01993576",
+    "title": "Histological Study of the (Intravenously Injected) ICG Distribution in Tumor Bearing Breasts and in Axillary Pieces of Dissection.",
+    "briefTitle": "ICG Distribution Using NIF Imaging After IV Injection of ICG in Benign and Malignant Breast Cancer Tissue.",
+    "status": "COMPLETED",
+    "startDate": "2013-01",
+    "completionDate": "2014-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Indocyanine Green"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Breast Cancer."
+    ]
+  }
+]

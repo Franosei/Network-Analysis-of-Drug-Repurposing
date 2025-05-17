@@ -1,0 +1,2685 @@
+[
+  {
+    "nctId": "NCT03520660",
+    "title": "Long-Term Follow-Up Of Subjects With CHC Who Achieved A Sustained Virological Response Following Therapy With Direct Acting Antiviral Agents",
+    "briefTitle": "People With CHC Who Achieved a Sustained Virological Response Following Therapy With Direct Acting Antiviral Agents",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-10-19",
+    "completionDate": "2032-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Epclusa"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus",
+      "Hepatitis C, Chronic",
+      "Cardiovascular Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT02388360",
+    "title": "The Impact of Topical Prostaglandin Analogs on the Biomechanical Properties of the Cornea in Patients With Open Angle Glaucoma",
+    "briefTitle": "The Impact of Topical Prostaglandins on the Biomechanical Properties of the Cornea in Patients With Open Angle Glaucoma",
+    "status": "COMPLETED",
+    "startDate": "2013-05-06",
+    "completionDate": "2016-11-16",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "topical prostaglandin analogs"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma, Open-Angle"
+    ]
+  },
+  {
+    "nctId": "NCT03173560",
+    "title": "A Randomized, Open-Label (Formerly Double-Blind), Phase 2 Trial to Assess Safety and Efficacy of Lenvatinib at Two Different Starting Doses (18 mg vs. 14 mg QD) in Combination With Everolimus (5 mg QD) in Renal Cell Carcinoma Following One Prior VEGF-Targeted Treatment",
+    "briefTitle": "Trial to Assess Safety and Efficacy of Lenvatinib (18 mg vs. 14 mg) in Combination With Everolimus in Participants With Renal Cell Carcinoma",
+    "status": "COMPLETED",
+    "startDate": "2017-08-17",
+    "completionDate": "2024-06-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "lenvatinib",
+      "everolimus"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Renal Cell Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT00000776",
+    "title": "Dexamethasone in Cryptococcal Meningitis",
+    "briefTitle": "Dexamethasone in Cryptococcal Meningitis",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "1996-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Flucytosine",
+      "Fluconazole",
+      "Amphotericin B",
+      "Dexamethasone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Meningitis, Cryptococcal",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT01165476",
+    "title": "An Evaluation of the Comparative Bioavailability of a Single Oral Dose of 1mg UT-15C (Treprostinil Diethanolamine) SR Tablets Manufactured by Two Independent Facilities Administered to Healthy Volunteers in the Fed State",
+    "briefTitle": "Comparative Bioavailability of Treprostinil Diethanolamine Manufactured by Two Independent Facilities",
+    "status": "COMPLETED",
+    "startDate": "2010-07",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Treprostinil diethanolamine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT06149260",
+    "title": "An Open-lable Trial of Subcutaneous Semaglutide in Systemic Scleroderma",
+    "briefTitle": "Subcutaneous Semaglutide in Systemic Scleroderma",
+    "status": "RECRUITING",
+    "startDate": "2024-02-29",
+    "completionDate": "2024-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Semaglutide Pen Injector"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Scleroderma, Systemic",
+      "Fibrosis",
+      "Semaglutide"
+    ]
+  },
+  {
+    "nctId": "NCT06045260",
+    "title": "\"Receptor Radionuclide Therapy With 177Lu-DOTATOC (177Lu-edotreotide or 177Lu-octreotide) in SSTR Positive Patients: a Multicenter, Prospective, Phase II Trial\"",
+    "briefTitle": "\"Receptor Radionuclide Therapy With 177Lu-DOTATOC",
+    "status": "RECRUITING",
+    "startDate": "2023-09-13",
+    "completionDate": "2027-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "177Lu-DOTATOC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Neuroendocrine Tumors",
+      "Paraganglioma",
+      "Pheochromocytoma"
+    ]
+  },
+  {
+    "nctId": "NCT00219960",
+    "title": "The Effect of North American Ginseng on Blood Pressure in Individuals With Hypertension",
+    "briefTitle": "The Effect of North American Ginseng on Blood Pressure in Individuals With Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2001-04",
+    "completionDate": "2003-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "North American Ginseng (Panax Quinquefolius)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01224860",
+    "title": "A Prospective, Randomized, Open Label Blinded End Point (Probe), Crossover Study to Compare the Effects of Telmisartan and Losartan on Metabolic Profile of Renal Transplant Patients",
+    "briefTitle": "Telmisartan Versus Losartan in Kidney Transplantation",
+    "status": "COMPLETED",
+    "startDate": "2009-01",
+    "completionDate": "2014-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Telmisartan",
+      "Losartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Renal Transplant"
+    ]
+  },
+  {
+    "nctId": "NCT01051960",
+    "title": "Exercise Induced Pulmonary Hypertension in Systemic Sclerosis and Treatment With Ambrisentan: A Prospective Single Center, Open Label, Pilot Study",
+    "briefTitle": "Exercise Induced Pulmonary Hypertension in Systemic Sclerosis and Treatment With Ambrisentan",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2011-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Ambrisentan"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Systemic Sclerosis",
+      "Shortness of Breath",
+      "Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00134160",
+    "title": "The Study Comparing the Incidence of Cardiovascular Events Between High-dose ARB Monotherapy and Combination Therapy With ARB and Calcium Channel Blocker in Japanese Elderly Hypertensive Patients at High Cardiovascular Risk",
+    "briefTitle": "OlmeSartan and Calcium Antagonists Randomized (OSCAR) Study",
+    "status": "COMPLETED",
+    "startDate": "2005-08",
+    "completionDate": "2010-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Olmesartan medoxomil",
+      "Calcium channel blockers (amlodipine, azelnidipine)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Cardiovascular Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT03961360",
+    "title": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida: An Open Label, Comparative Effectiveness, Randomized Controlled Trial (ASPREO Trial)",
+    "briefTitle": "Effectiveness of Higher Aspirin Dosing for Prevention of Preeclampsia in High Risk Obese Gravida",
+    "status": "COMPLETED",
+    "startDate": "2019-05-06",
+    "completionDate": "2023-04-10",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Aspirin 81 mg",
+      "Aspirin 162 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pre-Eclampsia",
+      "Hypertension in Pregnancy",
+      "Obesity"
+    ]
+  },
+  {
+    "nctId": "NCT00690794",
+    "title": "An Evaluation of the Ocular Surface Health in Subjects Using TRAVATAN Z\u00ae Ophthalmic Solution Versus XALATAN\u00ae Ophthalmic Solution",
+    "briefTitle": "Travatan Z in Ocular Surface Health in Patients With Open-Angle Glaucoma or Ocular Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2008-07",
+    "completionDate": "2009-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Travoprost ophthalmic solution 0.004% with SofZia\u00ae preservative system (TRAVATAN Z\u00ae)",
+      "Latanoprost ophthalmic solution 0.005% (XALATAN\u00ae)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Open-angle Glaucoma",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00307060",
+    "title": "A Randomized, Double-Blind, Parallel-Filter Study to Evaluate the Antihypertensive Efficacy and Safety of Losartan-HCTZ Combination as Compared to Losartan Monotherapy in Patients With Essential Hypertension",
+    "briefTitle": "MK0954A-264 Filter Study (0954A-264)(COMPLETED)",
+    "status": "COMPLETED",
+    "startDate": "2004-12-01",
+    "completionDate": "2005-06-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "MK0954A, hydrochlorothiazide (+) losartan potassium / Duration of Treatment: 6 weeks",
+      "losartan / Duration of Treatment: 6 weeks"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild to Severe Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT02847260",
+    "title": "A 16 Week, Open Label, Multi-centre, Study to Evaluate the Safety, Tolerability and Pharmacodynamic Effects of a Rapid Dose Titration Regimen of Subcutaneous Remodulin\u00ae Therapy in Subjects With Pulmonary Arterial Hypertension (PAH)",
+    "briefTitle": "Safety and Tolerability of Rapid Dose Titration of Subcutaneous Remodulin\u00ae Therapy in PAH Subjects (RAPID)",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2014-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Remodulin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT02653560",
+    "title": "Value of Liquid Potassium Magnesium Citrate in Controlling Hypertension",
+    "briefTitle": "Value of Liquid Potassium Magnesium Citrate in Controlling Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2012-09",
+    "completionDate": "2015-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Potassium chloride powder",
+      "Potassium magnesium Citrate (KMgCit)",
+      "Potassium citrate powder",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03966560",
+    "title": "Choroidal Thickness and Its Correlations With Ocular Parameters in Cases With Primary Open-angle Glaucoma",
+    "briefTitle": "Choroidal Thickness and Its Correlations With Ocular Parameters in Primary Open-angle Glaucoma",
+    "status": "COMPLETED",
+    "startDate": "2014-01",
+    "completionDate": "2015-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Brimonidine Tartrate",
+      "Dorzolamide (as Dorzolamide Hydrochloride) 20 Mg/mL and Timolol (as Timolol Maleate) 5 Mg/mL Eye Drops",
+      "Brinzolamide/Timolol 10 MG/1 ML-5 MG/1 ML Ophthalmic Suspension",
+      "Travoprost and Timolol",
+      "Bimatoprost and Timolol",
+      "Latanoprost"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma, Open-Angle"
+    ]
+  },
+  {
+    "nctId": "NCT01591460",
+    "title": "An International, Multicenter, Open-Label Study Evaluating Sustained Virological Response and Safety With Boceprevir in Triple Combination Therapy With Peginterferon Alfa-2a (40KD) and Ribavirin in Treatment-Na\u00efve Patients With Genotype 1 Chronic Hepatitis C",
+    "briefTitle": "A Triple Combination Therapy Study of Boceprevir, Pegasys and Copegus in Previously Untreated Patients With Genotype 1 Chronic Hepatitis C",
+    "status": "COMPLETED",
+    "startDate": "2012-08",
+    "completionDate": "2014-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "boceprevir",
+      "peginterferon alfa-2a [Pegasys]",
+      "peginterferon alfa-2a [Pegasys]",
+      "ribavirin (Copegus]",
+      "ribavirin (Copegus]"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatitis C, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT00373360",
+    "title": "Rapid Switch From Intravenous Epoprostenol to Intravenous Remodulin\u00ae (Treprostinil Sodium) in Patients With Stable Pulmonary Arterial Hypertension: Safety, Efficacy and Treatment Satisfaction",
+    "briefTitle": "Safety, Efficacy and Treatment Satisfaction in Patients With PAH Rapidly Switched From Epoprostenol to Remodulin",
+    "status": "COMPLETED",
+    "startDate": "2006-09",
+    "completionDate": "2008-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "treprostinil sodium"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00526760",
+    "title": "A Phase 3, Open-Label Study Evaluating the Safety and Efficacy of Dexmedetomidine in ICU Subjects Requiring Greater Than 24 Hours of Continuous Sedation",
+    "briefTitle": "Long-term Clinical Study Evaluating the Safety and Efficacy of Dexmedetomidine in ICU Subjects",
+    "status": "COMPLETED",
+    "startDate": "2007-10",
+    "completionDate": "2008-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dexmedetomidine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Sedation"
+    ]
+  },
+  {
+    "nctId": "NCT00152360",
+    "title": "The Effect of Xenical on Weight, Risk Factors and Burden of Medication",
+    "briefTitle": "The Effect of Xenical on Weight and Risk Factors",
+    "status": "COMPLETED",
+    "startDate": "2005-06",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Orlistat"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Obesity",
+      "Heart Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT00768560",
+    "title": "Evaluation of the Efficacy, Safety, and Pharmacokinetics/Pharmacodynamics of BAY A1040 CR Tablet on High Dose Administration in Patients With Essential Hypertension.",
+    "briefTitle": "Nifedipine (Adalat CR, BAY A1040) High Dose PK/PD Study",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Nifedipine (Adalat CR, BAYA1040) 80mg OD",
+      "Nifedipine (Adalat CR, BAYA1040) 40mg BID",
+      "Nifedipine (Adalat CR, BAYA1040) 40mg OD"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03476460",
+    "title": "Efficacy of Oral Sodium Chloride vs iv Sodium Chloride in the Prevention of Contrast Nephropathy in Outpatients",
+    "briefTitle": "Sodium Chloride and Contrast Nephropathy",
+    "status": "COMPLETED",
+    "startDate": "2014-04-01",
+    "completionDate": "2019-11-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Oral sodium chloride",
+      "Intravenous sodium chloride"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Kidney Failure, Chronic",
+      "Kidney Failure, Acute",
+      "Heart Failure",
+      "Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT06348576",
+    "title": "A Multicenter, Randomized, Double-blind, Active-control, Phase III Study to Evaluate the Efficacy and Safety of AD-209 in Patients With Essential Hypertension",
+    "briefTitle": "Phase III Study to Evaluate the Efficacy and Safety of AD-209",
+    "status": "RECRUITING",
+    "startDate": "2024-05-20",
+    "completionDate": "2025-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "AD-209",
+      "AD-2091",
+      "AD-209 Placebo",
+      "AD-2091 Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension,Essential"
+    ]
+  },
+  {
+    "nctId": "NCT01527682",
+    "title": "Efficacy and Safety of Prostaglandin Analogue and Carbonic Anhydrase Inhibitor for the Treatment of Pediatric Glaucoma",
+    "briefTitle": "Efficacy and Safety of Topically Applied Medical Therapy for the Treatment of Pediatric Glaucoma",
+    "status": "COMPLETED",
+    "startDate": "2009-07",
+    "completionDate": "2016-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Latanoprost, Dorzolamide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Childhood Glaucoma"
+    ]
+  },
+  {
+    "nctId": "NCT00108082",
+    "title": "A Randomized, Double-Blind, Multi-Center Study Comparing the Effects of Carvedilol Modified Release Formulation (COREG MR) and Atenolol in Combination With and Compared to an Angiotensin Converting Enzyme Inhibitor (Lisinopril) on Left Ventricular Mass Regression in Hypertensive Patients With Left Ventricular Hypertrophy (LVH).",
+    "briefTitle": "The CLEVER Study - Coreg And Left Ventricular Mass Regression",
+    "status": "COMPLETED",
+    "startDate": "2005-01",
+    "completionDate": "2008-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "carvedilol MR",
+      "atenolol",
+      "lisinopril"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertrophy, Left Ventricular"
+    ]
+  },
+  {
+    "nctId": "NCT00185120",
+    "title": "A Study on the Efficacy and Safety of Olmesartan Medoxomil and Its Combination With Hydrochlorothiazide Compared With an ACE Inhibitor and Its Combination With a Calcium Channel Blocker in Patients With Stage 2 Hypertension",
+    "briefTitle": "Treatment of High Blood Pressure Using Olmesartan With Hydrochlorothiazide Compared to an ACE Inhibitor With a Calcium Channel Blocker",
+    "status": "COMPLETED",
+    "startDate": "2005-09",
+    "completionDate": "2006-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Olmesartan medoxomil",
+      "Hydroclorothiazide",
+      "Benazepril",
+      "Amlodipine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01093820",
+    "title": "Documentation of Hemoglobin Kinetics in Response to Mircera\u00ae in Patients With Acute Myocardial Infarction (BEAT-STEMI Pilot)",
+    "briefTitle": "Hemoglobin Kinetics in Response to Mircera\u00ae in Patients With Acute Myocardial Infarction",
+    "status": "COMPLETED",
+    "startDate": "2010-04",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "methoxy-polyethyleneglycol epoetin beta"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Myocardial Infarction"
+    ]
+  },
+  {
+    "nctId": "NCT01712620",
+    "title": "A Pilot Study of the Effect of Spironolactone Therapy on Exercise Capacity and Endothelial Dysfunction in Pulmonary Arterial Hypertension",
+    "briefTitle": "Spironolactone for Pulmonary Arterial Hypertension",
+    "status": "RECRUITING",
+    "startDate": "2014-01-10",
+    "completionDate": "2026-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Spironolactone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00395382",
+    "title": "Randomised Controlled Trial of the Effect of Alendronate on Vascular Calcification and Arterial Stiffness in Chronic Kidney Disease: A Pilot Study",
+    "briefTitle": "Study of the Effect of Alendronate on Vascular Calcification and Arterial Stiffness in Chronic Kidney Disease",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2009-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Alendronate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Vascular Calcification",
+      "Arteriosclerosis"
+    ]
+  },
+  {
+    "nctId": "NCT00141882",
+    "title": "",
+    "briefTitle": "Memantine in Patients With Chronic Glaucoma",
+    "status": "COMPLETED",
+    "startDate": "1999-03",
+    "completionDate": "2006-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "memantine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Open-Angle Glaucoma"
+    ]
+  },
+  {
+    "nctId": "NCT00824720",
+    "title": "",
+    "briefTitle": "Safety and Efficacy of a Glaucoma Drug Delivery System",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2009-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "High Dose Device",
+      "Low Dose Device"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma, Open-Angle",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT05688020",
+    "title": "Comparison Between Epinephrine Versus Tranexamic Acid Usage During Upper Gastrointestinal Tract Endoscopic Resection Procedures for the Reduction of Intraprocedural and Postprocedural Bleeding",
+    "briefTitle": "Tranexamic Acid During Upper GI Endoscopic Resection Procedures",
+    "status": "RECRUITING",
+    "startDate": "2023-02-01",
+    "completionDate": "2026-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tranexamic acid",
+      "Epinephrine injection"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gastric Polyp",
+      "Gastric Neoplasm",
+      "Duodenal Neoplasms",
+      "Esophageal Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT01026831",
+    "title": "A Phase III, Randomized, Active Comparator-Controlled, Twelve-Week, Double-Masked Clinical Trial to Compare the Efficacy and Safety of Preservative-Free MK2452 (0.0015%) and Preservative-Free Timolol Maleate (0.5%) in Patients With Open-Angle Glaucoma and Ocular Hypertension",
+    "briefTitle": "Preservative-Free MK2452 (Tafluprost) for Open-Angle Glaucoma/Ocular Hypertension (MK2452-001)(COMPLETED)",
+    "status": "COMPLETED",
+    "startDate": "2010-01-06",
+    "completionDate": "2010-09-17",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Preservative-Free Tafluprost",
+      "Comparator: timolol"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Open-angle Glaucoma",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT04523220",
+    "title": "A Randomized, Double-blind, Parallel Group, Placebo-controlled, Multi-center Study to Assess the Safety and Tolerability of Monthly Subcutaneous Administrations of a Low and High Dose Cohort of Osocimab to ESRD Patients on Regular Hemodialysis",
+    "briefTitle": "Study to Investigate the Safety of a Drug Called Osocimab at Low and High Doses in Adult Patients With Kidney Failure Requiring Regular Hemodialysis",
+    "status": "COMPLETED",
+    "startDate": "2020-08-28",
+    "completionDate": "2022-05-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "BAY1213790 (Osocimab)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "End-stage Renal Disease",
+      "Prevention of Thromboembolic Events",
+      "Hemodialysis",
+      "Hemodiafiltration"
+    ]
+  },
+  {
+    "nctId": "NCT01819220",
+    "title": "",
+    "briefTitle": "Randomized, Open Labeled Clinical Trial to Compare the Effectiveness of Amlodipine/Valsartan vs Hydrochlorothiazide/Telmisartan on Glucose Tolerance in Patients With Hypertension With Metabolic Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2009-04",
+    "completionDate": "2014-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "amlodipine/valsartan",
+      "hydrochlorothiazide/telmisartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01920282",
+    "title": "Effect of Nebivolol and Lifestyle Modification on Large Artery Stiffness in Middle-Aged and Older Hypertensive Adults",
+    "briefTitle": "Nebivolol, Lifestyle Modification and Arterial Stiffness",
+    "status": "COMPLETED",
+    "startDate": "2010-01",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Nebivolol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT04597320",
+    "title": "The Effects of Esketamine Sedation Compared With Fentanyl Sedation in Pediatric Dental Patients: A Double Blind, Randomized Controlled Trial",
+    "briefTitle": "Esketamine Sedation and Fentanyl Sedation in Pediatric Dental Patients",
+    "status": "COMPLETED",
+    "startDate": "2022-01-01",
+    "completionDate": "2022-03-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Fentanyl",
+      "Esketamine",
+      "Midazolam"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Ketamine",
+      "Fentanyl",
+      "Sedation Complication"
+    ]
+  },
+  {
+    "nctId": "NCT04316182",
+    "title": "A Phase II triAl of Cabozantinib for hepaTocellular carcInoma Patients intOlerant to Sorafenib Treatment or First Line Treatment Different to sorafeNib. (ACTION Trial)",
+    "briefTitle": "Cabozantinib in Patients With Hepatocellular Carcinoma (ACTION)",
+    "status": "COMPLETED",
+    "startDate": "2020-07-31",
+    "completionDate": "2023-02-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Cabozantinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hepatocellular Carcinoma"
+    ]
+  },
+  {
+    "nctId": "NCT01222520",
+    "title": "An Eight-week Randomised Double-blind Study to Compare the Efficacy and Safety of Telmisartan 80 mg+ Amlodipine 5 mg Fixed-dose Combination vs. Telmisartan 80 mg Monotherapy in Patients With Hypertension Who Fail to Respond Adequately to Treatment With Telmisartan 80 mg Monotherapy",
+    "briefTitle": "Telmisartan 80mg Non-responder Trial",
+    "status": "COMPLETED",
+    "startDate": "2010-10",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Telmisartan and amlodipine",
+      "Telmisartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT04857827",
+    "title": "A Randomized Active-controlled Study to Evaluate Safety and Tolerability of QLS-101 Versus Timolol Preservative Free (PF) Ophthalmic Solution in Subjects With Normal Tension Glaucoma (NTG)",
+    "briefTitle": "A Study to Evaluate Safety and Tolerability of QLS-101 in NTG",
+    "status": "COMPLETED",
+    "startDate": "2021-09-15",
+    "completionDate": "2022-08-26",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "QLS-101",
+      "Timolol maleate PF 0.5% ophthalmic solution"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Normal Tension Glaucoma (NTG)"
+    ]
+  },
+  {
+    "nctId": "NCT00425373",
+    "title": "A Multi-center, Randomized, Double-blind, Parallel-group, Placebo-controlled, Factorial Study to Evaluate the Efficacy and Safety of 8-week Treatment With Valsartan (40 and 80 mg) and Amlodipine (2.5 and 5 mg) Combined and Alone in Essential Hypertensive Patients",
+    "briefTitle": "Efficacy and Safety of Valsartan and Amlodipine in Patients With Essential Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2008-03",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Valsartan + amlodipine 40/2.5 mg",
+      "Valsartan + amlodipine 40/5 mg",
+      "Valsartan + amlodipine 80/2.5 mg",
+      "Valsartan + amlodipine 80/5 mg",
+      "Valsartan 40 mg",
+      "Valsartan 80 mg",
+      "Amlodipine 2.5 mg",
+      "Amlodipine 5 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Essential Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01174173",
+    "title": "Effects of Ranolazine in Patients With Angina Due to Right Ventricular Ischemia in Pulmonary Arterial Hypertension",
+    "briefTitle": "Ranolazine and Pulmonary Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2010-06",
+    "completionDate": "2014-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ranolazine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Angina",
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT04548973",
+    "title": "A Multicenter Study of the Efficacy and Safety of Esketamine for Analgesia During",
+    "briefTitle": "A Multicenter Study of the Efficacy and Safety of Esketamine for Analgesia During Cesarean Section",
+    "status": "COMPLETED",
+    "startDate": "2021-09-18",
+    "completionDate": "2024-09-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Esketamine",
+      "Normal saline"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Fetal or Neonatal Effect of Damage to Placenta From Caesarean Section"
+    ]
+  },
+  {
+    "nctId": "NCT00725127",
+    "title": "Chronotherapy with Low-dose Aspirin for Primary Prevention of Cardiovascular Events in Subjects with Impaired Fasting Glucose or Diabetes (CARING Study).",
+    "briefTitle": "Chronotherapy with Low-dose Aspirin for Primary Prevention",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2008-10",
+    "completionDate": "2026-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "aspirin",
+      "aspirin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes"
+    ]
+  },
+  {
+    "nctId": "NCT00853073",
+    "title": "Does a New Add on (or Adjunctive) Therapy Used in Glaucoma Surgery Improve the Success of Needle Bleb Revisions?",
+    "briefTitle": "Does Adding Bevacizumab Therapy in Glaucoma Surgery Improve the Success of Needle Bleb Revisions?",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2012-01",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "bevacizumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ]
+  },
+  {
+    "nctId": "NCT00457873",
+    "title": "Isotonic Versus Hypotonic Saline for Maintenance Intravenous Fluid Therapy: A Pilot Randomized Trial",
+    "briefTitle": "Isotonic Versus Hypotonic Fluid for Maintenance IV Therapy",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "0.9% saline in 5% dextrose (intravenous)",
+      "0.45% saline in 5% dextrose (intravenous)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Gastroenteritis",
+      "Bronchiolitis",
+      "Sepsis",
+      "Urinary Tract Infection"
+    ]
+  },
+  {
+    "nctId": "NCT06570473",
+    "title": "Feasibility Trial for the Canadian Right Ventricular AdaptiVE (CRAVE) Platform for Therapies Targeting Right Ventricular Failure",
+    "briefTitle": "Feasibility Trial for a Right Ventricular Failure Platform Trial",
+    "status": "RECRUITING",
+    "startDate": "2025-02-12",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Empagliflozin",
+      "Ranolazine"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Hypertension",
+      "Right Ventricular Dysfunction",
+      "Right Heart Failure"
+    ]
+  },
+  {
+    "nctId": "NCT04200573",
+    "title": "A Phase 1, Open-Label, Single Dose Study to Evaluate the Pharmacokinetics of Ampreloxetine Following a Single-dose in Subjects With Mild, Moderate, and Severe Hepatic Impairment and in Matching Healthy Subjects",
+    "briefTitle": "Effect of Hepatic Impairment on the Pharmacokinetics of a Single Dose of TD-9855",
+    "status": "COMPLETED",
+    "startDate": "2020-01-13",
+    "completionDate": "2021-08-19",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Ampreloxetine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Symptomatic Neurogenic Orthostatic Hypertension",
+      "nOH"
+    ]
+  },
+  {
+    "nctId": "NCT02565173",
+    "title": "Phase III Multi-center, Randomized, Double-masked, Active- and Placebo-controlled Study of Trabodenoson in Adults With Ocular Hypertension or Primary Open-angle Glaucoma",
+    "briefTitle": "Study of Trabodenoson in Adults With Ocular Hypertension or Primary Open-angle Glaucoma",
+    "status": "COMPLETED",
+    "startDate": "2015-09",
+    "completionDate": "2016-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "trabodenoson 4.5% BID",
+      "trabodenoson 6.0% QD",
+      "trabodenoson 3.0% QD",
+      "timolol 0.5% BID",
+      "placebo BID"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Primary Open-Angle Glaucoma (POAG)",
+      "Ocular Hypertension (OHT)"
+    ]
+  },
+  {
+    "nctId": "NCT03503773",
+    "title": "A Phase 2, Multicenter, Blinded, Sham Procedure-Controlled Trial of Renal Denervation by the Peregrine System Kit, in Subjects With Hypertension, in the Absence of Antihypertensive Medications",
+    "briefTitle": "The TARGET BP OFF-MED Trial",
+    "status": "COMPLETED",
+    "startDate": "2018-09-24",
+    "completionDate": "2024-01-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Alcohol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Hypertension,Essential"
+    ]
+  },
+  {
+    "nctId": "NCT02831673",
+    "title": "A Phase III, Randomised, Double Blind, Multicentre, Parallel Group, Non Inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in Human Immunodeficiency Virus 1 Infected Treatment na\u00efve Adults",
+    "briefTitle": "An Efficacy, Safety, and Tolerability Study Comparing Dolutegravir Plus Lamivudine With Dolutegravir Plus Tenofovir/Emtricitabine in Treatment na\u00efve HIV Infected Subjects (Gemini 1)",
+    "status": "COMPLETED",
+    "startDate": "2016-07-21",
+    "completionDate": "2022-08-15",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dolutegravir (DTG)",
+      "Lamivudine (3TC)",
+      "Tenofovir disoproxil fumarate/Emtricitabine (TDF/FTC FDC)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Infection, Human Immunodeficiency Virus",
+      "HIV Infections"
+    ]
+  },
+  {
+    "nctId": "NCT00149227",
+    "title": "Add-on Effects of Valsartan on Morbi- Mortality in High Risk Hypertension",
+    "briefTitle": "Add-on Effects of Valsartan on Morbi- Mortality (KYOTO HEART Study)",
+    "status": "COMPLETED",
+    "startDate": "2004-01",
+    "completionDate": "2009-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Valsartan",
+      "Non-ARB"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Ischemic Heart Disease",
+      "Congestive Heart Failure",
+      "Stroke"
+    ]
+  },
+  {
+    "nctId": "NCT02629627",
+    "title": "Effect of the Administration of Conjugated Linoleic Acid / Leucine Plus Metformin on Visceral Fat in Patients With Metabolic Syndrome",
+    "briefTitle": "Conjugated Linoleic Acid / Leucine Versus Metformin on Visceral Fat in Metabolic Syndrome",
+    "status": "COMPLETED",
+    "startDate": "2016-03",
+    "completionDate": "2017-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Metformin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Metabolic Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT04370873",
+    "title": "A Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Dose MK-5475 in Participants With Pulmonary Hypertension Associated With COPD",
+    "briefTitle": "MK-5475 in Participants With Pulmonary Hypertension Associated With Chronic Obstructive Pulmonary Disease (PH-COPD) (MK-5475-006)",
+    "status": "COMPLETED",
+    "startDate": "2020-06-05",
+    "completionDate": "2022-01-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "MK-5475",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00335673",
+    "title": "Irbesartan in Mild to Moderate Hypertensive Patients",
+    "briefTitle": "I SAVE - Irbesartan in Mild to Moderate Hypertensive Patients",
+    "status": "COMPLETED",
+    "startDate": "2006-02",
+    "completionDate": "2006-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Irbesartan (Aprovel)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03354273",
+    "title": "A Phase 3, Open-Label, Multicentre Study of Flurpiridaz (18F) Injection for Positron Emission Tomography (PET) Imaging for Assessment of Myocardial Perfusion in Patients Referred for Invasive Coronary Angiography Because of Suspected Coronary Artery Disease",
+    "briefTitle": "An International Study to Evaluate Diagnostic Efficacy of Flurpiridaz (18F) Injection PET MPI in the Detection of Coronary Artery Disease (CAD)",
+    "status": "COMPLETED",
+    "startDate": "2018-06-05",
+    "completionDate": "2022-05-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "PET MPI",
+      "SPECT MPI",
+      "Pharmacological stress agents"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Coronary Artery Disease (CAD)"
+    ]
+  },
+  {
+    "nctId": "NCT00591773",
+    "title": "A Double-Blind, Randomized, Placebo-Controlled Study to Evaluate the Efficacy and Safety of TAK-491 When Co-administered With Chlorthalidone in Subjects With Essential Hypertension",
+    "briefTitle": "Efficacy and Safety of Azilsartan Medoxomil Co-Administered With Chlorthalidone in Participants With Essential Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2007-09",
+    "completionDate": "2009-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Azilsartan medoxomil and chlorthalidone",
+      "Azilsartan medoxomil and chlorthalidone",
+      "Chlorthalidone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT06226727",
+    "title": "A Randomized, Open-label, Single Dose, Two-way Replicate Crossover Phase 1 Study to Evaluate the Pharmacokinetics and the Safety After Administration of \"BR1019\" and Co-administration of \"BR1019-1\" and \"BR1019-2\" in Healthy Volunteers",
+    "briefTitle": "A Study to Evaluate the Pharmacokinetics and the Safety After Administration of \"BR1019\" and Co-administration of \"BR1019-1\" and \"BR1019-2\"",
+    "status": "COMPLETED",
+    "startDate": "2024-02-14",
+    "completionDate": "2024-03-31",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BR1019",
+      "BR1019-1",
+      "BR1019-2"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Type 2 Diabetes Mellitus",
+      "Essential Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00151827",
+    "title": "Efficacy and Safety of Olmesartan Medoxomil Compared With Losartan in Patients With Hypertension and Mild to Moderate Renal Impairment",
+    "briefTitle": "Olmesartan Medoxomil in Hypertension and Renal Impairment",
+    "status": "COMPLETED",
+    "startDate": "2003-08",
+    "completionDate": "2005-07",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Olmesartan medoxomil",
+      "Losartan",
+      "Furosemide oral tablets"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Essential Hypertension",
+      "Renal Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT01114373",
+    "title": "Melatonin and Nighttime Blood Pressure in African Americans--24 mg Study",
+    "briefTitle": "Melatonin and Nighttime Blood Pressure in African Americans--24 mg Study",
+    "status": "COMPLETED",
+    "startDate": "2010-06",
+    "completionDate": "2014-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Melatonin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00626782",
+    "title": "Lucentis Versus Mitomycin C as Adjunctive Agent During Trabeculectomy Surgery",
+    "briefTitle": "Lucentis Versus Mitomycin C During Glaucoma Surgery",
+    "status": "COMPLETED",
+    "startDate": "2008-01",
+    "completionDate": "2011-04",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ranibizumab",
+      "Mitomycin (MMC)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ]
+  },
+  {
+    "nctId": "NCT00799682",
+    "title": "An 8 Week, Single Masked, Parallel-Group, Exploratory Study Comparing Ocular Surface Signs and Symptoms in Monotherapy Ocular Hypertension or Glaucoma Patients Randomized to Either Xalatan\u00ae or Travatan Z\u00ae",
+    "briefTitle": "Exploratory Study Comparing Signs and Symptoms in Patients With Ocular Hypertension or Glaucoma Using Xalatan R\u00ae or Travatan Z\u00ae",
+    "status": "COMPLETED",
+    "startDate": "2008-10",
+    "completionDate": "2011-02",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Xalatan",
+      "Travatan Z"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dry Eye Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06413082",
+    "title": "Pharmacogenetics of Hypertension: a Single-centre Randomized Study in Patients With Essential Hypertension Treated With Spironolactone or Torasemide",
+    "briefTitle": "Pharmacogenetics of Torasemide and Spironolactone in Hypertension Treatment",
+    "status": "COMPLETED",
+    "startDate": "2021-02-15",
+    "completionDate": "2023-09-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Torasemide",
+      "Spironolactone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Genetic Predisposition",
+      "Drug Effect"
+    ]
+  },
+  {
+    "nctId": "NCT05521282",
+    "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Qianglidingxuan Tablets in the Treatment of Mild to Moderate Essential Hypertension With Hyperactivity of Liver Yang",
+    "briefTitle": "The Efficacy of Qianglidingxuan Tablets in the Treatment of Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2021-03-09",
+    "completionDate": "2022-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Treatment group"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Medicine, Chinese Traditional"
+    ]
+  },
+  {
+    "nctId": "NCT01554982",
+    "title": "A Long-Term Safety Extension Trial of KRX-0502 (Ferric Citrate) in Patients With End-Stage Renal Disease (ESRD) on Dialysis",
+    "briefTitle": "A Long-Term Safety Extension Trial of Ferric Citrate in Patients With End-Stage Renal Disease (ESRD) on Dialysis",
+    "status": "COMPLETED",
+    "startDate": "2012-08",
+    "completionDate": "2014-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "ferric citrate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "End Stage Renal Disease",
+      "Kidney Failure",
+      "Renal Failure",
+      "Hyperphosphatemia",
+      "ESRD"
+    ]
+  },
+  {
+    "nctId": "NCT01172431",
+    "title": "A Comparison of Indapamide SR 1.5 mg With Hydrochlorothiazide 25 mg, in Combination With an ACE-inhibitor, in Old Patients With Mild to Moderate Renal Insufficiency and Hypertension",
+    "briefTitle": "Indapamide Versus Hydrochlorothiazide in Elderly Hypertensive Patients With Renal Insufficiency",
+    "status": "COMPLETED",
+    "startDate": "2010-09",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Indapamide",
+      "Hydrochlorothiazide"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Renal Insufficiency"
+    ]
+  },
+  {
+    "nctId": "NCT01340131",
+    "title": "Open Label, Randomized, Single-dose, Crossover Study to Evaluate the Pharmacokinetic Characteristics of Telmisatan 40mg and S-Amlodipine 5mg as a Fixed Dose Combination Tablet Compared With Combination Therapy in Healthy Volunteers",
+    "briefTitle": "CKD-828 (40/5mg) Pharmacokinetic Study",
+    "status": "COMPLETED",
+    "startDate": "2011-01",
+    "completionDate": "2011-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CKD-828",
+      "Combination Therapy"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03083431",
+    "title": "Oral Propranolol for Prevention of Threshold Retinopathy of Prematurity",
+    "briefTitle": "Oral Propranolol for Prevention of Threshold Retinopathy of Prematurity",
+    "status": "RECRUITING",
+    "startDate": "2022-09-22",
+    "completionDate": "2026-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Propranolol",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Retinopathy of Prematurity"
+    ]
+  },
+  {
+    "nctId": "NCT02786082",
+    "title": "Single Center, Randomized, Open Labeled Pharmacokinetics Study of Azilsartan Tablets in Chinese Healthy Volunteers",
+    "briefTitle": "Pharmacokinetics Study of Azilsartan Tablets in Chinese Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2016-11-01",
+    "completionDate": "2017-11-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "20mg Azilsartan Tablets",
+      "40mg Azilsartan Tablets"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00372931",
+    "title": "A Phase II Study of AL-37807 to Treat Open-Angle Glaucoma or Ocular Hypertension",
+    "briefTitle": "A Phase II Study of AL-37807 to Treat Open-Angle Glaucoma or Ocular Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2006-05",
+    "completionDate": "",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "AL-37807"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Open-Angle Glaucoma",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT06048120",
+    "title": "First-in-man Single-dose Escalation Study in a Randomized, Single-blind, Placebo-controlled, Group-comparison Design to Investigate Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of BAY 2701250 After Single Short-time Intravenous Infusion or Subcutaneous Administration in Healthy Male Participants.",
+    "briefTitle": "A Study to Learn How Safe the Study Treatment BAY2701250 is, How it Affects the Body and How it Moves Into, Through and Out of the Body in Healthy Male Participants When a Single Amount is Given as an Injection Into the Vein (Intravenous Infusion) or Under the Skin (Subcutaneous Injection)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-09-15",
+    "completionDate": "2025-05-20",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BAY2701250 IV",
+      "Placebo IV",
+      "BAY2701250 SC",
+      "Placebo SC"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Hypertension Due to Left Heart Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01713920",
+    "title": "Efficacy and Tolerability of Combination Antihypertensive Drug in Non-Responders to Angiotensin Receptor Blocker(ARB) monoTHerapy Using 24h ABPM.",
+    "briefTitle": "Efficacy and Tolerability of Combination Antihypertensive Drug in Non-Responders to ARB monoTHerapy Using 24h ABPM",
+    "status": "COMPLETED",
+    "startDate": "2010-04",
+    "completionDate": "2014-09",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "SEVIKAR"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT02983682",
+    "title": "A Pilot Study of the Effectiveness of Lidocaine Infusions for the Management of Chronic Pain in Children",
+    "briefTitle": "Lidocaine Infusions for Chronic Pain in Children",
+    "status": "COMPLETED",
+    "startDate": "2017-01",
+    "completionDate": "2023-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Lidocaine Infusion"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pain, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT02012582",
+    "title": "An Exploratory Phase 2 a Study to Assess Safety, Tolerability, Pharmacodynamic and Pharmacokinetics of VAS203 in Patients With Moderate and Severe Traumatic Brain Injury",
+    "briefTitle": "Phase 2 a Study to Assess Safety and Pharmacokinetics of VAS203 in Patients With Traumatic Brain Injury",
+    "status": "COMPLETED",
+    "startDate": "2009-11",
+    "completionDate": "2012-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "VAS203",
+      "Saline"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Traumatic Brain Injury"
+    ]
+  },
+  {
+    "nctId": "NCT00232882",
+    "title": "Neurohumoral and Oxidative Influences of Candesartan, Atenolol, Hydrochlorothiazide and Drug Combinations in Essential Hypertensive Patients.",
+    "briefTitle": "Pharmacodynamic Influences of Candesartan, Atenolol, Hydrochlorothiazide and Drug Combinations in Hypertensive Patients.",
+    "status": "COMPLETED",
+    "startDate": "2003-12",
+    "completionDate": "2006-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Candesartan Thiazide",
+      "Atenolol Thiazide",
+      "Thiazide Candesartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00352482",
+    "title": "Sildenafil Treatment in Patients With Idiopathic Pulmonary Fibrosis and Pulmonary Hypertension - a Pilot Cross-over Study",
+    "briefTitle": "Sildenafil to Increase Exercise Capacity in Individuals With Idiopathic Pulmonary Fibrosis and Pulmonary Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2004-11",
+    "completionDate": "2007-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Sildenafil (50 mg)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Fibrosis",
+      "Hypertension, Pulmonary"
+    ]
+  },
+  {
+    "nctId": "NCT05500820",
+    "title": "A Randomized, Double-Blind Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics of CIN-107 Following Multiple Oral Doses in Healthy Subjects",
+    "briefTitle": "Study With CIN-107 Following Multiple Oral Ascending Doses in Healthy Subjects",
+    "status": "COMPLETED",
+    "startDate": "2019-12-19",
+    "completionDate": "2020-04-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "CIN-107",
+      "Matching Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT06947460",
+    "title": "CD19-BCMA CART Cell Therapy for Refractory Systemic Lupus Erythematosus Nephritis (SLE-LN), Systemic Sclerosis (SSc), and Primary Sjogren Syndrome Combined With Pulmonary Artery Hypertension (pSS-PAH): a Single-center, Open, Non-randomized, Single-arm Clinical Study",
+    "briefTitle": "CD19-BCMA CART Cell Therapy for Refractory SLE-LN, SSc, and pSS-PAH",
+    "status": "RECRUITING",
+    "startDate": "2025-04-18",
+    "completionDate": "2026-07-31",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "CD19-BCMA CAR-T cells infusion"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Refractory Lupus Nephritis",
+      "Systemic Sclerosis",
+      "Primary Sjogren&#39;s Syndrome Combined With Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT02774460",
+    "title": "The Precision Hypertension Care Study",
+    "briefTitle": "The Precision Hypertension Care Study",
+    "status": "COMPLETED",
+    "startDate": "2017-02-20",
+    "completionDate": "2021-06-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Zestril\u00ae",
+      "Atacand\u00ae",
+      "Norvasc\u00ae",
+      "Hydrochlorthiazide\u00ae",
+      "Treatment X",
+      "Treatment Y",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00856960",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, 4-Treatment, 3-Period, Incomplete Block, Balanced Crossover Study to Evaluate the Effects of a Single Dose of Aliskiren and Losartan on Renal Blood Flow Measurements in Healthy Male Subjects",
+    "briefTitle": "The Effect of Hypertension Medications on Renal Blood Flow Measurements in Healthy Males (MK-0000-127)",
+    "status": "COMPLETED",
+    "startDate": "2010-01",
+    "completionDate": "2010-04",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Aliskiren",
+      "Aliskiren",
+      "Comparator: Losartan",
+      "Comparator: Placebo to Aliskiren",
+      "Comparator: Placebo to Losartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03206060",
+    "title": "Lu-177-DOTATATE (Lutathera) in Therapy of Inoperable Pheochromocytoma/ Paraganglioma",
+    "briefTitle": "Lu-177-DOTATATE (Lutathera) in Therapy of Inoperable Pheochromocytoma/ Paraganglioma",
+    "status": "RECRUITING",
+    "startDate": "2017-10-10",
+    "completionDate": "2027-01-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lu-177-DOTATATE",
+      "Ga-68-DOTATATE",
+      "F-18-FDG",
+      "Amino Acid solution"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pheochromocytoma",
+      "Paraganglioma",
+      "Neuroendocrine Tumors",
+      "Neuroendocrine Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT04994860",
+    "title": "An Open-Label, Three Period, Fixed Sequence Study to Assess the Effect of a Single Dose of BIA 5-1058 400 mg on the Steady State Pharmacokinetics of Sildenafil in Healthy Subjects Under Fasting Conditions",
+    "briefTitle": "Effect of BIA 5-1058 400 mg on the Steady State Pharmacokinetics of Sildenafil",
+    "status": "COMPLETED",
+    "startDate": "2018-03-22",
+    "completionDate": "2018-06-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIA 5-1058",
+      "Sildenafil"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Arterial Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00966576",
+    "title": "The Efficacy and Safety of Adding the Brinzolamide/Timolol Maleate Fixed Combination (Azarga\u00ae) to Prostaglandin Monotherapy",
+    "briefTitle": "Efficacy and Safety of Adding Azarga to Prostaglandin Monotherapy",
+    "status": "COMPLETED",
+    "startDate": "2009-07",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Brinzolamide/Timolol Maleate Fixed Combination (AZARGA)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma"
+    ]
+  },
+  {
+    "nctId": "NCT00219076",
+    "title": "A Six-week, Randomized, Double-blind, Parallel-group, Multicenter Study to Evaluate the Safety and Efficacy of the Combination of Aliskiren 150 mg and Amlodipine 5 mg Compared to Amlodipine 5 mg and 10 mg in Hypertensive Patients Not Adequately Responsive to Amlodipine 5 mg",
+    "briefTitle": "A Clinical Study to Evaluate the Safety and Efficacy of the Combination of Aliskiren and Amlodipine in Hypertensive Non Responders Patients",
+    "status": "COMPLETED",
+    "startDate": "2005-02",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "aliskiren"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT02796560",
+    "title": "Randomized Crossover Trial Comparing the Hypotensive Effect of Generic Travoprost With That of the Brand Name Travoprost in Patients With Primary Open Angle Glaucoma or Ocular Hypertension",
+    "briefTitle": "Generic Travoprost Versus Brand Name Travoprost in Patients With Primary Open Angle Glaucoma or Ocular Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2016-07-01",
+    "completionDate": "2017-09-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Brand name travoprost",
+      "Generic travoprost"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma, Primary Open Angle",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03714776",
+    "title": "A Double-Blind, Placebo-Controlled, Phase 2 Study to Assess the Safety, Tolerability and Efficacy of IONIS-AGT-LRx, an Antisense Inhibitor Administered Subcutaneously to Hypertensive Subjects With Controlled Blood Pressure",
+    "briefTitle": "A Study to Assess the Safety, Tolerability and Efficacy of IONIS-AGT-LRx, an Antisense Inhibitor Administered Subcutaneously to Hypertensive Participants With Controlled Blood Pressure",
+    "status": "COMPLETED",
+    "startDate": "2019-01-03",
+    "completionDate": "2019-11-13",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "ISIS 757456"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00409760",
+    "title": "A Randomized, Double-blind, Multicenter, Multifactorial, Placebo-controlled, Parallel Group Study to Evaluate the Efficacy and Safety of Valsartan and Amlodipine Combined and Alone in Hypertensive Patients.",
+    "briefTitle": "Safety and Efficacy of Valsartan and Amlodipine Combined and Alone in Patients With Hypertension.",
+    "status": "COMPLETED",
+    "startDate": "2003-01",
+    "completionDate": "2004-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "valsartan+amlodipine combination, valsartan, amlodipine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT04158076",
+    "title": "A Randomized, Double-blind, Active-controlled, Multicenter Phase III Trial to Evaluate the Efficacy and Safety of Co-administrated AD-2071 and AD-2073 in Patients With Primary Hypercholesterolemia and Essential Hypertension",
+    "briefTitle": "Evaluating the Efficacy and Safety of Co-administrated Rosuvastatin/Ezetimibe and Telmisartan/Amlodipine",
+    "status": "COMPLETED",
+    "startDate": "2020-01-23",
+    "completionDate": "2021-01-14",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Ezetimibe/Rosuvastatin",
+      "Telmisartan",
+      "Telmisartan/Amlodipine 80 Mg-5 Mg ORAL TABLET"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypercholesterolemia",
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00267176",
+    "title": "A 4-week, Multicentre, Randomized, Double-blind, Double-dummy, Parallel Group Ambulatory Blood Pressure Monitoring Study to Investigate Whether Treatment With Lumiracoxib 100 mg Once Daily Results in an Improved 24-hour Blood Pressure Profile Compared to Ibuprofen 600 mg Three Times a Day in Osteoarthritis Patients With Controlled Hypertension",
+    "briefTitle": "Safety and Efficacy of Lumiracoxib in Patients With Osteoarthritis and With Controlled Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2005-11",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "lumiracoxib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Osteoarthritis",
+      "Controlled Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01541176",
+    "title": "Impact of the Absence of Steroids on the Evolution of Renal Function and on the Progression of Graft Fibrosis, Quantified by Numerical Method, in Patients With Renal Transplant",
+    "briefTitle": "Absence of Steroid in Renal Transplantation and Digital Fibrosis Observation",
+    "status": "COMPLETED",
+    "startDate": "2012-04",
+    "completionDate": "2018-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Corticotherapy post-transplantation"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Renal Transplant"
+    ]
+  },
+  {
+    "nctId": "NCT04538976",
+    "title": "Copd Exacerbation and Pulmonary Hypertension Trial",
+    "briefTitle": "Copd Exacerbation and Pulmonary Hypertension Trial",
+    "status": "COMPLETED",
+    "startDate": "2020-02-01",
+    "completionDate": "2024-03-15",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Sildenafil"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Acute Exacerbation of COPD"
+    ]
+  },
+  {
+    "nctId": "NCT03274076",
+    "title": "Evaluation of Tofacitinib in Early Diffuse Cutaneous Systemic Sclerosis (dcSSc): A Phase I/II Two Center Safety and Tolerability Study",
+    "briefTitle": "Evaluation of Tofacitinib in Early Diffuse Cutaneous Systemic Sclerosis (dcSSc)",
+    "status": "COMPLETED",
+    "startDate": "2017-09-25",
+    "completionDate": "2019-11-15",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Tofacitinib",
+      "Placebo Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Systemic Sclerosis",
+      "Scleroderma"
+    ]
+  },
+  {
+    "nctId": "NCT00170976",
+    "title": "A 54 Week, Extension to the Double-blind, Multicenter, Multifactorial, Placebo-controlled, Study to Evaluate the Efficacy and Safety of Valsartan (160 mg and 320 mg) and Amlodipine (10 mg) Combined and Alone in Hypertensive Patients",
+    "briefTitle": "A Year Long Study to Evaluate the Safety of the Combination of Valsartan (320 mg) and Amlodipine (5 mg) in Patients With Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2004-04",
+    "completionDate": "2005-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "valsartan + amlodipine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "HYPERTENSION"
+    ]
+  },
+  {
+    "nctId": "NCT03024476",
+    "title": "Optimization of Blood Pressure Management After Acute Ischemic Stroke and Its Prognostic Significance: Prospective, Randomized, Open, Blinded Outcome Evaluation, and Feasibility Trial",
+    "briefTitle": "Optimization of Blood Pressure Management After Acute Ischemic Stroke and Its Prognostic Significance",
+    "status": "COMPLETED",
+    "startDate": "2016-09-01",
+    "completionDate": "2017-12-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Pharmacological intensification based on olmesartan"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Ischemic Stroke",
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT03835676",
+    "title": "Effects of Treprostinil on Right Ventricular Structure and Function in Patients With Pulmonary Arterial Hypertension",
+    "briefTitle": "Effects of Treprostinil on Right Ventricular Structure and Function in Patients With Pulmonary Arterial Hypertension",
+    "status": "RECRUITING",
+    "startDate": "2019-05-01",
+    "completionDate": "2025-12-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Treprostinil"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Pulmonary Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01299376",
+    "title": "A Phase III, Randomized, Active-Comparator Controlled Clinical Trial to Study the Efficacy and Safety of MK-0954E in Japanese Patients With Essential Hypertension Uncontrolled With MK-954H (L50/H12.5 mg) [PREMINENT\u00ae] and an Open-label, Long-term Clinical Trial to Study the Safety of MK-0954E",
+    "briefTitle": "MK-0954E Phase III Long-Term Study in Participants With Hypertension (MK-0954E-356)",
+    "status": "COMPLETED",
+    "startDate": "2011-01-24",
+    "completionDate": "2012-09-20",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "L50/H12.5/A5",
+      "L50/H12.5",
+      "Placebo to L50/H12.5/A5",
+      "Placebo to L50/H12.5"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00942994",
+    "title": "An 8-week Multicenter, Randomized, Double-blind, Active Controlled, Parallel Group, Forced Titration Study to Evaluate the Efficacy and Safety of Aliskiren/Amlodipine/HCTZ Compared to Aliskiren/Amlodipine in US Minority Patients With Stage 2 Hypertension",
+    "briefTitle": "Aliskiren/Amlodipine/Hydrochlorothiazide (HCTZ) Versus Aliskiren/Amlodipine in US Minority Patients With Stage II Systolic Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2009-06",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Aliskiren/Amlodipine",
+      "Aliskiren/Amlodipine and Hydrochlorothiazide (HCTZ)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01342094",
+    "title": "A Double-masked Study of DE-111 Ophthalmic Solution Versus Timolol Ophthalmic Solution 0.5% in Patients With Primary Open Angle Glaucoma or Ocular Hypertension - Phase 3, Confirmatory Study -",
+    "briefTitle": "DE-111 Against Timolol Ophthalmic Solution 0.5%",
+    "status": "COMPLETED",
+    "startDate": "2011-05",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "DE-111 ophthalmic solution",
+      "Timolol ophthalmic solution 0.5%",
+      "Placebo ophthalmic solution"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Open Angle Glaucoma",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00318760",
+    "title": "Effect of Clonidine on Responses to Imagery Scripts",
+    "briefTitle": "Effect of Clonidine on Responses to Imagery Scripts",
+    "status": "COMPLETED",
+    "startDate": "2005-06-14",
+    "completionDate": "2013-08-07",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Clonidine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cocaine Abuse",
+      "Heroin Abuse"
+    ]
+  },
+  {
+    "nctId": "NCT02140060",
+    "title": "A 6-Week Proof-of-Concept Study Evaluating the Safety and IOP-Lowering Efficacy of Travoprost/Brinzolamide Fixed Combination Ophthalmic Suspension in Subjects With Open-Angle Glaucoma or Ocular Hypertension",
+    "briefTitle": "6-Week Proof-of-Concept Study of Travoprost/Brinzolamide Ophthalmic Suspension in Subjects With Open-Angle Glaucoma or Ocular Hypertension",
+    "status": "COMPLETED",
+    "startDate": "2014-06",
+    "completionDate": "2014-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dose Level A / Brinzolamide 1% ophthalmic suspension",
+      "Dose Level B / Brinzolamide 1% ophthalmic suspension",
+      "Dose Level C / Brinzolamide 1% ophthalmic suspension",
+      "Brinzolamide 1% ophthalmic suspension AZOPT\u00ae",
+      "Travoprost 0.004% ophthalmic solution TRAVATAN Z\u00ae",
+      "Travoprost solution vehicle",
+      "Brinzolamide suspension vehicle"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma",
+      "Ocular Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01682460",
+    "title": "Pilot Study on the Use of Artificial Tears to Treat Dry Eye in Glaucoma Patients",
+    "briefTitle": "Pilot Study on the Use of Artificial Tears to Treat Dry Eye in Glaucoma Patients",
+    "status": "COMPLETED",
+    "startDate": "2012-08",
+    "completionDate": "2013-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Refresh Tears Lubricant Eye Drops (Allergan)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Glaucoma",
+      "Dry Eyes"
+    ]
+  },
+  {
+    "nctId": "NCT02151994",
+    "title": "A Double-blind, Randomised, Placebo-controlled, Combined Single and Multiple Ascending Dose Study to Investigate the Safety, Tolerability, Pharmacokinetic, Including Food Interaction, and Pharmacodynamic Profile of BIA 5-1058, in Healthy Male Volunteers",
+    "briefTitle": "Safety, Tolerability, Pharmacokinetic, Including Food Interaction, and Pharmacodynamic Profile of BIA 5-1058.",
+    "status": "COMPLETED",
+    "startDate": "2011-03",
+    "completionDate": "2012-01",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BIA 5-1058",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension and Chronic Heart Failure"
+    ]
+  },
+  {
+    "nctId": "NCT02940860",
+    "title": "A Phase III, Randomised, Open-label, Comparative Safety and Efficacy Trial of Intravenous Iron Isomaltoside/Ferric Derisomaltose (Monofer\u00ae/Monoferric\u00ae) and Iron Sucrose in Subjects With Iron Deficiency Anaemia and Non-dialysis-dependent Chronic Kidney Disease (FERWON-NEPHRO)",
+    "briefTitle": "Iron Isomaltoside/Ferric Derisomaltose vs Iron Sucrose for Treatment of Iron Deficiency Anemia in Non-Dialysis-Dependent Chronic Kidney Disease",
+    "status": "COMPLETED",
+    "startDate": "2016-11-29",
+    "completionDate": "2018-05-29",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Iron isomaltoside/ferric derisomaltose",
+      "Iron sucrose"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Iron Deficiency Anaemia",
+      "Iron Deficiency Anemia",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05673460",
+    "title": "A Phase 1 Clinical Study of Nemtabrutinib (MK-1026) in Japanese Participants With Hematological Malignancies (BELLWAVE-002)",
+    "briefTitle": "A Clinical Study of Nemtabrutinib in Japanese Participants With Hematological Malignancies (MK-1026-002)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-02-13",
+    "completionDate": "2026-03-30",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "Nemtabrutinib"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mature B-cell Neoplasms"
+    ]
+  },
+  {
+    "nctId": "NCT00927394",
+    "title": "An 8 Week Randomized, Double-Blind, Parallel Group, Multi-Center, Active Controlled Study to Evaluate the Antihypertensive Efficacy and Safety of Aliskiren Administered in Combination With Valsartan Versus Valsartan Alone in Patients With Stage 2 Systolic Hypertension and Type 2 Diabetes Mellitus",
+    "briefTitle": "Aliskiren and Valsartan vs Valsartan Alone in Patients With Stage II Systolic Hypertension and Type II Diabetes Mellitus",
+    "status": "COMPLETED",
+    "startDate": "2009-05",
+    "completionDate": "2011-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Aliskiren",
+      "Valsartan",
+      "Placebo for Aliskiren",
+      "Placebo for Valsartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT00200460",
+    "title": "A Double-Blind, Multi-Center, Randomized, Placebo-Controlled, Parallel Group Dosing Study Evaluating the Effects of Nebivolol on Blood Pressure in Patients With Mild to Moderate Hypertension",
+    "briefTitle": "A Study Evaluating the Effects of Nebivolol on Blood Pressure in Hypertensive Patients",
+    "status": "COMPLETED",
+    "startDate": "2001-09",
+    "completionDate": "2003-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Nebivolol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01114360",
+    "title": "Melatonin and Nighttime Blood Pressure in African Americans- 8 mg Study",
+    "briefTitle": "Melatonin and Nighttime Blood Pressure in African Americans-8 mg Study",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2014-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Melatonin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  },
+  {
+    "nctId": "NCT01280994",
+    "title": "Hyperpolarized 129Xe MR Imaging of the Lung Function in Healthy Volunteers and Subjects With Pulmonary Disease",
+    "briefTitle": "Hyperpolarized 129Xe MRI for Imaging Pulmonary Function",
+    "status": "RECRUITING",
+    "startDate": "2011-01",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Hyperpolarized 129Xenon Gas"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Interstitial Lung Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05616260",
+    "title": "Acetazolamide for Obstructive Sleep Apnea to Improve Heart Health",
+    "briefTitle": "Acetazolamide for Obstructive Sleep Apnea to Improve Heart Health",
+    "status": "RECRUITING",
+    "startDate": "2022-12-02",
+    "completionDate": "2025-04-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Acetazolamide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Obstructive Sleep Apnea"
+    ]
+  },
+  {
+    "nctId": "NCT04945460",
+    "title": "A Phase 2, Double-blind, Randomized, Placebo-controlled Study to Evaluate the Effects of Sotatercept Versus Placebo for the Treatment of Combined Postcapillary and Precapillary Pulmonary Hypertension (Cpc-PH) Due to Heart Failure With Preserved Ejection Fraction (HFpEF)",
+    "briefTitle": "A Study of Sotatercept for the Treatment of Cpc-PH Due to HFpEF (MK-7962-007/A011-16)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-12-29",
+    "completionDate": "2025-09-12",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Sotatercept 0.3 mg/kg",
+      "Placebo",
+      "Sotatercept 0.3 mg/kg escalating to 0.7 mg/kg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension, Pulmonary"
+    ]
+  },
+  {
+    "nctId": "NCT04352660",
+    "title": "Subconjunctival Versus Direct Scleral Application of Mitomycin-C in Trabeculectomy",
+    "briefTitle": "Subconjunctival Versus Direct Mitomycin C in Trabeculectomy",
+    "status": "COMPLETED",
+    "startDate": "2016-05-23",
+    "completionDate": "2019-04-14",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Mitomycin-C injection",
+      "Mitomycin-C sponge"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Open Angle Glaucoma"
+    ]
+  },
+  {
+    "nctId": "NCT00045994",
+    "title": "Systolic and Pulse Pressure Hemodynamic Improvement By Restoring Elasticity: The SILVER Study",
+    "briefTitle": "The SILVER Study: Systolic Hypertension Interaction With Left Ventricular Remodeling",
+    "status": "COMPLETED",
+    "startDate": "2001-08",
+    "completionDate": "2003-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ALT-711"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Hypertrophy, Left Ventricular"
+    ]
+  },
+  {
+    "nctId": "NCT01714960",
+    "title": "Safety and Tolerability of MRZ-99030 Eye Drops in Healthy Volunteers and Glaucoma Patients",
+    "briefTitle": "Safety and Tolerability of MRZ-99030 Eye Drops in Healthy Volunteers and Glaucoma Patients",
+    "status": "COMPLETED",
+    "startDate": "2012-10",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "MRZ-99030 eye drops 5mg/mL",
+      "MRZ-99030 eye drops 20mg/mL",
+      "Placebo to MRZ-99030 eye drops"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Healthy Volunteers and Glaucoma Patients"
+    ]
+  },
+  {
+    "nctId": "NCT06150560",
+    "title": "A Phase III, Randomized, Double-Blind, Placebo Controlled Clinical Trial Evaluating the Benefits and Mechanism Of Action Of Angiotensin-II Receptor Blocker On Cardiovascular Remodeling In Patients With Repaired Coarctation Of Aorta",
+    "briefTitle": "A Study of Angiotensin-II Receptor Blocker on Cardiovascular Remodeling (VALUE Trial)",
+    "status": "RECRUITING",
+    "startDate": "2024-04-01",
+    "completionDate": "2028-06-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Losartan",
+      "Amlodipine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Coarctation of Aorta",
+      "High Blood Pressure"
+    ]
+  },
+  {
+    "nctId": "NCT03754660",
+    "title": "A Non-randomized Two Part Multi-center, Open-label, Single Dose Trial With an Escalation Part in Untreated Pulmonary Arterial Hypertension (PAH) and Chronic Thromboembolic Pulmonary Hypertension (CTEPH) Patients (Part A), Followed by a Parallel-group Part in Untreated and Pre-treated Patients With PAH and CTEPH (Part B) to Investigate the Safety, Tolerability and Pharmacodynamics of Inhaled BAY1237592",
+    "briefTitle": "This Study Tests the Safety of Inhaled BAY1237592, How the Drug is Tolerated and How it Effects Patients With High Blood Pressure in the Arteries of the Lungs in the Two Different Disease Groups Pulmonary Arterial Hypertension (PAH) and Chronic Thromboembolic Pulmonary Hypertension (CTEPH)",
+    "status": "COMPLETED",
+    "startDate": "2019-01-21",
+    "completionDate": "2022-11-03",
+    "phases": [
+      "PHASE1"
+    ],
+    "interventions": [
+      "BAY1237592"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension, Pulmonary"
+    ]
+  },
+  {
+    "nctId": "NCT00347360",
+    "title": "A Randomized, Double-Blind, Double-Dummy, Parallel Group, Factorial Design Trial to Assess the Efficacy and Safety of up to Six Weeks Treatment With 20mg, 40mg, or 80mg QD Doses of Carvedilol Controlled Release Formulation (COREG CR) or 10mg, 20mg, or 40mg QD Doses of Lisinopril (Zestril) or a Combination of One of the Doses of Each Medication",
+    "briefTitle": "The COREG And Lisinopril Combination Therapy In Hypertensive Subjects (COSMOS) Trial",
+    "status": "COMPLETED",
+    "startDate": "2006-07",
+    "completionDate": "2008-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "lisinopril",
+      "carvedilol controlled release formulation"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Hypertension"
+    ]
+  }
+]
