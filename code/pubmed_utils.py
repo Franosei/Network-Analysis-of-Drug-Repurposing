@@ -7,8 +7,9 @@ def pubmed_count_requests(drug, disease):
         "db": "pubmed",
         "term": term,
         "retmode": "json",
-        "email": "oseifrancis633@gmail.com"
+        "email": "oseifrancis633@gmail.com" # Replace with your email
     }
+
     r = requests.get(url, params=params, timeout=10)
     r.raise_for_status()
     return int(r.json()["esearchresult"]["count"])
