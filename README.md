@@ -1,4 +1,4 @@
-# Network Analysis and Bayesian Inference Framework for Drug Repurposing
+# A Graph–Bayesian Framework for Drug Repurposing: Integrating Network Centralities, Literature Mining, and Machine Learning
 
 This project identifies drug repurposing opportunities across therapeutic areas by integrating real-world clinical trial data, graph-based centrality metrics, machine learning, and literature-informed Bayesian inference. It uses data from [ClinicalTrials.gov](https://clinicaltrials.gov/) and [PubMed](https://pubmed.ncbi.nlm.nih.gov/) to build and evaluate a graph-based model of drug–disease relationships.
 
@@ -117,6 +117,29 @@ project-root/
 
 ```bash
 pip install -r requirements.txt
+
+```
+
+- Download and place the 2025 MeSH descriptors into the appropriate folder:
+
+### For macOS / Linux / Git Bash:
+
+```bash
+mkdir -p mesh_data
+wget -P mesh_data/ https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2025.xml
+
+```
+
+### For Windows PowerShell:
+
+```bash
+New-Item -ItemType Directory -Force -Path mesh_data
+Invoke-WebRequest -Uri https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2025.xml -OutFile mesh_data\desc2025.xml
+
+```
+
+- This project is licensed under the MIT License.
+© 2025 Francis Osei
 
 
 
