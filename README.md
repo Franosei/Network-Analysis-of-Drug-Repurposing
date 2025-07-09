@@ -120,9 +120,9 @@ pip install -r requirements.txt
 
 ```
 
-- Download and place the 2025 MeSH descriptors into the appropriate folder:
+### 2025 MeSH descriptors download:
 
-### For macOS / Linux / Git Bash:
+#### For macOS / Linux / Git Bash:
 
 ```bash
 mkdir -p mesh_data
@@ -130,7 +130,7 @@ wget -P mesh_data/ https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/
 
 ```
 
-### For Windows PowerShell:
+#### For Windows PowerShell:
 
 ```bash
 New-Item -ItemType Directory -Force -Path mesh_data
