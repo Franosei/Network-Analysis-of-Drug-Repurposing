@@ -1,57 +1,119 @@
-# Network Analysis of Drug Repurposing Across Therapeutic Areas
+# Network Analysis and Bayesian Inference Framework for Drug Repurposing
 
-This project leverages clinical trial data from [ClinicalTrials.gov](https://clinicaltrials.gov/) to identify potential drug repurposing opportunities across therapeutic areas using **network science techniques**. The analysis focuses exclusively on active pharmaceutical interventions (excluding devices and procedures), and considers trials in Phase I–IV with valid recruitment statuses.
+This project identifies drug repurposing opportunities across therapeutic areas by integrating real-world clinical trial data, graph-based centrality metrics, machine learning, and literature-informed Bayesian inference. It uses data from [ClinicalTrials.gov](https://clinicaltrials.gov/) and [PubMed](https://pubmed.ncbi.nlm.nih.gov/) to build and evaluate a graph-based model of drug–disease relationships.
 
 ## Objective
 
-To identify and characterise repurposing opportunities by analysing the co-occurrence of drug interventions across multiple disease categories, using centrality and community detection in a drug–disease network constructed from real-world clinical trials.
+To characterise the repurposing potential of drugs by:
+
+- Constructing a bipartite graph of drug–disease relationships from interventional trial data.
+- Projecting the graph into drug–drug and disease–disease networks.
+- Computing node centrality and structural importance.
+- Predicting clinical trial success probabilities using machine learning.
+- Integrating semantic literature priors into a Bayesian inference model to rank novel repurposing candidates.
 
 ## Project Structure
 
-<pre> <code> ## Project Structure ``` ├── code/ │ ├── data_extraction.py # Downloads and filters trials from ClinicalTrials.gov API │ ├── build_graphs.py # Builds bipartite drug–disease and projected networks │ └── visualisations/ │ ├── drug_centrality_plot.py # Visualises drug centrality rankings │ ├── disease_projection_plot.py # Shows disease–disease co-occurrence via shared drugs │ └── candidate_insights.py # Highlights top repurposing candidates │ └── centrality_metrics.py # Calculates degree, betweenness, eigenvector centrality ├── data/ # JSON files with filtered trials per therapeutic area ├── graph/ # GraphML files for bipartite and projected networks ├── output/ │ ├── centrality_summary.csv # CSV file with centrality scores │ └── top_candidate_trials.csv # Disease-trial mappings for top drugs ├── plots/ # All generated figures └── README.md ``` </code> </pre>
-
+```
+project-root/
+├── code/
+│   ├── build_training_dataset.py
+│   ├── condition_drug_pairs.py
+│   ├── data_extraction.py
+│   ├── network_builder.py
+│   ├── pubmed_utils.py
+│   ├── train_phase_success_model.py
+│   └── visualize_drug_network.py
+├── data/
+├── figures/
+├── graph/
+├── literatures/
+├── mesh_data/
+│   └── desc2025.xml
+├── networks/
+├── processed_data/
+├── reports/
+│   ├── Bayesian_inference_drug_repurposing.pdf
+│   └── Network Analysis of Drug Repurposing.pdf
+├── .env
+├── .gitignore
+├── LICENSE
+├── note.ipynb
+├── README.md
+└── requirements.txt
+```
 
 ## Methodology Overview
 
-1. **Trial Filtering**  
-   - Only **drug-based** interventional trials  
-   - Status: `Completed`, `Recruiting`, `Active`  
-   - Phases: `I`, `II`, `III`, `IV`
+1. **Clinical Trial Filtering**  
+   - Source: ClinicalTrials.gov v2 API  
+   - Filters applied:  
+     - Intervention Type: `Drug`  
+     - Study Status: `Recruiting`, `Active`, `Completed`  
+     - Phase: `Phase 2`, `Phase 3`, `Phase 4`  
+   - Output: JSON files per disease area.
 
-2. **Graph Construction**  
-   - **Bipartite Network:** Drugs ↔ Diseases  
-   - **Projections:**  
-     - Drug–Drug: shared disease connections  
-     - Disease–Disease: shared drugs
+2. **Term Normalisation and Mapping**  
+   - MeSH 2025 descriptors used for standardisation.  
+   - Fuzzy and exact matches resolve inconsistent naming.  
+   - Placebos, devices, and unmatched terms excluded.
 
-3. **Centrality Analysis**  
-   - **Degree Centrality** – Exposure across diseases  
-   - **Betweenness Centrality** – Bridge between disease clusters  
-   - **Eigenvector Centrality** – Influence in core clusters
+3. **Network Construction**  
+   - **Bipartite Graph**: Nodes = Drugs and Diseases  
+   - **Drug–Drug Projection**: Edge weight = shared diseases  
+   - Graph metrics computed:  
+     - Degree Centrality  
+     - Eigenvector Centrality  
+     - Betweenness Centrality  
+     - Clustering Coefficient  
+     - Random Walk (PageRank)
 
-4. **Visualisation**  
-   - Top drug hubs coloured and labelled  
-   - Network edge labels denote shared entity counts  
-   - Disease networks filtered by shared drug threshold
+4. **Machine Learning Phase Success Prediction**  
+   - Labels based on highest trial phase for each (drug, disease) pair.  
+   - Models evaluated:  
+     - Logistic Regression  
+     - Random Forest (best performance: 77.5%)  
+     - XGBoost  
+   - Feature importances used as likelihood weights in Bayesian update.
 
-## Key Findings
+5. **Literature Mining and Semantic Priors**  
+   - PubMed queried using drug–disease combinations.  
+   - Article conclusions classified as:  
+     - Therapeutic  
+     - Adverse  
+     - Irrelevant  
+   - Two priors calculated:  
+     - Raw Prior = therapeutic ratio  
+     - Penalised Prior = weighted difference of therapeutic and adverse ratios
 
-- **Dexamethasone**, **Rituximab**, and **Prednisone** rank highly across all centrality metrics, suggesting strong repurposing potential.
-- Disease clusters linked by common drugs reveal biological and therapeutic overlaps, e.g., inflammation, oncology, and autoimmunity.
+6. **Bayesian Inference**  
+   - Combines penalised prior with network likelihoods.  
+   - Outputs posterior distribution over success probability.  
+   - Metrics computed:  
+     - KL Divergence (information gain)  
+     - Posterior Mean Shift (directional change)  
+   - Ranks repurposing candidates accordingly.
 
-## Plots Included
+7. **Visualisation and Reporting**  
+   - Network subgraphs of high-centrality drugs  
+   - Posterior distribution curves  
+   - Centrality heatmaps and ranked candidate tables  
+   - All plots saved to `figures/` and `reports/`
 
-- Bipartite Drug–Disease Network
-- Drug Centrality Highlights (Degree, Betweenness, Eigenvector)
-- Disease–Disease Network (based on shared drugs)
-- Centrality Summary Table (CSV)
+## Plots and Outputs Included
+
+- Bipartite Drug–Disease Network GraphML
+- Drug–Drug Projected Network with Centrality Scores
+- Posterior Probability Distributions
+- KL Divergence and Posterior Shift Metrics
+- Ranked Table of Candidate Drug–Disease Pairs
+- Candidate Literature Abstracts and Evidence Tags
+- Final reports in PDF (`reports/`)
 
 ## Requirements
 
 - Python 3.8+
-- `networkx`, `matplotlib`, `requests`, `pandas`
-
-Install dependencies:
+- Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
