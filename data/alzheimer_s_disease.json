@@ -1,5 +1,2294 @@
 [
   {
+    "nctId": "NCT06072963",
+    "title": "Combination of Intranasal Insulin With Oral Semaglutide to Improve Cognition and Cerebral Blood Flow: a Feasibility Study",
+    "briefTitle": "COMMETS- Combination MCI Metabolic Syndrome",
+    "status": "RECRUITING",
+    "startDate": "2024-01-30",
+    "completionDate": "2028-12-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Semaglutide",
+      "Intranasal insulin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Mild Cognitive Impairment",
+      "Metabolic Syndrome"
+    ]
+  },
+  {
+    "nctId": "NCT01075763",
+    "title": "Pilot Trial of Interferon Beta-1a in Alzheimer's Disease",
+    "briefTitle": "A Pilot Trial of Interferon Beta-1a in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2004-11",
+    "completionDate": "2008-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Interferon beta-1a",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05104463",
+    "title": "A Phase 2a, Randomized, Placebo-Controlled, Double-Blind, Crossover Study to Evaluate the Safety, Tolerability and Effects of CST-2032 and CST-107 on Cognition in Subjects With Mild Cognitive Impairment or Mild Dementia Due to Parkinson's or Alzheimer's Disease",
+    "briefTitle": "A Study of CST-2032 and CST-107 in Subjects With Mild Cognitive Impairment or Mild Dementia Due to Parkinson's or Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2022-04-11",
+    "completionDate": "2024-02-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CST-2032, matching placebo for CST-2032, CST-107, matching placebo for CST-107"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment",
+      "Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT01677286",
+    "title": "A Phase II Study of Doxycycline in Patients With Amyloidosis",
+    "briefTitle": "Safety and Effect of Doxycycline in Patients With Amyloidosis",
+    "status": "COMPLETED",
+    "startDate": "2012-07",
+    "completionDate": "2015-12-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Doxycycline 100 mg po bid x 12 months"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Amyloidosis"
+    ]
+  },
+  {
+    "nctId": "NCT02708186",
+    "title": "A Phase 2, Double-blind, Randomized, Placebo-controlled Study of Nelotanserin Versus Placebo in Subjects With Dementia With Lewy Bodies (DLB) or Parkinson's Disease Dementia (PDD) Who Have REM Sleep Behavior Disorder (RBD)",
+    "briefTitle": "Study Evaluating Nelotanserin for Treatment of REM Sleep Behavior Disorder in Subjects With Dementia (DLB or PDD)",
+    "status": "COMPLETED",
+    "startDate": "2016-03",
+    "completionDate": "2018-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Nelotanserin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia With Lewy Bodies",
+      "REM Sleep Behavior Disorder",
+      "Parkinson's Disease Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT04191486",
+    "title": "A Phase 2 Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel Group Study to Evaluate the Efficacy and Safety of T-817MA in Patients With Mild Cognitive Impairment Due to Alzheimer's Disease or Mild Alzheimer's Disease",
+    "briefTitle": "Efficacy and Safety of T-817MA in Patients With Mild Cognitive Impairment Due to Alzheimer's Disease (AD) or Mild AD",
+    "status": "COMPLETED",
+    "startDate": "2019-12-24",
+    "completionDate": "2023-03-20",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "T-817MA",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT05108922",
+    "title": "A Phase 3, Open-Label, Parallel-Group, 2-Arm Study to Investigate Amyloid Plaque Clearance With Donanemab Compared With Aducanumab-avwa in Participants With Early Symptomatic Alzheimer's Disease",
+    "briefTitle": "A Study of Donanemab (LY3002813) Compared With Aducanumab in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 4)",
+    "status": "COMPLETED",
+    "startDate": "2021-11-16",
+    "completionDate": "2023-09-19",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Donanemab",
+      "Aducanumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment (MCI)",
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05738486",
+    "title": "Investigating the Effect of Different Donanemab Dosing Regimens on ARIA-E and Amyloid Lowering in Adults With Early Symptomatic Alzheimer's Disease",
+    "briefTitle": "A Study of Different Donanemab (LY3002813) Dosing Regimens in Adults With Early Alzheimer's Disease (TRAILBLAZER-ALZ 6)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-02-28",
+    "completionDate": "2025-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Donanemab",
+      "Placebo",
+      "Dexamethasone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Dementia",
+      "Brain Diseases",
+      "Central Nervous System Diseases",
+      "Nervous System Diseases",
+      "Neurodegenerative Diseases",
+      "Neurocognitive Disorders",
+      "Mental Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT06718686",
+    "title": "Rifaximin in Dementia Trial (RIDE): Gut-Brain Modulation With Rifaximin SSD in Dementia",
+    "briefTitle": "Rifaximin SSD in Dementia Trial",
+    "status": "RECRUITING",
+    "startDate": "2024-12-30",
+    "completionDate": "2026-05",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Rifaximin SSD 40 mg IR tablet",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia Alzheimer Type",
+      "Dementia Associated With Cerebrovascular Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00267163",
+    "title": "Brain Imaging and Mental Disorders of Aging Intervention",
+    "briefTitle": "Brain Imaging and Mental Disorders of Aging Intervention",
+    "status": "COMPLETED",
+    "startDate": "2000-09",
+    "completionDate": "2007-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "donepezil",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cognition Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT00855686",
+    "title": "A Randomised, Double-blind, Placebo-controlled, 6-month Study of the Efficacy and Safety of Memantine in Patients With Parkinson's Disease Dementia or Dementia With Lewy Bodies",
+    "briefTitle": "Memantine Versus Placebo in Parkinson's Disease Dementia or Dementia With Lewy Bodies",
+    "status": "COMPLETED",
+    "startDate": "2007-01",
+    "completionDate": "2009-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Memantine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Parkinson's Disease Dementia",
+      "Dementia With Lewy Bodies"
+    ]
+  },
+  {
+    "nctId": "NCT01142258",
+    "title": "Trazodone for the Treatment of Sleep Disorders in Alzheimer's Disease: a Randomised, Double-blind, Placebo-controlled Study",
+    "briefTitle": "Trazodone for Sleep Disorders in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-03",
+    "completionDate": "2012-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Trazodone",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Sleep",
+      "Sleep Disorders",
+      "Insomnia",
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00814658",
+    "title": "The Use of Galantamine (Reminyl ER) in Patients With MIXed Dementia: Effects on Cognition and Quality of Life",
+    "briefTitle": "The Use of Galantamine (Reminyl ER) in Patients With MIXed Dementia: Effects on Cognition and Quality of Life",
+    "status": "COMPLETED",
+    "startDate": "2008-06",
+    "completionDate": "2009-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Galantamine",
+      "Nimodipine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT03234686",
+    "title": "Deferiprone to Delay Dementia (The 3D Study): a Clinical Proof of Concept Study",
+    "briefTitle": "Deferiprone to Delay Dementia (The 3D Study)",
+    "status": "COMPLETED",
+    "startDate": "2018-01-19",
+    "completionDate": "2023-02-23",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Deferiprone 600mg delayed release tablets",
+      "Placebo Oral Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment",
+      "Prodromal Alzheimer's Disease",
+      "Mild Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03752463",
+    "title": "NMDA Enhancer for the Treatment of Mild Alzheimer's Disease",
+    "briefTitle": "NMDA Enhancer for the Treatment of Mild Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2015-05-22",
+    "completionDate": "2021-07-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "DAOI-A group",
+      "DAOI-B group",
+      "DAOI-C group",
+      "Placebo oral capsule"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00876863",
+    "title": "A Double-Blind, Placebo-Controlled (Sham Surgery), Randomized, Multicenter Study Evaluating CERE-110 Gene Delivery in Subjects With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "Randomized, Controlled Study Evaluating CERE-110 in Subjects With Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2008-11",
+    "completionDate": "2015-08-13",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CERE-110: Adeno-Associated Virus injection Surgery"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03417986",
+    "title": "An Open-label, Multicenter, Controlled Pharmaco-dynamic Clinical Trial to Explore the the Amyloid Beta Draining Effect of Thiethylperazine (TEP) in Subjects With Newly Diagnosed Early-to-mild Dementia Due to Alzheimer's Disease in Comparison to Healthy Volunteers",
+    "briefTitle": "Clinical Trial to Explore the the Amyloid Beta Draining Effect of Thiethylperazine (TEP) in Subjects With Newly Diagnosed Early-to-mild Dementia Due to Alzheimer's Disease (AD) in Comparison to Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2017-11-24",
+    "completionDate": "2021-10-22",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "TEP"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04184063",
+    "title": "A Pilot Exploratory, Randomised, Placebo-controlled, Double Blinded, Cross-over , Phase 2a Study to Explore Efficacy and Safety of NBMI Treatment in Patients With Progressive Supranuclear Palsy (PSP) or Multiple System Atrophy (MSA)",
+    "briefTitle": "Study of NBMI Treatment in Patients With Atypical Parkinsons (PSP or MSA)",
+    "status": "COMPLETED",
+    "startDate": "2019-09-16",
+    "completionDate": "2021-06-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "NBMI"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Progressive Supranuclear Palsy",
+      "Multiple System Atrophy"
+    ]
+  },
+  {
+    "nctId": "NCT05063539",
+    "title": "Assessment of Safety, Tolerability, and Efficacy of LY3372689 in Early Symptomatic Alzheimer's Disease",
+    "briefTitle": "A Study of LY3372689 to Assess the Safety, Tolerability, and Efficacy in Participants With Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-09-16",
+    "completionDate": "2025-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "LY3372689",
+      "LY3372689",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01614886",
+    "title": "A 24-week, Multicenter, Parallel-group, Randomized,Double-blind Study to Evaluate the Tolerability, Safety and Efficacy of 2 Different Titration Methods of Rivastigmine Patch (ENA713D/ONO-2540) in Patients With Mild to Moderate Alzheimer's Disease (MMSE 10-20)",
+    "briefTitle": "Randomized, Double-blind Study to Evaluate the Tolerability of 2 Different Titration Methods of Rivastigmine Patch in AD Patients (MMSE 10-20)",
+    "status": "COMPLETED",
+    "startDate": "2012-07",
+    "completionDate": "2014-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Active Comparator",
+      "ENA713"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05423522",
+    "title": "Prospective, Multicenter, First Part Randomized, Placebo-controlled, Parallel-group, Double-blind Period Followed by Open-label Trial Period to Evaluate Clinical Safety & Efficacy of NanoLithium\u00ae NP03 in Patients With Mild-to-severe Alzheimer's Disease: Proof-of-concept Study",
+    "briefTitle": "Clinical Safety and Efficacy Evaluation of NanoLithium\u00ae NP03 in Patients With Mild-to-severe Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2022-05-20",
+    "completionDate": "2024-10-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "NanoLithium\u00ae NP03",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05397639",
+    "title": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled, Parallel Group, Multicenter Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacokinetics of Masupirdine (SUVN-502) for the Treatment of Agitation in Participants With Dementia of the Alzheimer's Type",
+    "briefTitle": "Masupirdine for the Treatment of Agitation in Dementia of the Alzheimer's Type",
+    "status": "RECRUITING",
+    "startDate": "2022-11-01",
+    "completionDate": "2025-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Masupirdine 50 mg",
+      "Masupirdine 100 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Agitation",
+      "Alzheimer's Type Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT01841125",
+    "title": "A 12-Week Randomized, Double-blind, Parallel-group, Placebo-controlled Trial With and Open-label, 12-week Extension, Multicenter to Evaluation of the Efficacy of Escitalopram for the Treatment of Depression in Alzheimer's Disease",
+    "briefTitle": "Escitalopram for the Treatment of Depression in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2011-11",
+    "completionDate": "2014-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "escitalopram",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06268886",
+    "title": "A Randomized, Double-blind, Placebo-controlled, Global Proof-of-concept Study to Evaluate the Efficacy, Safety, and Tolerability of BMS-986446, an Anti-MTBR Tau Monoclonal Antibody, in Participants With Early Alzheimer's Disease (TargetTau-1)",
+    "briefTitle": "Study to Evaluate the Efficacy, Safety, and Tolerability of an Anti-MTBR Tau Monoclonal Antibody (BMS-986446) in Participants With Early Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2024-03-20",
+    "completionDate": "2027-09-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "BMS-986446"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease, Early Onset"
+    ]
+  },
+  {
+    "nctId": "NCT03986424",
+    "title": "Multi-center Open Comparative Randomized Study of Efficacy and Safety of Akatinol Memantine 20 mg (Single-doses) vs. Akatinol Memantine 10 mg (Double-doses) in Patients With Moderate and Moderately Severe Vascular Dementia",
+    "briefTitle": "Local Study of Akatinol Memantine in VaD in Russia",
+    "status": "COMPLETED",
+    "startDate": "2018-01-23",
+    "completionDate": "2022-06-01",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Akatinol Memantine 20 mg",
+      "Akatinol Memantine 10 mg"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Vascular Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT00097916",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Evaluation of the Safety and Efficacy of Memantine in Non-Institutionalized Agitated Patients With Moderate to Severe Alzheimer's Disease",
+    "briefTitle": "An Evaluation of the Safety and Efficacy of Memantine in Agitated Patients With Moderate to Severe Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2004-09",
+    "completionDate": "2006-04",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "memantine HCl"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00731224",
+    "title": "A 24-week, Multi-center, Open-label Evaluation of Compliance and Tolerability of the Once-daily 10 cm\u00b2 Rivastigmine Patch Formulation in Patients With Probable Alzheimer's Disease.",
+    "briefTitle": "Compliance and Tolerability of Rivastigmine Transdermal Patch 10 cm\u00b2 in Patients With Probable Alzheimer's Disease.",
+    "status": "COMPLETED",
+    "startDate": "2008-07",
+    "completionDate": "2011-10",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Rivastigmine transdermal patch"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04602624",
+    "title": "An Open-Label Evaluation of the Safety and Tolerability of SAGE-718 in Participants With Mild Cognitive Impairment or Mild Dementia Due to Alzheimer's Disease",
+    "briefTitle": "A Study to Evaluate the Safety and Tolerability of SAGE-718 in Participants With Mild Cognitive Impairment or Mild Dementia Due to Alzheimer's Disease (AD)",
+    "status": "COMPLETED",
+    "startDate": "2020-12-07",
+    "completionDate": "2021-09-28",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "SAGE-718"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Cognitive Dysfunction",
+      "Mild Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT04063124",
+    "title": "Pilot Study to Investigate the Safety and Feasibility of Senolytic Therapy to Modulate Progression of Alzheimer's Disease (SToMP-AD)",
+    "briefTitle": "Senolytic Therapy to Modulate Progression of Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2020-02-14",
+    "completionDate": "2023-01-30",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dasatinib + Quercetin"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00951834",
+    "title": "Sunphenon EGCg (Epigallocatechin-Gallate) in the Early Stage of Alzheimer\u00b4s Disease",
+    "briefTitle": "Sunphenon EGCg (Epigallocatechin-Gallate) in the Early Stage of Alzheimer\u00b4s Disease",
+    "status": "COMPLETED",
+    "startDate": "2009-10",
+    "completionDate": "2015-02",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Epigallocatechin-Gallate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06052163",
+    "title": "Phase IIa, Randomized, Double-Blind, Placebo-Controlled, Parallel Group Study to Evaluate the Safety and Tolerability of Bumetanide in Patients With Alzheimer's Disease.",
+    "briefTitle": "Bumetanide in Patients With Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2023-04-10",
+    "completionDate": "2025-04-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Bumetanide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05511363",
+    "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Relapse Prevention Study to Evaluate the Safety and Efficacy of KarXT for the Treatment of Psychosis Associated With Alzheimer's Disease",
+    "briefTitle": "A Study to Assess Efficacy and Safety of KarXT for the Treatment of Psychosis Associated With Alzheimer's Disease (ADEPT-1)",
+    "status": "RECRUITING",
+    "startDate": "2022-08-23",
+    "completionDate": "2026-10-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "KarXT",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Psychosis Associated With Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01044758",
+    "title": "Bridging Cognitive Aging in Rodents to Man Using fMRI in Amnestic MCI",
+    "briefTitle": "Levetiracetam and Memory Function in Amnestic Mild Cognitive Impairment (MCI)",
+    "status": "COMPLETED",
+    "startDate": "2009-12",
+    "completionDate": "2012-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Levetiracetam 62.5mg",
+      "Levetiracetam 125mg",
+      "Levetiracetam 250mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment (MCI)"
+    ]
+  },
+  {
+    "nctId": "NCT05267535",
+    "title": "Randomized, Delayed Start, Double Blind, Parallel Group, Placebo Controlled, Multicenter Study of Piromelatine 20 mg in Participants With Mild Dementia Due to Alzheimer's Disease",
+    "briefTitle": "Piromelatine 20 mg in Participants With Mild Dementia Due to Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-05-12",
+    "completionDate": "2025-06",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Piromelatine 20 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06597058",
+    "title": "A Double-Blind, Placebo-Controlled Phase 2 Estimation Study of Fixed Dose Drugs Combination Type of Polypill Administered to Subjects With Alzheimer's Disease",
+    "briefTitle": "Phase 2 Estimation Study of Fixed Dose Drugs Combination Type of Polypill",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-10-16",
+    "completionDate": "2026-02-15",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MAR"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04314934",
+    "title": "Open Label Extension Study for Patients With Early Alzheimer's Disease (AD) Enrolled in Study ANAVEX2-73-AD-004",
+    "briefTitle": "OLE of Phase 2b/3 Study ANAVEX2-73-AD-004",
+    "status": "COMPLETED",
+    "startDate": "2019-10-10",
+    "completionDate": "2024-06-14",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "ANAVEX2-73"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00260624",
+    "title": "Escitalopram in the Treatment of Patients With Agitated Dementia",
+    "briefTitle": "Escitalopram Treatment of Patients With Agitated Dementia",
+    "status": "COMPLETED",
+    "startDate": "2003-02",
+    "completionDate": "2006-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Escitalopram (Lexapro)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Psychomotor Agitation"
+    ]
+  },
+  {
+    "nctId": "NCT03282916",
+    "title": "Anti-viral Therapy in Alzheimer's Disease",
+    "briefTitle": "Anti-viral Therapy in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2018-02-12",
+    "completionDate": "2024-09-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Valacyclovir",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Herpes Simplex 1",
+      "Herpes Simplex 2"
+    ]
+  },
+  {
+    "nctId": "NCT00749216",
+    "title": "Multiple-Dose Safety in Japanese Subjects With Mild-to-Moderate Alzheimer's Disease",
+    "briefTitle": "Solanezumab Safety Study in Japanese Patients With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2008-09",
+    "completionDate": "2009-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Solanezumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00842816",
+    "title": "A Double-Blind Placebo-Controlled Preliminary Study of the Efficacy, Safety and Tolerability of ST101 Tablets in the Treatment of Alzheimer's Disease in Subjects Concurrently Receiving Donepezil (Aricept\u00ae)",
+    "briefTitle": "Preliminary Efficacy and Safety Study of ST101 Plus Aricept in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2011-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ST101",
+      "ST101",
+      "ST101",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06544616",
+    "title": "A Multicenter, Randomized, Placebo-Controlled, Double-Blind, Parallel-Group Study, to Assess Efficacy, Safety and Immunogenicity of JNJ-64042056, a Phosphorylated Tau Targeted Active Immunotherapy, in Participants With Preclinical Alzheimer's Disease",
+    "briefTitle": "A Study of JNJ-64042056 in Participants With Preclinical Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2024-07-22",
+    "completionDate": "2034-07-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "JNJ-64042056",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Preclinical Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05273996",
+    "title": "Phenotype Predictors of Cognitive Outcomes in Geriatric Depression",
+    "briefTitle": "Predictors of Cognitive Outcomes in Geriatric Depression",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-09-28",
+    "completionDate": "2026-06-30",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Sertraline, bupropion, desvenlafaxine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Major Depressive Disorder",
+      "Neuroticism",
+      "Cognitive Change",
+      "Stress"
+    ]
+  },
+  {
+    "nctId": "NCT05834296",
+    "title": "Randomized, Double-blind, Placebo-controlled, Parallel-group, Phase 1/2a Study to Assess Safety, Tolerability & Efficacy of Autologous Beta-Amyloid Mutant Peptide-pulsed Dendritic Cells in Subjects With Mild-to-Moderate Alzheimer's Dementia",
+    "briefTitle": "Study in Subjects With Mild-to-Moderate Alzheimer's Dementia",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-07-05",
+    "completionDate": "2028-03-03",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06014424",
+    "title": "Cannabidiol Medication Intervention Trial (CALM-IT)",
+    "briefTitle": "Cannabidiol Medication Intervention Trial",
+    "status": "RECRUITING",
+    "startDate": "2023-09-27",
+    "completionDate": "2026-12-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CBD"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04784416",
+    "title": "Transcranial Photobiomodulation for Alzheimer's Disease (TRAP-AD)",
+    "briefTitle": "Transcranial Photobiomodulation for Alzheimer's Disease (TRAP-AD)",
+    "status": "RECRUITING",
+    "startDate": "2021-04-27",
+    "completionDate": "2026-01-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "18F-MK-6240"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment",
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00165724",
+    "title": "Alzheimer's Disease Long-term Follow-up Study (ALF Study)",
+    "briefTitle": "Alzheimer's Disease Long-term Follow-up Study (ALF Study)",
+    "status": "COMPLETED",
+    "startDate": "2004-06-30",
+    "completionDate": "2006-12-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Donepezil Hydrochloride"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03649724",
+    "title": "The LUCINDA Trial: LeUprolide Plus Cholinesterase Inhibition to Reduce Neurological Decline in Alzheimer's",
+    "briefTitle": "The LUCINDA Trial: LeUprolide Plus Cholinesterase Inhibition to Reduce Neurological Decline in Alzheimer's",
+    "status": "RECRUITING",
+    "startDate": "2020-11-27",
+    "completionDate": "2026-08-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "Eligard 22.5Mg Suspension for Injection"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT00235716",
+    "title": "CSP #546 - A Randomized, Clinical Trial of Vitamin E and Memantine in Alzheimer's Disease (TEAM-AD)",
+    "briefTitle": "A Randomized, Clinical Trial of Vitamin E and Memantine in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2012-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "dl-alpha-tocopherol",
+      "Memantine",
+      "dl-alpha-tocopherol",
+      "Memantine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01527916",
+    "title": "A Randomized, Double-Blind, Placebo and Active-Controlled Study to Evaluate the Efficacy and Safety of ABT-126 in Subjects With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "Evaluate the Efficacy and Safety of ABT-126 in Subjects With Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2012-02",
+    "completionDate": "2013-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "placebo",
+      "donepezil",
+      "ABT-126"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01847924",
+    "title": "NEURoaid II (MLC 901) Assessment in Cognitively Impaired Not Demented Subjects : a Pilot Double Blind, Placebo-controlled Randomized Trial on Efficacy and Safety (NEURITES) Study",
+    "briefTitle": "NEURoaid II (MLC 901) Assessment in Cognitively Impaired Not Demented Subjects",
+    "status": "COMPLETED",
+    "startDate": "2013-03",
+    "completionDate": "2018-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MLC901",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT00202124",
+    "title": "Double Blind Medium Term Efficacy Study of Trp01 in Patients With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "Double Blind Study of Trp01 in Patients With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2001-04",
+    "completionDate": "2002-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Tryptophan"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00000174",
+    "title": "",
+    "briefTitle": "Investigation Into Delay to Diagnosis of Alzheimer's Disease With Exelon (InDDEx)",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Rivastigmine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Cognition Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT02087865",
+    "title": "Effects of Donepezil HCL on Task-Activated fMRI Brain Activation in Healthy Older Adults at Genetic Risk for Alzheimer's Disease",
+    "briefTitle": "Effects of Donepezil HCL on Task-Activated fMRI Brain Activation in Healthy Older Adults at Genetic Risk for Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2014-05",
+    "completionDate": "2021-12-20",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "donepezil HCL",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Genetic Risk for Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04871074",
+    "title": "SV2A PET Imaging in Alzheimer's Disease",
+    "briefTitle": "The Synapse Project",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-11-18",
+    "completionDate": "2025-05",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "UCB-J"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00301574",
+    "title": "Placebo-Controlled, Double-Blind Study of Galantamine (R113675) in the Treatment of Alzheimer's Disease.",
+    "briefTitle": "An Efficacy and Safety Study of Galantamine for the Treatment of Patients With Alzheimer's Disease.",
+    "status": "COMPLETED",
+    "startDate": "2001-04",
+    "completionDate": "2004-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "galantamine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06282965",
+    "title": "A Randomized, Double-blind, Placebo Controlled Study of the Safety and Efficacy of Angiotensin (1-7) in Persons With Moderate to Severe Traumatic Brain Injury (TBI)",
+    "briefTitle": "Safety and Efficacy of Angiotensin (1-7) in Persons With Moderate to Severe Traumatic Brain Injury",
+    "status": "RECRUITING",
+    "startDate": "2024-05-28",
+    "completionDate": "2027-09",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Angiotensin (1-7)",
+      "Sterile saline"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Traumatic Brain Injury"
+    ]
+  },
+  {
+    "nctId": "NCT05068830",
+    "title": "Safety and Efficacy of Plasma Transfusion From Exercise-trained Donors in Patients With Early Alzheimer's Disease: The ExPlas Study",
+    "briefTitle": "Safety and Efficacy of Plasma Transfusion From Exercise-trained Donors in Patients With Early Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2021-09-17",
+    "completionDate": "2026-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ExPlas",
+      "Octaplasma",
+      "Saline"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01363648",
+    "title": "A Randomized, Double-blind, Placebo-controlled Phase IV Trial for an Evaluation of the Efficacy of Gliatiline\u00ae on Post-stroke Patients With Vascular Cognitive Impairment no Dementia",
+    "briefTitle": "The Efficacy of Gliatiline\u00ae on Post-stroke Patients With Vascular Cognitive Impairment no Dementia",
+    "status": "COMPLETED",
+    "startDate": "2010-11",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "choline alfoscerate",
+      "placebo (for choline alphoscerate)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cognitive Impairment",
+      "Stroke"
+    ]
+  },
+  {
+    "nctId": "NCT04693520",
+    "title": "A Phase 2, Single-arm Study of the Biomarker Effects of ALZ-801 in Subjects With Early Alzheimer's Disease Who Are Carriers of the \u03b54 Variant of the Apolipoprotein E Gene (APOE4/4 or APOE3/4)",
+    "briefTitle": "Biomarker Effects of ALZ-801 in APOE4 Carriers With Early Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2020-09-30",
+    "completionDate": "2024-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ALZ-801"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Early Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02260674",
+    "title": "A Phase 2a Randomized, Double-blind, Placebo-Controlled, Parallel-Group, Multi-center Study Investigating the Safety and Tolerability of JNJ-54861911 in Subjects With Early Alzheimer's Disease",
+    "briefTitle": "A Safety and Tolerability Study of JNJ-54861911 in Participants With Early Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2014-11",
+    "completionDate": "2016-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "JNJ-54861911, 10 milligram (mg)",
+      "JNJ-54861911, 50 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04219774",
+    "title": "Neurocognitive Impairment Assessment in Symptomatic Carotid Occlusion Recanalized Endovascularly",
+    "briefTitle": "NeuroCognition After Carotid Recanalization",
+    "status": "COMPLETED",
+    "startDate": "2020-05-01",
+    "completionDate": "2024-03-14",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Aspirin and Clopidogrel (maximal medical Therapy)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Cognition Disorder",
+      "Stroke",
+      "Occlusion Carotid"
+    ]
+  },
+  {
+    "nctId": "NCT01518374",
+    "title": "Clinical Evaluation of Florbetapir F 18 (18F-AV-45)",
+    "briefTitle": "Clinical Evaluation of Florbetapir F 18 (18F-AV-45)",
+    "status": "COMPLETED",
+    "startDate": "2009-12",
+    "completionDate": "2017-05-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Florbetapir F 18"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Mild Cognitive Impairment",
+      "Neurodegenerative Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT02018965",
+    "title": "Role of Extended-release Niacin on Immune Activation in HIV-infected Patients Treated With Antiretroviral Therapy: a Proof-of-concept Study",
+    "briefTitle": "Niacin on Immune Activation : a Proof-of-concept Study",
+    "status": "COMPLETED",
+    "startDate": "2011-11",
+    "completionDate": "2017-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Niacin",
+      "Niacin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "HIV"
+    ]
+  },
+  {
+    "nctId": "NCT00829374",
+    "title": "CONCERT: A Phase 3 Multicenter, Randomized, Placebo-Controlled, Double-Blind Twelve-Month Safety and Efficacy Study Evaluating Dimebon in Patients With Mild-to-Moderate Alzheimer's Disease on Donepezil",
+    "briefTitle": "Safety and Efficacy Study Evaluating Dimebon in Patients With Mild to Moderate Alzheimer's Disease on Donepezil",
+    "status": "COMPLETED",
+    "startDate": "2009-03",
+    "completionDate": "2011-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Dimebon",
+      "Dimebon",
+      "Placebo comparator"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00812565",
+    "title": "Prospective 24-week, Double-blind, Randomised, Placebo-controlled, Multicenter Study Evaluating Safety and Change in Efficacy-related Surrogate Parameters in Patients With Dementia of the Alzheimer's Type Under Treatment With Increasing Dosages of Intravenous Immunoglobulin (Octagam 10%)",
+    "briefTitle": "Study of Octagam (Intravenous Immunoglobulin [IVIG]) 10% on the Treatment of Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2010-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02008357",
+    "title": "Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4 Study)",
+    "briefTitle": "Clinical Trial of Solanezumab for Older Individuals Who May be at Risk for Memory Loss",
+    "status": "COMPLETED",
+    "startDate": "2014-02-28",
+    "completionDate": "2023-06-08",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "Solanezumab"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cognition Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT04032626",
+    "title": "MCLENA-1: A Phase II Clinical Trial for the Assessment of Safety, Tolerability, and Efficacy of Lenalidomide in Patients With Mild Cognitive Impairment Due to Alzheimer's Disease",
+    "briefTitle": "MCLENA-1: A Clinical Trial for the Assessment of Lenalidomide in Amnestic MCI Patients",
+    "status": "COMPLETED",
+    "startDate": "2020-07-22",
+    "completionDate": "2025-05-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lenalidomide 10 mg",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Cognitive Impairment, Mild",
+      "Cognitive Dysfunction",
+      "Amyloid Plaque",
+      "Neurodegeneration",
+      "Inflammation, Brain"
+    ]
+  },
+  {
+    "nctId": "NCT00586066",
+    "title": "Memantine and Cognitive Dysfunction in Bipolar Disorder",
+    "briefTitle": "Memantine and Cognitive Dysfunction in Bipolar Disorder",
+    "status": "COMPLETED",
+    "startDate": "2005-11",
+    "completionDate": "2009-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Memantine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Bipolar Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT03860857",
+    "title": "The BEACoN Study- Biomarker Exploration in Aging, Cognition and Neurodegeneration",
+    "briefTitle": "Biomarker Exploration in Aging, Cognition and Neurodegeneration",
+    "status": "RECRUITING",
+    "startDate": "2018-05-01",
+    "completionDate": "2027-12-22",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Tau PET scan using MK-6240"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Cognitive Impairment",
+      "Cognitive Decline"
+    ]
+  },
+  {
+    "nctId": "NCT06837857",
+    "title": "Imaging, Cognition, and Opioids in Older Adults With Chronic Pain (I-COAP) Trial",
+    "briefTitle": "Prescription Opioids, Brain Structure, and Cognition in Older Adults With Chronic Pain",
+    "status": "RECRUITING",
+    "startDate": "2025-04-16",
+    "completionDate": "2031-12-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Opioid",
+      "Opioid Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Pain, Chronic"
+    ]
+  },
+  {
+    "nctId": "NCT01343966",
+    "title": "A Randomized, Double-Blind, Placebo Controlled, Parallel-Group, Multicenter, Phase II Study to Evaluate the Efficacy and Safety of MABT5102A in Patients With Mild to Moderate Alzheimer's Disease (ABBY)",
+    "briefTitle": "A Study to Evaluate the Efficacy and Safety of MABT5102A in Patients With Mild to Moderate Alzheimer's Disease (ABBY)",
+    "status": "COMPLETED",
+    "startDate": "2011-04-30",
+    "completionDate": "2014-02-28",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MABT5102A",
+      "MABT5102A",
+      "placebo",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03116126",
+    "title": "Randomised Clinical Trial of Noradrenergic Add-on Therapy With Extended-Release Guanfacine in Alzheimer's Disease",
+    "briefTitle": "Noradrenergic Add-on Therapy With Guanfacine",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-01-04",
+    "completionDate": "2024-08-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Guanfacine",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00357357",
+    "title": "Clinical Safety/Tolerability of HF0220 and Its Effect on Biochemical Markers Relevant to Patients With a Diagnosis of Mild to Moderate Alzheimer' Disease",
+    "briefTitle": "European Study of HF0220 in Mild to Moderate Alzheimer's Disease Patients",
+    "status": "COMPLETED",
+    "startDate": "2006-07",
+    "completionDate": "2008-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "HF0220"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02204826",
+    "title": "Effects of Korean Red Ginseng on Semen Parameters in Male Infertility Patients: a Randomized, Placebo-controlled, Double-blind Clinical Study",
+    "briefTitle": "Effects of Korean Red Ginseng on Semen Parameters in Male Infertility Patients: a Randomized, Placebo-controlled, Double-blind Clinical Study",
+    "status": "COMPLETED",
+    "startDate": "2011-04",
+    "completionDate": "2013-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Korean Red Ginseng (KRG)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Male Infertility"
+    ]
+  },
+  {
+    "nctId": "NCT03821857",
+    "title": "Sex-Specific Effects of Endocrine Disruption on Aging and Alzheimer's Disease",
+    "briefTitle": "Sex-Specific Effects of Endocrine Disruption on Aging and Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2019-06-27",
+    "completionDate": "2030-05",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "18-F-Flortaucipir"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00066157",
+    "title": "Alzheimer's Disease: Therapeutic Potential of Estrogen",
+    "briefTitle": "Alzheimer's Disease: Therapeutic Potential of Estrogen",
+    "status": "COMPLETED",
+    "startDate": "2001-09",
+    "completionDate": "2007-12",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Transdermal estradiol",
+      "Medroxyprogesterone",
+      "Placebo Patch",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00012857",
+    "title": "Pain Management and Behavioral Outcomes in Patients With Dementia",
+    "briefTitle": "Pain Management and Behavioral Outcomes in Patients With Dementia",
+    "status": "COMPLETED",
+    "startDate": "",
+    "completionDate": "2001-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "acetaminophen 650 mg qid and placebo qid PRN. The other arm was placebo qid and acetaminophen 650 mg qid PRN"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia",
+      "Alzheimer Disease, Pain",
+      "Behavior, Agitation"
+    ]
+  },
+  {
+    "nctId": "NCT05531526",
+    "title": "A Phase 3 Double-blind, Randomized, Placebo-controlled, Multi-center Trial to Evaluate the Efficacy and Safety of AR1001 Over 52 Weeks in Participants With Early Alzheimer's Disease (Polaris-AD)",
+    "briefTitle": "Phase 3, Double-blind, Randomized, Placebo-controlled Trial to Evaluate the Efficacy and Safety of AR1001 in Participants With Early Alzheimer's Disease (Polaris-AD)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2022-12-23",
+    "completionDate": "2027-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "AR1001",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03001557",
+    "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study With Open-Label Extension Phase of the Efficacy and Safety of Lemborexant in Subjects With Irregular Sleep-Wake Rhythm Disorder and Mild to Moderate Alzheimer's Disease Dementia",
+    "briefTitle": "Study of Lemborexant for Irregular Sleep-Wake Rhythm Disorder and Mild to Moderate Alzheimer's Disease Dementia",
+    "status": "COMPLETED",
+    "startDate": "2016-12-20",
+    "completionDate": "2020-04-17",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lemborexant 2.5 mg",
+      "Lemborexant 5 mg",
+      "Lemborexant 10 mg",
+      "Lemborexant 15 mg",
+      "Lemborexant-matched placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Irregular Sleep-Wake Rhythm Disorder"
+    ]
+  },
+  {
+    "nctId": "NCT02792257",
+    "title": "Pilot Trial of Dronabinol Adjunctive Treatment of Agitation in Alzheimer's Disease",
+    "briefTitle": "Trial of Dronabinol Adjunctive Treatment of Agitation in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2017-03-01",
+    "completionDate": "2024-05-31",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Dronabinol (Marinol\u00ae)",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02129348",
+    "title": "Treatment of Psychosis and Agitation in Alzheimer's Disease",
+    "briefTitle": "Treatment of Psychosis and Agitation in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2014-06",
+    "completionDate": "2020-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lithium",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Psychosis",
+      "Agitation"
+    ]
+  },
+  {
+    "nctId": "NCT03533257",
+    "title": "Phase II Study to Assess the Safety, Tolerability, and Target Engagement of AMX0035, a Fixed Combination of Sodium Phenylbutyrate and Tauroursodeoxycholic Acid for the Treatment of Alzheimer's Disease",
+    "briefTitle": "Study to Assess the Safety and Biological Activity of AMX0035 for the Treatment of Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2018-09-14",
+    "completionDate": "2020-11-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "AMX0035",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02267057",
+    "title": "Efficacy of Pain Treatment on Depression in Patients With Dementia. A Randomized Clinical Trial.",
+    "briefTitle": "Efficacy of Pain Treatment on Depression in Patients With Dementia",
+    "status": "COMPLETED",
+    "startDate": "2014-08",
+    "completionDate": "2016-12-21",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Paracetamol",
+      "Buprenorphine",
+      "Paracetamol placebo",
+      "Buprenorphine placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Depression",
+      "Pain",
+      "Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT00479557",
+    "title": "A Phase Iia, Multicenter, Randomized, Third-party Unblinded, Adjuvant And Placebo-controlled, Multiple Ascending Dose, Safety, Tolerability And Immunogenicity Trial Of Acc-001 And Qs-21 Adjuvant In Subjects With Mild To Moderate Alzheimer's Disease",
+    "briefTitle": "Study Evaluating Safety, Tolerability, And Immunogenicity Of ACC-001 In Subjects With Mild To Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2007-05",
+    "completionDate": "2013-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo: Phosphate buffered saline"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00624026",
+    "title": "Prospective, Single-arm, Multicenter, Open-label Study to Investigate the Efficacy and Tolerability of the Once Daily (OD) Memantine Treatment",
+    "briefTitle": "Memantine - Communication Study",
+    "status": "COMPLETED",
+    "startDate": "2007-11",
+    "completionDate": "2008-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Memantine-HCl"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05552157",
+    "title": "A Phase II/III Multicenter Randomized, Double-Blind, Placebo-Controlled, Two-Stage Adaptive Design, Platform Trial of Investigational Treatments for Primary Prevention of Disease Progression in Dominantly Inherited Alzheimer's Disease",
+    "briefTitle": "A Study of Potential Disease Modifying Treatments in Individuals at Risk for or With a Type of Early Onset AD Caused by a Genetic Mutation",
+    "status": "RECRUITING",
+    "startDate": "2024-11-22",
+    "completionDate": "2034-08",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Remternetug (SC)",
+      "Matching Placebo (Remternetug)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimers Disease",
+      "Dementia",
+      "Alzheimers Disease, Familial"
+    ]
+  },
+  {
+    "nctId": "NCT04516057",
+    "title": "Nabilone for Agitation Blinded Intervention Trial",
+    "briefTitle": "Nabilone for Agitation Blinded Intervention Trial",
+    "status": "RECRUITING",
+    "startDate": "2021-02-01",
+    "completionDate": "2025-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Nabilone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Agitation"
+    ]
+  },
+  {
+    "nctId": "NCT05233774",
+    "title": "Lomecel-B Effects on Alzheimer's Disease: A Randomized, Double-Blinded, Placebo-Controlled Phase 2a Trial",
+    "briefTitle": "Lomecel-B Effects on Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2021-12-28",
+    "completionDate": "2023-09-29",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Allogeneic MSC"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04120766",
+    "title": "Safety and Modulation of ABCC9 Pathways by Nicorandil for the Treatment of Hippocampal Sclerosis of Aging: SMArT-HS",
+    "briefTitle": "Safety and Modulation of ABCC9 Pathways by Nicorandil for the Treatment of Hippocampal Sclerosis of Aging",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-12-01",
+    "completionDate": "2026-11-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Nicorandil",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia",
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT02550665",
+    "title": "A Multicenter, Randomized, Open-label, Prospective Trial to Evaluate the Safety and Tolerability of Donepezil 23 mg With or Without Intermediate Dose Titration in Patients With Alzheimer's Disease Taking Donepezil Hydrochloride 10 mg",
+    "briefTitle": "Optimal Dose Escalation Strategy to Successful Achievement of High Dose Donepezil 23mg",
+    "status": "COMPLETED",
+    "startDate": "2014-12",
+    "completionDate": "2016-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "donepezil"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03061474",
+    "title": "A Double-Blind-Randomized, Placebo-Controlled Adaptive Design Trial of Nicotinamide in Mild Cognitive Impairment Due to Alzheimer's Disease and Mild Alzheimer's Disease Dementia",
+    "briefTitle": "Nicotinamide as an Early Alzheimer's Disease Treatment",
+    "status": "COMPLETED",
+    "startDate": "2017-07-12",
+    "completionDate": "2022-08-30",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Nicotinamide",
+      "Placebo Comparator"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT01333865",
+    "title": "A Study of Memantine Hydrochloride (Namenda\u00ae) for Cognitive and Behavioral Impairment in Adults With Autism Spectrum Disorders",
+    "briefTitle": "A Study of Memantine Hydrochloride (Namenda\u00ae) for Cognitive and Behavioral Impairment in Adults With Autism Spectrum Disorders",
+    "status": "COMPLETED",
+    "startDate": "2010-01",
+    "completionDate": "2014-07",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Memantine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Autism Spectrum Disorders"
+    ]
+  },
+  {
+    "nctId": "NCT01025466",
+    "title": "A Multicenter, Randomized, Open-label Study to Compare the Tolerability Between Rivastigmine Patch Monotherapy and Combination Therapy With Memantine in Patients With Alzheimer's Disease",
+    "briefTitle": "Exelon Patch and Combination With Memantine Comparative Trial",
+    "status": "COMPLETED",
+    "startDate": "2008-12",
+    "completionDate": "2010-04",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Rivastigmine transdermal patch (Exelon patch), memantine",
+      "Rivastigmine transdermal patch"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00663026",
+    "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Multiple Ascending Dose Safety, Tolerability, Reactogenicity, And Pharmacokinetic Study Of Bapineuzumab (AAB 001) Administered Subcutaneously In Subjects With Mild To Moderate AD",
+    "briefTitle": "Study Evaluating Bapineuzumab In Alzheimer Disease Subjects",
+    "status": "COMPLETED",
+    "startDate": "2008-11",
+    "completionDate": "2010-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "bapineuzumab",
+      "bapineuzumab",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02103673",
+    "title": "",
+    "briefTitle": "DAOIB for the Treatment of Cognitive Function and Behavioral and Psychological Symptoms of Dementia",
+    "status": "COMPLETED",
+    "startDate": "2014-02",
+    "completionDate": "2017-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "DAOIB",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Behavioral and Psychological Symptoms in Alzheimer's Disease",
+      "Behavioral and Psychological Symptoms in Vascular Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT01723826",
+    "title": "A Multicenter, Open-Label, Long-Term Safety Extension of Phase II Studies ABE4869g and ABE4955g in Patients With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "A Long-Term Safety Extension of Studies ABE4869g and ABE4955g in Participants With Mild to Moderate Alzheimer's Disease Treated With Crenezumab",
+    "status": "COMPLETED",
+    "startDate": "2012-12-07",
+    "completionDate": "2017-02-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Crenezumab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02771366",
+    "title": "The Influence of Fermented Papaya Preparation (FPP) on Cerebral Energy Metabolism, Neuroinflammation, and Cognition in Older Adults",
+    "briefTitle": "The Efficient Brain Study",
+    "status": "COMPLETED",
+    "startDate": "2016-11",
+    "completionDate": "2018-07-27",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Fermented Papaya Preparation"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Metabolism - Cerebral Energy"
+    ]
+  },
+  {
+    "nctId": "NCT06093126",
+    "title": "Lemborexant for Insomnia in a Patient With Dementia: An N-of-1 Trial",
+    "briefTitle": "Lemborexant for Insomnia in a Patient With Dementia: An N-of-1 Trial",
+    "status": "RECRUITING",
+    "startDate": "2023-12-11",
+    "completionDate": "2028-12-11",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lemborexant 5 MG"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Insomnia",
+      "Dementia",
+      "Frontotemporal Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT05026866",
+    "title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
+    "briefTitle": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
+    "status": "RECRUITING",
+    "startDate": "2021-08-27",
+    "completionDate": "2027-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Donanemab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02079766",
+    "title": "18F-AV-1451 and Florbetapir F 18 PET Imaging in Subjects With Repetitive Brain Trauma at High Risk for Chronic Traumatic Encephalopathy",
+    "briefTitle": "18F-AV-1451 and Florbetapir F 18 PET (Positron Emission Tomography) Imaging in Subjects at Risk for Chronic Traumatic Encephalopathy",
+    "status": "COMPLETED",
+    "startDate": "2014-06",
+    "completionDate": "2015-10",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "florbetapir F 18",
+      "Flortaucipir F18"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Chronic Traumatic Encephalopathy"
+    ]
+  },
+  {
+    "nctId": "NCT00135226",
+    "title": "A Study of Cardiovascular Events iN Diabetes - A Randomized 2x2 Factorial Study of Aspirin Versus Placebo, and of Omega-3 Fatty Acid Supplementation Versus Placebo, for Primary Prevention of Cardiovascular Events in People With Diabetes",
+    "briefTitle": "ASCEND: A Study of Cardiovascular Events iN Diabetes",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2005-03",
+    "completionDate": "2037-07-31",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Aspirin",
+      "Omega-3 Ethyl Esters",
+      "Placebo Aspirin",
+      "Placebo Omega-3 Ethyl Esters"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Diabetes Mellitus"
+    ]
+  },
+  {
+    "nctId": "NCT01137526",
+    "title": "A Randomized, Double-Blind, Placebo and Active-Controlled, Parallel Group Study to Evaluate the Efficacy and Safety of ABT-384 in Subjects With Mild-to-Moderate Alzheimer's Disease",
+    "briefTitle": "Efficacy and Safety Study of ABT-384 in Subjects With Mild-to-Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-05",
+    "completionDate": "2011-07",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ABT-384",
+      "donepezil",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
     "nctId": "NCT03073876",
     "title": "Detecting an Early Response to Donepezil With Measures of Visual Attention",
     "briefTitle": "Detecting an Early Response to Donepezil With Measures of Visual Attention",
@@ -22,85 +2311,22 @@
     ]
   },
   {
-    "nctId": "NCT05741060",
-    "title": "Arterial Stiffness, Cognition and Equol",
-    "briefTitle": "Effect of Equol Supplementation on Arterial Stiffness and Cognition in Healthy Volunteers",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2023-06-29",
-    "completionDate": "2027-01-30",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "S-equol",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Arterial Stiffness",
-      "White Matter Lesions",
-      "Cognitive Decline"
-    ]
-  },
-  {
-    "nctId": "NCT00547560",
-    "title": "An Ascending Multiple Dose Study Of The Safety, Pharmacokinetics, And Pharmacodynamics Of GSI-953 Administered Orally To Healthy Elderly Subjects",
-    "briefTitle": "Study Evaluating Multiple Doses Of GSI-953 Within The Elderly Population",
+    "nctId": "NCT00056225",
+    "title": "High Dose Supplements to Reduce Homocysteine and Slow the Rate of Cognitive Decline in Alzheimer's Disease (Vitamins to Slow Alzheimer's - VITAL)",
+    "briefTitle": "VITAL - VITamins to Slow ALzheimer's Disease (Homocysteine Study)",
     "status": "COMPLETED",
-    "startDate": "2007-08",
-    "completionDate": "2009-10",
+    "startDate": "2003-01",
+    "completionDate": "2007-06",
     "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "GSI-953"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT00556660",
-    "title": "",
-    "briefTitle": "Evaluation of [123I] AV51 and SPECT as a Marker of Beta-amyloid Protein Deposition in Subjects With Alzheimer Disease in Comparison to Healthy Subjects",
-    "status": "COMPLETED",
-    "startDate": "2007-09",
-    "completionDate": "2008-07",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "[123I] AV-151"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02016560",
-    "title": "An Open Label, Multicenter Study, Evaluating the Safety and Imaging Characteristics of 18F-AV-1451 in Cognitively Healthy Volunteers, Subjects With Mild Cognitive Impairment, and Subjects With Alzheimer's Disease",
-    "briefTitle": "Analysis of 18F-AV-1451 PET Imaging in Cognitively Healthy, MCI, and AD Subjects",
-    "status": "COMPLETED",
-    "startDate": "2013-12",
-    "completionDate": "2017-07-28",
-    "phases": [
-      "PHASE2",
       "PHASE3"
     ],
     "interventions": [
-      "florbetapir F 18",
-      "Flortaucipir F18"
+      "Folate",
+      "Vitamin B6",
+      "Vitamin B12"
     ],
     "interventionTypes": [
+      "DRUG",
       "DRUG",
       "DRUG"
     ],
@@ -109,24 +2335,127 @@
     ]
   },
   {
-    "nctId": "NCT04251182",
-    "title": "A Randomized, Double-Blind, Placebo-Controlled Multi-Center Study to Evaluate the Safety and Efficacy of Three Dose Strengths of T3D-959 in Subjects With Mild-to-Moderate Alzheimer's Disease",
-    "briefTitle": "Clinical Study Evaluating Efficacy and Safety of T3D-959 in Mild-to-moderate AD Subjects",
+    "nctId": "NCT03789760",
+    "title": "A Phase III, Randomised, Double-blind, Placebo-controlled, Parallel, and Multi-centre Study to Evaluate the Clinical Efficacy and Safety of SaiLuoTong (SLT) in the Treatment of Vascular Dementia",
+    "briefTitle": "The Clinical Trial of Chinese Herbal Medicine (SaiLuoTong) Capsule",
     "status": "COMPLETED",
-    "startDate": "2021-03-01",
-    "completionDate": "2023-02-17",
+    "startDate": "2019-04-10",
+    "completionDate": "2024-05-19",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "SaiLuoTong capsule",
+      "placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Vascular Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT00231946",
+    "title": "A Double-Blind Placebo-Controlled Study of VP4896 For the Treatment of Mild-to-Moderate Alzheimer's Disease",
+    "briefTitle": "ALADDIN Study - Phase III: Antigonadotropin-Leuprolide in Alzheimer's Disease Drug INvestigation (VP-AD-301)",
+    "status": "COMPLETED",
+    "startDate": "2005-09",
+    "completionDate": "",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "VP4896"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05057546",
+    "title": "Ovarian Hormone Regulation of Central and Cerebrovascular Hemodynamics",
+    "briefTitle": "Ovarian Hormone Regulation of Central and Cerebrovascular Hemodynamics (NoMEN Study)",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2021-11-22",
+    "completionDate": "2025-07-28",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "GnRH antagonist"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Menopause",
+      "Estrogen Deficiency",
+      "Women",
+      "Aging"
+    ]
+  },
+  {
+    "nctId": "NCT03108846",
+    "title": "Escitalopram for Agitation in Alzheimer's Disease",
+    "briefTitle": "Escitalopram for Agitation in Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2018-01-03",
+    "completionDate": "2025-05",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Escitalopram",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT00722046",
+    "title": "A PHASE 2 MULTICENTER, RANDOMIZED, DOUBLE BLIND, PLACEBO CONTROLLED STUDY OF THE SAFETY, TOLERABILITY, AND PHARMACOKINETICS OF MULTIPLE DOSES OF PF 04360365 IN PATIENTS WITH MILD TO MODERATE ALZHEIMER'S DISEASE.",
+    "briefTitle": "Multiple IV Dose Study Of PF-04360365 In Patients With Mild To Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2008-12-05",
+    "completionDate": "2011-08-16",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "15mg T3D-959",
-      "30 mg T3D-959",
-      "45 mg T3D-959",
-      "Placebos"
+      "Placebo"
     ],
     "interventionTypes": [
-      "DRUG",
-      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00046358",
+    "title": "The Effect of Short-Term Statin and NSAID Treatment on CSF Beta-Amyloid",
+    "briefTitle": "The Effect of Short-Term Statins and NSAIDs on Levels of Beta-Amyloid, a Protein Associated With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2002-09",
+    "completionDate": "2005-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Lovostatin",
+      "Ibuprofen"
+    ],
+    "interventionTypes": [
       "DRUG",
       "DRUG"
     ],
@@ -135,18 +2464,177 @@
     ]
   },
   {
-    "nctId": "NCT03393520",
-    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-design Study to Assess the Efficacy, Safety, and Tolerability of AVP-786 (Deudextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
-    "briefTitle": "Assessment of the Efficacy, Safety, and Tolerability of AVP-786 (Deudextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+    "nctId": "NCT00073658",
+    "title": "Continuation Pharmacotherapy for Agitation of Dementia",
+    "briefTitle": "Treating Behavioral Disturbances in Individuals With Dementia",
     "status": "COMPLETED",
-    "startDate": "2017-10-13",
-    "completionDate": "2023-12-14",
+    "startDate": "2000-01",
+    "completionDate": "2005-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Citalopram",
+      "Risperidone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT02707458",
+    "title": "Dose-finding and Proof-of-concept Trial of Probucol to Increase Availability of CSF Apolipoprotein-E",
+    "briefTitle": "Dosage and Efficacy of Probucol-induced apoE to Negate Cognitive Deterioration",
+    "status": "COMPLETED",
+    "startDate": "2016-04",
+    "completionDate": "2017-03",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Probucol"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia of the Alzheimer Type",
+      "Age-related Cognitive Decline",
+      "Mild Cognitive Impairment Due to Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06602258",
+    "title": "A Phase 2, Placebo-Controlled, Double-Blind, Parallel-Group, Dose-Finding Study to Evaluate Safety, Tolerability, and Biomarker Efficacy of E2814 With Concurrent Lecanemab Treatment in Subjects With Early Alzheimer's Disease",
+    "briefTitle": "A Study of E2814 With Concurrent Lecanemab Treatment in Participants With Early Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2024-09-30",
+    "completionDate": "2027-08-19",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "E2814",
+      "Lecanemab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02161458",
+    "title": "Escitalopram Effects on CSF Amyloid Beta Total Concentrations",
+    "briefTitle": "Escitalopram Effects on CSF Amyloid Beta",
+    "status": "COMPLETED",
+    "startDate": "2014-06",
+    "completionDate": "2019-01",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Escitalopram 20mg for 2 weeks",
+      "Escitalopram 20mg for 8 weeks",
+      "Escitalopram 30mg for 8 weeks",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Amyloid Beta Protein"
+    ]
+  },
+  {
+    "nctId": "NCT00249158",
+    "title": "Risperidone in the Treatment of Behavioural and Psychological Signs and Symptoms in Dementia (BPSSD): a Multicentre, Double-blind, Placebo-controlled Parallel-group Trial",
+    "briefTitle": "A Study of the Effectiveness and Safety of Risperidone in the Treatment of Behavioral Disturbances in Patients With Dementia",
+    "status": "COMPLETED",
+    "startDate": "1998-03",
+    "completionDate": "2001-02",
     "phases": [
       "PHASE3"
     ],
     "interventions": [
-      "Placebo",
-      "AVP-786"
+      "Risperidone"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia",
+      "Alzheimer Disease",
+      "Vascular Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT02756858",
+    "title": "An Extension Study of ANAVEX2-73 in Patients With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "An Extension Study of ANAVEX2-73 in Patients With Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2016-03",
+    "completionDate": "2020-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ANAVEX2-73"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT05891496",
+    "title": "A Randomised Double-blind Placebo-controlled Clinical Study Investigating the Effects of Semaglutide s.c. Once-weekly Versus Placebo on Central and Peripheral Inflammation in Participants With Alzheimer's Disease",
+    "briefTitle": "A Research Study Looking at the Effect of Semaglutide on the Immune System and Other Biological Processes in People With Alzheimer's Disease",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "startDate": "2023-06-20",
+    "completionDate": "2025-09-11",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Semaglutide",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimers Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02442765",
+    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Assess the Efficacy, Safety, and Tolerability of AVP-786 (Deuterated [d6]-Dextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+    "briefTitle": "Efficacy, Safety and Tolerability of AVP-786 for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+    "status": "COMPLETED",
+    "startDate": "2015-07-23",
+    "completionDate": "2019-02-27",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "AVP-786",
+      "Placebo"
     ],
     "interventionTypes": [
       "DRUG",
@@ -157,17 +2645,206 @@
     ]
   },
   {
-    "nctId": "NCT05227820",
-    "title": "Anti-Inflammatory, Insulin-Sensitizing Agent for Treatment of Cognitive Decline Due to Degenerative Dementias",
-    "briefTitle": "Insulin-Sensitizing Anti-Inflammatory Small Molecule for Investigative Treatment of Dementia",
+    "nctId": "NCT00439166",
+    "title": "Effects of Treatment With Doxycycline and Rifampicin on Biomarkers of Alzheimer's Disease in the Cerebrospinal Fluid",
+    "briefTitle": "Effects of Doxycycline and Rifampicin on Biomarkers of Alzheimer's Disease in the Cerebrospinal Fluid",
     "status": "COMPLETED",
-    "startDate": "2022-01-19",
-    "completionDate": "2022-08-20",
+    "startDate": "2007-02",
+    "completionDate": "2010-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "doxycycline",
+      "rifampicin",
+      "Placebo matched to doxycycline",
+      "Placebo matched to Rifampin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT03150966",
+    "title": "The Effects of Oral Nanocurcumin on Expression Levels of microRNAs and Treg Cells and Th17 Cells Development Factors in Multiple Sclerosis Patients",
+    "briefTitle": "The Immunomodulatory Effects of Oral Nanocurcumin in Multiple Sclerosis Patients",
+    "status": "COMPLETED",
+    "startDate": "2016-06-08",
+    "completionDate": "2017-11-07",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "NE3107"
+      "Nanocurcumin",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Multiple Sclerosis"
+    ]
+  },
+  {
+    "nctId": "NCT06384573",
+    "title": "The Dominantly Inherited Alzheimer Network Trials Unit (DIAN-TU) Amyloid Removal Trial (ART): A Phase IIIb/IV Open-Label Study of Lecanemab to Evaluate Prevention and Progression of Dominantly Inherited Alzheimer's Disease",
+    "briefTitle": "DIAN-TU Amyloid Removal Trial (ART) in Dominantly Inherited Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2024-06-10",
+    "completionDate": "2030-06",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "lecanemab"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Dementia",
+      "Alzheimer's Disease, Familial"
+    ]
+  },
+  {
+    "nctId": "NCT06159673",
+    "title": "A Master Protocol for Three Independent, Seamlessly Enrolling, Double-blind, Placebo-controlled Efficacy and Safety Studies of ACP-204 in Adults With Alzheimer's Disease Psychosis",
+    "briefTitle": "ACP-204 in Adults With Alzheimer's Disease Psychosis",
+    "status": "RECRUITING",
+    "startDate": "2023-11-14",
+    "completionDate": "2028-02",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "ACP-204",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease Psychosis"
+    ]
+  },
+  {
+    "nctId": "NCT06815965",
+    "title": "An Open-Label Phase 2a Clinical Study of the P38 Alpha Kinase Inhibitor Neflamapimod in Patients With Dementia With Lewy Bodies (DLB)",
+    "briefTitle": "A Clinical Study of Neflamapimod in Patients With Dementia With Lewy Bodies",
+    "status": "RECRUITING",
+    "startDate": "2024-10-16",
+    "completionDate": "2026-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "neflamapimod"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia With Lewy Bodies (DLB)"
+    ]
+  },
+  {
+    "nctId": "NCT05081219",
+    "title": "Study of Nasal Insulin to Fight Forgetfulness - Combination Intranasal Insulin and Empagliflozin Trial",
+    "briefTitle": "SNIFF - Combo INI+EMPA Trial",
+    "status": "COMPLETED",
+    "startDate": "2021-09-14",
+    "completionDate": "2024-09-17",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Insulin (Humulin\u00ae R U-100)",
+      "Empagliflozin 10 MG",
+      "Placebo (Insulin Diluent)",
+      "Placebo (Capsules)"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment",
+      "Cognitive Impairment",
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01058941",
+    "title": "Lipoic Acid and Omega-3 Fatty Acids in Alzheimer's Disease",
+    "briefTitle": "Lipoic Acid and Omega-3 Fatty Acids for Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-09",
+    "completionDate": "2014-12",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Lipoic acid and fish oil concentrate",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT04408625",
+    "title": "A Phase 1/2 Ascending Dose Study to Evaluate the Safety and Effects on Progranulin Levels of LY3884963 in Patients With Fronto-Temporal Dementia With Progranulin Mutations (FTD-GRN)",
+    "briefTitle": "Phase 1/2 Clinical Trial of LY3884963 in Patients With Frontotemporal Dementia With Progranulin Mutations (FTD-GRN)",
+    "status": "RECRUITING",
+    "startDate": "2020-11-09",
+    "completionDate": "2030-04-30",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "interventions": [
+      "Methylprednisolone",
+      "Optional Sirolimus",
+      "Optional Prednisone"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Frontotemporal Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT03691519",
+    "title": "Prevention of Cognitive Decline in Older Adults With Low Dha/Epa Index in Red Blood Cells",
+    "briefTitle": "Prevention of Cognitive Decline in Older Adults With Low Dha/Epa Index in Red Blood Cells",
+    "status": "COMPLETED",
+    "startDate": "2018-04-17",
+    "completionDate": "2020-03-31",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Omega-3 treatment"
     ],
     "interventionTypes": [
       "DRUG"
@@ -177,12 +2854,33 @@
     ]
   },
   {
-    "nctId": "NCT01565382",
-    "title": "Evaluation of Physician Training for Interpretation of Florbetapir-PET Scans: Evaluation of Inter-reader Reliability Using Images From Subjects With a Clinical Presentation of AD or MCI",
-    "briefTitle": "Evaluation of Inter-reader Reliability Using Images From Subjects With Alzheimer's Disease (AD) or Mild Cognitive Impairment (MCI)",
+    "nctId": "NCT04804241",
+    "title": "Proof of Mechanism Study of Senicapoc in Mild or Prodromal Alzheimer's Disease",
+    "briefTitle": "Senicapoc in Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2022-03-18",
+    "completionDate": "2026-06",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Senicapoc"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment",
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01447719",
+    "title": "Autopsy Follow-up of Subjects Previously Imaged With Florbetapir F 18 (18F-AV-45) PET in Trial 18F-AV-45-A07",
+    "briefTitle": "Autopsy Follow-up of Subjects Previously Imaged With Florbetapir F 18 (18F-AV-45) PET in Trial 18F-AV-45-A07",
     "status": "COMPLETED",
-    "startDate": "2011-02",
-    "completionDate": "2011-02",
+    "startDate": "2010-03",
+    "completionDate": "2011-07",
     "phases": [
       "PHASE3"
     ],
@@ -197,18 +2895,124 @@
     ]
   },
   {
-    "nctId": "NCT00000173",
-    "title": "A Randomized, Double-Blind, Placebo-Controlled Trial of Vitamin E and Donepezil HCL (Aricept) to Delay Clinical Progression From Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD)",
-    "briefTitle": "Memory Impairment Study (Mild Cognitive Impairment Study)",
+    "nctId": "NCT01922258",
+    "title": "A Phase 3, 12-week, Multicenter, Randomized, Double-blind, Placebo-controlled Trial to Evaluate the Efficacy, Safety, and Tolerability of Flexible Dosing of Brexpiprazole (OPC-34712) in the Treatment of Subjects With Agitation Associated With Dementia of the Alzheimer's Type",
+    "briefTitle": "Safety and Tolerability Study of Flexible Dosing of Brexpiprazole in the Treatment of Subjects With Agitation Associated With Dementia of the Alzheimer's Type",
     "status": "COMPLETED",
-    "startDate": "1999-03",
-    "completionDate": "2004-01",
+    "startDate": "2013-09",
+    "completionDate": "2017-03",
     "phases": [
       "PHASE3"
     ],
     "interventions": [
-      "Donepezil",
-      "Vitamin E"
+      "Brexpiprazole, OPC-34712"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Agitation Associated With",
+      "Alzheimer's Disease",
+      "Alzheimer's Type",
+      "Mental Disorder",
+      "Nervous System Diseases"
+    ]
+  },
+  {
+    "nctId": "NCT00334906",
+    "title": "An Open-Label Exploratory Study With Memantine: Assessment of Selected Measures of Volumetric MRI and Cognition in Patients With Moderate Dementia of the Alzheimer's Type",
+    "briefTitle": "Study of Memantine in Assessment of Selected Measures of Volumetric Magnetic Resonance Imaging (MRI) and Cognition in Moderate AD (Alzheimer's Disease)",
+    "status": "COMPLETED",
+    "startDate": "2005-07",
+    "completionDate": "",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "memantine HCl"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01183806",
+    "title": "Effects of Exercise and Rivastigmine on Quality of Life of Alzheimer's Disease Patients",
+    "briefTitle": "Effects of Exercise and Rivastigmine on Quality of Life of Alzheimer's Disease Patients",
+    "status": "COMPLETED",
+    "startDate": "2010-07",
+    "completionDate": "2012-03",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Rivastigmine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00103649",
+    "title": "A Randomized, Multicenter, Double-Blind, Placebo-Controlled, 18-Month Study of the Efficacy of Xaliproden in Patients With Mild-to-Moderate Dementia of the Alzheimer's Type",
+    "briefTitle": "18-Month Study of the Efficacy of Xaliproden (SR57746A) in Patients With Mild-to-Moderate Dementia of the Alzheimer's Type",
+    "status": "COMPLETED",
+    "startDate": "2003-11",
+    "completionDate": "2007-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "xaliproden (SR57746A)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01224106",
+    "title": "Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Two Year Study to Evaluate the Effect of Subcutaneous RO4909832 on Cognition and Function in Prodromal Alzheimer's Disease With Option for up to an Additional Two Years of Treatment and an Open-Label Extension With Active Study Treatment",
+    "briefTitle": "A Study of Gantenerumab in Participants With Prodromal Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-11-30",
+    "completionDate": "2020-09-10",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Gantenerumab",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02955706",
+    "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Clinical Trial to Assess the Efficacy of Acetyl-L-carnitine in Patient With Alzheimer's Disease",
+    "briefTitle": "Assessment the Efficacy of Acetyl-L-carnitine in Patient With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2016-04-01",
+    "completionDate": "2019-01-25",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Acetyl-L-Carnitine",
+      "Placebo of Acetyl-L-Carnitine"
     ],
     "interventionTypes": [
       "DRUG",
@@ -219,135 +3023,107 @@
     ]
   },
   {
-    "nctId": "NCT00931073",
-    "title": "A Phase I, Open-Label, Three-Period, Fixed-Sequence Study To Estimate The Steady-State Effect Of Ketoconazole And Omeprazole On The Single-Dose Pharmacokinetics Of Dimebon [PF-01913539] In Healthy CYP2D6 EM And PM Subjects",
-    "briefTitle": "A Phase I Study To Estimate The Effect Of Ketoconazole And Omeprazole On The Pharmacokinetics Of Dimebon In Healthy Subjects Who Are Normal Or Poor CYP2D6 Metabolizers",
-    "status": "COMPLETED",
-    "startDate": "2009-07",
-    "completionDate": "2009-10",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Dimebon alone",
-      "Dimebon + Ketoconazole",
-      "Dimebon + Omeprazole"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease",
-      "Huntington's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02035982",
-    "title": "A Discontinuation of Cholinesterase Inhibitors for the Treatment of Severe Alzheimer's Disease in Long Term Care Setting",
-    "briefTitle": "Discontinuation of Cholinesterase Inhibitors for the Treatment of Severe Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2010-07",
-    "completionDate": "2015-09",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "Cholinesterase Inhibitor",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease",
-      "Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT04619420",
-    "title": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter Study With a Long-Term Extension Treatment Period to Assess the Efficacy and Safety of JNJ-63733657, an Anti-tau Monoclonal Antibody, in Participants With Early Alzheimer's Disease",
-    "briefTitle": "A Study of JNJ-63733657 in Participants With Early Alzheimer's Disease",
+    "nctId": "NCT04098666",
+    "title": "Metformin in Alzheimer's Dementia Prevention",
+    "briefTitle": "Metformin in Alzheimer's Dementia Prevention",
     "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2021-01-06",
-    "completionDate": "2032-12-30",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "JNJ-63733657",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Cognitive Dysfunction",
-      "Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT01662882",
-    "title": "An Open Label, Parallel Group, Multicenter Study, Evaluating the Safety and Imaging Characteristics of Florbetapir (18F) in Healthy Volunteers, Patients With Mild Cognitive Impairment (MCI) and Patients With Alzheimer's Disease (AD)",
-    "briefTitle": "A Phase II Trial of Florbetapir (18F) Positron Emission Tomography (PET) Imaging in Japan of Healthy Volunteers, Patients With Mild Cognitive Impairment (MCI) and Patients With Alzheimer's Disease (AD)",
-    "status": "COMPLETED",
-    "startDate": "2012-10",
-    "completionDate": "2013-02",
+    "startDate": "2021-03-22",
+    "completionDate": "2027-04-30",
     "phases": [
       "PHASE2",
       "PHASE3"
     ],
     "interventions": [
-      "florbetapir (18F)"
+      "Placebo oral tablet",
+      "extended release metformin"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT03765762",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Study to Assess the Safety and Tolerability of Pulsed GRF6019 Infusions in Subjects With Severe Alzheimer's Disease",
+    "briefTitle": "A Study to Assess the Safety of GRF6019 Infusions in Subjects With Severe Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2019-01-15",
+    "completionDate": "2019-12-17",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "GRF6019"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Severe Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00001662",
+    "title": "Tolerability and Primary Efficacy of CX516 in Alzheimer's Disease",
+    "briefTitle": "Treatment of Alzheimer's Disease With CX516 (Ampalex)",
+    "status": "COMPLETED",
+    "startDate": "1996-12",
+    "completionDate": "2005-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "CX516 (Ampalex)"
     ],
     "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
       "Alzheimer's Disease",
-      "Mild Cognitive Impairment"
+      "Dementia"
     ]
   },
   {
-    "nctId": "NCT02997982",
-    "title": "Feasibility and Effects on Markers in Spinal Fluid in Persons With Early Alzheimer's Disease When Treated With Valaciclovir - Open Fas II Pilot Study (VALZ-Pilot)",
-    "briefTitle": "Feasibility and Effects of Valaciclovir Treatment in Persons With Early Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2016-12",
-    "completionDate": "2020-03-04",
+    "nctId": "NCT05822362",
+    "title": "Cannabidiol for Individuals at Risk for Alzheimer's Disease: A Randomized Placebo Controlled Trial",
+    "briefTitle": "CBD for Individuals at Risk for Alzheimer's Disease",
+    "status": "RECRUITING",
+    "startDate": "2024-01-19",
+    "completionDate": "2029-04",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Valaciclovir 500Mg Tablet"
+      "Cannabidiol"
     ],
     "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
-      "Alzheimer Disease",
-      "Mild Cognitive Impairment",
-      "Herpes Simplex"
+      "Mild Cognitive Impairment"
     ]
   },
   {
-    "nctId": "NCT05269173",
-    "title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter Phase II Clinical Trial to Evaluate the Efficacy and Safety of Flos Gossypii Flavonoids Tablet in the Treatment of Mild and Moderate Alzheimer's Disease",
-    "briefTitle": "Efficacy and Safety of Flos Gossypii Flavonoids Tablet in the Treatment of Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2020-10-29",
-    "completionDate": "2024-11-05",
+    "nctId": "NCT06223360",
+    "title": "A Seamless Phase 2A-Phase 2B Randomized Double-Blind Placebo- Controlled Trial to Evaluate the Safety and Efficacy of Benfotiamine in Patients With Early Alzheimer's Disease (BenfoTeam)",
+    "briefTitle": "A Trial to Evaluate the Safety and Efficacy of Benfotiamine in Patients With Early Alzheimer's Disease (BenfoTeam)",
+    "status": "RECRUITING",
+    "startDate": "2024-03-28",
+    "completionDate": "2027-12-01",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Flos gossypii flavonoids tablet"
+      "Low Dose Benfotiamine",
+      "High Dose Benfotiamine",
+      "Placebo"
     ],
     "interventionTypes": [
+      "DRUG",
+      "DRUG",
       "DRUG"
     ],
     "conditions": [
@@ -376,390 +3152,26 @@
     ]
   },
   {
-    "nctId": "NCT01672827",
-    "title": "A Study to Evaluate the Effectiveness of an Electronic Training Program for Orienting and Interpreting [18F]Flutemetamol Positron Emission Tomography (PET) Images.",
-    "briefTitle": "Effectiveness of an Electronic Training Program for Orienting and Interpreting [18F]Flutemetamol Positron Emission Tomography (PET) Images",
-    "status": "COMPLETED",
-    "startDate": "2012-07",
-    "completionDate": "2012-08",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "[18F]Flutemetamol"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease",
-      "Mild Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT03518073",
-    "title": "Assessment of Safety, Tolerability, and Efficacy of LY3303560 in Early Symptomatic Alzheimer's Disease",
-    "briefTitle": "A Study of LY3303560 in Participants With Early Symptomatic Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2018-04-30",
-    "completionDate": "2021-10-25",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Zagotenemab",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease (AD)"
-    ]
-  },
-  {
-    "nctId": "NCT05468073",
-    "title": "Therapeutic Evaluation of Low-dose IL-2-based Immunomodulatory Approach in Patients With Early AD",
-    "briefTitle": "Therapeutic Evaluation of Low-dose IL-2-based Immunomodulatory Approach in Patients With Early AD",
-    "status": "RECRUITING",
-    "startDate": "2022-10-11",
-    "completionDate": "2026-09-01",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Proleukin",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04396873",
-    "title": "Phase 1 Study: PET Imaging of Cyclooxygenases in Neurodegenerative Brain Disease",
-    "briefTitle": "PET Imaging of Cyclooxygenases in Neurodegenerative Brain Disease",
-    "status": "RECRUITING",
-    "startDate": "2021-08-17",
-    "completionDate": "2030-10-03",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "11C-MC1",
-      "11C-PS13",
-      "18f-florbetaben"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Parkinson's Disease",
-      "Dementia",
-      "Alzheimer's Disease",
-      "ALS",
-      "Mild Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT00842673",
-    "title": "A Double-Blind Placebo-Controlled Preliminary Study of the Efficacy, Safety and Tolerability of ST101 Tablets in the Treatment of Alzheimer's Disease",
-    "briefTitle": "Preliminary Efficacy and Safety Study of ST101 in Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2009-02",
-    "completionDate": "2010-09",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "ST101",
-      "ST101",
-      "ST101",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT06384573",
-    "title": "The Dominantly Inherited Alzheimer Network Trials Unit (DIAN-TU) Amyloid Removal Trial (ART): A Phase IIIb/IV Open-Label Study of Lecanemab to Evaluate Prevention and Progression of Dominantly Inherited Alzheimer's Disease",
-    "briefTitle": "DIAN-TU Amyloid Removal Trial (ART) in Dominantly Inherited Alzheimer's Disease",
-    "status": "RECRUITING",
-    "startDate": "2024-06-10",
-    "completionDate": "2030-06",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "lecanemab"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease",
-      "Dementia",
-      "Alzheimer's Disease, Familial"
-    ]
-  },
-  {
-    "nctId": "NCT06335173",
-    "title": "A Phase 2 Double-Blind, Randomized, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Intravenous Sabirnetug in Early Alzheimer's Disease",
-    "briefTitle": "A Study to Evaluate Efficacy and Safety of Intravenous Sabirnetug in Participants with Early Alzheimer's Disease (ALTITUDE-AD)",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2024-02-29",
-    "completionDate": "2026-10",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "sabirnetug",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01827982",
-    "title": "A Double-Blind, Placebo-Controlled, Randomized, Single-Ascending Dose Study To Investigate the Safety, Tolerability and Pharmacokinetics of JNJ-54861911 in Healthy Subjects",
-    "briefTitle": "A Study to Investigate the Safety, Tolerability and Pharmacokinetics of JNJ-54861911 in Healthy Volunteers Compared With Placebo",
-    "status": "COMPLETED",
-    "startDate": "2013-03",
-    "completionDate": "2013-07",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "JNJ-54861911 1mg",
-      "JNJ-54861911 3 mg",
-      "JNJ-54861911 9 mg",
-      "JNJ-54861911 27 mg",
-      "JNJ-54861911 81 mg",
-      "JNJ-54861911 160 mg",
-      "JNJ-54861911 tbd",
-      "JNJ-54861911 9 mg",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT02380573",
-    "title": "Cognitive and Functional Connectivity Effects of Methylene Blue in Healthy Aging, Mild Cognitive Impairment and Alzheimer's Disease",
-    "briefTitle": "Effects of Methylene Blue in Healthy Aging, Mild Cognitive Impairment and Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2015-07",
-    "completionDate": "2023-07",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Methylene Blue",
-      "FD&C Blue # 2",
-      "Phenazopyridine hydrochloride"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Mild Cognitive Impairment",
-      "MCI",
-      "Aging",
-      "Alzheimer's Disease",
-      "AD"
-    ]
-  },
-  {
-    "nctId": "NCT00417482",
-    "title": "Antipsychotic Discontinuation in Alzheimer's Disease",
-    "briefTitle": "Antipsychotic Discontinuation in Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2004-08",
-    "completionDate": "2011-04",
+    "nctId": "NCT01453127",
+    "title": "DaTSCAN Imaging in Aging and Neurodegenerative Disease",
+    "briefTitle": "DaTSCAN Imaging in Aging and Neurodegenerative Disease",
+    "status": "ENROLLING_BY_INVITATION",
+    "startDate": "2011-10",
+    "completionDate": "2025-12",
     "phases": [
       "PHASE4"
     ],
     "interventions": [
-      "risperidone"
+      "I-123 Ioflupane solution injection prior to SPECT scan (DaTscan)"
     ],
     "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
-      "Alzheimer Disease",
-      "Psychotic Disorders",
-      "Agitation",
-      "Aggression"
-    ]
-  },
-  {
-    "nctId": "NCT00329082",
-    "title": "LY2062430: Multiple-Dose Safety in Subjects With Mild-to-Moderate Alzheimer's Disease and Single-Dose Safety in Healthy Volunteers",
-    "briefTitle": "Effects of LY2062430 in Subjects With Mild-to-Moderate Alzheimer's Disease and in Healthy Volunteers",
-    "status": "COMPLETED",
-    "startDate": "2006-05",
-    "completionDate": "2008-05",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "LY2062430",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT03493282",
-    "title": "A Pilot Synaptic Vesicle Glycoprotein 2A (SV2A) PET Study to Evaluate the Effect of CT1812 Treatment on Synaptic Density in Participants With Mild to Moderate Alzheimer's Disease",
-    "briefTitle": "Effect of CT1812 Treatment on Brain Synaptic Density",
-    "status": "COMPLETED",
-    "startDate": "2018-03-28",
-    "completionDate": "2020-10-16",
-    "phases": [
-      "PHASE1",
-      "PHASE2"
-    ],
-    "interventions": [
-      "Active Treatment- CT1812 100 mg",
-      "Active Treatment- CT1812 300 mg",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT05361382",
-    "title": "Longitudinal Multicenter Head-to-Head Harmonization of Tau PET Tracers",
-    "briefTitle": "Head-to-Head Harmonization of Tau Tracers in Alzheimer's Disease",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2021-11-23",
-    "completionDate": "2027-05-31",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "18F-Flortaucipir radiopharmaceutical",
-      "18F-MK-6240 radiopharmaceutical",
-      "Amyloid-\u03b2 radiopharmaceutical (11C-PiB or 18F-Florbetaben or 18F-NAV-4694 or 18F-Florbetapir)"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04770220",
-    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study of the Efficacy, Safety and Biomarker Effects of ALZ-801 in Subjects With Early Alzheimer's Disease and APOE4/4 Genotype",
-    "briefTitle": "An Efficacy and Safety Study of ALZ-801 in APOE4/4 Early AD Subjects",
-    "status": "COMPLETED",
-    "startDate": "2021-05-19",
-    "completionDate": "2024-07-29",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "Experimental: ALZ-801",
-      "Placebo Comparator: Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Early Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02336360",
-    "title": "A Multicenter Study to Obtain Data to Assist in Radiation Dosimetry Calculations From Subjects Enrolled in Human Studies Employing 18F-AV-1451",
-    "briefTitle": "Augmenting Flortaucipir Dosimetry Estimates",
-    "status": "COMPLETED",
-    "startDate": "2015-01",
-    "completionDate": "2015-06",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Flortaucipir F18"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT06223360",
-    "title": "A Seamless Phase 2A-Phase 2B Randomized Double-Blind Placebo- Controlled Trial to Evaluate the Safety and Efficacy of Benfotiamine in Patients With Early Alzheimer's Disease (BenfoTeam)",
-    "briefTitle": "A Trial to Evaluate the Safety and Efficacy of Benfotiamine in Patients With Early Alzheimer's Disease (BenfoTeam)",
-    "status": "RECRUITING",
-    "startDate": "2024-03-22",
-    "completionDate": "2027-12-01",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Low Dose Benfotiamine",
-      "High Dose Benfotiamine",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
+      "Dementia",
+      "Parkinsonism",
+      "Mild Cognitive Impairment",
+      "REM Sleep Behavior Disorder"
     ]
   },
   {
@@ -785,18 +3197,18 @@
     ]
   },
   {
-    "nctId": "NCT02127476",
-    "title": "A Phase 1 Double-blind, Placebo-controlled, Single- and Multiple-ascending-dose Study of KHK6640 in Alzheimer's Disease",
-    "briefTitle": "A Study of Single and Multiple Doses of KHK6640 in Subjects With Prodromal or Mild to Moderate Alzheimer's Disease",
+    "nctId": "NCT01607476",
+    "title": "Bridging Study of C11 PiB and F18 Flutemetamol Brain PET",
+    "briefTitle": "Bridging Study of C11 Pittsburgh Compound B (PiB) and F18 Flutemetamol Brain Positron Emission Tomography (PET)",
     "status": "COMPLETED",
-    "startDate": "2014-07",
-    "completionDate": "2017-05",
+    "startDate": "2012-07",
+    "completionDate": "2016-03",
     "phases": [
-      "PHASE1"
+      "PHASE2"
     ],
     "interventions": [
-      "KHK6640",
-      "Matching Placebo"
+      "C11 PiB",
+      "F18 Flutametamol"
     ],
     "interventionTypes": [
       "DRUG",
@@ -804,1139 +3216,6 @@
     ],
     "conditions": [
       "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00000176",
-    "title": "Alzheimer's Disease Prevention Trial. A Multi-center, Randomized, Double-blind Placebo Controlled Trial of Estrogens to Prevent Alzheimer's Disease and Loss of Memory in Women.",
-    "briefTitle": "Alzheimer's Disease Prevention Trial",
-    "status": "COMPLETED",
-    "startDate": "",
-    "completionDate": "2007-09",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "Estrogen",
-      "Estrogen and Progesterone"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Memory Disorders"
-    ]
-  },
-  {
-    "nctId": "NCT05469360",
-    "title": "A Randomized, Participant and Investigator Blinded, Placebo-Controlled Study to Evaluate the Ability of a Single Intrathecally Administered Dose of NIO752 to Lower Cerebrospinal Fluid Total Tau Levels in Participants With Early Alzheimer's Disease",
-    "briefTitle": "Study of Safety, Tolerability, Pharmacodynamics and Pharmacokinetics of NIO752 in Early Alzheimer's Disease Participants",
-    "status": "RECRUITING",
-    "startDate": "2023-02-23",
-    "completionDate": "2027-11-07",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "NIO752",
-      "NIO752",
-      "Matching placebo",
-      "NIO752",
-      "NIO752",
-      "NIO752",
-      "Matching placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Mild Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT04149860",
-    "title": "Interventional, Randomized, Double-blind, Placebo-controlled, Single-ascending-dose Study Investigating the Safety, Tolerability, and Pharmacokinetic Properties of Lu AF87908 in Healthy Subjects and Patients With Alzheimer's Disease",
-    "briefTitle": "Study With Lu AF87908 in Healthy Participants and Participants With Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2019-09-27",
-    "completionDate": "2023-07-19",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Lu AF87908",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy",
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01265394",
-    "title": "A Single-arm, Open-label, Multi-center Study to Determine the Specificity of Flutemetamol (18F) Injection for Excluding the Presence of Brain Amyloid in Healthy Young Adult Subjects Aged 18 to 40",
-    "briefTitle": "Positron Emission Tomography (PET) Amyloid Imaging of the Brain in Healthy Young Adult Subjects",
-    "status": "COMPLETED",
-    "startDate": "2010-12",
-    "completionDate": "2011-04",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "[18F] Flutemetamol"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT01741194",
-    "title": "A 26-Week, Double-blind, Randomized, Placebo-controlled, Parallel-group Study to Investigate the Effects of Daily Administration of AC-1204 in Participants With Mild to Moderate Alzheimer's Disease (AD) With an Optional 26-Week Open Label Extension",
-    "briefTitle": "AC-1204 26-Week Long Term Efficacy Response Trial With Optional Open-label Ext",
-    "status": "COMPLETED",
-    "startDate": "2013-03",
-    "completionDate": "2017-04-14",
-    "phases": [
-      "PHASE2",
-      "PHASE3"
-    ],
-    "interventions": [
-      "AC-1204",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT03451591",
-    "title": "LACunar Intervention (LACI-2) Trial-2: Assessment of Safety and Efficacy of Cilostazol and Isosorbide Mononitrate to Prevent Recurrent Lacunar Stroke and Progression of Cerebral Small Vessel Disease.",
-    "briefTitle": "LACunar Intervention (LACI-2) Trial-2",
-    "status": "COMPLETED",
-    "startDate": "2018-01-08",
-    "completionDate": "2022-08-11",
-    "phases": [
-      "PHASE2",
-      "PHASE3"
-    ],
-    "interventions": [
-      "Isosorbide Mononitrate XL (ISMN)",
-      "Cilostazol",
-      "ISMN XL and Cilostazol"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Cerebral Small Vessel Diseases",
-      "Stroke, Lacunar"
-    ]
-  },
-  {
-    "nctId": "NCT05657691",
-    "title": "XanaCIDD: A Double-Blind, Randomized, Placebo Controlled, Parallel-Group Trial to Assess the Safety, Tolerability, and Efficacy of Xanamem\u00ae in Adults With Major Depressive Disorder and Impaired Cognition",
-    "briefTitle": "Xanamem\u00ae in Adults With Major Depressive Disorder and Impaired Cognition (XanaCIDD)",
-    "status": "COMPLETED",
-    "startDate": "2022-11-28",
-    "completionDate": "2024-07-01",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Xanamem\u2122",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Major Depressive Disorder",
-      "MDD",
-      "Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT00803894",
-    "title": "A Randomized Clinical Trial to Study the Effects of MK0752 Versus Placebo on Biomarkers in Healthy Young Adult Male Subjects",
-    "briefTitle": "A Clinical Study to Determine Biomarkers of Response to a Gamma Secretase Inhibitor",
-    "status": "COMPLETED",
-    "startDate": "2008-12",
-    "completionDate": "2009-01",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "MK0752",
-      "Comparator: MK0752.",
-      "Comparator: Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT00906191",
-    "title": "An Open-Label, Single-Dose, Nonrandomized Study Of The Mass Balance And Metabolic Disposition Of Orally Administered 14C-Labeled SAM-531 In Healthy Male Subjects",
-    "briefTitle": "Study Evaluating How Quickly And To What Extent The 14-Carbon-SAM-531 Is Absorbed/Converted/Eliminated In Male Subjects",
-    "status": "COMPLETED",
-    "startDate": "2009-05",
-    "completionDate": "2009-08",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "SAM-531"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00420420",
-    "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Trial to Evaluate the Safety and Efficacy of MK0249 for the Symptomatic Treatment of Alzheimer's Disease",
-    "briefTitle": "MK0249 for the Symptomatic Treatment of Alzheimer's Disease (MK0249-011)",
-    "status": "COMPLETED",
-    "startDate": "2006-11",
-    "completionDate": "2008-08",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "MK0249",
-      "Comparator: Placebo (unspecified)"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00203320",
-    "title": "Etanercept for Alzheimer's-Type Memory Loss Pilot Study II",
-    "briefTitle": "TNF-Alpha Inhibition for Treatment of Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2005-04",
-    "completionDate": "2006-01",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "etanercept given by perispinal administration"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00750282",
-    "title": "An Open-label, Non-randomized, Multi-center Study to Optimize Image Assessment and Evaluate the Efficacy and Safety of BAY 94-9172 (ZK 6013443) Positron Emission Tomography (PET) for Detection/Exclusion of Cerebral Amyloid Beta in Patients With Probable Alzheimer's Disease Compared to Healthy Volunteers",
-    "briefTitle": "Phase II Study of Florbetaben (BAY 94-9172) PET Imaging for Detection/Exclusion of Cerebral \u03b2-amyloid in Patients With Probable Alzheimer's Disease Compared to Healthy Volunteers",
-    "status": "COMPLETED",
-    "startDate": "2008-08",
-    "completionDate": "2010-11",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Florbetaben (BAY94-9172)"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Amyloid Beta-Protein"
-    ]
-  },
-  {
-    "nctId": "NCT00495820",
-    "title": "Methylphenidate for Apathy in Alzheimer's Dementia: A Controlled Study",
-    "briefTitle": "Methylphenidate for Apathy in Alzheimer's Dementia: A Controlled Study",
-    "status": "COMPLETED",
-    "startDate": "2007-08",
-    "completionDate": "2010-06",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "Methylphenidate"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease",
-      "Apathy",
-      "Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT02351882",
-    "title": "Safety and Efficacy of Nabilone in Alzheimer's Disease: a Pilot Study",
-    "briefTitle": "Safety and Efficacy of Nabilone in Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2015-01",
-    "completionDate": "2019-03",
-    "phases": [
-      "PHASE2",
-      "PHASE3"
-    ],
-    "interventions": [
-      "Nabilone",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Agitation",
-      "Weight Loss",
-      "Pain",
-      "Oxidative Stress"
-    ]
-  },
-  {
-    "nctId": "NCT00100282",
-    "title": "Single Dose Escalation Safety Study of PPI-1019 in Patients With Mild-Moderate Alzheimer's Disease",
-    "briefTitle": "Safety Study of PPI-1019 in Patients With Mild-Moderate Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2003-05",
-    "completionDate": "2005-06",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "PPI-1019 (APAN)"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02646982",
-    "title": "Candesartan's Effects on Alzheimer's Disease And Related Biomarkers",
-    "briefTitle": "Candesartan's Effects on Alzheimer's Disease And Related Biomarkers",
-    "status": "COMPLETED",
-    "startDate": "2016-06-30",
-    "completionDate": "2020-08-17",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Placebo",
-      "Candesartan"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Mild Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT00018382",
-    "title": "Insulin, Neurogenetics and Memory in Alzheimer's Disease: A Novel Therapeutic Approach",
-    "briefTitle": "Insulin, Neurogenetics and Memory in Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "1999-10",
-    "completionDate": "2003-03",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "rosiglitazone"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00403520",
-    "title": "Assessment of the Comparative Effect of Donepezil 10mg/d and Placebo on Clinical and Radiological Markers in Patients With Mild Cognitive Disorders",
-    "briefTitle": "Hippocampus Study: Comparative Effect of Donepezil 10mg/d and Placebo on Clinical and Radiological Markers",
-    "status": "COMPLETED",
-    "startDate": "2006-11",
-    "completionDate": "2010-08",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "Experimental 1",
-      "Placebo Comparator"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04118920",
-    "title": "Safety of Topical Insulin Eye Drops for the Treatment of Open-angle Glaucoma",
-    "briefTitle": "Safety of Topical Insulin Drops for Open-angle Glaucoma",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2023-03-27",
-    "completionDate": "2024-12",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Topical insulin (4 units)",
-      "Topical insulin (20 units)",
-      "Artificial tears"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Glaucoma"
-    ]
-  },
-  {
-    "nctId": "NCT02187627",
-    "title": "Evaluation of [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948 as Tracers for Tau Imaging With Positron Emission Tomography in Healthy Control Subjects and Subjects With Alzheimer's Disease",
-    "briefTitle": "Evaluation of [11C]RO6924963, [11C]RO6931643, and [18F]RO6958948 as Tracers for Positron Emission Tomography (PET) Imaging of Tau in Healthy and Alzheimer's Disease (AD) Participants",
-    "status": "COMPLETED",
-    "startDate": "2014-08-31",
-    "completionDate": "2016-02-29",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "[11C]RO6924963",
-      "[11C]RO6931643",
-      "[18F]RO6958948"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease, Healthy Volunteer"
-    ]
-  },
-  {
-    "nctId": "NCT01661673",
-    "title": "Safety, Tolerability, Pharmacokinetics, and Effects of EVP-0962 on Cerebral Spinal Fluid Amyloid Concentrations in Healthy Subjects and in Subjects With Mild Cognitive Impairment or Early Alzheimer's Disease",
-    "briefTitle": "Safety, Tolerability, Pharmacokinetics of EVP-0962 and Effects of EVP-0962 on Cerebral Spinal Fluid Amyloid Concentrations in Healthy Subjects and in Subjects With Mild Cognitive Impairment or Early Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2012-11",
-    "completionDate": "",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "EVP-0962",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Mild Cognitive Impairment",
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01254773",
-    "title": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel Group, Multi-Center, Biomarker, Safety, and Pharmacokinetic Study of Bapineuzumab (AAB-001) Administered Subcutaneously at Monthly Intervals in Subjects With Mild to Moderate Alzheimer's Disease",
-    "briefTitle": "Amyloid Imaging And Safety Study Of Subcutaneous Bapineuzumab In Subjects With Mild to Moderate Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2010-12",
-    "completionDate": "2013-03",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Experimental Bapineuzumab"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00407576",
-    "title": "PET Imaging of Brain Amyloid Using [11C]MeS-IMPY",
-    "briefTitle": "PET Imaging of Brain Amyloid Using [11C]MeS-IMPY",
-    "status": "COMPLETED",
-    "startDate": "2006-12-01",
-    "completionDate": "",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "[11C]MeS-IMPY"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease",
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT00024531",
-    "title": "Effect of the HMG-CoA Reductase Inhibitor Atorvastatin Calcium, Lipitor, in the Treatment of Alzheimer's Disease",
-    "briefTitle": "Lipitor as a Treatment for Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2000-10",
-    "completionDate": "2004-08",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Atorvastatin calcium"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01539031",
-    "title": "Randomized, Multicenter, Double-blind, Double-dummy, Parallel-Group Study With an Open-label Extension Phase to Compare the Efficacy and Safety of Donepezil Hydrochloride 23 mg Treatment With Continuation of Donepezil Hydrochloride 10 mg Treatment in Japanese Subjects With Severe Alzheimer's Disease",
-    "briefTitle": "Compare the Efficacy and Safety of Donepezil Hydrochloride 23 mg Treatment With Continuation of Donepezil Hydrochloride 10 mg Treatment in Japanese Subjects With Severe Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2012-03",
-    "completionDate": "2015-03",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "E2020",
-      "E2020"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Type Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT05077631",
-    "title": "A Phase I, Double-Blind, Placebo-controlled, Randomized Study to Evaluate the Effects of Single Ascending Oral Doses of ACD856 on Safety, Tolerability and Pharmacokinetics in Healthy Adults",
-    "briefTitle": "Study to Evaluate the Effects of Single Ascending Oral Doses of ACD856 on Safety, Tolerability and Pharmacokinetics",
-    "status": "COMPLETED",
-    "startDate": "2021-02-15",
-    "completionDate": "2022-02-22",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "ACD856",
-      "Placebo",
-      "ACD856 (fed cohort)"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Cognition Disorder"
-    ]
-  },
-  {
-    "nctId": "NCT00261573",
-    "title": "The Safety and Efficacy of Galantamine in the Treatment of Vascular and Mixed Dementia",
-    "briefTitle": "A Study of the Safety and Effectiveness of Galantamine Versus Placebo in the Treatment of Patients With Vascular Dementia or Mixed Dementia",
-    "status": "COMPLETED",
-    "startDate": "1998-12",
-    "completionDate": "2000-12",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "galantamine hydrobromide"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Vascular Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT00112073",
-    "title": "A Phase IIA, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Multiple Ascending Dose, Safety, Tolerability, Pharmacokinetic, Pharmacodynamic, and Immunogenicity Trial of AAB-001 in Patients With Mild to Moderate AD",
-    "briefTitle": "AAB-001 in Patients With Mild to Moderate Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2005-04",
-    "completionDate": "2008-12",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "bapineuzumab"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04747431",
-    "title": "A Phase 1b Open-Label, Multicenter, Dose-Escalation Study to Assess the Safety, Tolerability, and Pharmacodynamic Effects of a Single Dose of PBFT02 Delivered Into the ICM of Adults With FTD and Mutations in the GRN or C9ORF72 Genes",
-    "briefTitle": "A Study of PBFT02 in Participants With FTD and Mutations in the Granulin Precursor (GRN) or C9ORF72 Genes",
-    "status": "RECRUITING",
-    "startDate": "2021-09-14",
-    "completionDate": "2031-08",
-    "phases": [
-      "PHASE1",
-      "PHASE2"
-    ],
-    "interventions": [
-      "PBFT02"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Frontotemporal Dementia",
-      "FTD",
-      "FTD-GRN",
-      "Dementia Frontotemporal",
-      "C9orf72"
-    ]
-  },
-  {
-    "nctId": "NCT04044131",
-    "title": "A Phase 2, Randomized, Placebo Controlled Study to Evaluate the Efficacy, Tolerability and Safety of Metabolic Cofactor Supplementation in Alzheimer's Disease (AD) And Parkinson's Disease (PD) Patients",
-    "briefTitle": "Metabolic Cofactor Supplementation in Alzheimer's Disease (AD) and Parkinson's Disease (PD) Patients",
-    "status": "COMPLETED",
-    "startDate": "2019-12-02",
-    "completionDate": "2021-04-20",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Metabolic Cofactor Supplementation",
-      "Sorbitol"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Parkinson Disease"
-    ]
-  },
-  {
-    "nctId": "NCT06297590",
-    "title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3954068 in Patients With Early Symptomatic Alzheimer's Disease",
-    "briefTitle": "A First-In-Human Study of LY3954068 in Participants With Early Symptomatic Alzheimer's Disease",
-    "status": "RECRUITING",
-    "startDate": "2024-08-15",
-    "completionDate": "2027-02",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "LY3954068",
-      "Placebo",
-      "Flortaucipir F18"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT05456503",
-    "title": "Imaging Tau Accumulation in FTLD and Atypical Alzheimer's Disease Using the PET Ligand PI-2620",
-    "briefTitle": "PET Imaging Tau Accumulation in FTLD and Atypical Alzheimer's Using PI-2620",
-    "status": "RECRUITING",
-    "startDate": "2022-09-19",
-    "completionDate": "2028-08",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "FPI-2620"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Frontotemporal Lobar Degeneration",
-      "Alzheimer Disease",
-      "Cognitively Normal"
-    ]
-  },
-  {
-    "nctId": "NCT02239003",
-    "title": "",
-    "briefTitle": "NMDA-enhancing Agent for the Treatment of Mild Cognitive Impairment",
-    "status": "COMPLETED",
-    "startDate": "2012-01",
-    "completionDate": "2017-12",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "DAOIB",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Mild Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT03402503",
-    "title": "A Randomized Phase IIa, Multi-center, Double-blind, Placebo-controlled Study to Assess the Safety, Feasibility, Tolerability, and Efficacy of a New Buccal Film of Montelukast in Patients With Mild to Moderate Alzheimer's Disease",
-    "briefTitle": "Safety, and Efficacy of a New Buccal Film of Montelukast in Patients With Mild to Moderate Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2018-11-26",
-    "completionDate": "2024-04-03",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Montelukast buccal film"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00205179",
-    "title": "Alzheimer's Disease: Potential Benefit of Isoflavones",
-    "briefTitle": "Alzheimer's Disease: Potential Benefit of Isoflavones",
-    "status": "COMPLETED",
-    "startDate": "2005-01",
-    "completionDate": "2009-12",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Novasoy",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00385684",
-    "title": "Low-Dose Opiate Therapy for Discomfort in Dementia (L-DOT)",
-    "briefTitle": "Low-Dose Opiate Therapy for Discomfort in Dementia (L-DOT)",
-    "status": "COMPLETED",
-    "startDate": "2007-10",
-    "completionDate": "2014-06",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "hydrocodone/APAP w placebo PRN",
-      "hydrocodone/APAP",
-      "placebo with hydrocodone/APAP PRN"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Dementia",
-      "Dementia, Vascular",
-      "Pain"
-    ]
-  },
-  {
-    "nctId": "NCT01174290",
-    "title": "Preventing ICU Subsyndromal Delirium Conversion to Delirium With Low Dose IV Haloperidol: A Double-Blind, Placebo-Controlled Pilot Study",
-    "briefTitle": "Preventing ICU Subsyndromal Delirium Conversion to Delirium With Haloperidol",
-    "status": "COMPLETED",
-    "startDate": "2010-09",
-    "completionDate": "2014-03",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "Haloperidol decanoate",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Subsyndromal Delirium"
-    ]
-  },
-  {
-    "nctId": "NCT02051790",
-    "title": "Evaluation of Reader Training Processes by Comparing Clinical Interpretations to Centralized Expert Reads",
-    "briefTitle": "Evaluation of Reader Training Processes",
-    "status": "COMPLETED",
-    "startDate": "2014-03",
-    "completionDate": "2014-08",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "florbetapir F 18"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04476303",
-    "title": "A Randomized, Double-blind, Placebo-controlled, Single and Multiple Ascending Dose Phase I Clinical Trial to Evaluate the Safety, Tolerability and Pharmacokinetics of BEY2153 After Oral Administration in Healthy Young and Elderly Male Volunteers.",
-    "briefTitle": "A Study to Evaluate the Pharmacokinetics and Safety of BEY2153 in Healthy Participants",
-    "status": "COMPLETED",
-    "startDate": "2020-08-27",
-    "completionDate": "2021-11-23",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "BEY2153"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00010803",
-    "title": "Ginkgo Biloba Prevention Trial in Older Individuals",
-    "briefTitle": "Ginkgo Biloba Prevention Trial in Older Individuals",
-    "status": "COMPLETED",
-    "startDate": "2000-10",
-    "completionDate": "2011-07",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "Ginkgo biloba",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Dementia",
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT03367403",
-    "title": "Assessment of Safety, Tolerability and Efficacy of LY3002813 in Early Symptomatic Alzheimer's Disease",
-    "briefTitle": "A Study of LY3002813 in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ)",
-    "status": "COMPLETED",
-    "startDate": "2017-12-18",
-    "completionDate": "2021-09-21",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Donanemab",
-      "Placebo",
-      "LY3202626"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04902703",
-    "title": "Phase II Trial to Evaluate Safety and Efficacy of GM-CSF/Sargramostim in Alzheimer's Disease (SESAD)",
-    "briefTitle": "Phase II Trial to Evaluate Safety and Efficacy of GM-CSF/Sargramostim in Alzheimer's Disease",
-    "status": "RECRUITING",
-    "startDate": "2022-06-01",
-    "completionDate": "2026-10-31",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Sargramostim",
-      "Saline - placebo comparator"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT06185543",
-    "title": "A Phase 2, Randomized, Prospective Double-Blind, Single-Center, Placebo-controlled Study to Evaluate Safety, Tolerability, Target Engagement, and Efficacy of PrimeC in Patients With Mild to Moderate Alzheimer's Disease (AD)",
-    "briefTitle": "A Phase 2, Randomized, Prospective Double-Blind, Single-Center, Placebo-controlled Study to Evaluate Safety, Tolerability, Target Engagement, and Efficacy of PrimeC in Patients With Mild to Moderate Alzheimer's Disease.",
-    "status": "RECRUITING",
-    "startDate": "2023-11-19",
-    "completionDate": "2025-11",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "PrimeC",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02167594",
-    "title": "18F-AV-1451 Injection for Brain Imaging of Tau in Subjects With Progressive Supranuclear Palsy (PSP), Subjects With Corticobasal Degeneration (CBD) and Healthy Volunteers",
-    "briefTitle": "Tau Imaging in Subjects With Progressive Supranuclear Palsy, Corticobasal Degeneration and Healthy Volunteers",
-    "status": "COMPLETED",
-    "startDate": "2014-08-12",
-    "completionDate": "2016-07-11",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Flortaucipir F18"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Progressive Supranuclear Palsy",
-      "Corticobasal Degeneration"
-    ]
-  },
-  {
-    "nctId": "NCT02103894",
-    "title": "Evaluation of [18F]MNI-777 PET as a Marker of Tau Pathology in Subjects With Clinically Diagnosed Tauopathies in Comparison to Healthy Subjects",
-    "briefTitle": "Evaluation of [18F]MNI-777 PET as a Marker of Tau Pathology in Subjects With Tauopathies Compared to Healthy Subjects",
-    "status": "COMPLETED",
-    "startDate": "2014-02",
-    "completionDate": "2016-09",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "[18F]T807 ([18F]MNI-777)"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease (AD)",
-      "Parkinson's Disease (PD)",
-      "Chronic Traumatic Encephalopathy (CTE)",
-      "Progressive Supranuclear Palsy (PSP)",
-      "Frontal Temporal Dementia (FTD)",
-      "Pick's Disease",
-      "Tauopathies"
-    ]
-  },
-  {
-    "nctId": "NCT05269394",
-    "title": "A Phase II/III Multicenter Randomized, Double-Blind, Placebo-Controlled Platform Trial of Potential Disease Modifying Therapies Utilizing Biomarker, Cognitive, and Clinical Endpoints in Dominantly Inherited Alzheimer's Disease",
-    "briefTitle": "Dominantly Inherited Alzheimer Network Trial: An Opportunity to Prevent Dementia. A Study of Potential Disease Modifying Treatments in Individuals With a Type of Early Onset Alzheimer's Disease Caused by a Genetic Mutation (DIAN-TU)",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2021-12-22",
-    "completionDate": "2028-07",
-    "phases": [
-      "PHASE2",
-      "PHASE3"
-    ],
-    "interventions": [
-      "E2814",
-      "Lecanemab",
-      "Matching Placebo (E2814)"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimers Disease",
-      "Dementia",
-      "Alzheimers Disease, Familial"
-    ]
-  },
-  {
-    "nctId": "NCT01202994",
-    "title": "Practice Effects and Amyloid Imaging Using 18F-PIB (18F-39-F-6-OH-BTA1) Known as [18FGE067]) or Flutemetamol PET and FDG-PET",
-    "briefTitle": "Practice Effects and Amyloid Imaging Using 18F-PIB or Flutemetamol PET and FDG-PET",
-    "status": "COMPLETED",
-    "startDate": "2011-05",
-    "completionDate": "2020-10-14",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "18F-Flutemetamol"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01039194",
-    "title": "A Study of the Effect of Concomitant Administration of Multiple Doses of BMS-708163 on the Pharmacokinetics of Galantamine in Healthy Subjects",
-    "briefTitle": "Drug-Drug Interaction to Study the Effect of BMS-708163 on Pharmacokinetics (PK) of Galantamine Extended Release (ER)",
-    "status": "COMPLETED",
-    "startDate": "2010-01",
-    "completionDate": "2010-04",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "galantamine",
-      "galantamine",
-      "BMS-708163"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00719394",
-    "title": "Ascending Single-Dose Study of the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of GSI-136 Administered Orally to Healthy Japanese Male Subjects and Healthy Japanese Elderly Male Subjects",
-    "briefTitle": "Study Evaluating Safety of GSI 136 in Young and Elderly Japanese Males",
-    "status": "COMPLETED",
-    "startDate": "2008-03",
-    "completionDate": "2008-08",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "GSI 136",
-      "placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease",
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT02886494",
-    "title": "A Randomized, Double-Blind, Vehicle-Controlled, Parallel, Phase II Study to Evaluate Efficacy and Safety of BAC in Patient With Alzheimer's Disease or Vascular Dementia",
-    "briefTitle": "A Study to Evaluate Efficacy and Safety of BAC in Patient With Alzheimer's Disease or Vascular Dementia",
-    "status": "COMPLETED",
-    "startDate": "2016-12",
-    "completionDate": "2018-11-01",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "BAC treatment",
-      "Matched vehicle"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease or Vascular Dementia"
     ]
   },
   {
@@ -1971,242 +3250,48 @@
     ]
   },
   {
-    "nctId": "NCT03789760",
-    "title": "A Phase III, Randomised, Double-blind, Placebo-controlled, Parallel, and Multi-centre Study to Evaluate the Clinical Efficacy and Safety of SaiLuoTong (SLT) in the Treatment of Vascular Dementia",
-    "briefTitle": "The Clinical Trial of Chinese Herbal Medicine (SaiLuoTong) Capsule",
+    "nctId": "NCT04770220",
+    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study of the Efficacy, Safety and Biomarker Effects of ALZ-801 in Subjects With Early Alzheimer's Disease and APOE4/4 Genotype",
+    "briefTitle": "An Efficacy and Safety Study of ALZ-801 in APOE4/4 Early AD Subjects",
     "status": "COMPLETED",
-    "startDate": "2019-04-10",
-    "completionDate": "2024-05-19",
+    "startDate": "2021-05-19",
+    "completionDate": "2024-07-29",
     "phases": [
       "PHASE3"
     ],
     "interventions": [
-      "SaiLuoTong capsule",
-      "placebo"
+      "Experimental: ALZ-801",
+      "Placebo Comparator: Placebo"
     ],
     "interventionTypes": [
       "DRUG",
       "DRUG"
     ],
     "conditions": [
-      "Vascular Dementia"
+      "Early Alzheimer's Disease"
     ]
   },
   {
-    "nctId": "NCT00745576",
-    "title": "An Open-label, Nonrandomized Study to Evaluate the Potential Pharmacokinetic Interaction Between Multiple Doses of Verapamil Immediate Release (IR) and a Single Dose of SAM-531 When Co-administered Orally to Healthy Young Adult Subjects",
-    "briefTitle": "Study Evaluating The Potential Interaction Between Verapamil Immediate Release And SAM-531 When Co-Administered",
+    "nctId": "NCT04044131",
+    "title": "A Phase 2, Randomized, Placebo Controlled Study to Evaluate the Efficacy, Tolerability and Safety of Metabolic Cofactor Supplementation in Alzheimer's Disease (AD) And Parkinson's Disease (PD) Patients",
+    "briefTitle": "Metabolic Cofactor Supplementation in Alzheimer's Disease (AD) and Parkinson's Disease (PD) Patients",
     "status": "COMPLETED",
-    "startDate": "2008-10",
-    "completionDate": "2008-12",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "SAM-531"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01054976",
-    "title": "The Efficacy of Galantamine Treatment on Attention in Patients With Alzheimer's Disease",
-    "briefTitle": "The Efficacy of Galantamine Treatment on Attention in Patients With Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2006-10",
-    "completionDate": "2009-02",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "Galantamine"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT03944460",
-    "title": "A Randomized, Double-blind and Placebo-controlled Single Ascending-dose Phase I Study (First-in-human) to Investigate the Safety, Tolerability and Pharmacokinetics of Contraloid Acetate (in Healthy Subjects).",
-    "briefTitle": "SAD Phase I Study (First-in-human) to Investigate Contraloid Acetate",
-    "status": "COMPLETED",
-    "startDate": "2018-04-09",
-    "completionDate": "2018-07-27",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Contraloid"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Dementia",
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT03277573",
-    "title": "A Phase 1b, 12-Month, Randomized, Double-Blind, Placebo-Controlled Study of the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of Salsalate in Patients With Mild to Moderate Alzheimer's Disease",
-    "briefTitle": "Salsalate in Patients Mild to Moderate Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2017-07-21",
-    "completionDate": "2023-04-10",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Salsalate",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT05647473",
-    "title": "Efficacy, Safety and Response Predictors of Adjuvant Astragalus for Cognition in Alzheimer Disease With Orthostatic Hypotension: an add-on, Assessor-blind, Pragmatic Randomized Controlled Trial",
-    "briefTitle": "Efficacy, Safety and Response Predictors of Adjuvant Astragalus for Cognition in Orthostatic Hypotension",
-    "status": "RECRUITING",
-    "startDate": "2024-02-20",
-    "completionDate": "2025-05-30",
+    "startDate": "2019-12-02",
+    "completionDate": "2021-04-20",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "add-on low dose Astragalus",
-      "add-on high dose Astragalus"
+      "Metabolic Cofactor Supplementation",
+      "Sorbitol"
     ],
     "interventionTypes": [
       "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Orthostatic Hypotension",
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02103673",
-    "title": "",
-    "briefTitle": "DAOIB for the Treatment of Cognitive Function and Behavioral and Psychological Symptoms of Dementia",
-    "status": "COMPLETED",
-    "startDate": "2014-02",
-    "completionDate": "2017-11",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "DAOIB",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Behavioral and Psychological Symptoms in Alzheimer's Disease",
-      "Behavioral and Psychological Symptoms in Vascular Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT01453127",
-    "title": "DaTSCAN Imaging in Aging and Neurodegenerative Disease",
-    "briefTitle": "DaTSCAN Imaging in Aging and Neurodegenerative Disease",
-    "status": "ENROLLING_BY_INVITATION",
-    "startDate": "2011-10",
-    "completionDate": "2025-12",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "I-123 Ioflupane solution injection prior to SPECT scan (DaTscan)"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Dementia",
-      "Parkinsonism",
-      "Mild Cognitive Impairment",
-      "REM Sleep Behavior Disorder"
-    ]
-  },
-  {
-    "nctId": "NCT03503331",
-    "title": "UAB Alzheimer's Disease Center Core Cohort - Imaging Substudy",
-    "briefTitle": "UAB Alzheimer's Disease Center Core Cohort - Imaging Substudy",
-    "status": "RECRUITING",
-    "startDate": "2018-04-20",
-    "completionDate": "2026-04-01",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "[C-11]PiB-PET/MRI"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00257673",
-    "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate Safety and Efficacy of MEM 1003 in Patients With Mild to Moderate Alzheimer's Disease",
-    "briefTitle": "Safety and Efficacy of MEM 1003 Versus Placebo in Patients With Mild to Moderate Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2005-11",
-    "completionDate": "2007-10",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "MEM 1003",
-      "MEM 1003",
-      "Placebo for MEM 1003"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00253227",
-    "title": "Galantamine in the Treatment of Alzheimer's Disease: Flexible Dose Range Trial",
-    "briefTitle": "A Study of the Safety and Effectiveness of a Flexible Dose of Galantamine Versus Placebo in the Treatment of Patients With Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "1997-07",
-    "completionDate": "1998-12",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "galantamine hydrobromide"
-    ],
-    "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
       "Alzheimer Disease",
-      "Dementia"
+      "Parkinson Disease"
     ]
   },
   {
@@ -2231,130 +3316,92 @@
     ]
   },
   {
-    "nctId": "NCT02094729",
-    "title": "A Randomized, Double-blind, Placebo-controlled Study to Assess Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Pharmacodynamic Response of Repeated Intravenous Infusions of BAN2401 in Subjects With Mild Cognitive Impairment Due to Alzheimer's Disease and Mild Alzheimer's Disease",
-    "briefTitle": "A Randomized, Double-blind, Placebo-controlled Study to Assess Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Pharmacodynamic Response of Repeated Intravenous Infusions of BAN2401 in Subjects With Mild Cognitive Impairment Due to Alzheimer's Disease and Mild Alzheimer's Disease",
+    "nctId": "NCT02380573",
+    "title": "Cognitive and Functional Connectivity Effects of Methylene Blue in Healthy Aging, Mild Cognitive Impairment and Alzheimer's Disease",
+    "briefTitle": "Effects of Methylene Blue in Healthy Aging, Mild Cognitive Impairment and Alzheimer's Disease",
     "status": "COMPLETED",
-    "startDate": "2013-09",
-    "completionDate": "2015-05",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "BAN2401 2.5 mg/kg",
-      "BAN2401 5 mg/kg",
-      "BAN2401 10 mg/kg",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00304629",
-    "title": "Long Term Safety and Efficacy of Galantamine in Alzheimer's Disease (Extension INT-8)",
-    "briefTitle": "Long-term Safety and Efficacy of Galantamine in Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2000-03",
-    "completionDate": "2002-03",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "galantamine"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00940589",
-    "title": "A Double-blind, Parallel Group, Randomized, Placebo Controlled Study of the Efficacy of Circadin\u00ae 2mg in Patients With Mild to Moderate Alzheimer Disease (AD) Treated With Acetylcholinesterase (AChE) Inhibitor",
-    "briefTitle": "Efficacy of Circadin\u00ae 2 mg in Patients With Mild to Moderate Alzheimer Disease Treated With AChE Inhibitor",
-    "status": "COMPLETED",
-    "startDate": "2009-09",
-    "completionDate": "2013-05",
+    "startDate": "2015-07",
+    "completionDate": "2023-07",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Circadin",
-      "Placebo"
+      "Methylene Blue",
+      "FD&C Blue # 2",
+      "Phenazopyridine hydrochloride"
     ],
     "interventionTypes": [
+      "DRUG",
       "DRUG",
       "DRUG"
     ],
     "conditions": [
+      "Mild Cognitive Impairment",
+      "MCI",
+      "Aging",
       "Alzheimer's Disease",
-      "Sleep Disorder"
+      "AD"
     ]
   },
   {
-    "nctId": "NCT03186989",
-    "title": "A Randomized, Double-Blind, Placebo-Controlled Study, Followed by an Open-Label Extension, to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Ascending Doses of Intrathecally Administered ISIS 814907 in Patients With Mild Alzheimer's Disease",
-    "briefTitle": "Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of IONIS-MAPTRx in Patients With Mild Alzheimer's Disease",
+    "nctId": "NCT00104273",
+    "title": "A 1-Year, Double-Blind, Randomized, Placebo-Controlled, Study of Rasagiline 1 mg and 2 mg Added to Aricept 10 mg Daily in Patients With Mild to Moderate Dementia of the Alzheimer's Type",
+    "briefTitle": "Rasagiline 1 mg and 2 mg Added to Aricept 10 mg Daily in Patients With Mild to Moderate Alzheimer's Disease (AD)",
     "status": "COMPLETED",
-    "startDate": "2017-10-12",
-    "completionDate": "2022-05-12",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "IONIS MAPTRx"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Mild Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00750529",
-    "title": "Effects of Galantamine and Don\u00e9p\u00e9zil on the Amount and the Quality oh the Sleep in Patients Suffering From Alzheimer Disease.",
-    "briefTitle": "Alzheimer and Sleep",
-    "status": "COMPLETED",
-    "startDate": "2008-11",
-    "completionDate": "2013-09",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Galantamine and Donepezil"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00007189",
-    "title": "Alzheimer's Disease Anti-Inflammatory Prevention Trial (ADAPT)",
-    "briefTitle": "Alzheimer's Disease Anti-Inflammatory Prevention Trial (ADAPT)",
-    "status": "COMPLETED",
-    "startDate": "2001-01",
+    "startDate": "2004-08",
     "completionDate": "",
     "phases": [
-      "PHASE3"
+      "PHASE2"
     ],
     "interventions": [
-      "Naproxen Sodium (Aleve)",
-      "Celecoxib (Celebrex)"
+      "Rasagiline"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia",
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02064920",
+    "title": "A Clinical Trial to Assess Cognitive Function by Repeated Computerized Testing in Patients With Mild Alzheimer's Disease Treated With Donepezil",
+    "briefTitle": "Computerized Cognition Testing in Participants With Mild Alzheimer's Disease (AD) Treated With Donepezil (MK-0000-318)",
+    "status": "COMPLETED",
+    "startDate": "2014-04-22",
+    "completionDate": "2016-07-13",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Placebo",
+      "Donepezil",
+      "Donepezil"
     ],
     "interventionTypes": [
       "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00018382",
+    "title": "Insulin, Neurogenetics and Memory in Alzheimer's Disease: A Novel Therapeutic Approach",
+    "briefTitle": "Insulin, Neurogenetics and Memory in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "1999-10",
+    "completionDate": "2003-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "rosiglitazone"
+    ],
+    "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
@@ -2362,19 +3409,41 @@
     ]
   },
   {
-    "nctId": "NCT02795780",
-    "title": "An Open Label, Multicenter Study Evaluating the Imaging Characteristics of a Follow up 18F-AV-1451 Scan in Subjects That Participated in the Confirmatory Cohort of 18F-AV-1451-A05",
-    "briefTitle": "Follow up 18F-AV-1451 Scan in Confirmatory Cohort Subjects From Study 18F-AV-1451-A05",
+    "nctId": "NCT05227820",
+    "title": "Anti-Inflammatory, Insulin-Sensitizing Agent for Treatment of Cognitive Decline Due to Degenerative Dementias",
+    "briefTitle": "Insulin-Sensitizing Anti-Inflammatory Small Molecule for Investigative Treatment of Dementia",
     "status": "COMPLETED",
-    "startDate": "2016-08",
-    "completionDate": "2017-08-28",
+    "startDate": "2022-01-19",
+    "completionDate": "2022-08-20",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Flortaucipir F18"
+      "NE3107"
     ],
     "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00403520",
+    "title": "Assessment of the Comparative Effect of Donepezil 10mg/d and Placebo on Clinical and Radiological Markers in Patients With Mild Cognitive Disorders",
+    "briefTitle": "Hippocampus Study: Comparative Effect of Donepezil 10mg/d and Placebo on Clinical and Radiological Markers",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2010-08",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Experimental 1",
+      "Placebo Comparator"
+    ],
+    "interventionTypes": [
+      "DRUG",
       "DRUG"
     ],
     "conditions": [
@@ -2382,159 +3451,35 @@
     ]
   },
   {
-    "nctId": "NCT05822362",
-    "title": "Cannabidiol for Individuals at Risk for Alzheimer's Disease: A Randomized Placebo Controlled Trial",
-    "briefTitle": "CBD for Individuals at Risk for Alzheimer's Disease",
-    "status": "RECRUITING",
-    "startDate": "2024-01-19",
-    "completionDate": "2029-04",
+    "nctId": "NCT01928420",
+    "title": "A Single Site, Randomized, Double-blind, Placebo Controlled Trial of NIC5-15 in Subjects With Alzheimer's Disease",
+    "briefTitle": "A Single Site, Randomized, Double-blind, Placebo Controlled Trial of NIC5-15 in Subjects With Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2007-04",
+    "completionDate": "2014-06",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Cannabidiol"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Mild Cognitive Impairment"
-    ]
-  },
-  {
-    "nctId": "NCT00035191",
-    "title": "A Randomized 26-Week, Double-Blind, Placebo Controlled Trial to Evaluate the Safety and Efficacy of Galantamine in the Treatment of Vascular Dementia",
-    "briefTitle": "A Placebo-controlled Trial to Evaluate the Safety and Efficacy of Galantamine in the Treatment of Vascular Dementia",
-    "status": "COMPLETED",
-    "startDate": "2001-10",
-    "completionDate": "2003-09",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "galantamine"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Dementia, Vascular"
-    ]
-  },
-  {
-    "nctId": "NCT02005991",
-    "title": "A Phase 1, Open-Label Study To Evaluate 5-HT2a Receptor Occupancy As Measured By Positron Emission Tomography (PET) With Ligand [11C]MDL100907 Following Single Oral Dose Administration Of PP-05212377 (SAM-760) In Healthy Subjects",
-    "briefTitle": "A Study To Examine The Distribution Of PF-05212377 In The Brain Of Healthy Volunteer Subjects Using Positron Emission Tomography And A Radioactive Tracer Following Oral Administration Of One Dose Of PF-05212377",
-    "status": "COMPLETED",
-    "startDate": "2013-11",
-    "completionDate": "2014-01",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "PF-05212377",
-      "PF-05212377",
-      "PF-05212377"
+      "Drug: NIC5-15",
+      "Placebo"
     ],
     "interventionTypes": [
       "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT01354691",
-    "title": "A 6-Month Prospective, Multi-Center, Double-Blind, Placebo-Controlled, Randomized, Adaptive-Trial-Design Study to Evaluate the Safety and Efficacy of 80mg b.i.d Ladostigil in Patients With Mild to Moderate Probable Alzheimer's Disease",
-    "briefTitle": "Safety and Efficacy Study of Ladostigil in Mild to Moderate Probable Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2011-02",
-    "completionDate": "2013-03",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "ladostigil hemitartrate"
-    ],
-    "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
       "Alzheimer's Disease",
-      "Dementia",
-      "Memory Loss",
-      "Cognitive Impairment"
+      "Dementia"
     ]
   },
   {
-    "nctId": "NCT01005862",
-    "title": "A Randomized, Investigator And Subject-Blind, Sponsor-Open, Placebo-Controlled Study To Examine The Effects Of PF-04360365 On ABETA In Patients With Alzheimer's Disease And Healthy Volunteers",
-    "briefTitle": "Effect of PF-04360365 On ABETA In Patients With Alzheimer's Disease And Healthy Volunteers",
+    "nctId": "NCT00120874",
+    "title": "Memantine and Comprehensive, Individualized, Patient Centered Management of Alzheimer's Disease: A Randomized Controlled Trial",
+    "briefTitle": "Memantine and Comprehensive, Individualized Management of Alzheimer's Disease and Caregiver Training",
     "status": "COMPLETED",
-    "startDate": "2010-03",
-    "completionDate": "2012-09",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT02434666",
-    "title": "Safety and Tolerability of CPC-201 in Patients With Dementia of the Alzheimer's Type Long Term Extension Safety Study in Patients With Dementia of the Alzheimer's Type Who Completed Study CPC-001-07",
-    "briefTitle": "Long Term Extension Safety Study in Patients With Dementia of the Alzheimer's Type Who Completed Study CPC-001-07",
-    "status": "COMPLETED",
-    "startDate": "2015-01-08",
-    "completionDate": "2016-11-22",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "CPC-201"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Dementia of the Alzheimer's Type"
-    ]
-  },
-  {
-    "nctId": "NCT00966966",
-    "title": "An Open-Label, Nonrandomized Study To Evaluate The Potential Pharmacokinetic Interaction Between SAM-531 and Gemfibrozil, A Cytochrome P-450 2C8 Inhibitor, When Coadministered Orally To Healthy Young Adult Subjects",
-    "briefTitle": "Study Evaluating Potential Interaction Between SAM-531 And Gemfibrozil When Co-Administered",
-    "status": "COMPLETED",
-    "startDate": "2009-09",
-    "completionDate": "2009-12",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "SAM-531 and gemfibrozil"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy"
-    ]
-  },
-  {
-    "nctId": "NCT01333865",
-    "title": "A Study of Memantine Hydrochloride (Namenda\u00ae) for Cognitive and Behavioral Impairment in Adults With Autism Spectrum Disorders",
-    "briefTitle": "A Study of Memantine Hydrochloride (Namenda\u00ae) for Cognitive and Behavioral Impairment in Adults With Autism Spectrum Disorders",
-    "status": "COMPLETED",
-    "startDate": "2010-01",
-    "completionDate": "2014-07",
+    "startDate": "2006-08",
+    "completionDate": "2011-11",
     "phases": [
       "PHASE4"
     ],
@@ -2545,189 +3490,7 @@
       "DRUG"
     ],
     "conditions": [
-      "Autism Spectrum Disorders"
-    ]
-  },
-  {
-    "nctId": "NCT02914366",
-    "title": "Ambroxol as a Novel Disease Modifying Treatment for Parkinson's Disease Dementia",
-    "briefTitle": "Ambroxol as a Treatment for Parkinson's Disease Dementia",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2015-11",
-    "completionDate": "2025-12",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Ambroxol"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Parkinson's Disease Dementia"
-    ]
-  },
-  {
-    "nctId": "NCT02442765",
-    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Assess the Efficacy, Safety, and Tolerability of AVP-786 (Deuterated [d6]-Dextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
-    "briefTitle": "Efficacy, Safety and Tolerability of AVP-786 for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
-    "status": "COMPLETED",
-    "startDate": "2015-07-23",
-    "completionDate": "2019-02-27",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "AVP-786",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Agitation in Patients With Dementia of the Alzheimer's Type"
-    ]
-  },
-  {
-    "nctId": "NCT01966666",
-    "title": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Sequential Cohort, Dose-Ranging Study of the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of TPI-287 in Patients With Mild to Moderate Alzheimer's Disease",
-    "briefTitle": "A Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy Study of TPI-287 in Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2013-11",
-    "completionDate": "2019-09",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "TPI-287 2 mg/m2",
-      "TPI-287 6.3 mg/m2",
-      "TPI-287 20 mg/m2",
-      "Placebo"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
       "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT04538066",
-    "title": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2 Study Assessing Safety, Tolerability and Long-term Efficacy of Bryostatin in the Treatment of Moderately Severe Alzheimer's Disease Subjects Not Receiving Memantine Treatment",
-    "briefTitle": "Bryostatin Treatment of Moderately Severe Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2020-08-30",
-    "completionDate": "2022-11-16",
-    "phases": [
-      "PHASE2"
-    ],
-    "interventions": [
-      "Bryostatin 1"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00283920",
-    "title": "PET Imaging of Brain Peripheral Type Benzodiazepine Receptors",
-    "briefTitle": "PET Imaging of Brain Peripheral Benzodiazepine Receptors",
-    "status": "COMPLETED",
-    "startDate": "2006-01-26",
-    "completionDate": "2007-10-02",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "[(11)C] PBR28"
-    ],
-    "interventionTypes": [
-      "DRUG"
-    ],
-    "conditions": [
-      "Healthy Volunteer"
-    ]
-  },
-  {
-    "nctId": "NCT00829374",
-    "title": "CONCERT: A Phase 3 Multicenter, Randomized, Placebo-Controlled, Double-Blind Twelve-Month Safety and Efficacy Study Evaluating Dimebon in Patients With Mild-to-Moderate Alzheimer's Disease on Donepezil",
-    "briefTitle": "Safety and Efficacy Study Evaluating Dimebon in Patients With Mild to Moderate Alzheimer's Disease on Donepezil",
-    "status": "COMPLETED",
-    "startDate": "2009-03",
-    "completionDate": "2011-12",
-    "phases": [
-      "PHASE3"
-    ],
-    "interventions": [
-      "Dimebon",
-      "Dimebon",
-      "Placebo comparator"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT01492374",
-    "title": "A Multi-Center, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Tolerability and the Effect of BMS-241027 on Cerebrospinal Fluid Biomarkers in Subjects With Mild Alzheimer's Disease",
-    "briefTitle": "Study to Evaluate the Safety, Tolerability and the Effect of BMS-241027 on Cerebrospinal Fluid Biomarkers in Subjects With Mild Alzheimer's Disease",
-    "status": "COMPLETED",
-    "startDate": "2012-02",
-    "completionDate": "2013-10",
-    "phases": [
-      "PHASE1"
-    ],
-    "interventions": [
-      "BMS-241027",
-      "BMS-241027",
-      "BMS-241027",
-      "Placebo matching BMS-241027"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG",
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Alzheimer's Disease"
-    ]
-  },
-  {
-    "nctId": "NCT00545974",
-    "title": "A Prospective, Randomized, Multi-Center, Double-Blind, 26 Week, Placebo-Controlled Trial of Memantine (10mg BID) for the Frontal and Temporal Subtypes of Frontotemporal Dementia",
-    "briefTitle": "Memantine (10mg BID) for the Frontal and Temporal Subtypes of Frontotemporal Dementia",
-    "status": "COMPLETED",
-    "startDate": "2007-10",
-    "completionDate": "2012-12",
-    "phases": [
-      "PHASE4"
-    ],
-    "interventions": [
-      "memantine",
-      "Placebo pill"
-    ],
-    "interventionTypes": [
-      "DRUG",
-      "DRUG"
-    ],
-    "conditions": [
-      "Frontal Lobe Dementia",
-      "Frontotemporal Lobe Dementia",
-      "Semantic Dementia"
     ]
   },
   {
@@ -2774,27 +3537,92 @@
     ]
   },
   {
-    "nctId": "NCT02260674",
-    "title": "A Phase 2a Randomized, Double-blind, Placebo-Controlled, Parallel-Group, Multi-center Study Investigating the Safety and Tolerability of JNJ-54861911 in Subjects With Early Alzheimer's Disease",
-    "briefTitle": "A Safety and Tolerability Study of JNJ-54861911 in Participants With Early Alzheimer's Disease",
+    "nctId": "NCT00481520",
+    "title": "A Randomized, Double-blind, Placebo-controlled, Safety, Tolerability, Pharmacokinetics (PK), Pharmacodynamics (PD) Trial of Multiple Ascending Fixed Doses of SAM-531 in Subjects With Mild to Moderate Alzheimer's Disease.",
+    "briefTitle": "Study Evaluating the Safety,Tolerability, PK and PD of SAM-531 in the Subjects With Mild to Moderate Alzheimer's Disease",
     "status": "COMPLETED",
-    "startDate": "2014-11",
-    "completionDate": "2016-06",
+    "startDate": "2007-06",
+    "completionDate": "2008-01",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "JNJ-54861911, 10 milligram (mg)",
-      "JNJ-54861911, 50 mg",
-      "Placebo"
+      "SAM-531"
     ],
     "interventionTypes": [
-      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT06604520",
+    "title": "Functional Neuroimaging to Examine Affective Symptoms and Cognition in Frontotemporal Dementia",
+    "briefTitle": "Vortioxetine for the Treatment of Mood and Cognitive Symptoms in Frontotemporal Dementia",
+    "status": "RECRUITING",
+    "startDate": "2025-03-20",
+    "completionDate": "2029-09-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Vortioxetine"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Fronto-temporal Dementia",
+      "Fronto-temporal Lobar Dementia",
+      "Frontotemporal Degeneration",
+      "Frontotemporal Dementia (FTD)",
+      "Frontotemporal Dementia, Behavioral Variant",
+      "Frontotemporal Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT00420420",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Trial to Evaluate the Safety and Efficacy of MK0249 for the Symptomatic Treatment of Alzheimer's Disease",
+    "briefTitle": "MK0249 for the Symptomatic Treatment of Alzheimer's Disease (MK0249-011)",
+    "status": "COMPLETED",
+    "startDate": "2006-11",
+    "completionDate": "2008-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "MK0249",
+      "Comparator: Placebo (unspecified)"
+    ],
+    "interventionTypes": [
       "DRUG",
       "DRUG"
     ],
     "conditions": [
       "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00495820",
+    "title": "Methylphenidate for Apathy in Alzheimer's Dementia: A Controlled Study",
+    "briefTitle": "Methylphenidate for Apathy in Alzheimer's Dementia: A Controlled Study",
+    "status": "COMPLETED",
+    "startDate": "2007-08",
+    "completionDate": "2010-06",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "Methylphenidate"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Apathy",
+      "Dementia"
     ]
   },
   {
@@ -2821,17 +3649,149 @@
     ]
   },
   {
-    "nctId": "NCT01928420",
-    "title": "A Single Site, Randomized, Double-blind, Placebo Controlled Trial of NIC5-15 in Subjects With Alzheimer's Disease",
-    "briefTitle": "A Single Site, Randomized, Double-blind, Placebo Controlled Trial of NIC5-15 in Subjects With Alzheimer's Disease",
+    "nctId": "NCT04251182",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled Multi-Center Study to Evaluate the Safety and Efficacy of Three Dose Strengths of T3D-959 in Subjects With Mild-to-Moderate Alzheimer's Disease",
+    "briefTitle": "Clinical Study Evaluating Efficacy and Safety of T3D-959 in Mild-to-moderate AD Subjects",
     "status": "COMPLETED",
-    "startDate": "2007-04",
-    "completionDate": "2014-06",
+    "startDate": "2021-03-01",
+    "completionDate": "2023-02-17",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Drug: NIC5-15",
+      "15mg T3D-959",
+      "30 mg T3D-959",
+      "45 mg T3D-959",
+      "Placebos"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00545974",
+    "title": "A Prospective, Randomized, Multi-Center, Double-Blind, 26 Week, Placebo-Controlled Trial of Memantine (10mg BID) for the Frontal and Temporal Subtypes of Frontotemporal Dementia",
+    "briefTitle": "Memantine (10mg BID) for the Frontal and Temporal Subtypes of Frontotemporal Dementia",
+    "status": "COMPLETED",
+    "startDate": "2007-10",
+    "completionDate": "2012-12",
+    "phases": [
+      "PHASE4"
+    ],
+    "interventions": [
+      "memantine",
+      "Placebo pill"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Frontal Lobe Dementia",
+      "Frontotemporal Lobe Dementia",
+      "Semantic Dementia"
+    ]
+  },
+  {
+    "nctId": "NCT03503331",
+    "title": "UAB Alzheimer's Disease Center Core Cohort - Imaging Substudy",
+    "briefTitle": "UAB Alzheimer's Disease Center Core Cohort - Imaging Substudy",
+    "status": "RECRUITING",
+    "startDate": "2018-04-20",
+    "completionDate": "2026-04-01",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "[C-11]PiB-PET/MRI"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00750282",
+    "title": "An Open-label, Non-randomized, Multi-center Study to Optimize Image Assessment and Evaluate the Efficacy and Safety of BAY 94-9172 (ZK 6013443) Positron Emission Tomography (PET) for Detection/Exclusion of Cerebral Amyloid Beta in Patients With Probable Alzheimer's Disease Compared to Healthy Volunteers",
+    "briefTitle": "Phase II Study of Florbetaben (BAY 94-9172) PET Imaging for Detection/Exclusion of Cerebral \u03b2-amyloid in Patients With Probable Alzheimer's Disease Compared to Healthy Volunteers",
+    "status": "COMPLETED",
+    "startDate": "2008-08",
+    "completionDate": "2010-11",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Florbetaben (BAY94-9172)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Amyloid Beta-Protein"
+    ]
+  },
+  {
+    "nctId": "NCT00236431",
+    "title": "A Randomized Double-Blind Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Galantamine in Patients With Mild Cognitive Impairment (MCI) Clinically at Risk for Development of Clinically Probable Alzheimer's Disease",
+    "briefTitle": "A Study to Evaluate the Efficacy and Safety of Galantamine in Patients With Mild Cognitive Impairment",
+    "status": "COMPLETED",
+    "startDate": "2001-05",
+    "completionDate": "2003-12",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Galantamine hydrobromide"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Dementia",
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00024531",
+    "title": "Effect of the HMG-CoA Reductase Inhibitor Atorvastatin Calcium, Lipitor, in the Treatment of Alzheimer's Disease",
+    "briefTitle": "Lipitor as a Treatment for Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2000-10",
+    "completionDate": "2004-08",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Atorvastatin calcium"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02035982",
+    "title": "A Discontinuation of Cholinesterase Inhibitors for the Treatment of Severe Alzheimer's Disease in Long Term Care Setting",
+    "briefTitle": "Discontinuation of Cholinesterase Inhibitors for the Treatment of Severe Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-07",
+    "completionDate": "2015-09",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Cholinesterase Inhibitor",
       "Placebo"
     ],
     "interventionTypes": [
@@ -2844,41 +3804,67 @@
     ]
   },
   {
-    "nctId": "NCT01518374",
-    "title": "Clinical Evaluation of Florbetapir F 18 (18F-AV-45)",
-    "briefTitle": "Clinical Evaluation of Florbetapir F 18 (18F-AV-45)",
+    "nctId": "NCT02646982",
+    "title": "Candesartan's Effects on Alzheimer's Disease And Related Biomarkers",
+    "briefTitle": "Candesartan's Effects on Alzheimer's Disease And Related Biomarkers",
     "status": "COMPLETED",
-    "startDate": "2009-12",
-    "completionDate": "2017-05-03",
+    "startDate": "2016-06-30",
+    "completionDate": "2020-08-17",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "Florbetapir F 18"
+      "Placebo",
+      "Candesartan"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT01254773",
+    "title": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel Group, Multi-Center, Biomarker, Safety, and Pharmacokinetic Study of Bapineuzumab (AAB-001) Administered Subcutaneously at Monthly Intervals in Subjects With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "Amyloid Imaging And Safety Study Of Subcutaneous Bapineuzumab In Subjects With Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2010-12",
+    "completionDate": "2013-03",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Experimental Bapineuzumab"
     ],
     "interventionTypes": [
       "DRUG"
     ],
     "conditions": [
-      "Alzheimer Disease",
-      "Mild Cognitive Impairment",
-      "Neurodegenerative Diseases"
+      "Alzheimer's Disease"
     ]
   },
   {
-    "nctId": "NCT04871074",
-    "title": "SV2A PET Imaging in Alzheimer's Disease",
-    "briefTitle": "The Synapse Project",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "startDate": "2018-11-18",
-    "completionDate": "2025-05",
+    "nctId": "NCT00568776",
+    "title": "A Randomized, Double-Blind, Placebo-Controlled, Dose-Ranging, Safety and Efficacy Study of Oral ELND005 (AZD-103) in Alzheimer's Disease",
+    "briefTitle": "ELND005 in Patients With Mild to Moderate Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2007-12",
+    "completionDate": "2010-05",
     "phases": [
       "PHASE2"
     ],
     "interventions": [
-      "UCB-J"
+      "Placebo Control",
+      "ELND005",
+      "ELND005",
+      "ELND005"
     ],
     "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
       "DRUG"
     ],
     "conditions": [
@@ -2886,17 +3872,17 @@
     ]
   },
   {
-    "nctId": "NCT04685265",
-    "title": "A Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Multiple Ascending Oral Doses of anle138b, and to Characterise the Effect of Food of anle138b in Mild to Moderate Parkinson's Disease",
-    "briefTitle": "A Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of anle138b in Parkinson's Disease",
-    "status": "COMPLETED",
-    "startDate": "2020-12-22",
-    "completionDate": "2022-12-22",
+    "nctId": "NCT05468073",
+    "title": "Therapeutic Evaluation of Low-dose IL-2-based Immunomodulatory Approach in Patients With Early AD",
+    "briefTitle": "Therapeutic Evaluation of Low-dose IL-2-based Immunomodulatory Approach in Patients With Early AD",
+    "status": "RECRUITING",
+    "startDate": "2022-10-11",
+    "completionDate": "2026-09-01",
     "phases": [
-      "PHASE1"
+      "PHASE2"
     ],
     "interventions": [
-      "anle138b",
+      "Proleukin",
       "Placebo"
     ],
     "interventionTypes": [
@@ -2904,7 +3890,75 @@
       "DRUG"
     ],
     "conditions": [
-      "Parkinson Disease"
+      "Alzheimer Disease"
+    ]
+  },
+  {
+    "nctId": "NCT00842673",
+    "title": "A Double-Blind Placebo-Controlled Preliminary Study of the Efficacy, Safety and Tolerability of ST101 Tablets in the Treatment of Alzheimer's Disease",
+    "briefTitle": "Preliminary Efficacy and Safety Study of ST101 in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2009-02",
+    "completionDate": "2010-09",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "ST101",
+      "ST101",
+      "ST101",
+      "Placebo"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG",
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT01565382",
+    "title": "Evaluation of Physician Training for Interpretation of Florbetapir-PET Scans: Evaluation of Inter-reader Reliability Using Images From Subjects With a Clinical Presentation of AD or MCI",
+    "briefTitle": "Evaluation of Inter-reader Reliability Using Images From Subjects With Alzheimer's Disease (AD) or Mild Cognitive Impairment (MCI)",
+    "status": "COMPLETED",
+    "startDate": "2011-02",
+    "completionDate": "2011-02",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "florbetapir F 18"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease"
+    ]
+  },
+  {
+    "nctId": "NCT02997982",
+    "title": "Feasibility and Effects on Markers in Spinal Fluid in Persons With Early Alzheimer's Disease When Treated With Valaciclovir - Open Fas II Pilot Study (VALZ-Pilot)",
+    "briefTitle": "Feasibility and Effects of Valaciclovir Treatment in Persons With Early Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2016-12",
+    "completionDate": "2020-03-04",
+    "phases": [
+      "PHASE2"
+    ],
+    "interventions": [
+      "Valaciclovir 500Mg Tablet"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer Disease",
+      "Mild Cognitive Impairment",
+      "Herpes Simplex"
     ]
   },
   {
@@ -2931,19 +3985,20 @@
     ]
   },
   {
-    "nctId": "NCT01461174",
-    "title": "Effects of 15-day Donepezil and Memantine on Cognitive Functions After a 24 Hours Sleep Deprivation Challenge in Healthy Volunteers: a Double-blind, Placebo-controlled, Randomised, Cross-over Study, With Modafinil as Positive Control",
-    "briefTitle": "Effects of Donepezil and Memantine on Cognitive Functions After a Sleep Deprivation Challenge in Healthy Volunteers",
+    "nctId": "NCT03493282",
+    "title": "A Pilot Synaptic Vesicle Glycoprotein 2A (SV2A) PET Study to Evaluate the Effect of CT1812 Treatment on Synaptic Density in Participants With Mild to Moderate Alzheimer's Disease",
+    "briefTitle": "Effect of CT1812 Treatment on Brain Synaptic Density",
     "status": "COMPLETED",
-    "startDate": "2011-11",
-    "completionDate": "2014-11",
+    "startDate": "2018-03-28",
+    "completionDate": "2020-10-16",
     "phases": [
-      "PHASE1"
+      "PHASE1",
+      "PHASE2"
     ],
     "interventions": [
-      "Modafinil",
-      "Donepezil",
-      "Memantine"
+      "Active Treatment- CT1812 100 mg",
+      "Active Treatment- CT1812 300 mg",
+      "Placebo"
     ],
     "interventionTypes": [
       "DRUG",
@@ -2951,21 +4006,66 @@
       "DRUG"
     ],
     "conditions": [
-      "Healthy"
+      "Alzheimer Disease"
     ]
   },
   {
-    "nctId": "NCT02087865",
-    "title": "Effects of Donepezil HCL on Task-Activated fMRI Brain Activation in Healthy Older Adults at Genetic Risk for Alzheimer's Disease",
-    "briefTitle": "Effects of Donepezil HCL on Task-Activated fMRI Brain Activation in Healthy Older Adults at Genetic Risk for Alzheimer's Disease",
+    "nctId": "NCT01662882",
+    "title": "An Open Label, Parallel Group, Multicenter Study, Evaluating the Safety and Imaging Characteristics of Florbetapir (18F) in Healthy Volunteers, Patients With Mild Cognitive Impairment (MCI) and Patients With Alzheimer's Disease (AD)",
+    "briefTitle": "A Phase II Trial of Florbetapir (18F) Positron Emission Tomography (PET) Imaging in Japan of Healthy Volunteers, Patients With Mild Cognitive Impairment (MCI) and Patients With Alzheimer's Disease (AD)",
     "status": "COMPLETED",
-    "startDate": "2014-05",
-    "completionDate": "2021-12-20",
+    "startDate": "2012-10",
+    "completionDate": "2013-02",
     "phases": [
-      "PHASE4"
+      "PHASE2",
+      "PHASE3"
     ],
     "interventions": [
-      "donepezil HCL",
+      "florbetapir (18F)"
+    ],
+    "interventionTypes": [
+      "DRUG"
+    ],
+    "conditions": [
+      "Alzheimer's Disease",
+      "Mild Cognitive Impairment"
+    ]
+  },
+  {
+    "nctId": "NCT03393520",
+    "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-design Study to Assess the Efficacy, Safety, and Tolerability of AVP-786 (Deudextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+    "briefTitle": "Assessment of the Efficacy, Safety, and Tolerability of AVP-786 (Deudextromethorphan Hydrobromide [d6-DM]/Quinidine Sulfate [Q]) for the Treatment of Agitation in Patients With Dementia of the Alzheimer's Type",
+    "status": "COMPLETED",
+    "startDate": "2017-10-13",
+    "completionDate": "2023-12-14",
+    "phases": [
+      "PHASE3"
+    ],
+    "interventions": [
+      "Placebo",
+      "AVP-786"
+    ],
+    "interventionTypes": [
+      "DRUG",
+      "DRUG"
+    ],
+    "conditions": [
+      "Agitation in Patients With Dementia of the Alzheimer's Type"
+    ]
+  },
+  {
+    "nctId": "NCT02351882",
+    "title": "Safety and Efficacy of Nabilone in Alzheimer's Disease: a Pilot Study",
+    "briefTitle": "Safety and Efficacy of Nabilone in Alzheimer's Disease",
+    "status": "COMPLETED",
+    "startDate": "2015-01",
+    "completionDate": "2019-03",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "interventions": [
+      "Nabilone",
       "Placebo"
     ],
     "interventionTypes": [
@@ -2973,7 +4073,11 @@
       "DRUG"
     ],
     "conditions": [
-      "Genetic Risk for Alzheimer's Disease"
+      "Alzheimer Disease",
+      "Agitation",
+      "Weight Loss",
+      "Pain",
+      "Oxidative Stress"
     ]
   }
 ]

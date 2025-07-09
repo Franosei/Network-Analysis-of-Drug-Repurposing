@@ -16,10 +16,10 @@ class ClinicalTrialFetcher:
             "ENROLLING_BY_INVITATION",
             "COMPLETED"
         }
-        self.valid_phases = {"PHASE1", "PHASE2", "PHASE3", "PHASE4"}
+        self.valid_phases = {"PHASE2", "PHASE3", "PHASE4"}
         self.valid_intervention_type = "DRUG"
 
-    def fetch_trials(self, condition, max_trials=500):
+    def fetch_trials(self, condition, max_trials=1000):
         """
         Fetch trials from ClinicalTrials.gov for a given condition.
         """
@@ -126,7 +126,6 @@ class ClinicalTrialFetcher:
         """
         for area in therapeutic_areas:
             self.process_area(area)
-
 
 if __name__ == "__main__":
     therapeutic_list = [

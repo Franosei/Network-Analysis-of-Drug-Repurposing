@@ -1,1533 +1,442 @@
-Drug,DegreeCentrality
-dexamethasone,6
-midazolam,5
-metformin,4
-fentanyl,4
-melatonin,4
-topiramate,4
-propofol,4
-semaglutide,3
-bevacizumab,3
-ketamine,3
-"doravirine, tenofovir, lamivudine - blinded",3
-lamivudine (3tc),3
-prednisolone,3
-rituximab,3
-aspirin 162 mg,3
-everolimus,3
-upadacitinib,3
-aspirin 81 mg,3
-"doravirine, tenofovir, lamivudine - open-label",3
-pioglitazone 15mg,3
-morphine,3
-methotrexate,3
-peginterferon alfa-2a [pegasys],3
-atripla^tm,3
-177lu-dotatoc,3
-dexmedetomidine,3
-prednisone,3
-aspirin,3
-methylphenidate,3
-tenofovir disoproxil fumarate/emtricitabine (tdf/ftc fdc),3
-epclusa,3
-lenvatinib,3
-dolutegravir (dtg),3
-combination therapy,2
-insulin nph,2
-insulin aspart,2
-azd9567,2
-acarbose,2
-"diazoxide oral suspension, 2 mg per kg per dose",2
-eculizumab,2
-sertraline,2
-atorvastatin,2
-proleukin,2
-cyclophosphamide,2
-raltegravir,2
-lu af82422,2
-valsartan,2
-deuterated water (2h2o/d2o),2
-leucovorin calcium,2
-bryostatin 1,2
-alendronate,2
-lorazepam,2
-ixazomib citrate,2
-imatinib mesylate,2
-fludarabine,2
-non-arb,2
-pioglitazone 30mg,2
-plerixafor,2
-sirolimus,2
-estrogen product,2
-tamoxifen,2
-atomoxetine,2
-cholinesterase inhibitor,2
-boceprevir,2
-flucytosine,2
-neratinib,2
-aprepitant,2
-cdb-2914,2
-budesonide,2
-paclitaxel,2
-exenatide,2
-salsalate,2
-pf04965842,2
-oxytocin nasal spray,2
-denosumab,2
-cisplatin,2
-epinephrine injection,2
-ismn xl and cilostazol,2
-bortezomib,2
-icosapent ethyl (ipe),2
-tranexamic acid,2
-tofacitinib,2
-cyclosporine,2
-flos gossypii flavonoids tablet,2
-citalopram,2
-lenalidomide,2
-palbociclib,2
-digoxin,2
-spironolactone,2
-fluorouracil,2
-sitagliptin,2
-zonisamide,2
-cilostazol,2
-losartan,2
-gnrh antagonist,2
-olmesartan medoxomil,2
-ustekinumab,2
-lamotrigine,2
-oral sodium chloride,2
-amphotericin b,2
-memantine,2
-spi-62,2
-eszopiclone,2
-mdl100.907,2
-ziltivekimab,2
-"calcium channel blockers (amlodipine, azelnidipine)",2
-trastuzumab,2
-adalimumab,2
-"nifedipine (adalat cr, baya1040) 40mg bid",2
-modafinil,2
-fludarabine phosphate,2
-chemotherapy,2
-intravenous sodium chloride,2
-15mg t3d-959,2
-carmustine,2
-ribavirin (copegus],2
-acetazolamide,2
-tirzepatide,2
-45 mg t3d-959,2
-celecoxib (celebrex),2
-pioglitazone open label,2
-bydureon,2
-endocrine therapy,2
-isosorbide mononitrate xl (ismn),2
-"diazoxide oral suspension, 1 mg per kg per dose",2
-empagliflozin 10 mg,2
-montelukast,2
-celecoxib,2
-temozolomide,2
-infliximab,2
-sorbitol,2
-carboplatin,2
-30 mg t3d-959,2
-esketamine,2
-colestipol,2
-cortisone-d8,2
-insulin detemir,2
-naltrexone,2
-ambrisentan,2
-"nifedipine (adalat cr, baya1040) 40mg od",2
-pioglitazone and exenatide,2
-lng-iud (progestin),2
-flurbiprofen,2
-telmisartan,2
-propranolol,2
-pf-04965842,2
-pioglitazone study drug,2
-orlistat,2
-"nifedipine (adalat cr, baya1040) 80mg od",2
-lemborexant,2
-pioglitazone,2
-normal saline,2
-insulin glargine,2
-insulin,2
-lithium,2
-nebivolol,2
-cd19-bcma car-t cells infusion,2
-fluconazole,2
-liraglutide,2
-mifepristone,2
-loperamide,2
-ly3437943,2
-gemcitabine +carboplatin,1
-pbi4050,1
-"decrease tocilizumab, abatacept",1
-immunoscintigraphy with radiolabeled cimzia®.,1
-epoch-rr,1
-bac treatment,1
-travoprost 0.004% ophthalmic solution travatan z®,1
-pegylated interferon alfa-2a + ribavirin,1
-omalizumab,1
-salbutamol,1
-anti-tumor necrosing factor (tnf) therapy,1
-vitamin d,1
-carnitine,1
-ly2439821,1
-androxal,1
-s-equol,1
-onabotulinumtoxina,1
-disease-modifying anti-rheumatic drugs,1
-comparator: sitagliptin phosphate (mk0431),1
-jnj-54861911 9 mg,1
-ro4998452,1
-administration of cimzia®,1
-torasemide,1
-optimized multidrug background regimen (obr) for children with mdr-tb,1
-zevalin,1
-"cp-690,550",1
-irbesartan (aprovel),1
-pseudoephedrine,1
-flortaucipir f18,1
-morphine hydrochloride injection,1
-[c-11]pib-pet/mri,1
-phenazopyridine hydrochloride,1
-albuterol mdpi,1
-letrozole,1
-ipilimumab,1
-abemaciclib,1
-nemtabrutinib,1
-depo-medroxyprogesterone acetate,1
-tenofovir/emtricitabine/rilpivirine,1
-lb-p6,1
-mometasone furoate nasal spray (mfns),1
-[18f]t807 ([18f]mni-777),1
-dupilumab,1
-psilocybin,1
-risperidone,1
-diprosis gel,1
-lactin-v,1
-warfarin sodium tablets,1
-bay2701250 sc,1
-ribavirin [copegus],1
-beclometasone dipropionate 200 µg + formoterol fumarate 6 µg,1
-methoxy-polyethyleneglycol epoetin beta,1
-ly2127399,1
-ampreloxetine,1
-cabozantinib,1
-ifosfamide,1
-hydrochlorthiazide®,1
-test product,1
-sugammadex 2 mg/kg,1
-cd10367 1% solution - non-desquamated zone,1
-bapineuzumab,1
-"c-82 topical gel, 1%",1
-18f-mk-6240 radiopharmaceutical,1
-avb-620,1
-low dose mesenchymal stem cells (mscs),1
-ibuprofen,1
-salbutamol udv,1
-diphenhydramine 1 mg/kg up to 50 mg iv,1
-cnto 6785 100 mg,1
-anastrozole,1
-azilsartan medoxomil and chlorthalidone,1
-bms-986020,1
-bi 1744 cl,1
-flu/sal,1
-sglt-2 inhibitor,1
-imatinib and vinorelbine,1
-ondansetron,1
-ibi321,1
-noiiglutide injection,1
-magnesium sulfate loading with maintenance dose,1
-trimethoprim,1
-avapritinib,1
-losartan / duration of treatment: 6 weeks,1
-acetazolamide in combination with radioimmunotherapy in patients with extensive sclc,1
-bicalutamide,1
-pecs-1,1
-tocilizumab [roactemra/actemra],1
-[11c]ro6924963,1
-methotrexate - delay,1
-"efavirenz, lamivudine, and tenofovir",1
-ribavirin,1
-tas-102,1
-azathioprine / 6 mercaptopurine,1
-staccato alprazolam,1
-rifadin® (rifampicin),1
-low-dose interleukin-2,1
-comparator: pioglitazone,1
-levetiracetam (lev),1
-adrenaline 10mcg/ml,1
-comparator: montelukast,1
-capecitabine plus bevacizumab,1
-human albumin,1
-bia 2-093,1
-jnj-54861911 81 mg,1
-montelukast buccal film,1
-anti-hbv antiviral prophylaxis,1
-lamivudine,1
-dapivirine (tmc120) vaginal gel,1
-lantus (insulin glargine),1
-berodual® mdi,1
-avelumab,1
-sy-008,1
-serratus,1
-ionis maptrx,1
-granulocyte-macrophage colony-stimulating factor subcutaneous injection,1
-chf 5993 100/6/12.5 µg,1
-plx5622,1
-injectable sodium deoxycholate,1
-"tucidinostat, azacitidine combined with chop",1
-il-1ra,1
-abacavir/lamivudine,1
-pf-04965842 200 mg,1
-tocilizumab plus methotrexate,1
-glargine,1
-tas-120,1
-pf-04895162,1
-tipranavir,1
-"tenofovir, emtricitabine, raltegravir",1
-hydroxychloroquine,1
-hoe901-u300 (new formulation of insulin glargine),1
-tiotropium 18 μg,1
-atezolizumab,1
-bms-986142,1
-terameprocol,1
-celecoxib + vitamin b fixed dose,1
-daoib,1
-"mk0476, montelukast sodium /duration of treatment : 14 days",1
-bdp 100 µg,1
-phenytoin,1
-hydralazine and valproic acid: cohort 1,1
-lacosamide 50 mg,1
-cnto 6785 50 mg,1
-daratumumab sc: daratumumab + rhuph20,1
-antiarrythmic drug therapy,1
-ambroxol,1
-atrovent hfa 42 mcg + albuterol hfa 200 mcg,1
-faldaprevir,1
-north american ginseng (panax quinquefolius),1
-tpi-287 6.3 mg/m2,1
-tiotropium bromide,1
-indinavir sulfate,1
-lacosamide 100 mg,1
-csg452,1
-telmisartan/amlodipine 80 mg-5 mg oral tablet,1
-[11c]ro6931643,1
-diphenhydramine 50 mg,1
-cabotegravir - injectable suspension (cab la),1
-victoza,1
-danoprevir+ritonavir,1
-deucravacitinib,1
-neostigmine+atropine,1
-sailuotong capsule,1
-danoprevir,1
-donanemab,1
-lamictal extended-release,1
-dabrafenib + trametinib,1
-"acetylsalicylic acid (aspirin, baye4465)",1
-albuterol (ventolin),1
-lactated ringer's solution,1
-daaoi-1,1
-humira®,1
-emtricitabine/tenofovir disoproxil fumarate,1
-topical prostaglandin analogs,1
-hydrocodone/apap,1
-mometasone furoate/formoterol 400/10 mcg,1
-tocilizumab,1
-ziltivekimab b,1
-tiotropium,1
-treprostinil,1
-oxcarbazepine (brand name vs generic drugs),1
-"dolutegravir, abacavir and lamivudine",1
-generic travoprost,1
-glimepiride,1
-hyperpolarized 129xenon gas,1
-drug: nic5-15,1
-ergotamine/ caffeine,1
-"mk0954a, hydrochlorothiazide (+) losartan potassium / duration of treatment: 6 weeks",1
-eslicarbazepine acetate (bia 2-093),1
-etanercept (etn),1
-hydrocodone bitartrate,1
-eltrombopag,1
-hydroxyurea,1
-cfz533 active - cohort 2,1
-furosemide oral tablets,1
-adefovir dipivoxil,1
-delamanid,1
-regular human insulin,1
-zolpidem,1
-perineural infusion [continuous peripheral nerve block(s)],1
-budigalimab,1
-darunavir/ritonavir,1
-lithium carbonate,1
-risedronate,1
-low dose device,1
-lapatinib ditosylate,1
-enalapril maleate,1
-folate (400mcg) and vitamin b12 (100 mcg),1
-leucovorin,1
-intravenous acetaminophen,1
-treatment simplification (dolutegravir lamivudine),1
-velcade,1
-retatrutide,1
-cnto 1959 + mtx (group 5),1
-cfz533 active - cohort 1,1
-chf1535 200/6 µg,1
-acetylsalicylic acid,1
-usage of fibrin sealant,1
-ferric citrate,1
-vincristine sulfate,1
-xalatan,1
-budesonide 400mcg administered via turbuhaler,1
-semaglutide pen injector,1
-insulin viaject™ (75%),1
-clinisol 15%,1
-lamictal,1
-beclomethasone,1
-gnc-038,1
-trimethoprim/sulfamethoxazole,1
-5fu,1
-ataluren,1
-omarigliptin,1
-l50/h12.5,1
-carisbamate,1
-lp352,1
-"duloxetine 60 mg, qd",1
-bms-708163,1
-pulmicort turbuhaler,1
-emtricitabine,1
-br3005-2,1
-p1446a-05,1
-metreleptin,1
-cpc-201,1
-chlorogenic acid,1
-celecoxib capsules,1
-lamotrigine (brand name vs generic drugs),1
-hydralazine and valproic acid: cohort 3,1
-"d501, d759, h053",1
-ly3202626,1
-tenofovir douche,1
-step wedge trial,1
-kaletra soft-gel capsules switched to kaletra tablets,1
-alemtuzumab,1
-travoprost solution vehicle,1
-xolair,1
-brinzolamide suspension vehicle,1
-cfz533 active - cohort 3,1
-de-111 ophthalmic solution,1
-long-circulating liposomal prednisolone,1
-camrelizumanb plus tpf,1
-efavirenz (efv),1
-ad-2091,1
-[(11)c] pbr28,1
-potassium chloride powder,1
-dtg tablet,1
-bj-001,1
-e2814,1
-ladostigil hemitartrate,1
-trabodenoson 4.5% bid,1
-bibf 1120 m + docetaxel h,1
-gemcitabine,1
-rwj-333369,1
-travoprost and timolol,1
-mepolizumab,1
-bosutinib,1
-apalutamide,1
-condylox topical gel 0.5%,1
-bez235,1
-bictegravir/emtricitabine/tenofovir alafenamide,1
-nitric oxide,1
-100cc of 2% ropivacaine,1
-cytarabine,1
-dimebon,1
-ly3209590,1
-mitomycin-c injection,1
-apl-9,1
-mg-zg122 humanized monoclonal antibody injection,1
-b/f/taf,1
-valsartan 80 mg,1
-hms5552,1
-(arm closed) tinzaparin,1
-bibf 1120 h + docetaxel m,1
-atenolol,1
-mfolfirinox,1
-ly3493269,1
-bupivacaine,1
-neo-adjuvant erbitux-based chemotherapy,1
-cvt-427 (zolmitriptan inhalation powder),1
-bay2701250 iv,1
-"cefuroxime 4,5g",1
-clazakizumab,1
-sunitinib,1
-pevonedistat,1
-dw1809-1,1
-opc-214870,1
-emtricitabine 200 mg,1
-irinotecan hydrochloride,1
-formoterol,1
-folfiri-hd,1
-ganciclovir,1
-ibudilast,1
-aromatherapy care,1
-vx-509,1
-glucose 16 g coated beads (47% w/w),1
-atomoxetine hydrochloride,1
-certolizumab pegol,1
-paxlovid 10 days,1
-gsk159802,1
-atl-962,1
-topiramate (brand name vs generic drugs),1
-xgeva®,1
-hydralazine and valproic acid: cohort 4,1
-cx-801,1
-tollb-001 tablets,1
-"insulin, regular - act rapid",1
-venglustat (gz402671),1
-dexamethasone 4 mg/ml,1
-peg-intron,1
-rivastigmine tartrate,1
-galantamine,1
-aclidinium 400 μg / formoterol 12 μg,1
-"immunoglobulins, intravenous (privigen)",1
-cetuximab,1
-lamivudine/zidovudine,1
-daivonex cream,1
-fpi-2620,1
-docetaxel,1
-add-on high dose astragalus,1
-treatment y,1
-trimetrexate glucuronate,1
-control test,1
-symtuza,1
-timolol ophthalmic solution 0.5%,1
-putative phase iii formulation,1
-varenicline,1
-r-oxybutynin,1
-degarelix,1
-high dose benfotiamine,1
-cls003,1
-voriconazole,1
-gw433908,1
-abrocitinib,1
-valsartan + amlodipine 40/5 mg,1
-retifanlimab,1
-hormone therapy,1
-folfiri,1
-[18f]ro6958948,1
-veklury,1
-zagotenemab,1
-nn9924 (s.c.),1
-budesonide (6 mg),1
-cannabidiol oral solution,1
-berodual® respimat ® low dose,1
-mometasone furoate/formoterol 100/10 mcg,1
-"atropine eye drops, 0.02%",1
-dronabinol,1
-ziltivekimab c,1
-biktarvy,1
-brinzolamide/timolol maleate fixed combination (azarga),1
-l50/h12.5/a5,1
-fampridine,1
-olanzapine,1
-abacavir sulfate,1
-cnto 6785 15 mg,1
-levilimab,1
-dw1809-t2,1
-acd856 (fed cohort),1
-lamotrigine dispersible/chewable tablet,1
-timolol maleate pf 0.5% ophthalmic solution,1
-fluticasone furoate/vilanterol 100/25mcg,1
-(arm closed) enoxaparin,1
-benzathine penicillin,1
-pyridostigmine bromide,1
-probiotic therapy with gegen qinlian tang,1
-[18f] flutemetamol,1
-podofilox gel 0.5%,1
-granulocyte colony-stimulating factor,1
-nanoformed piroxicam ir tablet,1
-pegfilgrastim,1
-ban2401 10 mg/kg,1
-humibid®,1
-pegylated liposomal doxorubicin (pld),1
-zonisamide high dose group,1
-ppi-1019 (apan),1
-qls-101,1
-dimebon + ketoconazole,1
-tiotropium 18µg once daily,1
-sevoflurane,1
-bms-241027,1
-hydrocortisone ointment,1
-br3005,1
-folate,1
-benralizumab arm a,1
-"tocilizumab, abatacept",1
-symbicort® forte turbohaler®,1
-lumiracoxib,1
-treatment x,1
-adrenaline,1
-perifosine,1
-istradefylline pill,1
-m207 microneedle system,1
-yohimbine,1
-camrelizumab,1
-experimental 1,1
-kbl693,1
-bms-986156,1
-18f-florbetaben,1
-isoniazid,1
-calcipotriene/betamethasone gel and ointment,1
-ecopipam,1
-etravirine,1
-ipratropium,1
-20mg azilsartan tablets,1
-tenofovir disoproxil,1
-azathioprine,1
-cd10367 3% solution - non-desquamated zone,1
-metoclopramide,1
-bexagliflozin,1
-bay1237592,1
-sintilimab injection,1
-etanercept given by perispinal administration,1
-etoposide,1
-brand lamotrigine,1
-florbetaben (bay94-9172),1
-hydrochlorothiazide/telmisartan,1
-bay1125976,1
-ceus or contrast enhanced ultrasound,1
-alfentanil,1
-nio752,1
-diazepam buccal film 12.5 mg,1
-terbutaline infusion,1
-hyperpolarized 13c-pyruvate,1
-fluticasone propionate (flixonase®),1
-teclistamab,1
-da-302168s,1
-repaglinide tablets,1
-lixisenatide (ave0010),1
-isis 757456,1
-nirmatrelvir/ritonavir,1
-tenofovir/emtricitabine,1
-dose level 2,1
-albuterol/salbutamol,1
-dapagliflozin,1
-trimetazidine,1
-indacaterol maleate/mometasone furoate,1
-optimox-bevacizumab,1
-amantadine,1
-glucose 12 g coated beads (47% w/w),1
-diastat® rectal gel (valeant pharmaceuticals usa),1
-bia 5-1058,1
-20 mg azd7325,1
-rabbit anti-thymocyte globulin,1
-da-2802 319mg,1
-bupropion extended release,1
-oral lenacapavir,1
-oxymetazoline 0.05% nasal solution,1
-ckd-501 0.5mg,1
-fluticasone furoate,1
-al002,1
-amino acid solution,1
-vitamin e,1
-oxytocin,1
-methylene blue,1
-interleukin 2 subcutaneous injection,1
-pregabalin,1
-pf-05212377,1
-gsk615915a,1
-zestril®,1
-quetiapine extended release (xr),1
-ocrelizumab,1
-oxytocin (oxt) continuous,1
-dalpiciclib,1
-jnj-54861911 27 mg,1
-capecitabine,1
-st-1898 tablets,1
-trivalent chromium versus synthetic and/ or biological dmards,1
-venlafaxine xr,1
-vilazodone,1
-etn+mtx,1
-evp-0962,1
-drug：cisplatin,1
-methotrexate 10 mg,1
-indomethacin,1
-olodaterol,1
-circadin,1
-methyprednisolone,1
-pd-1/pd-l1 inhibitor,1
-metabolic cofactor supplementation,1
-oral evo756,1
-mk0752,1
-pegaspargase,1
-contraloid,1
-pharmacological stress agents,1
-zidovudine (azt) & interleukin-2 (il2),1
-paxlovid 5 days,1
-s-licarbazepine,1
-salmeterol/fluticasone propionate combination,1
-artificial tears,1
-bm-mnc,1
-azacitidine,1
-topical insulin (4 units),1
-statin,1
-oral sitagliptin supplementation,1
-interferon alpha,1
-capox regimen,1
-clbs201,1
-0.45% saline in 5% dextrose (intravenous),1
-beclomethasone dipropionate via 320 mcg bai,1
-benfotiamine,1
-"divalproex sodium 500 mg dr tablets (sandoz inc., usa)",1
-0.1% azelastine hydrochloride,1
-lidocaine infusion,1
-isotretinoin (accutane),1
-sugammadex,1
-add glimepiride,1
-ginkgo biloba,1
-timolol 0.5% bid,1
-xanamem™,1
-phenylephrine,1
-lu af87908,1
-methylprednisolone sodium succinate (mpsl),1
-(fdc) elv/cobi/ftc/tdf,1
-"atorvastatin, probucol, cilostazol",1
-magnesium sulphate infusion,1
-bm-mnc+hot,1
-tenofovir,1
-mebendazole,1
-"uk-453,061",1
-fkb327,1
-levocarnitine,1
-fbl-mtx,1
-abt-614,1
-etrasimod,1
-prochlorperazine 0.15 mg/kg up to 10 mg iv,1
-indinavir,1
-salbutamol (ventolin®),1
-ykp3089,1
-decitabine,1
-mtx based chemotherapy,1
-pf-06372865,1
-potassium citrate powder,1
-lb-p8,1
-active treatment- ct1812 300 mg,1
-danuglipron,1
-jnj-54861911 tbd,1
-ranibizumab,1
-anti-il-20,1
-zonisamide (brand name vs generic drugs),1
-setmelanotide,1
-epinastine hcl oph soln+simulating azelastine hcl oph soln,1
-tocilizumab (tcz),1
-meloxicam tablet,1
-aminophylline,1
-omeprazole enteric capsules,1
-dinaciclib,1
-paricalcitol,1
-ldk378,1
-exemestane,1
-decitabine and cedazuridine,1
-oral glucose-lowering medications (commercially available),1
-aldesleukin,1
-etanercept,1
-antibody-drug conjugates,1
-acetazolamide in combination with platinum and etoposide-based radiochemotherapy,1
-tiotropium 18 μg once-daily,1
-afrezza inhalant product,1
-sugammadex. 4 mg/kg,1
-mangafodipir,1
-enfuvirtide (t20),1
-betamethasone,1
-ipratropium bromide 80mcg,1
-"mesalazine (3,600 mg)",1
-ranolazine,1
-salmeterol(sn408d),1
-shr1459 tablet,1
-ezetimibe/rosuvastatin,1
-[11c]mes-impy,1
-ckd-393 formulation ii,1
-symbicort pmdi,1
-parathyroid hormone-related protein or ''pthrp'',1
-stavudine,1
-infusion of opioid growth factor,1
-lopinavir/ritonavir,1
-fluticasone 250/formoterol 10,1
-tenofovir alafenamide,1
-nirmatrelvir-ritonavir,1
-active treatment- ct1812 100 mg,1
-sam-531,1
-carbidopa/levodopa,1
-ban2401 5 mg/kg,1
-"cilostazol 50 mg tablets (eon pharma, llc, usa)",1
-travatan z,1
-[18f]flutemetamol,1
-talampanel,1
-bleximenib,1
-generic lamotrigine,1
-dmards,1
-a-dopamine,1
-400mg cannabidiol by capsules twice daily,1
-florbetapir f 18,1
-bupivacaine hydrochloride,1
-br1019-2,1
-lidocaine 1% injectable solution,1
-smt,1
-bic,1
-budesonide (9 mg),1
-symbicort turbuhaler,1
-st101,1
-ecopipam hydrochloride,1
-zidovudine,1
-"etanercept , methotrexate",1
-amoxycillin,1
-ipratropium bromide low dose,1
-comparator: losartan,1
-"grt-r918, samrna-spikeomicron-n-tce11",1
-enzalutamide,1
-cabazitaxel,1
-pemigatinib,1
-caffeine citrate 20 mg/kg,1
-indapamide,1
-carbamazepine (brand name vs generic drugs),1
-remodulin,1
-optimized oral treatment,1
-tak-063 20 mg,1
-bumetanide,1
-ritonavir (norvir),1
-combivent respimat 20/100 mcg,1
-sildenafil,1
-mrz-99030 eye drops 5mg/ml,1
-vi-0521,1
-0.15% azelastine hydrochloride,1
-fluticasone proprionate / salmeterol xinafoate,1
-mf dpi 200 mcg,1
-sha9 topical gel,1
-budesonide/formoterol (symbicort),1
-low dose benfotiamine,1
-tpi-287 2 mg/m2,1
-aliskiren/amlodipine and hydrochlorothiazide (hctz),1
-"leuprolide acetate 22.5 mg depot, gp-pharm sa",1
-"duvie tab. 0.5mg, glucodaun or tab. 750mg",1
-rhgad65 formulated in alhydrogel® (diamyd®),1
-mitomycin (mmc),1
-etn alone,1
-yunnan baiyao,1
-calcipotriol plus betamethasone dipropionate (leo80185 gel),1
-tislelizumab,1
-lecanemab,1
-abacavir,1
-didanosine,1
-sr121463b,1
-"depakote 500 mg dr tablets (abbott laboratories, usa)",1
-eribulin mesylate,1
-insulin lispro,1
-pentoxifylline,1
-diazoxide,1
-darunavir; ritonavir; emtricitabine/tenofovir,1
-preservative-free tafluprost,1
-ftc-tdf prep,1
-nco-48 fumarate 4 mg,1
-chf 1535 100/6 µg,1
-doxorubicin hydrochloride,1
-filgrastim (g-csf),1
-tocilizumab [roactemra],1
-arginine vasopressin,1
-amlodipine 5 mg,1
-18f-flutemetamol,1
-levalbuterol tartrate mdi,1
-sunitinib malate,1
-phenytoin sodium (brand name vs generic drugs),1
-thalidomide,1
-esomeprazole,1
-gs-5745,1
-midazolam maleate tablets,1
-carbocysteine 375 mg,1
-qax576,1
-ipratropium plus salbutamol udv,1
-(arm closed) nafamostat mesilate,1
-insulin viaject™ (90%),1
-dexamethasone sodium phosphate injection,1
-gdc-0853,1
-inhaled treprostinil,1
-genvoya,1
-levonorgestrel ius,1
-ban2401 2.5 mg/kg,1
-foster bdp/formoterol,1
-acd856,1
-bi 1744 cl 10 âµg,1
-enfuvirtide,1
-sam-531 and gemfibrozil,1
-dose level c / brinzolamide 1% ophthalmic suspension,1
-(arm closed) dalteparin,1
-rilpivirine (rpv) tablet,1
-peginterferon alfa-2a,1
-lumateperone,1
-rivastigmine,1
-ckd-393 formulation i,1
-theophylline,1
-lt-002 (lactobacillus reuteri atg-f4,1
-nevirapine,1
-dexrazoxane,1
-viread 300mg,1
-intensive chemotherapy and hematopoietic stem cell rescue,1
-matched vehicle,1
-antidiabetic,1
-sargramostim,1
-folfox regimen,1
-brivaracetam,1
-"tenofovir, emtricitabine, lopinavir/r",1
-felden (piroxicam) tablets,1
-2% rebamipide liquid,1
-aripiprazole (bms-337039),1
-progestin contraceptive (jadelle),1
-i-123 ioflupane solution injection prior to spect scan (datscan),1
-therapeutic hydrocortisone,1
-topiramate add-on therapy,1
-diazepam buccal film,1
-octreotide,1
-tenofovir gel,1
-hokunalin (tulobuterol) tape,1
-epinephrine,1
-fluticasone 125/formoterol 5,1
-tenofovir 300mg oral tablet,1
-pf-04965842 100 mg,1
-tpi-287 20 mg/m2,1
-atorvastatin calcium,1
-oral hepatic directed vesicles (hdv)-insulin (u-15),1
-abatacept,1
-cin-107,1
-asp1941,1
-azli 75 mg two times a day (bid)/three times a day (tid),1
-dapsone,1
-hfa mdi,1
-diprosone,1
-trabodenoson 6.0% qd,1
-brinzolamide 1% ophthalmic suspension azopt®,1
-carvedilol controlled release formulation,1
-gx-188e,1
-sips-2209-1,1
-6-thioguanine,1
-iron isomaltoside/ferric derisomaltose,1
-ephedrine 10mg,1
-mesna,1
-dapagliflozin 10mg tab,1
-nivolumab,1
-"abacavir sulfate, lamivudine and zidovudine",1
-10% glucose solution,1
-phase iib formulation,1
-ropivacaine,1
-estrogen,1
-mk0249,1
-perampanel,1
-carraguard (pc-515),1
-salmeterol,1
-biphasic insulin aspart 30,1
-experimental: alz-801,1
-sildenafil (50 mg),1
-keytruda®,1
-hydralazine and valproic acid: cohort 0,1
-recombinant human interleukin-15 (rhil-15),1
-donepezil hydrochloride,1
-"ckd-501, d745, d150",1
-anti-infective drugs,1
-fluticasone propionate/salmeterol,1
-bi 1744 cl + bi 54903 xx fdc,1
-estrogen and progesterone,1
-latanoprost ophthalmic solution 0.005% (xalatan®),1
-br1019-1,1
-slow dissolution variant 2,1
-liposomal doxorubicin,1
-twhf,1
-shr0302,1
-methotrexate (mtx),1
-f-18-fdg,1
-vas203,1
-fulvestrant,1
-pentamidine isethionate,1
-saline,1
-tiotropium bromide 18mcg,1
-ketorolac,1
-ro 24-7429,1
-tfv/lng ivr,1
-shr0302 tablets,1
-valproate,1
-dose level 3,1
-saline solution,1
-ciclesonide (xrp1526),1
-cisplatine teva®,1
-rituximab [mabthera/rituxan],1
-pbf-680,1
-tenofovir disoproxil fumarate,1
-phenytoin (ascoli),1
-platelet antiaggregant,1
-haloperidol decanoate,1
-ritonavir,1
-dasatinib,1
-interleukin-2 (il-2),1
-methylprednisolone,1
-dose level 1,1
-ro5190591,1
-folfox-4,1
-propranolol la,1
-pet mpi,1
-tiotropium handihaler,1
-cab ula,1
-imatinib,1
-ras-antagonist and beta-blocker up-to maximal dosages,1
-bibf 1120 h + docetaxel h,1
-donepezil hcl,1
-eslicarbazepine acetate and microginon®,1
-ubrogepant,1
-cavosonstat,1
-dmards (disease-modifying antirheumatic drugs),1
-palonosetron,1
-dostarlimab in combination antiretroviral therapy,1
-alt-711,1
-ibrutinib,1
-c-13 labeled oxalate,1
-raltegravir potassium,1
-avp-786,1
-bimatoprost and timolol,1
-jnj-63733657,1
-caffeine,1
-valsartan + amlodipine 40/2.5 mg,1
-epinastine,1
-ziltivekimab d,1
-e2007 (perampanel),1
-omalizimab,1
-belatacept,1
-zonisamide low dose group,1
-cannabidiol,1
-hyperinsulinemic euglycemic clamp,1
-statins (cardiovascular agents),1
-10 mg tablet of montelukast (singulair),1
-formoterol 12 μg,1
-methotrexate - immediate,1
-tll-018,1
-br1019,1
-fluocinonide ointment,1
-amlodipine,1
-clarithromycin,1
-benralizumab arm c,1
-candesartan thiazide,1
-refresh tears lubricant eye drops (allergan),1
-efavirenz tablet,1
-cnto 1959 + mtx (group 4),1
-vildagliptin 50 mg oral tablet,1
-comparator: timolol,1
-lutetium lu 177-psma-617,1
-amphotericin b 0.5 mg/kg/day i.v. combined with flucytosine four times per day orally for the first 4 weeks.,1
-glycopyrrolate,1
-balanced crystalloid solution,1
-eflornithine,1
-lopinavir/ritonavir standard dose according to who simplified dosing table,1
-primec,1
-"jnj-54861911, 10 milligram (mg)",1
-pregabalin + vitamin b fixed dose,1
-clobetasol ointment,1
-xl765 (sar245409),1
-standard platinum-based chemotherapy,1
-broncho-vaxom,1
-trifarotene,1
-glucose 8 g coated beads (47% w/w),1
-bi 1744 cl 5 âµg,1
-fluticasone evohaler,1
-mometasone furoate,1
-estramustine,1
-oxygen,1
-"diazepam buccal soluble film 5, 7.5,10, 12.5,15 or 17.5 mg with individual dose determined according to age and weight category",1
-pvb protocol,1
-dextrose,1
-hydralazine and valproic acid: cohort 5,1
-"rituximab, mitoxantrone, bendamustine",1
-dtg/3tc,1
-vitamin d - cholecalciferol 400 iu,1
-ro5024048,1
-xpro1595,1
-lomustine,1
-bay1213790 (osocimab),1
-"pletal (cilostazol) 50 mg tablets (otsuka pharma co, ltd., usa)",1
-add vildagliptin,1
-berodual® respimat ® high dose,1
-metformin 1000 mg oral tablet,1
-comparator: mk0752.,1
-mk-5475,1
-"vayarin®, supplementation of n-3 pufa",1
-treprostinil sodium,1
-iron sucrose,1
-diacerein,1
-bey2153,1
-ipg1094,1
-emla cream 5%,1
-nitrous oxide,1
-art,1
-radium-223 dichloride,1
-flutiform,1
-maraviroc,1
-vak694,1
-subetta,1
-rosiglitazone,1
-doxorubicin,1
-desflurane,1
-clonidine,1
-cenobamate,1
-technosphere insulin sar439065 afrezza®,1
-levodopa-carbidopa intestinal gel,1
-fluticasone 250/salmeterol 25,1
-topotecan,1
-ad109,1
-tumor necrosis factor,1
-"telmisartan, ramipril",1
-incb007839,1
-high dose device,1
-lamotrigine tablets 25/100 mg,1
-0.9% saline in 5% dextrose (intravenous),1
-mometasone furoate/formoterol 200/10 mcg,1
-midodrine hcl,1
-verapamil,1
-glucose 12 g coated beads (60% w/w),1
-travoprost ophthalmic solution 0.004% with sofzia® preservative system (travatan z®),1
-omega-3 and vitamin e supplementation,1
-combivent cfc-mdi,1
-amprenavir,1
-lopinavir/ritonavir low dose ( 70% of who recommended dosing table),1
-roflumilast,1
-oral corticosteroids,1
-ustekinumab + mtx (group 2),1
-ckd-828,1
-zx008 (fenfluramine hydrochloride),1
-dimebon + omeprazole,1
-fluticasone evohaler pmdi,1
-br3005-1,1
-glimepiride upto 4 mg oral tablet,1
-stk-001,1
-amyloid-β radiopharmaceutical (11c-pib or 18f-florbetaben or 18f-nav-4694 or 18f-florbetapir),1
-brivaracetam (ucb34714),1
-z7200,1
-cyclosporin a,1
-jnj-54861911 160 mg,1
-escitalopram,1
-ckd-383,1
-raltegravir; maraviroc; darunavir; ritonavir; tenofovir/emtricitabine,1
-benazepril,1
-"sips-2209-2, sips-2209-3",1
-brexidol (piroxicam) tablets,1
-simvastatin,1
-donepezil,1
-gefitinib,1
-prednisolone (psl),1
-epirubicin,1
-valsartan + amlodipine 80/2.5 mg,1
-ac-1204,1
-triamcinolone,1
-sinunase,1
-busulfan,1
-metformin hydrochloride,1
-selective serotonin reuptake inhibitors,1
-fluticasone propionate 250 mcg and salmeterol xinafoate 50 mcg inhalation powder/respirent pharmaceuticals,1
-rilpivirine/tenofovir disoproxil fumarate/emtricitabine fdc,1
-ckd-395 0.25/750mg,1
-lu-177-dotatate,1
-atazanavir (reyataz),1
-norvir for cycle 1 and ritonavir for cycle 2,1
-durvalumab,1
-dccr,1
-experimental bapineuzumab,1
-fluticasone furoate/vilanterol,1
-tiotropium + olodaterol,1
-sevikar,1
-azelastine hcl oph sol+simulating epinastine hcl oph soln,1
-salmeterol xinafoate,1
-sulfamethoxazole,1
-beclomethasone dipropionate 640,1
-epinastine nasal spray,1
-vildagliptin,1
-protrans,1
-topical insulin (20 units),1
-folfirinox,1
-treatment group,1
-mitomycin-c sponge,1
-cetugex™,1
-levetiracetam,1
-galantamine and donepezil,1
-ranitidine hcl,1
-celecoxib+pregabalin+vitamin b fixed dose,1
-levetiracetam/clonazepam,1
-standard of care treatment for chemotherapy induced nausea and vomiting (cinv),1
-"valsartan+amlodipine combination, valsartan, amlodipine",1
-ric,1
-oc containing ee and net,1
-normal saline 5ml,1
-"grt-r914, samrna-spikebeta-tce9",1
-amlodipine/valsartan,1
-folic/folinic acid,1
-gvhd prophylaxis,1
-cnto 6785 200 mg,1
-xl147 (sar245408),1
-canakinumab (acz885),1
-oc000459,1
-simvastatin 20 mg,1
-meloxicam ampoule,1
-ritonavir for cycle1 and norvir for cycle 2,1
-hydroclorothiazide,1
-ezogabine,1
-bi 54903 xx,1
-bibf 1120 m + docetaxel m,1
-enoxaparin,1
-erythromycin,1
-lidocaine,1
-abatacept (bms-188667),1
-latanoprost,1
-gwp42003-p,1
-sitagliptin phosphate,1
-bff mdi (pt009) 160/9.6 μg,1
-add-on low dose astragalus,1
-daunorubicin hydrochloride,1
-"acetylsalicylic acid (aspirin complex, baye4465) + pseudoephedrine",1
-niraparib,1
-trabodenoson 3.0% qd,1
-"jnj-54861911, 50 mg",1
-pseudoephedrine 120 mg,1
-antineoplaston therapy (atengenal + astugenal),1
-aliskiren,1
-bi 1744 cl 2 âµg,1
-brand name travoprost,1
-maribavir,1
-lamotrigine (lamictal® (registered trademark),1
-taf,1
-betamethasone 4 mg/ml,1
-dulaglutide,1
-benralizumab arm b,1
-rosiglitazone (4 mg)/day,1
-silimarine,1
-golimumab,1
-standard of care single agent chemotherapy,1
-racemic albuterol mdi,1
-carvedilol mr,1
-gabapentin (neurontin® (registered trademark)),1
-divalproex sodium (brand name vs generic drugs),1
-fd&c blue # 2,1
-ga-68-dotatate,1
-rapid-acting insulin analogs,1
-formoterol inhalation solution,1
-norvasc®,1
-dose level b / brinzolamide 1% ophthalmic suspension,1
-pazopanib,1
-st. john's wort,1
-azd5672,1
-bupropion,1
-diphenhydramine 25 mg,1
-paliperidone,1
-e2020,1
-methotrexate; sulfasalazine; hydroxychloroquine;leflunomide,1
-"ephedrine, continuous infusion",1
-lpm3480392 injection,1
-mem 1003,1
-incb161734,1
-lisinopril,1
-peg-interferon a-2b + ribavirin,1
-indocyanine green,1
-ustekinumab + mtx (group 3),1
-"topiramate, phenytoin",1
-omeprazole 20mg,1
-treprostinil diethanolamine,1
-ly3954068,1
-entecavir,1
-corticotherapy post-transplantation,1
-vincristine,1
-brinzolamide/timolol 10 mg/1 ml-5 mg/1 ml ophthalmic suspension,1
-methazolamide,1
-beclomethasone dipropionate hfa nasal aerosol,1
-"insulin glulisine, insulin glargine",1
-pf-04171327,1
-vesnarinone,1
-mct,1
-aee788,1
-cobicistat,1
-endostatin,1
-etanercept via autoinjector a,1
-valsartan + amlodipine,1
-florbetapir (18f),1
-lb4330,1
-relamorelin,1
-levetiracetam (brand name vs generic drugs),1
-caffeine citrate 30 mg/kg,1
-hydrochlorothiazide,1
-oxcarbazepine,1
-indacaterol 150 μg,1
-fish oil supplement,1
-lamotrigine compressed tablet,1
-glucose 12 g uncoated beads,1
-czp,1
-novasoy,1
-ro5466731,1
-chemotherapy drug,1
-tenofovir alafenamide 25 mg,1
-naproxen sodium (aleve),1
-extended release metformin hydrochloride,1
-"ephedrine, bolus",1
-pazopanib plus gemcitabine,1
-abbv-011,1
-"atropine eye drops, 0.01%",1
-parp inhibitor,1
-horse anti-thymocyte globulin,1
-truvada,1
-beclomethasone dipropionate via 320 mcg mdi,1
-irinotecan,1
-cocaine hydrochloride,1
-vitamin k1 tablets,1
-empagliflozin,1
-hydrocodone er,1
-amg 650,1
-"optimizing therapy with antiepileptic drugs (carbamazepine, phenytoin, valproic acid)",1
-subcutaneous lenacapavir,1
-atacand®,1
-omeprazole,1
-symbicort® turbohaler®,1
-erlotinib + sirolimus,1
-betneval ointment - non-desquamated zone,1
-cfz533 active -cohort 3,1
-nabilone,1
-cab la,1
-aclidinium bromide 400 μg bid,1
-navitoclax,1
-e/c/f/taf,1
-albendazole,1
-valaciclovir 500mg tablet,1
-vay736,1
-anle138b,1
-itacitinib,1
-glimepiride (hoe490),1
-ezpap,1
-hfo mdi,1
-afatinib,1
-chlorthalidone,1
-[123i] av-151,1
-l-carnitine,1
-ff mdi (pt005) 9.6 μg,1
-pbft02,1
-hydralazine and valproic acid: cohort -1,1
-phenytoin (vega baja),1
-trazodone,1
-betamethasone oral tablet,1
-pegylated recombinant human granulocyte colony-stimulating factor,1
-fluticasone propionate,1
-saline 0.9%,1
-sabril,1
-cefuroxime 3g,1
-betamethason sodium phosphate,1
-k-877-er,1
-"latanoprost, dorzolamide",1
-dose level a / brinzolamide 1% ophthalmic suspension,1
-dose level 4,1
-gw274150,1
-itepekimab (sar440340),1
-gdc-0068,1
-valsartan 40 mg,1
-aliskiren/amlodipine,1
-shr-1703,1
-atenolol thiazide,1
-ipratropium bromide high dose,1
-bhv-7000,1
-spect mpi,1
-namilumab,1
-abiraterone acetate,1
-risankizumab,1
-beclometasone dipropionate 100 µg + formoterol fumarate 6 µg,1
-brimonidine tartrate,1
-"cefuroxime 1,5g",1
-cd10367 3% solution - desquamated zone,1
-aclidinium 400 μg / formoterol 6 μg,1
-11c-mc1,1
-fentanyl transdermal patch,1
-fecal microbiota suspension,1
-nco-48 fumarate 20 mg,1
-valsartan + amlodipine 80/5 mg,1
-alcohol,1
-bff mdi (pt009) 320/9.6 μg,1
-campath,1
-cabotegravir (cab) tablet,1
-oral hepatic directed vesicles (hdv)-insulin (u-5),1
-ezetimibe,1
-magnesium sulfate loading dose only,1
-aclidinium 400 μg,1
-incb009471,1
-darunavir,1
-pravastatin,1
-": insulin, lispro and regular insulin",1
-18f-flortaucipir radiopharmaceutical,1
-dosage of calcium edetate de sodium,1
-carmoterol (chf 4226),1
-lamiduvine (epivir),1
-efavirenz,1
-ima-026,1
-vitamin d3 - cholecalciferol 2000 iu,1
-viread® (tdf),1
-nnc0215-0384,1
-ace inhibitor,1
-nva237 50µg once daily,1
-0.75% mdi-1228_mesylate gel plus standard of care,1
-saxagliptin,1
-ly2062430,1
-bat1806 injection,1
-pd-1 and chemotherapy,1
-osimertinib,1
-galantamine hydrobromide,1
-ranibizumab (lucentis),1
-tmc114,1
-gw685698x,1
-bi 655064,1
-candesartan,1
-gemnabp,1
-enoxaparin 0.5 mg/kg once daily,1
-clin b (chop- campath) chemo-immunotherapy,1
-gsi 136,1
-amphotericin b 0.7 mg/kg/day i.v. combined with flucytosine four times per day orally for the first 4 weeks.,1
-eslicarbazepine acetate,1
-fluticasone/salmeterol (advair diskus),1
-qmf149,1
-11c-ps13,1
-test treatment e,1
-chf 1531 pmdi,1
-venetoclax,1
-ubiquinol,1
-erlotinib,1
-abediterol,1
-dexamethasone oral tablet,1
-remdesivir,1
-bms-986195,1
-transdermal estradiol patch,1
-ipratropium bromide / albuterol,1
-jnj-54861911 1mg,1
-ld-aminopterin,1
-betamethasone 24 mg,1
-nelfinavir,1
-conditioned media,1
-mm-093,1
-atropine,1
-normal saline 20ml/kg,1
-slow dissolution variant 1,1
-sotatercept 0.3 mg/kg escalating to 0.7 mg/kg,1
-seretide diskus® 250/50 inhalation powder/gsk,1
-"grt-r912, samrna-spikebeta-tce11",1
-tranylcypromine,1
-levodopa-carbidopa immediate release (lc-ir) tablets,1
-200mg cannabidiol by capsules twice daily,1
-pt001 mdi,1
-salmeterol-fluticasone,1
-mtps9579a,1
-bendamustine,1
-rapamycin,1
-nn9924 (oral),1
-descovy® (taf/ftc),1
-jnj-54861911 3 mg,1
-azd4604,1
-r-licarbazepine,1
-oxymetazoline,1
-clofarabine,1
-gsk1827771,1
-optimized background regimen,1
-f/taf,1
-gwp42003-p 20 mg/kg/day dose,1
-thiazide candesartan,1
-exatecan mesylate,1
-nn9924 (i.v.),1
-bupivacaine 0.25% with epinephrine,1
-dry powder mannitol,1
-saquinavir,1
-ac480,1
-ly3541860,1
-etanercept via autoinjector b,1
-azithromycin,1
-humibid® and hydrocodone bitartrate tablet,1
-serevent® diskus®,1
-insulin degludec,1
-ivermectin,1
-fluticasone furoate nasal spray 110 mcg,1
-aminophylline and methazolamide,1
-abc/dtg/3tc str - tablet,1
-sotatercept 0.3 mg/kg,1
-temsirolimus,1
-abilify maintena,1
-neostigmine,1
-favipiravir,1
-reference product,1
-seladelpar 5-10 mg,1
-atazanavir,1
-insulin glargine (u300),1
-"lamotrigine generic ""a"" lamotrigine generic ""b"" lamotrigine ""brand""",1
-aumolertinib,1
-rilpivirine - injectable suspension (rpv la),1
-oxaliplatin,1
-inhaled pt001,1
-khk6640,1
-vilanterol,1
-epinastine + pseudoephedrine combination,1
-mf mdi 200 mcg,1
-dapa tx,1
-ciclesonide,1
-lt3 (liothyronine),1
-keppra xr,1
-mrz-99030 eye drops 20mg/ml,1
-nl-scn2a-002,1
-ephedrine 5mg,1
-dextromethorphan,1
-fcn-159,1
-ixabepilone,1
-diphenhydramine hydrochloride,1
-dorzolamide (as dorzolamide hydrochloride) 20 mg/ml and timolol (as timolol maleate) 5 mg/ml eye drops,1
-deutetrabenazine,1
-topiramate monotherapy,1
-potassium magnesium citrate (kmgcit),1
-clinical tapering strategy,1
-bay 43-9006,1
-amlodipine 2.5 mg,1
-celestone soluspan 6mg/ml suspension for injection,1
-nelfinavir mesylate,1
-gsk256066,1
-telmisartan and amlodipine,1
-hydralazine and valproic acid: cohort 2,1
-procarbazine,1
-folfox-7,1
-lipegfilgrastim,1
-pembrolizumab,1
-4% rebamipide liquid,1
-seladelpar 10 mg,1
-rbv,1
-sabirnetug,1
-soticlestat,1
-grazax,1
-non-biologic disease modifying anti-rheumatic drug (dmard),1
-gb001,1
-d-cycloserine,1
-ne3107,1
-lbal,1
-microginon®,1
-bibf 1120 l + docetaxel m,1
-40mg azilsartan tablets,1
-ephedrine 15mg,1
-dimebon alone,1
-adebrelimab,1
-gsi-953,1
-sodium valproate,1
-pharmacological intensification based on olmesartan,1
-ucb-j,1
-belimumab,1
-lamivudine+oxymatrine capsules,1
-al-37807,1
-lacosamide,1
-guselkumab,1
-ad-209,1
-isotretinoin,1
-galunisertib,1
-conventional dmards,1
-zalcitabine,1
-lipoic acid plus omega-3 fatty acids,1
-salbutamol 400mcg,1
-ruboxistaurin,1
-fenfluramine,1
-epoch-r,1
-pregabalin 150mg,1
-davunetide,1
+Drug,DegreeCentrality,EigenvectorCentrality,BetweennessCentrality,ClusteringCoefficient,RandomWalkCentrality
+sitagliptin phosphate,0.08636363636363636,0.008013797487027291,0.0035193821947559455,0.6273115220483642,0.0034453930308986315
+adenosine,0.0022727272727272726,8.759937185100996e-52,0.0,0.0,0.0023823704586063135
+rosiglitazone,0.32045454545454544,0.16926084765522592,0.11409558474026564,0.2822695035460993,0.008899589146864327
+bendamustine hydrochloride,0.02727272727272727,0.005014375239207793,4.185880195904136e-05,0.9545454545454546,0.001644566342233015
+pyrimethamine,0.125,0.12653944510372417,0.003601558816563483,0.8673400673400673,0.002957040331013719
+teriparatide,0.09545454545454544,0.027666545261136252,0.009235927047207403,0.7491289198606271,0.0028836546281255262
+lenograstim,0.011363636363636364,0.00033225732961323376,0.0,1.0,0.0008543355040039639
+nebivolol,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+niacinamide,0.09772727272727272,0.03931366266639298,0.012673431352246842,0.867109634551495,0.0033484996365146756
+azacitidine,0.031818181818181815,0.0008788800959003541,0.0003864472380521339,0.6703296703296703,0.0023908926462002066
+alemtuzumab,0.038636363636363635,0.008283693440324508,0.0009144663488210669,0.5514705882352942,0.0022522441784848467
+sevoflurane,0.07727272727272727,0.015011860195749419,0.0016262757298453618,0.7700534759358288,0.0036586191052767033
+carbamates,0.07045454545454545,0.014651309105706093,0.0006600533746604313,0.9096774193548387,0.00269692919925003
+sevelamer,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+influenza vaccines,0.00909090909090909,0.004051540956669756,0.0,1.0,0.0006687455868772999
+olmesartan medoxomil,0.06136363636363636,0.0046141662852782475,0.0003020494939309166,0.9430199430199431,0.002528414260297428
+loratadine,0.07272727272727272,0.01479176429814794,0.004690782151770412,0.782258064516129,0.0030333423098815814
+benzolamide,0.022727272727272728,0.0009670539952767895,0.0,1.0,0.0014846963505554722
+clopidogrel,0.006818181818181818,0.0007623009475241334,9.491268033409264e-06,0.6666666666666666,0.0009664846298366651
+estradiol,0.004545454545454545,0.0012621582734515168,0.0,1.0,0.000977010605433526
+ramipril,0.11818181818181818,0.011009211539764313,0.02406504000847707,0.47888386123680243,0.004250713111743035
+leflunomide,0.08863636363636364,0.028354171191215003,0.00045980567365936975,0.8906882591093117,0.003113201571537004
+valacyclovir,0.11136363636363636,0.043294166170163004,0.008148683834710947,0.6964285714285714,0.003408007448629758
+lithium carbonate,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+"elvitegravir, cobicistat, emtricitabine, tenofovir disoproxil fumarate drug combination",0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+pramipexole,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+beclomethasone,0.07272727272727272,0.01583592588380353,0.0009110751904111978,0.8185483870967742,0.0027317632442586696
+fluorouracil,0.06363636363636363,0.012054071741384256,0.004049966846839589,0.47883597883597884,0.0035617295160401577
+hydroxychloroquine,0.09772727272727272,0.031813274163688864,0.0031310266728603593,0.7486157253599114,0.0034476144203284408
+panitumumab,0.024999999999999998,0.004003443379130513,0.0006472494854253405,0.5818181818181818,0.0013415954445094912
+mebendazole,0.01818181818181818,0.0008696061772354304,0.0,1.0,0.0028273511516790978
+vitamin b 6,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+capecitabine,0.015909090909090907,0.003601157609166022,2.3579837877462954e-05,0.8095238095238095,0.000990831733696368
+acetylcarnitine,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+phenazopyridine,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+inosine,0.006818181818181818,0.000775451669615114,0.0,1.0,0.0009775865261755232
+octreotide,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+amiodarone,0.004545454545454545,0.0001655006667266494,0.0,1.0,0.0006994549917494128
+islet amyloid polypeptide,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+rifampin,0.20454545454545453,0.1567908651507052,0.010448932896039646,0.5215980024968789,0.005581206061240734
+prednisone,0.21818181818181817,0.06819822757446135,0.0532324850629091,0.28399122807017546,0.007066133597273021
+granulocyte colony-stimulating factor,0.07045454545454545,0.013177793396480848,0.001902331135783489,0.5913978494623656,0.003799294918919208
+canagliflozin,0.05454545454545454,0.007324319770868855,0.0,1.0,0.0020002589321135842
+tretinoin,0.02727272727272727,0.0008665054517398713,0.00010289590666879805,0.8181818181818182,0.0018416375796508513
+betaine,0.029545454545454545,0.001574961689823464,0.0,1.0,0.001421005866295705
+ropivacaine,0.006818181818181818,0.0006039259035640766,0.0,1.0,0.0005957665361508129
+fluticasone-salmeterol drug combination,0.06818181818181818,0.014840681089881456,0.0005034631451627782,0.9103448275862069,0.0027510923593348836
+folic acid,0.17045454545454544,0.06391694649902514,0.012519944934615326,0.518918918918919,0.004560569333115937
+minocycline,0.004545454545454545,3.686488807522214e-05,0.0,1.0,0.0005981316770723522
+indinavir,0.12045454545454545,0.1277565458176497,0.0005791901379403161,0.9426705370101597,0.003354089378276414
+interferon beta-1a,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+metformin,0.1409090909090909,0.011682662878636335,0.05342851427672825,0.3046007403490217,0.0071292190177408956
+methylphenidate,0.10227272727272727,0.04068845585914368,0.00113464390740963,0.8323232323232324,0.003212242625885088
+salmeterol xinafoate,0.07272727272727272,0.015337856796978468,0.001129988825776337,0.8286290322580645,0.003460079357792352
+ritonavir,0.21818181818181817,0.15838437684932127,0.02096406449692098,0.4629385964912281,0.006448301174930958
+insulin aspart,0.056818181818181816,0.007390132635353589,0.0002696876959238572,0.9266666666666666,0.0022748961435870474
+mometasone furoate,0.06363636363636363,0.01472067790065966,0.0,1.0,0.0021015447939821746
+"analgesics, opioid",0.031818181818181815,0.006876742086237608,0.0,1.0,0.0013742832219207689
+bupivacaine,0.004545454545454545,0.0013980360741172849,0.0,1.0,0.0006258416690214487
+sirolimus,0.02727272727272727,0.005490061510685682,0.006043568224131805,0.30303030303030304,0.00233031675764947
+trastuzumab,0.013636363636363636,0.0032824765659643703,0.0,1.0,0.0008532822582045037
+didanosine,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002840181879264964
+tadalafil,0.00909090909090909,0.0010063646581396008,0.004275689404916004,0.16666666666666666,0.0010749964988123297
+prednisolone,0.19545454545454544,0.041011222614566835,0.058466511651927996,0.32694938440492477,0.006964922982245496
+nivolumab,0.029545454545454545,0.005163205686190125,0.0009024187831987402,0.5897435897435898,0.001392841206796509
+genistein,0.015909090909090907,0.003549551020613477,0.00025281066410748684,0.7142857142857143,0.0010403306600953702
+levalbuterol,0.06363636363636363,0.01472067790065966,0.0,1.0,0.0021015447939821746
+calcium citrate,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+midazolam,0.07045454545454545,0.014651309105706093,0.0006600533746604313,0.9096774193548387,0.00269692919925003
+paroxetine,0.0022727272727272726,8.119815086003322e-05,0.0,0.0,0.0004388944537493815
+"ferric oxide, saccharated",0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+hydroxyurea,0.12954545454545455,0.12620385967344147,0.007155950721077413,0.8114035087719298,0.003809294127483836
+simvastatin,0.06363636363636363,0.01472067790065966,0.0,1.0,0.0021015447939821746
+riboflavin,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+norethindrone acetate,0.004545454545454545,0.0012621582734515168,0.0,1.0,0.000977010605433526
+vinorelbine,0.024999999999999998,0.0016102860855979322,0.00011747571434450954,0.7454545454545455,0.0018992638710855353
+spironolactone,0.09999999999999999,0.010344623142858089,0.0014711538261640434,0.6405919661733616,0.003699108644536784
+lacosamide,0.0659090909090909,0.014519761158059493,0.0,1.0,0.002175554497093092
+angiotensin-converting enzyme inhibitors,0.06136363636363636,0.0046141662852782475,0.0003020494939309166,0.9430199430199431,0.0025953323053233227
+glucocorticoids,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+busulfan,0.056818181818181816,0.009743913700814186,0.0009433071954155817,0.7366666666666667,0.002486912281658261
+oxytocin,0.00909090909090909,0.0007582460829761419,0.012673431352246842,0.5,0.001934453910427249
+ifosfamide,0.05454545454545454,0.01010873863517276,0.0005729975811478607,0.7210144927536232,0.0022764025642310007
+lenalidomide,0.038636363636363635,0.005966515477315879,0.003173055295761462,0.4852941176470588,0.001962540198041715
+decitabine,0.024999999999999998,0.0006898076923533493,8.311983833592222e-05,0.7818181818181819,0.001701611787817379
+mycophenolic acid,0.020454545454545454,0.0024338849501303744,0.0047099038223747435,0.3611111111111111,0.001579955527676976
+felodipine,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+mesalamine,0.0022727272727272726,0.0002982232289067349,0.0,0.0,0.0004240977026029782
+delavirdine,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+insulin glargine,0.09772727272727272,0.009606986223796977,0.00823524171104289,0.5138427464008859,0.004142972904343791
+alitretinoin,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+phenylephrine,0.006818181818181818,0.000658880522060471,0.0,1.0,0.0006909667794977585
+enoxaparin,0.01818181818181818,0.0011879194003239205,0.0,1.0,0.0009708932069746009
+azlocillin,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+lidocaine,0.03409090909090909,0.0076404715063185455,0.0019488970191844598,0.8666666666666667,0.001439166683923938
+erlotinib hydrochloride,0.020454545454545454,0.0024950847177344503,0.00015620475243623448,0.8055555555555556,0.001248396094782836
+allopurinol,0.029545454545454545,0.001574961689823464,0.0,1.0,0.0016655217955218295
+vitamin b 12,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+arginine,0.015909090909090907,0.0009320969815603008,0.0,1.0,0.0008069063689306493
+riluzole,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+amoxicillin-potassium clavulanate combination,0.0022727272727272726,0.002855047686010691,0.0,0.0,0.0004100566370675091
+glycopyrrolate,0.09772727272727272,0.01734244527508046,0.00898641101929789,0.5227021040974529,0.004237516466436106
+cobicistat,0.1159090909090909,0.1252714142128008,0.0,1.0,0.0028891463973637664
+abiraterone acetate,0.01818181818181818,0.0024649697833177427,0.0,1.0,0.0011334128237970907
+thyroxine,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+atorvastatin,0.22727272727272727,0.07094372558026402,0.03459965285670347,0.36767676767676766,0.00647652205676998
+fenofibrate,0.031818181818181815,0.001575518439137443,0.0042451853385794165,0.8571428571428571,0.0018013381932673622
+aripiprazole,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+prebiotics,0.0659090909090909,0.014519761158059493,0.0,1.0,0.0020543658033304697
+lisinopril,0.06136363636363636,0.0046141662852782475,0.0003020494939309166,0.9430199430199431,0.002528414260297428
+carmustine,0.029545454545454545,0.005125481577360586,4.983804114556984e-05,0.8846153846153846,0.0019330066800111987
+vorinostat,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+homoharringtonine,0.01818181818181818,0.0007763940023714025,0.0,1.0,0.0010098424056264655
+omalizumab,0.07954545454545454,0.014827760631962793,0.018366989895556855,0.653781512605042,0.0037643006218033865
+lubiprostone,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+phenytoin,0.0659090909090909,0.014519761158059493,0.0,1.0,0.002174190447036211
+nimodipine,0.08863636363636364,0.020986121120855274,0.004621332358261145,0.6248313090418354,0.002734068553250026
+ranibizumab,0.011363636363636364,0.0018839581011123351,0.0,1.0,0.0007266533224970565
+ketorolac,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0014846963505554722
+thyroglobulin,0.006818181818181818,6.677849302037293e-05,0.0,1.0,0.0008627247851019763
+cladribine,0.020454545454545454,0.0006774330481928664,0.0,1.0,0.001156768479711624
+vincristine,0.07272727272727272,0.01026327237740624,0.005315978802322478,0.5262096774193549,0.0059390410308471355
+anticonvulsants,0.07045454545454545,0.014651309105706093,0.0006600533746604313,0.9096774193548387,0.00269692919925003
+interferon-alpha,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+valsartan,0.10454545454545454,0.01064204492765741,0.0028385193277934923,0.5932367149758454,0.0045626658832071225
+"fatty acids, omega-3",0.06363636363636363,0.01472067790065966,0.0,1.0,0.0021015447939821746
+atazanavir sulfate,0.1159090909090909,0.1252714142128008,0.0,1.0,0.0028024398499610957
+pioglitazone,0.09545454545454544,0.009541173359312241,0.007600515467709682,0.5365853658536586,0.0038678185177455806
+triamcinolone,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+phentermine,0.03636363636363636,0.0016090495968255761,0.000806752487494613,0.7,0.0019836992921766806
+fentanyl,0.05227272727272727,0.009356043306309167,0.0031681107310372017,0.5177865612648221,0.0019473577214519768
+deferasirox,0.022727272727272728,0.0007121704777280714,0.00024935504134501534,0.8,0.001255011151065795
+calcium,0.1477272727272727,0.0425098404425734,0.013648877280463248,0.5043269230769231,0.004286774308582817
+tenofovir,0.12727272727272726,0.12822886808383593,0.004318524754755387,0.8487012987012987,0.0040405500694267946
+biphasic insulins,0.05454545454545454,0.007324319770868855,0.0,1.0,0.0020002589321135842
+fenoterol,0.022727272727272728,0.002825872118246027,0.0,1.0,0.0009826547197653082
+irbesartan,0.06363636363636363,0.010093315451597914,0.0010084996718313676,0.8888888888888888,0.0022013599980576525
+nasal sprays,0.011363636363636364,0.0012496871267064593,0.0,1.0,0.000778487260254088
+chenodeoxycholic acid,0.0022727272727272726,2.9935065868086898e-05,0.0,0.0,0.00045581443644297846
+imatinib mesylate,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+formoterol fumarate,0.07272727272727272,0.015337856796978465,0.001129988825776337,0.8286290322580645,0.003327219588905098
+temozolomide,0.031818181818181815,0.001442337031267735,0.00129741481642709,0.5274725274725275,0.0035022949767814417
+fluticasone,0.09318181818181817,0.019271292839875966,0.012089032783211877,0.5329268292682927,0.0049064047294772395
+naltrexone,0.0022727272727272726,2.5236532943483412e-05,0.0,0.0,0.0005260040444645983
+tacrolimus,0.15,0.038242001183498235,0.012877796809481326,0.47692307692307695,0.004886036549562801
+methylene blue,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+colesevelam hydrochloride,0.045454545454545456,0.001577512744363704,0.004505845755856534,0.8105263157894737,0.002547375170870782
+linagliptin,0.05454545454545454,0.007324319770868855,0.0,1.0,0.0020002589321135842
+hydroxymethylglutaryl-coa reductase inhibitors,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+mesna,0.031818181818181815,0.002561008005110035,0.0,1.0,0.0013261755305839945
+doxorubicin,0.05909090909090909,0.00976576295170183,0.0013273129426588943,0.6923076923076923,0.002794522326366959
+bumetanide,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+aminolevulinic acid,0.0022727272727272726,0.00018006677664635996,0.0,0.0,0.00044759321080507433
+metoprolol,0.12727272727272726,0.019082127821677036,0.019161373901531407,0.475974025974026,0.004450612499877857
+topiramate,0.09999999999999999,0.01592963600301279,0.016752481840773287,0.5338266384778013,0.0037854268908082246
+rituximab,0.11818181818181818,0.034159260108950505,0.008809475180769634,0.5580693815987934,0.004335095823096945
+gonadotropin-releasing hormone,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+dexmedetomidine,0.10227272727272727,0.020477214232811375,0.007597256430454207,0.5333333333333333,0.004795345026455057
+gabapentin,0.18863636363636363,0.13583465436163758,0.01871734774459722,0.5007346459006758,0.004947513468504938
+perindopril,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+salmine,0.19318181818181818,0.04953527693446165,0.04902145878466647,0.3535014005602241,0.005758032690399421
+abatacept,0.09090909090909091,0.028374225166335008,0.0025772212876581284,0.8474358974358974,0.003429149030471457
+cetuximab,0.013636363636363636,0.00328247656596437,0.0,1.0,0.001377982757577969
+amantadine,0.04090909090909091,0.001572269602440368,0.0,1.0,0.0017867285947179446
+histamine antagonists,0.006818181818181818,0.0003259861046757333,0.0,1.0,0.0007812747704304407
+vildagliptin,0.04090909090909091,0.001572269602440368,0.0,1.0,0.0017867285947179446
+calcitriol,0.013636363636363636,0.0010236988958644037,0.0,1.0,0.0008070699135056196
+doxazosin,0.011363636363636364,0.0012496871267064593,0.0,1.0,0.000778487260254088
+acetylcysteine,0.004545454545454545,0.0004518952272910989,0.0,1.0,0.000501606188616514
+tropisetron,0.011363636363636364,0.0017396334680986204,0.0006281592453889105,0.8,0.0012991581825503023
+ibuprofen,0.12045454545454545,0.04694558966464109,0.007182764071377607,0.6262699564586357,0.0034443587344088664
+medroxyprogesterone,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+antilymphocyte serum,0.00909090909090909,0.0021701136671316264,0.0,1.0,0.0007070210131559847
+pilocarpine,0.013636363636363636,0.00328247656596437,0.0,1.0,0.0008532822582045037
+tryptophan,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+pentamidine,0.038636363636363635,0.008831423670324093,0.0,1.0,0.0014990019458709998
+roxithromycin,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+mitomycin,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0014846963505554722
+atrial natriuretic factor,0.0022727272727272726,8.759937185100996e-52,0.0,0.0,0.0023823704586063135
+clonazepam,0.0659090909090909,0.014519761158059493,0.0,1.0,0.002174190447036211
+clobetasol,0.00909090909090909,0.0005246908011261628,0.0001063440703540795,0.5,0.0008749314673772127
+thymidine monophosphate,0.0022727272727272726,0.000167638371430751,0.0,0.0,0.00044543309308332253
+cyclosporine,0.020454545454545454,0.004729087419301275,0.0010320941175954816,0.4166666666666667,0.0011570700594169144
+verapamil,0.0022727272727272726,0.0002789882430054308,0.0,0.0,0.0004289003531482666
+codeine,0.006818181818181818,0.0023211340753263184,0.0,1.0,0.0005402350874559985
+fidaxomicin,0.006818181818181818,1.4956602976796581e-05,0.0,1.0,0.0017801333669107639
+cholinesterase inhibitors,0.10227272727272727,0.04068845585914368,0.00113464390740963,0.8323232323232324,0.003212242625885088
+ceftaroline,0.05454545454545454,0.007324319770868855,0.0,1.0,0.0020002589321135842
+enfuvirtide,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+clonidine,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+emtricitabine,0.12045454545454545,0.12556458183315938,0.0017419910156338987,0.9288824383164006,0.0032856733889875525
+amlodipine,0.12954545454545455,0.018618789683119877,0.013019024625233537,0.43734335839599,0.005413068159478073
+filgrastim,0.011363636363636364,0.0003322573296132338,0.0,1.0,0.0008543355040039639
+polygeline,0.05454545454545454,0.007324319770868855,0.0,1.0,0.0020002589321135847
+cyproterone acetate,0.01818181818181818,0.0024649697833177427,0.0,1.0,0.0011334128237970907
+pregabalin,0.09772727272727272,0.020267367387710032,0.005590603673192336,0.5791805094130675,0.0037351455131797284
+tumor necrosis factor inhibitors,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+triethylenephosphoramide,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+growth hormone,0.12272727272727273,0.12591354939447086,0.005632067158998597,0.8944793850454228,0.003027723010551327
+quercetin,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+lubricant eye drops,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0014846963505554722
+zonisamide,0.0659090909090909,0.014519761158059493,0.0,1.0,0.00205436580333047
+thalidomide,0.15454545454545454,0.12996785769182287,0.017999797228345785,0.6066725197541704,0.00430987420021282
+epinephrine,0.045454545454545456,0.008422944972202067,0.008968119383329686,0.5473684210526316,0.002621116491711311
+bimatoprost,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0014846963505554722
+furosemide,0.07272727272727272,0.005505151262329992,0.002579874930076476,0.719758064516129,0.0028536377359254968
+insulin detemir,0.05454545454545454,0.007324319770868855,0.0,1.0,0.0020002589321135847
+carbamazepine,0.0659090909090909,0.014519761158059493,0.0,1.0,0.0021755544970930925
+daunorubicin,0.02727272727272727,0.0008665054517398713,0.00010289590666879805,0.8181818181818182,0.0018416375796508513
+omeprazole,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+gefitinib,0.031818181818181815,0.002561008005110035,0.0,1.0,0.0013261755305839945
+"insulin, isophane",0.04090909090909091,0.001572269602440368,0.0,1.0,0.0017867285947179446
+modafinil,0.013636363636363636,0.008386763093376505,0.00027036244704065136,0.4,0.0008490612184815839
+etoposide,0.09318181818181817,0.013461296229710614,0.0123870642627383,0.41097560975609754,0.0059387252291714255
+famotidine,0.004545454545454545,0.0033008250228117376,0.0,1.0,0.00045868955161902165
+telmisartan,0.12272727272727273,0.010991210435415238,0.0075486013722149145,0.48287910552061497,0.004787659754624568
+mifepristone,0.0022727272727272726,0.0002216813128424789,0.0,0.0,0.00043712806108997103
+azithromycin,0.06363636363636363,0.01472067790065966,0.0,1.0,0.0021648860445658206
+hypoglycemic agents,0.0022727272727272726,2.984611983844085e-05,0.0,0.0,0.00045404268717994195
+denosumab,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+mirtazapine,0.011363636363636364,0.001329935657529039,0.0042451853385794165,0.6,0.0015868820536170585
+carboplatin,0.09545454545454544,0.005307002462929209,0.013816160973330984,0.32868757259001163,0.007327737813305111
+carticaine,0.031818181818181815,0.006876742086237608,0.0,1.0,0.001374283221920769
+bosentan,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+interleukin-6 inhibitors,0.024999999999999998,0.0009706943180610646,0.0,1.0,0.0014719746930209935
+ribavirin,0.11818181818181818,0.12541599994247465,0.0007664295113237722,0.9630467571644042,0.002941935701137402
+labetalol,0.006818181818181818,0.00037688896174120797,0.0,1.0,0.0005795247958511115
+lapatinib,0.011363636363636364,0.003296086580610185,0.00011161056743245726,0.5,0.000767337928562853
+cilostazol,0.09772727272727272,0.02870004455967065,0.01324933495097569,0.716500553709856,0.003576789172062359
+fibroblast growth factor 7,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+acamprosate,0.004545454545454545,0.002867869813292758,0.0,1.0,0.00046934108701418754
+sodium chloride,0.022727272727272728,0.0030517058030011843,0.0006427524607594871,0.6666666666666666,0.001421790775204006
+vasopressins,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+isotretinoin,0.031818181818181815,0.002561008005110035,0.0,1.0,0.0013261755305839945
+atenolol,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+milnacipran,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+hydrocortisone,0.004545454545454545,0.0002868146878117551,0.0,1.0,0.0007679667846142288
+citalopram,0.024999999999999998,0.00735911657296949,0.0,1.0,0.0010146396305985976
+thioctic acid,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+telbivudine,0.00909090909090909,0.009621185026463967,0.0,1.0,0.0005309384288891188
+losartan,0.09999999999999999,0.005964290877894853,0.004894139173903298,0.554968287526427,0.00416151929359264
+adalimumab,0.09318181818181817,0.029571554552095303,0.0016649334596325976,0.8146341463414634,0.0031743930573502836
+celecoxib,0.04090909090909091,0.009489347769352346,0.005082646913427714,0.5228758169934641,0.0019108668533330817
+cholecalciferol,0.07727272727272727,0.009112087588490593,0.008912161745967987,0.5650623885918004,0.0029074569653300708
+lorazepam,0.0659090909090909,0.014519761158059493,0.0,1.0,0.002174190447036211
+fluorescein-5-isothiocyanate,0.1159090909090909,0.1252714142128008,0.0,1.0,0.0030659760291163593
+interferon alpha-2,0.11818181818181818,0.12545056885862843,0.0008707572620771122,0.9638009049773756,0.002955433599655757
+naloxone,0.12727272727272726,0.04703098475119555,0.009957378741282757,0.5844155844155844,0.003916393167737914
+methotrexate,0.12272727272727273,0.03123473569998428,0.011159407913416767,0.5576519916142557,0.004785021805636299
+albuterol,0.07272727272727272,0.015337856796978465,0.001129988825776337,0.8286290322580645,0.003327219588905097
+bisoprolol,0.09999999999999999,0.010344623142858092,0.0014711538261640434,0.6405919661733616,0.0036991086445367833
+rivastigmine,0.09318181818181817,0.03944862902582555,0.0008684657480378884,0.9536585365853658,0.0026670390691833396
+clofarabine,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+hydrocodone,0.006818181818181818,0.0035580497057803528,0.0,1.0,0.0005960755183653202
+lithium,0.09318181818181817,0.039555430845355996,0.0008111740739283994,0.9512195121951219,0.002592421992709351
+cyclophosphamide,0.1477272727272727,0.022026336745041585,0.06135671451668678,0.21346153846153845,0.009531721675135038
+leukotriene antagonists,0.006818181818181818,0.0003259861046757333,0.0,1.0,0.0007812747704304407
+chlorpromazine,0.02727272727272727,0.0009713808317368056,0.0021174156139987577,0.8484848484848485,0.0018400837155771734
+sulfasalazine,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+maraviroc,0.12045454545454545,0.12556458183315938,0.0017419910156338987,0.9288824383164006,0.002933522524361541
+ipratropium,0.029545454545454545,0.0036179543087516966,0.00013797904778215425,0.8846153846153846,0.0015601582338824163
+probucol,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+ibandronic acid,0.045454545454545456,0.007406050393693078,0.004574508176292064,0.5684210526315789,0.0018513431269900503
+sodium-glucose transporter 2 inhibitors,0.00909090909090909,0.000281605198494413,0.0,1.0,0.0008457701594399775
+antiviral agents,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+pseudoephedrine,0.006818181818181818,0.000658880522060471,0.0,1.0,0.0006909667794977585
+nitroglycerin,0.05909090909090909,0.004596807788626284,0.0,1.0,0.0020442994281348044
+itraconazole,0.0022727272727272726,0.0007782221191064426,0.0,0.0,0.00042035393639355535
+insulin lispro,0.05454545454545454,0.007324319770868853,0.0,1.0,0.0020002589321135847
+silymarin,0.1159090909090909,0.1252714142128008,0.0,1.0,0.0027141875744148424
+pantoprazole,0.04318181818181818,0.001572825432135058,0.0042451853385794165,0.8947368421052632,0.002160427584110934
+"trimethoprim, sulfamethoxazole drug combination",0.04090909090909091,0.008834545465799596,0.0042451853385794165,0.8888888888888888,0.0018645530932377059
+sildenafil citrate,0.0022727272727272726,1.9096588723976197e-05,0.0,0.0,0.0005858283553055099
+darbepoetin alfa,0.01818181818181818,0.0018654197725010066,0.0006908623404525783,0.75,0.0009001799699996319
+valproic acid,0.17954545454545454,0.13475257685049588,0.011609862602073175,0.549172346640701,0.004334225378640359
+docetaxel,0.056818181818181816,0.003966843943557979,0.006110667534714188,0.39,0.0031450974888271783
+epirubicin,0.024999999999999998,0.0009706943180610646,0.0,1.0,0.0014719746930209933
+"budesonide, formoterol fumarate drug combination",0.06363636363636363,0.014720677900659665,0.0,1.0,0.0021015447939821746
+liraglutide,0.10454545454545454,0.008560911429995845,0.006815760610842161,0.4927536231884058,0.00462167058208956
+enalapril,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+cinacalcet,0.013636363636363636,0.0010236988958644037,0.0,1.0,0.0008070699135056196
+certolizumab pegol,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+timolol,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0019732009833450335
+levodopa,0.006818181818181818,0.0011781800780612834,0.0,1.0,0.0006063329307378264
+eplerenone,0.09999999999999999,0.005964290877894853,0.004894139173903298,0.554968287526427,0.003973725073669484
+human growth hormone,0.006818181818181818,1.4956602976796581e-05,0.0,1.0,0.0017801333669107639
+acyclovir,0.12272727272727273,0.12701338132885942,0.0022754633934944707,0.896575821104123,0.0029321843810693237
+raltegravir potassium,0.12727272727272726,0.12970619728742314,0.0011093872240053328,0.8538961038961039,0.0035248895892925807
+simeprevir,0.006818181818181818,0.0077646365211299345,0.0,1.0,0.0004924732375732065
+prostaglandins,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0019732009833450335
+"botulinum toxins, type a",0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+hydrochlorothiazide,0.10454545454545454,0.012706607117972451,0.003201592203512708,0.5942028985507246,0.0046625854023606885
+chloroquine,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+morphine,0.038636363636363635,0.006887485961944947,0.010076795409653802,0.6985294117647058,0.002209006937585223
+torsemide,0.06818181818181818,0.0053198418805652445,0.0013149075921382134,0.7954022988505747,0.002540228193370829
+nicorandil,0.024999999999999998,0.00735911657296949,0.0,1.0,0.0010146396305985976
+vidarabine phosphate,0.03409090909090909,0.002616572329737101,0.004200566829652854,0.580952380952381,0.0024170797777983448
+paclitaxel,0.011363636363636364,0.0011733003341038832,0.0,1.0,0.0009061130443133957
+haloperidol,0.02727272727272727,0.0009713808317368056,0.0021174156139987577,0.8484848484848485,0.0018400837155771732
+"efavirenz, emtricitabine, tenofovir disoproxil fumarate drug combination",0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+pentostatin,0.00909090909090909,0.0036243117455748747,0.0,1.0,0.0006075510389028304
+oxycodone,0.013636363636363636,0.004649645252545314,0.00024311274329648572,0.5333333333333333,0.0009239495613788788
+oxcarbazepine,0.07045454545454545,0.01465130910570609,0.0006600533746604313,0.9096774193548387,0.00269692919925003
+nevirapine,0.12045454545454545,0.1277565458176497,0.0005791901379403161,0.9426705370101597,0.003224366316730732
+glycerylphosphorylcholine,0.0022727272727272726,0.00018167378946725904,0.0,0.0,0.00044103680879252515
+infliximab,0.08863636363636364,0.028354171191215003,0.00045980567365936975,0.8906882591093117,0.003055967131237439
+eszopiclone,0.029545454545454545,0.007793740975976279,0.00012349335429295098,0.7435897435897436,0.001122158714691049
+triptorelin pamoate,0.01818181818181818,0.0024649697833177427,0.0,1.0,0.0011334128237970907
+biological products,0.08181818181818182,0.027158064786769066,0.0,1.0,0.002380114371381135
+alendronate,0.19772727272727272,0.147252003204352,0.012443466309330648,0.5180433039294307,0.004863454274001818
+immunoglobulins,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+dasatinib,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+sunitinib,0.03409090909090909,0.0016171359056321535,0.001939802570138246,0.5714285714285714,0.0021158159599684212
+fluvoxamine,0.00909090909090909,0.004051540956669755,0.0,1.0,0.0006687455868772999
+rosuvastatin calcium,0.004545454545454545,0.0002516163787105658,0.0,1.0,0.0005355869287420025
+cytarabine,0.08409090909090909,0.012849573090679465,0.015401662297545244,0.42342342342342343,0.00517770070880097
+saquinavir,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+angiotensin receptor antagonists,0.05909090909090909,0.004596807788626284,0.0,1.0,0.002109621091581507
+globulins,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+alpha-tocopherol,0.09090909090909091,0.039270338480092155,0.0,1.0,0.002529866185893873
+diphenhydramine,0.020454545454545454,0.002025165711549931,0.001855034378935121,0.5,0.0012528745463456807
+buprenorphine,0.056818181818181816,0.013492567172232852,0.004620327341513657,0.5433333333333333,0.0022414754009237483
+lopinavir,0.12045454545454545,0.1277565458176497,0.0005791901379403161,0.9426705370101597,0.003138382484884504
+pentoxifylline,0.013636363636363636,0.001898154286185655,0.00022240428155838606,0.7333333333333333,0.0009050306920244796
+carnitine,0.08181818181818182,0.02715806478676907,0.0,1.0,0.002380114371381135
+acarbose,0.04090909090909091,0.001572269602440368,0.0,1.0,0.0017867285947179448
+panobinostat,0.14545454545454545,0.1290642595918741,0.01244705473586337,0.6696428571428571,0.003609222243933954
+tirzepatide,0.06363636363636363,0.0026707823310017837,0.0009027908736624482,0.6322751322751323,0.002870262661924101
+donepezil,0.10454545454545454,0.04086674640487707,0.002470027027459708,0.7980676328502415,0.003349524347034346
+antirheumatic agents,0.09090909090909091,0.028372912147828888,0.003474455450823233,0.8461538461538461,0.0033376748172649316
+epoetin alfa,0.038636363636363635,0.0016079736827143214,0.0024566669328384056,0.5808823529411765,0.001942439029063446
+budesonide,0.08409090909090909,0.015715814472843103,0.009429196324067303,0.6306306306306306,0.004396731576394381
+risperidone,0.10227272727272727,0.04068845585914368,0.00113464390740963,0.8323232323232324,0.003212242625885088
+carvedilol,0.07045454545454545,0.015038861692416777,0.000848375985322379,0.8559139784946237,0.002813124311363238
+dexpramipexole,0.06363636363636363,0.014720677900659665,0.0,1.0,0.0021015447939821746
+fenfluramine,0.07272727272727272,0.014703058559426234,0.007126282845338609,0.8205645161290323,0.002693494775101219
+interleukin 1 receptor antagonist protein,0.004545454545454545,0.0010768490158539052,0.0,1.0,0.0004714599246698599
+voriconazole,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+ephedrine,0.006818181818181818,0.00013900205820109967,0.0,1.0,0.0009803706021995796
+levetiracetam,0.10909090909090909,0.017730167549424483,0.02072641661397352,0.4592198581560284,0.004160032567383145
+ondansetron,0.00909090909090909,0.0013294656843968785,0.0,1.0,0.0011883433659819291
+lovastatin,0.09090909090909091,0.039270338480092155,0.0,1.0,0.0025298661858938736
+bortezomib,0.031818181818181815,0.00525338089133498,0.0017569712845859808,0.5824175824175825,0.0018646058714343083
+propranolol,0.06363636363636363,0.014720677900659665,0.0,1.0,0.0021015447939821746
+exenatide,0.06363636363636363,0.0026707823310017837,0.0009027908736624482,0.6322751322751323,0.002870262661924101
+ustekinumab,0.0022727272727272726,0.0005927039436648951,0.0,0.0,0.0004171717104630391
+methionine,0.006818181818181818,0.000775451669615114,0.0,1.0,0.0009775865261755232
+acetazolamide,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+clarithromycin,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002667893516005376
+butyric acid,0.0022727272727272726,0.00018167378946725904,0.0,0.0,0.00044103680879252515
+zalcitabine,0.1159090909090909,0.1252714142128008,0.0,1.0,0.0028401818792649636
+escitalopram,0.16363636363636364,0.05014735403970526,0.014056565613507063,0.47417840375586856,0.005094800452452856
+dextromethorphan,0.04090909090909091,0.001572269602440368,0.0,1.0,0.0017867285947179448
+acetaminophen,0.11818181818181818,0.02695494559537169,0.010507742840280061,0.4374057315233786,0.004045282353358422
+lamotrigine,0.07045454545454545,0.015309793308315398,0.0014356228616543866,0.875268817204301,0.002354663850246264
+tiagabine,0.00909090909090909,0.00045599977864227756,0.0,1.0,0.0007339352410213783
+cannabidiol,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+dexamethasone,0.1590909090909091,0.06525313875863493,0.04642606035540976,0.38923395445134573,0.006746139783140082
+letrozole,0.031818181818181815,0.0010158294362144714,0.001948717469345369,0.6703296703296703,0.0020244198747277273
+ganciclovir,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+latanoprost,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.001850850893263029
+nelfinavir,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+gliclazide,0.05454545454545454,0.007324319770868853,0.0,1.0,0.0020002589321135847
+atropine,0.011363636363636364,0.00029893588556675796,9.9833333665891e-05,0.5,0.0014160499531470432
+leucovorin,0.24318181818181817,0.15046741366725133,0.04849142249252004,0.3729500969846588,0.007194611363210552
+sorafenib,0.00909090909090909,0.00045599977864227756,0.0,1.0,0.0007339352410213783
+methylprednisolone,0.12045454545454545,0.030863407527866014,0.014168409146348093,0.5595065312046444,0.004024599968444969
+bevacizumab,0.05227272727272727,0.0022145268399167404,0.008718277313194203,0.35968379446640314,0.0046144034135930535
+brimonidine tartrate,0.022727272727272728,0.0009670539952767893,0.0,1.0,0.0018508508932630289
+ringer's solution,0.006818181818181818,0.000775451669615114,0.0,1.0,0.0009775865261755232
+orlistat,0.029545454545454545,0.001574961689823464,0.0,1.0,0.001493426868082171
+azathioprine,0.08181818181818182,0.02715806478676907,0.0,1.0,0.002380114371381135
+stavudine,0.1159090909090909,0.1252714142128008,0.0,1.0,0.0028401818792649636
+diazepam,0.022727272727272728,0.0027850286128280597,0.0,1.0,0.0009744327169825164
+pyrazinamide,0.12045454545454545,0.1277565458176497,0.0005791901379403161,0.9426705370101597,0.0034030429386147894
+ketamine,0.07045454545454545,0.01465130910570609,0.0006600533746604313,0.9096774193548387,0.00269692919925003
+clomiphene,0.013636363636363636,0.000533057992268737,0.004757052976943878,0.4,0.0013734626222597919
+dehydroepiandrosterone,0.006818181818181818,0.0026599545977351526,0.0,1.0,0.0006152031461216742
+methacholine chloride,0.06363636363636363,0.014720677900659665,0.0,1.0,0.0021015447939821746
+pravastatin,0.11818181818181818,0.12561813040523248,0.0010684958327150215,0.9638009049773756,0.0027777319593939
+topotecan,0.05909090909090909,0.003410358367501613,0.006078269199303091,0.48923076923076925,0.0034653358546180486
+melphalan,0.05909090909090909,0.007942643692684373,0.002191195346305832,0.56,0.0033531561041128008
+steroids,0.006818181818181818,6.677849302037293e-05,0.0,1.0,0.0008627247851019763
+albumin-bound paclitaxel,0.004545454545454545,0.00023343899243214166,0.0,1.0,0.0005074109863521769
+melatonin,0.00909090909090909,0.007357161937199806,0.0,1.0,0.0006970259973909979
+opipramol,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+rilpivirine,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+naproxen,0.09545454545454544,0.030114499822612592,0.00293560832800625,0.7770034843205574,0.0033324947056621607
+glucagon,0.05454545454545454,0.007324319770868853,0.0,1.0,0.0020002589321135847
+chlorthalidone,0.06818181818181818,0.0053198418805652445,0.0013149075921382134,0.7954022988505747,0.002540228193370829
+probenecid,0.029545454545454545,0.001574961689823464,0.0,1.0,0.0016655217955218297
+risedronic acid,0.07045454545454545,0.01967701966992454,0.00014906957354170715,0.8924731182795699,0.0022503162210739647
+doxycycline,0.09090909090909091,0.039270338480092155,0.0,1.0,0.0025298661858938736
+indigo carmine,0.09090909090909091,0.039270338480092155,0.0,1.0,0.0025298661858938736
+isoproterenol,0.0022727272727272726,8.759937185100996e-52,0.0,0.0,0.0023823704586063135
+aprepitant,0.011363636363636364,0.0017396334680986204,0.0006281592453889105,0.8,0.001687543281818823
+interleukin-2,0.11818181818181818,0.12541599994247465,0.0007664295113237722,0.9630467571644042,0.002853897897949628
+ethambutol,0.12045454545454545,0.1277565458176497,0.0005791901379403161,0.9426705370101597,0.0034468342298207924
+irinotecan,0.07045454545454545,0.006927940400336681,0.006832671627248782,0.4043010752688172,0.005869135247709056
+trazodone,0.09545454545454544,0.039571651707633416,0.0014575278666258975,0.908246225319396,0.002758971960637226
+axitinib,0.006818181818181818,0.0004585933249338108,0.0,1.0,0.000728179984459376
+utrophin,0.006818181818181818,1.4956602976796581e-05,0.0,1.0,0.0017801333669107639
+mannitol,0.0022727272727272726,8.759937185100996e-52,0.0,0.0,0.0023823704586063135
+zidovudine,0.11818181818181818,0.1254505688586284,0.0008707572620771122,0.9638009049773756,0.0031675081340551635
+vitamin d,0.1477272727272727,0.042509840442573395,0.013648877280463248,0.5043269230769231,0.004343914696366108
+hydroxyethyl starch derivatives,0.006818181818181818,0.00013900205820109967,0.0,1.0,0.0009803706021995799
+nitric oxide,0.0022727272727272726,2.9896461367760456e-05,0.0,0.0,0.00046675970817899783
+darunavir,0.11818181818181818,0.12561813040523243,0.0010684958327150215,0.9638009049773756,0.0027777319593939
+ketoprofen,0.004545454545454545,0.0006435666880296531,0.0,1.0,0.0005382584621515343
+guanfacine,0.09090909090909091,0.039270338480092155,0.0,1.0,0.0025298661858938736
+galantamine,0.10227272727272727,0.040688455859143664,0.00113464390740963,0.8323232323232324,0.003212242625885088
+cisplatin,0.07727272727272727,0.010087632376729484,0.00840590769408433,0.46880570409982175,0.003866612958239109
+gemcitabine,0.08636363636363636,0.011272963206484899,0.013013543392370605,0.3442389758179232,0.004310878596834619
+levonorgestrel,0.0659090909090909,0.014519761158059493,0.0,1.0,0.00205436580333047
+caspofungin,0.04090909090909091,0.001572269602440368,0.0,1.0,0.0017867285947179448
+pemetrexed,0.04318181818181818,0.0031694105399731696,0.0022259203296109325,0.4269005847953216,0.0023013610509475153
+aminopterin,0.08181818181818182,0.02715806478676907,0.0,1.0,0.0023801143713811346
+betamethasone valerate,0.0,2.549477266468165e-62,0.0,0.0,0.0003573555687909471
+triamcinolone acetonide,0.004545454545454545,0.0002868146878117551,0.0,1.0,0.0007679667846142288
+testosterone,0.0022727272727272726,1.0115236718740593e-05,0.0,0.0,0.0005519850660323397
+everolimus,0.031818181818181815,0.0010185060280513815,0.004525115506360423,0.6373626373626373,0.002082636366355111
+insulin,0.006818181818181818,0.003534218305587647,0.0,1.0,0.000548877924646347
+vigabatrin,0.0022727272727272726,0.0001041738966606345,0.0,0.0,0.0004564323692954337
+lamivudine,0.12272727272727273,0.12793570046347735,0.001802769208206607,0.909853249475891,0.004125835879464058
+propofol,0.08636363636363636,0.015311506230398916,0.006007156599997516,0.647226173541963,0.004640318639317284
+theophylline,0.06363636363636363,0.014720677900659665,0.0,1.0,0.0021015447939821746
+antibodies,0.045454545454545456,0.0027595408369980355,0.0023203394971886915,0.5157894736842106,0.0024944635162507246
+saline solution,0.045454545454545456,0.008092857364346827,0.0017652240753624217,0.6210526315789474,0.0021171051514157057
+leuprolide,0.04772727272727272,0.00396607355791971,0.006195152634906145,0.5095238095238095,0.002229884584837289
+oxaliplatin,0.01818181818181818,0.006145737123284412,0.00018522926925844738,0.7142857142857143,0.0012570769761664211
+etanercept,0.09090909090909091,0.028374225166335004,0.0025772212876581284,0.8474358974358974,0.003417942496148166
+memantine,0.09772727272727272,0.03991303624417569,0.01880453944394703,0.867109634551495,0.0030759828349920786
+vortioxetine,0.045454545454545456,0.0028903100881223598,0.004602290049414314,0.8105263157894737,0.001910735064309338
+tiotropium bromide,0.07272727272727272,0.015337856796978466,0.001129988825776337,0.8286290322580645,0.0033272195889050976
+sorbitol,0.09772727272727272,0.039709028701062236,0.004047257428682984,0.8682170542635659,0.002890142377812611
+tamoxifen,0.1159090909090909,0.1252714142128008,0.0,1.0,0.002625334936247695
+aspirin,0.075,0.00957403657650784,0.013407495559247728,0.5681818181818182,0.003641838381451963
+sertraline,0.0659090909090909,0.00427912425858047,0.011430995588803993,0.4975369458128079,0.002781058222107883
+adrenal cortex hormones,0.06363636363636363,0.014720677900659661,0.0,1.0,0.0021015447939821746
+nitrous oxide,0.07727272727272727,0.015011860195749419,0.0016262757298453618,0.7700534759358288,0.0036586191052767033
+nifedipine,0.06363636363636363,0.00478211717039103,0.0008529429967128371,0.8862433862433863,0.0023592011211531335
