@@ -1,0 +1,36 @@
+{
+  "hiv infections": {
+    "PHASE2": {
+      "RECRUITING": 1
+    }
+  },
+  "Tuberculosis": {},
+  "Malaria": {
+    "PHASEIII": {
+      "COMPLETED": 1
+    }
+  },
+  "Hepatitis B": {},
+  "Hepatitis C": {},
+  "Hepatitis D": {},
+  "Influenza": {},
+  "Leishmaniasis, Cutaneous": {},
+  "COVID-19": {
+    "PHASEI": {
+      "COMPLETED": 2
+    },
+    "PHASE2": {
+      "TERMINATED": 1,
+      "RECRUITING": 1
+    },
+    "PHASEII": {
+      "TERMINATED": 3,
+      "COMPLETED": 1
+    },
+    "PHASEIII": {
+      "TERMINATED": 1,
+      "COMPLETED": 2
+    }
+  },
+  "Leishmaniasis, Visceral": {}
+}

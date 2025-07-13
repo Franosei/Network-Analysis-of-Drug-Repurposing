@@ -6,6 +6,11 @@ from typing import Set, Dict, List, Tuple
 from xml.etree import ElementTree as ET
 
 class ConditionDrugPairBuilder:
+    """
+    A class that processes clinical trial JSON files to extract condition–drug pairs,
+    normalize them against MeSH terms, and record associated phases and statuses.
+    """
+
     def __init__(
         self,
         input_dir="data",
@@ -14,6 +19,16 @@ class ConditionDrugPairBuilder:
         unmatched_filename="unmatched_pairs.json",
         mesh_path="mesh_data/desc2025.xml"
     ):
+        """
+        Initialize directories, file paths, and load MeSH terms for normalization.
+
+        Args:
+            input_dir (str): Directory containing trial JSON files.
+            output_dir (str): Directory to save processed outputs.
+            output_filename (str): Filename for matched pairs output.
+            unmatched_filename (str): Filename for unmatched entries output.
+            mesh_path (str): Path to the MeSH descriptor XML file.
+        """
         self.input_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", input_dir))
         self.output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", output_dir))
         os.makedirs(self.output_dir, exist_ok=True)
@@ -25,6 +40,14 @@ class ConditionDrugPairBuilder:
         self.condition_term_map, self.drug_term_map = self.load_mesh_terms()
 
     def load_mesh_terms(self) -> Tuple[Dict[str, str], Dict[str, str]]:
+        """
+        Load MeSH terms from the XML file and classify them as condition or drug.
+
+        Returns:
+            Tuple containing:
+                - condition_term_map (Dict[str, str])
+                - drug_term_map (Dict[str, str])
+        """
         condition_map = {}
         drug_map = {}
 
@@ -56,13 +79,25 @@ class ConditionDrugPairBuilder:
 
     def clean_text(self, text: str) -> str:
         """
-        Clean up final output name by removing content in () or [] and punctuation.
+        Clean up output name by removing parentheses, brackets, and punctuation.
+
+        Args:
+            text (str): Raw string.
+
+        Returns:
+            str: Cleaned version.
         """
         return re.sub(r"\s*[\[(].*?[\])]\s*", "", text).strip().strip(",. ")
 
     def normalize_items(self, items: List[str]) -> List[str]:
         """
-        Normalize raw input strings and return a flat list of cleaned items.
+        Normalize and tokenize a list of condition or intervention names.
+
+        Args:
+            items (List[str]): Raw list from JSON field.
+
+        Returns:
+            List[str]: Tokenized and cleaned entries.
         """
         if not isinstance(items, list):
             return []
@@ -78,7 +113,14 @@ class ConditionDrugPairBuilder:
 
     def match(self, term: str, mesh_map: Dict[str, str]) -> str:
         """
-        Match using exact and fallback fuzzy logic.
+        Match term using exact match, falling back to fuzzy match.
+
+        Args:
+            term (str): Term to match.
+            mesh_map (Dict[str, str]): Dictionary of MeSH terms.
+
+        Returns:
+            str or None: Canonical MeSH match or None if unmatched.
         """
         key = term.lower()
         if key in mesh_map:
@@ -89,7 +131,15 @@ class ConditionDrugPairBuilder:
             return mesh_map[close[0]]
         return None
 
-    def extract_pairs(self):
+    def extract_pairs(self) -> Tuple[List[Dict[str, str]], List[Dict[str, str]]]:
+        """
+        Extract condition–intervention–phase–status mappings from all JSON files.
+
+        Returns:
+            Tuple:
+                - matched rows
+                - unmatched items with reasons
+        """
         rows = []
         unmatched = []
 
@@ -104,7 +154,7 @@ class ConditionDrugPairBuilder:
                 conditions = self.normalize_items(trial.get("conditions", []))
                 interventions = self.normalize_items(trial.get("interventions", []))
 
-                # Safely extract phase info and format as list
+                # Extract phase(s)
                 raw_phase = trial.get("phases", trial.get("phase", None))
                 if isinstance(raw_phase, list):
                     phases = raw_phase
@@ -113,33 +163,57 @@ class ConditionDrugPairBuilder:
                 else:
                     phases = []
 
+                # Extract status
+                status = trial.get("status", "").strip()
+
                 for cond in conditions:
                     cond_match = self.match(cond, self.condition_term_map)
                     if not cond_match:
-                        unmatched.append({"condition": cond, "intervention": None, "reason": "unmatched condition"})
+                        unmatched.append({
+                            "condition": cond,
+                            "intervention": None,
+                            "reason": "unmatched condition"
+                        })
                         continue
 
                     for drug in interventions:
                         drug_match = self.match(drug, self.drug_term_map)
                         if not drug_match:
-                            unmatched.append({"condition": cond_match, "intervention": drug, "reason": "unmatched intervention"})
+                            unmatched.append({
+                                "condition": cond_match,
+                                "intervention": drug,
+                                "reason": "unmatched intervention"
+                            })
                             continue
 
                         rows.append({
                             "condition": self.clean_text(cond_match),
                             "intervention": self.clean_text(drug_match),
-                            "phases": phases
+                            "phases": phases,
+                            "status": status
                         })
 
         print(f"Matched: {len(rows)}  Unmatched: {len(unmatched)}")
         return rows, unmatched
 
     def save_pairs(self, rows: List[Dict[str, str]]):
+        """
+        Save the matched condition–drug pairs.
+
+        Args:
+            rows (List[Dict[str, str]]): Cleaned matched pairs.
+        """
         with open(self.output_path, "w", encoding="utf-8") as f:
             json.dump(rows, f, indent=2)
         print(f"Saved matched pairs to: {self.output_path}")
 
     def save_unmatched(self, unmatched: List[Dict[str, str]]):
+        """
+        Save unmatched entries for review.
+
+        Args:
+            unmatched (List[Dict[str, str]]): List of unmatched condition or drug terms.
+        """
         with open(self.unmatched_path, "w", encoding="utf-8") as f:
             json.dump(unmatched, f, indent=2)
         print(f"Saved unmatched entries to: {self.unmatched_path}")

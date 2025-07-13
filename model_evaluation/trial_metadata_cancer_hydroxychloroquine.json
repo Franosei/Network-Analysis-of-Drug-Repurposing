@@ -1,0 +1,485 @@
+{
+  "Lung Neoplasms": [
+    {
+      "nct_id": "NCT04735068",
+      "title": "The LIMIT KRAS Mutant NSCLC Trial: Lysosome Inhibition to Enhance MAPK Inhibition Targeting KRAS Mutant NSCLC: A Phase 2 Open Label Trial of Binimetinib and Hydroxychloroquine in Patients With Advanced KRAS Mutant Non-Small Cell Lung Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04373044",
+      "title": "A Phase II Randomized Double-Blind Trial of Baricitinib or Placebo Combined With Antiviral Therapy in Patients With Moderate and Severe COVID-19",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01687179",
+      "title": "Targeting Autophagy for the Treatment of TSC and LAM: a Phase I Trial of Hydroxychloroquine and Sirolimus",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT02722369",
+      "title": "A Phase II, Multicentre, Randomised Trial Comparing Combination Gemcitabine/Carboplatin and Hydroxychloroquine Versus Carboplatin/Etoposide Therapy Alone in Small Cell Lung Cancer (SCLC)",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT02470468",
+      "title": "A Phase I/II Study to Evaluate Safety and Efficacy of DCVAC/LuCa Added to Standard First Line ChT With Carboplatin and Paclitaxel +/- Immune Enhancers (Interferon-\u03b1 and Hydroxychloroquine) vs ChT Alone in Patients With Stage IV NSCLC",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05733000",
+      "title": "Phase II Open-Label Multi-Cohort Study Evaluating CPI-613 (Devimistat) in Combination With Hydroxychloroquine and 5-fluorouracil or Gemcitabine in Patients With Advanced Chemorefractory Colorectal, Pancreatic, or Other Solid Cancers",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01842594",
+      "title": "A Phase II Trial of Combined Hydroxychloroquine and Sirolimus in Soft Tissue Sarcoma",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01026844",
+      "title": "A Phase I Study of Hydroxychloroquine With or Without Erlotinib in Advanced NSCLC",
+      "status": "TERMINATED",
+      "phase": "PHASEI",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04335305",
+      "title": "A Randomized, Controlled, Open-Label, Phase II Trial to Evaluate the Efficacy and Safety of Tocilizumab Combined With Pembrolizumab (MK-3475) in Patients With Coronavirus Disease 2019 (COVID-19)-Pneumonia",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04381988",
+      "title": "A Phase II Randomized Double-Blind Placebo-Controlled Clinical Trial Of Hydroxychloroquine For Prophylaxis Against Covid-19 In Patients Receiving Radiotherapy (COVID)",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT00728845",
+      "title": "(NJ 1508) Modulation of Autophagy With Hydroxychloroquine in Combination With Carboplatin, Paclitaxel and Bevacizumab in Patients With Advanced/Recurrent Non-Small Cell Lung Cancer - A Phase I/II Study",
+      "status": "TERMINATED",
+      "phase": "PHASEI",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT00031824",
+      "title": "Phase III Trial of Hydroxychloroquine + Standard Therapy for Chronic Graft-Versus-Host Disease",
+      "status": "COMPLETED",
+      "phase": "PHASEIII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01649947",
+      "title": "Modulation of Autophagy With Hydroxychloroquine in Patients With Advanced/Recurrent Non-small Cell Lung Cancer - a Phase II Study. A Study of The Cancer Institute of New Jersey Oncology Group (CINJOG)",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Lung Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Colorectal Neoplasms": [
+    {
+      "nct_id": "NCT01206530",
+      "title": "A Phase I/II Pharmacodynamic Study of Hydroxychloroquine in Combination With FOLFOX Plus Bevacizumab to Inhibit Autophagy in Colorectal Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03215264",
+      "title": "Phase I/II Trial of Regorafenib, Hydroxychloroquine, and Entinostat in Metastatic Colorectal Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04873895",
+      "title": "Phase 1B Study of Hepatic Chemoembolization Plus Axitinib and Hydroxychlorquine for Liver-Dominant Metastatic Adenocarcinoma Of The Colon And Rectum",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01006369",
+      "title": "Autophagy and Anti-Angiogenesis in Metastatic Colorectal Carcinoma: A Phase II Trial of Hydroxychloroquine to Augment Effectiveness of XELOX-Bevacizumab. A Study of the Cancer Institute of New Jersey Oncology Group (CINJOG)",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05733000",
+      "title": "Phase II Open-Label Multi-Cohort Study Evaluating CPI-613 (Devimistat) in Combination With Hydroxychloroquine and 5-fluorouracil or Gemcitabine in Patients With Advanced Chemorefractory Colorectal, Pancreatic, or Other Solid Cancers",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01023737",
+      "title": "Inhibition of Autophagy in Solid Tumors: A Phase I Pharmacokinetic and Pharmacodynamic Study of Hydroxychloroquine in Combination With the HDAC Inhibitor Vorinostat for the Treatment of Patients With Advanced Solid Tumors With an Expansion Study in Advanced Renal and Colorectal Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05843188",
+      "title": "A Phase II Study of 5-FU, Irinotecan, Bevacizumab and Hydroxychloroquine in Drug-Tolerant Persister (DTP)-Selected Patients With Metastatic Colorectal Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04214418",
+      "title": "Phase 1/2 Open-label Study of Combination Therapy With the MEK Inhibitor, Cobimetinib, Immune Checkpoint Blockade, Atezolizumab, and the AUTOphagy Inhibitor, Hydroxychloroquine in KRAS-mutated Advanced Malignancies",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "disease": "Colorectal Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Pancreatic Neoplasms": [
+    {
+      "nct_id": "NCT03344172",
+      "title": "Randomized Phase II Trial of Pre-Operative Gemcitabine, Nab-Paclitaxel, and Hydroxychloroquine With or Without Avelumab (PGHA vs. PGH)",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03825289",
+      "title": "THREAD: A Phase I Trial of Trametinib and Hydroxychloroquine in Patients With Advanced Pancreatic Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04524702",
+      "title": "Phase II Trial of Paricalcitol and Hydroxychloroquine (PH) Combination With Gemcitabine and Nab-Paclitaxel in Advanced or Metastatic Pancreatic Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01978184",
+      "title": "Randomized Phase II Trial of Pre-Operative Gemcitabine and Nab Paclitacel With or With Out Hydroxychloroquine",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05518110",
+      "title": "PaTcH Trial: A Phase 2 Study to Explore Primary and Emerging Resistance Mechanisms in Patients With Metastatic Refractory Pancreatic Cancer Treated With Trametinib and Hydroxychloroquine",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05733000",
+      "title": "Phase II Open-Label Multi-Cohort Study Evaluating CPI-613 (Devimistat) in Combination With Hydroxychloroquine and 5-fluorouracil or Gemcitabine in Patients With Advanced Chemorefractory Colorectal, Pancreatic, or Other Solid Cancers",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01506973",
+      "title": "A Phase I/II/Pharmacodynamic Study of Hydroxychloroquine in Combination With Gemcitabine/Abraxane to Inhibit Autophagy in Pancreatic Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01128296",
+      "title": "Phase I/II Study of Preoperative Gemcitabine in Combination With Oral Hydroxychloroquine (GcHc) in Subjects With High Risk Stage IIb or III Adenocarcinoma of the Pancreas",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01273805",
+      "title": "Phase II Study of Hydroxychloroquine in Previously Treated Patients With Metastatic Pancreatic Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04911816",
+      "title": "Phase I/II Study of Neoadjuvant mFOLFIRINOX in Combination With Peri-operative Oral Hydroxychloroquine (FHQ) in Subjects With Resectable Adenocarcinoma of the Pancreas.",
+      "status": "RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04386057",
+      "title": "Phase II Trial of ERK Inhibition Alone and in Combination With Autophagy Inhibition in Patients With Metastatic Pancreatic Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04214418",
+      "title": "Phase 1/2 Open-label Study of Combination Therapy With the MEK Inhibitor, Cobimetinib, Immune Checkpoint Blockade, Atezolizumab, and the AUTOphagy Inhibitor, Hydroxychloroquine in KRAS-mutated Advanced Malignancies",
+      "status": "TERMINATED",
+      "phase": "PHASE1",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04669197",
+      "title": "A Phase II Study of Paclitaxel Protein Bound + Gemcitabine + Cisplatin+ Hydroxychlororoquine as Preoperative Treatment in Patients With Untreated Resectable, Borderline Resectable and Locally Advanced Adenocarcinoma of the Pancreas",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03979651",
+      "title": "MEK and Autophagy Inhibition in Metastatic/Locally Advanced, Unresectable Neuroblastoma RAS (NRAS) Melanoma: A Phase Ib/II Trial of Trametinib Plus Hydroxychloroquine in Patients With NRAS Melanoma",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Pancreatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Hepatocellular Carcinoma": [
+    {
+      "nct_id": "NCT01634893",
+      "title": "A Phase I Dose-Escalation Trial of Oral Hydroxychloroquine Plus Oral Sorafenib to Treat Patients With Refractory or Relapsed Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Hepatocellular Carcinoma",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT02013778",
+      "title": "Phase I-II Clinical Trial of the Safety and Preliminary Efficacy of Hydroxychloroquine Combined With Transarterial Chemoembolization in Unresectable Hepatocellular Carcinoma",
+      "status": "TERMINATED",
+      "phase": "PHASEI",
+      "disease": "Hepatocellular Carcinoma",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Esophageal Neoplasms": [
+    {
+      "nct_id": "NCT05733000",
+      "title": "Phase II Open-Label Multi-Cohort Study Evaluating CPI-613 (Devimistat) in Combination With Hydroxychloroquine and 5-fluorouracil or Gemcitabine in Patients With Advanced Chemorefractory Colorectal, Pancreatic, or Other Solid Cancers",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Esophageal Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Stomach Neoplasms": [],
+  "Brain Neoplasms": [
+    {
+      "nct_id": "NCT00486603",
+      "title": "A Phase I/II Trial of Hydroxychloroquine in Conjunction With Radiation Therapy and Concurrent and Adjuvant Temozolomide in Patients With Newly Diagnosed Glioblastoma Multiforme",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Brain Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04201457",
+      "title": "Phase I/II Trial of Dabrafenib, Trametinib, and Hydroxychloroquine (HCQ) for BRAF V600E-mutant or Trametinib and HCQ for BRAF Fusion/Duplication Positive or NF1-associated Recurrent or Progressive Gliomas in Children and Young Adults",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Brain Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03979651",
+      "title": "MEK and Autophagy Inhibition in Metastatic/Locally Advanced, Unresectable Neuroblastoma RAS (NRAS) Melanoma: A Phase Ib/II Trial of Trametinib Plus Hydroxychloroquine in Patients With NRAS Melanoma",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Brain Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Ovarian Neoplasms": [
+    {
+      "nct_id": "NCT03081702",
+      "title": "A Phase I/II Trial Investigating the Tolerability, Toxicity and Efficacy of Hydroxychloroquine and Itraconazole in Patients With Advanced Platinum-resistant Epithelial Ovarian Cancer (EOC) (HYDRA-1 Study)",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Ovarian Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05733000",
+      "title": "Phase II Open-Label Multi-Cohort Study Evaluating CPI-613 (Devimistat) in Combination With Hydroxychloroquine and 5-fluorouracil or Gemcitabine in Patients With Advanced Chemorefractory Colorectal, Pancreatic, or Other Solid Cancers",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Ovarian Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Breast Neoplasms": [
+    {
+      "nct_id": "NCT00765765",
+      "title": "Phase I/II Study of Ixabepilone in Combination With the Autophagy Inhibitor Hydroxychloroquine for the Treatment of Patients With Metastatic Breast Cancer",
+      "status": "TERMINATED",
+      "phase": "PHASEI",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04527549",
+      "title": "The BAMM2 (BRAF, Autophagy, MEK Inhibition in Melanoma) Study: A Randomized Double Blind Phase II Study of Dabrafenib and Trametinib With or Without Hydroxychloroquine in Advanced BRAF V600E/K Melanoma With Elevated LDH",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT05953350",
+      "title": "A Phase Ib/II Study Confirmed Inhibition of Autophagy Synergizes Anti-tumor Effect of High Dose CDK4/6i with Manageable Safety in HR+HER2-breast Cancer Patients",
+      "status": "RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03774472",
+      "title": "Phase I/II Safety and Efficacy Study of Autophagy Inhibition With Hydroxychloroquine to Augment the Antiproliferative and Biological Effects of Pre-Operative Palbociclib Plus Letrozole for Estrogen Receptor-Positive and HER2-Negative Breast Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT06328387",
+      "title": "Open, Controlled, Multicenter Phase I/II Clinical Study of Hydroxychloroquine in Combination With Antibody-drug Conjugate Versus Antibody-drug Conjugate for Advanced Breast Cancer.",
+      "status": "RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03032406",
+      "title": "CLEVER Pilot Trial: A Phase II Pilot Trial of HydroxyChLoroquine, EVErolimus or the Combination for Prevention of Recurrent Breast Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT02414776",
+      "title": "Phase Ib/II Study of Hydroxychloroquine in Metastatic ER-Positive Breast Cancer Progressing on Hormonal Therapy",
+      "status": "TERMINATED",
+      "phase": "PHASEI",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04523857",
+      "title": "A Phase II Pilot Trial of ABemacicliB or Abemaciclib and HydroxYchloroquine to Target Minimal Residual Disease in Breast Cancer Patients (\"ABBY\")",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04841148",
+      "title": "A Phase II Trial of Avelumab or Hydroxychloroquine with or Without Palbociclib to Eliminate Dormant Breast Cancer (PALAVY)",
+      "status": "RECRUITING",
+      "phase": "PHASEII",
+      "disease": "Breast Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ],
+  "Prostatic Neoplasms": [
+    {
+      "nct_id": "NCT05036226",
+      "title": "Combination of Autophagy Selective Therapeutics (COAST) in Advanced Solid Tumors or Relapsed Prostate Cancer, A Phase I/II Trial",
+      "status": "RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Prostatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT04011410",
+      "title": "Phase 2 Study of Hydroxychloroquine to Increase Tumor Suppressor PAR-4 Levels in Oligometastatic Prostate Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "disease": "Prostatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01828476",
+      "title": "A Phase II Study of ABT-263/Abiraterone (Arm A) or ABT-263/Abiraterone and Hydroxychloroquine (Arm B) in Patients With Metastatic Castrate Refractory Prostate Cancer (CRPC) and Progression Following Chemotherapy and Abiraterone",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Prostatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT03513211",
+      "title": "A Phase I/II Study of Hydroxychloroquine and Itraconazole as Therapy for Men With Androgen Normalised Prostate Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Prostatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT00786682",
+      "title": "A Phase II Study of Docetaxel and Modulation of Autophagy With Hydroxychloroquine for Metastatic Hormone Refractory Prostate Cancer",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Prostatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    },
+    {
+      "nct_id": "NCT01480154",
+      "title": "A Phase I Trial of MK-2206 and Hydroxychloroquine in Solid Tumors, Melanoma, Renal and Prostate Cancer to Examine the Role of Autophagy in Tumorigenesis",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASEI",
+      "disease": "Prostatic Neoplasms",
+      "drug": "hydroxychloroquine"
+    }
+  ]
+}

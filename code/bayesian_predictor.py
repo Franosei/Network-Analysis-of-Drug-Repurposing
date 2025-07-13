@@ -1,195 +1,332 @@
 import os
-import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import defaultdict
 from scipy.stats import beta
 from scipy.special import rel_entr
-from scipy.integrate import trapezoid  # ✅ Use this instead of deprecated np.trapz
-from pubmed_utils import build_semantic_prior
+from scipy.integrate import trapezoid
+from pubmed_utils import LLMClassifier
 
-# ========= Load Prior Condition–Drug Pairs ========= #
-def load_existing_trial_pairs(json_path="processed_data/condition_drug_pairs.json"):
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return set((entry["intervention"], entry["condition"]) for entry in data)
+classifier = LLMClassifier(delay=4)
 
-def load_centrality_scores(csv_path="graph/drug_centrality.csv"):
-    df = pd.read_csv(csv_path)
+def build_semantic_prior(drug, disease, max_count=30):
+    """
+    Builds a semantic prior based on LLM classification of PubMed abstracts.
 
-    # Select only numeric centrality columns to normalize
-    centrality_cols = [
-        "DegreeCentrality", "EigenvectorCentrality", "BetweennessCentrality",
-        "ClusteringCoefficient", "RandomWalkCentrality"
-    ]
+    Parameters:
+        drug (str): Drug name.
+        disease (str): Disease name.
+        max_count (int): Maximum number of PubMed abstracts to use.
 
-    # Normalize each column to [0, 1] (Min-Max Scaling)
-    for col in centrality_cols:
-        min_val = df[col].min()
-        max_val = df[col].max()
-        if max_val > min_val:
-            df[col] = (df[col] - min_val) / (max_val - min_val)
-        else:
-            df[col] = 0.0  # If constant, set to 0
+    Returns:
+        dict: Contains 'prior', 'penalised_prior', and 'enhanced_prior' fields.
+    """
+    return classifier.build_semantic_prior(drug, disease, max_count=max_count)
 
-    return df.set_index("Drug").to_dict("index")
 
-# ========== Bayesian Components ========== #
-def compute_components(drug, disease, centrality_scores):
-    try:
-        prior_result = build_semantic_prior(drug, disease, max_count=5)
-        raw_prior = prior_result["prior"] if prior_result else 0.0
-        penalised_prior = prior_result["penalised_prior"] if prior_result else 0.0
-    except Exception as e:
-        print(f"[!] Error computing semantic prior for {drug} → {disease}:", e)
-        raw_prior = 0.0
-        penalised_prior = 0.0
+class BayesianRepurposingPredictor:
+    """
+    A Bayesian engine for drug repurposing that integrates:
+      - Semantic priors from LLM-based PubMed analysis
+      - Graph-based topological features from known and unknown associations
+      - Weighted likelihoods using learned coefficients
+      - Posterior inference using Beta distributions
+      - KL divergence and mean shift for visual and statistical insight
 
-    scores = centrality_scores.get(drug, {})
-    degree = scores.get("DegreeCentrality", 0)
-    eigen = scores.get("EigenvectorCentrality", 0)
-    between = scores.get("BetweennessCentrality", 0)
-    clustering = scores.get("ClusteringCoefficient", 0)
-    random_walk = scores.get("RandomWalkCentrality", 0)
-    
-    # Randon forest Feature Importances:
-    # DegreeCentrality: 0.1925
-    # EigenvectorCentrality: 0.2283
-    # BetweennessCentrality: 0.1281
-    # ClusteringCoefficient: 0.1573
-    # RandomWalkCentrality: 0.2937
+    Attributes:
+        feature_df (pd.DataFrame): Combined graph features for drug-disease pairs.
+        weights_dict (dict): Feature weightings learned from training data.
+        existing_pairs (set): Set of known drug-disease tuples with label = 1.
+    """
 
-    likelihood = 1 + 0.1925 * degree + 0.2283 * eigen + 0.1281 * between + 0.1573 * clustering + 0.2937 * random_walk
-    
-    # Convert likelihood to pseudo-counts
-    likelihood_strength = 10  # Emperically chosen
-    likelihood_a = likelihood * likelihood_strength
-    likelihood_b = (1 - (likelihood - 1)) * likelihood_strength
+    def __init__(self, known_path, unknown_path, weights_dict):
+        """
+        Initializes the predictor with graph features and feature weights.
 
-    # Use penalised prior for calculations
-    prior_a = penalised_prior * 100 + 1
-    prior_b = (1 - penalised_prior) * 100 + 1
+        Parameters:
+            known_path (str): Path to known pairs CSV file.
+            unknown_path (str): Path to unknown pairs CSV file.
+            weights_dict (dict): Dictionary of feature weights.
+        """
+        self.feature_df = self.load_combined_features(known_path, unknown_path)
+        self.weights_dict = weights_dict
+        self.existing_pairs = set(
+            zip(
+                self.feature_df[self.feature_df["Label"] == 1]["Drug"],
+                self.feature_df[self.feature_df["Label"] == 1]["Disease"]
+            )
+        )
 
-    # Add pseudo-counts from likelihood
-    posterior_a = prior_a + likelihood_a
-    posterior_b = prior_b + likelihood_b
+    def load_combined_features(self, known_csv, unknown_csv):
+        """
+        Loads and combines known and unknown graph feature files.
 
-    posterior_mean = posterior_a / (posterior_a + posterior_b)
+        Parameters:
+            known_csv (str): Path to CSV with known (label=1) pairs.
+            unknown_csv (str): Path to CSV with unknown (label=0) pairs.
 
-    return raw_prior, penalised_prior, likelihood, posterior_mean, prior_a, prior_b, posterior_a, posterior_b
+        Returns:
+            pd.DataFrame: Merged and cleaned feature DataFrame.
+        """
+        df_known = pd.read_csv(known_csv)
+        df_unknown = pd.read_csv(unknown_csv)
+        df = pd.concat([df_known, df_unknown], ignore_index=True)
+        df["Drug"] = df["Drug"].str.strip().str.lower()
+        df["Disease"] = df["Disease"].str.strip().str.lower()
+        return df
 
-def compute_kl_and_mean_shift(prior_dist, posterior_dist, x):
-    prior_dist = np.clip(prior_dist, 1e-10, None)
-    posterior_dist = np.clip(posterior_dist, 1e-10, None)
+    def get_likelihood_from_features(self, drug, disease):
+        """
+        Computes the likelihood score based on weighted graph features.
 
-    prior_dist /= trapezoid(prior_dist, x)
-    posterior_dist /= trapezoid(posterior_dist, x)
+        Parameters:
+            drug (str): Drug name.
+            disease (str): Disease name.
 
-    kl = trapezoid(rel_entr(posterior_dist, prior_dist), x)
-    mu_prior = trapezoid(x * prior_dist, x)
-    mu_post = trapezoid(x * posterior_dist, x)
-    delta_mu = mu_post - mu_prior
+        Returns:
+            float: Likelihood value.
+        """
+        drug, disease = drug.lower(), disease.lower()
+        row = self.feature_df[
+            (self.feature_df["Drug"] == drug) & 
+            (self.feature_df["Disease"] == disease)
+        ]
+        if row.empty:
+            print(f"[!] Missing features for {drug} → {disease}")
+            return 1.0
 
-    return round(kl, 4), round(mu_prior, 4), round(mu_post, 4), round(delta_mu, 4)
+        likelihood = 1.0
+        for feature, weight in self.weights_dict.items():
+            value = row.iloc[0].get(feature, 0)
+            likelihood += weight * value
+        return likelihood
 
-# ========== Plotting ========== #
-def plot_distributions(prior_a, prior_b, likelihood, posterior_a, posterior_b, drug, disease):
-    x = np.linspace(0.001, 0.999, 1000)  # Better resolution and avoids 0s
+    def compute_components(self, drug, disease):
+        """
+        Calculates prior, likelihood, and posterior Beta distribution parameters.
 
-    prior_dist = beta.pdf(x, a=prior_a, b=prior_b)
+        Parameters:
+            drug (str): Drug name.
+            disease (str): Disease name.
 
-    likelihood_center = min(max(likelihood / 10, 0.01), 0.99)
-    likelihood_a = likelihood_center * 100
-    likelihood_b = (1 - likelihood_center) * 100
-    likelihood_dist = beta.pdf(x, a=likelihood_a + 1, b=likelihood_b + 1)
+        Returns:
+            tuple: Contains raw prior, penalised prior, enhanced prior, likelihood,
+                   posterior mean, prior_a, prior_b, posterior_a, posterior_b
+        """
+        try:
+            prior_result = build_semantic_prior(drug, disease)
+            raw_prior = prior_result["prior"]
+            penalised_prior = prior_result["penalised_prior"]
+            enhanced_prior = prior_result["enhanced_prior"]
+        except Exception as e:
+            print(f"[!] Error computing prior for {drug} → {disease}: {e}")
+            raw_prior = penalised_prior = enhanced_prior = 0.0
 
-    posterior_dist = beta.pdf(x, a=posterior_a, b=posterior_b)
+        likelihood = self.get_likelihood_from_features(drug, disease)
 
-    prior_plot = prior_dist / prior_dist.max()
-    likelihood_plot = likelihood_dist / likelihood_dist.max()
-    posterior_plot = posterior_dist / posterior_dist.max()
+        likelihood_strength = 50
+        likelihood_center = min(max(likelihood, 0.01), 0.99)
+        likelihood_a = likelihood_center * likelihood_strength
+        likelihood_b = (1 - likelihood_center) * likelihood_strength
 
-    plt.figure(figsize=(8, 5))
-    plt.plot(x, prior_plot, label="Prior (Penalised)", color="blue", linewidth=2)
-    plt.plot(x, likelihood_plot, label="Likelihood (Network)", color="red", linewidth=2)
-    plt.plot(x, posterior_plot, label="Posterior", color="purple", linewidth=2)
-    plt.title(f"Bayesian Inference for {drug} → {disease}", fontsize=13)
-    plt.xlabel("θ (Latent Association Strength)")
-    plt.ylabel("Relative Density")
-    plt.legend(loc="upper right", frameon=False)
-    plt.grid(alpha=0.2)
-    plt.tight_layout()
-    plt.show()
+        prior_a = enhanced_prior * 100 + 1
+        prior_b = (1 - enhanced_prior) * 100 + 1
 
-    return x, prior_dist, posterior_dist
+        posterior_a = prior_a + likelihood_a
+        posterior_b = prior_b + likelihood_b
 
-# ========== Main ========== #
-if __name__ == "__main__":
-    print("Loading prior trial pairs and centrality scores...")
-    existing_pairs = load_existing_trial_pairs("processed_data/condition_drug_pairs.json")
-    centrality_scores = load_centrality_scores("graph/drug_centrality.csv")
+        posterior_mean = posterior_a / (posterior_a + posterior_b)
 
-    # Custom user input
-    drugs_to_evaluate = ["Thalidomide"]
-    diseases_to_evaluate = ["Multiple Myeloma", "Arthritis, Rheumatoid", "COVID-19","Glioblastoma","Lupus Erythematosus, Systemic"]
+        return raw_prior, penalised_prior, enhanced_prior, likelihood, posterior_mean, prior_a, prior_b, posterior_a, posterior_b
 
-    for drug in drugs_to_evaluate:
-        print(f"\n=== Predicting repurposing candidates for: {drug} ===")
+    def compute_kl_and_mean_shift(self, prior_dist, posterior_dist, x):
+        """
+        Computes KL divergence and mean shift between two distributions.
+
+        Parameters:
+            prior_dist (np.ndarray): Beta PDF of prior.
+            posterior_dist (np.ndarray): Beta PDF of posterior.
+            x (np.ndarray): Support grid.
+
+        Returns:
+            tuple: KL divergence, mean prior, mean posterior, delta mean.
+        """
+        prior_dist = np.clip(prior_dist, 1e-10, None)
+        posterior_dist = np.clip(posterior_dist, 1e-10, None)
+
+        prior_dist /= trapezoid(prior_dist, x)
+        posterior_dist /= trapezoid(posterior_dist, x)
+
+        kl = trapezoid(rel_entr(posterior_dist, prior_dist), x)
+        mu_prior = trapezoid(x * prior_dist, x)
+        mu_post = trapezoid(x * posterior_dist, x)
+        delta_mu = mu_post - mu_prior
+
+        return round(kl, 4), round(mu_prior, 4), round(mu_post, 4), round(delta_mu, 4)
+
+    def plot_distributions(self, prior_a, prior_b, likelihood, posterior_a, posterior_b, drug, disease):
+        """
+        Plots the normalized prior, likelihood, and posterior Beta distributions
+        with 95% confidence intervals and saves the figure to disk.
+
+        Parameters:
+            prior_a (float): Alpha of prior Beta.
+            prior_b (float): Beta of prior Beta.
+            likelihood (float): Likelihood score.
+            posterior_a (float): Alpha of posterior Beta.
+            posterior_b (float): Beta of posterior Beta.
+            drug (str): Drug name.
+            disease (str): Disease name.
+
+        Returns:
+            tuple: x-axis array, prior PDF, posterior PDF
+        """
+        x = np.linspace(0.001, 0.999, 1000)
+        prior_dist = beta.pdf(x, a=prior_a, b=prior_b)
+        likelihood_center = min(max(likelihood, 0.01), 0.99)
+        la = likelihood_center * 100
+        lb = (1 - likelihood_center) * 100
+        likelihood_dist = beta.pdf(x, a=la + 1, b=lb + 1)
+        posterior_dist = beta.pdf(x, a=posterior_a, b=posterior_b)
+
+        # 95% credible intervals
+        prior_ci = beta.interval(0.95, prior_a, prior_b)
+        likelihood_ci = beta.interval(0.95, la + 1, lb + 1)
+        posterior_ci = beta.interval(0.95, posterior_a, posterior_b)
+
+        plt.figure(figsize=(10, 6))
+        plt.plot(x, prior_dist / prior_dist.max(), label="Prior", color="blue")
+        plt.plot(x, likelihood_dist / likelihood_dist.max(), label="Likelihood", color="red")
+        plt.plot(x, posterior_dist / posterior_dist.max(), label="Posterior", color="purple")
+
+        # Shade 95% CIs
+        plt.axvspan(*prior_ci, color="blue", alpha=0.1)
+        plt.axvspan(*likelihood_ci, color="red", alpha=0.1)
+        plt.axvspan(*posterior_ci, color="purple", alpha=0.1)
+
+        plt.title(f"Bayesian Update: {drug} → {disease}")
+        plt.xlabel("Association Strength")
+        plt.ylabel("Normalized Density")
+        plt.legend()
+        plt.grid(alpha=0.3)
+        plt.tight_layout()
+
+        os.makedirs("plots", exist_ok=True)
+        filename = f"{drug.strip().lower().replace(' ', '_')}_{disease.strip().lower().replace(' ', '_')}.png"
+        filepath = os.path.join("plots", filename)
+        plt.savefig(filepath)
+        plt.close()
+
+        return x, prior_dist, posterior_dist
+
+    def evaluate_drug(self, drug, diseases):
+        """
+        Evaluates candidate diseases for a given drug using Bayesian inference.
+
+        Parameters:
+            drug (str): Drug name.
+            diseases (list[str]): List of diseases to evaluate.
+
+        Prints:
+            Top 5 candidates, posterior means, and KL divergence stats.
+        """
+        print(f"\n=== Evaluating repurposing for: {drug} ===")
         results = []
-        for disease in diseases_to_evaluate:
-            if (drug, disease) in existing_pairs:
-                print(f"Trial has already been done on {drug} → {disease}")
+
+        for disease in diseases:
+            drug_l, disease_l = drug.lower(), disease.lower()
+            if (drug_l, disease_l) in self.existing_pairs:
+                print(f"Already known: {drug} → {disease}")
                 continue
 
-            raw_prior, penalised_prior, likelihood, posterior_mean, prior_a, prior_b, post_a, post_b = compute_components(
-                drug, disease, centrality_scores
-            )
-
+            raw_prior, penalised_prior, enhanced_prior, likelihood, post_mean, pa, pb, post_a, post_b = self.compute_components(drug, disease)
             results.append({
                 "disease": disease,
                 "raw_prior": raw_prior,
                 "penalised_prior": penalised_prior,
+                "enhanced_prior": enhanced_prior,
                 "likelihood": likelihood,
-                "posterior_mean": posterior_mean,
-                "prior_a": prior_a,
-                "prior_b": prior_b,
+                "posterior_mean": post_mean,
+                "prior_a": pa,
+                "prior_b": pb,
                 "posterior_a": post_a,
                 "posterior_b": post_b
             })
 
         if not results:
-            print("No new repurposing candidates found.")
-            continue
+            print("No new repurposing candidates.")
+            return
 
         results = sorted(results, key=lambda r: r["posterior_mean"], reverse=True)
-        top_diseases = results[:5]
+        top = results[:5]
 
-        print("\nTop Repurposing Candidates (Posterior Mean):")
-        for r in top_diseases:
-            print(f"{drug} → {r['disease']} — Posterior Mean: {round(r['posterior_mean'], 6)} | Raw Prior: {round(r['raw_prior'], 4)}")
+        print("\nTop Candidates:")
+        for r in top:
+            print(f"{drug} → {r['disease']}: Posterior Mean={round(r['posterior_mean'], 4)}, Raw Prior={round(r['raw_prior'], 4)}")
 
-        kl_outputs = []
-        for row in top_diseases:
-            disease = row["disease"]
-            print(f"\nPlotting and computing KL for: {drug} → {disease}")
-            x, prior_dist, posterior_dist = plot_distributions(
-                row["prior_a"], row["prior_b"], row["likelihood"],
-                row["posterior_a"], row["posterior_b"],
-                drug, disease
+        kl_metrics = []
+        for r in top:
+            print(f"\nPlotting: {drug} → {r['disease']}")
+            x, prior_d, post_d = self.plot_distributions(
+                r["prior_a"], r["prior_b"], r["likelihood"],
+                r["posterior_a"], r["posterior_b"], drug, r["disease"]
             )
-            kl, mu_prior, mu_post, delta_mu = compute_kl_and_mean_shift(prior_dist, posterior_dist, x)
-            kl_outputs.append({
-                "Disease": disease,
+
+            likelihood_center = min(max(r["likelihood"], 0.01), 0.99)
+            la = likelihood_center * 100
+            lb = (1 - likelihood_center) * 100
+            likelihood_pdf = beta.pdf(x, a=la + 1, b=lb + 1)
+            likelihood_pdf /= trapezoid(likelihood_pdf, x)
+            e_likelihood = trapezoid(x * likelihood_pdf, x)
+
+            kl, mu_prior, mu_post, delta = self.compute_kl_and_mean_shift(prior_d, post_d, x)
+            kl_metrics.append({
+                "Disease": r["disease"],
                 "KL Divergence": kl,
                 "E[Prior]": mu_prior,
+                "E[Likelihood]": round(e_likelihood, 4),
                 "E[Posterior]": mu_post,
-                "Δμ": delta_mu,
-                "Raw Prior": round(row["raw_prior"], 3),
-                "Penalised Prior": round(row["penalised_prior"], 3)
+                "Δμ": delta,
+                "Likelihood Score": round(r["likelihood"], 4),
+                "Raw Prior": round(r["raw_prior"], 4),
+                "Penalised Prior": round(r["penalised_prior"], 4),
+                "Enhanced Prior": round(r["enhanced_prior"], 4)
             })
 
-        print("\nKL Divergence and Mean Shift (Top Candidates):")
-        df = pd.DataFrame(kl_outputs)
-        print(df.to_string(index=False))
+        print("\nKL Divergence and Mean Shift Summary:")
+        print(pd.DataFrame(kl_metrics).to_string(index=False))
 
+
+# ==== Run Predictor ====
+if __name__ == "__main__":
+    weights_dict = {
+        "GraphDistanceToIndication": 0.1148,
+        "RandomWalkScore": 0.247,
+        "StructuralLikelihood": -0.1154,
+        "PreferentialAttachment": -0.041,
+        "KatzSimilarity": 1.6515
+    }
+
+    predictor = BayesianRepurposingPredictor(
+        known_path="graph/graph_features_known.csv",
+        unknown_path="graph/graph_features_unknown.csv",
+        weights_dict=weights_dict
+    )
+
+    drugs = ["metformin"]
+    diseases = [
+                    "Chronic Kidney Disease",           
+                    "Acute Kidney Injury",             
+                    "renal insufficiency, chronic",         
+                    "Polycystic Kidney Diseases",              
+                    "Nephrotic Syndrome",              
+                    "Glomerulonephritis",              
+                    "glomerulonephritis, iga",                   
+                    "glomerulonephritis, membranous",         
+                    "carcinoma, renal cell"             
+                ]
+
+
+    for drug in drugs:
+        predictor.evaluate_drug(drug, diseases)

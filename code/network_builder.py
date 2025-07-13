@@ -2,95 +2,188 @@ import os
 import json
 import networkx as nx
 import pandas as pd
+import numpy as np
+from scipy.sparse import csr_matrix, identity
+from scipy.sparse.linalg import inv
 
-class DrugRepurposingNetworkBuilder:
-    def __init__(self, input_file="processed_data/condition_drug_pairs.json", graph_dir="graph"):
-        self.input_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", input_file))
-        self.graph_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", graph_dir))
-        os.makedirs(self.graph_dir, exist_ok=True)
 
-        self.bipartite_graph = nx.Graph()
-        self.drug_nodes = set()
-        self.disease_nodes = set()
-        self.placebo_skipped = 0
+class InterpretableGraphFeatureBuilder:
+    """
+    Build a bipartite drug–disease graph and compute five interpretable, information-rich graph features
+    for both known and unknown drug–disease pairs:
 
-    def build_bipartite_network(self):
+    1. Graph Distance to Known Indications (inverse shortest path)
+    2. Random Walk with Restart (personalized PageRank from drug to disease)
+    3. Structural Likelihood (centrality(drug) × centrality(disease))
+    4. Preferential Attachment (degree(drug) × degree(disease))
+    5. Katz Similarity (true matrix-based similarity from all damped paths)
+
+    Outputs:
+    - graph_features_known.csv: All known trial pairs (label = 1)
+    - graph_features_unknown.csv: All novel/unseen drug–disease pairs (label = 0)
+    - bipartite.graphml: GraphML file of the bipartite network for visualization
+    """
+
+    def __init__(self, input_file="processed_data/condition_drug_pairs.json",
+                 known_output="graph/graph_features_known.csv",
+                 unknown_output="graph/graph_features_unknown.csv"):
+        self.input_file = input_file
+        self.known_output = known_output
+        self.unknown_output = unknown_output
+        os.makedirs(os.path.dirname(known_output), exist_ok=True)
+
+        self.graph = nx.Graph()
+        self.drugs = set()
+        self.diseases = set()
+        self.known_indications = {}
+
+    def build_bipartite_graph(self):
         with open(self.input_file, "r", encoding="utf-8") as f:
-            pairs = json.load(f)
+            data = json.load(f)
 
-        for item in pairs:
-            drug_raw = item["intervention"].strip()
-            condition_raw = item["condition"].strip()
+        for entry in data:
+            drug = entry["intervention"].strip().lower()
+            disease = entry["condition"].strip().lower()
 
-            if "placebo" in drug_raw.lower():
-                self.placebo_skipped += 1
+            if "placebo" in drug:
                 continue
 
-            drug = drug_raw.lower()
-            condition = condition_raw.lower()
+            self.graph.add_node(drug, bipartite="drug")
+            self.graph.add_node(disease, bipartite="disease")
+            self.graph.add_edge(drug, disease)
 
-            self.bipartite_graph.add_node(drug, bipartite="drug", type="drug")
-            self.bipartite_graph.add_node(condition, bipartite="disease", type="disease")
-            self.bipartite_graph.add_edge(drug, condition)
+            self.drugs.add(drug)
+            self.diseases.add(disease)
 
-            self.drug_nodes.add(drug)
-            self.disease_nodes.add(condition)
+            if drug not in self.known_indications:
+                self.known_indications[drug] = set()
+            self.known_indications[drug].add(disease)
 
-        print(f"\n Bipartite Graph Created:")
-        print(f"  Drugs:    {len(self.drug_nodes)}")
-        print(f"  Diseases: {len(self.disease_nodes)}")
-        print(f"  Edges:    {self.bipartite_graph.number_of_edges()}")
-        print(f"  Placebo interventions skipped: {self.placebo_skipped}")
+        print(f"Graph: {len(self.drugs)} drugs, {len(self.diseases)} diseases, {len(self.graph.edges())} edges")
 
-    def project_drug_network(self):
-        projected = nx.bipartite.weighted_projected_graph(self.bipartite_graph, self.drug_nodes)
-        for node in projected.nodes():
-            projected.nodes[node]["type"] = "drug"
+        # Save the graph to GraphML
+        nx.write_graphml(self.graph, "graph/bipartite.graphml")
+        print("Saved graph to graph/bipartite.graphml")
 
-        print(f"\n Projected Drug Network:")
-        print(f"  Drugs: {len(projected.nodes)}")
-        print(f"  Edges: {len(projected.edges)}")
-        return projected
+    def compute_katz_similarity_matrix(self, alpha=0.005):
+        nodes = list(self.graph.nodes())
+        node_index = {n: i for i, n in enumerate(nodes)}
+        index_node = {i: n for n, i in node_index.items()}
 
-    def compute_and_save_centralities(self, G, filename="drug_centrality.csv"):
-        print("\nComputing centrality metrics...")
+        A = nx.to_scipy_sparse_array(self.graph, nodelist=nodes, format='csr')
+        I = identity(A.shape[0], format='csr')
+        try:
+            K = inv(I - alpha * A) - I
+            K = K.toarray()
+        except Exception as e:
+            print(f"⚠️ Katz matrix computation failed: {e}")
+            return {}
 
-        degree_centrality = nx.degree_centrality(G)
-        eigen_centrality = nx.eigenvector_centrality(G, max_iter=1000)
-        betweenness_centrality = nx.betweenness_centrality(G)
-        clustering = nx.clustering(G)
-        pagerank = nx.pagerank(G, alpha=0.85)
+        katz_scores = {}
+        for i, drug in enumerate(nodes):
+            if drug not in self.drugs:
+                continue
+            katz_scores[drug] = {}
+            for j, disease in enumerate(nodes):
+                if disease not in self.diseases:
+                    continue
+                katz_scores[drug][disease] = K[i, j]
+        return katz_scores
 
-        rows = []
-        for node in G.nodes():
-            rows.append({
-                "Drug": node,
-                "DegreeCentrality": degree_centrality.get(node, 0),
-                "EigenvectorCentrality": eigen_centrality.get(node, 0),
-                "BetweennessCentrality": betweenness_centrality.get(node, 0),
-                "ClusteringCoefficient": clustering.get(node, 0),
-                "RandomWalkCentrality": pagerank.get(node, 0)
-            })
+    def compute_features_for_pair(self, drug, disease, degree, eigen, between,
+                                  degree_disease, eigen_disease, between_disease,
+                                  pageranks, katz_matrix):
+        # Feature 1: Graph Distance to Known Indications
+        try:
+            min_dist = min(
+                nx.shortest_path_length(self.graph, source=disease, target=ind)
+                for ind in self.known_indications.get(drug, [])
+                if nx.has_path(self.graph, disease, ind)
+            )
+            graph_distance_score = 1 / (1 + min_dist)
+        except ValueError:
+            graph_distance_score = 0.0
 
-        df = pd.DataFrame(rows)
-        output_path = os.path.join(self.graph_dir, filename)
-        df.to_csv(output_path, index=False)
-        print(f"Saved drug centrality CSV to: {output_path}")
+        # Feature 2: Random Walk with Restart (RWR)
+        rwr_score = pageranks[drug].get(disease, 0.0)
 
-    def save_networks(self, bipartite_filename="bipartite.graphml", drug_filename="drug_network.graphml"):
-        bipartite_path = os.path.join(self.graph_dir, bipartite_filename)
-        drug_path = os.path.join(self.graph_dir, drug_filename)
+        # Feature 3: Structural Likelihood
+        centrality_drug = (
+            0.33 * degree.get(drug, 0) +
+            0.33 * eigen.get(drug, 0) +
+            0.34 * between.get(drug, 0)
+        )
+        centrality_disease = (
+            0.33 * degree_disease.get(disease, 0) +
+            0.33 * eigen_disease.get(disease, 0) +
+            0.34 * between_disease.get(disease, 0)
+        )
+        structural_likelihood = round((1 + centrality_drug) * (1 + centrality_disease), 4)
 
-        nx.write_graphml(self.bipartite_graph, bipartite_path)
-        print(f"\nSaved bipartite graph to: {bipartite_path}")
+        # Feature 4: Preferential Attachment
+        pa_score = degree.get(drug, 0) * degree_disease.get(disease, 0)
 
-        drug_graph = self.project_drug_network()
-        nx.write_graphml(drug_graph, drug_path)
-        print(f"Saved drug–drug graph to: {drug_path}")
+        # Feature 5: Katz Similarity (Matrix-based)
+        katz_score = katz_matrix.get(drug, {}).get(disease, 0.0)
 
-        self.compute_and_save_centralities(drug_graph)
+        return {
+            "Drug": drug,
+            "Disease": disease,
+            "GraphDistanceToIndication": round(graph_distance_score, 4),
+            "RandomWalkScore": round(rwr_score, 6),
+            "StructuralLikelihood": structural_likelihood,
+            "PreferentialAttachment": round(pa_score, 6),
+            "KatzSimilarity": round(katz_score, 6)
+        }
+
+    def compute_all_features(self):
+        known_rows = []
+        unknown_rows = []
+
+        # Centralities
+        degree = nx.degree_centrality(self.graph)
+        eigen = nx.eigenvector_centrality(self.graph, max_iter=1000)
+        between = nx.betweenness_centrality(self.graph)
+        degree_disease = {n: degree[n] for n in self.diseases}
+        eigen_disease = {n: eigen[n] for n in self.diseases}
+        between_disease = {n: between[n] for n in self.diseases}
+
+        # RWR cache
+        pageranks = {
+            drug: nx.pagerank(self.graph, alpha=0.85, personalization={drug: 1.0})
+            for drug in self.drugs
+        }
+
+        # Katz Similarity Matrix
+        print("Computing matrix-based Katz similarity...")
+        katz_matrix = self.compute_katz_similarity_matrix(alpha=0.005)
+        print("Katz matrix computed.")
+
+        # Loop over all drug–disease pairs
+        for drug in self.drugs:
+            for disease in self.diseases:
+                row = self.compute_features_for_pair(
+                    drug, disease,
+                    degree, eigen, between,
+                    degree_disease, eigen_disease, between_disease,
+                    pageranks, katz_matrix
+                )
+                if disease in self.known_indications.get(drug, set()):
+                    row["Label"] = 1
+                    known_rows.append(row)
+                else:
+                    row["Label"] = 0
+                    unknown_rows.append(row)
+
+        # Save to CSV
+        pd.DataFrame(known_rows).to_csv(self.known_output, index=False)
+        pd.DataFrame(unknown_rows).to_csv(self.unknown_output, index=False)
+        print(f"Saved known features to: {self.known_output}")
+        print(f"Saved unknown features to: {self.unknown_output}")
+        print(pd.DataFrame(unknown_rows).head(5))
+
 
 if __name__ == "__main__":
-    builder = DrugRepurposingNetworkBuilder()
-    builder.build_bipartite_network()
-    builder.save_networks()
+    builder = InterpretableGraphFeatureBuilder()
+    builder.build_bipartite_graph()
+    builder.compute_all_features()

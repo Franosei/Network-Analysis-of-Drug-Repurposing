@@ -9,3 +9,4 @@ openai==1.93.0
 python-dotenv==1.1.0
 bs4==0.0.2
 selenium==4.21.0
+imbalanced-learn==0.13.0

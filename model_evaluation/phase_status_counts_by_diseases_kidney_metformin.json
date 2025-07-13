@@ -1,0 +1,34 @@
+{
+  "Chronic Kidney Disease": {
+    "PHASEIII": {
+      "COMPLETED": 1
+    },
+    "PHASE3": {
+      "RECRUITING": 1
+    }
+  },
+  "Acute Kidney Injury": {},
+  "renal insufficiency, chronic": {
+    "PHASEIII": {
+      "COMPLETED": 1
+    },
+    "PHASE3": {
+      "RECRUITING": 1
+    }
+  },
+  "Polycystic Kidney Diseases": {},
+  "Nephrotic Syndrome": {},
+  "Glomerulonephritis": {},
+  "glomerulonephritis, iga": {},
+  "glomerulonephritis, membranous": {},
+  "carcinoma, renal cell": {
+    "PHASEII": {
+      "RECRUITING": 1,
+      "TERMINATED": 1
+    },
+    "PHASEI": {
+      "TERMINATED": 1,
+      "COMPLETED": 1
+    }
+  }
+}

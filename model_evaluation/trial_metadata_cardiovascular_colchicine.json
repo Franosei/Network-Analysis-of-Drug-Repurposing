@@ -1,0 +1,123 @@
+{
+  "Coronary Artery Disease": [
+    {
+      "nct_id": "NCT03376698",
+      "title": "A Randomized, Double-blind, Placebo-controlled Phase II Trial to Evaluate the Dose-dependent Effect of Colchicine on Inflammatory Response and Endothelial Function in Type 2 Diabetic Patients With Coronary Artery Disease and Leukocyte Activation",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Coronary Artery Disease",
+      "drug": "colchicine"
+    },
+    {
+      "nct_id": "NCT03156816",
+      "title": "COlchicine for Left VEntricular Remodeling Treatment in Acute Myocardial Infarction, a Phase II, Multicenter, Randomized, Double Blinded, Placebo Controlled Clinical Trial",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Coronary Artery Disease",
+      "drug": "colchicine"
+    }
+  ],
+  "Myocardial Infarction": [
+    {
+      "nct_id": "NCT03226899",
+      "title": "A Phase 4, Study to Evaluate the Safety and Efficacy of Lesinurad 200 mg in Combination With a Xanthine Oxidase Inhibitor (XOI), Compared With an XOI Alone, in Subjects With Gout and Estimated Creatinine Clearance (eCrCl) 30 to <60 mL/Min Who Have Not Achieved Target Serum Uric Acid Levels (sUA) on an XOI Alone",
+      "status": "TERMINATED",
+      "phase": "PHASE4",
+      "disease": "Myocardial Infarction",
+      "drug": "colchicine"
+    },
+    {
+      "nct_id": "NCT03376698",
+      "title": "A Randomized, Double-blind, Placebo-controlled Phase II Trial to Evaluate the Dose-dependent Effect of Colchicine on Inflammatory Response and Endothelial Function in Type 2 Diabetic Patients With Coronary Artery Disease and Leukocyte Activation",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Myocardial Infarction",
+      "drug": "colchicine"
+    },
+    {
+      "nct_id": "NCT03156816",
+      "title": "COlchicine for Left VEntricular Remodeling Treatment in Acute Myocardial Infarction, a Phase II, Multicenter, Randomized, Double Blinded, Placebo Controlled Clinical Trial",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Myocardial Infarction",
+      "drug": "colchicine"
+    }
+  ],
+  "Heart Failure": [
+    {
+      "nct_id": "NCT03376698",
+      "title": "A Randomized, Double-blind, Placebo-controlled Phase II Trial to Evaluate the Dose-dependent Effect of Colchicine on Inflammatory Response and Endothelial Function in Type 2 Diabetic Patients With Coronary Artery Disease and Leukocyte Activation",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Heart Failure",
+      "drug": "colchicine"
+    },
+    {
+      "nct_id": "NCT03156816",
+      "title": "COlchicine for Left VEntricular Remodeling Treatment in Acute Myocardial Infarction, a Phase II, Multicenter, Randomized, Double Blinded, Placebo Controlled Clinical Trial",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Heart Failure",
+      "drug": "colchicine"
+    }
+  ],
+  "Hypertension": [
+    {
+      "nct_id": "NCT00840489",
+      "title": "Phase II Trial of Long-term Monotherapy With Ribavirin Against Colchicine on Progression of Chronic Hepatitis C With Advanced Fibrosis in Patients With Non-response to Standard Antiviral Therapy",
+      "status": "TERMINATED",
+      "phase": "PHASEII",
+      "disease": "Hypertension",
+      "drug": "colchicine"
+    },
+    {
+      "nct_id": "NCT00179413",
+      "title": "Phase IV Study of Long Term Peg-Intron for Patients Who Have Failed to Respond to Rebetron/Interferon With Advanced Fibrosis and Cirrhosis Secondary to Hepatitis C- The Copilot Trial",
+      "status": "COMPLETED",
+      "phase": "PHASEI",
+      "disease": "Hypertension",
+      "drug": "colchicine"
+    }
+  ],
+  "Stroke": [
+    {
+      "nct_id": "NCT03226899",
+      "title": "A Phase 4, Study to Evaluate the Safety and Efficacy of Lesinurad 200 mg in Combination With a Xanthine Oxidase Inhibitor (XOI), Compared With an XOI Alone, in Subjects With Gout and Estimated Creatinine Clearance (eCrCl) 30 to <60 mL/Min Who Have Not Achieved Target Serum Uric Acid Levels (sUA) on an XOI Alone",
+      "status": "TERMINATED",
+      "phase": "PHASE4",
+      "disease": "Stroke",
+      "drug": "colchicine"
+    },
+    {
+      "nct_id": "NCT03376698",
+      "title": "A Randomized, Double-blind, Placebo-controlled Phase II Trial to Evaluate the Dose-dependent Effect of Colchicine on Inflammatory Response and Endothelial Function in Type 2 Diabetic Patients With Coronary Artery Disease and Leukocyte Activation",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Stroke",
+      "drug": "colchicine"
+    }
+  ],
+  "Arrhythmias, Cardiac": [
+    {
+      "nct_id": "NCT03156816",
+      "title": "COlchicine for Left VEntricular Remodeling Treatment in Acute Myocardial Infarction, a Phase II, Multicenter, Randomized, Double Blinded, Placebo Controlled Clinical Trial",
+      "status": "COMPLETED",
+      "phase": "PHASEII",
+      "disease": "Arrhythmias, Cardiac",
+      "drug": "colchicine"
+    }
+  ],
+  "Atherosclerosis": [
+    {
+      "nct_id": "NCT05159219",
+      "title": "A Vanguard, Double-blind, Randomized, Placebo-controlled, Phase 2 Pilot Study to Investigate Prevention of Cardiovascular Events with Oral Colchicine 0.5mg Once Daily Compared with Placebo in Participants with Spontaneous ICH and Established, or Risk Factors For, Atherosclerosis",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "disease": "Atherosclerosis",
+      "drug": "colchicine"
+    }
+  ],
+  "Peripheral Arterial Disease": [],
+  "Cardiomyopathies": [],
+  "Pulmonary Embolism": []
+}
