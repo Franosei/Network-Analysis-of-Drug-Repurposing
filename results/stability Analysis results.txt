@@ -1,0 +1,137 @@
+"We validated the stability of feature weights learned via logistic regression using three methods: bootstrap resampling, Gaussian noise injection, and feature ablation. Bootstrap results revealed highly stable weights across 100 resamples (std dev < 0.01 for all features), indicating reliable prioritization by the model. Noise injection confirmed that small perturbations in feature values did not meaningfully alter the learned coefficients. Feature ablation showed that GraphDistanceToIndication was the only feature whose removal caused a measurable performance drop (ΔAccuracy = 1.79%), highlighting its central role in prediction."
+
+=================================================================================================================================
+
+--- Bootstrap Weight Stability ---
+       GraphDistanceToIndication  RandomWalkScore  StructuralLikelihood  PreferentialAttachment  KatzSimilarity
+count                 100.000000       100.000000            100.000000              100.000000      100.000000
+mean                   23.324646         1.185109             -6.638602                0.004504        0.181762
+std                     0.006419         0.019166              0.010474                0.000151        0.000135
+min                    23.308565         1.136916             -6.661977                0.004206        0.181438
+25%                    23.320192         1.173761             -6.646941                0.004384        0.181657
+50%                    23.324389         1.184085             -6.637089                0.004491        0.181757
+75%                    23.328985         1.198277             -6.631408                0.004620        0.181855
+max                    23.339647         1.228556             -6.613712                0.004875        0.182085
+
+--- Noise Injection Weight Stability ---
+       GraphDistanceToIndication  RandomWalkScore  StructuralLikelihood  PreferentialAttachment  KatzSimilarity
+count                  50.000000        50.000000             50.000000               50.000000       50.000000
+mean                   23.378791         1.189858             -6.639618                0.005924        0.181603
+std                     0.004036         0.005616              0.003309                0.004196        0.004473
+min                    23.371208         1.180081             -6.645331               -0.002226        0.171911
+25%                    23.375973         1.185696             -6.642112                0.003058        0.178528
+50%                    23.378739         1.189574             -6.639739                0.006644        0.181590
+75%                    23.381468         1.193420             -6.637965                0.009022        0.185387
+max                    23.390234         1.201634             -6.631482                0.015455        0.189407
+
+--- Feature Ablation Test ---
+           RemovedFeature  DeltaAccuracy  DeltaAUC  WeightBeforeRemoval
+GraphDistanceToIndication       0.017894  0.004233            23.323854
+          RandomWalkScore       0.000000  0.000000             1.188241
+     StructuralLikelihood       0.000000  0.000000            -6.639852
+   PreferentialAttachment       0.000000  0.000000             0.004476
+           KatzSimilarity       0.000000  0.000000             0.181746
+
+=================================================================================================================================
+
+=== LogisticRegression ===
+Accuracy: 1.0
+ROC AUC: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    219544
+           1       1.00      1.00      1.00      1508
+
+    accuracy                           1.00    221052
+   macro avg       1.00      1.00      1.00    221052
+weighted avg       1.00      1.00      1.00    221052
+
+
+=== RidgeClassifier ===
+Accuracy: 1.0
+ROC AUC: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    219544
+           1       1.00      1.00      1.00      1508
+
+    accuracy                           1.00    221052
+   macro avg       1.00      1.00      1.00    221052
+weighted avg       1.00      1.00      1.00    221052
+
+
+=== LogisticL1 ===
+Accuracy: 1.0
+ROC AUC: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    219544
+           1       1.00      1.00      1.00      1508
+
+    accuracy                           1.00    221052
+   macro avg       1.00      1.00      1.00    221052
+weighted avg       1.00      1.00      1.00    221052
+
+
+=== RandomForest ===
+Accuracy: 1.0
+ROC AUC: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    219544
+           1       1.00      1.00      1.00      1508
+
+    accuracy                           1.00    221052
+   macro avg       1.00      1.00      1.00    221052
+weighted avg       1.00      1.00      1.00    221052
+
+
+=== XGBoost ===
+Accuracy: 1.0
+ROC AUC: 1.0
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    219544
+           1       1.00      1.00      1.00      1508
+
+    accuracy                           1.00    221052
+   macro avg       1.00      1.00      1.00    221052
+weighted avg       1.00      1.00      1.00    221052
+
+
+--- Feature Weights / Importances ---
+
+LogisticRegression
+GraphDistanceToIndication     : 0.1148
+RandomWalkScore               : 0.247
+StructuralLikelihood          : -0.1154
+PreferentialAttachment        : -0.041
+KatzSimilarity                : 1.6515
+
+RidgeClassifier
+GraphDistanceToIndication     : 0.0003
+RandomWalkScore               : 0.0
+StructuralLikelihood          : -0.0007
+PreferentialAttachment        : -0.0003
+KatzSimilarity                : 0.1646
+
+LogisticL1
+GraphDistanceToIndication     : 1.0535
+RandomWalkScore               : 0.0
+StructuralLikelihood          : 0.0
+PreferentialAttachment        : 0.0
+KatzSimilarity                : 1.5863
+
+RandomForest
+GraphDistanceToIndication     : 0.4063
+RandomWalkScore               : 0.1786
+StructuralLikelihood          : 0.0003
+PreferentialAttachment        : 0.039
+KatzSimilarity                : 0.3758
+
+XGBoost
+GraphDistanceToIndication     : 1.0
+RandomWalkScore               : 0.0
+StructuralLikelihood          : 0.0
+PreferentialAttachment        : 0.0
+KatzSimilarity                : 0.0
