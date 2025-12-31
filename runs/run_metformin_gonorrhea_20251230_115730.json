@@ -1,0 +1,45 @@
+{
+  "timestamp": "20251230_115730",
+  "drug": "metformin",
+  "disease": "gonorrhea",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5,
+    "p_penalised": 0.5,
+    "p_final": 0.5,
+    "gamma": null,
+    "counts": {},
+    "M": 0,
+    "cM": 0.0,
+    "prior_a": 1.0,
+    "prior_b": 1.0,
+    "graph_score": -0.10319594399999998,
+    "p_likelihood": 0.47422388496037193,
+    "likelihood_strength": 50.0,
+    "like_a": 24.711194248018597,
+    "like_b": 27.288805751981403,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.2,
+      "RandomWalkScore": 5.2e-05,
+      "StructuralLikelihood": 1.0933,
+      "PreferentialAttachment": 4.8e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 24.711194248018597,
+    "post_b": 27.288805751981403,
+    "post_mean": 0.4752152740003576
+  }
+}

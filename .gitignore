@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 mesh_data/desc2025.xml
 note.ipynb
+data/

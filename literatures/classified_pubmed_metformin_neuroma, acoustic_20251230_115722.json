@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "pmid": "36744870",
+    "pmcid": "PMC10404300",
+    "Title": "The Effect of Metformin on Vestibular Schwannoma Growth: A Systematic Review and Meta-analysis.",
+    "category": "therapeutic",
+    "abstract": "OBJECTIVES: To systematically review and evaluate metformin's potential impact on vestibular schwannoma (VS) growth. DATA SOURCES: PubMed, Cochrane Library, and Embase. REVIEW METHODS: A retrospective cohort study was performed on sporadic VS patients undergoing initial observation who had at least two magnetic resonance imaging studies. Patients were stratified by metformin use during the observation period. Primary endpoint was VS growth, defined as at least a 2 mm increase in diameter. Survival free of tumor growth was evaluated between groups. Systematic review and meta-analysis were performed to produce a pooled odds ratio [OR]. Study heterogeneity was assessed and post-hoc power analysis was performed. RESULTS: A total of 123 patients were included, of which 17% were taking metformin. Median patient age was 56.6 years (range, 25.1-84.5). There were no statistically significant differences between the groups. Survival analysis did not demonstrate a statistically significant difference in time to VS growth between groups (hazard ratio = 0.61, 95% confidence interval [CI] = 0.29-1.29). Furthermore, logistic regression analysis did not demonstrate a statistically significant difference between groups in the odds of VS growth (OR = 0.46, 95% CI = 0.17-1.27). Systematic review identified 3 studies. Meta-analysis suggested that metformin reduces the odds of developing VS growth (pooled OR = 0.45, 95% CI = 0.29-0.71). Studies demonstrated low between-study heterogeneity. Power analysis demonstrated a sample size of 220 patients with equal randomization would be required to prospectively identify a true difference with 80% power. CONCLUSIONS: Metformin use may reduce the odds of VS growth. A randomized trial would be ideal to identify an unbiased estimate of metformin's effect on VS growth. Laryngoscope, 133:2066-2072, 2023.",
+    "introduction": "",
+    "conclusion": ""
+  },
+  {
+    "id": 1,
+    "pmid": "32633197",
+    "pmcid": "PMC10452285",
+    "Title": "Association of Metformin With the Growth of Vestibular Schwannomas.",
+    "category": "therapeutic",
+    "abstract": "OBJECTIVE: To assess whether medication use, specifically statin, metformin, and aspirin, affects the growth of vestibular schwannomas (VSs). STUDY DESIGN: Retrospective case series. SETTING: Single tertiary care academic hospital. SUBJECTS AND METHODS: Patients were enrolled if they were diagnosed with sporadic VS and had at least 2 magnetic resonance imaging (MRI) studies at a minimum of 6 months apart prior to any intervention. Electronic medical records were reviewed for demographic and medication data. Tumor volumes on MRI studies were assessed via BrainLab iPlan. The primary endpoint was VS tumor growth, defined as a 20% increase in tumor volume, between consecutive MRI studies or between the first and last available MRI study. Predictors of volumetric growth, specifically statin, aspirin, or metformin use, were analyzed with t tests, chi-square test, univariate logistic regression, and multivariate logistic regression. RESULTS: A total of 387 patients met inclusion criteria, 53.5% of whom were women. For all patients, the mean age was 60.6 years (range, 18.2-89.2 years); the mean axial tumor diameter, 11.9 mm (range, 1.7-32.0 mm); and the mean tumor volume, 0.85 cm3 (range, 0.01-13.1 cm3). In review of the electronic medical record, 46 patients (11.9%) were taking metformin; 145 (37.5%), a statin; and 117 (30.2%), aspirin. Among patients taking metformin, 39.1% (18/46) exhibited volumetric growth, as opposed to 58.2% (198/340) of nonusers (P = .014). Metformin (odds ratio, 0.497; P = .036) is significantly associated with reduced VS growth when controlling for aspirin, statin, and tumor size on multivariate logistic regression. CONCLUSION: Metformin use is associated with reduced volumetric VS growth.",
+    "introduction": "",
+    "conclusion": ""
+  },
+  {
+    "id": 2,
+    "pmid": "31913209",
+    "pmcid": "PMC10404300",
+    "Title": "Metformin Potential Impact on the Growth of Vestibular Schwannomas.",
+    "category": "therapeutic",
+    "abstract": "OBJECTIVE: Previous work has suggested that metformin may possess antineoplastic properties. This study aims to assess the effect of metformin on the growth of sporadic vestibular schwannomas. METHODS: A retrospective cohort study was performed on patients presenting with radiologically confirmed vestibular schwannomas to Stanford medical center between January 1990 and October 2018. Patients who received metformin during the follow-up period were included and were compared with the control group who were not receiving metformin. Tumor progression and hearing loss are primary and secondary outcomes, respectively. RESULTS: A total of 149 patients were analyzed, with 42 patients receiving metformin. The mean age at presentation is 69.6 (±11.7) years. There are 69 (46.3%) females and 80 (53.7%) males and there is no significant age difference between the groups. Tumor size at presentation is similar between both groups, 8 mm (4-13) in control group and 7.5 mm (4-14) in metformin group. The average follow-up period is 34.2 months (18.3-57.8) and 30.3 months (13.6-69.8) in the metformin and control cohorts, respectively, and they are not significantly different. No significant differences between both groups were found in final American Academy of Otolaryngology - Head and Neck Surgery hearing outcome or poor audiogram outcome. Metformin users are significantly less likely to present with tumor growth at final follow-up compared with nonmetformin users (28.6 versus 49.5%, respectively; p = 0.02). CONCLUSIONS: This preliminary result suggests metformin may reduce vestibular schwannoma tumor growth rate and shows potential promise as a novel chemotherapeutic agent. Further studies are needed to validate this finding.",
+    "introduction": "",
+    "conclusion": ""
+  },
+  {
+    "id": 3,
+    "pmid": "34260511",
+    "pmcid": "PMC10404300",
+    "Title": "Association of Metformin With Volumetric Tumor Growth of Sporadic Vestibular Schwannomas.",
+    "category": "irrelevant",
+    "abstract": "OBJECTIVE: Recent research demonstrates a potential association between metformin use and reduced sporadic vestibular schwannoma (VS) growth in patients undergoing conservative observation. The current study was designed to elucidate the effect of metformin on tumor growth in sporadic VS using volumetric analyses. STUDY DESIGN: Retrospective cohort. SETTING: Tertiary referral center. PATIENTS: Patients with sporadic VS who elected initial conservative treatment with at least two serial magnetic resonance imaging (MRI) scans were included. INTERVENTIONS: Metformin use among patients with observed sporadic VS. MAIN OUTCOME MEASURES: Tumor growth, defined as an increase in volume of at least 20% from the initial MRI. RESULTS: A total of 361 patients were evaluated. Thirty-four patients (9%) had a diagnosis of diabetes at baseline. Nineteen patients (5%) were taking metformin at the time of the initial MRI. Metformin use was not significantly associated with a reduced risk of volumetric tumor growth in a univariable analysis in all patients undergoing observation for VS (hazard ratio [HR] 0.75; 95% confidence intervals [CI] 0.40-1.42; p = 0.38) or within the diabetic subset (HR 0.79; 95% CI 0.34-1.83; p = 0.58). Additionally, diabetes status, insulin dependence, hemoglobin A1c value, and metformin dose were not significantly associated with volumetric tumor growth. CONCLUSION: Despite promising initial results in several previous studies, our data suggest that metformin use does not significantly reduce the risk of volumetric tumor growth in sporadic VS.",
+    "introduction": "",
+    "conclusion": ""
+  },
+  {
+    "id": 4,
+    "pmid": "37641199",
+    "pmcid": null,
+    "Title": "Metformin Reduces Tumor Growth in a Murine Flank Schwannoma Model.",
+    "category": "therapeutic",
+    "abstract": "HYPOTHESIS: Metformin and aspirin reduce vestibular schwannoma (VS) growth. BACKGROUND: There have been reported associations between patients with VS prescribed metformin and decreased tumor volumetric growth. Aspirin has also been associated with decreased VS growth in animal studies. METHODS: Rat schwannoma cell lines were grown and implanted into 50 athymic nude mice. Tumors were grown to 5 mm, and then mice were injected with either low- or high-dose metformin, aspirin, or saline daily. Tumors were measured until 14 days elapsed or mice demonstrated symptoms such as ulceration, inability to walk, or passed away. RESULTS: There were no significant differences in day 0 tumor sizes between the control and the treatment groups ( p = 0.73). In the low-dose, but not high-dose groups, day 7 volumes were significantly different for both metformin ( p = 0.04) and aspirin ( p = 0.02) compared with placebo. Mean tumor growth rates were 126.6 ± 65.6 mm 3 /day for saline compared with 73.7 ± 29.5 mm 3 /day for low-dose metformin ( p = 0.03) and 68.7 ± 34.8 mm 3 /day for low-dose aspirin ( p = 0.016). There were no significant differences in tumor sizes ( p = 0.59) or growth rates ( p = 0.75) between low-dose metformin and aspirin groups. Low-dose groups had treatment stopped at 14 days, with continued monitoring demonstrating significant increases in tumor growth off treatment for both aspirin ( p = 0.006) and metformin ( p = 0.048). CONCLUSIONS: Metformin treatment significantly reduced VS growth to a similar level as aspirin. Furthermore, when removing both metformin and aspirin treatment, tumor growth significantly increased.",
+    "introduction": "",
+    "conclusion": ""
+  }
+]

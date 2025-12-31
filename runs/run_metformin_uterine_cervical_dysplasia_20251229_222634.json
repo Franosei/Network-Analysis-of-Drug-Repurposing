@@ -1,0 +1,45 @@
+{
+  "timestamp": "20251229_222634",
+  "drug": "metformin",
+  "disease": "uterine cervical dysplasia",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5,
+    "p_penalised": 0.5,
+    "p_final": 0.5,
+    "gamma": null,
+    "counts": {},
+    "M": 0,
+    "cM": 0.0,
+    "prior_a": 1.0,
+    "prior_b": 1.0,
+    "graph_score": -0.126050922,
+    "p_likelihood": 0.46852892835795756,
+    "likelihood_strength": 50.0,
+    "like_a": 24.42644641789788,
+    "like_b": 27.57355358210212,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.0,
+      "RandomWalkScore": 6e-06,
+      "StructuralLikelihood": 1.0923,
+      "PreferentialAttachment": 2.4e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 24.42644641789788,
+    "post_b": 27.57355358210212,
+    "post_mean": 0.4697393541903438
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "20251230_115653",
+  "drug": "metformin",
+  "disease": "ascites",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5263157894736842,
+    "p_penalised": 0.5263157894736842,
+    "p_final": 0.5263157894736842,
+    "gamma": 0.2,
+    "counts": {
+      "irrelevant": 9,
+      "therapeutic": 10
+    },
+    "M": 19,
+    "cM": 106.46671459801816,
+    "prior_a": 57.03511294632534,
+    "prior_b": 51.431601651692816,
+    "graph_score": -0.126050922,
+    "p_likelihood": 0.46852892835795756,
+    "likelihood_strength": 50.0,
+    "like_a": 24.42644641789788,
+    "like_b": 27.57355358210212,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.0,
+      "RandomWalkScore": 6e-06,
+      "StructuralLikelihood": 1.0923,
+      "PreferentialAttachment": 2.4e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 80.46155936422322,
+    "post_b": 78.00515523379494,
+    "post_mean": 0.5077505365611303
+  }
+}

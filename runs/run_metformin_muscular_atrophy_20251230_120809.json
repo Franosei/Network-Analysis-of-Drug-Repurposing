@@ -1,0 +1,49 @@
+{
+  "timestamp": "20251230_120809",
+  "drug": "metformin",
+  "disease": "muscular atrophy",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5151515151515151,
+    "p_penalised": 0.21212121212121213,
+    "p_final": 0.13787878787878788,
+    "gamma": 0.7,
+    "counts": {
+      "irrelevant": 33,
+      "adverse": 15,
+      "therapeutic": 51
+    },
+    "M": 99,
+    "cM": 196.18737714167767,
+    "prior_a": 28.050077757413135,
+    "prior_b": 170.13729938426454,
+    "graph_score": -0.10964600199999999,
+    "p_likelihood": 0.4726159288405374,
+    "likelihood_strength": 50.0,
+    "like_a": 24.63079644202687,
+    "like_b": 27.36920355797313,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.1429,
+      "RandomWalkScore": 6e-06,
+      "StructuralLikelihood": 1.0923,
+      "PreferentialAttachment": 2.4e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 51.680874199440005,
+    "post_b": 196.50650294223766,
+    "post_mean": 0.20823329048655845
+  }
+}

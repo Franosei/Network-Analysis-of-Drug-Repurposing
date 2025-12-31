@@ -1,0 +1,43 @@
+{
+  "timestamp": "20251229_194105",
+  "drug": "Hydroxychloroquine",
+  "disease": "Colorectal cancer",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.52,
+    "p_penalised": 0.36,
+    "p_final": 0.36,
+    "gamma": 0.2,
+    "counts": {
+      "irrelevant": 10,
+      "therapeutic": 13,
+      "adverse": 2
+    },
+    "M": 25,
+    "cM": 126.42411176571153,
+    "prior_a": 46.51268023565615,
+    "prior_b": 81.91143153005538,
+    "graph_score": 0.0,
+    "p_likelihood": 0.5,
+    "likelihood_strength": 50.0,
+    "like_a": 26.0,
+    "like_b": 26.0,
+    "feature_values": {},
+    "post_a": 71.51268023565615,
+    "post_b": 106.91143153005538,
+    "post_mean": 0.40080166031348585
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "20251229_222550",
+  "drug": "metformin",
+  "disease": "bacteremia",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.6666666666666666,
+    "p_penalised": 0.6666666666666666,
+    "p_final": 0.6666666666666666,
+    "gamma": 0.2,
+    "counts": {
+      "therapeutic": 2,
+      "irrelevant": 1
+    },
+    "M": 3,
+    "cM": 22.615912656568504,
+    "prior_a": 16.077275104379,
+    "prior_b": 8.538637552189503,
+    "graph_score": -0.126050922,
+    "p_likelihood": 0.46852892835795756,
+    "likelihood_strength": 50.0,
+    "like_a": 24.42644641789788,
+    "like_b": 27.57355358210212,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.0,
+      "RandomWalkScore": 6e-06,
+      "StructuralLikelihood": 1.0923,
+      "PreferentialAttachment": 2.4e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 39.50372152227688,
+    "post_b": 35.11219113429162,
+    "post_mean": 0.5294275726961752
+  }
+}

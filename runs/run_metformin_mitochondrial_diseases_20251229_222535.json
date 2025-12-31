@@ -1,0 +1,49 @@
+{
+  "timestamp": "20251229_222535",
+  "drug": "metformin",
+  "disease": "mitochondrial diseases",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.2727272727272727,
+    "p_penalised": 1e-06,
+    "p_final": 1e-06,
+    "gamma": 0.2,
+    "counts": {
+      "irrelevant": 2,
+      "adverse": 6,
+      "therapeutic": 3
+    },
+    "M": 11,
+    "cM": 71.19271578337172,
+    "prior_a": 1.0000711927157833,
+    "prior_b": 72.19264459065595,
+    "graph_score": -0.126074986,
+    "p_likelihood": 0.46852293619616364,
+    "likelihood_strength": 50.0,
+    "like_a": 24.42614680980818,
+    "like_b": 27.57385319019182,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.0,
+      "RandomWalkScore": 6e-06,
+      "StructuralLikelihood": 1.0925,
+      "PreferentialAttachment": 4.8e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 24.426218002523964,
+    "post_b": 98.76649778084777,
+    "post_mean": 0.1982764796376131
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251229_193912",
+  "drug": "Hydroxychloroquine",
+  "disease": "Hepatocellular carcinoma",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5555555555555556,
+    "p_penalised": 0.5555555555555556,
+    "p_final": 0.3472222222222222,
+    "gamma": 0.75,
+    "counts": {
+      "irrelevant": 8,
+      "therapeutic": 10
+    },
+    "M": 18,
+    "cM": 102.64954880800565,
+    "prior_a": 36.64220444722418,
+    "prior_b": 68.00734436078146,
+    "graph_score": 0.0,
+    "p_likelihood": 0.5,
+    "likelihood_strength": 50.0,
+    "like_a": 26.0,
+    "like_b": 26.0,
+    "feature_values": {},
+    "post_a": 61.64220444722418,
+    "post_b": 93.00734436078146,
+    "post_mean": 0.3985928502368394
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "20251229_112214",
+  "drug": "metformin",
+  "disease": "Chronic Kidney Disease",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5374149659863946,
+    "p_penalised": 0.2108843537414966,
+    "p_final": 0.13180272108843538,
+    "gamma": 0.75,
+    "counts": {
+      "irrelevant": 44,
+      "therapeutic": 79,
+      "adverse": 24
+    },
+    "M": 147,
+    "cM": 199.44104294499263,
+    "prior_a": 27.286872156865527,
+    "prior_b": 174.15417078812712,
+    "graph_score": 0.0,
+    "p_likelihood": 0.5,
+    "likelihood_strength": 50.0,
+    "like_a": 26.0,
+    "like_b": 26.0,
+    "feature_values": {},
+    "post_a": 52.28687215686553,
+    "post_b": 199.15417078812712,
+    "post_mean": 0.20794883581637164
+  }
+}

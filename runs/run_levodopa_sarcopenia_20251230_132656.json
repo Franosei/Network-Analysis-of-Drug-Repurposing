@@ -1,0 +1,49 @@
+{
+  "timestamp": "20251230_132656",
+  "drug": "Levodopa",
+  "disease": "sarcopenia",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.16666666666666666,
+    "p_penalised": 1e-06,
+    "p_final": 1e-06,
+    "gamma": 0.75,
+    "counts": {
+      "irrelevant": 9,
+      "adverse": 1,
+      "therapeutic": 2
+    },
+    "M": 12,
+    "cM": 76.24332163877183,
+    "prior_a": 1.0000762433216388,
+    "prior_b": 77.24324539545019,
+    "graph_score": -0.10272501799999999,
+    "p_likelihood": 0.4743413049964698,
+    "likelihood_strength": 50.0,
+    "like_a": 24.71706524982349,
+    "like_b": 27.282934750176512,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.1111,
+      "RandomWalkScore": 6e-06,
+      "StructuralLikelihood": 1.0007,
+      "PreferentialAttachment": 0.0,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 24.71714149314513,
+    "post_b": 103.5261801456267,
+    "post_mean": 0.19273628581429691
+  }
+}

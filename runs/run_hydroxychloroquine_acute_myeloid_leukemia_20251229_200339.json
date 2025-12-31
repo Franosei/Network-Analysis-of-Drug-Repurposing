@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251229_200339",
+  "drug": "Hydroxychloroquine",
+  "disease": "Acute myeloid leukemia",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5714285714285714,
+    "p_penalised": 0.5714285714285714,
+    "p_final": 0.5714285714285714,
+    "gamma": 0.2,
+    "counts": {
+      "irrelevant": 3,
+      "therapeutic": 4
+    },
+    "M": 7,
+    "cM": 48.84325170885491,
+    "prior_a": 28.91042954791709,
+    "prior_b": 21.932822160937818,
+    "graph_score": 0.0,
+    "p_likelihood": 0.5,
+    "likelihood_strength": 50.0,
+    "like_a": 26.0,
+    "like_b": 26.0,
+    "feature_values": {},
+    "post_a": 53.91042954791709,
+    "post_b": 46.93282216093782,
+    "post_mean": 0.5345963030184923
+  }
+}

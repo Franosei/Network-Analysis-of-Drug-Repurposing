@@ -1,0 +1,49 @@
+{
+  "timestamp": "20251230_133713",
+  "drug": "Azithromycin",
+  "disease": "venous thrombosis",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.1875,
+    "p_penalised": 1e-06,
+    "p_final": 1e-06,
+    "gamma": 0.8,
+    "counts": {
+      "irrelevant": 9,
+      "adverse": 4,
+      "therapeutic": 3
+    },
+    "M": 16,
+    "cM": 94.54151519139029,
+    "prior_a": 1.0000945415151914,
+    "prior_b": 95.54142064987509,
+    "graph_score": -0.09458057399999999,
+    "p_likelihood": 0.47637246718622034,
+    "likelihood_strength": 50.0,
+    "like_a": 24.818623359311015,
+    "like_b": 27.18137664068898,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.2,
+      "RandomWalkScore": 0.000123,
+      "StructuralLikelihood": 1.0188,
+      "PreferentialAttachment": 3.5e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 24.818717900826208,
+    "post_b": 121.72279729056407,
+    "post_mean": 0.16936304956593198
+  }
+}

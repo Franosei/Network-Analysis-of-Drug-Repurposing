@@ -1,0 +1,48 @@
+{
+  "timestamp": "20251230_133443",
+  "drug": "Azithromycin",
+  "disease": "squamous cell carcinoma of head and neck",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.5,
+    "p_penalised": 0.5,
+    "p_final": 0.5,
+    "gamma": 0.2,
+    "counts": {
+      "therapeutic": 1,
+      "irrelevant": 1
+    },
+    "M": 2,
+    "cM": 15.37673072267285,
+    "prior_a": 8.688365361336425,
+    "prior_b": 8.688365361336425,
+    "graph_score": -0.094893136,
+    "p_likelihood": 0.47629450175359317,
+    "likelihood_strength": 50.0,
+    "like_a": 24.81472508767966,
+    "like_b": 27.185274912320345,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.2,
+      "RandomWalkScore": 0.000264,
+      "StructuralLikelihood": 1.0218,
+      "PreferentialAttachment": 6.4e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 32.503090449016085,
+    "post_b": 34.87364027365677,
+    "post_mean": 0.4824082454045001
+  }
+}

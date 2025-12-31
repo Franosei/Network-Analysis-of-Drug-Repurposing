@@ -1,0 +1,49 @@
+{
+  "timestamp": "20251229_223804",
+  "drug": "metformin",
+  "disease": "pulmonary embolism",
+  "config": {
+    "pubmed_max_articles": 150,
+    "pubmed_filter_level": "high",
+    "pubmed_years_back": 10,
+    "pubmed_use_cache": true,
+    "llm_model": "gpt-4o-mini",
+    "llm_batch_size": 5,
+    "llm_delay_s": 2.0,
+    "llm_max_retries": 2,
+    "cmax": 200.0,
+    "tau": 25.0,
+    "likelihood_strength": 50.0,
+    "likelihood_intercept": 0.0
+  },
+  "components": {
+    "p_raw": 0.16666666666666666,
+    "p_penalised": 1e-06,
+    "p_final": 1e-06,
+    "gamma": 0.2,
+    "counts": {
+      "irrelevant": 3,
+      "therapeutic": 1,
+      "adverse": 2
+    },
+    "M": 6,
+    "cM": 42.67442778668931,
+    "prior_a": 1.0000426744277866,
+    "prior_b": 43.67438511226152,
+    "graph_score": -0.10314928999999999,
+    "p_likelihood": 0.47423551747706283,
+    "likelihood_strength": 50.0,
+    "like_a": 24.711775873853142,
+    "like_b": 27.288224126146858,
+    "feature_values": {
+      "GraphDistanceToIndication": 0.2,
+      "RandomWalkScore": 5.4e-05,
+      "StructuralLikelihood": 1.0929,
+      "PreferentialAttachment": 4.8e-05,
+      "KatzSimilarity": 0.0
+    },
+    "post_a": 24.711818548280927,
+    "post_b": 69.96260923840838,
+    "post_mean": 0.2610189374892136
+  }
+}
