@@ -29,7 +29,7 @@ project-root/
 ├── graph/
 ├── literatures/
 ├── mesh_data/
-│   └── desc2025.xml
+│   └── desc2026.xml
 ├── networks/
 ├── processed_data/
 ├── reports/
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ```bash
 mkdir -p mesh_data
-wget -P mesh_data/ https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2025.xml
+wget -P mesh_data/ https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.xml
 
 ```
 
@@ -134,7 +134,7 @@ wget -P mesh_data/ https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/
 
 ```bash
 New-Item -ItemType Directory -Force -Path mesh_data
-Invoke-WebRequest -Uri https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2025.xml -OutFile mesh_data\desc2025.xml
+Invoke-WebRequest -Uri https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.xml -OutFile mesh_data\desc2026.xml
 
 ```
 

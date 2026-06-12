@@ -1,0 +1,6 @@
+entity_type,mapping_method,count,proportion,nominal_confidence
+condition,mapped_legacy_no_provenance,24868,0.796158,0.75
+condition,unmapped,6367,0.203842,0.0
+drug,mapped_legacy_no_provenance,10178,0.325852,0.75
+drug,not_attempted,6367,0.203842,0.0
+drug,unmapped,14690,0.470306,0.0

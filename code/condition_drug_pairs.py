@@ -24,7 +24,7 @@ class ConditionDrugPairBuilder:
         output_dir: str = "processed_data",
         output_filename: str = "condition_drug_pairs.json",
         unmatched_filename: str = "unmatched_pairs.json",
-        mesh_path: str = "mesh_data/desc2025.xml",
+        mesh_path: str = "mesh_data/desc2026.xml",
         fuzzy_cutoff: float = 0.80,
         token_jaccard_min: float = 0.60,
         include_placebo: bool = False,
@@ -264,12 +264,30 @@ class ConditionDrugPairBuilder:
 
         # 1) Exact
         if norm in mesh_map:
-            return mesh_map[norm], {"method": "exact", "normalized": norm}
+            return mesh_map[norm], {
+                "method": "exact",
+                "normalized": norm,
+                "matched_key": norm,
+                "score": 1.0,
+                "sequence_ratio": 1.0,
+                "token_jaccard_score": 1.0,
+            }
 
         # 2) Fuzzy over all keys
         close = get_close_matches(norm, mesh_map.keys(), n=1, cutoff=self.fuzzy_cutoff)
         if close:
-            return mesh_map[close[0]], {"method": "fuzzy", "normalized": norm, "matched_key": close[0]}
+            norm_tokens = self._tokenize(norm)
+            close_tokens = self._tokenize(close[0])
+            seq_ratio = self._seq_ratio(norm, close[0])
+            token_jaccard = self._jaccard(norm_tokens, close_tokens)
+            return mesh_map[close[0]], {
+                "method": "fuzzy",
+                "normalized": norm,
+                "matched_key": close[0],
+                "score": round(seq_ratio, 4),
+                "sequence_ratio": round(seq_ratio, 4),
+                "token_jaccard_score": round(token_jaccard, 4),
+            }
 
         # 3) Token-guided candidate narrowing + scoring
         toks = self._tokenize(norm)
@@ -289,6 +307,8 @@ class ConditionDrugPairBuilder:
 
         best_key = None
         best_score = 0.0
+        best_jaccard = 0.0
+        best_ratio = 0.0
 
         for cand in candidates:
             cand_toks = self._tokenize(cand)
@@ -302,6 +322,8 @@ class ConditionDrugPairBuilder:
             if score > best_score:
                 best_score = score
                 best_key = cand
+                best_jaccard = j
+                best_ratio = r
 
         if best_key:
             return mesh_map[best_key], {
@@ -309,6 +331,8 @@ class ConditionDrugPairBuilder:
                 "normalized": norm,
                 "matched_key": best_key,
                 "score": round(best_score, 4),
+                "sequence_ratio": round(best_ratio, 4),
+                "token_jaccard_score": round(best_jaccard, 4),
             }
 
         return None, {"method": "token_score_failed", "normalized": norm}
@@ -401,7 +425,7 @@ if __name__ == "__main__":
     builder = ConditionDrugPairBuilder(
         input_dir="data",
         output_dir="processed_data",
-        mesh_path="mesh_data/desc2025.xml",
+        mesh_path="mesh_data/desc2026.xml",
         fuzzy_cutoff=0.80,
         token_jaccard_min=0.60,
         include_placebo=False,

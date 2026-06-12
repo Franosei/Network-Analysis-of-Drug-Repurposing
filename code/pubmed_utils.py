@@ -980,7 +980,6 @@ Input records:
         total = int(sum(counts.values()))
         T = int(counts.get("therapeutic", 0))
         A = int(counts.get("adverse", 0))
-        N = int(counts.get("irrelevant", 0))
 
         raw_prior = (T / total) if total else 0.5
         penalised_prior = max((T - 2 * A) / total, 0.0) if total else 0.5
@@ -991,6 +990,7 @@ Input records:
         # Side-effect adjustment (FIX: read p_final from SideEffectUpdater dict)
         gamma: Optional[float] = None
         enhanced_prior = penalised_prior
+        side_effect_update: Dict[str, Any] = {}
 
         try:
             upd = updater.update_prior(drug, disease, penalised_prior)
@@ -1001,6 +1001,7 @@ Input records:
             # - tuple (enhanced_prior, gamma)
             # - float enhanced_prior
             if isinstance(upd, dict):
+                side_effect_update = dict(upd)
                 enhanced_prior = float(upd.get("p_final", upd.get("enhanced_prior", penalised_prior)))
                 g = upd.get("gamma", None)
                 gamma = float(g) if g is not None else None
@@ -1024,6 +1025,10 @@ Input records:
             "penalised_prior": penalised_prior,
             "enhanced_prior": enhanced_prior,  # corresponds to p_final
             "gamma": gamma,
+            "side_effect_update": side_effect_update,
+            "matching_effects": side_effect_update.get("matching_effects", []),
+            "safety_relation": side_effect_update.get("relation", None),
+            "safety_penalty_scale": side_effect_update.get("penalty_scale", None),
             "raw_counts": counts,
             "labelled_abstracts": [
                 {

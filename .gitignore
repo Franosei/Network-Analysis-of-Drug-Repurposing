@@ -172,6 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-mesh_data/desc2025.xml
+mesh_data/desc2026.xml
 note.ipynb
 data/
+outputs/

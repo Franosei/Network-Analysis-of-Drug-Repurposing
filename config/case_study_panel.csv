@@ -1,0 +1,41 @@
+drug,disease,case_type,expected_quality,priority,narrative
+dexamethasone,covid-19,successful_repurposing,High evidence quality,1,Core successful repurposing example with strong randomized-trial evidence and auditable safety context.
+hydroxychloroquine,covid-19,failed_repurposing,Safety-conflicted evidence,1,Failed COVID-19 repurposing example where early signal and attention were later contradicted by stronger evidence and safety concerns.
+ivermectin,covid-19,weak_evidence_high_attention,Literature noise dominated,1,High-attention COVID-19 example where literature volume should not be equated with evidence quality.
+colchicine,coronary artery disease,emerging_repurposing,Moderate evidence quality,1,Cardiovascular repurposing example with anti-inflammatory rationale and growing clinical-trial evidence.
+colchicine,myocardial infarction,emerging_repurposing,Moderate evidence quality,2,Post-MI anti-inflammatory repurposing case with cardiovascular outcome evidence.
+colchicine,heart failure,safety_conflicted,Safety-concerning,2,Cardiovascular hypothesis with potential safety and tolerability issues.
+colchicine,atherosclerosis,emerging_repurposing,Moderate evidence quality,2,Mechanistically plausible inflammatory vascular disease candidate.
+colchicine,peripheral arterial disease,emerging_repurposing,Moderate evidence quality,3,Peripheral vascular disease candidate for coverage comparison.
+metformin,chronic kidney disease,emerging_repurposing,Moderate evidence quality,1,Metformin kidney-disease hypothesis with mixed evidence and safety considerations.
+metformin,uterine cervical dysplasia,novel_hypothesis,Insufficient evidence,1,Mechanistic oncology prevention hypothesis likely requiring more clinical evidence.
+metformin,pulmonary embolism,safety_conflicted,Safety-conflicted evidence,2,Safety and vascular-disease signal comparison case.
+metformin,mitochondrial diseases,novel_hypothesis,Insufficient evidence,1,Mechanistically plausible but evidence-sparse mitochondrial case.
+metformin,mania,novel_hypothesis,Moderate evidence quality,3,Nontraditional psychiatric hypothesis to stress-test literature quality.
+metformin,foot ulcer,emerging_repurposing,Moderate evidence quality,2,Diabetes-complication example with clinical context and wound-healing evidence.
+metformin,ascites,novel_hypothesis,Low evidence quality,3,Graph/literature stress-test for noncanonical indication.
+metformin,hypersensitivity,safety_conflicted,Safety-concerning,2,Adverse/safety-oriented comparison case.
+azithromycin,albuminuria,noisy_evidence,Literature noise dominated,2,Example with literature retrieval noise and weak disease specificity.
+azithromycin,body weight,safety_conflicted,Safety-concerning,2,High-volume literature with potential safety/adverse relevance.
+azithromycin,frailty,emerging_repurposing,Safety-concerning,3,Frailty candidate with limited but interpretable literature signal.
+azithromycin,gout,safety_conflicted,Literature-conflicted,3,Adverse and irrelevant evidence balance example.
+azithromycin,venous thrombosis,safety_conflicted,Safety-conflicted evidence,2,Thrombosis-related safety comparison.
+azithromycin,ureterolithiasis,novel_hypothesis,Insufficient evidence,3,Low-evidence graph/literature coverage stress-test.
+azithromycin,pregnancy in diabetics,noisy_evidence,Insufficient evidence,3,Low-evidence noisy retrieval example.
+azithromycin,adenomatous polyps,novel_hypothesis,Insufficient evidence,3,Small-literature candidate for uncertainty handling.
+levodopa,cardiovascular diseases,safety_conflicted,Literature-conflicted,2,Safety and comorbidity-rich candidate.
+levodopa,sarcopenia,emerging_repurposing,Moderate evidence quality,2,Emerging musculoskeletal/neurodegenerative repurposing case.
+levodopa,tinnitus,novel_hypothesis,Insufficient evidence,3,Low-evidence neurologic candidate.
+levodopa,pleural effusion,novel_hypothesis,Insufficient evidence,3,Graph-only or sparse evidence stress-test.
+levodopa,hodgkin disease,novel_hypothesis,Low evidence quality,3,Oncology coverage stress-test.
+levodopa,prostatic hyperplasia,novel_hypothesis,Low evidence quality,3,Noncanonical indication coverage test.
+hydroxychloroquine,melanoma,emerging_repurposing,High evidence quality,2,Oncology repurposing candidate with stronger local readiness score.
+hydroxychloroquine,prostate cancer,emerging_repurposing,Moderate evidence quality,2,Oncology candidate for literature and safety comparison.
+hydroxychloroquine,pancreatic cancer,emerging_repurposing,Moderate evidence quality,2,Oncology candidate with therapeutic literature signal.
+hydroxychloroquine,ovarian cancer,emerging_repurposing,Moderate evidence quality,2,Oncology candidate for retrieval and posterior uncertainty comparison.
+hydroxychloroquine,lung cancer,safety_conflicted,Safety-concerning,2,Oncology candidate with pulmonary safety context.
+hydroxychloroquine,colorectal cancer,emerging_repurposing,Moderate evidence quality,2,Oncology literature-quality comparison case.
+hydroxychloroquine,hepatocellular carcinoma,safety_conflicted,Safety-concerning,2,Liver toxicity/safety-overlap comparison case.
+dexamethasone,acute myeloid leukemia,emerging_repurposing,Moderate evidence quality,3,Oncology/steroid comparison case.
+ivermectin,malaria,emerging_repurposing,Moderate evidence quality,3,Infectious-disease repurposing comparison outside COVID-19.
+ivermectin,hepatitis b,novel_hypothesis,Insufficient evidence,3,Infectious-disease evidence-readiness stress-test.

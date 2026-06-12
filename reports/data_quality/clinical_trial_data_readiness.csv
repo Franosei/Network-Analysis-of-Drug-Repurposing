@@ -1,0 +1,2 @@
+total_extracted_trial_records,drug_condition_rows,matched_drug_condition_rows,successfully_normalised_conditions,successfully_normalised_drugs,unmatched_condition_count,unmatched_condition_rate,unresolved_drug_count,unresolved_drug_rate,placebo_exclusion_count,duplicate_pair_count,final_graph_ready_pair_count,legacy_note
+,31235,10178,24868,10178,6367,0.20384184408516087,14690,0.5907189963004664,45,5107,5026,total_extracted_trial_records is blank when raw ClinicalTrials.gov JSON files are not present; matched/unmatched rows are counted from processed_data.

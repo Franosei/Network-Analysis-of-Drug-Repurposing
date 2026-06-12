@@ -1,0 +1,42 @@
+drug,disease,case_type,expected_quality,priority,narrative
+dexamethasone,covid-19,successful_repurposing,High evidence quality,1,RECOVERY trial demonstrated 28-day mortality reduction in ventilated patients. Benchmark successful repurposing: strong RCT evidence with auditable safety stratification.
+hydroxychloroquine,covid-19,failed_repurposing,Safety-conflicted evidence,1,SOLIDARITY/RECOVERY showed no benefit; cardiac arrhythmia concerns raised. Demonstrates how high literature volume with safety conflict produces misleading repurposing signal.
+ivermectin,covid-19,weak_evidence_high_attention,Literature noise dominated,1,TOGETHER/ACTIV-6/PRINCIPLE found no meaningful benefit despite massive attention. Key thesis illustration: literature volume does not equal evidence quality.
+colchicine,coronary artery disease,successful_repurposing,High evidence quality,1,COLCOT/LoDoCo2 trials showed post-MI event reduction. FDA-approved 2023 for CV risk reduction. Model of evidence-maturity-supported repurposing.
+colchicine,myocardial infarction,emerging_repurposing,Moderate evidence quality,1,Post-MI anti-inflammatory repurposing with cardiovascular outcome evidence from COLCOT trial.
+colchicine,heart failure,safety_conflicted,Safety-concerning,2,Cardiovascular hypothesis with potential safety and tolerability concerns; evidence mixed.
+colchicine,atherosclerosis,emerging_repurposing,Moderate evidence quality,2,Mechanistically plausible inflammatory vascular disease candidate with NLRP3 inhibition rationale.
+metformin,chronic kidney disease,emerging_repurposing,Moderate evidence quality,1,Mixed evidence and safety considerations for diabetic nephropathy; surveillance recommended.
+metformin,uterine cervical dysplasia,novel_hypothesis,Insufficient evidence,1,mTOR/AMPK mechanistic hypothesis; limited clinical evidence. Framework identifies as not-yet-evidence-ready.
+metformin,mitochondrial diseases,novel_hypothesis,Insufficient evidence,1,AMPK activation and mitophagy induction proposed; small case series only. Network proximity surfaces plausible but sparse candidate.
+metformin,colorectal cancer,emerging_repurposing,Moderate evidence quality,2,Epidemiological and mechanistic evidence for colorectal cancer risk reduction; ongoing trials.
+metformin,endometrial cancer,emerging_repurposing,Moderate evidence quality,2,Anti-proliferative evidence in endometrial cancer; clinical trials underway.
+metformin,non-alcoholic fatty liver disease,emerging_repurposing,Moderate evidence quality,2,Insulin-sensitising rationale; evidence mixed for NASH endpoint but mechanistically supported.
+metformin,mania,novel_hypothesis,Insufficient evidence,3,Nontraditional psychiatric hypothesis; tests framework robustness to out-of-distribution disease.
+azithromycin,albuminuria,noisy_evidence,Literature noise dominated,2,Noisy literature retrieval with weak disease specificity; illustrates retrieval quality challenges.
+azithromycin,cystic fibrosis,emerging_repurposing,Moderate evidence quality,2,Anti-inflammatory benefit demonstrated in cystic fibrosis patients; established off-label use.
+azithromycin,bronchiectasis,emerging_repurposing,Moderate evidence quality,2,Long-term azithromycin reduces exacerbations in non-CF bronchiectasis; guideline-supported.
+azithromycin,frailty,emerging_repurposing,Safety-concerning,3,Frailty candidate with limited but interpretable literature signal; safety surveillance needed.
+azithromycin,venous thrombosis,safety_conflicted,Safety-conflicted evidence,2,Thrombosis-related safety comparison; adverse signal prominent.
+levodopa,cardiovascular diseases,safety_conflicted,Literature-conflicted,2,Safety and comorbidity-rich candidate; therapeutic and adverse signals in tension.
+levodopa,sarcopenia,emerging_repurposing,Moderate evidence quality,2,Emerging musculoskeletal/neurodegenerative repurposing case; dopaminergic mechanism plausible.
+levodopa,depression,novel_hypothesis,Insufficient evidence,3,Dopaminergic rationale; limited evidence and confounding with Parkinson's comorbidity.
+levodopa,tinnitus,novel_hypothesis,Insufficient evidence,3,Low-evidence neurological candidate; tests sparse-literature handling.
+hydroxychloroquine,melanoma,emerging_repurposing,Moderate evidence quality,2,Autophagy inhibition rationale; clinical trials ongoing; stronger local readiness score.
+hydroxychloroquine,prostate cancer,emerging_repurposing,Moderate evidence quality,2,Autophagy inhibition oncology candidate; literature and safety comparison.
+hydroxychloroquine,pancreatic cancer,emerging_repurposing,Moderate evidence quality,2,Pancreatic autophagy inhibition hypothesis; moderate therapeutic literature signal.
+hydroxychloroquine,rheumatoid arthritis,successful_repurposing,High evidence quality,1,Established DMARD for RA; regulatory-approved repurposing benchmark for autoimmune indication.
+hydroxychloroquine,lupus erythematosus,successful_repurposing,High evidence quality,1,FDA-approved for SLE; strong evidence base with known safety monitoring requirements.
+dexamethasone,acute myeloid leukemia,emerging_repurposing,Moderate evidence quality,2,Corticosteroid use in AML induction; established but context-dependent efficacy.
+dexamethasone,multiple myeloma,successful_repurposing,High evidence quality,2,Cornerstone of myeloma regimens; regulatory-approved combination partner.
+ivermectin,malaria,emerging_repurposing,Moderate evidence quality,2,Vector transmission-blocking mechanism outside COVID; mechanistic and epidemiological evidence.
+ivermectin,strongyloidiasis,successful_repurposing,High evidence quality,2,WHO essential medicine for strongyloidiasis; established efficacy benchmark.
+sirolimus,tuberous sclerosis,successful_repurposing,High evidence quality,1,mTOR inhibition in TSC; FDA-approved. Benchmark mechanistically-driven regulatory repurposing.
+sirolimus,lymphangioleiomyomatosis,successful_repurposing,High evidence quality,1,mTOR inhibition in LAM; FDA-approved orphan disease repurposing.
+sirolimus,kidney transplant rejection,successful_repurposing,High evidence quality,2,Transplant immunosuppression; regulatory-approved indication expansion.
+thalidomide,multiple myeloma,successful_repurposing,High evidence quality,1,Dramatic cancer repurposing story with REMS safety programme; angiogenesis inhibition mechanism.
+rituximab,rheumatoid arthritis,successful_repurposing,High evidence quality,1,Anti-CD20 therapy expanded from lymphoma to RA; landmark mechanistic repurposing.
+aspirin,colorectal cancer,emerging_repurposing,Moderate evidence quality,2,Long-term aspirin and CRC risk reduction; epidemiological evidence and mechanistic plausibility.
+aspirin,pre-eclampsia,successful_repurposing,High evidence quality,2,Low-dose aspirin reduces pre-eclampsia risk; WHO guideline recommendation.
+statins,alzheimer's disease,novel_hypothesis,Insufficient evidence,2,Cholesterol pathway hypothesis; large observational evidence but RCTs negative for AD endpoint.
+statins,sepsis,safety_conflicted,Literature-conflicted,3,Conflicting evidence from RCTs; plausible mechanism but uncertain clinical benefit.

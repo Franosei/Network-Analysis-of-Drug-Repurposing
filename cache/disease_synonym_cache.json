@@ -238,5 +238,221 @@
     "macroalbuminuria",
     "urinary albumin",
     "albumin leakage"
+  ],
+  "disease_synonyms::covid-19::k=6::m=gpt-4o-mini": [
+    "SARS-CoV-2 infection",
+    "coronavirus disease 2019",
+    "COVID-19 pneumonia",
+    "novel coronavirus infection",
+    "severe acute respiratory syndrome coronavirus 2",
+    "2019-nCoV disease"
+  ],
+  "disease_synonyms::coronary artery disease::k=6::m=gpt-4o-mini": [
+    "coronary heart disease",
+    "ischemic heart disease",
+    "atherosclerotic heart disease",
+    "coronary atherosclerosis",
+    "coronary artery atherosclerosis",
+    "myocardial ischemia"
+  ],
+  "disease_synonyms::myocardial infarction::k=6::m=gpt-4o-mini": [
+    "heart attack",
+    "acute myocardial infarction",
+    "myocardial ischemia",
+    "coronary thrombosis",
+    "ST-elevation myocardial infarction",
+    "non-ST elevation myocardial infarction"
+  ],
+  "disease_synonyms::heart failure::k=6::m=gpt-4o-mini": [
+    "congestive heart failure",
+    "cardiac failure",
+    "heart insufficiency",
+    "left-sided heart failure",
+    "right-sided heart failure",
+    "systolic heart failure"
+  ],
+  "disease_synonyms::atherosclerosis::k=6::m=gpt-4o-mini": [
+    "arteriosclerosis",
+    "hardening of the arteries",
+    "coronary artery disease",
+    "peripheral artery disease",
+    "vascular disease",
+    "cholesterol plaque buildup"
+  ],
+  "disease_synonyms::chronic kidney disease::k=6::m=gpt-4o-mini": [
+    "chronic renal failure",
+    "chronic kidney failure",
+    "end-stage renal disease",
+    "chronic renal insufficiency",
+    "kidney disease stage 3",
+    "kidney disease stage 4"
+  ],
+  "disease_synonyms::colorectal cancer::k=6::m=gpt-4o-mini": [
+    "colon cancer",
+    "rectal cancer",
+    "colorectal carcinoma",
+    "adenocarcinoma of the colon",
+    "adenocarcinoma of the rectum",
+    "large bowel cancer"
+  ],
+  "disease_synonyms::endometrial cancer::k=6::m=gpt-4o-mini": [
+    "uterine cancer",
+    "endometrial carcinoma",
+    "corpus uteri cancer",
+    "endometrial neoplasm",
+    "endometrial adenocarcinoma",
+    "malignant neoplasm of the endometrium"
+  ],
+  "disease_synonyms::non-alcoholic fatty liver disease::k=6::m=gpt-4o-mini": [
+    "non-alcoholic steatohepatitis",
+    "NAFLD",
+    "hepatic steatosis",
+    "metabolic syndrome liver disease",
+    "simple hepatic steatosis",
+    "non-alcoholic fatty liver"
+  ],
+  "disease_synonyms::cystic fibrosis::k=6::m=gpt-4o-mini": [
+    "mucoviscidosis",
+    "cystic fibrosis transmembrane conductance regulator (CFTR) deficiency",
+    "CF",
+    "cystic fibrosis lung disease",
+    "cystic fibrosis-related diabetes",
+    "cystic fibrosis syndrome"
+  ],
+  "disease_synonyms::bronchiectasis::k=6::m=gpt-4o-mini": [
+    "bronchial dilation",
+    "bronchial ectasia",
+    "chronic bronchiectasis",
+    "cystic bronchiectasis",
+    "post-infectious bronchiectasis",
+    "congenital bronchiectasis"
+  ],
+  "disease_synonyms::depression::k=6::m=gpt-4o-mini": [
+    "major depressive disorder",
+    "clinical depression",
+    "unipolar depression",
+    "depressive disorder",
+    "melancholia",
+    "affective disorder"
+  ],
+  "disease_synonyms::melanoma::k=6::m=gpt-4o-mini": [
+    "malignant melanoma",
+    "cutaneous melanoma",
+    "acral melanoma",
+    "uveal melanoma",
+    "nodular melanoma",
+    "lentigo maligna melanoma"
+  ],
+  "disease_synonyms::prostate cancer::k=6::m=gpt-4o-mini": [
+    "prostatic adenocarcinoma",
+    "prostate carcinoma",
+    "androgen-dependent prostate cancer",
+    "hormone-sensitive prostate cancer",
+    "metastatic prostate cancer",
+    "localized prostate cancer"
+  ],
+  "disease_synonyms::pancreatic cancer::k=6::m=gpt-4o-mini": [
+    "pancreatic adenocarcinoma",
+    "ductal adenocarcinoma of the pancreas",
+    "pancreatic ductal carcinoma",
+    "exocrine pancreatic cancer",
+    "pancreatic neoplasm",
+    "pancreatic carcinoma"
+  ],
+  "disease_synonyms::rheumatoid arthritis::k=6::m=gpt-4o-mini": [
+    "RA",
+    "rheumatoid disease",
+    "rheumatoid joint disease",
+    "chronic inflammatory arthritis",
+    "seropositive arthritis",
+    "rheumatoid spondylitis"
+  ],
+  "disease_synonyms::lupus erythematosus::k=6::m=gpt-4o-mini": [
+    "systemic lupus erythematosus",
+    "discoid lupus erythematosus",
+    "lupus",
+    "lupus vulgaris",
+    "subacute cutaneous lupus erythematosus",
+    "drug-induced lupus erythematosus"
+  ],
+  "disease_synonyms::acute myeloid leukemia::k=6::m=gpt-4o-mini": [
+    "acute myelogenous leukemia",
+    "acute myeloblastic leukemia",
+    "acute non-lymphocytic leukemia",
+    "myeloid leukemia",
+    "AML",
+    "acute myeloid neoplasm"
+  ],
+  "disease_synonyms::multiple myeloma::k=6::m=gpt-4o-mini": [
+    "plasma cell myeloma",
+    "myelomatosis",
+    "Kahler's disease",
+    "IgG myeloma",
+    "IgA myeloma",
+    "light chain myeloma"
+  ],
+  "disease_synonyms::malaria::k=6::m=gpt-4o-mini": [
+    "Plasmodium infection",
+    "malarial fever",
+    "tertian fever",
+    "quartan fever",
+    "Plasmodium falciparum malaria",
+    "Plasmodium vivax malaria"
+  ],
+  "disease_synonyms::strongyloidiasis::k=6::m=gpt-4o-mini": [
+    "strongyloides infection",
+    "strongyloides stercoralis infection",
+    "strongyloid worm infection",
+    "threadworm infection",
+    "strongyloid intestinal infection",
+    "strongyloides hyperinfection syndrome"
+  ],
+  "disease_synonyms::tuberous sclerosis::k=6::m=gpt-4o-mini": [
+    "Bourneville's disease",
+    "tuberous sclerosis complex",
+    "epilepsy due to tuberous sclerosis",
+    "tuberous sclerosis syndrome",
+    "tuberous sclerosis associated with renal angiomyolipoma",
+    "tuberous sclerosis with cortical tubers"
+  ],
+  "disease_synonyms::lymphangioleiomyomatosis::k=6::m=gpt-4o-mini": [
+    "LAM",
+    "lymphangioleiomyomatosis complex",
+    "pulmonary lymphangioleiomyomatosis",
+    "tuberous sclerosis-associated lymphangioleiomyomatosis",
+    "lymphangioleiomyomatosis syndrome",
+    "lymphangioleiomyomatosis with renal involvement"
+  ],
+  "disease_synonyms::kidney transplant rejection::k=6::m=gpt-4o-mini": [
+    "renal transplant rejection",
+    "allograft rejection",
+    "acute rejection",
+    "chronic rejection",
+    "hyperacute rejection",
+    "cell-mediated rejection"
+  ],
+  "disease_synonyms::pre-eclampsia::k=6::m=gpt-4o-mini": [
+    "toxemia of pregnancy",
+    "gestational hypertension",
+    "pregnancy-induced hypertension",
+    "hypertensive disorder in pregnancy",
+    "preeclampsia-eclampsia syndrome",
+    "preeclampsia with severe features"
+  ],
+  "disease_synonyms::alzheimer's disease::k=6::m=gpt-4o-mini": [
+    "Alzheimer's type dementia",
+    "senile dementia of the Alzheimer's type",
+    "Alzheimer's dementia",
+    "familial Alzheimer's disease",
+    "early-onset Alzheimer's disease",
+    "late-onset Alzheimer's disease"
+  ],
+  "disease_synonyms::sepsis::k=6::m=gpt-4o-mini": [
+    "septicemia",
+    "systemic inflammatory response syndrome",
+    "septic shock",
+    "sepsis syndrome",
+    "blood poisoning",
+    "sepsis-related organ failure"
   ]
 }
