@@ -1552,7 +1552,7 @@ def validate_pairs_stage(
     - checks presence in graph features (known vs unknown)
     - checks presence of a Bayesian run log
     - checks presence of a literature file
-    - computes a per-pair coverage tier: full | partial | graph_only | not_covered
+    - computes a per-pair coverage tier aligned with the publication ledger taxonomy
     """
     matched_rows = read_json(matched_path, []) if matched_path.exists() else []
     if not isinstance(matched_rows, list):
@@ -1596,7 +1596,7 @@ def validate_pairs_stage(
         has_lit = lit_record is not None
 
         if has_run and in_graph:
-            coverage_tier = "full_bayesian"
+            coverage_tier = "full_bayesian_audit"
         elif has_lit and in_graph:
             coverage_tier = "literature_and_graph"
         elif in_graph and not has_lit:
@@ -1628,7 +1628,7 @@ def validate_pairs_stage(
     df = pd.DataFrame(validation_rows)
     log_lines.append(
         f"Pair validation: {len(validation_rows)} unique matched pairs | "
-        f"full_bayesian={sum(1 for r in validation_rows if r['coverage_tier']=='full_bayesian')} | "
+        f"full_bayesian={sum(1 for r in validation_rows if r['coverage_tier']=='full_bayesian_audit')} | "
         f"lit+graph={sum(1 for r in validation_rows if r['coverage_tier']=='literature_and_graph')} | "
         f"graph_only={sum(1 for r in validation_rows if r['coverage_tier']=='graph_only')}"
     )

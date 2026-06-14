@@ -14,7 +14,7 @@ def coverage_tier(
     has_bayesian: bool,
 ) -> str:
     if has_mapping and has_graph and has_literature and has_safety and has_bayesian:
-        return "full_audit"
+        return "full_bayesian_audit"
     if has_graph and has_literature and has_bayesian:
         return "bayesian_without_safety"
     if has_graph and has_literature:
@@ -24,7 +24,7 @@ def coverage_tier(
     if has_literature:
         return "literature_only"
     if has_mapping:
-        return "mapped_only"
+        return "matched_pairs_only"
     return "insufficient_coverage"
 
 
@@ -87,4 +87,3 @@ def quality_flag(
     if readiness_score >= 50.0:
         return "Moderate evidence quality"
     return "Low evidence quality"
-
