@@ -17,7 +17,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 import pandas as pd
 
@@ -118,6 +118,13 @@ def table2_metric_definitions(output_dir: Path) -> None:
             "Direction": "Lower = cleaner evidence",
         },
         {
+            "Metric": "adverse_evidence_penalty",
+            "Source": "code/pubmed_utils.py",
+            "Formula_Rule": "p_penalised = max((T - 2A) / (T + A + N), 0); coefficient 2 is pre-specified and conservative",
+            "Interpretation": "One adverse-classified article offsets two therapeutic-classified articles before clamping at zero.",
+            "Direction": "Lower = more adverse-evidence penalty",
+        },
+        {
             "Metric": "irrelevant_noise_rate",
             "Source": "code/pubmed_utils.py — LLM classification",
             "Formula_Rule": "irrelevant_count / all_classified_articles",
@@ -141,9 +148,16 @@ def table2_metric_definitions(output_dir: Path) -> None:
         {
             "Metric": "safety_penalty",
             "Source": "code/side_effect_updater.py",
-            "Formula_Rule": "p_penalised = p_raw × (1 − penalty_scale × gamma); penalty_scale=0.5",
-            "Interpretation": "Multiplicative penalty applied to prior due to adverse-event overlap.",
+            "Formula_Rule": "p_final = p_penalised * (1 - 0.5 * gamma); 0.5 is a pre-specified conservative safety penalty scale",
+            "Interpretation": "Multiplicative penalty applied to the literature prior due to adverse-event/disease overlap.",
             "Direction": "Smaller penalty = less safety concern",
+        },
+        {
+            "Metric": "bayesian_hyperparameters",
+            "Source": "run_full_data_quality_pipeline.py",
+            "Formula_Rule": "cmax=200; tau=25; likelihood_strength=50; likelihood_intercept=0",
+            "Interpretation": "Fixed constants for prior concentration and graph-likelihood pseudo-count fusion.",
+            "Direction": "Reported for reproducibility",
         },
         {
             "Metric": "structural_consistency_score",

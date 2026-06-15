@@ -106,6 +106,12 @@ METRIC_DEFINITIONS = {
     "therapeutic_ratio": "Therapeutic-classified articles divided by all usable classified articles.",
     "adverse_burden": "Adverse-classified articles divided by all usable classified articles.",
     "irrelevant_noise_rate": "Irrelevant classified articles divided by all classified articles.",
+    "adverse_evidence_penalty": (
+        "Pre-specified conservative literature penalty: "
+        "p_penalised = max((T - 2A) / (T + A + N), 0), where T=therapeutic, "
+        "A=adverse, and N=irrelevant classified articles. The coefficient 2 makes "
+        "one adverse article offset two therapeutic articles."
+    ),
     "literature_completeness_score": (
         "0-1 score reflecting article retrieval completeness: penalises zero-article pairs, "
         "rewards pairs where usable articles are a high fraction of retrieved articles."
@@ -116,7 +122,12 @@ METRIC_DEFINITIONS = {
     ),
     "safety_penalty": (
         "Multiplicative penalty applied to the prior mean due to adverse-event/disease overlap. "
-        "p_penalised = p_raw × (1 − penalty_scale × gamma)."
+        "p_final = p_penalised * (1 - 0.5 * gamma). The 0.5 penalty scale is a "
+        "pre-specified conservative heuristic that caps safety-overlap down-weighting at 50%."
+    ),
+    "bayesian_hyperparameters": (
+        "Fixed Bayesian constants used in the manuscript pipeline: cmax=200, tau=25, "
+        "likelihood_strength=50, likelihood_intercept=0. These are written to each run_config.json."
     ),
     "structural_consistency_score": (
         "Normalised composite of graph-feature signals (graph_distance, random_walk_score, "

@@ -42,17 +42,10 @@ The diagram summarises the end-to-end publication workflow:
 |-- code/                         # Core extraction, mapping, graph, literature, Bayesian, and utility modules
 |-- config/                       # Case-study panels used by publication runs
 |-- data_quality/                 # Ledger schema, scoring weights, and rule-based flags
-|-- graph/                        # Baseline graph artifacts and feature matrices
-|-- literatures/                  # Classified PubMed/PMC evidence JSON artifacts
-|-- model_evaluation/             # Trial metadata and phase/status summaries by therapeutic area
-|-- networks/                     # Network visualisations
 |-- outputs/                      # Dated publication/data-quality rerun folders
+|   `-- 20260610_bayesian/        # Latest validated full pipeline run retained after cleanup
 |-- pipeline/                     # Pipeline documentation figure
-|-- plots/                        # Bayesian posterior plots by drug-disease pair
-|-- processed_data/               # Matched and unmatched condition-drug pair artifacts
 |-- reporting/                    # Publication table generation
-|-- reports/                      # Static report artifacts and data-quality outputs
-|-- runs/                         # Per-pair Bayesian diagnostic run logs
 |-- validation/                   # Publication run validation
 |-- visualisation/                # Publication figure generation
 |-- run_full_data_quality_pipeline.py
@@ -83,7 +76,7 @@ The publication pipeline writes `01_clinical_trial_extraction_audit.csv` with so
 - incoming terms are cleaned by lowercasing, stripping qualifiers, normalising separators, removing dosage-like tokens, and reducing punctuation
 - matching proceeds through exact match, high-confidence fuzzy match, low-confidence fuzzy match, and token-guided Jaccard scoring
 
-The mapped output is written to `processed_data/condition_drug_pairs.json`; unresolved terms and failure reasons are written to `processed_data/unmatched_pairs.json`. Publication runs mirror this into `02_terminology_mapping_audit.csv`.
+In a publication run, mapped pairs are written under `outputs/<run>/processed_data/`; unresolved terms and failure reasons are written to `outputs/<run>/processed_data/unmatched_pairs.json`. The mapping audit is mirrored into `02_terminology_mapping_audit.csv`.
 
 ### 3. Graph Construction and Structural Evidence
 
@@ -104,11 +97,11 @@ For each pair, the graph stage computes five interpretable features:
 | `PreferentialAttachment` | Degree product between drug and disease nodes. |
 | `KatzSimilarity` | Matrix-based damped-path similarity using `(I - alpha A)^-1 - I`. |
 
-Outputs:
+Outputs inside a publication run:
 
-- `graph/bipartite.graphml`
-- `graph/graph_features_known.csv`
-- `graph/graph_features_unknown.csv`
+- `outputs/<run>/graph/bipartite.graphml`
+- `outputs/<run>/graph/graph_features_known.csv`
+- `outputs/<run>/graph/graph_features_unknown.csv`
 - `03_graph_construction_audit.csv` inside publication runs
 
 ### 4. Literature Prior and Safety Adjustment
@@ -128,6 +121,8 @@ p_raw        = T / M
 p_penalised  = max((T - 2A) / M, 0)
 ```
 
+The adverse-evidence coefficient `2` is a pre-specified conservative heuristic: one adverse-classified article is allowed to offset two therapeutic-classified articles before clamping at zero. This intentionally penalises safety-conflicted literature more strongly than mixed neutral evidence.
+
 `SideEffectUpdater` then retrieves openFDA adverse-event terms and asks the LLM whether those terms semantically overlap with the target disease. If a relation exists:
 
 ```text
@@ -135,6 +130,8 @@ p_final = p_penalised * (1 - penalty_scale * gamma)
 ```
 
 where `gamma` is the safety-overlap confidence in `[0, 1]` and `penalty_scale` defaults to `0.5`. If no relation is detected, `p_final = p_penalised`.
+
+The safety penalty scale `0.5` is also a pre-specified conservative heuristic. It caps the safety-overlap reduction at 50% when `gamma = 1`, avoiding complete elimination of a signal while still down-weighting candidates whose adverse-event profile overlaps with the target phenotype.
 
 Publication runs write:
 
@@ -155,8 +152,10 @@ c(M) = cmax * (1 - exp(-M / tau))
 Default values:
 
 ```text
-cmax = 200
-tau  = 25
+cmax               = 200
+tau                = 25
+likelihood_strength = 50
+likelihood_intercept = 0
 ```
 
 Prior:
@@ -200,6 +199,8 @@ posterior_mean = alpha_post / (alpha_post + beta_post)
 
 Diagnostics include posterior variance, 95% credible interval, credible-interval width, KL divergence from prior to posterior, and posterior mean shift.
 
+The Bayesian constants above are fixed defaults used by the pipeline and are written to `run_config.json` for each publication run.
+
 ### 6. Composite Evidence-Readiness Score
 
 The final 0-100 score is a weighted audit-readiness index, not a treatment recommendation:
@@ -241,10 +242,10 @@ Coverage tiers are standardised as:
 
 ## Main Outputs
 
-A publication run creates a folder such as `outputs/publication_run_20260610/`:
+The retained full run is `outputs/20260610_bayesian/`. A publication run folder has this structure:
 
 ```text
-outputs/publication_run_YYYYMMDD/
+outputs/<run>/
 |-- audit_files/
 |   |-- 01_clinical_trial_extraction_audit.csv
 |   |-- 02_terminology_mapping_audit.csv
@@ -354,13 +355,13 @@ py run_full_data_quality_pipeline.py `
 
 ```powershell
 py code\evidence_quality_report.py `
-  --matched processed_data\condition_drug_pairs.json `
-  --unmatched processed_data\unmatched_pairs.json `
-  --known-graph graph\graph_features_known.csv `
-  --unknown-graph graph\graph_features_unknown.csv `
-  --runs-dir runs `
-  --literature-dir literatures `
-  --output-dir reports\data_quality
+  --matched outputs\20260610_bayesian\processed_data\condition_drug_pairs.json `
+  --unmatched outputs\20260610_bayesian\processed_data\unmatched_pairs.json `
+  --known-graph outputs\20260610_bayesian\graph\graph_features_known.csv `
+  --unknown-graph outputs\20260610_bayesian\graph\graph_features_unknown.csv `
+  --runs-dir outputs\20260610_bayesian\runs `
+  --literature-dir outputs\20260610_bayesian\literatures `
+  --output-dir outputs\20260610_bayesian\manuscript_tables
 ```
 
 ### Generate tables or figures manually
@@ -378,7 +379,7 @@ py reporting\make_all_publication_tables.py `
 py visualisation\make_all_publication_figures.py `
   --ledger_path outputs\publication_run_YYYYMMDD\ledgers\full_evidence_quality_ledger.csv `
   --audit_dir outputs\publication_run_YYYYMMDD\audit_files `
-  --runs_dir runs `
+  --runs_dir outputs\publication_run_YYYYMMDD\runs `
   --output_dir outputs\publication_run_YYYYMMDD\manuscript_figures `
   --supp_dir outputs\publication_run_YYYYMMDD\supplementary_figures `
   --panel_csv config\case_study_panel_publication.csv
@@ -418,6 +419,10 @@ The validation layer checks reproducibility artifacts and audit completeness rat
 - row-count consistency
 
 Warnings are expected when a run intentionally reuses legacy artifacts, lacks fresh literature, lacks safety overlap, or does not include every case-study pair in the active ledger. Errors should be resolved before treating a run as publication-ready.
+
+## Modelling Limitations
+
+The adverse-evidence coefficient `2`, safety penalty scale `0.5`, prior concentration parameters `cmax=200` and `tau=25`, and graph likelihood strength `50` are transparent, pre-specified modelling constants rather than fitted causal parameters. They make the current framework conservative for noisy or safety-conflicted evidence, but future work should quantify sensitivity to alternative adverse-penalty, safety-penalty, prior-concentration, and likelihood-strength settings.
 
 ## License
 
