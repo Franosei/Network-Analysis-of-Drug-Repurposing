@@ -385,6 +385,21 @@ py visualisation\make_all_publication_figures.py `
   --panel_csv config\case_study_panel_publication.csv
 ```
 
+### Generate supplementary sensitivity tables
+
+This offline analysis varies `cmax`, `tau`, likelihood strength `lambda`, the adverse-evidence weight, and the safety coefficient by 50% below and above their baseline values. It holds ClinicalTrials.gov, MeSH, PubMed/PMC, safety-gamma, and graph artifacts fixed.
+
+```powershell
+py reporting\make_sensitivity_supplement.py `
+  --run_dir outputs\20260610_bayesian
+```
+
+Outputs:
+
+- `outputs/20260610_bayesian/supplementary_tables/SuppTable_sensitivity_parameter_summary.csv`
+- `outputs/20260610_bayesian/supplementary_tables/SuppTable_sensitivity_pair_level.csv`
+- `outputs/20260610_bayesian/supplementary_tables/SuppText_sensitivity_analysis.md`
+
 ### Validate a publication run
 
 ```powershell
