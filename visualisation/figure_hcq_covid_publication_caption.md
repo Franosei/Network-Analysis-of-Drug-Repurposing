@@ -1,0 +1,3 @@
+**Figure 1 | From heterogeneous records to an integrated evidence ledger: the hydroxychloroquine-COVID-19 case.** Source-specific signals pass through entity harmonisation, evidence classification, safety reconciliation, quality checks, and provenance capture. The canonical ledger reports only newly derived audit, quality, probability, and readiness outputs. The interpretation layer separates auditability from treatment effectiveness and identifies the validation required before prioritisation. Colours identify evidence domains rather than evidence strength.
+
+**Abbreviations:** CrI, credible interval; FAERS, FDA Adverse Event Reporting System; HCQ, hydroxychloroquine; PMC, PubMed Central.

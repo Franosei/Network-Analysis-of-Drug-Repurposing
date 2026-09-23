@@ -58,6 +58,7 @@ from evidence_quality_report import (  # noqa: E402
     timestamp_from_path,
 )
 from network_builder import InterpretableGraphFeatureBuilder  # noqa: E402
+from scalable_graph_builder import build_targeted_full_graph  # noqa: E402
 
 
 DEFAULT_AREAS = [
@@ -404,6 +405,116 @@ def fetch_trials_stage(args: argparse.Namespace, raw_dir: Path, log_lines: List[
     return audit_df
 
 
+def fetch_full_registry_stage(
+    args: argparse.Namespace, raw_dir: Path, log_lines: List[str]
+) -> pd.DataFrame:
+    """Download/resume the whole registry and export drug trials in JSON chunks."""
+    from reporting.run_exact_pair_full_registry import (  # noqa: PLC0415
+        download_registry,
+        initialise_database,
+        metadata_get,
+        unpack_metadata,
+    )
+
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    configured = str(args.full_registry_db or "").strip()
+    database_path = (
+        (PROJECT_ROOT / configured).resolve()
+        if configured
+        else raw_dir / "clinicaltrials_full_registry.sqlite"
+    )
+    connection = initialise_database(database_path, refresh=False)
+    try:
+        session = requests.Session()
+        session.headers.update(
+            {"User-Agent": "full-registry-bayesian-pipeline/2.0 (research audit)"}
+        )
+        registry_audit = download_registry(
+            connection,
+            session,
+            page_size=max(1, int(args.page_size)),
+            max_pages=None,
+            pause=0.05,
+        )
+        complete = unpack_metadata(metadata_get(connection, "registry_complete"), False)
+        if not complete:
+            raise RuntimeError("ClinicalTrials.gov full-registry snapshot is incomplete")
+
+        for old_chunk in raw_dir.glob("full_registry_drug_trials_*.json"):
+            old_chunk.unlink()
+        chunk_size = max(1, int(args.registry_export_chunk_size))
+        chunk: List[Dict[str, Any]] = []
+        chunk_number = 0
+        exported = 0
+        current_nct = None
+        current: Optional[Dict[str, Any]] = None
+
+        def flush_study() -> None:
+            nonlocal current, chunk, chunk_number, exported
+            if current is None:
+                return
+            current["conditions"] = sorted(current.pop("_conditions"))
+            current["interventions"] = sorted(current.pop("_interventions"))
+            chunk.append(current)
+            exported += 1
+            current = None
+            if len(chunk) >= chunk_size:
+                chunk_number += 1
+                path = raw_dir / f"full_registry_drug_trials_{chunk_number:04d}.json"
+                path.write_text(json.dumps(chunk, ensure_ascii=False), encoding="utf-8")
+                chunk = []
+                print(f"Exported {exported:,} full-registry drug trials", flush=True)
+
+        query = """
+            SELECT p.nct_id, s.overall_status, s.phases_json, s.start_date,
+                   s.first_posted, p.raw_disease, p.raw_drug
+            FROM study_pairs p
+            JOIN studies s ON s.nct_id = p.nct_id
+            ORDER BY p.nct_id
+        """
+        for nct_id, status, phases_json, start_date, first_posted, disease, drug in connection.execute(query):
+            if nct_id != current_nct:
+                flush_study()
+                current_nct = nct_id
+                current = {
+                    "nctId": nct_id,
+                    "status": status,
+                    "phases": json.loads(phases_json or "[]"),
+                    "startDate": start_date,
+                    "studyFirstPostDate": first_posted,
+                    "sourceTherapeuticArea": "FULL_REGISTRY",
+                    "_conditions": set(),
+                    "_interventions": set(),
+                }
+            current["_conditions"].add(str(disease))
+            current["_interventions"].add(str(drug))
+        flush_study()
+        if chunk:
+            chunk_number += 1
+            path = raw_dir / f"full_registry_drug_trials_{chunk_number:04d}.json"
+            path.write_text(json.dumps(chunk, ensure_ascii=False), encoding="utf-8")
+
+        log_lines.append(
+            f"Full ClinicalTrials.gov snapshot: {database_path}; exported {exported} drug trials in {chunk_number} chunks"
+        )
+        return pd.DataFrame(
+            [
+                {
+                    "therapeutic_area": "FULL_REGISTRY",
+                    "registry_database": rel(database_path),
+                    "registry_complete": True,
+                    "registry_studies": registry_audit.get("studies_returned", 0),
+                    "interventional_with_drug": registry_audit.get("interventional_with_drug", 0),
+                    "study_pair_rows": registry_audit.get("study_pair_rows", 0),
+                    "exported_drug_trials": exported,
+                    "export_chunks": chunk_number,
+                }
+            ]
+        )
+    finally:
+        connection.close()
+
+
 def classify_mapping(method: Optional[str], score: Optional[float] = None) -> Tuple[str, float]:
     method_norm = norm_entity(method)
     if method_norm == "exact":
@@ -479,8 +590,47 @@ def mapping_stage(
         token_jaccard_min=args.token_jaccard_min,
         include_placebo=False,
         keep_unmatched_debug_fields=True,
+        build_token_indexes=not args.mesh_exact_only,
     )
     mesh_ids = load_mesh_descriptor_ids(mesh_path)
+
+    condition_cache: Dict[str, Tuple[Optional[str], Dict[str, Any]]] = {}
+    drug_cache: Dict[str, Tuple[Optional[str], Dict[str, Any]]] = {}
+
+    def cached_match(
+        raw_term: str,
+        *,
+        mesh_map: Dict[str, str],
+        token_index: Dict[str, List[str]],
+        cache: Dict[str, Tuple[Optional[str], Dict[str, Any]]],
+    ) -> Tuple[Optional[str], Dict[str, Any]]:
+        cache_key = str(raw_term)
+        if cache_key in cache:
+            return cache[cache_key]
+        if args.mesh_exact_only:
+            normalized = builder.normalize_for_match(raw_term)
+            matched = mesh_map.get(normalized)
+            debug = (
+                {
+                    "method": "exact",
+                    "normalized": normalized,
+                    "matched_key": normalized,
+                    "score": 1.0,
+                    "sequence_ratio": 1.0,
+                    "token_jaccard_score": 1.0,
+                }
+                if matched
+                else {"method": "no_exact_mesh_term", "normalized": normalized, "score": 0.0}
+            )
+        else:
+            matched, debug_value = builder.match_term(
+                raw_term=raw_term,
+                mesh_map=mesh_map,
+                token_index=token_index,
+            )
+            debug = debug_value or {}
+        cache[cache_key] = (matched, debug)
+        return cache[cache_key]
 
     rows: List[Dict[str, Any]] = []
     unmatched: List[Dict[str, Any]] = []
@@ -492,8 +642,24 @@ def mapping_stage(
             continue
 
         for trial in trials:
-            conditions, _ = split_trial_items(builder, trial.get("conditions", []))
-            interventions, placebo_count = split_trial_items(builder, trial.get("interventions", []))
+            if args.full_registry:
+                conditions = [
+                    str(value).strip()
+                    for value in trial.get("conditions", [])
+                    if str(value).strip()
+                ]
+                raw_interventions = [
+                    str(value).strip()
+                    for value in trial.get("interventions", [])
+                    if str(value).strip()
+                ]
+                interventions = [
+                    value for value in raw_interventions if "placebo" not in value.casefold()
+                ]
+                placebo_count = len(raw_interventions) - len(interventions)
+            else:
+                conditions, _ = split_trial_items(builder, trial.get("conditions", []))
+                interventions, placebo_count = split_trial_items(builder, trial.get("interventions", []))
             phases = trial.get("phases", trial.get("phase", []))
             if isinstance(phases, str):
                 phases = [phases]
@@ -518,10 +684,11 @@ def mapping_stage(
 
             for raw_condition in conditions:
                 cleaned_condition = builder.normalize_for_match(raw_condition)
-                condition_match, condition_debug = builder.match_term(
+                condition_match, condition_debug = cached_match(
                     raw_term=raw_condition,
                     mesh_map=builder.condition_term_map,
                     token_index=builder._cond_token_index,
+                    cache=condition_cache,
                 )
                 condition_debug = condition_debug or {}
                 condition_method, condition_confidence = classify_mapping(
@@ -584,10 +751,11 @@ def mapping_stage(
 
                 for raw_drug in interventions:
                     cleaned_drug = builder.normalize_for_match(raw_drug)
-                    drug_match, drug_debug = builder.match_term(
+                    drug_match, drug_debug = cached_match(
                         raw_term=raw_drug,
                         mesh_map=builder.drug_term_map,
                         token_index=builder._drug_token_index,
+                        cache=drug_cache,
                     )
                     drug_debug = drug_debug or {}
                     drug_method, drug_confidence = classify_mapping(
@@ -717,7 +885,217 @@ def mapping_stage(
 
     log_lines.append(f"Saved {len(rows)} matched drug-disease rows to {rel(matched_path)}")
     log_lines.append(f"Saved {len(unmatched)} unmatched mapping rows to {rel(unmatched_path)}")
+    log_lines.append(
+        f"MeSH unique terms evaluated: {len(condition_cache)} diseases, {len(drug_cache)} drugs; "
+        f"exact_only={args.mesh_exact_only}"
+    )
     return pd.DataFrame(audit_rows), matched_path, unmatched_path
+
+
+def mapping_stage_full_registry(
+    raw_dir: Path,
+    processed_dir: Path,
+    mesh_path: Path,
+    args: argparse.Namespace,
+    log_lines: List[str],
+) -> Tuple[pd.DataFrame, Path, Path]:
+    """Memory-bounded high-precision MeSH mapping for full registry chunks."""
+    processed_dir.mkdir(parents=True, exist_ok=True)
+    matched_path = processed_dir / "condition_drug_pairs.json"
+    unmatched_path = processed_dir / "unmatched_pairs.json"
+    builder = ConditionDrugPairBuilder(
+        input_dir=rel(raw_dir),
+        output_dir=rel(processed_dir),
+        output_filename=matched_path.name,
+        unmatched_filename=unmatched_path.name,
+        mesh_path=rel(mesh_path),
+        fuzzy_cutoff=args.fuzzy_cutoff,
+        token_jaccard_min=args.token_jaccard_min,
+        include_placebo=False,
+        keep_unmatched_debug_fields=True,
+        build_token_indexes=not args.mesh_exact_only,
+    )
+    mesh_ids = load_mesh_descriptor_ids(mesh_path)
+    condition_cache: Dict[str, Tuple[Optional[str], Dict[str, Any]]] = {}
+    drug_cache: Dict[str, Tuple[Optional[str], Dict[str, Any]]] = {}
+
+    def map_one(
+        raw: str,
+        mesh_map: Dict[str, str],
+        token_index: Dict[str, List[str]],
+        cache: Dict[str, Tuple[Optional[str], Dict[str, Any]]],
+    ) -> Tuple[Optional[str], Dict[str, Any]]:
+        if raw in cache:
+            return cache[raw]
+        normalized = builder.normalize_for_match(raw)
+        if args.mesh_exact_only:
+            matched = mesh_map.get(normalized)
+            debug = {
+                "method": "exact" if matched else "no_exact_mesh_term",
+                "normalized": normalized,
+                "matched_key": normalized if matched else "",
+                "score": 1.0 if matched else 0.0,
+                "token_jaccard_score": 1.0 if matched else 0.0,
+            }
+        else:
+            matched, detail = builder.match_term(raw, mesh_map, token_index)
+            debug = detail or {}
+        cache[raw] = (matched, debug)
+        return cache[raw]
+
+    matched_rows: List[Dict[str, Any]] = []
+    entity_audit: Dict[Tuple[str, str], Dict[str, Any]] = {}
+    unmatched_entities: Dict[Tuple[str, str], Dict[str, Any]] = {}
+    pair_attempts = 0
+    placebo_excluded = 0
+    trials_processed = 0
+
+    chunk_paths = sorted(raw_dir.glob("full_registry_drug_trials_*.json"))
+    if not chunk_paths:
+        raise FileNotFoundError(f"No full-registry JSON chunks found under {raw_dir}")
+    for chunk_index, path in enumerate(chunk_paths, start=1):
+        trials = read_json(path, [])
+        for trial in trials if isinstance(trials, list) else []:
+            trials_processed += 1
+            raw_conditions = sorted(
+                {str(value).strip() for value in trial.get("conditions", []) if str(value).strip()}
+            )
+            all_drugs = sorted(
+                {str(value).strip() for value in trial.get("interventions", []) if str(value).strip()}
+            )
+            raw_drugs = [value for value in all_drugs if "placebo" not in value.casefold()]
+            placebo_excluded += len(all_drugs) - len(raw_drugs)
+            mapped_conditions = []
+            for raw in raw_conditions:
+                mapped, debug = map_one(
+                    raw,
+                    builder.condition_term_map,
+                    builder._cond_token_index,
+                    condition_cache,
+                )
+                method, confidence = classify_mapping(debug.get("method"), debug.get("score"))
+                entity_audit.setdefault(
+                    ("disease", raw),
+                    {
+                        "entity_type": "disease",
+                        "original_term": raw,
+                        "cleaned_term": debug.get("normalized", ""),
+                        "mapped_term": mapped or "",
+                        "mesh_id": mesh_id_for(mapped, mesh_ids) if mapped else "",
+                        "mapping_method": method,
+                        "mapping_score": confidence,
+                        "mapping_status": "mapped" if mapped else "unmapped",
+                    },
+                )
+                if mapped:
+                    mapped_conditions.append(
+                        (raw, builder.clean_output_name(mapped), mesh_id_for(mapped, mesh_ids))
+                    )
+                else:
+                    unmatched_entities[("disease", raw)] = {
+                        "entity_type": "disease",
+                        "raw_term": raw,
+                        "reason": "unmatched condition",
+                        "debug": debug,
+                    }
+
+            mapped_drugs = []
+            for raw in raw_drugs:
+                mapped, debug = map_one(
+                    raw,
+                    builder.drug_term_map,
+                    builder._drug_token_index,
+                    drug_cache,
+                )
+                method, confidence = classify_mapping(debug.get("method"), debug.get("score"))
+                entity_audit.setdefault(
+                    ("drug", raw),
+                    {
+                        "entity_type": "drug",
+                        "original_term": raw,
+                        "cleaned_term": debug.get("normalized", ""),
+                        "mapped_term": mapped or "",
+                        "mesh_id": mesh_id_for(mapped, mesh_ids) if mapped else "",
+                        "mapping_method": method,
+                        "mapping_score": confidence,
+                        "mapping_status": "mapped" if mapped else "unmapped",
+                    },
+                )
+                if mapped:
+                    mapped_drugs.append(
+                        (raw, builder.clean_output_name(mapped), mesh_id_for(mapped, mesh_ids))
+                    )
+                else:
+                    unmatched_entities[("drug", raw)] = {
+                        "entity_type": "drug",
+                        "raw_term": raw,
+                        "reason": "unmatched intervention",
+                        "debug": debug,
+                    }
+
+            pair_attempts += len(raw_conditions) * len(raw_drugs)
+            phases = trial.get("phases", [])
+            if not isinstance(phases, list):
+                phases = [phases] if phases else []
+            for raw_condition, condition, condition_mesh_id in mapped_conditions:
+                for raw_drug, drug, drug_mesh_id in mapped_drugs:
+                    matched_rows.append(
+                        {
+                            "condition": condition,
+                            "intervention": drug,
+                            "raw_condition": raw_condition,
+                            "raw_intervention": raw_drug,
+                            "condition_mesh_id": condition_mesh_id,
+                            "intervention_mesh_id": drug_mesh_id,
+                            "condition_mapping_method": "exact_match"
+                            if args.mesh_exact_only
+                            else "mapped",
+                            "intervention_mapping_method": "exact_match"
+                            if args.mesh_exact_only
+                            else "mapped",
+                            "nct_id": trial.get("nctId", ""),
+                            "phases": phases,
+                            "status": trial.get("status", ""),
+                            "source_file": path.name,
+                        }
+                    )
+        print(
+            f"MeSH mapping chunk {chunk_index}/{len(chunk_paths)}: "
+            f"{trials_processed:,} trials, {len(matched_rows):,} mapped rows",
+            flush=True,
+        )
+
+    matched_path.write_text(
+        json.dumps(matched_rows, ensure_ascii=False), encoding="utf-8"
+    )
+    unmatched_path.write_text(
+        json.dumps(list(unmatched_entities.values()), ensure_ascii=False),
+        encoding="utf-8",
+    )
+    audit_df = pd.DataFrame(entity_audit.values())
+    summary_rows = pd.DataFrame(
+        [
+            {
+                "entity_type": "summary",
+                "original_term": "FULL_REGISTRY",
+                "cleaned_term": "",
+                "mapped_term": "",
+                "mesh_id": "",
+                "mapping_method": "exact_entry_term" if args.mesh_exact_only else "legacy_multistage",
+                "mapping_score": "",
+                "mapping_status": (
+                    f"trials={trials_processed};pair_attempts={pair_attempts};"
+                    f"mapped_rows={len(matched_rows)};placebo_excluded={placebo_excluded}"
+                ),
+            }
+        ]
+    )
+    audit_df = pd.concat([audit_df, summary_rows], ignore_index=True)
+    log_lines.append(
+        f"Full-registry MeSH mapping: {trials_processed} trials, {pair_attempts} raw pair attempts, "
+        f"{len(matched_rows)} mapped rows, {len(unmatched_entities)} unique unmapped entities"
+    )
+    return audit_df, matched_path, unmatched_path
 
 
 def graph_stage(matched_path: Path, graph_dir: Path, log_lines: List[str]) -> Tuple[pd.DataFrame, Path, Path]:
@@ -937,7 +1315,11 @@ def run_bayesian_panel_stage(
         logs_dir=str(runs_dir),
         save_run_logs=True,
     )
-    search_cfg = PubMedSearchConfig(max_results=args.pubmed_max_articles, years_back=args.pubmed_years_back)
+    search_cfg = PubMedSearchConfig(
+        max_results=args.pubmed_max_articles,
+        years_back=args.pubmed_years_back,
+        enable_pmc_augmentation=args.pubmed_enable_pmc,
+    )
     llm_cfg = LLMConfig(
         model=args.llm_model,
         delay_s=args.llm_delay_s,
@@ -948,9 +1330,32 @@ def run_bayesian_panel_stage(
     # save_dir per call so publication artifacts stay inside the run folder.
     classifier = make_classifier(cfg)
     classifier.search_cfg = search_cfg
+    classifier.pubmed.cfg = search_cfg
     classifier.llm_cfg = llm_cfg
 
     feature_df = combined_graph_df(known_graph_path, unknown_graph_path)
+    active_weights = dict(DEFAULT_WEIGHTS)
+    active_intercept = float(args.likelihood_intercept)
+    weights_source = "legacy_default_weights"
+    if str(args.graph_weights_path or "").strip():
+        graph_weights_path = Path(args.graph_weights_path)
+        if not graph_weights_path.is_absolute():
+            graph_weights_path = (PROJECT_ROOT / graph_weights_path).resolve()
+        payload = read_json(graph_weights_path, {})
+        candidate_weights = payload.get("raw_feature_weights", {}) if isinstance(payload, dict) else {}
+        if candidate_weights:
+            active_weights = {
+                feature: float(candidate_weights[feature])
+                for feature in DEFAULT_WEIGHTS
+                if feature in candidate_weights
+            }
+            active_intercept = float(
+                payload.get("raw_feature_intercept", active_intercept)
+            )
+            weights_source = rel(graph_weights_path)
+    log_lines.append(
+        f"Bayesian graph weights source: {weights_source}; intercept={active_intercept}"
+    )
     rows: List[Dict[str, Any]] = []
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -980,14 +1385,14 @@ def run_bayesian_panel_stage(
         c_m = concentration_c(m_articles, cmax=args.cmax, tau=args.tau)
         prior_a, prior_b = beta_params_from_prob(p_final, c_m)
 
-        graph_score = float(args.likelihood_intercept)
+        graph_score = active_intercept
         feature_values: Dict[str, float] = {}
         row_match = pd.DataFrame()
         if not feature_df.empty:
             row_match = feature_df[(feature_df["Drug"] == drug_l) & (feature_df["Disease"] == disease_l)]
         if not row_match.empty:
             graph_row = row_match.iloc[0]
-            for feature, weight in DEFAULT_WEIGHTS.items():
+            for feature, weight in active_weights.items():
                 value = float(graph_row.get(feature, 0.0))
                 feature_values[feature] = value
                 graph_score += float(weight) * value
@@ -1005,6 +1410,10 @@ def run_bayesian_panel_stage(
             "gamma": gamma,
             "counts": counts,
             "M": m_articles,
+            "records_retrieved": prior_result.get("records_retrieved", m_articles),
+            "records_excluded_by_exact_verification": prior_result.get(
+                "records_excluded_by_exact_verification", 0
+            ),
             "cM": c_m,
             "prior_a": prior_a,
             "prior_b": prior_b,
@@ -1039,8 +1448,9 @@ def run_bayesian_panel_stage(
                 "cmax": args.cmax,
                 "tau": args.tau,
                 "likelihood_strength": args.likelihood_strength,
-                "likelihood_intercept": args.likelihood_intercept,
-                "weights": DEFAULT_WEIGHTS,
+                "likelihood_intercept": active_intercept,
+                "weights": active_weights,
+                "weights_source": weights_source,
             },
             "components": components,
         }
@@ -1077,17 +1487,50 @@ def _to_float(value: Any) -> Optional[float]:
         return None
 
 
-def build_trial_pair_summary(terminology_audit_path: Path) -> pd.DataFrame:
-    if not terminology_audit_path.exists():
-        return pd.DataFrame()
-    df = pd.read_csv(terminology_audit_path)
-    if df.empty or "mapping_status" not in df.columns:
-        return pd.DataFrame()
-    matched = df[df["mapping_status"] == "matched"].copy()
+def build_trial_pair_summary(
+    terminology_audit_path: Path,
+    matched_path: Optional[Path] = None,
+) -> pd.DataFrame:
+    df = pd.read_csv(terminology_audit_path) if terminology_audit_path.exists() else pd.DataFrame()
+    matched = (
+        df[df["mapping_status"] == "matched"].copy()
+        if not df.empty and "mapping_status" in df.columns
+        else pd.DataFrame()
+    )
+    # Full-registry mapping stores one provenance row per unique entity
+    # (mapping_status=mapped) and the complete pair provenance in the matched
+    # JSON.  When the audit CSV is a refresh=false stub, recover that pair
+    # table instead of silently reporting zero trials.
+    if matched.empty and matched_path is not None and matched_path.exists():
+        raw_rows = read_json(matched_path, [])
+        if isinstance(raw_rows, list) and raw_rows:
+            matched = pd.DataFrame(raw_rows)
+            if "mapped_drug" not in matched.columns:
+                matched["mapped_drug"] = matched.get("intervention", "")
+            if "mapped_disease" not in matched.columns:
+                matched["mapped_disease"] = matched.get("condition", "")
+            if "drug_mapping_method" not in matched.columns:
+                matched["drug_mapping_method"] = matched.get(
+                    "intervention_mapping_method", ""
+                )
+            if "disease_mapping_method" not in matched.columns:
+                matched["disease_mapping_method"] = matched.get(
+                    "condition_mapping_method", ""
+                )
+            matched["mapping_status"] = "matched"
     if matched.empty:
         return pd.DataFrame()
     matched["drug_key"] = matched["mapped_drug"].astype(str).str.lower().str.strip()
     matched["disease_key"] = matched["mapped_disease"].astype(str).str.lower().str.strip()
+
+    def first_nonempty(series: Any) -> str:
+        if series is None:
+            return ""
+        for value in series:
+            text = str(value or "").strip()
+            if text and text.lower() != "nan":
+                return text
+        return ""
 
     def dist(series: pd.Series) -> str:
         counts = Counter()
@@ -1112,6 +1555,12 @@ def build_trial_pair_summary(terminology_audit_path: Path) -> pd.DataFrame:
                 "disease_mapping_method": sub["disease_mapping_method"].mode().iloc[0] if "disease_mapping_method" in sub and not sub["disease_mapping_method"].mode().empty else "",
                 "drug_mapping_score": pd.to_numeric(sub.get("drug_mapping_score"), errors="coerce").mean() if "drug_mapping_score" in sub else np.nan,
                 "disease_mapping_score": pd.to_numeric(sub.get("disease_mapping_score"), errors="coerce").mean() if "disease_mapping_score" in sub else np.nan,
+                "drug_mesh_id": first_nonempty(sub.get("intervention_mesh_id"))
+                if "intervention_mesh_id" in sub
+                else first_nonempty(sub.get("drug_mesh_id")),
+                "disease_mesh_id": first_nonempty(sub.get("condition_mesh_id"))
+                if "condition_mesh_id" in sub
+                else first_nonempty(sub.get("disease_mesh_id")),
             }
         )
     return pd.DataFrame(rows)
@@ -1124,7 +1573,8 @@ def build_publication_ledger(
     panel_df: pd.DataFrame,
 ) -> pd.DataFrame:
     pair_df = pd.read_csv(pair_level_path) if pair_level_path.exists() else pd.DataFrame()
-    trial_df = build_trial_pair_summary(terminology_audit_path)
+    processed_path = terminology_audit_path.parent.parent / "processed_data" / "condition_drug_pairs.json"
+    trial_df = build_trial_pair_summary(terminology_audit_path, processed_path)
     validation_df = pd.read_csv(validation_path) if validation_path and validation_path.exists() else pd.DataFrame()
 
     trial_lookup = {
@@ -1164,7 +1614,10 @@ def build_publication_ledger(
         usable = _to_float(row.get("records_usable", 0))
         lit_completeness = None
         if articles_ret > 0:
-            lit_completeness = round(min(articles_ret / 40.0, 1.0) * (usable / articles_ret), 4)
+            # Exhaustive mode has no arbitrary article-count ceiling.  This
+            # component measures retrieval usability, not an article-count
+            # threshold.
+            lit_completeness = round(usable / articles_ret, 4)
 
         post_mean_val = _to_float(row.get("posterior_mean"))
         prior_mean_val = _to_float(row.get("p_final"))
@@ -1428,6 +1881,7 @@ def _run_full_validation(
 
         panel_path: Optional[Path] = None
         for candidate in [
+            output_dir / "case_study_panel.csv",
             PROJECT_ROOT / "config" / "case_study_panel_publication.csv",
             PROJECT_ROOT / "config" / "case_study_panel.csv",
         ]:
@@ -1920,6 +2374,8 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
             "Any mixed-provenance outputs are flagged in the ledger."
         ) if legacy_flags else "All artifacts freshly generated.",
         "therapeutic_areas": parse_areas(args.therapeutic_areas),
+        "full_registry": bool(args.full_registry),
+        "full_registry_db": args.full_registry_db,
         "apis_used": {
             "clinicaltrials_gov": bool(args.refresh_trials),
             "mesh_download": bool(args.download_mesh),
@@ -1934,13 +2390,16 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
             "fuzzy_cutoff": args.fuzzy_cutoff,
             "token_jaccard_min": args.token_jaccard_min,
             "cutoff_year": args.cutoff_year,
+            "mesh_exact_only": bool(args.mesh_exact_only),
         },
         "search_parameters": {
             "pubmed_max_articles": args.pubmed_max_articles,
             "pubmed_filter_level": args.pubmed_filter_level,
             "pubmed_years_back": args.pubmed_years_back,
+            "pubmed_enable_pmc": bool(args.pubmed_enable_pmc),
             "force_pubmed_refresh": args.force_pubmed_refresh,
             "therapeutic_areas": parse_areas(args.therapeutic_areas),
+            "full_registry": bool(args.full_registry),
         },
         "llm": {
             "model": args.llm_model,
@@ -1954,7 +2413,14 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
             "tau": args.tau,
             "likelihood_strength": args.likelihood_strength,
             "likelihood_intercept": args.likelihood_intercept,
-            "weights": DEFAULT_WEIGHTS,
+            "weights": (
+                read_json((PROJECT_ROOT / args.graph_weights_path).resolve(), {}).get(
+                    "raw_feature_weights", DEFAULT_WEIGHTS
+                )
+                if str(args.graph_weights_path or "").strip()
+                else DEFAULT_WEIGHTS
+            ),
+            "weights_source": args.graph_weights_path or "legacy defaults",
         },
         "safety_penalty_settings": {
             "penalty_scale": 0.5,
@@ -2018,6 +2484,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--record_audit_trail", type=str_to_bool, default=True)
     parser.add_argument("--download_mesh", type=str_to_bool, default=False)
     parser.add_argument("--output_dir", default=f"outputs/publication_run_{datetime.now().strftime('%Y%m%d')}")
+    parser.add_argument(
+        "--full_registry",
+        type=str_to_bool,
+        default=False,
+        help="Use every current ClinicalTrials.gov study instead of therapeutic-area queries.",
+    )
+    parser.add_argument(
+        "--full_registry_db",
+        default="",
+        help="Optional completed/resumable full-registry SQLite snapshot.",
+    )
+    parser.add_argument("--registry_export_chunk_size", type=int, default=10000)
     parser.add_argument("--therapeutic_areas", default=",".join(DEFAULT_AREAS))
     parser.add_argument("--trials_per_area", type=int, default=None)
     parser.add_argument("--page_size", type=int, default=100)
@@ -2026,19 +2504,38 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--mesh_path", default="mesh_data/desc2026.xml")
     parser.add_argument("--fuzzy_cutoff", type=float, default=0.80)
     parser.add_argument("--token_jaccard_min", type=float, default=0.60)
+    parser.add_argument(
+        "--mesh_exact_only",
+        type=str_to_bool,
+        default=False,
+        help="Use only exact descriptor/entry-term MeSH mappings; recommended for full-registry runs.",
+    )
     parser.add_argument("--case_study_panel", default=DEFAULT_PANEL_PATH)
-    parser.add_argument("--pubmed_max_articles", type=int, default=40)
-    parser.add_argument("--pubmed_filter_level", default="high")
-    parser.add_argument("--pubmed_years_back", type=int, default=10)
+    parser.add_argument(
+        "--pubmed_max_articles",
+        type=int,
+        default=0,
+        help="Maximum PubMed records per pair; 0 retrieves every query result.",
+    )
+    parser.add_argument("--pubmed_filter_level", default="exact")
+    parser.add_argument("--pubmed_years_back", type=int, default=0)
+    parser.add_argument(
+        "--pubmed_enable_pmc",
+        type=str_to_bool,
+        default=False,
+        help="Augment a subset with PMC full text; disabled for uniform exhaustive classification.",
+    )
     parser.add_argument("--force_pubmed_refresh", type=str_to_bool, default=True)
     parser.add_argument("--llm_model", default="gpt-4o-mini")
-    parser.add_argument("--llm_batch_size", type=int, default=5)
-    parser.add_argument("--llm_delay_s", type=float, default=2.0)
+    parser.add_argument("--llm_batch_size", type=int, default=10)
+    parser.add_argument("--llm_delay_s", type=float, default=0.2)
     parser.add_argument("--llm_max_retries", type=int, default=2)
     parser.add_argument("--cmax", type=float, default=200.0)
     parser.add_argument("--tau", type=float, default=25.0)
     parser.add_argument("--likelihood_strength", type=float, default=50.0)
     parser.add_argument("--likelihood_intercept", type=float, default=0.0)
+    parser.add_argument("--graph_weights_path", default="")
+    parser.add_argument("--max_graph_training_positives", type=int, default=20000)
     parser.add_argument("--random_seed", type=int, default=42)
     parser.add_argument("--strict_validation", type=str_to_bool, default=False)
     parser.add_argument(
@@ -2083,29 +2580,68 @@ def main() -> None:
         log_lines.append("Skipping MeSH check (refresh_mesh_mapping=false)")
 
     if args.refresh_trials:
-        clinical_audit = fetch_trials_stage(args, raw_dir, log_lines)
+        clinical_audit = (
+            fetch_full_registry_stage(args, raw_dir, log_lines)
+            if args.full_registry
+            else fetch_trials_stage(args, raw_dir, log_lines)
+        )
     else:
-        raw_dir = PROJECT_ROOT / "data"
-        clinical_audit = pd.DataFrame([{"note": "refresh_trials=false; using existing data directory", "data_dir": rel(raw_dir)}])
+        if not args.full_registry:
+            raw_dir = PROJECT_ROOT / "data"
+        clinical_audit = pd.DataFrame(
+            [{"note": "refresh_trials=false; using existing data directory", "data_dir": rel(raw_dir)}]
+        )
 
     clinical_audit.to_csv(audit_dir / "01_clinical_trial_extraction_audit.csv", index=False)
     clinical_audit.to_csv(output_dir / "01_clinical_trial_extraction_audit.csv", index=False)
 
     if args.refresh_mesh_mapping:
-        terminology_audit, matched_path, unmatched_path = mapping_stage(raw_dir, processed_dir, mesh_path, args, log_lines)
+        terminology_audit, matched_path, unmatched_path = (
+            mapping_stage_full_registry(
+                raw_dir, processed_dir, mesh_path, args, log_lines
+            )
+            if args.full_registry
+            else mapping_stage(raw_dir, processed_dir, mesh_path, args, log_lines)
+        )
     else:
-        matched_path = PROJECT_ROOT / "processed_data" / "condition_drug_pairs.json"
-        unmatched_path = PROJECT_ROOT / "processed_data" / "unmatched_pairs.json"
+        processed_base = processed_dir if args.full_registry else PROJECT_ROOT / "processed_data"
+        matched_path = processed_base / "condition_drug_pairs.json"
+        unmatched_path = processed_base / "unmatched_pairs.json"
         terminology_audit = pd.DataFrame([{"note": "refresh_mesh_mapping=false; using existing processed_data artifacts"}])
 
     terminology_audit.to_csv(audit_dir / "02_terminology_mapping_audit.csv", index=False)
     terminology_audit.to_csv(output_dir / "02_terminology_mapping_audit.csv", index=False)
 
     if args.refresh_graph:
-        graph_audit, known_graph_path, unknown_graph_path = graph_stage(matched_path, graph_dir, log_lines)
+        if args.full_registry:
+            target_pairs = [
+                (str(row["drug"]), str(row["disease"]))
+                for _, row in panel_df.iterrows()
+            ]
+            graph_audit, known_graph_path, unknown_graph_path, weights_path = (
+                build_targeted_full_graph(
+                    matched_path=matched_path,
+                    graph_dir=graph_dir,
+                    target_pairs=target_pairs,
+                    random_seed=args.random_seed,
+                    max_training_positives=args.max_graph_training_positives,
+                )
+            )
+            args.graph_weights_path = rel(weights_path)
+            log_lines.append(
+                f"Built scalable full-registry graph with target-edge withholding; weights={rel(weights_path)}"
+            )
+        else:
+            graph_audit, known_graph_path, unknown_graph_path = graph_stage(
+                matched_path, graph_dir, log_lines
+            )
     else:
-        known_graph_path = PROJECT_ROOT / "graph" / "graph_features_known.csv"
-        unknown_graph_path = PROJECT_ROOT / "graph" / "graph_features_unknown.csv"
+        graph_base = graph_dir if args.full_registry else PROJECT_ROOT / "graph"
+        known_graph_path = graph_base / "graph_features_known.csv"
+        unknown_graph_path = graph_base / "graph_features_unknown.csv"
+        existing_weights = graph_base / "updated_graph_weights.json"
+        if existing_weights.exists():
+            args.graph_weights_path = rel(existing_weights)
         graph_audit = pd.DataFrame(
             [
                 {
@@ -2120,8 +2656,19 @@ def main() -> None:
     graph_audit.to_csv(audit_dir / "03_graph_construction_audit.csv", index=False)
     graph_audit.to_csv(output_dir / "03_graph_construction_audit.csv", index=False)
 
-    effective_runs_dir = PROJECT_ROOT / "runs"
-    effective_lit_dir = PROJECT_ROOT / "literatures"
+    # Prefer artifacts already produced inside this run when the expensive
+    # Bayesian stage is intentionally not repeated.  Falling back to the
+    # repository-level legacy folders preserves the historical workflow.
+    effective_runs_dir = (
+        output_dir / "runs"
+        if (output_dir / "runs").exists()
+        else PROJECT_ROOT / "runs"
+    )
+    effective_lit_dir = (
+        output_dir / "literatures"
+        if (output_dir / "literatures").exists()
+        else PROJECT_ROOT / "literatures"
+    )
     if args.run_bayesian or args.refresh_literature or args.refresh_safety:
         if not args.run_bayesian:
             raise ValueError(

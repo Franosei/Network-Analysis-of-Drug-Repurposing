@@ -1,0 +1,20 @@
+/* Typography overrides used by Mermaid CLI for journal-ready output. */
+svg,
+.nodeLabel,
+.cluster-label,
+.edgeLabel,
+foreignObject div,
+foreignObject span,
+foreignObject p {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.cluster-label {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0;
+}
+
+.nodeLabel small {
+  font-size: 12px !important;
+}

@@ -72,7 +72,10 @@ class PubMedSearchConfig:
     Controls PubMed retrieval and filtering behavior.
     """
     # retrieval limits (hard ceiling for max_articles unless you change this config)
-    max_results: int = 200
+    # 0 means "retrieve every result reported by ESearch".  A positive value is
+    # an explicit cap.  Publication reruns use 0 so evidence volume is not
+    # silently truncated.
+    max_results: int = 0
     # date window (dynamic by default)
     years_back: int = 10
     # rate limiting
@@ -261,6 +264,8 @@ class PubMedClient:
         self.syn_expander = DiseaseSynonymExpander(SynonymConfig(), self.syn_cache)
 
     def _dynamic_date_filter(self) -> str:
+        if int(self.cfg.years_back) <= 0:
+            return ""
         end_year = datetime.now().year
         start_year = end_year - self.cfg.years_back
         return f"{start_year}:{end_year}[dp]"
@@ -283,6 +288,14 @@ class PubMedClient:
         """
         filter_level = (filter_level or "high").strip().lower()
         date_filter = self._dynamic_date_filter()
+
+        if filter_level == "exact":
+            disease = disease_terms[0] if disease_terms else ""
+            drug_clause = f"{self._quote_term(drug)}[Title/Abstract]" if drug else ""
+            disease_clause = f"{self._quote_term(disease)}[Title/Abstract]" if disease else ""
+            if drug_clause and disease_clause:
+                return f"{drug_clause} AND {disease_clause}"
+            return drug_clause or disease_clause
 
         # De-dup disease terms
         disease_terms = [t.strip() for t in (disease_terms or []) if str(t).strip()]
@@ -328,7 +341,7 @@ class PubMedClient:
         else:
             base = ""
 
-        additions = [date_filter, "hasabstract[text]"]
+        additions = [item for item in (date_filter, "hasabstract[text]") if item]
 
         if filter_level in ("high", "strict"):
             additions.append("english[la]")
@@ -347,13 +360,14 @@ class PubMedClient:
         Retrieve PMIDs for a query, sorted by relevance.
         Uses caching keyed on (query, max_results).
         """
-        max_results = int(max(1, max_results))
-        cache_key = f"{query}||max={max_results}"
+        max_results = int(max_results)
+        unlimited = max_results <= 0
+        cache_key = f"{query}||max={'all' if unlimited else max_results}"
 
         if use_cache:
             cached = self.cache.get(cache_key)
             if isinstance(cached, list) and cached:
-                return cached[:max_results]
+                return cached if unlimited else cached[:max_results]
 
         url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
         params = {
@@ -375,7 +389,12 @@ class PubMedClient:
             if total_count <= 0:
                 return []
 
-            n = min(total_count, max_results)
+            n = total_count if unlimited else min(total_count, max_results)
+            if n > 9999:
+                raise RuntimeError(
+                    f"PubMed returned {n} records. ESearch's current 9,999-record "
+                    "pagination ceiling requires a date-partitioned query."
+                )
 
             pmids: List[str] = []
             batch_size = 5000
@@ -437,11 +456,16 @@ class PubMedClient:
                 r.raise_for_status()
                 root = ET.fromstring(r.content)
 
-                for pubmed_article in root.findall(".//PubmedArticle"):
+                article_containers = root.findall("./PubmedArticle") + root.findall(
+                    "./PubmedBookArticle"
+                )
+                for pubmed_article in article_containers:
                     pmid_elem = pubmed_article.find(".//PMID")
                     pmid = pmid_elem.text.strip() if pmid_elem is not None and pmid_elem.text else ""
 
                     title_elem = pubmed_article.find(".//ArticleTitle")
+                    if title_elem is None:
+                        title_elem = pubmed_article.find(".//BookTitle")
                     title = "".join(title_elem.itertext()).strip() if title_elem is not None else "No Title"
 
                     sections: List[str] = []
@@ -460,9 +484,6 @@ class PubMedClient:
                             abstract_parts.append(txt)
 
                     abstract = " ".join(abstract_parts).strip() if abstract_parts else ""
-                    if not abstract:
-                        continue
-
                     out.append(
                         {
                             "pmid": pmid,
@@ -724,6 +745,12 @@ class LLMClassifier:
             v = float(default)
         return max(min(v, 1.0), 0.0)
 
+    @staticmethod
+    def _contains_normalised_phrase(text: str, phrase: str) -> bool:
+        normalised = " " + re.sub(r"[^a-z0-9]+", " ", (text or "").casefold()).strip() + " "
+        needle = " " + re.sub(r"[^a-z0-9]+", " ", (phrase or "").casefold()).strip() + " "
+        return bool(needle.strip()) and needle in normalised
+
     def _classify_batch(self, batch: List[Dict[str, Any]], drug: str, disease: str) -> List[Dict[str, Any]]:
         """
         Classify a batch of records. Output must be a JSON list of:
@@ -750,9 +777,12 @@ Drug: {drug}
 Disease: {disease}
 
 Categories (mutually exclusive):
-- therapeutic: evidence suggests the drug benefits or treats the disease
-- adverse: evidence suggests the drug induces, worsens, or is associated with harm relevant to the disease
+- therapeutic: the supplied text reports evidence that the drug benefits, prevents, or treats the disease
+- adverse: the supplied text reports no benefit, a negative or conflicting efficacy result, worsening, toxicity, contraindication, or harm relevant to use for the disease
 - irrelevant: no meaningful therapeutic or adverse relationship is supported by the provided text
+
+Classify the evidence reported by this record, not what is now known in hindsight.
+Protocol/design papers without results are irrelevant unless the text itself reports directional evidence.
 
 You may use:
 - abstract (always present)
@@ -825,7 +855,13 @@ Input records:
 
         return []
 
-    def classify_abstracts(self, records: List[Dict[str, Any]], drug: str, disease: str) -> List[Dict[str, Any]]:
+    def classify_abstracts(
+        self,
+        records: List[Dict[str, Any]],
+        drug: str,
+        disease: str,
+        checkpoint_path: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
         """
         Classify all retrieved records in batches.
         Returns list of {id, category}.
@@ -834,25 +870,89 @@ Input records:
         if total == 0:
             return []
 
+        completed_by_pmid: Dict[str, str] = {}
+        if checkpoint_path and os.path.exists(checkpoint_path):
+            try:
+                with open(checkpoint_path, "r", encoding="utf-8") as checkpoint:
+                    for line in checkpoint:
+                        row = json.loads(line)
+                        pmid = str(row.get("pmid", "")).strip()
+                        category = str(row.get("category", "")).strip().lower()
+                        if pmid and category in self.VALID_CATEGORIES:
+                            completed_by_pmid[pmid] = category
+            except Exception as exc:
+                print(f"[WARN] Could not load classification checkpoint: {exc}")
+
+        pending = [r for r in records if str(r.get("pmid", "")) not in completed_by_pmid]
+        if completed_by_pmid:
+            print(
+                f"[INFO] Resuming classification: {len(completed_by_pmid)}/{total} PMIDs already labelled"
+            )
+
         bs = int(max(1, self.llm_cfg.batch_size))
-        total_batches = math.ceil(total / bs)
+        total_batches = math.ceil(len(pending) / bs) if pending else 0
 
         all_labels: List[Dict[str, Any]] = []
 
+        def classify_resilient(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+            labels = self._classify_batch(items, drug, disease)
+            if len(labels) == len(items):
+                return labels
+            if len(items) <= 1:
+                raise RuntimeError(
+                    f"Could not classify PMID {items[0].get('pmid', '')} after retries"
+                )
+            midpoint = len(items) // 2
+            print(
+                f"[WARN] Splitting incomplete {len(items)}-record batch into "
+                f"{midpoint} + {len(items) - midpoint}",
+                flush=True,
+            )
+            return classify_resilient(items[:midpoint]) + classify_resilient(
+                items[midpoint:]
+            )
+
         for b in range(total_batches):
-            batch = records[b * bs : (b + 1) * bs]
-            labels = self._classify_batch(batch, drug, disease)
+            batch = pending[b * bs : (b + 1) * bs]
+            labels = classify_resilient(batch)
 
             if labels and len(labels) == len(batch):
                 all_labels.extend(labels)
-                print(f"[INFO] Classified batch {b + 1}/{total_batches} ({len(all_labels)}/{total})")
+                label_map = {int(item["id"]): item["category"] for item in labels}
+                if checkpoint_path:
+                    os.makedirs(os.path.dirname(checkpoint_path) or ".", exist_ok=True)
+                    with open(checkpoint_path, "a", encoding="utf-8") as checkpoint:
+                        for record in batch:
+                            category = label_map[int(record["id"])]
+                            checkpoint.write(
+                                json.dumps(
+                                    {"pmid": record.get("pmid", ""), "category": category},
+                                    ensure_ascii=False,
+                                )
+                                + "\n"
+                            )
+                print(
+                    f"[INFO] Classified batch {b + 1}/{total_batches} "
+                    f"({len(completed_by_pmid) + len(all_labels)}/{total})"
+                )
             else:
-                print(f"[WARN] Batch {b + 1}/{total_batches} classification failed or incomplete.")
+                raise RuntimeError(
+                    f"Batch {b + 1}/{total_batches} classification failed after retries; "
+                    "checkpoint retained for a resumable rerun."
+                )
 
             time.sleep(self.llm_cfg.delay_s)
 
-        dedup = {int(x["id"]): x["category"] for x in all_labels}
-        return [{"id": k, "category": v} for k, v in dedup.items()]
+        new_by_id = {int(x["id"]): x["category"] for x in all_labels}
+        output = []
+        for record in records:
+            pmid = str(record.get("pmid", ""))
+            category = completed_by_pmid.get(pmid, new_by_id.get(int(record["id"])))
+            if category in self.VALID_CATEGORIES:
+                output.append({"id": int(record["id"]), "category": category})
+        if len(output) != total:
+            raise RuntimeError(f"Only {len(output)}/{total} PubMed records were classified.")
+        return output
 
     def _neutral_result(self) -> Dict[str, Any]:
         """
@@ -910,8 +1010,12 @@ Input records:
         if not drug or not disease:
             return self._neutral_result()
 
-        # 1) Expand disease terms to improve retrieval
-        disease_terms = self.pubmed.expand_disease_terms(disease)
+        # 1) Exact mode deliberately disables synonym expansion. Other modes
+        # retain the broader MeSH/title-abstract expansion behavior.
+        if (filter_level or "").strip().lower() == "exact":
+            disease_terms = [disease]
+        else:
+            disease_terms = self.pubmed.expand_disease_terms(disease)
         if disease_terms:
             print(f"[INFO] Disease expansion terms: {disease_terms}")
 
@@ -919,10 +1023,9 @@ Input records:
         query = self.pubmed.build_query(drug=drug, disease_terms=disease_terms, filter_level=filter_level)
 
         limit = int(max_articles) if max_articles is not None else int(self.search_cfg.max_results)
-        limit = max(1, limit)
 
         # Respect configured hard ceiling (explicit)
-        if limit > int(self.search_cfg.max_results):
+        if int(self.search_cfg.max_results) > 0 and limit > int(self.search_cfg.max_results):
             print(f"[INFO] max_articles={limit} capped to search_cfg.max_results={self.search_cfg.max_results}")
             limit = int(self.search_cfg.max_results)
 
@@ -937,7 +1040,37 @@ Input records:
         if not records:
             return self._neutral_result()
 
-        labels = self.classify_abstracts(records, drug, disease)
+        records_retrieved = len(records)
+        exact_excluded = 0
+        if (filter_level or "").strip().lower() == "exact":
+            exact_records = []
+            for record in records:
+                combined = f"{record.get('title', '')} {record.get('abstract', '')}"
+                if self._contains_normalised_phrase(
+                    combined, drug
+                ) and self._contains_normalised_phrase(combined, disease):
+                    exact_records.append(record)
+            exact_excluded = records_retrieved - len(exact_records)
+            records = exact_records
+            print(
+                f"[INFO] Exact title/abstract verification retained {len(records)}/"
+                f"{records_retrieved} records"
+            )
+        if not records:
+            return self._neutral_result()
+
+        os.makedirs(save_dir, exist_ok=True)
+        safe_drug = re.sub(r"[^a-z0-9]+", "_", drug.casefold()).strip("_")
+        safe_disease = re.sub(r"[^a-z0-9]+", "_", disease.casefold()).strip("_")
+        checkpoint_path = os.path.join(
+            save_dir, f"classification_checkpoint_{safe_drug}_{safe_disease}.jsonl"
+        )
+        labels = self.classify_abstracts(
+            records,
+            drug,
+            disease,
+            checkpoint_path=checkpoint_path,
+        )
         label_map = {int(x["id"]): x["category"] for x in labels}
 
         labelled_records: List[Dict[str, Any]] = []
@@ -1041,6 +1174,8 @@ Input records:
                 for x in labelled_records
             ],
             "total_articles": total,
+            "records_retrieved": records_retrieved,
+            "records_excluded_by_exact_verification": exact_excluded,
         }
 
 

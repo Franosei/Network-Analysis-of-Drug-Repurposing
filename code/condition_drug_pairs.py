@@ -29,6 +29,7 @@ class ConditionDrugPairBuilder:
         token_jaccard_min: float = 0.60,
         include_placebo: bool = False,
         keep_unmatched_debug_fields: bool = True,
+        build_token_indexes: bool = True,
     ):
         self.input_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", input_dir))
         self.output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", output_dir))
@@ -47,8 +48,12 @@ class ConditionDrugPairBuilder:
         self.condition_term_map, self.drug_term_map = self.load_mesh_terms()
 
         # Token indexes speed up token-guided matching
-        self._cond_token_index = self._build_token_index(self.condition_term_map)
-        self._drug_token_index = self._build_token_index(self.drug_term_map)
+        self._cond_token_index = (
+            self._build_token_index(self.condition_term_map) if build_token_indexes else {}
+        )
+        self._drug_token_index = (
+            self._build_token_index(self.drug_term_map) if build_token_indexes else {}
+        )
 
     # ------------------------------------------------------------------
     # MeSH loading

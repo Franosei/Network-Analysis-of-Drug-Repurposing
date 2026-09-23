@@ -1,0 +1,2 @@
+drug,disease,case_type,expected_quality,priority,narrative
+hydroxychloroquine,covid-19,failed_repurposing,Safety-conflicted evidence,1,Full-registry exact-pair rerun with complete PubMed retrieval and target-edge-withheld graph scoring.

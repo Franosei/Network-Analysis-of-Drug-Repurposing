@@ -93,7 +93,8 @@ def concentration_c(M: int, cmax: float = 200.0, tau: float = 25.0) -> float:
 @dataclass(frozen=True)
 class PredictorConfig:
     # PubMed/LLM retrieval
-    pubmed_max_articles: int = 150
+    # 0 means retrieve every result returned by PubMed ESearch.
+    pubmed_max_articles: int = 0
     pubmed_filter_level: str = "high"
     pubmed_years_back: int = 10
     pubmed_use_cache: bool = True
@@ -685,7 +686,7 @@ if __name__ == "__main__":
     }
 
     cfg = PredictorConfig(
-        pubmed_max_articles=150,
+        pubmed_max_articles=0,
         pubmed_filter_level="high",
         pubmed_years_back=10,
         pubmed_use_cache=True,

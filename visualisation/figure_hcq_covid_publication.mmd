@@ -1,0 +1,149 @@
+%% Publication-ready case-study figure.
+%% Render as SVG/PDF for vector output and PNG at >=300 dpi for submission.
+%% Numeric values reproduce the hydroxychloroquine--COVID-19 evidence ledger.
+%%{init: {
+  "theme": "base",
+  "securityLevel": "loose",
+  "themeVariables": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": "15px",
+    "primaryTextColor": "#17212B",
+    "lineColor": "#6B7785",
+    "clusterBkg": "#FFFFFF",
+    "clusterBorder": "#C9D1D9",
+    "edgeLabelBackground": "#FFFFFF"
+  },
+  "flowchart": {
+    "curve": "linear",
+    "htmlLabels": true,
+    "nodeSpacing": 34,
+    "rankSpacing": 52,
+    "padding": 14,
+    "wrappingWidth": 300,
+    "useMaxWidth": false
+  }
+}}%%
+
+flowchart TB
+
+  %% ================================================================
+  %% A. Heterogeneous evidence sources
+  %% ================================================================
+  subgraph A["A  |  INPUT EVIDENCE   "]
+    direction LR
+
+    CT["<b>ClinicalTrials.gov</b><br/><span>13 registered trials</span><br/><br/><small>Registration footprint</small>"]
+
+    PM["<b>PubMed / PMC</b><br/><span>40 retrieved records</span><br/>20 therapeutic · 9 adverse/conflicting<br/>11 irrelevant<br/><br/><small>Direction and relevance</small>"]
+
+    FDA["<b>openFDA (FAERS)</b><br/><span>Safety overlap γ = 0.75</span><br/>10 overlapping terms<br/><br/><small>Reported-event similarity</small>"]
+
+    NET["<b>Drug–disease network</b><br/><span>Structural consistency = 0.99</span><br/><br/><small>Topological plausibility</small>"]
+
+  end
+
+  %% ================================================================
+  %% B. Semantic and data-quality controls
+  %% ================================================================
+  subgraph B["B  |  HARMONISATION + AUDIT   "]
+    direction LR
+
+    ER["<b>Entity resolution</b><br/>HCQ; hydroxychloroquine sulfate<br/>→ hydroxychloroquine<br/><br/><small>Preserve alias and mapping confidence</small>"]
+
+    DH["<b>Disease harmonisation</b><br/>SARS-CoV-2 infection;<br/>coronavirus disease 2019<br/>→ COVID-19<br/><br/><small>Attach the canonical ontology identifier</small>"]
+
+    EC["<b>Evidence classification</b><br/>Label therapeutic intent,<br/>adverse evidence and off-topic material<br/><br/><small>Convert publication volume into meaning</small>"]
+
+    SR["<b>Safety reconciliation</b><br/>Compare coded harms with<br/>disease-symptom overlap<br/><br/><small>Route discordant signals for review</small>"]
+
+    CQ["<b>Coverage and quality checks</b><br/>Test domain completeness,<br/>mapping failures and contradictions"]
+
+    PU["<b>Provenance and uncertainty</b><br/>Record file lineage, transformations,<br/>model version and pipeline run"]
+  end
+
+  CT --> ER
+  PM --> EC
+  FDA --> SR
+  NET --> CQ
+  ER --> DH
+  DH --> CQ
+  EC --> CQ
+  SR --> CQ
+  CQ --> PU
+
+  %% ================================================================
+  %% C. Integrated evidence ledger
+  %% ================================================================
+  subgraph C["C  |  CANONICAL EVIDENCE LEDGER   "]
+    direction TB
+
+    REC(["<b>HCQ × COVID-19</b><br/><small>canonical drug–disease pair</small>"])
+
+    AUDIT["<b>AUDIT STATE</b><br/><span>Full Bayesian audit</span><br/><small>All evidence domains available</small>"]
+    FLAG["<b>QUALITY FLAG</b><br/><span>Safety-conflicted evidence</span><br/><small>Manual interpretation required</small>"]
+    POST["<b>POSTERIOR ESTIMATE</b><br/><span>0.15</span><br/><small>95% CrI 0.10–0.20</small>"]
+    SCORE["<b>EVIDENCE READINESS</b><br/><span>77 / 100</span><br/><small>Auditable record with substantive discordance</small>"]
+
+    REC --> AUDIT
+    REC --> FLAG
+    REC --> POST
+    REC --> SCORE
+  end
+
+  PU --> REC
+
+  %% ================================================================
+  %% D. Interpretation
+  %% ================================================================
+  subgraph D["D  |  INTERPRETATION   "]
+    direction LR
+
+    MEANING["<b>WHAT READINESS MEANS</b><br/>Coverage, consistency and traceability<br/><small>It is not treatment effectiveness</small>"]
+
+    DISC["<b>EVIDENCE SYNTHESIS</b><br/>Activity and structural support coexist<br/>with mixed clinical and safety evidence"]
+
+    ACTION["<b>DECISION IMPLICATION</b><br/>Do not advance on volume or topology alone<br/><small>Require independent outcome validation</small>"]
+  end
+
+  SCORE --> MEANING
+  FLAG --> DISC
+  POST --> DISC
+  MEANING --> ACTION
+  DISC --> ACTION
+
+  %% ================================================================
+  %% Visual system: colour denotes evidence domain, not evidence strength
+  %% ================================================================
+  classDef trials fill:#E8F1F8,stroke:#2F6690,stroke-width:1.7px,color:#17212B;
+  classDef literature fill:#E8F4F1,stroke:#287A70,stroke-width:1.7px,color:#17212B;
+  classDef safety fill:#FAECEC,stroke:#B44C4C,stroke-width:1.7px,color:#17212B;
+  classDef network fill:#F0ECF8,stroke:#6750A4,stroke-width:1.7px,color:#17212B;
+  classDef control fill:#F7F8FA,stroke:#7C8793,stroke-width:1.2px,color:#17212B;
+  classDef canonical fill:#FFF7E8,stroke:#A66B12,stroke-width:2.2px,color:#5A3A0A;
+  classDef audit fill:#EDF5F8,stroke:#397A93,stroke-width:1.8px,color:#173646;
+  classDef posterior fill:#F0ECF8,stroke:#6750A4,stroke-width:2px,color:#352867;
+  classDef score fill:#FFF5D9,stroke:#A66B12,stroke-width:2.4px,color:#5A3A0A;
+  classDef flag fill:#FFF0F0,stroke:#A33232,stroke-width:2.2px,color:#7A1F1F;
+  classDef discord fill:#F7F2E8,stroke:#8A6A2F,stroke-width:1.8px,color:#3D3020;
+  classDef decision fill:#EDF4EA,stroke:#4E7A46,stroke-width:2px,color:#294525;
+
+  class CT trials;
+  class PM literature;
+  class FDA safety;
+  class NET network;
+  class ER,DH,EC,SR,CQ,PU control;
+  class REC canonical;
+  class AUDIT audit;
+  class FLAG flag;
+  class POST posterior;
+  class SCORE score;
+  class MEANING control;
+  class DISC discord;
+  class ACTION decision;
+
+  style A fill:#FFFFFF,stroke:#AEB8C2,stroke-width:1px,color:#34404C;
+  style B fill:#FBFCFD,stroke:#AEB8C2,stroke-width:1px,color:#34404C;
+  style C fill:#FFFFFF,stroke:#AEB8C2,stroke-width:1px,color:#34404C;
+  style D fill:#FBFCFD,stroke:#AEB8C2,stroke-width:1px,color:#34404C;
+
+  linkStyle default stroke:#6B7785,stroke-width:1.35px,fill:none;

@@ -1,0 +1,56 @@
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "fontFamily": "Helvetica, Arial, sans-serif",
+    "fontSize": "16px",
+    "primaryColor": "#ffffff",
+    "primaryBorderColor": "#333333",
+    "primaryTextColor": "#1F1F1F",
+    "lineColor": "#5B5B5B",
+    "clusterBkg": "#ffffff",
+    "clusterBorder": "#CCCCCC"
+  },
+  "flowchart": {
+    "curve": "linear",
+    "htmlLabels": true,
+    "nodeSpacing": 38,
+    "rankSpacing": 55,
+    "padding": 12
+  }
+} }%%
+flowchart LR
+
+    REC(["`**One evidence record**
+    hydroxychloroquine × COVID-19`"])
+
+    subgraph C[" C.  Evidence profile for this pair — conflicted, not one number "]
+        direction LR
+        PROF_MAP["Drug &amp; disease mapping —<br/>moderate confidence"]
+        PROF_COV["Literature coverage —<br/>complete (40 / 40 usable)"]
+        PROF_SIG["Literature signal — mixed:<br/>20 therapeutic, 9 adverse, 11 irrelevant"]
+        PROF_SAFETY["Safety overlap with disease<br/>symptoms — high, conflicting (γ = 0.75)"]
+        PROF_NET["Network structural support —<br/>strong (0.99)"]
+        PROF_CERT["Certainty of the final estimate —<br/>narrow (95% CI 0.10–0.20)"]
+        PROF_MAP --> PROF_COV --> PROF_SIG --> PROF_SAFETY --> PROF_NET --> PROF_CERT
+    end
+
+    SCORE["`**Evidence-readiness score: 77 / 100**
+    This is not an efficacy probability
+    Posterior P(benefit) = 0.15  [0.10–0.20]`"]
+
+    REC --> PROF_MAP
+    PROF_CERT --> SCORE
+
+    classDef merge fill:#FBF7EF,stroke:#946E3D,stroke-width:2px,color:#5B4321
+    classDef good fill:#EAF5EC,stroke:#55A868,stroke-width:1.3px,color:#1F1F1F
+    classDef mixed fill:#FBF3DE,stroke:#C9A227,stroke-width:1.3px,color:#1F1F1F
+    classDef concern fill:#FBEAEA,stroke:#C44E52,stroke-width:1.3px,color:#1F1F1F
+    classDef score fill:#FBF7EF,stroke:#946E3D,stroke-width:3px,color:#5B4321
+
+    class REC merge
+    class PROF_MAP,PROF_SIG mixed
+    class PROF_COV,PROF_NET,PROF_CERT good
+    class PROF_SAFETY concern
+    class SCORE score
+
+    style C fill:#FFFFFF,stroke:#DDDDDD,stroke-width:1px

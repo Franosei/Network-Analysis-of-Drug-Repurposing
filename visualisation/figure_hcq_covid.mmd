@@ -1,0 +1,105 @@
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "fontFamily": "Helvetica, Arial, sans-serif",
+    "fontSize": "16px",
+    "primaryColor": "#ffffff",
+    "primaryBorderColor": "#333333",
+    "primaryTextColor": "#1F1F1F",
+    "lineColor": "#5B5B5B",
+    "clusterBkg": "#ffffff",
+    "clusterBorder": "#CCCCCC"
+  },
+  "flowchart": {
+    "curve": "linear",
+    "htmlLabels": true,
+    "nodeSpacing": 38,
+    "rankSpacing": 70,
+    "padding": 12
+  }
+} }%%
+flowchart LR
+
+    subgraph A[" A.  Evidence sources — same pair, different meanings "]
+        direction TB
+        SRC_CT["`**ClinicalTrials.gov**
+        13 registered trials
+        *investigation activity, not efficacy*`"]
+        SRC_PM["`**PubMed / PMC**
+        40 retrieved records
+        *attention, not therapeutic support*`"]
+        SRC_FDA["`**openFDA (FAERS)**
+        γ = 0.75 safety overlap
+        *reported events, not causal effect*`"]
+        SRC_NET["`**Drug–disease network**
+        0.99 structural consistency
+        *proximity, not efficacy*`"]
+    end
+
+    subgraph B[" B.  Integration — judgement points, not a simple join "]
+        direction LR
+        INT_ENTITY["`**Entity resolution**
+        HCQ, hydroxychloroquine sulfate
+        → one drug entity`"]
+        INT_DISEASE["`**Disease harmonisation**
+        COVID-19, SARS-CoV-2 infection
+        → one disease entity`"]
+        INT_CLASS["`**Evidence classification**
+        40 records → 20 therapeutic,
+        9 adverse, 11 irrelevant`"]
+        INT_SAFETY["`**Safety-conflict flag**
+        adverse overlap vs.
+        therapeutic literature`"]
+        INT_ENTITY --> INT_DISEASE --> INT_CLASS --> INT_SAFETY
+    end
+
+    SRC_CT --> INT_ENTITY
+    SRC_PM --> INT_ENTITY
+    SRC_FDA --> INT_ENTITY
+    SRC_NET --> INT_ENTITY
+
+    REC(["`**One evidence record**
+    hydroxychloroquine × COVID-19`"])
+    INT_SAFETY --> REC
+
+    subgraph C[" C.  Evidence profile for this pair — conflicted, not one number "]
+        direction TB
+        PROF_MAP["Drug &amp; disease mapping — moderate confidence"]
+        PROF_COV["Literature coverage — complete (40 / 40 usable)"]
+        PROF_SIG["Literature signal — mixed: 20 therapeutic, 9 adverse, 11 irrelevant"]
+        PROF_SAFETY["Safety overlap with disease symptoms — high, conflicting (γ = 0.75)"]
+        PROF_NET["Network structural support — strong (0.99)"]
+        PROF_CERT["Certainty of the final estimate — narrow (95% CI 0.10–0.20)"]
+        SCORE["`**Evidence-readiness score: 77 / 100**
+        This is not an efficacy probability
+        Posterior P(benefit) = 0.15  [0.10–0.20]`"]
+        PROF_MAP --> PROF_COV --> PROF_SIG --> PROF_SAFETY --> PROF_NET --> PROF_CERT --> SCORE
+    end
+
+    REC --> PROF_MAP
+
+    classDef srcTrials fill:#EAF0FA,stroke:#4C72B0,stroke-width:2px,color:#1F1F1F
+    classDef srcLit fill:#EAF5EC,stroke:#55A868,stroke-width:2px,color:#1F1F1F
+    classDef srcSafety fill:#FBEAEA,stroke:#C44E52,stroke-width:2px,color:#1F1F1F
+    classDef srcNetwork fill:#F1EDF7,stroke:#8172B2,stroke-width:2px,color:#1F1F1F
+    classDef integ fill:#F7F5F2,stroke:#B7A98C,stroke-width:1.5px,color:#1F1F1F
+    classDef merge fill:#FBF7EF,stroke:#946E3D,stroke-width:2px,color:#5B4321
+    classDef good fill:#EAF5EC,stroke:#55A868,stroke-width:1.3px,color:#1F1F1F
+    classDef mixed fill:#FBF3DE,stroke:#C9A227,stroke-width:1.3px,color:#1F1F1F
+    classDef concern fill:#FBEAEA,stroke:#C44E52,stroke-width:1.3px,color:#1F1F1F
+    classDef score fill:#FBF7EF,stroke:#946E3D,stroke-width:3px,color:#5B4321
+
+    class SRC_CT srcTrials
+    class SRC_PM srcLit
+    class SRC_FDA srcSafety
+    class SRC_NET srcNetwork
+    class INT_ENTITY,INT_DISEASE,INT_CLASS,INT_SAFETY integ
+    class REC merge
+    class PROF_MAP,PROF_SIG mixed
+    class PROF_COV,PROF_NET,PROF_CERT good
+    class PROF_SAFETY concern
+    class SCORE score
+
+    style A fill:#FFFFFF,stroke:#DDDDDD,stroke-width:1px
+    style B fill:#FFFFFF,stroke:#DDDDDD,stroke-width:1px
+    style C fill:#FFFFFF,stroke:#DDDDDD,stroke-width:1px

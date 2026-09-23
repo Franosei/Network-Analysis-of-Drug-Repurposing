@@ -139,7 +139,7 @@ def get_run_params(run_config: Dict[str, Any], args: argparse.Namespace) -> Dict
     return {
         "pubmed_max_articles": args.pubmed_max_articles
         if args.pubmed_max_articles is not None
-        else int(search.get("pubmed_max_articles", 40)),
+        else int(search.get("pubmed_max_articles", 0)),
         "pubmed_filter_level": args.pubmed_filter_level or str(search.get("pubmed_filter_level", "high")),
         "pubmed_years_back": args.pubmed_years_back
         if args.pubmed_years_back is not None
