@@ -50,6 +50,7 @@ from condition_drug_pairs import ConditionDrugPairBuilder  # noqa: E402
 from data_extraction import ClinicalTrialFetcher  # noqa: E402
 from evidence_quality_report import (  # noqa: E402
     beta_metrics,
+    clamp01,
     generate_reports,
     norm_entity,
     read_json,
@@ -1346,6 +1347,81 @@ def combined_graph_df(known_graph_path: Path, unknown_graph_path: Path) -> pd.Da
     return df
 
 
+def load_existing_classified_prior(
+    literature_dir: Path,
+    runs_dir: Path,
+    drug: str,
+    disease: str,
+) -> Dict[str, Any]:
+    """Rebuild prior inputs from saved classifications without calling an LLM."""
+    safe_drug = safe_run_slug(drug)
+    safe_disease = safe_run_slug(disease)
+    candidates = sorted(
+        literature_dir.glob(f"classified_pubmed_{safe_drug}_{safe_disease}_*.json")
+    )
+    if not candidates:
+        raise FileNotFoundError(
+            f"No saved classified literature found for {drug} / {disease} in {literature_dir}"
+        )
+    records = read_json(candidates[-1], [])
+    if not isinstance(records, list) or not records:
+        raise ValueError(f"Saved classified literature is empty: {candidates[-1]}")
+
+    aliases = {
+        "therapeutic": "benefit",
+        "adverse": "conflicting",
+        "no_benefit": "null",
+        "safety": "harm",
+    }
+    counts = Counter()
+    evidence_keys = set()
+    for record in records:
+        category = aliases.get(str(record.get("category", "")).strip().lower(), str(record.get("category", "")).strip().lower())
+        if category not in {"benefit", "null", "harm", "conflicting", "irrelevant"}:
+            category = "irrelevant"
+        counts[category] += 1
+        key = str(record.get("doi") or record.get("pmid") or record.get("Title") or "").strip().casefold()
+        if key:
+            evidence_keys.add(key)
+
+    total = sum(counts.values())
+    benefit = counts.get("benefit", 0)
+    adverse = counts.get("null", 0) + counts.get("harm", 0) + counts.get("conflicting", 0)
+    counts["therapeutic"] = benefit
+    counts["adverse"] = adverse
+
+    safety = {}
+    run_candidates = sorted(runs_dir.glob(f"run_{safe_drug}_{safe_disease}_*.json"))
+    if run_candidates:
+        payload = read_json(run_candidates[-1], {})
+        safety = payload.get("components", {}) if isinstance(payload, dict) else {}
+    gamma = safety.get("gamma")
+    gamma = clamp01(gamma) if gamma is not None else None
+    relation = safety.get("safety_relation")
+    penalty_scale = float(safety.get("safety_penalty_scale") or 0.5)
+    penalised = max((benefit - 2 * adverse) / total, 0.0) if total else 0.5
+    p_final = penalised * (1.0 - penalty_scale * gamma) if relation and gamma is not None else penalised
+
+    return {
+        "prior": benefit / total if total else 0.5,
+        "penalised_prior": penalised,
+        "enhanced_prior": clamp01(p_final),
+        "gamma": gamma,
+        "safety_data_status": safety.get("safety_data_status", "LEGACY_IMPORTED"),
+        "literature_data_status": "LEGACY_IMPORTED",
+        "literature_query": safety.get("literature_query", ""),
+        "classifier_schema_version": "legacy_imported",
+        "raw_counts": counts,
+        "total_articles": total,
+        "evidence_units": len(evidence_keys) if evidence_keys else total,
+        "records_retrieved": safety.get("records_retrieved", total),
+        "records_excluded_by_exact_verification": safety.get("records_excluded_by_exact_verification", 0),
+        "matching_effects": safety.get("matching_effects", []),
+        "safety_relation": relation,
+        "safety_penalty_scale": penalty_scale,
+    }
+
+
 def run_bayesian_panel_stage(
     panel_df: pd.DataFrame,
     known_graph_path: Path,
@@ -1368,6 +1444,12 @@ def run_bayesian_panel_stage(
 
     runs_dir = output_dir / "runs"
     literature_dir = output_dir / "literatures"
+    source_literature_dir = literature_dir
+    source_runs_dir = runs_dir
+    if args.reuse_classified_literature and str(args.input_run_dir or "").strip():
+        input_root = (PROJECT_ROOT / args.input_run_dir).resolve()
+        source_literature_dir = input_root / "literatures"
+        source_runs_dir = input_root / "runs"
     plots_dir = output_dir / "plots"
     for path in (runs_dir, literature_dir, plots_dir):
         path.mkdir(parents=True, exist_ok=True)
@@ -1402,10 +1484,12 @@ def run_bayesian_panel_stage(
     )
     # Use make_classifier to preserve current predictor behavior, then override the
     # save_dir per call so publication artifacts stay inside the run folder.
-    classifier = make_classifier(cfg)
-    classifier.search_cfg = search_cfg
-    classifier.pubmed.cfg = search_cfg
-    classifier.llm_cfg = llm_cfg
+    classifier = None
+    if not args.reuse_classified_literature:
+        classifier = make_classifier(cfg)
+        classifier.search_cfg = search_cfg
+        classifier.pubmed.cfg = search_cfg
+        classifier.llm_cfg = llm_cfg
 
     feature_df = combined_graph_df(known_graph_path, unknown_graph_path)
     active_weights = dict(DEFAULT_WEIGHTS)
@@ -1440,14 +1524,35 @@ def run_bayesian_panel_stage(
         disease_l = disease.lower()
         log_lines.append(f"Refreshing Bayesian evidence for panel pair: {drug} -> {disease}")
 
-        prior_result = classifier.build_semantic_prior(
-            drug=drug,
-            disease=disease,
-            max_articles=args.pubmed_max_articles,
-            filter_level=args.pubmed_filter_level,
-            save_dir=str(literature_dir),
-            use_cache=not args.force_pubmed_refresh,
-        )
+        if args.reuse_classified_literature:
+            prior_result = load_existing_classified_prior(
+                source_literature_dir, source_runs_dir, drug, disease
+            )
+            # Carry the exact classified record file into the new run so the
+            # literature audit stages remain populated and auditable.  This is
+            # a byte-for-byte provenance copy, not a new retrieval or label.
+            imported_files = sorted(
+                source_literature_dir.glob(
+                    f"classified_pubmed_{safe_run_slug(drug)}_{safe_run_slug(disease)}_*.json"
+                )
+            )
+            if imported_files:
+                destination = literature_dir / imported_files[-1].name
+                if imported_files[-1].resolve() != destination.resolve():
+                    shutil.copyfile(imported_files[-1], destination)
+                log_lines.append(
+                    f"Imported saved classified literature file for audit: {rel(destination)}"
+                )
+            log_lines.append("Reused saved literature classifications; no LLM classification was run.")
+        else:
+            prior_result = classifier.build_semantic_prior(
+                drug=drug,
+                disease=disease,
+                max_articles=args.pubmed_max_articles,
+                filter_level=args.pubmed_filter_level,
+                save_dir=str(literature_dir),
+                use_cache=not args.force_pubmed_refresh,
+            )
 
         counts = dict(prior_result.get("raw_counts", {}))
         articles_retrieved = int(prior_result.get("total_articles", 0))
@@ -1654,9 +1759,14 @@ def build_publication_ledger(
     terminology_audit_path: Path,
     validation_path: Optional[Path],
     panel_df: pd.DataFrame,
+    matched_path: Optional[Path] = None,
 ) -> pd.DataFrame:
     pair_df = pd.read_csv(pair_level_path) if pair_level_path.exists() else pd.DataFrame()
-    processed_path = terminology_audit_path.parent.parent / "processed_data" / "condition_drug_pairs.json"
+    # A reuse run deliberately keeps the mapping audit as provenance, but the
+    # audit can be a small refresh=false note.  Pass the actual matched pair
+    # table so trial counts and mapping identifiers are recovered rather than
+    # silently reported as zero/legacy.
+    processed_path = matched_path or (terminology_audit_path.parent.parent / "processed_data" / "condition_drug_pairs.json")
     trial_df = build_trial_pair_summary(terminology_audit_path, processed_path)
     validation_df = pd.read_csv(validation_path) if validation_path and validation_path.exists() else pd.DataFrame()
 
@@ -1800,6 +1910,7 @@ def build_publication_ledger(
                 "adverse_burden": adverse_burden,
                 "irrelevant_noise_rate": row.get("irrelevant_retrieval_noise_rate"),
                 "literature_completeness_score": lit_completeness,
+                "literature_data_status": row.get("literature_data_status", "UNKNOWN"),
                 # Safety
                 "safety_overlap_gamma": row.get("gamma_safety_overlap"),
                 "safety_data_status": safety_status,
@@ -2445,6 +2556,7 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
         "refresh_literature": bool(args.refresh_literature),
         "refresh_safety": bool(args.refresh_safety),
         "run_bayesian": bool(args.run_bayesian),
+        "reuse_classified_literature": bool(args.reuse_classified_literature),
         "record_audit_trail": bool(getattr(args, "record_audit_trail", True)),
     }
     legacy_flags = [k for k, v in refresh_flags.items() if not v]
@@ -2462,12 +2574,15 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
         "full_registry": bool(args.full_registry),
         "full_registry_db": args.full_registry_db,
         "resume_full_registry": bool(args.resume_full_registry),
+        "input_run_dir": args.input_run_dir,
+        # Reuse mode rebuilds graph/Bayesian calculations from local saved
+        # classifications and safety outputs; it must not claim API or LLM use.
         "apis_used": {
             "clinicaltrials_gov": bool(args.refresh_trials),
             "mesh_download": bool(args.download_mesh),
-            "pubmed_pmc": bool(args.refresh_literature or args.run_bayesian),
-            "openfda_faers": bool(args.refresh_safety or args.run_bayesian),
-            "openai_llm": bool(args.refresh_literature or args.refresh_safety or args.run_bayesian),
+            "pubmed_pmc": bool((args.refresh_literature or args.run_bayesian) and not args.reuse_classified_literature),
+            "openfda_faers": bool((args.refresh_safety or args.run_bayesian) and not args.reuse_classified_literature),
+            "openai_llm": bool((args.refresh_literature or args.refresh_safety or args.run_bayesian) and not args.reuse_classified_literature),
         },
         "mesh_version": "desc2026.xml",
         "case_study_panel": args.case_study_panel,
@@ -2537,7 +2652,8 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
         },
         "notes": [
             "Evidence readiness scores measure evidence quality and audit readiness, not clinical efficacy.",
-            "When run_bayesian=true, the selected case-study panel is refreshed through PubMed/PMC retrieval, LLM classification, safety overlap, graph likelihood, and posterior scoring.",
+            "When run_bayesian=true without reuse_classified_literature, the selected case-study panel is refreshed through PubMed/PMC retrieval, LLM classification, safety overlap, graph likelihood, and posterior scoring.",
+            "When reuse_classified_literature=true, saved literature classifications and safety outputs are imported locally; only graph and Bayesian calculations are rebuilt.",
             "When run_bayesian=false, literature, safety, and Bayesian audits are summarized from existing local artifacts.",
             "If legacy_artifacts_reused is non-empty, the run mixed fresh and existing data — see legacy_artifact_warning.",
         ],
@@ -2576,9 +2692,20 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--refresh_literature", type=str_to_bool, default=False)
     parser.add_argument("--refresh_safety", type=str_to_bool, default=False)
     parser.add_argument("--run_bayesian", type=str_to_bool, default=False)
+    parser.add_argument(
+        "--reuse_classified_literature",
+        type=str_to_bool,
+        default=False,
+        help="Recompute priors from saved classified JSON without rerunning LLM classification.",
+    )
     parser.add_argument("--record_audit_trail", type=str_to_bool, default=True)
     parser.add_argument("--download_mesh", type=str_to_bool, default=False)
     parser.add_argument("--output_dir", default=f"outputs/publication_run_{datetime.now().strftime('%Y%m%d')}")
+    parser.add_argument(
+        "--input_run_dir",
+        default="",
+        help="Existing publication run supplying raw, mapped and classified artifacts when refresh flags are false.",
+    )
     parser.add_argument(
         "--full_registry",
         type=str_to_bool,
@@ -2651,6 +2778,13 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> None:
     args = build_parser().parse_args()
     output_dir = (PROJECT_ROOT / args.output_dir).resolve()
+    input_run_dir = (
+        (PROJECT_ROOT / args.input_run_dir).resolve()
+        if str(args.input_run_dir or "").strip()
+        else None
+    )
+    if input_run_dir is not None and not input_run_dir.exists():
+        raise FileNotFoundError(f"Input run directory does not exist: {input_run_dir}")
     raw_dir = output_dir / "raw_trials"
     processed_dir = output_dir / "processed_data"
     graph_dir = output_dir / "graph"
@@ -2687,7 +2821,9 @@ def main() -> None:
             else fetch_trials_stage(args, raw_dir, log_lines)
         )
     else:
-        if not args.full_registry:
+        if input_run_dir is not None:
+            raw_dir = input_run_dir / "raw_trials"
+        elif not args.full_registry:
             raw_dir = PROJECT_ROOT / "data"
         clinical_audit = pd.DataFrame(
             [{"note": "refresh_trials=false; using existing data directory", "data_dir": rel(raw_dir)}]
@@ -2705,10 +2841,33 @@ def main() -> None:
             else mapping_stage(raw_dir, processed_dir, mesh_path, args, log_lines)
         )
     else:
-        processed_base = processed_dir if args.full_registry else PROJECT_ROOT / "processed_data"
+        processed_base = (
+            (input_run_dir / "processed_data")
+            if input_run_dir is not None
+            else (processed_dir if args.full_registry else PROJECT_ROOT / "processed_data")
+        )
         matched_path = processed_base / "condition_drug_pairs.json"
         unmatched_path = processed_base / "unmatched_pairs.json"
-        terminology_audit = pd.DataFrame([{"note": "refresh_mesh_mapping=false; using existing processed_data artifacts"}])
+        # Keep a schema-valid provenance record even when mapping is reused.
+        # The complete pair table remains the authoritative source for the
+        # target-level mapping fields in the publication ledger.
+        terminology_audit = pd.DataFrame(
+            [
+                {
+                    "original_term": "reused existing condition-drug pair table",
+                    "cleaned_term": "stored canonical pair mappings",
+                    "mapped_term": "stored canonical pair mappings",
+                    "mesh_id": "",
+                    "mapping_method": "reused_existing_mapping",
+                    "mapping_score": "",
+                    "token_jaccard_score": "",
+                    "mapping_status": "reused",
+                    "failure_reason": "",
+                    "source_path": rel(matched_path),
+                    "reuse_note": "refresh_mesh_mapping=false; no mapping operation was run",
+                }
+            ]
+        )
 
     terminology_audit.to_csv(audit_dir / "02_terminology_mapping_audit.csv", index=False)
     terminology_audit.to_csv(output_dir / "02_terminology_mapping_audit.csv", index=False)
@@ -2766,16 +2925,16 @@ def main() -> None:
     # Bayesian stage is intentionally not repeated.  Falling back to the
     # repository-level legacy folders preserves the historical workflow.
     effective_runs_dir = (
-        output_dir / "runs"
-        if (output_dir / "runs").exists()
-        else PROJECT_ROOT / "runs"
+        input_run_dir / "runs"
+        if input_run_dir is not None and not args.run_bayesian
+        else (output_dir / "runs" if (output_dir / "runs").exists() else PROJECT_ROOT / "runs")
     )
     effective_lit_dir = (
-        output_dir / "literatures"
-        if (output_dir / "literatures").exists()
-        else PROJECT_ROOT / "literatures"
+        input_run_dir / "literatures"
+        if input_run_dir is not None and not args.run_bayesian
+        else (output_dir / "literatures" if (output_dir / "literatures").exists() else PROJECT_ROOT / "literatures")
     )
-    if args.run_bayesian or args.refresh_literature or args.refresh_safety:
+    if args.run_bayesian or args.refresh_literature or args.refresh_safety or args.reuse_classified_literature:
         if not args.run_bayesian:
             raise ValueError(
                 "--refresh_literature true or --refresh_safety true requires --run_bayesian true "
@@ -2864,6 +3023,7 @@ def main() -> None:
         terminology_audit_path=audit_dir / "02_terminology_mapping_audit.csv",
         validation_path=val_path if val_path.exists() else None,
         panel_df=panel_df,
+        matched_path=matched_path,
     )
     # Primary location: ledgers/full_evidence_quality_ledger.csv
     ledger_path = ledgers_dir / "full_evidence_quality_ledger.csv"

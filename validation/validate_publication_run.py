@@ -251,9 +251,12 @@ def check_panel_coverage(ledger: pd.DataFrame, panel_csv: Optional[Path], c: Che
             no_bayes.append(f"{row['drug']} / {row['disease']}")
         art = pd.to_numeric(lr.get("articles_retrieved", 0), errors="coerce")
         lit_status = str(lr.get("literature_data_status", "UNKNOWN") or "UNKNOWN").upper()
-        if pd.isna(art) or float(art) == 0 or lit_status not in {"COMPLETE", "UNKNOWN"}:
+        # LEGACY_IMPORTED is deliberate in reuse mode: stored classifications
+        # are valid calculation inputs even though retrieval was not repeated.
+        if pd.isna(art) or float(art) == 0 or lit_status not in {"COMPLETE", "UNKNOWN", "LEGACY_IMPORTED"}:
             no_lit.append(f"{row['drug']} / {row['disease']}")
-        if pd.isna(lr.get("safety_overlap_gamma")) or str(lr.get("safety_data_status", "")).upper() != "COMPLETE":
+        safety_status = str(lr.get("safety_data_status", "")).upper()
+        if pd.isna(lr.get("safety_overlap_gamma")) or safety_status not in {"COMPLETE", "LEGACY_IMPORTED"}:
             no_safety.append(f"{row['drug']} / {row['disease']}")
         if pd.isna(lr.get("credible_interval_width")):
             no_uncertainty.append(f"{row['drug']} / {row['disease']}")
