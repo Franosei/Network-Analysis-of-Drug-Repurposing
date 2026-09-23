@@ -8,8 +8,8 @@ pair (hydroxychloroquine / covid-19):
   (C) the final, conflicted evidence profile for this pair.
 
 All numeric content is read at run time from the pipeline's own audit artifacts:
-  outputs/20260610_bayesian/manuscript_tables/pair_level_evidence_quality.csv
-  outputs/20260610_bayesian/ledgers/full_evidence_quality_ledger.csv
+  outputs/20260923_hcq_covid_full_pipeline/manuscript_tables/pair_level_evidence_quality.csv
+  outputs/20260923_hcq_covid_full_pipeline/ledgers/full_evidence_quality_ledger.csv
 
 Run provenance (run id, timestamp, source file paths) is intentionally kept out of
 the image and belongs in the figure caption / source note instead.
@@ -17,6 +17,7 @@ the image and belongs in the figure caption / source note instead.
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import matplotlib
@@ -27,9 +28,10 @@ from matplotlib.patches import Circle, FancyArrowPatch, FancyBboxPatch
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PAIR_CSV = PROJECT_ROOT / "outputs/20260610_bayesian/manuscript_tables/pair_level_evidence_quality.csv"
-LEDGER_CSV = PROJECT_ROOT / "outputs/20260610_bayesian/ledgers/full_evidence_quality_ledger.csv"
-OUT_DIR = PROJECT_ROOT / "outputs/20260610_bayesian/manuscript_figures"
+RUN_ROOT = PROJECT_ROOT / "outputs/20260923_hcq_covid_full_pipeline"
+PAIR_CSV = RUN_ROOT / "manuscript_tables/pair_level_evidence_quality.csv"
+LEDGER_CSV = RUN_ROOT / "ledgers/full_evidence_quality_ledger.csv"
+OUT_DIR = RUN_ROOT / "manuscript_figures"
 
 DRUG = "hydroxychloroquine"
 DISEASE = "covid-19"
@@ -57,9 +59,16 @@ def load_data() -> dict:
     lrow = ledger_df[
         (ledger_df["drug"].str.lower() == DRUG) & (ledger_df["disease"].str.lower() == DISEASE)
     ].iloc[0]
+    run_path = next(RUN_ROOT.glob("runs/run_hydroxychloroquine_covid-19_*.json"))
+    run_payload = json.loads(run_path.read_text(encoding="utf-8"))
+    graph_df = pd.read_csv(RUN_ROOT / "graph/graph_features_known.csv")
+    graph_row = graph_df[
+        (graph_df["Drug"].str.lower() == DRUG) & (graph_df["Disease"].str.lower() == DISEASE)
+    ].iloc[0]
 
     return {
         "trial_count": int(lrow["trial_count"]),
+        "records_scanned": int(run_payload["components"]["records_retrieved"]),
         "records_retrieved": int(row["records_retrieved"]),
         "therapeutic": int(row["therapeutic_count"]),
         "adverse": int(row["adverse_count"]),
@@ -68,6 +77,8 @@ def load_data() -> dict:
         "gamma": float(row["gamma_safety_overlap"]),
         "n_safety_terms": int(row["safety_overlap_term_count"]),
         "structural_consistency": float(row["structural_consistency_score"]),
+        "graph_probability": float(graph_row["GraphProbability"]),
+        "alternative_paths": int(graph_row["AlternativePathCountLength3"]),
         "entity_mapping": float(row["entity_mapping_quality_score"]),
         "posterior_mean": float(row["posterior_mean"]),
         "ci_low": float(row["posterior_ci_low"]),
@@ -138,26 +149,26 @@ def build_figure(d: dict, out_dir: Path) -> None:
     sources = [
         dict(
             color=C_TRIALS, title="ClinicalTrials.gov",
-            big=f"{d['trial_count']} registered trials",
+            big=f"{d['trial_count']} canonical trial records",
             extra=None,
             sentence="Measures investigation activity — not treatment effectiveness.",
         ),
         dict(
             color=C_LIT, title="PubMed / PMC",
-            big=f"{d['records_retrieved']} retrieved records",
-            extra=None,
+            big=f"{d['records_scanned']:,} retrieved records",
+            extra=f"{d['records_retrieved']:,} exact-pair records",
             sentence="Publication volume reflects attention — not therapeutic support.",
         ),
         dict(
             color=C_SAFETY, title="openFDA (FAERS)",
             big=f"γ = {d['gamma']:.2f} safety overlap",
-            extra=None,
+            extra=f"{d['n_safety_terms']} overlapping terms",
             sentence="Reported events — not a causal treatment effect.",
         ),
         dict(
             color=C_NETWORK, title="Drug–disease network",
-            big=f"{d['structural_consistency']:.2f} structural consistency",
-            extra=None,
+            big=f"graph probability {d['graph_probability']:.3f}",
+            extra=f"{d['alternative_paths']:,} alternative length-3 paths",
             sentence="Structural proximity — not clinical efficacy.",
         ),
     ]
@@ -213,7 +224,6 @@ def build_figure(d: dict, out_dir: Path) -> None:
             "→ one disease entity",
         ]),
         dict(title="Evidence classification", body=[
-            f"{d['records_retrieved']} records →",
             f"{d['therapeutic']} therapeutic / {d['adverse']} adverse /",
             f"{d['irrelevant']} irrelevant",
         ]),
@@ -256,12 +266,12 @@ def build_figure(d: dict, out_dir: Path) -> None:
             fontsize=12.5, fontweight="bold", color=C_INK, va="top")
 
     profile_rows = [
-        dict(label="Drug & disease mapping", value="mapped, moderate confidence", dot=C_MIXED),
-        dict(label="Literature coverage", value=f"complete ({d['records_retrieved']}/{d['records_retrieved']} usable)", dot=C_LIT),
+        dict(label="Drug & disease mapping", value="exact canonical mapping", dot=C_LIT),
+        dict(label="Literature coverage", value=f"{d['records_retrieved']:,} exact-pair records classified", dot=C_LIT),
         dict(label="Literature signal", value=f"mixed — {d['therapeutic']} therapeutic, {d['adverse']} adverse, {d['irrelevant']} irrelevant", dot=C_MIXED),
         dict(label="Safety overlap with disease symptoms", value=f"high, conflicting (γ = {d['gamma']:.2f})", dot=C_SAFETY),
-        dict(label="Network structural support", value=f"strong ({d['structural_consistency']:.2f})", dot=C_LIT),
-        dict(label="Certainty of the final estimate", value=f"narrow interval (95% CI {d['ci_low']:.2f}–{d['ci_high']:.2f})", dot=C_LIT),
+        dict(label="Network structural support", value=f"held-out graph probability {d['graph_probability']:.3f}", dot=C_LIT),
+        dict(label="Certainty of the final estimate", value=f"95% CrI {d['ci_low']:.3f}–{d['ci_high']:.3f}", dot=C_LIT),
     ]
 
     row_top = cy0 + 5.5
@@ -284,12 +294,12 @@ def build_figure(d: dict, out_dir: Path) -> None:
     score_y = divider_y + 4.0
     ax.text(label_x, score_y, "Evidence-readiness score", ha="left", va="center",
             fontsize=10.8, fontweight="bold", color=C_INK)
-    ax.text(value_x, score_y, f"{d['evidence_readiness_score']:.0f} / 100", ha="left", va="center",
+    ax.text(value_x, score_y, f"{d['evidence_readiness_score']:.1f} / 100", ha="left", va="center",
             fontsize=13.5, fontweight="bold", color=C_COMPOSITE)
 
     ax.text(50, score_y + 4.6,
             f"This is not an efficacy probability — estimated probability of therapeutic benefit: "
-            f"{d['posterior_mean']:.2f} (95% CI {d['ci_low']:.2f}–{d['ci_high']:.2f}), reflecting the safety conflict above.",
+            f"{d['posterior_mean']:.4f} (95% CrI {d['ci_low']:.3f}–{d['ci_high']:.3f}), reflecting the safety conflict above.",
             ha="center", va="center", fontsize=8.6, color=C_SAFETY, style="italic")
 
     fig_bottom = score_y + 9.0

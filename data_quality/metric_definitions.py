@@ -39,8 +39,10 @@ LEDGER_COLUMNS = [
     "adverse_burden",
     "irrelevant_noise_rate",
     "literature_completeness_score",
+    "literature_data_status",
     # Safety overlap
     "safety_overlap_gamma",
+    "safety_data_status",
     "safety_penalty",
     # Graph / structural evidence
     "graph_distance",

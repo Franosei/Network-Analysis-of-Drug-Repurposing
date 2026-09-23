@@ -414,14 +414,14 @@ def figure7_bayesian_example(ledger: pd.DataFrame, runs_dir: Optional[Path], out
     likelihood_y = beta_dist.pdf(x, max(0.01, likelihood_peak * 15), max(0.01, (1 - likelihood_peak) * 15))
 
     fig, ax = plt.subplots(figsize=(8, 5))
-    ax.plot(x, prior_y, "--", color="#9E9E9E", linewidth=1.8, label=f"Prior  (mean={prior_mean:.3f})")
+    ax.plot(x, prior_y, "--", color="#9E9E9E", linewidth=1.8, label=f"Prior  (mean={prior_mean:.6f})")
     ax.plot(x, likelihood_y, ":", color="#FF9800", linewidth=1.8, label="Likelihood (graph features)")
-    ax.plot(x, post_y, "-", color="#2196F3", linewidth=2.2, label=f"Posterior  (mean={post_mean:.3f})")
+    ax.plot(x, post_y, "-", color="#2196F3", linewidth=2.2, label=f"Posterior  (mean={post_mean:.4f})")
     ax.fill_between(x, post_y, alpha=0.18, color="#2196F3")
 
     ci_lo = float(beta_dist.ppf(0.025, post_a, post_b))
     ci_hi = float(beta_dist.ppf(0.975, post_a, post_b))
-    ax.axvspan(ci_lo, ci_hi, alpha=0.10, color="#2196F3", label=f"95% CI [{ci_lo:.2f}, {ci_hi:.2f}]")
+    ax.axvspan(ci_lo, ci_hi, alpha=0.10, color="#2196F3", label=f"95% CrI [{ci_lo:.3f}, {ci_hi:.3f}]")
     ax.axvline(post_mean, color="#1565C0", linestyle="-", linewidth=1.2, alpha=0.6)
 
     pair_label = f"{chosen_drug} / {chosen_disease}" if chosen_drug else "representative pair"

@@ -60,7 +60,11 @@ STRUCTURAL_WEIGHTS = {
     "PreferentialAttachment": 0.10,
 }
 
-VALID_LITERATURE_CATEGORIES = {"therapeutic", "adverse", "irrelevant"}
+VALID_LITERATURE_CATEGORIES = {
+    "benefit", "null", "harm", "conflicting", "irrelevant",
+    # Compatibility with older archived classifier outputs.
+    "therapeutic", "adverse",
+}
 
 
 @dataclass(frozen=True)
@@ -649,9 +653,10 @@ def quality_flag(
     m_articles: int,
     adverse_rate: float,
     irrelevant_rate: float,
-    gamma: float,
+    gamma: Optional[float],
     structural_score: Optional[float],
     ci_width: Optional[float],
+    safety_data_status: Optional[str] = None,
 ) -> str:
     return rule_quality_flag(
         readiness_score=readiness_score,
@@ -662,6 +667,7 @@ def quality_flag(
         safety_gamma=gamma,
         structural_score=structural_score,
         credible_interval_width=ci_width,
+        safety_data_status=safety_data_status,
     )
 
 
@@ -749,7 +755,8 @@ def build_pair_level_table(
             m_articles = therapeutic + adverse + irrelevant
 
         gamma_value = safe_float(components.get("gamma"), None)
-        gamma_for_scoring = clamp01(gamma_value, 0.5) if gamma_value is not None else 0.5
+        safety_data_status = str(components.get("safety_data_status", "UNKNOWN") or "UNKNOWN").upper()
+        gamma_for_scoring = clamp01(gamma_value, 0.0) if gamma_value is not None else 0.0
 
         lit_metrics = literature_metrics(run, literature_files)
         uncertainty = beta_metrics(components)
@@ -769,7 +776,7 @@ def build_pair_level_table(
         lit_score = literature_completeness_score(m_articles)
         semantic_relevance = clamp01(1.0 - irrelevant_rate)
         adverse_cleanliness = clamp01(1.0 - adverse_rate)
-        safety_quality = clamp01(1.0 - gamma_for_scoring)
+        safety_quality = clamp01(1.0 - gamma_for_scoring) if gamma_value is not None else 0.0
         ci_width = uncertainty.get("credible_interval_width")
         uncertainty_quality = clamp01(1.0 - (ci_width if ci_width is not None else 1.0))
 
@@ -822,6 +829,10 @@ def build_pair_level_table(
                     gamma_for_scoring,
                 ),
                 "gamma_safety_overlap": round_or_none(gamma_value),
+                "safety_data_status": safety_data_status,
+                "literature_data_status": str(
+                    components.get("literature_data_status", "UNKNOWN") or "UNKNOWN"
+                ).upper(),
                 "safety_conflict_score": round_or_none(gamma_value),
                 "safety_overlap_term_count": len(matching_effects) if matching_effects else None,
                 "top_safety_overlap_terms": "; ".join(map(str, matching_effects[:10])) if matching_effects else None,
@@ -860,6 +871,7 @@ def build_pair_level_table(
                     gamma_for_scoring,
                     structural_score,
                     ci_width,
+                    safety_data_status,
                 ),
             }
         )

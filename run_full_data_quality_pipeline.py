@@ -20,7 +20,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import platform
 import random
 import re
@@ -28,7 +27,7 @@ import shutil
 import sys
 import time
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace
 from typing import Any, Dict, List, Optional, Tuple
@@ -57,7 +56,6 @@ from evidence_quality_report import (  # noqa: E402
     round_or_none,
     timestamp_from_path,
 )
-from network_builder import InterpretableGraphFeatureBuilder  # noqa: E402
 from scalable_graph_builder import build_targeted_full_graph  # noqa: E402
 
 
@@ -187,6 +185,16 @@ def rel(path: Path) -> str:
         return str(path.relative_to(PROJECT_ROOT))
     except ValueError:
         return str(path)
+
+
+def _package_version(distribution: str) -> str:
+    """Return an installed distribution version without making it a hard dependency."""
+    try:
+        from importlib.metadata import version
+
+        return version(distribution)
+    except Exception:
+        return "unavailable"
 
 
 def ensure_mesh(mesh_path: Path, download_mesh: bool, log_lines: List[str]) -> None:
@@ -376,6 +384,7 @@ def fetch_area_with_audit(
 def fetch_trials_stage(args: argparse.Namespace, raw_dir: Path, log_lines: List[str]) -> pd.DataFrame:
     raw_dir.mkdir(parents=True, exist_ok=True)
     areas = parse_areas(args.therapeutic_areas)
+    snapshot_time = datetime.now(timezone.utc).isoformat()
 
     fetcher = ClinicalTrialFetcher(
         output_dir=rel(raw_dir),
@@ -397,8 +406,28 @@ def fetch_trials_stage(args: argparse.Namespace, raw_dir: Path, log_lines: List[
         log_lines.append(f"Saved {len(trials)} eligible trials to {rel(output_path)}")
 
     audit_df = pd.DataFrame(audit_rows)
-    numeric_cols = [col for col in audit_df.columns if col != "therapeutic_area"]
-    total_row = {"therapeutic_area": "ALL_AREAS"}
+    audit_df["registry_snapshot_timestamp_utc"] = snapshot_time
+    audit_df["historical_snapshot_status"] = "current_record_filtered_by_date_not_historical"
+    audit_df["cutoff_semantics"] = (
+        "study fields were retrieved at snapshot time and filtered by available dates; "
+        "later amendments may be present"
+    )
+    metadata_cols = {
+        "therapeutic_area",
+        "registry_snapshot_timestamp_utc",
+        "historical_snapshot_status",
+        "cutoff_semantics",
+    }
+    numeric_cols = [col for col in audit_df.columns if col not in metadata_cols]
+    total_row = {
+        "therapeutic_area": "ALL_AREAS",
+        "registry_snapshot_timestamp_utc": snapshot_time,
+        "historical_snapshot_status": "current_record_filtered_by_date_not_historical",
+        "cutoff_semantics": (
+            "study fields were retrieved at snapshot time and filtered by available dates; "
+            "later amendments may be present"
+        ),
+    }
     for col in numeric_cols:
         total_row[col] = pd.to_numeric(audit_df[col], errors="coerce").fillna(0).sum()
     audit_df = pd.concat([audit_df, pd.DataFrame([total_row])], ignore_index=True)
@@ -417,13 +446,19 @@ def fetch_full_registry_stage(
     )
 
     raw_dir.mkdir(parents=True, exist_ok=True)
+    snapshot_time = datetime.now(timezone.utc).isoformat()
     configured = str(args.full_registry_db or "").strip()
     database_path = (
         (PROJECT_ROOT / configured).resolve()
         if configured
         else raw_dir / "clinicaltrials_full_registry.sqlite"
     )
-    connection = initialise_database(database_path, refresh=False)
+    # A completed registry database is a snapshot, not a timeless source.  By
+    # default start a fresh acquisition so an old database cannot silently
+    # masquerade as the current registry.  Resumption is explicit.
+    connection = initialise_database(
+        database_path, refresh=not bool(getattr(args, "resume_full_registry", False))
+    )
     try:
         session = requests.Session()
         session.headers.update(
@@ -508,6 +543,8 @@ def fetch_full_registry_stage(
                     "study_pair_rows": registry_audit.get("study_pair_rows", 0),
                     "exported_drug_trials": exported,
                     "export_chunks": chunk_number,
+                    "registry_snapshot_timestamp_utc": snapshot_time,
+                    "historical_snapshot_status": "complete_current_registry_snapshot_not_historical_archive",
                 }
             ]
         )
@@ -557,7 +594,9 @@ def split_trial_items(builder: ConditionDrugPairBuilder, items: Any) -> Tuple[Li
     for item in items:
         if not item:
             continue
-        parts = re.split(r"\s*(?:,|;|\+|/|\band\b)\s*", str(item))
+        # Preserve conjunctions, punctuation and slash-containing biomedical
+        # names. ClinicalTrials.gov already supplies list elements.
+        parts = [str(item)]
         for part in parts:
             part = part.strip()
             if not part:
@@ -612,15 +651,25 @@ def mapping_stage(
             matched = mesh_map.get(normalized)
             debug = (
                 {
+                    "raw_term": str(raw_term),
                     "method": "exact",
                     "normalized": normalized,
                     "matched_key": normalized,
                     "score": 1.0,
                     "sequence_ratio": 1.0,
                     "token_jaccard_score": 1.0,
+                    "removed_modifiers": [],
+                    "ambiguity_flag": False,
                 }
                 if matched
-                else {"method": "no_exact_mesh_term", "normalized": normalized, "score": 0.0}
+                else {
+                    "raw_term": str(raw_term),
+                    "method": "no_exact_mesh_term",
+                    "normalized": normalized,
+                    "score": 0.0,
+                    "removed_modifiers": [],
+                    "ambiguity_flag": False,
+                }
             )
         else:
             matched, debug_value = builder.match_term(
@@ -989,7 +1038,14 @@ def mapping_stage_full_registry(
                 )
                 if mapped:
                     mapped_conditions.append(
-                        (raw, builder.clean_output_name(mapped), mesh_id_for(mapped, mesh_ids))
+                        (
+                            raw,
+                            builder.clean_output_name(mapped),
+                            mesh_id_for(mapped, mesh_ids),
+                            debug,
+                            method,
+                            confidence,
+                        )
                     )
                 else:
                     unmatched_entities[("disease", raw)] = {
@@ -1023,7 +1079,14 @@ def mapping_stage_full_registry(
                 )
                 if mapped:
                     mapped_drugs.append(
-                        (raw, builder.clean_output_name(mapped), mesh_id_for(mapped, mesh_ids))
+                        (
+                            raw,
+                            builder.clean_output_name(mapped),
+                            mesh_id_for(mapped, mesh_ids),
+                            debug,
+                            method,
+                            confidence,
+                        )
                     )
                 else:
                     unmatched_entities[("drug", raw)] = {
@@ -1037,22 +1100,42 @@ def mapping_stage_full_registry(
             phases = trial.get("phases", [])
             if not isinstance(phases, list):
                 phases = [phases] if phases else []
-            for raw_condition, condition, condition_mesh_id in mapped_conditions:
-                for raw_drug, drug, drug_mesh_id in mapped_drugs:
+            for (
+                raw_condition,
+                condition,
+                condition_mesh_id,
+                condition_debug,
+                condition_method,
+                condition_confidence,
+            ) in mapped_conditions:
+                for (
+                    raw_drug,
+                    drug,
+                    drug_mesh_id,
+                    drug_debug,
+                    drug_method,
+                    drug_confidence,
+                ) in mapped_drugs:
                     matched_rows.append(
                         {
                             "condition": condition,
                             "intervention": drug,
                             "raw_condition": raw_condition,
                             "raw_intervention": raw_drug,
+                            "condition_cleaned_term": condition_debug.get("normalized", ""),
+                            "intervention_cleaned_term": drug_debug.get("normalized", ""),
                             "condition_mesh_id": condition_mesh_id,
                             "intervention_mesh_id": drug_mesh_id,
-                            "condition_mapping_method": "exact_match"
-                            if args.mesh_exact_only
-                            else "mapped",
-                            "intervention_mapping_method": "exact_match"
-                            if args.mesh_exact_only
-                            else "mapped",
+                            "condition_mapping_method": condition_method,
+                            "condition_mapping_confidence": condition_confidence,
+                            "condition_mapping_score": debug_score(condition_debug, condition_confidence),
+                            "condition_token_jaccard_score": debug_token_jaccard(condition_debug),
+                            "intervention_mapping_method": drug_method,
+                            "intervention_mapping_confidence": drug_confidence,
+                            "intervention_mapping_score": debug_score(drug_debug, drug_confidence),
+                            "intervention_token_jaccard_score": debug_token_jaccard(drug_debug),
+                            "condition_debug": json.dumps(condition_debug, ensure_ascii=False),
+                            "drug_debug": json.dumps(drug_debug, ensure_ascii=False),
                             "nct_id": trial.get("nctId", ""),
                             "phases": phases,
                             "status": trial.get("status", ""),
@@ -1098,48 +1181,27 @@ def mapping_stage_full_registry(
     return audit_df, matched_path, unmatched_path
 
 
-def graph_stage(matched_path: Path, graph_dir: Path, log_lines: List[str]) -> Tuple[pd.DataFrame, Path, Path]:
+def graph_stage(
+    matched_path: Path,
+    graph_dir: Path,
+    target_pairs: List[Tuple[str, str]],
+    args: argparse.Namespace,
+    log_lines: List[str],
+) -> Tuple[pd.DataFrame, Path, Path, Path]:
+    """Build the canonical leakage-controlled graph for every pipeline mode."""
     graph_dir.mkdir(parents=True, exist_ok=True)
-    known_path = graph_dir / "graph_features_known.csv"
-    unknown_path = graph_dir / "graph_features_unknown.csv"
-
-    builder = InterpretableGraphFeatureBuilder(
-        input_file=str(matched_path),
-        known_output=str(known_path),
-        unknown_output=str(unknown_path),
+    audit, known_path, unknown_path, weights_path = build_targeted_full_graph(
+        matched_path=matched_path,
+        graph_dir=graph_dir,
+        target_pairs=target_pairs,
+        random_seed=args.random_seed,
+        max_training_positives=args.max_graph_training_positives,
     )
-    cwd = Path.cwd()
-    try:
-        os.chdir(graph_dir.parent)
-        builder.build_bipartite_graph()
-        builder.compute_all_features()
-    finally:
-        os.chdir(cwd)
-
-    known_df = pd.read_csv(known_path) if known_path.exists() else pd.DataFrame()
-    unknown_df = pd.read_csv(unknown_path) if unknown_path.exists() else pd.DataFrame()
-    all_df = pd.concat([known_df, unknown_df], ignore_index=True)
-
-    audit_rows = [
-        {"metric": "known_pair_rows", "value": len(known_df)},
-        {"metric": "unknown_pair_rows", "value": len(unknown_df)},
-        {"metric": "feature_rows", "value": len(all_df)},
-        {"metric": "unique_drugs", "value": all_df["Drug"].nunique() if "Drug" in all_df else 0},
-        {"metric": "unique_diseases", "value": all_df["Disease"].nunique() if "Disease" in all_df else 0},
-    ]
-    for feature in [
-        "GraphDistanceToIndication",
-        "RandomWalkScore",
-        "StructuralLikelihood",
-        "PreferentialAttachment",
-        "KatzSimilarity",
-    ]:
-        if feature in all_df:
-            audit_rows.append({"metric": f"{feature}_mean", "value": all_df[feature].mean()})
-            audit_rows.append({"metric": f"{feature}_max", "value": all_df[feature].max()})
-
-    log_lines.append(f"Saved graph features to {rel(graph_dir)}")
-    return pd.DataFrame(audit_rows), known_path, unknown_path
+    log_lines.append(
+        f"Saved leakage-controlled graph features to {rel(graph_dir)}; "
+        f"target edges withheld and weights written to {rel(weights_path)}"
+    )
+    return audit, known_path, unknown_path, weights_path
 
 
 def literature_retrieval_audit(literature_dir: Path) -> pd.DataFrame:
@@ -1171,12 +1233,22 @@ def semantic_classification_audit(literature_dir: Path) -> pd.DataFrame:
             records = []
         counts = Counter(norm_entity(row.get("category")) for row in records)
         total = sum(counts.values())
+        benefit = counts.get("benefit", 0)
+        null_count = counts.get("null", 0)
+        harm = counts.get("harm", 0)
+        conflicting = counts.get("conflicting", 0)
+        therapeutic = benefit + counts.get("therapeutic", 0)
+        adverse = null_count + harm + conflicting + counts.get("adverse", 0)
         rows.append(
             {
                 "literature_file": rel(path),
                 "classified_total": total,
-                "therapeutic": counts.get("therapeutic", 0),
-                "adverse": counts.get("adverse", 0),
+                "benefit": benefit,
+                "null": null_count,
+                "harm": harm,
+                "conflicting": conflicting,
+                "therapeutic": therapeutic,
+                "adverse": adverse,
                 "irrelevant": counts.get("irrelevant", 0),
                 "irrelevant_noise_rate": counts.get("irrelevant", 0) / total if total else 0.0,
             }
@@ -1218,6 +1290,8 @@ def safety_overlap_audit(runs_dir: Path) -> pd.DataFrame:
                 "drug": record["drug"],
                 "disease": record["disease"],
                 "gamma_safety_overlap": components.get("gamma"),
+                "safety_data_status": components.get("safety_data_status", "UNKNOWN"),
+                "literature_data_status": components.get("literature_data_status", "UNKNOWN"),
                 "safety_overlap_term_count": len(matching_effects) if matching_effects else "",
                 "top_safety_overlap_terms": "; ".join(map(str, matching_effects[:10])),
                 "p_penalised": components.get("p_penalised"),
@@ -1376,7 +1450,8 @@ def run_bayesian_panel_stage(
         )
 
         counts = dict(prior_result.get("raw_counts", {}))
-        m_articles = int(prior_result.get("total_articles", 0))
+        articles_retrieved = int(prior_result.get("total_articles", 0))
+        m_articles = int(prior_result.get("evidence_units", articles_retrieved))
         p_raw = clamp01(prior_result.get("prior", 0.5))
         p_pen = clamp01(prior_result.get("penalised_prior", 0.5))
         p_final = clamp01(prior_result.get("enhanced_prior", 0.5))
@@ -1408,8 +1483,14 @@ def run_bayesian_panel_stage(
             "p_penalised": p_pen,
             "p_final": p_final,
             "gamma": gamma,
+            "safety_data_status": prior_result.get("safety_data_status", "UNKNOWN"),
+            "literature_data_status": prior_result.get("literature_data_status", "UNKNOWN"),
+            "literature_query": prior_result.get("literature_query", ""),
+            "classifier_schema_version": prior_result.get("classifier_schema_version", "unknown"),
             "counts": counts,
             "M": m_articles,
+            "articles_retrieved": articles_retrieved,
+            "evidence_units": m_articles,
             "records_retrieved": prior_result.get("records_retrieved", m_articles),
             "records_excluded_by_exact_verification": prior_result.get(
                 "records_excluded_by_exact_verification", 0
@@ -1463,6 +1544,8 @@ def run_bayesian_panel_stage(
                 "run_log": rel(run_path),
                 "articles_used": m_articles,
                 "gamma": gamma,
+                "safety_data_status": prior_result.get("safety_data_status", "UNKNOWN"),
+                "literature_data_status": prior_result.get("literature_data_status", "UNKNOWN"),
                 "posterior_mean": post_mean,
                 "status": "completed",
             }
@@ -1594,7 +1677,8 @@ def build_publication_ledger(
         has_mapping = bool(trial)
         has_graph = pd.notna(row.get("GraphDistanceToIndication")) or pd.notna(row.get("RandomWalkScore"))
         has_lit = float(row.get("records_retrieved", 0) or 0) > 0
-        has_safety = pd.notna(row.get("gamma_safety_overlap"))
+        safety_status = str(row.get("safety_data_status", "UNKNOWN") or "UNKNOWN").upper()
+        has_safety = pd.notna(row.get("gamma_safety_overlap")) and safety_status == "COMPLETE"
         has_bayes = pd.notna(row.get("posterior_mean"))
         tier = validation.get("coverage_tier") or rule_coverage_tier(
             has_mapping=has_mapping,
@@ -1718,6 +1802,7 @@ def build_publication_ledger(
                 "literature_completeness_score": lit_completeness,
                 # Safety
                 "safety_overlap_gamma": row.get("gamma_safety_overlap"),
+                "safety_data_status": safety_status,
                 "safety_penalty": safety_penalty,
                 # Graph
                 "graph_distance": row.get("GraphDistanceToIndication"),
@@ -2376,6 +2461,7 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
         "therapeutic_areas": parse_areas(args.therapeutic_areas),
         "full_registry": bool(args.full_registry),
         "full_registry_db": args.full_registry_db,
+        "resume_full_registry": bool(args.resume_full_registry),
         "apis_used": {
             "clinicaltrials_gov": bool(args.refresh_trials),
             "mesh_download": bool(args.download_mesh),
@@ -2403,6 +2489,7 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
         },
         "llm": {
             "model": args.llm_model,
+            "classifier_schema_version": "five-way-evidence-v1",
             "batch_size": args.llm_batch_size,
             "delay_s": args.llm_delay_s,
             "max_retries": args.llm_max_retries,
@@ -2424,6 +2511,7 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
         },
         "safety_penalty_settings": {
             "penalty_scale": 0.5,
+            "fda_report_limit": 50,
             "gamma_source": "openFDA FAERS + LLM semantic overlap",
         },
         "input_file_paths": {
@@ -2442,6 +2530,10 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
             "pandas": pd.__version__,
             "numpy": np.__version__,
             "requests": requests.__version__,
+            "networkx": _package_version("networkx"),
+            "scipy": _package_version("scipy"),
+            "scikit_learn": _package_version("scikit-learn"),
+            "xgboost": _package_version("xgboost"),
         },
         "notes": [
             "Evidence readiness scores measure evidence quality and audit readiness, not clinical efficacy.",
@@ -2463,7 +2555,10 @@ def write_config(args: argparse.Namespace, output_dir: Path, log_lines: List[str
     try:
         import importlib.metadata as _meta  # noqa: PLC0415
         snap_lines = []
-        for pkg in ["pandas", "numpy", "requests", "networkx", "scipy", "matplotlib", "openai"]:
+        for pkg in [
+            "pandas", "numpy", "requests", "networkx", "scipy", "scikit-learn",
+            "xgboost", "matplotlib", "openai",
+        ]:
             try:
                 snap_lines.append(f"{pkg}=={_meta.version(pkg)}")
             except Exception:
@@ -2494,6 +2589,12 @@ def build_parser() -> argparse.ArgumentParser:
         "--full_registry_db",
         default="",
         help="Optional completed/resumable full-registry SQLite snapshot.",
+    )
+    parser.add_argument(
+        "--resume_full_registry",
+        type=str_to_bool,
+        default=False,
+        help="Resume an incomplete full-registry SQLite download; default starts a fresh snapshot.",
     )
     parser.add_argument("--registry_export_chunk_size", type=int, default=10000)
     parser.add_argument("--therapeutic_areas", default=",".join(DEFAULT_AREAS))
@@ -2632,9 +2733,14 @@ def main() -> None:
                 f"Built scalable full-registry graph with target-edge withholding; weights={rel(weights_path)}"
             )
         else:
-            graph_audit, known_graph_path, unknown_graph_path = graph_stage(
-                matched_path, graph_dir, log_lines
+            target_pairs = [
+                (str(row["drug"]), str(row["disease"]))
+                for _, row in panel_df.iterrows()
+            ]
+            graph_audit, known_graph_path, unknown_graph_path, weights_path = graph_stage(
+                matched_path, graph_dir, target_pairs, args, log_lines
             )
+            args.graph_weights_path = rel(weights_path)
     else:
         graph_base = graph_dir if args.full_registry else PROJECT_ROOT / "graph"
         known_graph_path = graph_base / "graph_features_known.csv"

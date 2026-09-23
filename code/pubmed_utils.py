@@ -8,7 +8,8 @@ Key properties (aligned with your manuscript and the updated bayesian_predictor.
 - Uses stable article IDs in LLM prompting and outputs (no fuzzy title matching).
 - Supports configurable filtering levels and dynamic date windows.
 - Adds caching for PubMed search results to reduce repeated queries and improve reproducibility.
-- Returns raw_counts (T, A, N) and total_articles for downstream Beta prior scaling.
+- Returns five-way raw_counts (benefit, null, harm, conflicting, irrelevant),
+  compatibility totals, total_articles and deduplicated evidence_units.
 - Integrates side-effect penalty via SideEffectUpdater, and captures gamma when available.
 
 Fixes / Enhancements added in this version:
@@ -53,14 +54,12 @@ from side_effect_updater import SideEffectUpdater
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
-if not OPENAI_API_KEY:
-    raise RuntimeError("OPENAI_API_KEY is not set.")
 
 NCBI_API_KEY = os.getenv("NCBI_API_KEY", "").strip()  # optional but strongly recommended
 NCBI_EMAIL = os.getenv("NCBI_EMAIL", os.getenv("EMAIL", "oseifrancis633@gmail.com")).strip()
 
-client = OpenAI(api_key=OPENAI_API_KEY)
-updater = SideEffectUpdater(OPENAI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+updater = SideEffectUpdater(OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 
 # ---------------------------------------------------------------------
@@ -187,6 +186,10 @@ class DiseaseSynonymExpander:
         disease = (disease or "").strip()
         if not disease:
             return []
+        if client is None:
+            # Retrieval remains usable without an LLM key.  The original term
+            # is deterministic; synonym expansion is simply unavailable.
+            return [disease]
 
         cache_key = f"disease_synonyms::{self._norm(disease)}::k={int(self.cfg.max_synonyms)}::m={self.cfg.model}"
         cached = self.cache.get(cache_key)
@@ -262,6 +265,9 @@ class PubMedClient:
         self.pmcid_cache = JsonCache(cfg.cache_dir, cfg.pmcid_cache_file)
 
         self.syn_expander = DiseaseSynonymExpander(SynonymConfig(), self.syn_cache)
+        self.last_esearch_status = "NOT_REQUESTED"
+        self.last_efetch_status = "NOT_REQUESTED"
+        self.last_query = ""
 
     def _dynamic_date_filter(self) -> str:
         if int(self.cfg.years_back) <= 0:
@@ -367,6 +373,7 @@ class PubMedClient:
         if use_cache:
             cached = self.cache.get(cache_key)
             if isinstance(cached, list) and cached:
+                self.last_esearch_status = "COMPLETE"
                 return cached if unlimited else cached[:max_results]
 
         url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
@@ -387,6 +394,7 @@ class PubMedClient:
             data = r.json()
             total_count = int(data.get("esearchresult", {}).get("count", 0))
             if total_count <= 0:
+                self.last_esearch_status = "NO_RECORDS"
                 return []
 
             n = total_count if unlimited else min(total_count, max_results)
@@ -410,10 +418,12 @@ class PubMedClient:
             pmids = pmids[:n]
             if use_cache:
                 self.cache.set(cache_key, pmids)
+            self.last_esearch_status = "COMPLETE" if pmids else "NO_RECORDS"
             return pmids
 
         except Exception as e:
             print(f"[ERROR] PubMed esearch failed for query='{query[:120]}': {e}")
+            self.last_esearch_status = "API_ERROR"
             return []
 
     def efetch_abstracts(self, pmids: List[str]) -> List[Dict[str, Any]]:
@@ -433,11 +443,13 @@ class PubMedClient:
           }
         """
         if not pmids:
+            self.last_efetch_status = "NO_RECORDS"
             return []
 
         url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
         out: List[Dict[str, Any]] = []
         total = len(pmids)
+        batch_errors = 0
 
         for i in range(0, total, self.cfg.efetch_batch_size):
             batch = pmids[i : i + self.cfg.efetch_batch_size]
@@ -484,6 +496,17 @@ class PubMedClient:
                             abstract_parts.append(txt)
 
                     abstract = " ".join(abstract_parts).strip() if abstract_parts else ""
+                    publication_types = [
+                        "".join(node.itertext()).strip()
+                        for node in pubmed_article.findall(".//PublicationTypeList/PublicationType")
+                        if "".join(node.itertext()).strip()
+                    ]
+                    identifiers = {
+                        str(node.get("IdType", "")).lower(): (node.text or "").strip()
+                        for node in pubmed_article.findall(".//ArticleIdList/ArticleId")
+                        if node.text and node.text.strip()
+                    }
+                    journal = (pubmed_article.findtext(".//Journal/Title") or "").strip()
                     out.append(
                         {
                             "pmid": pmid,
@@ -493,6 +516,9 @@ class PubMedClient:
                             "introduction": "",   # will be augmented from PMC when possible
                             "conclusion": "",     # will be augmented from PMC when possible
                             "pmcid": None,
+                            "doi": identifiers.get("doi", ""),
+                            "publication_types": publication_types,
+                            "journal": journal,
                         }
                     )
 
@@ -500,6 +526,7 @@ class PubMedClient:
 
             except Exception as e:
                 print(f"[ERROR] PubMed efetch batch failed (batch {i//self.cfg.efetch_batch_size + 1}): {e}")
+                batch_errors += 1
                 time.sleep(self.cfg.efetch_sleep_s)
 
         # Stable integer IDs for LLM mapping
@@ -513,6 +540,12 @@ class PubMedClient:
             except Exception as e:
                 print(f"[WARN] PMC augmentation failed: {e}")
 
+        if batch_errors and out:
+            self.last_efetch_status = "PARTIAL_ERROR"
+        elif batch_errors:
+            self.last_efetch_status = "API_ERROR"
+        else:
+            self.last_efetch_status = "COMPLETE" if out else "NO_RECORDS"
         return out
 
     # -----------------------------
@@ -721,12 +754,20 @@ class LLMClassifier:
     """
     Builds a semantic prior for a drug-disease pair by:
       1) retrieving PubMed abstracts (augmented with intro/conclusion if PMC exists)
-      2) classifying each record as therapeutic/adverse/irrelevant
+      2) classifying each record as benefit/null/harm/conflicting/irrelevant
       3) computing raw and penalised priors from counts
       4) applying SideEffectUpdater to produce enhanced_prior (= p_final)
     """
 
-    VALID_CATEGORIES = {"therapeutic", "adverse", "irrelevant"}
+    VALID_CATEGORIES = {"benefit", "null", "harm", "conflicting", "irrelevant"}
+    CLASSIFIER_SCHEMA_VERSION = "five-way-evidence-v1"
+    CATEGORY_ALIASES = {
+        "therapeutic": "benefit",
+        "adverse": "conflicting",
+        "no_benefit": "null",
+        "null_or_no_benefit": "null",
+        "safety": "harm",
+    }
 
     def __init__(
         self,
@@ -753,9 +794,11 @@ class LLMClassifier:
 
     def _classify_batch(self, batch: List[Dict[str, Any]], drug: str, disease: str) -> List[Dict[str, Any]]:
         """
-        Classify a batch of records. Output must be a JSON list of:
-          { "id": <int>, "category": "therapeutic"|"adverse"|"irrelevant" }
+        Classify a batch of records using separate benefit, null, harm and
+        conflict dimensions. Output must be a JSON list of labelled records.
         """
+        if client is None:
+            raise RuntimeError("OPENAI_API_KEY is required for semantic classification.")
         payload = [
             {
                 "id": rec["id"],
@@ -777,9 +820,11 @@ Drug: {drug}
 Disease: {disease}
 
 Categories (mutually exclusive):
-- therapeutic: the supplied text reports evidence that the drug benefits, prevents, or treats the disease
-- adverse: the supplied text reports no benefit, a negative or conflicting efficacy result, worsening, toxicity, contraindication, or harm relevant to use for the disease
-- irrelevant: no meaningful therapeutic or adverse relationship is supported by the provided text
+- benefit: evidence of therapeutic benefit, prevention or treatment effect
+- null: evidence of no benefit or a null efficacy result, without a primary harm signal
+- harm: toxicity, contraindication or adverse safety outcome relevant to use
+- conflicting: mixed, contradictory or directionally unresolved efficacy evidence
+- irrelevant: no meaningful drug-disease evidence in the supplied text
 
 Classify the evidence reported by this record, not what is now known in hindsight.
 Protocol/design papers without results are irrelevant unless the text itself reports directional evidence.
@@ -790,7 +835,7 @@ You may use:
 
 Return ONLY valid JSON as a list. Each item must include:
 - "id": integer (must match an input id)
-- "category": one of ["therapeutic", "adverse", "irrelevant"]
+- "category": one of ["benefit", "null", "harm", "conflicting", "irrelevant"]
 
 Do not include any additional keys. Do not include any commentary.
 
@@ -835,6 +880,7 @@ Input records:
                     except Exception:
                         continue
                     cat = str(item["category"]).strip().lower()
+                    cat = self.CATEGORY_ALIASES.get(cat, cat)
                     if cat not in self.VALID_CATEGORIES:
                         continue
                     if rid in seen_ids:
@@ -878,6 +924,7 @@ Input records:
                         row = json.loads(line)
                         pmid = str(row.get("pmid", "")).strip()
                         category = str(row.get("category", "")).strip().lower()
+                        category = self.CATEGORY_ALIASES.get(category, category)
                         if pmid and category in self.VALID_CATEGORIES:
                             completed_by_pmid[pmid] = category
             except Exception as exc:
@@ -954,7 +1001,7 @@ Input records:
             raise RuntimeError(f"Only {len(output)}/{total} PubMed records were classified.")
         return output
 
-    def _neutral_result(self) -> Dict[str, Any]:
+    def _neutral_result(self, literature_data_status: str = "NOT_REQUESTED") -> Dict[str, Any]:
         """
         Consistent neutral fallback when no evidence is available.
         This avoids contradictory priors (e.g., prior=0.0 but enhanced_prior=0.5).
@@ -964,6 +1011,8 @@ Input records:
             "penalised_prior": 0.5,
             "enhanced_prior": 0.5,
             "gamma": None,
+            "safety_data_status": "NOT_REQUESTED",
+            "literature_data_status": literature_data_status,
             "raw_counts": Counter(),
             "labelled_abstracts": [],
             "total_articles": 0,
@@ -999,7 +1048,7 @@ Input records:
             "penalised_prior": penalised_prior,
             "enhanced_prior": enhanced_prior (= p_final),
             "gamma": gamma_or_None,
-            "raw_counts": Counter({"therapeutic": T, "adverse": A, "irrelevant": N}),
+            "raw_counts": Counter({"benefit": ..., "null": ..., "harm": ..., "conflicting": ..., "irrelevant": ...}),
             "labelled_abstracts": [{"id","pmid","Title","category"}],
             "total_articles": M
           }
@@ -1021,6 +1070,7 @@ Input records:
 
         # 2) Build query using OR across disease terms
         query = self.pubmed.build_query(drug=drug, disease_terms=disease_terms, filter_level=filter_level)
+        self.pubmed.last_query = query
 
         limit = int(max_articles) if max_articles is not None else int(self.search_cfg.max_results)
 
@@ -1034,11 +1084,11 @@ Input records:
         pmids = self.pubmed.esearch_pmids(query=query, max_results=limit, use_cache=use_cache)
         pmids = self._dedup_pmids_keep_order(pmids)
         if not pmids:
-            return self._neutral_result()
+            return self._neutral_result(self.pubmed.last_esearch_status)
 
         records = self.pubmed.efetch_abstracts(pmids)
         if not records:
-            return self._neutral_result()
+            return self._neutral_result(self.pubmed.last_efetch_status)
 
         records_retrieved = len(records)
         exact_excluded = 0
@@ -1057,7 +1107,7 @@ Input records:
                 f"{records_retrieved} records"
             )
         if not records:
-            return self._neutral_result()
+            return self._neutral_result(self.pubmed.last_efetch_status)
 
         os.makedirs(save_dir, exist_ok=True)
         safe_drug = re.sub(r"[^a-z0-9]+", "_", drug.casefold()).strip("_")
@@ -1089,11 +1139,14 @@ Input records:
                     "abstract": rec.get("abstract", ""),
                     "introduction": rec.get("introduction", ""),
                     "conclusion": rec.get("conclusion", ""),
+                    "doi": rec.get("doi", ""),
+                    "publication_types": rec.get("publication_types", []),
+                    "journal": rec.get("journal", ""),
                 }
             )
 
         if not labelled_records:
-            return self._neutral_result()
+            return self._neutral_result("CLASSIFICATION_ERROR")
 
         # Save for auditability
         os.makedirs(save_dir, exist_ok=True)
@@ -1111,8 +1164,23 @@ Input records:
         # Compute counts and priors
         counts = Counter(x["category"] for x in labelled_records)
         total = int(sum(counts.values()))
-        T = int(counts.get("therapeutic", 0))
-        A = int(counts.get("adverse", 0))
+        evidence_keys = {
+            str(x.get("doi") or "").strip().casefold()
+            or re.sub(r"[^a-z0-9]+", " ", str(x.get("Title") or "").casefold()).strip()
+            for x in labelled_records
+        }
+        evidence_keys.discard("")
+        evidence_units = len(evidence_keys) if evidence_keys else total
+        T = int(counts.get("benefit", 0))
+        null_count = int(counts.get("null", 0))
+        harm_count = int(counts.get("harm", 0))
+        conflicting_count = int(counts.get("conflicting", 0))
+        A = null_count + harm_count + conflicting_count
+        counts["therapeutic"] = T
+        counts["adverse"] = A
+        counts["null_count"] = null_count
+        counts["harm_count"] = harm_count
+        counts["conflicting_count"] = conflicting_count
 
         raw_prior = (T / total) if total else 0.5
         penalised_prior = max((T - 2 * A) / total, 0.0) if total else 0.5
@@ -1126,14 +1194,26 @@ Input records:
         side_effect_update: Dict[str, Any] = {}
 
         try:
-            upd = updater.update_prior(drug, disease, penalised_prior)
+            if updater is None:
+                side_effect_update = {
+                    "p_final": penalised_prior,
+                    "gamma": None,
+                    "relation": None,
+                    "matching_effects": [],
+                    "safety_data_status": "API_KEY_MISSING",
+                }
+            else:
+                upd = updater.update_prior(drug, disease, penalised_prior)
 
             # Supported return styles:
             # - dict {"p_final": float, "gamma": float, ...}  [current SideEffectUpdater]
             # - dict {"enhanced_prior": float, "gamma": float, ...} [legacy]
             # - tuple (enhanced_prior, gamma)
             # - float enhanced_prior
-            if isinstance(upd, dict):
+            if isinstance(side_effect_update, dict) and side_effect_update:
+                enhanced_prior = float(side_effect_update.get("p_final", penalised_prior))
+                gamma = None
+            elif isinstance(upd, dict):
                 side_effect_update = dict(upd)
                 enhanced_prior = float(upd.get("p_final", upd.get("enhanced_prior", penalised_prior)))
                 g = upd.get("gamma", None)
@@ -1161,6 +1241,10 @@ Input records:
             "side_effect_update": side_effect_update,
             "matching_effects": side_effect_update.get("matching_effects", []),
             "safety_relation": side_effect_update.get("relation", None),
+            "safety_data_status": side_effect_update.get("safety_data_status", "UNKNOWN"),
+            "literature_data_status": self.pubmed.last_efetch_status,
+            "literature_query": self.pubmed.last_query,
+            "classifier_schema_version": self.CLASSIFIER_SCHEMA_VERSION,
             "safety_penalty_scale": side_effect_update.get("penalty_scale", None),
             "raw_counts": counts,
             "labelled_abstracts": [
@@ -1170,10 +1254,14 @@ Input records:
                     "pmid": x["pmid"],
                     "pmcid": x.get("pmcid", None),
                     "id": x["id"],
+                    "doi": x.get("doi", ""),
+                    "publication_types": x.get("publication_types", []),
+                    "journal": x.get("journal", ""),
                 }
                 for x in labelled_records
             ],
             "total_articles": total,
+            "evidence_units": evidence_units,
             "records_retrieved": records_retrieved,
             "records_excluded_by_exact_verification": exact_excluded,
         }

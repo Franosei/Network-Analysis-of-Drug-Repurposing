@@ -18,6 +18,13 @@ class ConditionDrugPairBuilder:
       - matching uses exact -> fuzzy -> token-guided scoring
     """
 
+    CLINICAL_MODIFIER_RE = re.compile(
+        r"\b(stage\s*(?:[0-9]+|[ivx]+)|advanced|metastatic|recurrent|relapsed|"
+        r"resistant|refractory|unresectable|chronic|acute|severe|mild|moderate|"
+        r"progressive|localized|locally advanced|disseminated|positive|negative)\b",
+        flags=re.IGNORECASE,
+    )
+
     def __init__(
         self,
         input_dir: str = "data",
@@ -113,8 +120,8 @@ class ConditionDrugPairBuilder:
     # ------------------------------------------------------------------
     @staticmethod
     def _strip_brackets(text: str) -> str:
-        # Remove bracketed qualifiers: (...) and [...]
-        return re.sub(r"\s*[\[(].*?[\])]\s*", " ", text)
+        # Keep bracket contents. They can contain phenotype or stage context.
+        return re.sub(r"[\[\](){}]", " ", text)
 
     @staticmethod
     def _basic_cleanup(text: str) -> str:
@@ -129,34 +136,14 @@ class ConditionDrugPairBuilder:
     @staticmethod
     def _drop_common_qualifiers(text: str) -> str:
         """
-        Remove generic qualifiers frequently attached to biomedical entities
-        that degrade ontology matching but usually do not define the core entity.
+        Deprecated compatibility hook.
+
+        The matcher now preserves clinical modifiers.  This method remains
+        only for callers of the old API and performs whitespace normalisation
+        without deleting information.
         """
-        # staging / grading patterns (generic roman/arabic)
-        text = re.sub(r"\b(stage|grade)\s*(?:[0-9]+|[ivx]+)\b", " ", text)
+        return re.sub(r"\s+", " ", str(text or "")).strip()
 
-        # common clinical qualifiers (generic list; not disease/drug specific)
-        text = re.sub(
-            r"\b(advanced|metastatic|recurrent|relapsed|resistant|refractory|"
-            r"unresectable|chronic|acute|severe|mild|moderate|progressive|"
-            r"localized|locally advanced|disseminated)\b",
-            " ",
-            text,
-        )
-
-        # remove common study-context tokens
-        text = re.sub(
-            r"\b(randomized|open label|double blind|single blind|placebo controlled|"
-            r"controlled|pilot|feasibility|observational)\b",
-            " ",
-            text,
-        )
-
-        # remove measurement-like tokens and symbols often appended
-        text = re.sub(r"\b(positive|negative)\b", " ", text)
-        text = re.sub(r"\b\d+(\.\d+)?\s*(mg|g|mcg|µg|ug|ml|l|iu|%)\b", " ", text)
-
-        return re.sub(r"\s+", " ", text).strip()
 
     @staticmethod
     def _normalize_numbers(text: str) -> str:
@@ -189,7 +176,8 @@ class ConditionDrugPairBuilder:
 
         t = self._strip_brackets(text)
         t = self._basic_cleanup(t)
-        t = self._drop_common_qualifiers(t)
+        # Clinically meaningful modifiers are deliberately retained. The raw
+        # term and this normalised term are both carried into provenance.
         t = self._normalize_numbers(t)
         t = self._remove_punctuation(t)
 
@@ -212,7 +200,9 @@ class ConditionDrugPairBuilder:
             if not item:
                 continue
 
-            parts = re.split(r"\s*(?:,|;|\+|/|\band\b)\s*", str(item))
+            # The API already supplies list elements. Do not split punctuation,
+            # conjunctions or slashes because they can be part of one entity.
+            parts = [str(item)]
             for part in parts:
                 part = part.strip()
                 if not part:
@@ -267,9 +257,20 @@ class ConditionDrugPairBuilder:
         if not norm:
             return None, {"method": "empty", "normalized": norm}
 
+        provenance = {
+            "raw_term": str(raw_term),
+            "normalized": norm,
+            "removed_modifiers": [],
+            "preserved_clinical_modifiers": sorted(
+                {m.casefold() for m in self.CLINICAL_MODIFIER_RE.findall(str(raw_term))}
+            ),
+            "ambiguity_flag": False,
+        }
+
         # 1) Exact
         if norm in mesh_map:
             return mesh_map[norm], {
+                **provenance,
                 "method": "exact",
                 "normalized": norm,
                 "matched_key": norm,
@@ -286,6 +287,7 @@ class ConditionDrugPairBuilder:
             seq_ratio = self._seq_ratio(norm, close[0])
             token_jaccard = self._jaccard(norm_tokens, close_tokens)
             return mesh_map[close[0]], {
+                **provenance,
                 "method": "fuzzy",
                 "normalized": norm,
                 "matched_key": close[0],
@@ -297,7 +299,7 @@ class ConditionDrugPairBuilder:
         # 3) Token-guided candidate narrowing + scoring
         toks = self._tokenize(norm)
         if not toks:
-            return None, {"method": "no_tokens", "normalized": norm}
+            return None, {**provenance, "method": "no_tokens"}
 
         candidates: List[str] = []
         seen = set()
@@ -308,12 +310,13 @@ class ConditionDrugPairBuilder:
                     seen.add(cand)
 
         if not candidates:
-            return None, {"method": "no_candidates", "normalized": norm}
+            return None, {**provenance, "method": "no_candidates"}
 
         best_key = None
         best_score = 0.0
         best_jaccard = 0.0
         best_ratio = 0.0
+        tied_candidates: List[str] = []
 
         for cand in candidates:
             cand_toks = self._tokenize(cand)
@@ -329,18 +332,24 @@ class ConditionDrugPairBuilder:
                 best_key = cand
                 best_jaccard = j
                 best_ratio = r
+                tied_candidates = [cand]
+            elif best_key and abs(score - best_score) <= 1e-9:
+                tied_candidates.append(cand)
 
         if best_key:
             return mesh_map[best_key], {
+                **provenance,
                 "method": "token_score",
                 "normalized": norm,
                 "matched_key": best_key,
                 "score": round(best_score, 4),
                 "sequence_ratio": round(best_ratio, 4),
                 "token_jaccard_score": round(best_jaccard, 4),
+                "ambiguity_flag": len(tied_candidates) > 1,
+                "candidate_count": len(candidates),
             }
 
-        return None, {"method": "token_score_failed", "normalized": norm}
+        return None, {**provenance, "method": "token_score_failed"}
 
     # ------------------------------------------------------------------
     # Core extraction
@@ -408,6 +417,10 @@ class ConditionDrugPairBuilder:
                         rows.append({
                             "condition": self.clean_output_name(cond_match),
                             "intervention": self.clean_output_name(drug_match),
+                            "raw_condition": cond,
+                            "raw_intervention": drug,
+                            "condition_mapping": cond_dbg,
+                            "intervention_mapping": drug_dbg,
                             "phases": phases,
                             "status": status,
                         })

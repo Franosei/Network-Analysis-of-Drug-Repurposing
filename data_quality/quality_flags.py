@@ -63,8 +63,14 @@ def quality_flag(
     safety_gamma: Optional[float],
     structural_score: Optional[float],
     credible_interval_width: Optional[float],
+    safety_data_status: Optional[str] = None,
 ) -> str:
-    gamma = 0.5 if safety_gamma is None else safety_gamma
+    status = str(safety_data_status or "").upper()
+    if safety_gamma is None or status in {
+        "API_ERROR", "LLM_ERROR", "NO_DRUG_TERM", "API_KEY_MISSING", "UNKNOWN"
+    }:
+        return "Safety data missing"
+    gamma = safety_gamma
     uncertainty_width = 1.0 if credible_interval_width is None else credible_interval_width
     structural = 0.0 if structural_score is None else structural_score
 

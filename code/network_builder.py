@@ -1,9 +1,15 @@
-import os
+"""Legacy dense graph builder.
+
+This module is retained for historical comparison only.  It materialises
+observed and unobserved pairs together and can therefore leak the target edge
+into features.  Publication runs use :mod:`scalable_graph_builder` instead.
+"""
+
 import json
+import os
 import networkx as nx
 import pandas as pd
-import numpy as np
-from scipy.sparse import csr_matrix, identity
+from scipy.sparse import identity
 from scipy.sparse.linalg import inv
 
 
@@ -67,13 +73,10 @@ class InterpretableGraphFeatureBuilder:
 
     def compute_katz_similarity_matrix(self, alpha=0.005):
         nodes = list(self.graph.nodes())
-        node_index = {n: i for i, n in enumerate(nodes)}
-        index_node = {i: n for n, i in node_index.items()}
-
         A = nx.to_scipy_sparse_array(self.graph, nodelist=nodes, format='csr')
-        I = identity(A.shape[0], format='csr')
+        identity_matrix = identity(A.shape[0], format='csr')
         try:
-            K = inv(I - alpha * A) - I
+            K = inv(identity_matrix - alpha * A) - identity_matrix
             K = K.toarray()
         except Exception as e:
             print(f"⚠️ Katz matrix computation failed: {e}")

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "status": "awaiting_clean_rerun",
+  "required_artifacts": [
+    "run_config.json",
+    "logs/requirements_snapshot.txt",
+    "01_clinical_trial_extraction_audit.csv",
+    "02_terminology_mapping_audit.csv",
+    "03_graph_construction_audit.csv",
+    "graph/updated_graph_weights.json",
+    "graph/graph_features_known.csv",
+    "graph/graph_features_unknown.csv",
+    "04_literature_retrieval_audit.csv",
+    "05_semantic_classification_audit.csv",
+    "06_safety_overlap_audit.csv",
+    "07_bayesian_uncertainty_audit.csv",
+    "ledgers/full_evidence_quality_ledger.csv",
+    "validation_report.json"
+  ],
+  "checksums": {},
+  "note": "Populate checksums only after a fresh run passes validation with the current controls."
+}

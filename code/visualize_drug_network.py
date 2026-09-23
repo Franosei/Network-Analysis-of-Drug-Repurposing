@@ -99,8 +99,6 @@ class DrugDiseaseGraphVisualizer:
         pos = layout_fn(self.G, seed=42)
 
         drug_nodes = [n for n, d in self.G.nodes(data=True) if d["type"] == "drug"]
-        disease_nodes = [n for n, d in self.G.nodes(data=True) if d["type"] == "disease"]
-
         node_colors = ['#1f78b4' if n in drug_nodes else '#e31a1c' for n in self.G.nodes()]
         node_sizes = [250 for _ in self.G.nodes()]
 

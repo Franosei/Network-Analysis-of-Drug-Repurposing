@@ -19,7 +19,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import average_precision_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
@@ -137,6 +137,11 @@ def _fit_weights(
 ) -> tuple[dict[str, Any], pd.DataFrame]:
     rng = random.Random(random_seed)
     eligible_edges = sorted(edges - target_pairs)
+    if len(eligible_edges) < 10:
+        raise ValueError(
+            "At least ten non-target observed edges are required for a stable "
+            "held-out graph-weight fit; provide a larger registry snapshot."
+        )
     rng.shuffle(eligible_edges)
     holdout_count = min(max_training_positives, max(1, int(0.20 * len(eligible_edges))))
     positive_examples = eligible_edges[:holdout_count]
@@ -145,17 +150,25 @@ def _fit_weights(
 
     drugs = sorted(drug_to_diseases)
     diseases = sorted(disease_to_drugs)
-    negative_examples = _sample_non_edges(
+    if not drugs or not diseases:
+        raise ValueError("The withheld training graph has no drug or disease nodes.")
+    unlabelled_examples = _sample_non_edges(
         drugs, diseases, edges, len(positive_examples), rng
     )
 
     rows = []
-    for label, pairs in ((1, positive_examples), (0, negative_examples)):
+    for label, pairs in ((1, positive_examples), (0, unlabelled_examples)):
         for drug, disease in pairs:
             features = _pair_features(
                 drug, disease, drug_to_diseases, disease_to_drugs
             )
-            rows.append({"Drug": drug, "Disease": disease, "Label": label, **features})
+            rows.append({
+                "Drug": drug,
+                "Disease": disease,
+                "Label": label,
+                "LabelSemantics": "observed_edge" if label else "unlabelled_non_edge",
+                **features,
+            })
     dataset = pd.DataFrame(rows)
     x = dataset[FEATURE_NAMES].astype(float)
     y = dataset["Label"].astype(int)
@@ -177,6 +190,12 @@ def _fit_weights(
     model.fit(x_train_scaled, y_train)
     probability = model.predict_proba(x_test_scaled)[:, 1]
     auc = float(roc_auc_score(y_test, probability))
+    average_precision = float(average_precision_score(y_test, probability))
+    order = np.argsort(-probability)
+    k = max(1, int((y_test == 1).sum()))
+    top_k = y_test.to_numpy()[order[:k]]
+    precision_at_k = float(top_k.mean()) if len(top_k) else 0.0
+    recall_at_k = float(top_k.sum() / max(1, int((y_test == 1).sum())))
 
     coef_scaled = model.coef_[0]
     coef_raw = coef_scaled / scaler.scale_
@@ -185,13 +204,19 @@ def _fit_weights(
     )
     weights = {name: float(value) for name, value in zip(FEATURE_NAMES, coef_raw)}
     payload = {
-        "method": "balanced logistic regression on deterministic 20% held-out registered edges and equal sampled non-edges",
+        "method": "balanced logistic regression on held-out registered edges and sampled unlabelled non-edges",
         "leakage_control": "held-out positive edges are absent from the graph used to compute their features; requested target pairs are excluded from fitting",
         "random_seed": random_seed,
         "base_graph_edges": len(base_edges),
         "training_positive_examples": len(positive_examples),
-        "training_negative_examples": len(negative_examples),
+        "training_unlabelled_examples": len(unlabelled_examples),
         "test_roc_auc": auc,
+        "test_average_precision": average_precision,
+        "test_precision_at_k": precision_at_k,
+        "test_recall_at_k": recall_at_k,
+        "test_k": k,
+        "negative_sampling_semantics": "positive-unlabelled sensitivity analysis; sampled non-edges are not factual negatives",
+        "evaluation_task": "transductive edge reconstruction, not clinical efficacy prediction",
         "feature_names": FEATURE_NAMES,
         "scaled_coefficients": {
             name: float(value) for name, value in zip(FEATURE_NAMES, coef_scaled)
@@ -298,9 +323,11 @@ def build_targeted_full_graph(
             {"metric": "unique_drugs", "value": len(drug_to_diseases)},
             {"metric": "unique_diseases", "value": len(disease_to_drugs)},
             {"metric": "weight_training_roc_auc", "value": weights_payload["test_roc_auc"]},
+            {"metric": "weight_training_average_precision", "value": weights_payload["test_average_precision"]},
+            {"metric": "weight_training_precision_at_k", "value": weights_payload["test_precision_at_k"]},
+            {"metric": "weight_training_recall_at_k", "value": weights_payload["test_recall_at_k"]},
             {"metric": "target_pairs_scored", "value": len(targets)},
             {"metric": "target_edges_withheld", "value": len(edges.intersection(targets))},
         ]
     )
     return audit, known_path, unknown_path, weights_path
-

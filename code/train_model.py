@@ -1,5 +1,11 @@
+"""Legacy graph-weight experiments.
+
+The publication pipeline does not call this module.  Its historical
+known/unknown split is not a positive-unlabelled evaluation and should not be
+used to report publication metrics; use ``scalable_graph_builder.py``.
+"""
+
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression, RidgeClassifier

@@ -9,7 +9,7 @@ Bayesian drug repurposing predictor that integrates:
 
 Key fixes vs. your previous version:
 - Aligns with updated pubmed_utils.py API (search_cfg/llm_cfg; max_articles; filter_level; use_cache).
-- Uses evidence-scaled prior concentration c(M) based on total_articles (M), not a hard-coded 100.
+- Uses evidence-scaled prior concentration c(M) based on deduplicated evidence_units (M), not a hard-coded 100.
 - Uses a bounded mapping (sigmoid) to convert graph feature score to probability before Beta construction.
 - Uses one consistent likelihood_strength in compute + plotting (no 50/100 mismatch).
 - Propagates and prints gamma (side-effect overlap confidence) and M (articles used).
@@ -26,7 +26,8 @@ Assumptions:
       "gamma": float|None,
       "raw_counts": Counter,
       "labelled_abstracts": list,
-      "total_articles": int
+      "total_articles": int,
+      "evidence_units": int
     }
 - side_effect_updater.update_prior returns dict with keys including "p_final" and "gamma"
   (already handled inside pubmed_utils.py).
@@ -266,7 +267,10 @@ class BayesianRepurposingPredictor:
         except Exception:
             counts = {}
 
-        M = int(prior_result.get("total_articles", 0))
+        # Concentration is based on deduplicated evidence units, not raw
+        # publication count, so repeated reports of one study do not create
+        # artificial certainty.
+        M = int(prior_result.get("evidence_units", prior_result.get("total_articles", 0)))
 
         # Evidence-scaled concentration for the prior
         cM = concentration_c(M, cmax=self.cfg.cmax, tau=self.cfg.tau)
@@ -286,13 +290,18 @@ class BayesianRepurposingPredictor:
         post_mean = post_a / (post_a + post_b)
 
         return {
+            "posterior_index_label": "Evidence Posterior Index",
+            "interval_type": "pseudo-Beta uncertainty interval",
             # priors
             "p_raw": p_raw,
             "p_penalised": p_pen,
             "p_final": p_final,
             "gamma": gamma,
+            "safety_data_status": prior_result.get("safety_data_status", "UNKNOWN"),
             "counts": counts,
             "M": M,
+            "articles_retrieved": int(prior_result.get("total_articles", 0)),
+            "evidence_units": M,
             "cM": cM,
             "prior_a": prior_a,
             "prior_b": prior_b,

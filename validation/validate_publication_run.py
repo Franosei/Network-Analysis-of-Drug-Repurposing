@@ -158,7 +158,7 @@ def check_ledger(output_dir: Path, c: Check) -> pd.DataFrame:
         "drug_mapping_score", "disease_mapping_score",
         "trial_count", "articles_retrieved",
         "therapeutic_count", "adverse_count", "irrelevant_count",
-        "safety_overlap_gamma", "posterior_mean",
+        "safety_overlap_gamma", "safety_data_status", "literature_data_status", "posterior_mean",
         "credible_interval_width", "kl_divergence",
         "evidence_readiness_score", "quality_flag", "coverage_tier",
     }
@@ -203,6 +203,32 @@ def check_ledger(output_dir: Path, c: Check) -> pd.DataFrame:
     return ledger
 
 
+def check_graph_leakage_controls(output_dir: Path, c: Check) -> None:
+    graph_dir = output_dir / "graph"
+    known = graph_dir / "graph_features_known.csv"
+    weights = graph_dir / "updated_graph_weights.json"
+    if not known.exists() or not weights.exists():
+        c.warn("graph_leakage_controls", "Graph feature or weight artifact is missing.")
+        return
+    known_df = pd.read_csv(known)
+    if "TargetEdgeWithheld" not in known_df.columns:
+        c.fail("graph_leakage_controls", "Graph features do not record target-edge withholding.")
+        return
+    withheld = known_df["TargetEdgeWithheld"].map(
+        lambda value: str(value).strip().casefold() in {"true", "1", "yes"}
+    )
+    if not bool(withheld.all()):
+        c.fail("graph_leakage_controls", "Known graph rows are not marked as target-edge withheld.")
+    else:
+        c.ok("graph_leakage_controls", "Target edges are marked withheld before feature calculation.")
+    payload = json.loads(weights.read_text(encoding="utf-8"))
+    semantics = str(payload.get("negative_sampling_semantics", ""))
+    if "unlabelled" not in semantics.lower():
+        c.fail("positive_unlabelled_semantics", "Graph weight metadata does not identify sampled non-edges as unlabelled.")
+    else:
+        c.ok("positive_unlabelled_semantics", "Sampled non-edges are documented as unlabelled.")
+
+
 def check_panel_coverage(ledger: pd.DataFrame, panel_csv: Optional[Path], c: Check) -> None:
     if panel_csv is None or not panel_csv.exists():
         c.warn("panel_coverage", "No case-study panel CSV provided; skipping panel checks.")
@@ -224,9 +250,10 @@ def check_panel_coverage(ledger: pd.DataFrame, panel_csv: Optional[Path], c: Che
         if pd.isna(lr.get("posterior_mean")):
             no_bayes.append(f"{row['drug']} / {row['disease']}")
         art = pd.to_numeric(lr.get("articles_retrieved", 0), errors="coerce")
-        if pd.isna(art) or float(art) == 0:
+        lit_status = str(lr.get("literature_data_status", "UNKNOWN") or "UNKNOWN").upper()
+        if pd.isna(art) or float(art) == 0 or lit_status not in {"COMPLETE", "UNKNOWN"}:
             no_lit.append(f"{row['drug']} / {row['disease']}")
-        if pd.isna(lr.get("safety_overlap_gamma")):
+        if pd.isna(lr.get("safety_overlap_gamma")) or str(lr.get("safety_data_status", "")).upper() != "COMPLETE":
             no_safety.append(f"{row['drug']} / {row['disease']}")
         if pd.isna(lr.get("credible_interval_width")):
             no_uncertainty.append(f"{row['drug']} / {row['disease']}")
@@ -333,6 +360,7 @@ def validate_run(
     check_run_config(output_dir, c)
     check_run_log(output_dir, c)
     ledger = check_ledger(output_dir, c)
+    check_graph_leakage_controls(output_dir, c)
     check_panel_coverage(ledger, panel_csv, c)
     check_manuscript_tables(output_dir, c)
     check_manuscript_figures(output_dir, c)
