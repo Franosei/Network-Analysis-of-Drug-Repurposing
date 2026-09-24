@@ -2111,10 +2111,11 @@ def generate_manuscript_figures(
         generate_all_figures(
             ledger_path=ledger_path,
             audit_dir=audit_dir,
-            runs_dir=PROJECT_ROOT / "runs",
+            runs_dir=(output_dir / "runs") if (output_dir / "runs").exists() else (PROJECT_ROOT / "runs"),
             output_dir=figures_dir,
             supp_dir=supp_figs_dir,
             panel_csv=panel_csv,
+            column_dir=PROJECT_ROOT / "column figure",
         )
         n_main = len(list(figures_dir.glob("Figure*.png")))
         n_supp = len(list(supp_figs_dir.glob("SuppFig*.png")))
